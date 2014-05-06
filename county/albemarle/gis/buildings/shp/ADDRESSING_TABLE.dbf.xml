@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>County of Albemarle</origin>
+				<pubdate>Unknown</pubdate>
+				<title>ADDRESSING_TABLE</title>
+				<geoform Sync="TRUE">tabular digital data</geoform>
+				<pubinfo>
+					<pubplace>Charlottesville, VA</pubplace>
+					<publish>County of Albemarle - Office of Geographic Data Services</publish>
+				</pubinfo>
+				<onlink Sync="TRUE">\\cob_planning\Mapping\MAPPING\Planimetrics\ADDRESSING_TABLE.dbf</onlink>
+				<ftname Sync="TRUE">ADDRESSING_TABLE</ftname></citeinfo>
+		</citation>
+		<descript>
+			<purpose>It is possible for a one to many relationship to exist between the GPIN values of the building polygon layer and the address_point layer and GPIN values of the ADDRESSING table. The ADDRESSING table should be used to identify particular buildings (or address_points) for which multiple addresses exist (e.g. apartment complexes, shopping malls, etc.).  To access the information in the ADDRESSING table, the GPIN field in the buildings (or address points) can be used to link to the GPIN field in the ADDRESSING table.  The address fields in the buildings (or address_points) layer may only reflect the first address for a particular building (or address_point).  Use the ADDRESSING table to determine if more addresses exist for any given building (or address_point).</purpose>
+			<langdata Sync="TRUE">en</langdata><abstract>This file represents Albemarle County's main ADDRESSING repository.  This file is continually updated on a daily basis by County staff from the Office of Geographic Data Services (GDS).  Information contained in this table includes the GPIN value of building addresses as well as point addresses (for things like cell towers, pump stations, phone booths, etc.) and address information like house number, unit, and street name.
+
+Any errors or omissions should be reported to GDS for correction.</abstract></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>unknown</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Continually</update>
+		</status>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Planimetrics</themekey>
+				<themekey>Addressing</themekey><themekey>Street Names</themekey><themekey>House Numbers</themekey><themekey>Units</themekey></theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Albemarle County</placekey>
+				<placekey>County of Albemarle</placekey>
+			</place>
+		</keywords>
+		<useconst>No warranty, expressed or implied, is made by GDS as to the accuracy of the data</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>County of Albemarle/Office of Geographic Data Services</cntorg>
+					<cntper>Damon Pettitt</cntper>
+				</cntorgp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>401 McIntire Rd</address>
+					<city>Charlottesville</city>
+					<state>VA</state>
+					<postal>22902-4569</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>434-296-5823</cntvoice>
+				<cntfax>434-296-4012</cntfax>
+				<cntemail>dpettitt@albemarle.org</cntemail>
+				<hours>8:00 A.M. - 5:00 P.M.</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+		<natvform Sync="TRUE">dBASE Table</natvform></idinfo>
+	<dataqual>
+		<logic>This dataset should not contain any logical inconsistencies pertaining to topology.</logic>
+		<complete>Base data was derived from ...</complete>
+		<lineage><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\Cob_planning\Mapping\OOMGAIR\Planimetrics\ADDRESSING_TABLE</srcused><procdate Sync="TRUE">20130317</procdate><proctime Sync="TRUE">01292700</proctime></procstep></lineage></dataqual>
+	<eainfo>
+		<detailed Name="ADDRESSING_TABLE">
+			<attr><attrlabl Sync="TRUE">GPIN</attrlabl><attalias Sync="TRUE">GPIN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><attrdef>12 digit identifier that uniquely identifies a polygon in the Buildings layer</attrdef></attr><attr><attrlabl Sync="TRUE">ZIP</attrlabl><attalias Sync="TRUE">ZIP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef>Zip code of building</attrdef></attr><enttyp>
+				<enttypl Sync="TRUE">ADDRESSING_TABLE</enttypl>
+				<enttypt Sync="TRUE">Table</enttypt><enttypc Sync="TRUE">41467</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">STREET</attrlabl><attalias Sync="TRUE">STREET</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>Street Name not including prefixes and suffixes</attrdef></attr><attr><attrlabl Sync="TRUE">PIN</attrlabl><attalias Sync="TRUE">PIN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">14</attwidth><attrdef>14 digit parcel identification number</attrdef></attr><attr><attrlabl Sync="TRUE">HOUSENO</attrlabl><attalias Sync="TRUE">HOUSENO</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef>Street address house number</attrdef></attr><attr><attrlabl Sync="TRUE">CITY</attrlabl><attalias Sync="TRUE">CITY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth><attrdef>City of building</attrdef></attr><attr><attrlabl Sync="TRUE">OID</attrlabl><attalias Sync="TRUE">OID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">UNIT</attrlabl><attalias Sync="TRUE">UNIT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef>Street address house unit</attrdef></attr><attr><attrlabl Sync="TRUE">PERMIT</attrlabl><attalias Sync="TRUE">PERMIT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">17</attwidth><attrdef>Building Permit Number (if applicable) for a given address</attrdef></attr><attr><attrlabl Sync="TRUE">CREATED</attrlabl><attalias Sync="TRUE">CREATED</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth></attr><attr><attrlabl Sync="TRUE">CAMA_CARD</attrlabl><attalias Sync="TRUE">CAMA_CARD</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth></attr><attr><attrlabl Sync="TRUE">ADDR_ID</attrlabl><attalias Sync="TRUE">ADDR_ID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef>Unique ID for each address record</attrdef></attr></detailed>
+		<detailed Name="albemarle.ALBEMARLE.ADDRPTS_2_ADDRESSING"><enttyp><enttypl Sync="TRUE">albemarle.ALBEMARLE.ADDRPTS_2_ADDRESSING</enttypl><enttypt Sync="TRUE">Relationship</enttypt><enttypc Sync="TRUE">139</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Entity</attrlabl><attalias Sync="TRUE">Entity</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">Layer</attrlabl><attalias Sync="TRUE">Layer</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">14</attwidth></attr><attr><attrlabl Sync="TRUE">Level</attrlabl><attalias Sync="TRUE">Level</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl Sync="TRUE">Color</attrlabl><attalias Sync="TRUE">Color</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr><attr><attrlabl Sync="TRUE">Linetype</attrlabl><attalias Sync="TRUE">Linetype</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr><attr><attrlabl Sync="TRUE">Text</attrlabl><attalias Sync="TRUE">Text</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth></attr></detailed><detailed Name="albemarle.ALBEMARLE.BLDG_GPIN2ADDRESSING"><enttyp><enttypl Sync="TRUE">albemarle.ALBEMARLE.BLDG_GPIN2ADDRESSING</enttypl><enttypt Sync="TRUE">Relationship</enttypt><enttypc Sync="TRUE">139</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Entity</attrlabl><attalias Sync="TRUE">Entity</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">Layer</attrlabl><attalias Sync="TRUE">Layer</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">14</attwidth></attr><attr><attrlabl Sync="TRUE">Level</attrlabl><attalias Sync="TRUE">Level</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl Sync="TRUE">Color</attrlabl><attalias Sync="TRUE">Color</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr><attr><attrlabl Sync="TRUE">Linetype</attrlabl><attalias Sync="TRUE">Linetype</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr><attr><attrlabl Sync="TRUE">Text</attrlabl><attalias Sync="TRUE">Text</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth></attr></detailed><detailed Name="Annotation"><enttyp><enttypl Sync="TRUE">Annotation</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">139</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Entity</attrlabl><attalias Sync="TRUE">Entity</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">Layer</attrlabl><attalias Sync="TRUE">Layer</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">14</attwidth></attr><attr><attrlabl Sync="TRUE">Level</attrlabl><attalias Sync="TRUE">Level</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl Sync="TRUE">Color</attrlabl><attalias Sync="TRUE">Color</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr><attr><attrlabl Sync="TRUE">Style</attrlabl><attalias Sync="TRUE">Style</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr><attr><attrlabl Sync="TRUE">FontId</attrlabl><attalias Sync="TRUE">FontId</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth></attr><attr><attrlabl Sync="TRUE">Text</attrlabl><attalias Sync="TRUE">Text</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">17</attwidth></attr><attr><attrlabl Sync="TRUE">Height</attrlabl><attalias Sync="TRUE">Height</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth></attr><attr><attrlabl Sync="TRUE">Angle</attrlabl><attalias Sync="TRUE">Angle</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth></attr></detailed></eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Damon Pettitt</cntper>
+					<cntorg>County of Albemarle/Department of Planning and Community Development/Office of Geographic Data Services</cntorg>
+				</cntperp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>401 McIntire Rd</address>
+					<city>Charlottesville</city>
+					<state>VA</state>
+					<postal>22902-4569</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>434-296-5823</cntvoice>
+				<cntfax>434-296-4012</cntfax>
+				<cntemail>dpettitt@albemarle.org</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>The information depicted in this GIS layer is the result of analyses performed on a variety of sources.  The accuracy of the information presented is limited to the collective accuracy of the sources on the date of the analysis.  The information is believed accurate and reasonable efforts have been made to ensure the accuracy of the data.  However, the County of Albemarle expressly disclaims responsibility for damages or liability that may arise from use of this data.  This product is the property of the County of Albemarle and its use is thereby restricted.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">5.932</transize>
+					<dssize Sync="TRUE">5.932</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>Not Available</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>N/A</fees>
+			<ordering>N/A</ordering>
+			<turnarnd>N/A</turnarnd>
+		</stdorder>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20130321</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>County of Albemarle/Department of Planning and Community Development/Office of Geographic Data Services</cntorg>
+					<cntper>Damon Pettitt</cntper>
+				</cntorgp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>401 McIntire Rd</address>
+					<city>Charlottesville</city>
+					<state>VA</state>
+					<postal>22902-4596</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>434-296-5823</cntvoice>
+				<cntfax>434-296-4012</cntfax>
+				<cntemail>dpettitt@albemarle.org</cntemail>
+				<hours>8:00 A.M. - 5:00 P.M.</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20130317</CreaDate><CreaTime>01292700</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20130321</SyncDate><SyncTime>12324200</SyncTime><ModDate>20130321</ModDate><ModTime>12330500</ModTime><DataProperties><lineage/></DataProperties><MetaID>{C2C3E163-1234-430F-BC81-53C7EA801CD0}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">ADDRESSING_TABLE</resTitle><presForm><PresFormCd Sync="TRUE" value="011"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">11372113.474</westBL><eastBL Sync="TRUE">11570840.41</eastBL><northBL Sync="TRUE">3995704.522</northBL><southBL Sync="TRUE">3788352.11</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-78.886043</westBL><eastBL Sync="TRUE">-78.193669</eastBL><northBL Sync="TRUE">38.296636</northBL><southBL Sync="TRUE">37.726629</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\cob_planning\Mapping\MAPPING\Planimetrics\ADDRESSING_TABLE.dbf</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">5.932</transSize></distorTran><distorFormat><formatName Sync="TRUE">dBASE Table</formatName></distorFormat></distributor></distInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="albemarle.ALBEMARLE.Road_Centerlines"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">8616</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20130321</mdDateSt><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_Virginia_South_FIPS_4502_Feet</identCode></refSysID></RefSystem></refSysInfo></metadata>
