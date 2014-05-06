@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>County of Albemarle</origin>
+				<pubdate>Unknown</pubdate>
+				<title Sync="TRUE">Watersheds</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Charlottesville, VA</pubplace>
+					<publish>County of Albemarle - Office of Geographic Data Services</publish>
+				</pubinfo>
+				<onlink Sync="TRUE">\\cob_planning\Mapping\MAPPING\Water\Watersheds\shape\Watersheds.shp</onlink>
+				<ftname Sync="TRUE">Watersheds</ftname></citeinfo>
+		</citation>
+		<descript>
+			<purpose>This shapefile was created from existing USGS and County maps for the purpose of eliminating multiple watershed shapefiles having divergent or redundant boundaries.  This shapefile shall serve as the basis for the administration of the County's Comprehensive Plan and ordinances related to land use and natural resources.</purpose>
+			<langdata Sync="TRUE">en</langdata><abstract>This shapefile is the master watershed file for Albemarle County.  It contains the most recent and most accurate boundary delineations.  Watersheds of various scale are named and numbered based on USGS hydrologic unit code (HUC) nomenclature.
+ 
+The watershed boundaries are derived from USGS and historic local delineations and were refined using 3D, Y2000 10 foot contours.</abstract></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20050301</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-78.840162</westbc>
+				<eastbc Sync="TRUE">-78.208812</eastbc>
+				<northbc Sync="TRUE">38.278015</northbc>
+				<southbc Sync="TRUE">37.722269</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">11385258.073777</leftbc><rightbc Sync="TRUE">11566514.998618</rightbc><bottombc Sync="TRUE">3786714.348015</bottombc><topbc Sync="TRUE">3988922.790059</topbc></lboundng><minalti Sync="TRUE">0.000000</minalti><maxalti Sync="TRUE">0.000000</maxalti></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Watersheds</themekey><themekey>Basins</themekey></theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Albemarle County</placekey>
+				<placekey>County of Albemarle</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>No warranty, expressed or implied, is made by GDS as to the accuracy of the data</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>County of Albemarle/Office of Geographic Data Services</cntorg>
+					<cntper>Damon Pettitt</cntper>
+				</cntorgp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>401 McIntire Rd</address>
+					<city>Charlottesville</city>
+					<state>VA</state>
+					<postal>22902-4569</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>434-296-5823</cntvoice>
+				<cntfax>434-296-4012</cntfax>
+				<cntemail>dpettitt@albemarle.org</cntemail>
+				<hours>8:00 A.M. - 5:00 P.M.</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<logic>This dataset should not contain any logical inconsistencies pertaining to topology.</logic>
+		<complete>Base data was derived from ...</complete>
+		<posacc>
+			<horizpa>
+				<qhorizpa>
+					<horizpav>0</horizpav>
+					<horizpae>Not Available</horizpae></qhorizpa>
+				<horizpar>Not Available</horizpar></horizpa>
+			<vertacc>
+				<vertaccr>Not Available</vertaccr>
+				<qvertpa>
+					<vertaccv>0</vertaccv>
+					<vertacce>Not Available</vertacce>
+				</qvertpa>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<procstep>
+				<srcused>C:\Documents and Settings\dpettitt\Desktop\METADATA_TEST\template_Y2000_orthobased.xml</srcused>
+				<procdate>Unknown</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\GIS-PLOTS-ETC\Grants\CAP_Metadata2002\metadata_templates\template_Y2000_orthobased.xml</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\GIS-PLOTS-ETC\Grants\CAP_Metadata2002\metadata_templates\ortho2000_template.xml</srcused>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\GIS-PLOTS-ETC\Grants\CAP_Metadata2002\metadata_templates\ortho2000_template_400scale.xml</srcused><date Sync="TRUE">20040322</date><time Sync="TRUE">07541600</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\GIS-PLOTS-ETC\Grants\CAP_Metadata2002\metadata_templates\contact_template.xml</srcused><date Sync="TRUE">20050301</date><time Sync="TRUE">12571400</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Q:\Water\Watersheds\shape\Watersheds</srcused><date Sync="TRUE">20050327</date><time Sync="TRUE">15172900</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">R:\Users\Greg_Harper\Watershed adjustment\Watersheds</srcused><date Sync="TRUE">20050401</date><time Sync="TRUE">17545800</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Q:\Water\Watersheds\shape\Watersheds</srcused><date Sync="TRUE">20050420</date><time Sync="TRUE">18183900</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">R:\Users\Greg_Harper\Watershed adjustment\Watersheds_greg</srcused><date Sync="TRUE">20050422</date><time Sync="TRUE">12163100</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20050422</date><time Sync="TRUE">15510200</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">d:\working\watershed fixing\Watersheds</srcused><date Sync="TRUE">20050422</date><time Sync="TRUE">16382100</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Q:\MAPPING\Water\Watersheds\shape\Watersheds</srcused><date Sync="TRUE">20050505</date><time Sync="TRUE">09482400</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="Watersheds">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">48</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="Watersheds"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">48</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><esriterm Name="Polyline"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">139</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="Polyline"><sdtstype Sync="TRUE">String</sdtstype><ptvctcnt Sync="TRUE">139</ptvctcnt></sdtsterm><esriterm Name="Polygon"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">139</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="Polygon"><sdtstype Sync="TRUE">G-polygon</sdtstype><ptvctcnt Sync="TRUE">139</ptvctcnt></sdtsterm><esriterm Name="Annotation"><efeatyp Sync="TRUE"></efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">139</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="Annotation"><sdtstype Sync="TRUE">Entity point</sdtstype><ptvctcnt Sync="TRUE">139</ptvctcnt></sdtsterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">36.766667</stdparll><stdparll Sync="TRUE">37.966667</stdparll><longcm Sync="TRUE">-78.500000</longcm><latprjo Sync="TRUE">36.333333</latprjo><feast Sync="TRUE">11482916.666667</feast><fnorth Sync="TRUE">3280833.333333</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Virginia_South_FIPS_4502_Feet</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="Watersheds">
+			<enttyp>
+				<enttypl Sync="TRUE">Watersheds</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">48</enttypc></enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr>
+			<attr><attrlabl Sync="TRUE">SUB_REGION</attrlabl><attalias Sync="TRUE">SUB_REGION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><attrdef>Sub-Region name according to the Federal Hydrologic Unit System</attrdef></attr><attr><attrlabl Sync="TRUE">BASIN</attrlabl><attalias Sync="TRUE">BASIN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><attrdef>Basin name according to the Federal Hydrologic Unit System</attrdef></attr><attr><attrlabl Sync="TRUE">SUB_BASIN</attrlabl><attalias Sync="TRUE">SUB_BASIN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><attrdef>Sub-Basin name according to the Federal Hydrologic Unit System</attrdef></attr><attr><attrlabl Sync="TRUE">WATERSHED</attrlabl><attalias Sync="TRUE">WATERSHED</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>Watershed name according to the Federal Hydrologic Unit System</attrdef></attr><attr><attrlabl Sync="TRUE">CODE_12_DS</attrlabl><attalias Sync="TRUE">CODE_12_DS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr><attr><attrlabl Sync="TRUE">SUB_WTRSHD</attrlabl><attalias Sync="TRUE">SUB_WTRSHD</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>Sub-Watershed name according to the Federal Hydrologic Unit System</attrdef></attr><attr><attrlabl Sync="TRUE">CODE_4</attrlabl><attalias Sync="TRUE">CODE_4</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Hydrologic Unit 4-digit code</attrdef></attr><attr><attrlabl Sync="TRUE">CODE_6</attrlabl><attalias Sync="TRUE">CODE_6</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><attrdef>Hydrologic Unit 6-digit code</attrdef></attr><attr><attrlabl Sync="TRUE">CODE_8</attrlabl><attalias Sync="TRUE">CODE_8</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><attrdef>Hydrologic Unit 8-digit code</attrdef></attr><attr><attrlabl Sync="TRUE">SQ_FT</attrlabl><attalias Sync="TRUE">SQ_FT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>Area in square feet</attrdef><attrdefs>Calculated in ArcMap</attrdefs></attr><attr><attrlabl Sync="TRUE">ACRES</attrlabl><attalias Sync="TRUE">ACRES</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Calculated in ArcMap</attrdefs><attrdef>Area in acres</attrdef></attr><attr><attrlabl Sync="TRUE">VAHU6</attrlabl><attalias Sync="TRUE">VAHU6</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl Sync="TRUE">HECTARES</attrlabl><attalias Sync="TRUE">HECTARES</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Calculated in ArcMap</attrdefs><attrdef>Area in hectares</attrdef></attr><attr><attrlabl Sync="TRUE">PERIM_FT</attrlabl><attalias Sync="TRUE">PERIM_FT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdefs>Calculated in ArcMap</attrdefs><attrdef>Perimeter in feet</attrdef></attr><attr><attrlabl Sync="TRUE">WTR_SUPPLY</attrlabl><attalias Sync="TRUE">WTR_SUPPLY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><attrdef>Whether the watershed is part of the water supply</attrdef><attrdefs>Albemarle County Environmental Team</attrdefs></attr><attr><attrlabl Sync="TRUE">CODE_12</attrlabl><attalias Sync="TRUE">CODE_12</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr><attr><attrlabl Sync="TRUE">CODE_10</attrlabl><attalias Sync="TRUE">CODE_10</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl Sync="TRUE">LOCAL_NAME</attrlabl><attalias Sync="TRUE">LOCAL_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr></detailed>
+		<detailed Name="Polyline"><enttyp><enttypl Sync="TRUE">Polyline</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">139</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Entity</attrlabl><attalias Sync="TRUE">Entity</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth></attr><attr><attrlabl Sync="TRUE">Layer</attrlabl><attalias Sync="TRUE">Layer</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth></attr><attr><attrlabl Sync="TRUE">Level</attrlabl><attalias Sync="TRUE">Level</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth></attr><attr><attrlabl Sync="TRUE">Color</attrlabl><attalias Sync="TRUE">Color</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">Linetype</attrlabl><attalias Sync="TRUE">Linetype</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr><attr><attrlabl Sync="TRUE">Text</attrlabl><attalias Sync="TRUE">Text</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">5</atnumdec></attr><attr><atnumdec Sync="TRUE">5</atnumdec></attr><attr/><attr><atnumdec Sync="TRUE">5</atnumdec></attr><attr><atnumdec/></attr></detailed><detailed Name="Polygon"><enttyp><enttypl Sync="TRUE">Polygon</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">139</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Entity</attrlabl><attalias Sync="TRUE">Entity</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth></attr><attr><attrlabl Sync="TRUE">Layer</attrlabl><attalias Sync="TRUE">Layer</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth></attr><attr><attrlabl Sync="TRUE">Level</attrlabl><attalias Sync="TRUE">Level</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth></attr><attr><attrlabl Sync="TRUE">Color</attrlabl><attalias Sync="TRUE">Color</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">Linetype</attrlabl><attalias Sync="TRUE">Linetype</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr><attr><attrlabl Sync="TRUE">Text</attrlabl><attalias Sync="TRUE">Text</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr/><attr/><attr/><attr><atnumdec Sync="TRUE">5</atnumdec></attr><attr><atnumdec Sync="TRUE">5</atnumdec></attr><attr/><attr><atnumdec Sync="TRUE">5</atnumdec></attr><attr><atnumdec/></attr></detailed><detailed Name="Annotation"><enttyp><enttypl Sync="TRUE">Annotation</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">139</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Entity</attrlabl><attalias Sync="TRUE">Entity</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth></attr><attr><attrlabl Sync="TRUE">Layer</attrlabl><attalias Sync="TRUE">Layer</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth></attr><attr><attrlabl Sync="TRUE">Level</attrlabl><attalias Sync="TRUE">Level</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth></attr><attr><attrlabl Sync="TRUE">Color</attrlabl><attalias Sync="TRUE">Color</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">Style</attrlabl><attalias Sync="TRUE">Style</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr><attr><attrlabl Sync="TRUE">FontId</attrlabl><attalias Sync="TRUE">FontId</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">Text</attrlabl><attalias Sync="TRUE">Text</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl Sync="TRUE">Height</attrlabl><attalias Sync="TRUE">Height</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth></attr><attr><attrlabl Sync="TRUE">Angle</attrlabl><attalias Sync="TRUE">Angle</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth></attr><attr><atnumdec Sync="TRUE">5</atnumdec></attr><attr><atnumdec Sync="TRUE">5</atnumdec></attr><attr/><attr><atnumdec Sync="TRUE">5</atnumdec></attr><attr><atnumdec Sync="TRUE">5</atnumdec></attr><attr/><attr/><attr/></detailed></eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Damon Pettitt</cntper>
+					<cntorg>County of Albemarle/Department of Planning and Community Development/Office of Geographic Data Services</cntorg>
+				</cntperp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>401 McIntire Rd</address>
+					<city>Charlottesville</city>
+					<state>VA</state>
+					<postal>22902-4569</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>434-296-5823</cntvoice>
+				<cntfax>434-296-4012</cntfax>
+				<cntemail>dpettitt@albemarle.org</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>The information depicted in this GIS layer is the result of analyses performed on a variety of sources.  The accuracy of the information presented is limited to the collective accuracy of the sources on the date of the analysis.  The information is believed accurate and reasonable efforts have been made to ensure the accuracy of the data.  However, the County of Albemarle expressly disclaims responsibility for damages or liability that may arise from use of this data.  This product is the property of the County of Albemarle and its use is thereby restricted.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">0.515</transize>
+					<dssize Sync="TRUE">0.515</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>Not Available</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>$25.00 per distributable dataset, not to exceed $250.00 for a particular dataset</fees>
+			<ordering>Submit request in writing (e-mail acceptable) stating who you are, what organization you are with (if applicable), what you will be using the data for, and agreeing to not resell the data to anyone.</ordering>
+			<turnarnd>2 weeks</turnarnd>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20101206</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>County of Albemarle/Department of Planning and Community Development/Office of Geographic Data Services</cntorg>
+					<cntper>Damon Pettitt</cntper>
+				</cntorgp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>401 McIntire Rd</address>
+					<city>Charlottesville</city>
+					<state>VA</state>
+					<postal>22902-4596</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>434-296-5823</cntvoice>
+				<cntfax>434-296-4012</cntfax>
+				<cntemail>dpettitt@albemarle.org</cntemail>
+				<hours>8:00 A.M. - 5:00 P.M.</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20050505</CreaDate><CreaTime>09482400</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20101206</SyncDate><SyncTime>16194100</SyncTime><ModDate>20101206</ModDate><ModTime>16194100</ModTime><MetaID>{1FADE8CB-C01F-487A-9939-D92C47DFA765}</MetaID><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20081216" Time="175943">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20081220" Time="034255">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090120" Time="033605">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090220" Time="033622">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090220" Time="080932">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090220" Time="084929">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090320" Time="033628">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090331" Time="090627">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090408" Time="154826">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090420" Time="034242">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090420" Time="080737">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090520" Time="033943">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090620" Time="034001">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090720" Time="033936">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090820" Time="033945">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20090920" Time="034014">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20091020" Time="033935">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20091120" Time="034049">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20091220" Time="034052">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20100120" Time="033949">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20100220" Time="033934">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20100320" Time="033955">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20100420" Time="033916">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20100520" Time="033952">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20100620" Time="033930">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20100720" Time="033932">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20100820" Time="033935">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20100920" Time="033903">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20101020" Time="033857">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20101120" Time="034047">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20101220" Time="033858">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20110104" Time="033851">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20110120" Time="033934">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20110220" Time="033924">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20110320" Time="033949">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20110420" Time="033949">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20110520" Time="033948">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20110620" Time="033922">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20110720" Time="034000">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20110820" Time="034035">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20110920" Time="034020">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20111020" Time="034012">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20111120" Time="033936">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20111220" Time="033935">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20120120" Time="034011">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20120220" Time="033937">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20120224" Time="150110">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20120320" Time="034013">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20120420" Time="034031">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20120520" Time="034020">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20120620" Time="034136">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20120720" Time="033946">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20120820" Time="033939">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20120920" Time="034020">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20121020" Time="034204">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20121120" Time="034025">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20121220" Time="034023">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20130120" Time="034120">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20130220" Time="034023">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20130320" Time="034024">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20130420" Time="034031">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20130520" Time="034041">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20130620" Time="034028">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectLayerByAttribute" Date="20130720" Time="034052">SelectLayerByAttribute WS_Watershed NEW_SELECTION ""WTR_SUPPLY" = 'Y'" WS_Watershed</Process></lineage></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">Watersheds</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">11385258.073777</westBL><eastBL Sync="TRUE">11566514.998618</eastBL><northBL Sync="TRUE">3988922.790059</northBL><southBL Sync="TRUE">3786714.348015</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-78.840162</westBL><eastBL Sync="TRUE">-78.208812</eastBL><northBL Sync="TRUE">38.278015</northBL><southBL Sync="TRUE">37.722269</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\cob_planning\Mapping\MAPPING\Water\Watersheds\shape\Watersheds.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.515</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="Watersheds"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">48</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20101206</mdDateSt><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_Virginia_South_FIPS_4502_Feet</identCode></refSysID></RefSystem></refSysInfo></metadata>
