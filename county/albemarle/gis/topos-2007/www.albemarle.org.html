@@ -1,0 +1,1361 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Albemarle County, Virginia - Official Web Site</title>
+<script language="JavaScript" type="text/javascript" src="/upload/images/scripts/ajax-update-area.js"></script>
+<SCRIPT language="JavaScript" type="text/javascript">
+<!--
+function showDeptandSvcsList(txtTab) {
+  updateArea( 'deptsvclist.asp?txtTab=' + txtTab, 'deptsvclist');
+}
+function showMostRqstList(txtTab) {
+  updateArea( 'most_rqstd_list.asp?txtTab=' + txtTab, 'mostrequested');
+}
+
+var secs
+var timerID = null
+var timerRunning = true
+var delay = 750
+var oReq = false
+
+function InitializeTimer()
+{
+    // Set the length of the timer, in seconds
+    secs = 7
+    StopTheClock()
+    StartTheTimer()
+}
+
+function StopTheClock()
+{
+    if(timerRunning)
+        clearTimeout(timerID)
+     timerRunning = false;
+}
+
+function playpauseshow()
+{
+    if(timerRunning) {
+    //alert('stoptheclock');
+        StopTheClock();
+  } else {
+    //alert('StartTheTimer');
+    StartTheTimer();
+  }
+}
+
+function StartTheTimer()
+{
+
+    if (secs==0)
+    {
+        StopTheClock()
+        // Update all 4 panels
+
+    updatePanels(0)
+    InitializeTimer()
+    }
+    else
+    {
+        //self.status = secs
+        secs = secs - 1
+        timerRunning = true
+        timerID = self.setTimeout("StartTheTimer()", delay)
+    }
+}
+
+function updatePanels(nBannerID) {
+
+var currentBanner;
+
+if (nBannerID == 0) {
+  if (document.getElementById('nBannerID').value == '') {
+    currentBanner = 1;
+  }
+  else
+  {
+    currentBanner = document.getElementById('nBannerID').value;
+  }
+}
+else
+{
+ currentBanner = nBannerID;
+}
+
+updateArea( 'headerbanner.asp?nBannerID=' + currentBanner, 'AssignedPanelTD');
+}
+
+
+function initView()
+{
+updatePanels(1)
+InitializeTimer()
+
+}
+//-->
+</SCRIPT>
+
+<script language="JavaScript" type="text/javascript" src="/upload/images/scripts/fontsize.js"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+document.write('<link href="/upload/images/css/style-'+fontsize+'.css" rel="stylesheet" type="text/css" />');
+document.write('<link href="/upload/images/css/csshorizontalmenu-'+fontsize+'.css" rel="stylesheet" type="text/css" />');
+document.write('<link href="/upload/images/css/cssverticalmenu-'+fontsize+'.css" rel="stylesheet" type="text/css" />');
+document.write('<link media="print" href="/upload/images/css/print.css" rel="stylesheet" type="text/css" />');
+//-->
+</script>
+
+
+
+<script language="JavaScript" type="text/javascript" src="/upload/images/scripts/csshorizontalmenu.js"></script>
+<meta name="gmapkey" content="ABQIAAAAFobPuavD7axrFg065lqwCxQZQ6nFR9dMIWooacRtKKex4UP6ohTf4nIi4YjmKEMIEob2wwfBpF8KcQ" />
+<!--script language="JavaScript" src="/upload/images/scripts/gmapez-2.js"
+      type="text/javascript"></script-->
+
+<!-- ABQIAAAAOxBj_T6ix3tOp4UXowuNmBQShA9qfPFuQ6o-HONrRZsCks1PpRQbi0XUvm1qLdlMZ8joQEKbXfsgKw
+This is the new key for google maps tied to www.albemarle.org with my gmail address, eppack This will need to go back to the one above at some point
+-->
+</head>
+
+<body>
+
+
+<table width="1075" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><!--include header.asp" -->
+<div id="header">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="6" bgcolor="#6D4D27"><img src="/upload/images/nav_images/brown.jpg" width="10" height="6" /></td>
+  </tr>
+  <tr>
+    <td background="/upload/images/nav_images/watermark-30.jpg" height="115">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="715" height="115" align="left"><a href="http://www.albemarle.org/"><img src="/upload/images/nav_images/logo.jpg" width="439" height="76"  border="0" alt="Link to Official Website of the County of Albemarle" /></a></td>
+          <td>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="42" align="center">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="left"><a href="http://www.albemarle.org/" class="topnavtext"><b>Home</b></a></td>
+                      <td width="22" class="topnavtext">|</td>
+                      <td align="left"><a href="page.asp?info=demog" class="topnavtext">About the County</a></td>
+                      <td width="22" class="topnavtext">|</td>
+                      <td align="left"><a href="contacts.asp?info=contacts" class="topnavtext">Contact</a></td>
+                      <td width="22" class="topnavtext">|</td>
+                      <td align="left"><a href="page.asp?info=rss" class="topnavtext">RSS</a></td>
+                      <td width="22" class="topnavtext">|</td>
+                      <td align="left"><a href="https://ia.albemarle.org" class="topnavtext">Employee Login</a></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td>
+<!-- // THIS INCLUDE IS INSERTED INTO THE bannerhead include (banner.asp), and the bannerhead of the Albemarle.org homepage -->
+<!-- Google CSE Search Box Begins -->
+<form action="searchresults.asp" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="013641561590022973988:axaajbwnmv0" />
+    <input type="hidden" name="cof" value="FORID:10" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <table width="150" border="0" cellpadding="3" cellspacing="0">
+      <tr> 
+        <td nowrap="nowrap" valign="bottom">
+          <input type="text" name="q" size="31" />
+        </td>
+      <td>
+	  <input type="image" src="/upload/images/nav_images/go-btn.jpg" name="sa" value="Search" />
+      </td>
+    </tr>
+  </table>
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
+<!-- Google CSE Search Box Ends --> 
+                      </td>
+                      <td align="center" width="50"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</div>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#FFFFFF">
+<div id="mainnav">
+<table width="1053" border="0" align="center" cellpadding="0" cellspacing="0" background="/upload/images/nav_images/mainnav-background.jpg">
+  <tr>
+    <td>
+    <div class="horizontalcssmenu">
+      <ul id="cssmenu1" >
+        <li><a href="navpages.asp?info=residents">Residents <img src="/upload/images/nav_images/whitearrow.gif" align="absmiddle" border="0" /></a></li>
+        <li><img src="/upload/images/nav_images/menuline.jpg" width="5" height="25" /></li>
+        <li><a href="navpages.asp?info=business">Businesses <img src="/upload/images/nav_images/whitearrow.gif" align="absmiddle" border="0" /></a></li>
+        <li><img src="/upload/images/nav_images/menuline.jpg" width="5" height="25" /></li>
+        <li><a href="navpages.asp?info=visitors">Visitors <img src="/upload/images/nav_images/whitearrow.gif" align="absmiddle" border="0" /></a></li>
+        <li><img src="/upload/images/nav_images/menuline.jpg" width="5" height="25" /></li>
+        <li><a href="navpages.asp?info=iwantto">I Want To ... <img src="/upload/images/nav_images/whitearrow.gif" align="absmiddle" border="0" /></a>
+          <ul>
+            <li>
+<table width="75%"  border="0"  cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top"><br><!--!h3>I Want To...</h3-->
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="50%" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+  <td align="left" valign="top"><a href="department.asp?department=finance&relpage=3273">Apply for a Business License</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="https://albemarleva.cloud.talentedk12.com/hire/index.aspx">Apply for a Job</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=purchasing">Bid For County Contract</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="https://www.albemarle.org/policeonlinereporting/">File a Police Report Online</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=parks&relpage=2207">Find a Park Near Me</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="/department.asp?department=fd">Find out about County Construction Projects</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="deptforms.asp?department=bifi">Get a Building Permit</a></td>
+</tr>
+            </table>
+          </td>
+          <td width="50%" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+  <td align="left" valign="top"><a href="department.asp?department=budget">Learn About the County Budget</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="/department.asp?department=fire&relpage=11823">Obtain a Free Smoke Detector</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=finance&relpage=15853">Pay My Taxes</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=registrar&relpage=2934">Register to Vote</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="agenda.asp?department=bos&year=2012">See the Board of Supervisors Agenda</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="page.asp?info=amail">Sign up for A-mail</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="navpages.asp?info=iwantto">Click here for more >></a></td>
+</tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+            </li>
+          </ul>
+        </li>
+
+        <li><img src="/upload/images/nav_images/menuline.jpg" width="5" height="25" /></li>
+        <li><a href="navpages.asp?info=onlineservices">Online Services <img src="/upload/images/nav_images/whitearrow.gif" align="absmiddle" border="0" /></a>
+          <ul>
+            <li>
+<table width="75%"  border="0"  cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top"><br><!--h3>Online Services</h3-->
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="50%" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+  <td align="left" valign="top"><a href="/agenda.asp?department=bos&year=2013">Agendas (Board & Planning Commission)</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="page.asp?info=amail">A-mail, Sign up for E-news</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="/weblink8">Archived County Documents</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="/podcasts.asp?department=bos">Board Podcasts</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="/codeenforcementcomplaints/">Code Enforcement Complaint Form</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="/department.asp?department=bos&relpage=13620">Listen to BOS Meetings LIVE</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=cdd&relpage=12406">County Road Name Index</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="/department.asp?department=cdd&relpage=2769">County View Application Tracking</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="http://www.dss.virginia.gov/benefit/food.html">Food Stamps Online</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="mailto:bos@albemarle.org?subject=Question from Web Page">E-mail the Board of Supervisors</a></td>
+</tr>
+            </table>
+          </td>
+          <td width="50%" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+  <td align="left" valign="top"><a href="https://activenet022.active.com/albemarlecountyrec/">Register for Parks & Rec Classes</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="https://albemarleva.cloud.talentedk12.com/hire/index.aspx">Jobs</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="http://gisweb.albemarle.org">GIS-Web</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="http://cotthosting.com/VAAlbemarleExternal">Land Record Management System</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=finance&relpage=15853">Online Tax Payments</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="policeonlinereporting/">Police Online Reporting</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="http://gisweb.albemarle.org">Real Estate Assessment Records</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=gs&relpage=2489">Scheduled Meeting Lookup</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=cdd&relpage=2778">Zoning Notices Search</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="navpages.asp?info=onlineservices">Click here for more >></a></td>
+</tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+            </li>
+          </ul>
+        </li>
+
+        <li><img src="/upload/images/nav_images/menuline.jpg" width="5" height="25" /></li>
+        <li><a href="deptservices.asp">Departments &amp; Services <img src="/upload/images/nav_images/whitearrow.gif" align="absmiddle" border="0" /></a>
+          <ul class="deptservicesmenu">
+            <li>
+<table width="75%"  border="0"  cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="49%" valign="top"><h3>Departments</h3>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="50%" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+  <td align="left"><a href="department.asp?department=bos" class="newstext">Board of Supervisors</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=circuitcourt" class="newstext">Circuit Court Clerk's Office</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=comatty" class="newstext">Commonwealth Attorney</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=cdd" class="newstext">Community Development</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=assessor" class="newstext">County Assessor</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=ctyatty" class="newstext">County Attorney</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=ctyexec" class="newstext">County Executive</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=ecc" class="newstext">Emergency Communications Center</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=envmgt" class="newstext">Environmental Management</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=finance" class="newstext">Finance Department</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=fire" class="newstext">Fire & Rescue</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=gs" class="newstext">General Services</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=gds" class="newstext">Geographic Data Services</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=housing" class="newstext">Housing</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=hr" class="newstext">Human Resources</a></td>
+</tr>
+            </table>
+          </td>
+          <td width="50%" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+  <td align="left"><a href="department.asp?department=it" class="newstext">Information Technology</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=budget" class="newstext">Management & Budget</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=fd" class="newstext">Office of Facilities Development</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=parks" class="newstext">Parks and Recreation</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=perfmgt" class="newstext">Performance Management</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=police" class="newstext">Police</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=purchasing" class="newstext">Purchasing</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=jail" class="newstext">Regional Jail</a></td>
+</tr><tr>
+  <td align="left"><a href="http://www.k12albemarle.org" class="newstext">Schools and Education</a></td>
+</tr><tr>
+  <td align="left"><a href="http://www.albemarleso.org/" class="newstext">Sheriff's Office</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=dss" class="newstext">Social Services</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=sp" class="newstext">Strategic Plan</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=registrar" class="newstext">Voter Registration and Elections</a></td>
+</tr><tr>
+  <td align="left"><a href="department.asp?department=water" class="newstext">Water Resources Management</a></td>
+</tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <br>
+    </td>
+    <td width="2%" bgcolor="#AA9A84" valign="top">&nbsp;</td>
+    <td width="50%" valign="top"><h3>Services</h3>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="50%" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+  <td align="left" valign="top"><a href="department.asp?department=cdd&relpage=3213">ACE/Conservation Easements</a></td>
+</tr>
+<tr>
+  <td align="left" valign="top"><a href="department.asp?department=gds&relpage=2183">Addresses</a></td>
+</tr>
+<tr>
+  <td align="left" valign="top"><a href="agenda.asp?department=bos&year=">Agendas (Board & Planning Commission)</a></td>
+</tr>
+<tr>
+  <td align="left" valign="top"><a href="http://www.vdh.state.va.us/Vital_Records/index.htm">Birth Certificates Online</a></td>
+</tr>
+<tr>
+  <td align="left" valign="top"><a href="department.asp?department=finance&relpage=3273">Business Licenses</a></td>
+</tr>
+<tr>
+  <td align="left" valign="top"><a href="department.asp?department=fd&relpage=3059">Capital Projects</a></td>
+</tr>
+<tr>
+  <td align="left" valign="top"><a href="https://jupiter.dss.state.va.us/family/">Child Support Services</a></td>
+</tr>
+<tr>
+  <td align="left" valign="top"><a href="http://www.vdh.state.va.us/Vital_Records/index.htm">Death Certificates</a></td>
+</tr>
+<tr>
+  <td align="left" valign="top"><a href="department.asp?department=finance&relpage=3295">Dog Licenses</a></td>
+</tr>
+<tr>
+  <td align="left" valign="top"><a href="/department.asp?department=gds&relpage=2786">GIS</a></td>
+</tr>
+<tr>
+  <td align="left" valign="top"><a href="http://jmrl.org/">Libraries</a></td>
+</tr>
+<tr>
+  <td align="left" valign="top"><a href="/deptforms.asp?department=cdmaps">County Maps</a></td>
+</tr>
+<tr>
+  <td align="left" valign="top"><a href="http://www.courts.state.va.us/courts/circuit/Albemarle/home.html">Marriage Licenses</a></td>
+</tr>
+
+            </table>
+          </td>
+          <td width="50%" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+  <td align="left" valign="top"><a href="department.asp?department=finance&relpage=3265">Real Estate Tax Relief</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=gs&relpage=2486">Recycling</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=registrar&relpage=2934">Register to Vote</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="http://www2.k12albemarle.org/Pages/default.aspx">Schools and Education</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=sp">Strategic Plan</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="http://gisweb.albemarle.org/">Real Estate Property Records/Assessments</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=cdd&relpage=3199">Master Planning</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="/upload/images/forms_center/departments/Parks_and_Recreation/forms/matrixparks.pdf">Park Amenities Matrix</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=parks&relpage=2466">Parks Shelter Reservations</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=finance">Pay Taxes Online</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="https://www.albemarle.org/policeonlinereporting/">Police Online Reporting</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=purchasing">Purchasing/Open Procurements</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="department.asp?department=finance">Tax Information</a></td>
+</tr><tr>
+  <td align="left" valign="top"><a href="deptservices.asp">Click Here for Complete List of Services >></a></td>
+</tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+            </li>
+          </ul>
+        </li>
+        <li><img src="/upload/images/nav_images/menuline.jpg" width="5" height="25" /></li>
+        <li><a href="calendar.asp?info=calendar">Events &amp; Meetings <img src="/upload/images/nav_images/whitearrow.gif" align="absmiddle" border="0" /></a></li>
+        <li><img src="/upload/images/nav_images/menuline.jpg" width="5" height="25" /></li>
+        <li><a href="navpages.asp?info=newsroom&releases=current">Newsroom <img src="/upload/images/nav_images/whitearrow.gif" align="absmiddle" border="0" /></a></li>
+        <li><img src="/upload/images/nav_images/menuline.jpg" width="5" height="25" /></li>
+        <li><a href="navpages.asp?info=forms">Documents &amp; Forms <img src="/upload/images/nav_images/whitearrow.gif" align="absmiddle" border="0" /></a></li>
+      </ul>
+    </div>
+    </td>
+  </tr>
+</table>
+</div>
+<!--table width="100%" border="0" bordercolor="">
+<tr>
+<td align="center" width="100%"><font color="red"><b>UNDER CONSTRUCTION - COMING SOON!</b><font></td>
+</tr>
+</table-->
+
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#FFFFFF">
+ <div id="breadcrumbs">
+
+<table width="98%" border="0" bordercolor="" align="center" cellpadding="0" cellspacing="0" background="/upload/images/nav_images/breadcrumbbackground.jpg">
+  <tr>
+    <td class="breadcrumb"><a href="http://www.albemarle.org/" class="breadcrumbtext">Home &gt;&gt;</a></td>
+    <td width="191">
+      <table width="191" border="0" bordercolor="" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top" class="breadcrumb"><img src="/upload/images/nav_images/text-icon.jpg" width="82" height="27" border="0" align="top"  usemap="#Map"/></td>
+          <td valign="top" class="breadcrumb"><a href="Javascript:self.print()"><img src="/upload/images/nav_images/print-icon.jpg" width="50" height="27" border="0" /></a></td>
+          <td valign="top" class="breadcrumb">
+
+            <a href="mailto:recipient@emailaddress.here?subject=Albemarle County, VA Website Item of Interest&body=I found this page on the Albemarle County, VA website and thought it would be of interest to you: http://www.albemarle.org/Default.asp"><img src="/upload/images/nav_images/send-icon.jpg" width="50" height="27" border="0"></a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</div>
+<map name="Map" id="Map">
+<area shape="rect" coords="44,1,53,27" href="#" onClick="changeFontSize('small'); return false;" />
+<area shape="rect" coords="53,1,64,27" href="#" onClick="changeFontSize('medium'); return false;" />
+<area shape="rect" coords="63,2,75,26" href="#" onClick="changeFontSize('large'); return false;" />
+</map>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#FFFFFF">
+            <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="164" height="100%" valign="top">
+<div id="leftnav">
+<table width="100%" height="700" border="0" bordercolor="">
+  <tr>
+    <td width="164" height="100%" valign="top" background="/upload/images/nav_images/orange-gradient.jpg">
+      <table width="146"  border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td>
+<div id="emailsignup">
+<table width="146"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="emailtext">
+<p style="text-align: center"><a target="_blank" href="http://schoolcenter.k12albemarle.org/education/district/district.php?sectiondetailid=1"><img border="0" alt="" width="139" height="86" src="/upload/images/Pictures/Departments/Albemarle/pictures/schools_logo2.jpg" /></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="/upload/images/nav_images/email-line.jpg" width="146" height="1" />
+    </td>
+  </tr>
+</table
+</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+<div id="emailsignup">
+<table width="146"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="emailtext">
+<p><a href="/department.asp?department=budget"><img border="0" alt="" width="146" height="87" src="/upload/images/Pictures/Departments/Albemarle/pictures/budget-button3.jpg" /></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="/upload/images/nav_images/email-line.jpg" width="146" height="1" />
+    </td>
+  </tr>
+</table
+</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+<div id="emailsignup">
+<table width="146"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="emailtext">
+<p><a target="_blank" href="/department.asp?department=emerprep&amp;relpage=12154"><img border="0" alt="Click here for Winter Weather Safety Tips" width="146" height="110" src="/upload/images/Pictures/Departments/Albemarle/pictures/winter.jpg" /></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="/upload/images/nav_images/email-line.jpg" width="146" height="1" />
+    </td>
+  </tr>
+</table
+</div><div id="emailsignup">
+<table width="146"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="emailtext">
+<p><a target="_blank" href="http://www.move2healthcentralva.org/"><img border="0" align="middle" width="146" height="88" alt="" src="/upload/images/Pictures/Departments/Albemarle/pictures/move2health2.jpg" /></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="/upload/images/nav_images/email-line.jpg" width="146" height="1" />
+    </td>
+  </tr>
+</table
+</div><div id="emailsignup">
+<table width="146"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="emailtext">
+<p><a href="/department.asp?department=cdd&amp;relpage=14219"><img border="0" alt="" width="146" height="123" src="/upload/images/Pictures/Departments/Albemarle/pictures/comp-plan-button.jpg" /></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="/upload/images/nav_images/email-line.jpg" width="146" height="1" />
+    </td>
+  </tr>
+</table
+</div><div id="emailsignup">
+<table width="146"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="emailtext">
+<p style="text-align: center"><a href="department.asp?department=parks"><img border="0" alt="" width="146" height="205" src="/upload/images/Pictures/Departments/Albemarle/pictures/parks_and_rec.jpg" /></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="/upload/images/nav_images/email-line.jpg" width="146" height="1" />
+    </td>
+  </tr>
+</table
+</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+<div id="emailsignup">
+<table width="146"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="emailtext">
+<p><a href="/wine"><img border="0" alt="www.albemarle.org/department.asp?department=wine" width="146" height="146" src="/upload/images/Pictures/Departments/Albemarle/pictures/button3.jpg" /></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="/upload/images/nav_images/email-line.jpg" width="146" height="1" />
+    </td>
+  </tr>
+</table
+</div>
+         </td>
+        </tr>
+      </table>
+      <!--include file="emailsignup.asp" -->
+<div id="emailsignup">
+<table width="146" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="emailhdr">Email Sign-Up</td>
+  </tr>
+  <tr>
+    <td class="emailtext">Sign up for A-Mail to receive news and updates.</td>
+  </tr>
+  <tr>
+    <td class="emailtext"><a href="page.asp?info=amail" class="emailtext">Click here >></a></td>
+  </tr>
+  <tr>
+    <td><img src="/upload/images/nav_images/email-line.jpg" width="146" height="1" /></td>
+  </tr>
+</table>
+</div>
+    </td>
+  </tr>
+</table>
+</div>
+                </td>
+                <td valign="top">
+                  <table width="662" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td>
+                      <div id="AssignedPanelTD" align="left"></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <DIV id="mostrequested">
+                        </DIV>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+<div id="pagebody">
+<table width="100%" border="0" bordercolor="" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2">
+      <table width="100%" border="0" bordercolor="">
+        <tr>
+          <td width="550" height="30" class="sidenavtext">Albemarle County News</td>
+<!-- was sidenavtextnopaddingblack -->
+          <td align="right"><a href="navpages.asp?info=newsroom" class="serviceslist">All News >></a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" bgcolor="#D9D0BF"><img src="/upload/images/nav_images/hline.jpg" width="5" height="3" /></td>
+  </tr>
+  <tr>
+  <td colspan="2">
+    <br />
+    <table width="100%" border="0" bordercolor="" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16994" class="newstitle">Albemarle County Police Department Accepting Applications for Auxiliary Police Officers</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>4/1/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext">In a continuing effort to build capacity at the Albemarle County Police Department, the APCD will be accepting applications for two additional Auxiliary Police Officers or APOs. The volunteers would be a Level II Auxiliary Officer.<br></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16993" class="newstitle">County to Break Ground on Crozet Streetscape Project at April 1 Ceremony</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>4/1/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext">Albemarle County officials, including Supervisor Ann Mallek, joined Crozet residents and business owners at a groundbreaking ceremony for the Crozet Streetscape project on Tuesday, April 1, at noon on Crozet Avenue in front of the new Crozet Library.<br></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16904" class="newstitle">GRACE Gang Assessment</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>4/1/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext">In an effort to address the issue of gangs in our community, Gang Reduction Through Active Community Engagement (GRACE) has conducted a comprehensive gang assessment. The results of this assessment will help us better understand what is occurring in our community. It will be beneficial as we move forward with a strategic plan of action. The conclusions of the study will be shared with the community in an upcoming presentation on Monday, April 14th at 1:30 p.m. at the Charlottesville-Albemarle Technical Education Center (CATEC) on East Rio Road.<br></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16983" class="newstitle">March 25 Town Hall Meetings Rescheduled</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>3/31/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext">The final two town hall meetings to discuss the proposed FY 2014-15 Local Government and School Division budget, which were originally scheduled for March 25, 2014, have been rescheduled due to inclement weather.<br>
+<p>Samuel Miller district representative, Liz Palmer, will hold her final town hall meeting on April 7, 2014 at Meriwether Lewis Elementary School Cafeteria from 6:30 &ndash; 8:30 pm.</p>
+<p>Rio district representative, Brad Sheffield, will hold his final town hall meeting on April 7, 2014 at the Woodbrook Elementary School Library from 6 &ndash; 9 pm.</p>
+<p>Community members will have the opportunity to ask questions and discuss areas of concern and interest. All citizens are invited and strongly encouraged to attend these meetings.</p></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16952" class="newstitle">Special Meeting of the Board of Supervisors Called for March 27</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>3/26/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext">The Chair of the Albemarle County Board of Supervisors has called a special meeting of the Board for the purpose of allowing a quorum of the Board to attend the Rt. 29 Advisory Panel Meeting on March 27, 2014 at 1:00 pm at the Virginia Center for Transportation Innovation and Research, 530 Edgemont Road, Charlottesville, Virginia.<br></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16947" class="newstitle">Charlottesville and Albemarle County Feature an Array of Festivals this Spring</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>3/26/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext">Virginia Festival of the Book, Dogwood Festival, Tom Tom Founders Festival, Taste of Monticello Wine Trail, Foxfield Spring Races, Historic Garden Week &amp; Festival of Cultures getting ready to engage locals and visitors alike.<br></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16946" class="newstitle">County of Albemarle Police Department Hosting Flag Football Tournament to Benefit the Special Olympics</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>3/26/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext">The Region 8 Law Enforcement Torch Run will be hosting a Flag Football Tournament on Sunday, April 13th. The tournament, benefitting the Special Olympics, will be played on the turf at Scott Stadium.<br></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16935" class="newstitle">Tonight's Town Hall Meetings Postponed</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>3/25/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext"><em><strong>Two Albemarle County Supervisors Town Hall Meetings Scheduled for this Evening have been Postponed due to Inclement Weather. </strong></em><br>
+<p><strong>POSTPONED MEETINGS:</strong></p>
+<ul>
+    <li>Rio Representative <em><strong>Brad Sheffield's </strong></em>March 25 Town Hall meeting at Woodbrook has been rescheduled. The new date is Monday, April 7th in the school library from 6:00 - 9:00 p.m.</li>
+    <li>Samuel Miller Representative <em><strong>Liz Palmer's</strong></em> March 25 Town Hall meeting at Meriwether Lewis is also postponed. A new date/time will be provided at a later time.</li>
+</ul>
+<p><strong>REMINDERS</strong><br />
+<strong><em>Remaining Meetings this Week:</em></strong></p>
+<p><em><strong>Ken Boyd</strong></em>, who represents the Rivanna District, is hosting two community meetings:</p>
+<ul>
+    <li>Wednesday, March 26, 6:30 - 8:30 pm at the Hollymead Elementary School Auditorium</li>
+    <li>Saturday, March 29, 9:30 - 11:30 am at the Grace Episcopal Church Parish Hall on Gordonsville Road in Keswick</li>
+</ul></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16944" class="newstitle">ACPS After-School Student Activities Canceled this Afternoon</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>3/25/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext">Due to weather conditions, all after-school student activities have been canceled today. The EDEP&nbsp;after-school program will operate until 6 pm.<br></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16930" class="newstitle">Important Notice to the Voters of the Town of Scottsville, Virginia</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>3/24/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext">A General Election for residents of the Town of Scottsville will be held on Tuesday, May 6, 2014, to elect the Scottsville Town offices of Mayor and the six-member Scottsville Town Council. Polls will open at 6 am at the Scottsville Municipal Building, located at 401 Valley St., Scottsville. Polls will close on Election Day at 7 pm.<br></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16927" class="newstitle">Update on Upcoming Community Meetings Hosted by Board of Supervisors Members</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>3/21/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext">This month several Albemarle County Supervisors will host community meetings to discuss the proposed FY 2014-15 Local Government and School Division budgets and recent developments in their districts. Community members will have the opportunity to ask questions and discuss areas of concern and interest. All citizens are invited and strongly encouraged to attend these meetings.<br>
+<p><strong>RESCHEDULED MEETING:</strong><br />
+Scottsville Representative<em><strong> Jane Dittmar's </strong></em>March 17 meeting, which was postponed due to inclement weather, has been rescheduled for Monday, March 24, 2014 from 5:00 - 6:30 pm, at Victory Hall in the Scottsville Town Council Room.</p>
+<p><strong>NEWLY ADDED MEETING:</strong><br />
+<em><strong>Ken Boyd, </strong></em>who represents the Rivanna District, is hosting a community meeting at the Grace Episcopal Church Parish Hall on Gordonsville Road in Keswick on Saturday, March 29, 2014 from 9:30 - 11:30 am.</p>
+<p><strong>REMINDERS: </strong><br />
+<em><strong>Ken Boyd, </strong></em>who represents the Rivanna District, is hosting a community meeting at the Hollymead Elementary School Auditorium on Wednesday, March 26, 2014 from 6:30 - 8:30 pm.</p>
+<p><em><strong>Liz Palmer, </strong></em>who represents the Samuel Miller District, will host three community meetings:</p>
+<ul>
+    <li>Saturday, March 22, 10:00 - 11:30 am at the B.F. Yancey Elementary School Cafeteria</li>
+    <li>Monday, March 24, 7:00 - 9:00 pm at the Red Hill Elementary School Cafeteria</li>
+    <li>Tuesday, March 25, 7:00 - 9:00 pm at the Meriwether Lewis Elementary School Cafeteria</li>
+</ul>
+<p><em><strong>Diantha McKeel, </strong></em>who represents the Jack Jouett District, is hosting a community meeting on Saturday, March 22, 1:00 - 3:00 pm, at The Senior Center. Ms. McKeel will be joined by Supervisor Brad Sheffield.</p>
+<p><em><strong>Brad Sheffield, </strong></em>who represents the Rio District, is hosting the following community meetings:</p>
+<ul>
+    <li>Saturday, March 22, 1:00 - 3:00 pm, at The Senior Center, joined by Supervisor Diantha McKeel</li>
+    <li>Tuesday, March 25, 6:00 - 9:00 pm, at the Woodbrook Elementary School Cafeteria<br />
+    (at this meeting the developer of Northfield Greene is expected to present some revised drawing concepts for his proposed development along Old Brook Rd.)</li>
+</ul></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16921" class="newstitle">Crozet Streetscape Traffic Update</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>3/19/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext">The closure of Tabor Street, which was previously advertised to begin on Monday, March 17th, has been postponed due to inclement weather. The new closure start date is Thursday, March 20th. The closure will occur between 8:00 AM and 4:30 PM Monday through Friday for approximately two weeks.<br></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16903" class="newstitle">Tabor Street Detour Confirmed for Monday, March 17</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>3/13/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext"><em><strong>Detour signals major milestone in the Crozet Streetscape Project</strong></em><br>
+<p>The closure of Tabor Street is confirmed for Monday, March 17th. As previously advertised, the closure will occur between 8:00 AM and 4:30 PM Monday through Friday for approximately two weeks. Signage has been in place since Monday, March 10, notifying motorists of the closure.</p></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16875" class="newstitle">The Albemarle County Police Department Announces the Return of the Citizen’s Police Academy</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>3/10/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext">The Albemarle County Police Department is pleased to announce the return of the Citizen&rsquo;s Police Academy which provides citizens with the opportunity to learn about the Albemarle County Police Department and the role the department plays in our community. The incoming class will complete the eight week course which starts on Tuesday, March 11&nbsp;and ends in May.<br></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="navpages.asp?info=release&ID=16870" class="newstitle">Info Re: Board's Considerations of Recommended FY15 Budget Posted</a></td>
+  </tr>
+  <tr>
+    <td class="newstext"><i>3/7/2014</i></td>
+  </tr>
+  <tr>
+    <td class="newstext">Information regarding the Board&rsquo;s considerations of the Recommended FY 2015 Operating and Capital Budget, including impacts of the advertised tax rate, has been posted to the Budget page &ndash; <a href="/budget">www.albemarle.org/budget</a>.<br></td>
+  </tr>
+  <tr>
+    <td>
+<hr></td>
+  </tr>
+</table>
+          </td>
+        </tr>
+    </table>
+    <br />
+  </td>
+  </tr>
+</table>
+</div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td width="188" valign="top">
+<div id="rightnav">
+<table width="188" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td background="/upload/images/nav_images/yellow-gradient.jpg" >
+<div id="rightnavgold">
+<table width="188" border="0" bordercolor="" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="44" background="/upload/images/nav_images/calendar-bkg.jpg">
+	<a href="calendar.asp?info=calendar" class="pollheader">Calendar</a></td>
+  </tr>
+  <tr>
+    <td height="40" background="/upload/images/nav_images/jobs-bkg.jpg">
+	<a href="https://albemarleva.cloud.talentedk12.com/hire/" class="pollheader">Jobs</a></td>
+  </tr>
+
+  <form action="poll_thank_you.asp#pollanswer" method="GET" id="frmSurvey" name="frmSurvey">
+    <tr>
+      <td><img src="/upload/images/nav_images/poll-bkg-top.jpg" /></td>
+    </tr>
+    <tr>
+      <td valign="top" background="/upload/images/nav_images/poll-bkg-middle.jpg">
+        <table width="188" border="0" bordercolor="" cellspacing="0" cellpadding="5">
+          <tr>
+            <td class="pollheader">Quick Poll</td>
+          </tr>
+          <tr>
+           <td class="polltext">What is your top resource for receiving news updates about Albemarle County government?
+             <input type="hidden" id="txtQuestion" name="txtQuestion" value="What is your top resource for receiving news updates about Albemarle County government?" />
+           </td>
+          </tr>
+          <tr>
+            <td class="polltext">
+              <input type="radio" id="txtAnswer" name="txtAnswer" value="Albemarle County website" />Albemarle County website
+              <br />
+              <input type="radio" id="txtAnswer" name="txtAnswer" value="Albemarle County Facebook" />Albemarle County Facebook
+              <br />
+              <input type="radio" id="txtAnswer" name="txtAnswer" value="A-mail" />A-mail
+              <br />
+              <input type="radio" id="txtAnswer" name="txtAnswer" value="Local news media" />Local news media
+              <br />
+              <input type="radio" id="txtAnswer" name="txtAnswer" value="Word of mouth" />Word of mouth
+            </td>
+          </tr>
+          <tr>
+            <td class="polltext">
+              <input type="image" src="/upload/images/nav_images/submit-btn.jpg" width="51" height="18" />
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+     <td><img src="/upload/images/nav_images/poll-bkg-bottom.jpg" /></td>
+    </tr>
+  </form>
+</table>
+</div>
+
+    </td>
+  </tr>
+  <tr>
+    <td background="/upload/images/nav_images/side-gradient.jpg"><img src="/upload/images/nav_images/side-gradient.jpg" width="13" height="20" /></td>
+  </tr>
+  <tr>
+    <td>
+<div id="stayconnected">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="27" background="/upload/images/nav_images/gray-hdr1.jpg" class="sidenavtext">Stay Connected<td>
+  </tr>
+  <tr>
+    <td background="/upload/images/nav_images/gray-hdr2.jpg" class="newstext">
+
+<table border="0" cellspacing="1" cellpadding="1" width="148" style="width: 148px">
+    <tbody>
+        <tr>
+            <td align="right"><a target="_blank" href="http://www.facebook.com/pages/Charlottesville-VA/County-of-Albemarle/79293741909"><img border="0" alt="Facebook" align="middle" width="25" height="25" src="/upload/images/Pictures/Departments/Albemarle/pictures/facebook.png" /></a></td>
+            <td align="left"><a target="_blank" href="http://www.facebook.com/pages/Charlottesville-VA/County-of-Albemarle/79293741909">Facebook</a></td>
+        </tr>
+        <tr>
+            <td align="right"><a target="_blank" href="https://twitter.com/AlbemarleCounty"><img border="0" alt="Links to County of Albemarle Twitter feed" width="27" height="27" src="/upload/images/Pictures/Site_Images/twitter2.jpg" /></a></td>
+            <td align="left"><a target="_blank" href="https://twitter.com/AlbemarleCounty">Twitter</a></td>
+        </tr>
+        <tr>
+            <td align="right"><a target="_blank" href="http://www.flickr.com/people/albemarlecounty"><img border="0" alt="Flickr" width="25" height="25" src="/upload/images/Pictures/Departments/Albemarle/pictures/flickr.png" /></a></td>
+            <td align="left"><a target="_blank" href="http://www.flickr.com/photos/albemarlecounty/">Flickr</a></td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td align="right"><a target="_blank" href="http://www.youtube.com/coalbemarle"><img border="0" alt="YouTube" width="25" height="25" src="/upload/images/Pictures/Departments/Albemarle/pictures/youtube.png" /></a></td>
+            <td align="left"><a target="_blank" href="http://www.youtube.com/coalbemarle">YouTube</a></td>
+        </tr>
+        <!--tr>
+            <td>&nbsp;&nbsp;<a target="_blank" href="/page.asp?info=rss"><img border="0" alt="RSS Feeds" width="25" height="25" src="/upload/images/Pictures/Departments/Albemarle/pictures/feed.png" /></a></td>
+            <td><a target="_blank" href="/page.asp?info=rss">RSS Feeds</a></td>
+        </tr-->
+        <tr>
+            <td align="right"><a target="_blank" href="/page.asp?info=amail"><img border="0" alt="A-Mail Sign-Up" width="25" height="25" src="/upload/images/Pictures/Departments/Albemarle/pictures/envelope.gif" /></a></td>
+            <td align="left"><a target="_blank" href="/page.asp?info=amail">A-Mail Sign-Up</a></td>
+        </tr>
+        <tr>
+            <td align="right"><a href="mailto:AskAlb@albemarle.org?subject=Comment or Question from Website"><img border="0" alt="Ask Albemarle" width="25" height="25" src="/upload/images/Pictures/Departments/Albemarle/pictures/askalb.png" /></a></td>
+            <td align="left"><a href="mailto:AskAlb@albemarle.org?subject=Comment or Question from Website">Ask Albemarle</a></td>
+        </tr>
+    </tbody>
+</table>
+
+    </td>
+  </tr>
+  <tr>
+    <td><img src="/upload/images/nav_images/gray-hdr3.jpg" width="188" height="8" /></td>
+  </tr>
+</table>
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>
+<div id="eventsmeetings">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="27" background="/upload/images/nav_images/gray-hdr1.jpg" class="sidenavtext">Featured Events</td>
+    </tr>
+    <tr>
+      <td background="/upload/images/nav_images/gray-hdr2.jpg" class="newstext">
+        <table width="100%" border="0" cellspacing="0" cellpadding="5" align="center">
+ 
+
+<tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg">
+<a href="/event.asp?info=event&id=16886&displayed_date=" class="newstext"><b>Community Meeting for Rio Magisterial District</b></a><br>
+<span class="newsdate"><i>4/7/2014, 6:00 PM</i></span><br>
+<i><span class="newsdate">
+
+
+</span></i>
+  </td>
+</tr>
+
+
+<tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg">
+<a href="/event.asp?info=event&id=16982&displayed_date=" class="newstext"><b>Community Meeting for Samuel Miller Magisterial District</b></a><br>
+<span class="newsdate"><i>4/7/2014, 6:30 PM</i></span><br>
+<i><span class="newsdate">
+
+
+</span></i>
+  </td>
+</tr>
+
+
+<tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg">
+<a href="/event.asp?info=event&id=16991&displayed_date=" class="newstext"><b>GRACE Gang Assessment Presentation</b></a><br>
+<span class="newsdate"><i>4/14/2014, 1:30 PM</i></span><br>
+<i><span class="newsdate">
+
+
+</span></i>
+  </td>
+</tr>
+
+
+<tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg">
+<a href="/event.asp?info=event&id=16954&displayed_date=" class="newstext"><b>Public Roundtable on State Code Requirements for Farms & Farm Breweries</b></a><br>
+<span class="newsdate"><i>4/16/2014, 5:30 PM</i></span><br>
+<i><span class="newsdate">
+
+Board Room (COB Room 241)<br/>
+</span></i>
+  </td>
+</tr>
+
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td background="/upload/images/nav_images/gray-hdr2.jpg"><br><a href="calendar.asp?info=calendar" class="viewall">View All &gt;&gt;</a></td>
+    </tr>
+    <tr>
+      <td><img src="/upload/images/nav_images/gray-hdr3.jpg" width="188" height="8" /></td>
+    </tr>
+  </table>
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>
+<div id="hottopics">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="27" background="/upload/images/nav_images/gray-hdr1.jpg" class="sidenavtext">Hot Topics</td>
+    </tr>
+    <tr>
+      <td background="/upload/images/nav_images/gray-hdr2.jpg" class="newstext">
+        <table width="100%" border="0" cellspacing="0" cellpadding="5" align="center">&nbsp;<br>
+ <tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg" class="newstext">
+<a href="/BOSSpeakers/" class="newstext">Online Public Hearing Sign-Up</a>&nbsp;
+<img src="/upload/images/nav_images/arrow-orange.gif">
+  </td>
+</tr><tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg" class="newstext">
+<a href="/department.asp?department=fd&relpage=16186" class="newstext">Crozet Streetscape Project</a>&nbsp;
+<img src="/upload/images/nav_images/arrow-orange.gif">
+  </td>
+</tr><tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg" class="newstext">
+<a href="/ConvenienceCenters" class="newstext">Solid Waste Convenience Centers Project</a>&nbsp;
+<img src="/upload/images/nav_images/arrow-orange.gif">
+  </td>
+</tr><tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg" class="newstext">
+<a href="upload/images/forms_center/departments/Community_Development/forms/inops_compliancehandout_AlbCo.pdf" class="newstext">Inoperable Vehicles – New Regs in Effect January 1, 2014</a>&nbsp;
+<img src="/upload/images/nav_images/arrow-orange.gif">
+  </td>
+</tr><tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg" class="newstext">
+<a href="https://activenet022.active.com/albemarlecountyrec/" class="newstext">Parks & Rec Online Class Registration</a>&nbsp;
+<img src="/upload/images/nav_images/arrow-orange.gif">
+  </td>
+</tr><tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg" class="newstext">
+<a href="/department.asp?department=fd&relpage=15723" class="newstext">Northside Library Project</a>&nbsp;
+<img src="/upload/images/nav_images/arrow-orange.gif">
+  </td>
+</tr><tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg" class="newstext">
+<a href="/department.asp?department=cdd&relpage=3199" class="newstext">Master Planning/Community Advisory Councils</a>&nbsp;
+<img src="/upload/images/nav_images/arrow-orange.gif">
+  </td>
+</tr><tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg" class="newstext">
+<a href="http://www.virginiadot.org/projects/culpeper/rt._29_bypass.asp" class="newstext">Western Bypass Project Page</a>&nbsp;
+<img src="/upload/images/nav_images/arrow-orange.gif">
+  </td>
+</tr><tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg" class="newstext">
+<a href="/department.asp?department=cdd&relpage=14219" class="newstext">Comprehensive Plan Update</a>&nbsp;
+<img src="/upload/images/nav_images/arrow-orange.gif">
+  </td>
+</tr><tr>
+  <td background="/upload/images/nav_images/gray-hdr2.jpg" class="newstext">
+<a href="/upload/images/forms_center/departments/Community_Development/forms/WesternBypassMap.pdf" class="newstext">Western Bypass Map</a>&nbsp;
+<img src="/upload/images/nav_images/arrow-orange.gif">
+  </td>
+</tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td background="/upload/images/nav_images/gray-hdr2.jpg"></td>
+    </tr>
+    <tr>
+      <td><img src="/upload/images/nav_images/gray-hdr3.jpg" width="188" height="8" /></td>
+    </tr>
+  </table>
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#FFFFFF">
+<!-- THIS IS AN UNSECURED VERSION -->
+<div id="footer" align="center">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="footertext">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="5" bgcolor="#6d4d27" height="6"></td>
+  </tr>
+  <tr>
+    <td width="10%" align="center"><a href="http://www.albemarle.org"><img border="0" src="/upload/images/nav_images/coaseal2.gif" alt="Link to Official Website of the County of Albemarle"></a></td>
+    <td width="10%" align="center"><img border="0" src="/upload/images/nav_images/generic-digicounties.gif" alt="Top 10 winner of Digital Counties Award for Population Category Less than 150,000 since 2003" width=114 height=68><br>
+Top 10 winner since 2003</td>
+
+    <td width="60%" align="center">&nbsp;<br><a href="navpages.asp?info=residents" class="footertextul">Residents</a>  |  <a href="navpages.asp?info=business" class="footertextul">Business</a>  |  <a href="navpages.asp?info=visitors" class="footertextul">Visitors</a>  |  <a href="navpages.asp?info=iwantto" class="footertextul">I Want To...</a>  |  <a href="navpages.asp?info=onlineservices" class="footertextul">Online Services</a>  |  
+<a href="deptservices.asp" class="footertextul">Departments &amp; Services</a> | <br>
+<a href="calendar.asp?info=calendar" class="footertextul">Events &amp; Meetings</a> | <a href="navpages.asp?info=newsroom" class="footertextul">Newsroom</a> | 
+<a href="navpages.asp?info=forms" class="footertextul">Documents &amp; Forms</a><br />
+     <a href="page.asp?info=privacy" class="footertextul">Privacy Policy</a> | <a href="page.asp?info=terms" class="footertextul">Terms &amp; Conditions</a> | <a href="page.asp?info=links" class="footertextul">
+Link Policy</a> | <a href="page.asp?info=sitemap" class="footertextul">Sitemap</a><br />
+     Copyright © 1995-2013, County of Albemarle, VA and its licensors. All rights reserved.<br />
+     401 McIntire Road, Charlottesville, VA 22902<br />
+     Hours: 8 A.M. to 5 P.M. Monday thru Friday<br>
+     Problems with this Website? <a href="mailto:&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#97;&#108;&#98;&#101;&#109;&#97;&#114;&#108;&#101;&#46;&#111;&#114;&#103"  class="footertextul">Email the Webmaster</a></td>
+    <td width="10%" align="center"><img src="/upload/images/nav_images/go-green-va-logo.gif" alt="Green Government Designation" width="91" height="61" border=0></td>
+    <td width="10%" align="center"><a href="http://www.virginia.gov/cmsportal/"><img border="0" src="/upload/images/nav_images/asset_upload_file142_2410.gif" alt="Link to My Virginia"></a></td>
+  </tr>
+</table>
+</div>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1905194-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+<script language="javascript" type="text/javascript">
+showMostRqstList('Service');
+showDeptandSvcsList('Department');
+initView();
+</script>
