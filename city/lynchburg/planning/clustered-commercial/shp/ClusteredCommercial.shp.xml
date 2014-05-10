@@ -1,0 +1,185 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>City of Lynchburg, Virginia</origin>
+				<title Sync="TRUE">ClusteredCommercial</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">\\GIS-RMR\C$\TEMP\GIS_DataDownload_Staging_Planning\GDB\Planning.gdb</onlink>
+				<ftname Sync="TRUE">ClusteredCommercial</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Location of clustered commercial developments.</abstract>
+			<purpose>The purpose of this data set is to show the locations of clustered commercial developments.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-79.266095</westbc>
+				<eastbc Sync="TRUE">-79.143026</eastbc>
+				<northbc Sync="TRUE">37.452275</northbc>
+				<southbc Sync="TRUE">37.359149</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">11260536.454500</leftbc><rightbc Sync="TRUE">11296032.645000</rightbc><bottombc Sync="TRUE">3655223.413500</bottombc><topbc Sync="TRUE">3688867.031000</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>Clustered Commercial</themekt>
+				<themekey>Clustered Commercial</themekey>
+			</theme>
+		</keywords>
+		<accconst>Users of this data agree to the use constraints described in this metadata document.</accconst>
+		<useconst>Pursuant to Section 54.1-402, paragraph C of the Code of Virginia, which is quoted below, this data may not be used for purposes listed in said paragraph C, since the data was not created, nor is it maintained under the supervision of a licensed land surveyor.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>City of Lynchburg</cntorg>
+					<cntper>Allison Johnson</cntper>
+				</cntorgp>
+				<cntpos>GIS Department</cntpos>
+				<cntaddr>
+					<address>900 Church St</address>
+					<city>Lynchburg</city>
+					<state>VA</state>
+					<postal>24504</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>434.455.3940</cntvoice>
+				<cntfax>434.847.1436</cntfax>
+				<cntemail>Allison.Johnson@lynchburgva.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.4000</native>
+		<natvform Sync="TRUE">File Geodatabase Feature Class</natvform></idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>City of Lynchburg Department of GIS</origin>
+						<title>Department of GIS</title>
+					</citeinfo>
+				</srccite>
+			</srcinfo>
+			<procstep><procdesc>Original GIS vector data was being maintained in GeoMedia. The GIS vector was then exported to AutoCAD (.dwg) format and/or ESRI shapefile (.shp) format then loaded into ESRI Geodatabase format.</procdesc></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">T:\Shared\Worldview\Metadata\ClusteredCommercial.xml</srcused><procdate Sync="TRUE">20090323</procdate><proctime Sync="TRUE">09290100</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="3" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">TRUE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000500</absres>
+						<ordres Sync="TRUE">0.000500</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Virginia_South_FIPS_4502_Feet</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">0.000100</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="ClusteredCommercial">
+			<enttyp>
+				<enttypl Sync="TRUE">ClusteredCommercial</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Clsdc_ID</attrlabl><attalias Sync="TRUE">Clsdc_ID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>City of Lynchburg</cntorg>
+					<cntper>Allison Johnson</cntper>
+				</cntorgp>
+				<cntpos>GIS Department</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>900 Church St</address>
+					<city>Lynchburg</city>
+					<state>VA</state>
+					<postal>24504</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>434.455.3940</cntvoice>
+				<cntfax>434.847.1436</cntfax>
+				<cntemail>Allison.Johnson@lynchburgva.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>Although these data have been processed successfully on a computer system, no warranty expressed or implied is made regarding the use of the data on any other system, nor does the act of distribution constitute any such warranty.</distliab>
+		<stdorder></stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20111206</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>City of Lynchburg</cntorg>
+					<cntper>Allison Johnson</cntper>
+				</cntorgp>
+				<cntpos>GIS Department</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>900 Church St</address>
+					<city>Lynchburg</city>
+					<state>VA</state>
+					<postal>24504</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>434.455.3940</cntvoice>
+				<cntfax>434.847.1436</cntfax>
+				<cntemail>Allison.Johnson@lynchburgva.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta></metainfo>
+	<Esri><CreaDate>20090323</CreaDate><CreaTime>09290100</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20140404</SyncDate><SyncTime>15544100</SyncTime><ModDate>20140404</ModDate><ModTime>15544100</ModTime><MetaID>{1A958EE7-387F-484F-A2C6-D8020B6BF969}</MetaID><DataProperties><lineage><Process Name="Export to GDB - ClusteredCommercial" ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20111206" Time="150559">FeatureClassToFeatureClass "\\tempest\Shared\GIS\Admin\Data Download\Toolset\Murloc - Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial" C:\TEMP\GIS_DataDownload_Staging_Planning\GDB\Planning.gdb ClusteredCommercial # "Clsdc_ID 'Clsdc_ID' true true false 4 Long 0 10 ,First,#,\\tempest\Shared\GIS\Admin\Data Download\Toolset\Murloc - Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_len 'Shape_len' false false true 0 Double 0 0 ,First,#,\\tempest\Shared\GIS\Admin\Data Download\Toolset\Murloc - Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Shape.len,-1,-1" # C:\TEMP\GIS_DataDownload_Staging_Planning\GDB\Planning.gdb\ClusteredCommercial</Process><Process Name="Delete Rows" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20120320" Time="120558">DeleteRows "\\tempest\shared\GIS\Tools\Data Download\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Delete Rows" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20120320" Time="152352">DeleteRows "\\tempest\shared\GIS\Tools\Data Download\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Delete Rows" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20120320" Time="154637">DeleteRows "\\tempest\shared\GIS\Tools\Data Download\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Delete Rows" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20120320" Time="155856">DeleteRows "\\tempest\shared\GIS\Tools\Data Download\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20120320" Time="160412">Append '\\tempest\shared\GIS\Tools\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Tools\Data Download\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Tools\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process Name="Delete Rows (2)" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20120320" Time="162318">DeleteRows "\\tempest\shared\GIS\Tools\Data Download\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20120406" Time="121611">Append '\\tempest\shared\GIS\Tools\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Tools\Data Download\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Tools\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process Name="Delete Rows (2)" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20120406" Time="125705">DeleteRows "\\tempest\shared\GIS\Tools\Data Download\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20120917" Time="125401">Append '\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process Name="Delete Rows (2)" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20120917" Time="132710">DeleteRows "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20121130" Time="151123">Append '\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20121130" Time="154202">Append '\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20130109" Time="111503">Append '\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20130109" Time="114430">Append '\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20130109" Time="115653">DeleteFeatures "\\Tempest\Shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20130109" Time="120424">Append '\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process Name="Delete Rows (2)" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20130109" Time="122648">DeleteRows "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20130416" Time="093315">Append '\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process Name="Delete Rows (2)" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20130416" Time="100059">DeleteRows "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20130821" Time="122710">Append '\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process Name="Delete Rows (2)" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20130821" Time="124721">DeleteRows "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20130918" Time="152551">Append '\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process Name="Delete Rows (2)" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20130918" Time="153638">DeleteRows "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20140108" Time="132154">Append '\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process Name="Delete Rows (2)" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20140108" Time="133714">DeleteRows "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20140131" Time="103326">Append '\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process Name="Delete Rows (2)" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20140131" Time="104347">DeleteRows "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\PlanningGDB\Planning.gdb\ClusteredCommercial"</Process><Process Name="Clustered Commercial Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20140404" Time="154516">Append '\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial' "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\Planning\PlanningGDB\Planning.gdb\ClusteredCommercial" NO_TEST "Clsdc_ID "Clsdc_ID" true true false 4 Long 0 0 ,First,#,\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Sawyer Read.sde\vectorgis_prd.DBO.Planning\vectorgis_prd.DBO.ClusteredCommercial,Clsdc_ID,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#" #</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20140404" Time="155442">CopyFeatures "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\Planning\PlanningGDB\Planning.gdb\ClusteredCommercial" "\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\Planning\PlanningSHP\ClusteredCommercial.shp" # 0 0 0</Process></lineage><itemProps><itemName Sync="TRUE">ClusteredCommercial</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">file://\\tempest\shared\GIS\Data\Sharing\Data Download Portal\Staging\Planning\PlanningSHP\ClusteredCommercial.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits><projcsn Sync="TRUE">NAD_1983_StatePlane_Virginia_South_FIPS_4502_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_Virginia_South_FIPS_4502_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,11482916.66666666],PARAMETER[&amp;quot;False_Northing&amp;quot;,3280833.333333333],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-78.5],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,36.76666666666667],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,37.96666666666667],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,36.33333333333334],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2284]]&lt;/WKT&gt;&lt;XOrigin&gt;-111140600&lt;/XOrigin&gt;&lt;YOrigin&gt;-91532100&lt;/YOrigin&gt;&lt;XYScale&gt;36727036.750856541&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333335&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;2284&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">ClusteredCommercial</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">11260536.4545</westBL><eastBL Sync="TRUE">11296032.645</eastBL><northBL Sync="TRUE">3688867.031</northBL><southBL Sync="TRUE">3655223.4135</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-79.266095</westBL><eastBL Sync="TRUE">-79.143026</eastBL><northBL Sync="TRUE">37.452275</northBL><southBL Sync="TRUE">37.359149</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\GIS-RMR\C$\TEMP\GIS_DataDownload_Staging_Planning\GDB\Planning.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" value="2284">NAD_1983_StatePlane_Virginia_South_FIPS_4502_Feet</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">7.4.1</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="ClusteredCommercial"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20140404</mdDateSt></metadata>
