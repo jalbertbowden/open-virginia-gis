@@ -1,0 +1,414 @@
+NPS_Information:
+  Metadata_Purpose: CSDGM
+  Metadata_Purpose: NPS
+  Metadata_Purpose: OnlineData
+  Metadata_Purpose: IMInventory
+  NPS_Unit_Information:
+    NPS_Unit_Type: Park
+    NPS_Unit_AlphaCode: BOWA
+  Datacat_Information:
+    Datacat_Edit_Date:
+      Single_Date/Time:
+        Calendar_Date: 20070320
+  Data_Store_Information:
+    Data_Steward:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Stephanie O'Meara
+          Contact_Organization: Colorado State University
+        Contact_Position: Research Associate, Geologist/GIS Specialist
+        Contact_Address:
+          Address_Type: mailing and physical address
+          Address: 1201 Oak Ridge Drive, Suite 200
+          City: Fort Collins
+          State_or_Province: Colorado
+          Postal_Code: 80525
+          Country: USA
+        Contact_Voice_Telephone: (970) 225-3584
+        Contact_Facsimile_Telephone: (970) 225-3597
+        Contact_Electronic_Mail_Address: Stephanie_O'Meara@partner.nps.gov
+        Hours_of_Service: 9:00 a.m. to 5:00 p.m. (MST), Monday - Friday
+    Data_Category: Geology
+    Data_Site: NR-GIS
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: National Park Service (NPS) Geologic Resources Evaluation (GRE) program
+      Publication_Date: 20070320
+      Title: Digital Geologic Attitude and Observation Points of Booker T. Washington National Monument and Vicinity, Virginia (NPS, GRD, GRE, BOWA, BOWAATD)
+      Edition: 1st
+      Geospatial_Data_Presentation_Form: vector digital data
+      Online_Linkage: http://nrdata.nps.gov/bowa/nrdata/geology/gis/bowagdb.zip
+      Online_Linkage: http://nrdata.nps.gov/bowa/nrdata/geology/gis/bowacov.zip
+      Online_Linkage: http://nrdata.nps.gov/bowa/nrdata/geology/gis/bowashp.zip
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: National Park Service (NPS) Geologic Resources Evaluation (GRE) program
+          Publication_Date: 20070320
+          Title: Digital Geologic Map of Booker T. Washington National Monument and Vicinity, Virginia
+          Edition: 1st
+          Geospatial_Data_Presentation_Form: map
+          Online_Linkage: http://nrdata.nps.gov/bowa/nrdata/geology/gis/bowa_gremap.xml
+  Description:
+    Abstract: The Digital Geologic Attitude and Observation Points of Booker T. Washington National Monument and Vicinity, Virginia consists of geologic attitude and fault measurement observations (localities) mapped as point features.  The data were completed as a component of the Geologic Resources Evaluation (GRE) program, a National Park Service (NPS) Inventory and Monitoring (I&M) funded program that is administered by the NPS Geologic Resources Division (GRD).  The data were captured, grouped and attributed as per the NPS GRE Geology-GIS Geodatabase Data Model v. 1.4. (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm).  The data layer is available as a feature class in a 9.1 personal geodatabase (bowa_geology.mdb).  The Geologic Attitude and Observation Points (BOWAATD) GIS data layer is also available as a coverage export (.E00) file (BOWAATD.E00), and as a shapefile (.SHP) file (BOWAATD.SHP).  Each GIS data format has an ArcGIS 9.1 layer (.LYR) file (BOWAATD_GDB.LYR (geodatabase feature class), BOWAATD_COV.LYR (coverage), BOWAATD_SHP.LYR (shapefile) with map symbology that is included with the GIS data.  See the Distribution Information section for additional information on data acquisition.  The GIS data projection is NAD83, UTM Zone 17N.  The data is within the area of interest of Booker T. Washington National Monument.
+    Purpose: The data are intended to assist NPS personnel in the protection and management of Booker T. Washington National Monument.
+    Supplemental_Information: This dataset is just one component of the Digital Geologic Map of Booker T. Washington National Monument and Vicinity, Virginia.  The data layers (feature classes) that comprise the Digital Geologic Map of Booker T. Washington National Monument and Vicinity, Virginia include: BOWAATD (Geologic Attitude and Observation Points), BOWAFLD (Folds), BOWAFLT (Faults), BOWAGLG (Geologic Units), BOWAGLGA (Geologic Contacts) and BOWASYM (Fault, Fold and Other Map Symbology).  There are three additional ancillary map components, the Geologic Unit Information (BOWAGLG1) Table, the Source Map Information (BOWAMAP) Table and the Map Help File (BOWA_GEOLOGY.HLP).  Refer to the NPS GRE Geology-GIS Geodatabase Data Model v. 1.4 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm) for detailed data layer (feature class) and table specifications including attribute field parameters, definitions and domains, and implemented topology rules and relationship classes.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20070320
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -79.878267
+      East_Bounding_Coordinate: -79.621834
+      North_Bounding_Coordinate: 37.250526
+      South_Bounding_Coordinate: 36.998945
+    Local_Bounding_Coordinates:
+      Left_Bounding_Coordinate: 599807.111601
+      Right_Bounding_Coordinate: 622227.788998
+      Bottom_Bounding_Coordinate: 4095637.219680
+      Top_Bounding_Coordinate: 4123258.023481
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: none
+      Theme_Keyword: Booker T. Washington National Monument
+      Theme_Keyword: BOWA
+      Theme_Keyword: Virginia
+      Theme_Keyword: digital data
+      Theme_Keyword: GIS data
+      Theme_Keyword: digital geologic map
+      Theme_Keyword: geologic map
+      Theme_Keyword: geology
+      Theme_Keyword: Geologic Attitude and Observation Points
+      Theme_Keyword: attitude observations
+      Theme_Keyword: attitude measurements
+      Theme_Keyword: fault observations
+      Theme_Keyword: ATD
+      Theme_Keyword: BOWAATD
+      Theme_Keyword: National Park Service
+      Theme_Keyword: NPS
+      Theme_Keyword: Geologic Resources Division
+      Theme_Keyword: GRD
+      Theme_Keyword: Geologic Resources Evaluation
+      Theme_Keyword: GRE
+    Place:
+      Place_Keyword_Thesaurus: none
+      Place_Keyword: Booker T. Washington National Monument
+      Place_Keyword: BOWA
+      Place_Keyword: Virginia
+      Place_Keyword: Hardy quadrangle
+      Place_Keyword: Goodview quadrangle
+      Place_Keyword: Moneta SW quadrangle
+      Place_Keyword: Redwood quadrangle
+      Place_Keyword: Roanoke quadrangle
+      Place_Keyword: Franklin County
+      Place_Keyword: Bedford County
+      Place_Keyword: Roanoke County
+      Place_Keyword: United States
+      Place_Keyword: US
+      Place_Keyword: USA
+      Place_Keyword: North America
+    Place:
+      Place_Keyword_Thesaurus: National Park System Unit Code Thesaurus
+      Place_Keyword: BOWA
+    Place:
+      Place_Keyword_Thesaurus: National Park System Unit Name Thesaurus
+      Place_Keyword: Booker T. Washington National Monument
+    Theme:
+      Theme_Keyword_Thesaurus: National Park Service Theme Category Thesaurus
+      Theme_Keyword: Geology
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: Environment
+      Theme_Keyword: Geoscientific Information
+  Access_Constraints: None
+  Use_Constraints: Not for use at scale greater than 1:100,000 (source map scale)
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Stephanie O'Meara
+        Contact_Organization: Colorado State University
+      Contact_Position: Research Associate, Geologist/GIS Specialist
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 1201 Oak Ridge Drive, Suite 200
+        City: Fort Collins
+        State_or_Province: Colorado
+        Postal_Code: 80525
+        Country: USA
+      Contact_Voice_Telephone: (970) 225-3584
+      Contact_Facsimile_Telephone: (970) 225-3597
+      Contact_Electronic_Mail_Address: Stephanie_O'Meara@partner.nps.gov
+      Hours_of_Service: 9:00 a.m. to 5:00 p.m. (MST), Monday - Friday
+  Data_Set_Credit: Andrea Croskrey, Geologist/GIS Specialist, Geologic Resources Division, Lakewood, Colorado, Stephanie OMeara, Geologist/GIS Specialist, Colorado State University, Fort Collins, Colorado and Commonwealth of Virginia Department of Mines, Minerals and Energy - Division of Mineral Resources (Va DMME - DMR)
+  Native_Data_Set_Environment: ESRI ArcGIS 9.1 and Microsoft Windows XP
+  Cross_Reference:
+    Citation_Information:
+      Originator: National Park Service Geologic Resources Evaluation (GRE) program
+      Publication_Date: 20070320
+      Title: Metadata for the Digital Geologic Attitude and Observation Points of Booker T. Washington National Monument and Vicinity, Virginia (NPS, GRD, GRE, BOWA, BOWAATD) Geodatabase Feature Class (within BOWAGDB.ZIP)
+      Edition: 1st
+      Geospatial_Data_Presentation_Form: document
+      Online_Linkage: http://nrdata.nps.gov/bowa/nrdata/geology/gis/bowaatd.xml
+  Cross_Reference:
+    Citation_Information:
+      Originator: National Park Service Geologic Resources Evaluation (GRE) program
+      Publication_Date: 20070320
+      Title: Metadata for the Digital Geologic Attitude and Observation Points of Booker T. Washington National Monument and Vicinity, Virginia (NPS, GRD, GRE, BOWA, BOWAATD) Export (.E00) File (within BOWACOV.ZIP)
+      Edition: 1st
+      Geospatial_Data_Presentation_Form: document
+      Online_Linkage: http://nrdata.nps.gov/bowa/nrdata/geology/gis/bowaatd.xml
+  Cross_Reference:
+    Citation_Information:
+      Originator: National Park Service Geologic Resources Evaluation (GRE) program
+      Publication_Date: 20070320
+      Title: Metadata for the Digital Geologic Attitude and Observation Points of Booker T. Washington National Monument and Vicinity, Virginia (NPS, GRD, GRE, BOWA, BOWAATD) Shapefile (.SHP) File (within BOWASHP.ZIP)
+      Edition: 1st
+      Geospatial_Data_Presentation_Form: document
+      Online_Linkage: http://nrdata.nps.gov/bowa/nrdata/geology/gis/bowaatd.xml
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Feature attribution was derived from the source data produced by the Commonwealth of Virginia Department of Mines, Minerals and Energy - Division of Mineral Resources.  Attribution was checked (QCd) for errors.  Users of this data are advised to FULLY and CAREFULLY READ the "DISTRIBUTION LIABILITY" section of this metadata before using the data.
+  Logical_Consistency_Report: GIS data in 9.1 personal geodatabase (.MDB), coverage export (.E00) file and shapefile (.SHP) file formats.
+  Completeness_Report: Data is considered complete to the extent of the source map(s).
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Data, produced from Commonwealth of Virginia Department of Mines, Minerals and Energy - Division of Mineral Resources source data, is assumed to meet National Map Accuracy Standards.  The PRECISION of the Export (.E00) file and Shapefile (.SHP) file is DOUBLE.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Henika, W.S.
+          Publication_Date: 1997
+          Title: Geologic map of the Roanoke 30 x 60 minute quadrangle
+          Edition: 1st
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: NA
+            Issue_Identification: Publication 148
+          Publication_Information:
+            Publication_Place: Charlottesville, Virginia
+            Publisher: Commonwealth of Virginia Department of Mines, Minerals and Energy - Division of Mineral Resources (CVDMME-DMR)
+      Source_Scale_Denominator: 100000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1997
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: CVDMME-DMR Publication 148
+      Source_Contribution: Help file contains information from source map text, notes, references and figures.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Elizabeth V. M. Campbell, Daniel Sheres, and C. R. Berquist, Jr
+          Publication_Date: 2001
+          Title: Digital spatial data for a portion of the Roanoke, VA 1:100,000 30x60 minute quadrangle - Hardy, Goodview, Redwood, Moneta SW 7.5-minute quadrangles
+          Edition: 1st
+          Geospatial_Data_Presentation_Form: shapefile
+          Series_Information:
+            Series_Name: NA
+            Issue_Identification: Unpublished
+          Publication_Information:
+            Publication_Place: Charlottesville, Virginia
+            Publisher: Commonwealth of Virginia Department of Mines, Minerals and Energy - Division of Mineral Resources (CVDMME-DMR)
+      Source_Scale_Denominator: 100000
+      Type_of_Source_Media: digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2001
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: CVDMME-DMR Unpublished
+      Source_Contribution: Features were derived from source data produced by the Commonwealth of Virginia Department of Mines, Minerals and Energy - Division of Mineral Resources.  Source data attribution was used to attribute features, as per the NPS GRE Geology-GIS Geodatabase Data Model v. 1.4.
+    Process_Step:
+      Process_Description: A paper copy of Va Division of Mineral Resources Publication 146 (1997)  was scanned  at 300 ppi. The lines were "heads-up" digitized using Abicas software. The line data were attributed. A second copy of the file was created and all non-connecting lines were removed. This second file was used to create polygons which were then attributed with the formation symbol of the geologic unit represented by the polygon.  A map was created from the data to check the digitizing and attribution.  The line data was converted to ESRI shapefiles and additional attribution added.  Data was reviewed in ESRI ArcMap 8.1.
+      Source_Used_Citation_Abbreviation: CVDMME-DMR Publication 148
+      Process_Date: 20020523
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Spatial Data Section Head
+            Contact_Organization: Va DMME-Division of Mineral Resources
+          Contact_Position: Spatial Data Section Head
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: P O Box 3667
+            City: Charlottesville
+            State_or_Province: Virginia
+            Postal_Code: 22903
+            Country: USA
+          Contact_Voice_Telephone: (804) 951-6342
+          Contact_Facsimile_Telephone: (804) 951-6341
+    Process_Step:
+      Process_Description: Features were produced from Commonwealth of Virginia Department of Mines, Minerals and Energy - Division of Mineral Resources (CVDMME-DMR) digital source data.  Digital source data attribution was used to attribute features as per the NPS GRE Geology-GIS Geodatabase Data Model v. 1.4.  Data Model topological rules were imposed on polygon and line feature classes, as well as with several point features classes.  Positional accuracy was checked with a georeferenced CVDMME-DMR Publication 148 image. Features and table and feature attribution not found in the CVDMME-DMR Unpublished digital source data were captured and derived from CVDMME-DMR Publication 148.  Relationship classes were also used to ensure attribution consistency.  Features were exported from the geodatabase to coverage and shapefile (.SHP) formats.  Tables were exported from the geodatabase to INFO table and DBASEIV (.DBF) formats.  See the NPS GRE Geology-GIS Geodatabase Data Model v. 1.4 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm) for more details.  Features were exported from the geodatabase to coverage and shapefile (.SHP) formats.
+      Process_Date: 20070320
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Andrea Croskrey
+            Contact_Organization: NPS Geologic Resources Division
+          Contact_Position: Geologist/GIS Technician
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 12795 West Alameda Parkway
+            Address: P.O. Box 25287
+            City: Denver
+            State_or_Province: Colorado
+            Postal_Code: 80225-087
+            Country: USA
+          Contact_Voice_Telephone: (303) 969-2148
+          Contact_Facsimile_Telephone: (303) 987-6792
+          Contact_Electronic_Mail_Address: Andrea_Croskrey@nps.gov
+          Hours_of_Service: 9:00 a.m. to 4:00 p.m. (MST), Monday - Friday
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    ESRI_Terms_Description:
+      ESRI_Feature_Type: Simple
+      ESRI_Feature_Geometry: Point
+      ESRI_Topology: TRUE
+      ESRI_Feature_Count: 827
+      Spatial_Index: TRUE
+      Linear_Referencing: FALSE
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 827
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Coordinate_System_Name:
+      Geographic_Coordinate_System_Name: GCS_North_American_1983
+      Projected_Coordinate_System_Name: NAD_1983_UTM_Zone_17N
+    Planar:
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Planar_Distance_Units: meters
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000064
+          Ordinate_Resolution: 0.000064
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 17
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999600
+            Longitude_of_Central_Meridian: -81.000000
+            Latitude_of_Projection_Origin: 0.000000
+            False_Easting: 500000.000000
+            False_Northing: 0.000000
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Overview_Description:
+    Entity_and_Attribute_Overview: Refer to the NPS GRE Geology-GIS Geodatabase Data Model v. 1.4 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm) for detailed data layer (feature class) and table attribute field parameters, definitions and domains, and implemented relationship classes.  A Detailed Description section is not present (above) as standard GIS fields dependent on GIS format (e.g. OBJECTID, SHAPE, FNODE_) are not consistent throughout the GRE deliverable GIS formats (personal geodatabase, coverage and shapefile).
+    Entity_and_Attribute_Detail_Citation: NPS GRE Geology-GIS Geodatabase Data Model v. 1.4. (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm)
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Stephanie O'Meara
+        Contact_Organization: Colorado State University
+      Contact_Position: Research Associate, Geologist/GIS Specialist
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 1201 Oak Ridge Drive, Suite 200
+        City: Fort Collins
+        State_or_Province: Colorado
+        Postal_Code: 80525
+        Country: USA
+      Contact_Voice_Telephone: (970) 225-3584
+      Contact_Facsimile_Telephone: (970) 225-3597
+      Contact_Electronic_Mail_Address: Stephanie_O'Meara@partner.nps.gov
+      Hours_of_Service: 8:00 a.m. to 4:00 p.m. (MST), Monday - Friday
+      Contact_Instructions: GRE data are available at the NPS Data Store: http://science.nature.nps.gov/nrdata
+  Resource_Description: GIS map data available in BOWAGDB.ZIP (9.1 personal geodatabase (.MDB) file), BOWACOV.ZIP (coverage and table export (.E00) files) or BOWASHP.ZIP (shapefile (.SHP) and DBASEIV (.DBF) table files)
+  Distribution_Liability:
+    The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related graphics are not legal documents and are not intended to be used as such.
+
+    The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.  The related graphics are intended to aid the data user in acquiring relevant data; it is not appropriate to use the related graphics as data.
+
+    The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  It is strongly recommended that these data are directly acquired from an NPS server and not indirectly through other sources which may have changed the data in some way.  Although these data have been processed successfully on a computer system at the National Park Service, no warranty, expressed or implied is made regarding the utility of the data on another system or for general scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies to both to individual use of the data and aggregate use with other data.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: GDB
+        Format_Version_Number: ArcGIS 9.1
+        Format_Specification: Personal Geodatabase (.MDB) file with feature class (BOWAATD)
+        File_Decompression_Technique: Compression applied
+        Transfer_Size: 5.01
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://nrdata.nps.gov/bowa/nrdata/geology/gis/bowagdb.zip
+          Access_Instructions: Download the digital geologic-GIS map (Larger Work Citation) metadata (BOWA_GREMAP.XML) or the .ZIP download file (BOWAGDB.ZIP) with the personal geodatabase (.MDB) file containing the feature class.
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: E00
+        Format_Version_Number: ArcGIS 9.1
+        Format_Specification: Coverage Export (.E00) file (BOWAATD.E00)
+        File_Decompression_Technique: Compression applied
+        Transfer_Size: 3.88
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://nrdata.nps.gov/bowa/nrdata/geology/gis/bowacov.zip
+          Access_Instructions: Download the digital geologic-GIS map (Larger Work Citation) metadata (BOWA_GREMAP.XML) or the .ZIP download file (BOWACOV.ZIP) with the coverage export (.E00) file.
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: SHP
+        Format_Version_Number: ArcGIS 9.1
+        Format_Specification: Shapefile (.SHP) file (BOWAATD.SHP)
+        File_Decompression_Technique: Compression applied
+        Transfer_Size: 3.88
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://nrdata.nps.gov/bowa/nrdata/geology/gis/bowashp.zip
+          Access_Instructions: Download the digital geologic-GIS map (Larger Work Citation) metadata (BOWA_GREMAP.XML) or the .ZIP download file (BOWASHP.ZIP) with the shapefile (.SHP) files.
+    Fees: None
+    Ordering_Instructions: Search and download GRE data at: http://science.nature.nps.gov/nrdata
+  Available_Time_Period:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20070320
+Metadata_Reference_Information:
+  Metadata_Date: 20070320
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Andrea Croskrey
+        Contact_Organization: Geologic Resources Division
+      Contact_Position: Geologist/GIS Technician
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 12795 West Alameda Parkway
+        Address: P.O. Box 25287
+        City: Denver
+        State_or_Province: Colorado
+        Postal_Code: 80225-087
+        Country: USA
+      Contact_Voice_Telephone: (303) 969-2148
+      Contact_Facsimile_Telephone: (303) 987-6792
+      Contact_Electronic_Mail_Address: Andrea_Croskrey@nps.gov
+      Hours_of_Service: 9:00 a.m. to 5:00 p.m. (MST), Monday - Friday
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: None
+  Metadata_Extensions:
+    Online_Linkage: http://www.fgdc.gov/metadata/meta_stand.html
+    Profile_Name: FGDC Geospatial Metadata Standards
+  Metadata_Extensions:
+    Online_Linkage: http://nrdata.nps.gov/profiles/nps_profile.xml
+    Profile_Name: NPS NR and GIS Metadata Profile
