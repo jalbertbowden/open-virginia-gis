@@ -1,0 +1,296 @@
+IDENTIFICATION_INFORMATION
+     
+  Citation:
+    Citation_Information:
+      Originator: National Park Service Water Resources Division 
+      Publication_Date: 20010101
+      Title: Appomattox Court House National Historical Park Small-Scale Base GIS Data
+      Geospatial_Data_Presentation_Form: Map 
+      Publication_Information:
+        Publication_Place: Fort Collins, CO
+        Publisher: National Park Service Water Resources Division
+      Other_Citation_Details: The data are comprised of small-scale base GIS 
+        data layers, including roads, hydrography, political boundaries, 
+        trails and other layers as available and appropriate, compiled for 
+        the purpose of displaying the locations of point-based hydrologic 
+        features (water quality monitoring stations, stream gages, industrial
+        discharges, drinking intakes, and water impoundments) proximate to 
+        national park units.  The data are intended to be used as a set to 
+        to ensure spatial alignment.  The accompanying Microsoft Excel file,   
+        sources.xls, lists the data sources for each data layer.  
+
+      Online_Linkage: http://www.nps.gov/gis
+  Description:
+    Abstract:
+      This data set contains small-scale base GIS data layers compiled by the 
+      National Park Service Servicewide Inventory and Monitoring Program and 
+      Water Resources Division for use in a Baseline Water Quality Data 
+      Inventory and Analysis Report that was prepared for the park.  The report 
+      presents the results of surface water quality data retrievals for the park 
+      from six of the United States Environmental Protection Agency's (EPA) 
+      national databases: (1) Storage and Retrieval (STORET) water quality 
+      database management system; (2) River Reach File (RF3) Hydrography; (3) 
+      Industrial Facilities Discharges; (4) Drinking Water Supplies; (5) Water 
+      Gages; and (6) Water Impoundments.  The small-scale GIS data layers were 
+      used to prepare the maps included in the report that depict the locations 
+      of water quality monitoring stations, industrial discharges, drinking 
+      intakes, water gages, and water impoundments.  The data layers included in 
+      the maps (and this dataset) vary depending on availability, but generally 
+      include roads, hydrography, political boundaries, USGS 7.5' minute 
+      quadrangle outlines, hydrologic units, trails, and others as appropriate.  
+      The scales of each layer vary depending on data source but are 
+      generally 1:100,000.
+    Purpose:
+      The small-scale GIS data layers were used to prepare maps included in a 
+      Baseline Water Quality Data Inventory and Analysis Report for the park.  
+      The maps depict the locations of water quality monitoring stations, 
+      industrial discharges, drinking intakes, water gages, and water 
+      impoundments.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20010101
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Unknown
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate:   -78.824
+      East_Bounding_Coordinate:   -78.760
+      North_Bounding_Coordinate:  37.417
+      South_Bounding_Coordinate:  37.367
+  Keywords
+    Theme
+      Theme_Keyword_Thesaurus:  None
+      Theme_Keyword:  GIS
+      Theme_Keyword:  water quality
+      Theme_Keyword:  water
+      Theme_Keyword:  hydrology
+      Theme_Keyword:  hydrography
+    Place
+      Place_Keyword_Thesaurus:  None
+      Place_Keyword:  Appomattox Court House National Historical Park
+      Place_Keyword:  Appomatox
+      Place_Keyword:  VA
+  Access_Constraints: None
+  Use_Constraints:
+    These data are small-scale (generally 1:100,000 or 
+    smaller).  They are intended to be used as a set.  The 
+    data are not intended to be used with other data sets, 
+    particularly larger-scale data, as they may not align 
+    spatially.
+  Point_of_Contact
+    Contact_Information
+      Contact_Organization_Primary
+        Contact_Organization:  National Park Service Water Resources Division
+        Contact_Person:  Dean Tucker
+      Contact_Address
+        Address_Type:  mailing and physical address
+        Address: NPS Water Resources Division, 1201 Oak Ridge Drive, Suite 250
+        City:  Fort Collins
+        State_or_Province:  Colorado
+        Postal_Code: 80525
+        Country:  USA
+      Contact_Voice_Telephone: 970-225-3516
+      Contact_Facsimile_Telephone: 970-225-9965
+      Contact_Electronic_Mail_Address:  dean_tucker@nps.gov
+      Hours_of_Service:  M-F 0700 - 1600 (Mountain)
+  Native_Data_Set_Environment: ArcView Shapefile
+     
+DATA_QUALITY_INFORMATION
+     
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      These data were compiled from several currently available data sources.  
+      Typically, 1:100,000 Census Bureau 1992 TIGER line files, USGS 1:24,000 
+      analog quadrangles and USGS 1:100,000 analog quadrangles were used for base 
+      layer data development.  In addition, six of the United States Environmental 
+      Protection Agency's (EPA) databases: (1) Storage and Retrieval (STORET) water 
+      quality database management system; (2) River Reach File (RF3) Hydrography; 
+      (3)Industrial Facilities Discharges; (4) Drinking Water Supplies; (5) Water Gages; 
+      and (6) Water Impoundments were used for data development.  The accompanying 
+      Microsoft Excel file, sources.xls, lists the data sources for each data layer.  
+      Therefore, the attribute accuracy meets the standards developed for each source 
+      data type. 
+  Logical_Consistency_Report:
+    ArcView shapefiles were converted from Atlas*GIS.  The ESRI 
+    Avenue script EXPCLEAN.AVE was used to ensure logical consistency 
+    for each shapefile.
+  Completeness_Report:
+    Appomattox Court House National Historical Park and environs water resources.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: 
+        These data were compiled from several currently available data sources.  Typically, 
+        1:100,000 Census Bureau 1992 TIGER line files, USGS 1:24,000 analog quadrangles and 
+        USGS 1:100,000 analog quadrangles were used for base layer data development.  In 
+        addition, six of the United States Environmental Protection Agency's (EPA) databases: 
+        (1) Storage and Retrieval (STORET) water quality database management system; (2) River 
+        Reach File (RF3) Hydrography; (3)Industrial Facilities Discharges; (4) Drinking Water 
+        Supplies; (5) Water Gages; and (6) Water Impoundments were used for data development.  
+        The accompanying Microsoft Excel file, sources.xls, lists the data sources for each 
+        data layer.  Therefore, the horizontal positional accuracy meets the standards 
+        developed for each source data type. 
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: National Park Service
+          Publication_Date: 2000
+          Title: Appomattox Court House National Historical Park Small-Scale Base GIS Data
+          Geospatial_Data_Presentation_Form: map
+          Publication_Information:
+            Publication_Place: Fort Collins, CO
+            Publisher: National Park Service Water Resources Division
+      Source_Scale_Denominator: varies
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 200004
+        Source_Currentness_Reference: Date data conversion started
+      Source_Citation_Abbreviation: small-scale base GIS data
+      Source_Contribution: small-scale base GIS data
+    Process_Step:
+      Process_Description:
+        These data were translated from Atlas GIS to ArcView using 
+        the Atlas GIS Export Layer function.  After translation, the 
+        ESRI Avenue script EXPORTCLEAN.AVE was executed.
+      Source_Used_Citation_Abbreviation: small-scale base GIS data
+      Process_Date: 20000409
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: NC State University
+            Contact_Person: Bill Slocumb
+          Contact_Position: Research Associate
+          Contact_Address:
+            Address_Type: mailing address
+            Address: NCSU Campus Box 7106
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27695-7106
+            Country: US
+          Contact_Voice_Telephone: 919-515-3432
+          Contact_Facsimile_Telephone: 919-515-3439
+          Contact_Electronic_Mail_Address: bill_slocumb@ncsu.edu
+          Hours_of_Service: 0900-1700
+     
+SPATIAL_DATA_ORGANIZATION_INFORMATION
+     
+  Direct_Spatial_Reference_Method: vector
+     
+SPATIAL_REFERENCE_INFORMATION
+     
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number:  17 
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: .1
+          Ordinate_Resolution: .1
+        Planar_Distance_Units: Meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio: 294.98
+     
+ENTITY_AND_ATTRIBUTE_INFORMATION
+     
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      These data were compiled from several currently available data sources.  
+      Typically, 1:100,000 Census Bureau 1992 TIGER line files, USGS 1:24,000 
+      analog quadrangles and USGS 1:100,000 analog quadrangles were used for base 
+      layer data development.  In addition, six of the United States Environmental 
+      Protection Agency's (EPA) databases: (1) Storage and Retrieval (STORET) water 
+      quality database management system; (2) River Reach File (RF3) Hydrography; 
+      (3)Industrial Facilities Discharges; (4) Drinking Water Supplies; (5) Water Gages; 
+      and (6) Water Impoundments were used for water quality data development.  The 
+      accompanying Microsoft Excel file, sources.xls, lists the data sources for each data 
+      layer.  Therefore, the attribute accuracy meets the standards developed for each source 
+      data type. 
+     
+DISTRIBUTION_INFORMATION
+     
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: National Park Service Water Resources Division
+        Contact_Person: Dean Tucker
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: NPS Water Resources Division, 1201 Oak Ridge Drive, Suite 250
+        City: Fort Collins
+        State_or_Province: CO
+        Postal_Code: 80525
+        Country: US
+      Contact_Voice_Telephone: 970-225-3516
+      Contact_Facsimile_Telephone: 970-225-9965
+      Contact_Electronic_Mail_Address: dean_tucker@nps.gov
+      Hours_of_Service: M-F 0700-1600 (Mountain)
+  Resource_Description:
+    Appomattox Court House National Historical Park Water Quality Data
+  Distribution_Liability:
+    The National Park Service shall not be held liable for improper or incorrect 
+    use of the data described and/or contained herein.  These data and related 
+    graphics (i.e. "GIF or JPG" format files) are not legal documents and are 
+    not intended to be used as such.  The information contained in these data is 
+    dynamic and may change over time.  The data are not better than the original 
+    sources from which they were derived.  It is the responsibility of the data 
+    user to use the data appropriately and consistent within the limitations of 
+    geospatial data in general and these data in particular.  The related 
+    graphics are intended to aid the data user in acquiring relevant data; it is 
+    not appropriate to use the related graphics as data.  The National Park 
+    Service gives no warranty, expressed or implied, as to the accuracy, 
+    reliability, or completeness of these data.  It is strongly recommended that 
+    these data are directly acquired from an NPS server and not indirectly 
+    through other sources which may have changed the data in some  way.  
+    Although these data have been processed successfully on computer 
+    systems at the National Park Service, no warranty expressed or implied is 
+    made regarding the utility of the data on other systems for general or 
+    scientific purposes, nor shall the act of distribution constitute any such 
+    warranty.  This disclaimer applies both to individual use of the data and 
+    aggregate use with other data.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name:ARCView shapefile
+      Digital_Transfer_Option
+        Online_Option
+          Computer_Contact_Information
+            Network_Address
+              Network_Resource_Name: http://www.nps.gov/gis
+    Ordering_Instructions: Data is available via ftp from http://www.nps.gov/gis
+    Fees: none if data is downloaded via ftp.
+     
+METADATA_REFERENCE_INFORMATION
+     
+  Metadata_Date: 20010101
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC State University
+        Contact_Person: Bill Slocumb
+      Contact_Position: Research Associate
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: NCSU Campus Box 7106
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27695-7106
+        Country: US
+      Contact_Voice_Telephone: 919-515-3432
+      Contact_Facsimile_Telephone: 919-515-3439
+      Contact_Electronic_Mail_Address: Bill_Slocumb@ncsu.edu
+      Hours_of_Service: 0900-1600
+  Metadata_Standard_Name: FGDC CSDGM
+  Metadata_Standard_Version: FGDC-STD-001-1998
+     
+
