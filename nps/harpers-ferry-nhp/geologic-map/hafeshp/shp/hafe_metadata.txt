@@ -1,0 +1,361 @@
+NPS_Information:
+  Metadata_Purpose: CSDGM
+  Metadata_Purpose: NPS
+  Metadata_Purpose: OnlineData
+  Metadata_Purpose: IMInventory
+  NPS_Unit_Information:
+    NPS_Unit_Type: Park
+    NPS_Unit_AlphaCode: HAFE
+  NPS_Unit_Information:
+    NPS_Unit_Type: Office
+    NPS_Unit_AlphaCode: CHOH
+  NPS_Unit_Information:
+    NPS_Unit_Type: Park
+    NPS_Unit_AlphaCode: GRD
+  Datacat_Information:
+    Datacat_Edit_Date:
+      Single_Date/Time:
+        Calendar_Date: 20100128
+  Data_Store_Information:
+    Data_Steward:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Stephanie O'Meara
+          Contact_Organization: Colorado State University
+        Contact_Position: Research Associate, Geologist/GIS Specialist
+        Contact_Address:
+          Address_Type: mailing and physical address
+          Address: 1201 Oak Ridge Drive, Suite 200
+          City: Fort Collins
+          State_or_Province: Colorado
+          Postal_Code: 80525
+          Country: USA
+        Contact_Voice_Telephone: (970) 491-6655
+        Contact_Facsimile_Telephone: (970) 225-3597
+        Contact_Electronic_Mail_Address: stephanie_omeara@colostate.edu
+        Hours_of_Service: 9:00 a.m. to 5:00 p.m. (MST), Monday - Friday
+    Data_Category: Geology
+    Data_Site: NR-GIS
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: National Park Service (NPS) Geologic Resources Inventory (GRI) program
+      Publication_Date: 20100128
+      Title: Digital Geologic Map of Harpers Ferry National Historical Park and Vicinity, Maryland and West Virginia (NPS, GRD, GRI, HAFE, HAFE digital map)
+      Edition: 1st
+      Geospatial_Data_Presentation_Form: map
+      Online_Linkage: http://nrdata.nps.gov/hafe/nrdata/geology/gis/hafegdb.zip
+      Online_Linkage: http://nrdata.nps.gov/hafe/nrdata/geology/gis/hafeshp.zip
+  Description:
+    Abstract: The Digital Geologic Map of Harpers Ferry National Historical Park and Vicinity, Maryland and West Virginia is composed of GIS data layers complete with ArcMap 9.3 layer (.LYR) files, two ancillary GIS tables, a Map PDF document with ancillary map text, figures and tables, a FGDC metadata record and a 9.3 ArcMap (.MXD) Document that displays the digital map in 9.3 ArcGIS.  The data were completed as a component of the Geologic Resources Inventory (GRI) program, a National Park Service (NPS) Inventory and Monitoring (I&M) funded program that is administered by the NPS Geologic Resources Division (GRD).  Source geologic maps and data used to complete this GRI digital dataset were provided by the following: U.S. Geological Survey and Maryland Geological Survey.  Detailed information concerning the sources used and their contribution the GRI product are listed in the Source Citation sections(s) of this metadata record (hafe_metadata.txt; available at http://nrdata.nps.gov/hafe/nrdata/geology/gis/hafe_metadata.xml).  All GIS and ancillary tables were produced as per the NPS GRI Geology-GIS Geodatabase Data Model v. 2.1. (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm).  The GIS data is available as a 9.3 personal geodatabase (hafe_geology.mdb), and as shapefile (.SHP) and DBASEIV (.DBF) table files.  The GIS data projection is NAD83, UTM Zone 18N.  The data is within the area of interest of Harpers Ferry National Historical Park, as well as Chesapeake and Ohio Canal National Historical Park.
+    Purpose: The data are intended to assist NPS personnel in the protection and management of Harpers Ferry National Historical Park.
+    Supplemental_Information: The data layers (feature classes) that comprise the Digital Geologic Map of Harpers Ferry National Historical Park and Vicinity, Maryland and West Virginia include: HAFEGLG (Geologic Units), HAFEGLGA (Geologic Contacts), HAFESUR (Surficial Units), HAFESURA (Surficial Contacts) and HAFEFLT (Faults).  There are three additional ancillary map components, the Geologic Unit Information (HAFEUNIT) Table, the Source Map Information (HAFEMAP) Table and the Map PDF Document (hafe_geology.pdf).  Refer to the NPS GRI Geology-GIS Geodatabase Data Model v. 2.1 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm) for detailed data layer (feature class) and table specifications including attribute field parameters, definitions and domains, and implemented topology rules and relationship classes.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20100128
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -77.7930220405582
+      East_Bounding_Coordinate: -77.6249999952931
+      North_Bounding_Coordinate: 39.3750097624296
+      South_Bounding_Coordinate: 39.2794926949596
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: none
+      Theme_Keyword: Harpers Ferry National Historical Park
+      Theme_Keyword: HAFE
+      Theme_Keyword: Chesapeake and Ohio Canal National Historical Park
+      Theme_Keyword: CHOH
+      Theme_Keyword: Maryland
+      Theme_Keyword: West Virginia
+      Theme_Keyword: digital data
+      Theme_Keyword: GIS data
+      Theme_Keyword: geodatabase
+      Theme_Keyword: personal geodatabase
+      Theme_Keyword: shapefile
+      Theme_Keyword: DBASE IV tables
+      Theme_Keyword: geology
+      Theme_Keyword: digital geologic map
+      Theme_Keyword: digital geologic-GIS map
+      Theme_Keyword: geologic map
+      Theme_Keyword: geologic-GIS map
+      Theme_Keyword: geologic-GIS map
+      Theme_Keyword: Geology Help Map Document
+      Theme_Keyword: geologic unit descriptions
+      Theme_Keyword: geologic units
+      Theme_Keyword: Geologic Unit Information Table
+      Theme_Keyword: UNIT table
+      Theme_Keyword: Source Map Information Table
+      Theme_Keyword: MAP table
+      Theme_Keyword: source geologic maps
+      Theme_Keyword: source maps
+      Theme_Keyword: HAFEGLG (Geologic Units)
+      Theme_Keyword: HAFEGLGA (Geologic Contacts)
+      Theme_Keyword: HAFESUR (Surficial Units)
+      Theme_Keyword: HAFESURA (Surficial Contacts)
+      Theme_Keyword: HAFEFLT (Faults)
+      Theme_Keyword: National Park Service
+      Theme_Keyword: NPS
+      Theme_Keyword: Geologic Resources Division
+      Theme_Keyword: GRD
+      Theme_Keyword: Geologic Resources Inventory
+      Theme_Keyword: GRI
+      Theme_Keyword: Geologic Resource Evaluation
+      Theme_Keyword: GRE
+    Place:
+      Place_Keyword_Thesaurus: none
+      Place_Keyword: Harpers Ferry National Historical Park
+      Place_Keyword: HAFE
+      Place_Keyword: Chesapeake and Ohio Canal National Historical Park
+      Place_Keyword: CHOH
+      Place_Keyword: Maryland
+      Place_Keyword: West Virginia
+      Place_Keyword: United States
+      Place_Keyword: US
+      Place_Keyword: USA
+      Place_Keyword: North America
+    Place:
+      Place_Keyword_Thesaurus: National Park System Unit Code Thesaurus
+      Place_Keyword: HAFE
+      Place_Keyword: CHOH
+      Place_Keyword: GRD
+    Place:
+      Place_Keyword_Thesaurus: National Park System Unit Name Thesaurus
+      Place_Keyword: Harpers Ferry National Historical Park
+      Place_Keyword: Chesapeake and Ohio Canal National Historical Park
+      Place_Keyword: Geologic Resources Division
+    Theme:
+      Theme_Keyword_Thesaurus: National Park Service Theme Category Thesaurus
+      Theme_Keyword: Geology
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: Environment
+      Theme_Keyword: Geoscientific Information
+  Access_Constraints: None
+  Use_Constraints: Not for use at scale greater than 1:24,000 (source map scale)
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Stephanie O'Meara
+        Contact_Organization: Colorado State University
+      Contact_Position: Research Associate, Geologist/GIS Specialist
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 1201 Oak Ridge Drive, Suite 200
+        City: Fort Collins
+        State_or_Province: Colorado
+        Postal_Code: 80525
+        Country: USA
+      Contact_Voice_Telephone: (970) 491-6655
+      Contact_Facsimile_Telephone: (970) 225-3597
+      Contact_Electronic_Mail_Address: stephanie_omeara@colostate.edu
+      Hours_of_Service: 9:00 a.m. to 5:00 p.m. (MST), Monday - Friday
+  Data_Set_Credit: Philip M. Reiker and Stephanie O'Meara (NPS Geologic Resources Division and Colorado State University)
+  Native_Data_Set_Environment: ESRI ArcGIS 9.3 and Microsoft Windows XP
+  Cross_Reference:
+    Citation_Information:
+      Originator: National Park Service Geologic Resources Inventory (GRI) program
+      Publication_Date: 20100128
+      Title: Metadata for the Digital Geologic Map of Harpers Ferry National Historical Park and Vicinity, Maryland and West Virginia (NPS, GRD, GRI, HAFE, HAFE digital map)
+      Edition: 1st
+      Geospatial_Data_Presentation_Form: document
+      Online_Linkage: http://nrdata.nps.gov/hafe/nrdata/geology/gis/hafe_metadata.xml
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Feature and table attribution was derived and checked with the source map(s).  Attribution was checked (QCd) for errors.  Users of this data are advised to FULLY and CAREFULLY READ the "DISTRIBUTION LIABILITY" section of this metadata before using the data.
+  Logical_Consistency_Report: GIS data in 9.3 personal geodatabase (.MDB), and shapefile (.SHP) and DBASEIV (.DBF) table file formats.
+  Completeness_Report: All data is considered complete to the extent of the source map(s).
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Data, produced from digital source data and digitized from a georeferenced source map .TIF image(s) (300dpi), is assumed to meet National Map Accuracy Standards.  The PRECISION of any Shapefile (.SHP) files is DOUBLE.  Coordinate tics on the georeferenced (registered and rectified) source map image(s) were checked against control points that had the exact specified coordinates of the tic.  The direct distance between the image tic and its control point were measured.  All measured distances were less than 50% of the required distance to meet National Map Accuracy Standards (1/50th of an inch for maps at 1:20,000 scale and smaller).  Features were checked (QCd) after digitizing for positional accuracy errors using the georeferenced source map image.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Southworth, S., Brezinski, D.K., Orndorff, R.K., Chirico, P.K., and Lagueux, K.
+          Publication_Date: 2001
+          Title: Digital Geologic Map and Database of the Chesapeake and Ohio Canal National Historic Park, District of Columbia, Virginia, Maryland, and West Virginia
+          Edition: 1st
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Report Series
+            Issue_Identification: OF-01-188A
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: U.S. Geological Survey (USGS) and Maryland Geological Survey (MGS)
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: digital data and paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2001
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: USGS and MGS OF-01-188A
+      Source_Contribution: Geologic features were derived from source digital data. In addition, geologic features not present with the digital data were  digitized using a .TIF image of the source map that was scanned at 300dpi and georeferenced in NAD83 UTM.  The source map scan was also used to attribute features, as well as to check (QC) line quality, both positionally and spatially, and feature attribution.  Ancillary source map text, including unit descriptions, and graphics, if present, were captured, formatted and added to the map-related pdf file.  See the Process Step section for additional information.
+    Process_Step:
+      Process_Description: 1.) Geologic features were captured from an inherited .e00 file, co_beds.e00, and digitized from a georeferenced image if not present in the source digital data.  Features were passed to their data model layer, then 'cropped' to the extent of the battlefield's present USGS 7.5’ quadrangles of interest, Williamsport, Keedysville and Shepherdstown.  A .pdf file of the published USGS source map was used to check attribution, as per the NPS GIS-Geology Coverage/Shapefile Data Model, and to check the positional and attribute accuracy of the data.  Features were exported from each data layer coverage to shapefile (.SHP) format.  Tables were exported from INFO tables to DBASEIV (.DBF) file formats.
+      Source_Used_Citation_Abbreviation: USGS and MGS OF-01-188A
+      Process_Date: 20060126
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Stephanie O'Meara
+            Contact_Organization: Colorado State University
+          Contact_Position: Research Associate, Geologist/GIS Specialist
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 1201 Oak Ridge Drive, Suite 200
+            City: Fort Collins
+            State_or_Province: Colorado
+            Postal_Code: 80525-5589
+            Country: USA
+          Contact_Voice_Telephone: (970) 491-6655
+          Contact_Facsimile_Telephone: (970) 225-3597
+          Contact_Electronic_Mail_Address: stephanie.omeara@colostate.edu
+          Hours_of_Service: 9:00 a.m. to 5:00 p.m. (MST), Monday - Friday
+    Process_Step:
+      Process_Description: 1.) GIS data in coverage format in the NPS GRI Geology-GIS Coverage/Shapefile Data Model was migrated to a 9.3 personal geodatabase consisting of "empty" NPS GRI Geology-GIS Geodatabase Data Model v. 2.1 schema. 2.) Data model topology was then added and validated, and any topological errors corrected.  If applicable, additional attribute fields were populated from already existing attribution or by using the source map. 3.) GIS feature classes were then exported from the geodatabase to shapefile (.SHP) format, and GIS tables exported from the geodatabase to DBASEIV (.DBF) format.  4.) The map-related PDF document was produced from textual information and figures present on the source maps.  This information was initially captured in a GRI formatted Windows Help (.HLP) file.  This file was imported into a template Help & Manual (.HMX) file and reformatted and edited, then compiled to produce the .PDF map document.  Additional information, if available from existing or new source maps, was then added.  Any compilation errors were then checked and corrected and the document was reviewed for content, usability and grammatical errors.
+      Source_Used_Citation_Abbreviation: GRI coverage and table data, and Windows Help (.HLP) file.
+      Process_Date: 20100128
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Philip M. Reiker
+            Contact_Organization: NPS Geologic Resources Division
+          Contact_Position: Geologist/GIS Specialist
+          Contact_Address:
+            Address_Type: mailing address
+            Address: P.O. Box 25287
+            City: Denver
+            State_or_Province: Colorado
+            Postal_Code: 80225-0287
+            Country: USA
+          Contact_Voice_Telephone: (303) 969-2171
+          Contact_Facsimile_Telephone: (303) 987-6792
+          Contact_Electronic_Mail_Address: philip_reiker@partner.nps.gov
+          Hours_of_Service: 9:00 a.m. to 5:00 p.m. (MST), Monday - Friday
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Coordinate_System_Name:
+      Geographic_Coordinate_System_Name: GCS_North_American_1983
+      Projected_Coordinate_System_Name: NAD_1983_UTM_Zone_18N
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 18
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999600
+            Longitude_of_Central_Meridian: -75.0
+            Latitude_of_Projection_Origin: 0.000000
+            False_Easting: 500000.000000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Planar_Distance_Units: meters
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000007
+          Ordinate_Resolution: 0.000007
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Overview_Description:
+    Entity_and_Attribute_Overview: Refer to the NPS GRI Geology-GIS Geodatabase Data Model v. 2.1 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm) for detailed feature class and table attribute field parameters, definitions and domains, and implemented relationship classes, as well as for implemented feature class topology rules.
+    Entity_and_Attribute_Detail_Citation: NPS GRI Geology-GIS Geodatabase Data Model v. 2.1. (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm)
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Stephanie O'Meara
+        Contact_Organization: Colorado State University
+      Contact_Position: Research Associate, Geologist/GIS Specialist
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 1201 Oak Ridge Drive, Suite 200
+        City: Fort Collins
+        State_or_Province: Colorado
+        Postal_Code: 80525
+        Country: USA
+      Contact_Voice_Telephone: (970) 491-6655
+      Contact_Facsimile_Telephone: (970) 225-3597
+      Contact_Electronic_Mail_Address: stephanie_omeara@colostate.edu
+      Hours_of_Service: 8:00 a.m. to 4:00 p.m. (MST), Monday - Friday
+      Contact_Instructions: GRI data are available at the NPS Data Store: http://science.nature.nps.gov/nrdata
+  Resource_Description: GIS map data available in HAFEGDB.ZIP (9.3 personal geodatabase (.MDB) file) or HAFESHP.ZIP (shapefile (.SHP) and DBASEIV (.DBF) table files)
+  Distribution_Liability:
+    The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related graphics are not legal documents and are not intended to be used as such.
+
+    The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.  The related graphics are intended to aid the data user in acquiring relevant data; it is not appropriate to use the related graphics as data.
+
+    The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  It is strongly recommended that these data are directly acquired from an NPS server and not indirectly through other sources which may have changed the data in some way.  Although these data have been processed successfully on a computer system at the National Park Service, no warranty, expressed or implied is made regarding the utility of the data on another system or for general scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies to both to individual use of the data and aggregate use with other data.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: GDB
+        Format_Version_Number: ArcGIS 9.3
+        Format_Specification: Personal Geodatabase (.MDB) file
+        File_Decompression_Technique: Compression applied
+        Transfer_Size: 3.66
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://nrdata.nps.gov/hafe/nrdata/geology/gis/hafegdb.zip
+          Access_Instructions: Download the digital geologic-GIS map metadata (hafe_metadata.xml) or the .ZIP download file (HAFEGDB.ZIP) with the personal geodatabase (.MDB) file (hafe_geology.mdb).
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: SHP
+        Format_Version_Number: ArcGIS 9.3
+        Format_Specification: Shapefile (.SHP) and DBASEIV (.DBF) table files
+        File_Decompression_Technique: Compression applied
+        Transfer_Size: 3.41
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://nrdata.nps.gov/hafe/nrdata/geology/gis/hafeshp.zip
+          Access_Instructions: Download the digital geologic-GIS map metadata (hafe_metadata.xml) or the .ZIP download file (HAFESHP.ZIP) with Shapefile (.SHP) and DBASEIV (.DBF) data.
+    Fees: None
+    Ordering_Instructions: Search and download GRI data at: http://science.nature.nps.gov/nrdata
+  Available_Time_Period:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20100128
+Metadata_Reference_Information:
+  Metadata_Date: 20100128
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Stephanie O'Meara
+        Contact_Organization: Colorado State University
+      Contact_Position: Research Associate, Geologist/GIS Specialist
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 1201 Oak Ridge Drive, Suite 200
+        City: Fort Collins
+        State_or_Province: Colorado
+        Postal_Code: 80525-5589
+        Country: USA
+      Contact_Voice_Telephone: (970) 491-6655
+      Contact_Facsimile_Telephone: (970) 225-3597
+      Contact_Electronic_Mail_Address: stephanie.omeara@colostate.edu
+      Hours_of_Service: 9:00 a.m. to 5:00 p.m. (MST), Monday - Friday
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: None
+  Metadata_Extensions:
+    Online_Linkage: http://www.fgdc.gov/metadata/meta_stand.html
+    Profile_Name: FGDC Geospatial Metadata Standards
+  Metadata_Extensions:
+    Online_Linkage: http://nrdata.nps.gov/profiles/nps_profile.xml
+    Profile_Name: NPS NR and GIS Metadata Profile
