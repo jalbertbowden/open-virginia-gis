@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://earth.google.com/kml/2.1'>
+<Document>
+ <name>VA-VAS-H3G8 Crystal Springs 4-21-2014 0000</name>
+ <open>1</open>
+ <Style id='sh_grn-pushpin'>
+     <IconStyle>
+         <scale>.5</scale>
+         <Icon>
+             <href>http://geomac.usgs.gov/images/flame1.gif</href>
+         </Icon>
+         <hotSpot x='20' y='2' xunits='pixels' yunits='pixels'/>
+     </IconStyle>
+ </Style>
+ <Style id='sn_grn-pushpin'>
+     <IconStyle>
+         <scale>.5</scale>
+         <Icon>
+             <href>http://geomac.usgs.gov/images/flame1.gif</href>
+         </Icon>
+         <hotSpot x='20' y='2' xunits='pixels' yunits='pixels'/>
+     </IconStyle>
+ </Style>
+ <StyleMap id='msn_grn-pushpin'>
+     <Pair>
+         <key>normal</key>
+         <styleUrl>#sn_grn-pushpin</styleUrl>
+     </Pair>
+     <Pair>
+         <key>highlight</key>
+         <styleUrl>#sh_grn-pushpin</styleUrl>
+     </Pair>
+ </StyleMap>
+ <Style id='polyOne'>
+     <LineStyle>
+         <color>ff0000ff</color>
+         <width>3</width>
+     </LineStyle>
+     <PolyStyle>
+         <fill>0</fill>
+     </PolyStyle>
+ </Style>
+ <Style id='lineOne'>
+     <LineStyle>
+         <color>ff0000ff</color>
+         <width>2</width>
+     </LineStyle>
+  </Style>
+ <Placemark>
+     <name>VA-VAS-H3G8 Crystal Springs 4-21-2014 0000</name>
+     <description>
+         <![CDATA[
+             <a href='http://www.geomac.gov' target='_blank'><img src='http://wildfire.cr.usgs.gov/geomac/images/geomac.gif' width='144' height='42' /></a><br />
+             Agency: State Agency<br />
+             Unit Identifer: VA-VAS<br />
+             Fire Number: H3G8<br />
+             Fire Name: Crystal Springs<br />
+             Fire Name (if in complex):  <br />
+            Acres: 23.27<br />
+             Perimeter Date: 4/21/2014<br />
+             Perimeter Time: 0000<br />
+             Comments: WFDSS; GPS ground<br />
+             Incident Number:  <br />
+             <a href='http://www.nifc.gov/fireInfo/nfn.htm' target='_blank'>National Fire News</a><br />
+             <a href='http://www.geomac.gov/' target='_blank'>Geomac Wildland Fire Support</a><br />
+             <a href='http://inciweb.nwcg.gov/incident/3841' target='_blank'>Inciweb</a>
+         ]]>
+     </description>
+     <styleUrl>#msn_grn-pushpin</styleUrl>
+     <Point>
+         <coordinates>
+             -78.8197174487715,38.1193072601838,0</coordinates>
+     </Point>
+     <LookAt>
+      <longitude>-78.8197174487715</longitude>
+      <latitude>38.1193072601838</latitude>
+      <altitude>0</altitude>
+      <range>40000</range>
+     </LookAt>
+ </Placemark>
+ <Placemark>
+     <name>VA-VAS-H3G8 Crystal Springs 4-21-2014 0000</name>
+     <styleUrl>#polyOne</styleUrl>
+         <Polygon>
+             <outerBoundaryIs>
+                 <LinearRing>
+             <extrude>0</extrude>
+             <tessellate>1</tessellate>
+             <altitudeMode>clampToGround</altitudeMode>
+             <coordinates>
+                -78.81905,38.1207,0
+                -78.81894,38.12065,0
+                -78.8187,38.12044,0
+                -78.81859,38.1204,0
+                -78.8185,38.12033,0
+                -78.81844,38.12025,0
+                -78.81833,38.12029,0
+                -78.81791,38.12011,0
+                -78.81792,38.12,0
+                -78.81768,38.11993,0
+                -78.81758,38.11987,0
+                -78.81754,38.11977,0
+                -78.81747,38.11968,0
+                -78.8175,38.11959,0
+                -78.81748,38.11947,0
+                -78.81771,38.11942,0
+                -78.81783,38.11943,0
+                -78.81782,38.11924,0
+                -78.81779,38.11915,0
+                -78.81776,38.11905,0
+                -78.8177,38.11896,0
+                -78.81772,38.11887,0
+                -78.81778,38.11879,0
+                -78.81787,38.11872,0
+                -78.81779,38.11853,0
+                -78.81779,38.11843,0
+                -78.81771,38.11836,0
+                -78.81767,38.11818,0
+                -78.8177,38.11809,0
+                -78.81776,38.11801,0
+                -78.81786,38.11797,0
+                -78.81798,38.11795,0
+                -78.81809,38.11797,0
+                -78.81821,38.11797,0
+                -78.81855,38.11789,0
+                -78.81866,38.11794,0
+                -78.81878,38.11796,0
+                -78.81916,38.11793,0
+                -78.81926,38.11789,0
+                -78.81938,38.11788,0
+                -78.81949,38.11782,0
+                -78.81973,38.11786,0
+                -78.8198,38.11794,0
+                -78.81992,38.11798,0
+                -78.82003,38.118,0
+                -78.82014,38.11799,0
+                -78.82038,38.11805,0
+                -78.82041,38.11815,0
+                -78.82051,38.11811,0
+                -78.82061,38.11817,0
+                -78.82085,38.1182,0
+                -78.82084,38.11839,0
+                -78.82102,38.11852,0
+                -78.82107,38.1186,0
+                -78.82108,38.11869,0
+                -78.82113,38.11889,0
+                -78.82118,38.11897,0
+                -78.82128,38.11901,0
+                -78.82129,38.11911,0
+                -78.82135,38.11919,0
+                -78.82143,38.11922,0
+                -78.82151,38.11921,0
+                -78.82159,38.11922,0
+                -78.82194,38.11916,0
+                -78.82214,38.1191,0
+                -78.82227,38.11911,0
+                -78.8223,38.11914,0
+                -78.8224,38.11914,0
+                -78.82247,38.11912,0
+                -78.82252,38.11917,0
+                -78.8225,38.11926,0
+                -78.82241,38.11933,0
+                -78.82239,38.11942,0
+                -78.8224,38.11951,0
+                -78.82233,38.11959,0
+                -78.8223,38.11968,0
+                -78.82217,38.11984,0
+                -78.8222,38.11993,0
+                -78.82212,38.12001,0
+                -78.82201,38.12005,0
+                -78.82183,38.12018,0
+                -78.82169,38.12033,0
+                -78.82159,38.12038,0
+                -78.8215,38.12046,0
+                -78.82124,38.1204,0
+                -78.82103,38.12033,0
+                -78.82088,38.12033,0
+                -78.82081,38.12042,0
+                -78.82071,38.12046,0
+                -78.82046,38.12048,0
+                -78.82022,38.12053,0
+                -78.81988,38.12064,0
+                -78.81953,38.12067,0
+                -78.81941,38.1207,0
+                -78.81929,38.12069,0
+                -78.81918,38.12072,0
+                -78.81905,38.1207,0</coordinates>
+         </LinearRing>
+       </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+</Document>
+</kml>
