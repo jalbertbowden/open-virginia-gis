@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+<NPS_Info>
+<MetaPurp>CSDGM</MetaPurp>
+<MetaPurp>NPS</MetaPurp>
+<MetaPurp>OnlineData</MetaPurp>
+<MetaPurp>IMInventory</MetaPurp>
+<NPS_Unit>
+<UnitType>Park</UnitType>
+<UnitCode>SHEN</UnitCode>
+</NPS_Unit>
+<NPS_Unit>
+<UnitType>Office</UnitType>
+<UnitCode>GRD</UnitCode>
+</NPS_Unit>
+<NPS_Unit>
+<UnitType>Office</UnitType>
+<UnitCode>GRI</UnitCode>
+</NPS_Unit>
+<DSC_Info>
+<Cat_Date>
+<sngdate>
+<caldate>20091104</caldate>
+</sngdate>
+</Cat_Date>
+</DSC_Info>
+<DatStore>
+<DSteward>
+<cntinfo>
+<cntperp>
+<cntper>Stephanie O&apos;Meara</cntper>
+<cntorg>Colorado State University</cntorg>
+</cntperp>
+<cntpos>Research Associate, Geologist/GIS Specialist/Data Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1201 Oak Ridge Drive, Suite 200</address>
+<city>Fort Collins</city>
+<state>Colorado</state>
+<postal>80525</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 491-6655</cntvoice>
+<cntfax>(970) 225-3597</cntfax>
+<cntemail>stephanie_omeara@colostate.edu</cntemail>
+<hours>9:00 a.m. to 5:00 p.m. (MST), Monday - Friday</hours>
+</cntinfo>
+</DSteward>
+<Category>Geology</Category>
+<DataSite>NR-GIS</DataSite>
+</DatStore>
+</NPS_Info>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>National Park Service (NPS) Geologic Resources Inventory (GRI) program</origin>
+<pubdate>20091104</pubdate>
+<title>Unpublished Digital Geologic Map of Shenandoah National Park and Vicinity, Virginia (NPS, GRD, GRI, SHEN, SHEN digital map) adapted from the U.S. Geological Survey Open-File map by Southworth, Aleinikoff, Bailey, Burton, Crider, Hackley, Smoot and Tollo (2009)</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<onlink>http://nrdata.nps.gov/shen/nrdata/geology/gis/shengdb.zip</onlink>
+<onlink>http://nrdata.nps.gov/shen/nrdata/geology/gis/shenshp.zip</onlink>
+<onlink>http://nrdata.nps.gov/shen/nrdata/geology/gis/shenkml.zip</onlink>
+<onlink>http://nrdata.nps.gov/shen/nrdata/geology/gis/shen_metadata.xml</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The Unpublished Digital Geologic Map of Shenandoah National Park and Vicinity, Virginia is composed of GIS data layers complete with ArcMap 9.3 layer (.LYR) files, two ancillary GIS tables, a Map PDF document with ancillary map text, figures and tables, a FGDC metadata record and a 9.3 ArcMap (.MXD) Document that displays the digital map in 9.3 ArcGIS.  The data is also available as a 2.2 KMZ/KML file for use in Google Earth.  Google Earth software is available for free at: http://www.google.com/earth/index.html.  Users are encouraged to only use the Google Earth data for basic visualization, and to use the GIS data for any type of data analysis or investigation.  The data were completed as a component of the Geologic Resources Inventory (GRI) program, a National Park Service (NPS) Inventory and Monitoring (I&amp;M) funded program that is administered by the NPS Geologic Resources Division (GRD).  Source geologic maps and data used to complete this GRI digital dataset were provided by the following: U.S. Geological Survey.  Detailed information concerning the sources used and their contribution the GRI product are listed in the Source Citation sections(s) of this metadata record (shen_metadata.txt; available at http://nrdata.nps.gov/shen/nrdata/geology/gis/shen_metadata.xml).  Users of this data are cautioned about the locational accuracy of features within this dataset.  Based on the source map scale of 1:24,000 and United States National Map Accuracy Standards features are within (horizontally) 50.8 meters or 166.7 feet of their actual location as presented by this dataset.  Users of this data should thus not assume the location of features is exactly where they are portrayed in Google Earth, ArcGIS or other software used to display this dataset.  All GIS and ancillary tables were produced as per the NPS GRI Geology-GIS Geodatabase Data Model v. 2.1. (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm).  The GIS data is available as a 9.3 personal geodatabase (shen_geology.mdb), and as shapefile (.SHP) and DBASEIV (.DBF) table files.  The GIS data projection is NAD83, UTM Zone 17N, however, for the KML/KMZ format the data is projected upon export to WGS84 Geographic, the native coordinate system used by Google Earth.  That data is within the area of interest of Shenandoah National Park.</abstract>
+<purpose>The data are intended to assist NPS personnel in the protection and management of Shenandoah National Park.</purpose>
+<supplinf>The data layers (feature classes) that comprise the Unpublished Digital Geologic Map of Shenandoah National Park and Vicinity, Virginia include: SHENGLG (Bedrock Units), SHENGLGA (Bedrock Contacts), SHENGSL (Geologic Sample Localities), SHENGPF (Geologic Point Features), SHENGOL (Geologic Observation Localities), SHENSUR (Surficial Units), SHENSURA (Surficial Contacts), SHENATD (Geologic Attitude Observation Localities), SHENDEF (Deformation Areas), SHENDEFA (Deformation Area Boundaries), SHENHZP (Hazard Point Features), SHENMIN (Mine Point Features), SHENHZA (Hazard Area Features), SHENHZAA (Hazard Area Feature Boundaries), SHENSEC (Geologic Cross Section Lines) and SHENFLT (Faults).  There are three additional ancillary map components, the Geologic Unit Information (SHENUNIT) Table, the Source Map Information (SHENMAP) Table and the Map PDF Document (shen_geology.pdf).  Refer to the NPS GRI Geology-GIS Geodatabase Data Model v. 2.1 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm) for detailed data layer (feature class) and table specifications including attribute field parameters, definitions and domains, and implemented topology rules and relationship classes.  For the KML/KMZ format all or only some of the data layers are available.  The KMZ file also possesses on-line links to the GRI program and its products, and to this readme document, FAQ metadata (in .html format), and the GRI ancillary map information (.pdf) document pertaining to this dataset.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20091104</caldate>
+</sngdate>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-78.9997537576933</westbc>
+<eastbc>-77.9997183382397</eastbc>
+<northbc>39.0001753752899</northbc>
+<southbc>38.0001372813338</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>Shenandoah National Park</themekey>
+<themekey>SHEN</themekey>
+<themekey>Virginia</themekey>
+<themekey>digital data</themekey>
+<themekey>GIS data</themekey>
+<themekey>geodatabase</themekey>
+<themekey>personal geodatabase</themekey>
+<themekey>shapefile</themekey>
+<themekey>DBASE IV tables</themekey>
+<themekey>KML</themekey>
+<themekey>KMZ</themekey>
+<themekey>Google Earth</themekey>
+<themekey>geology</themekey>
+<themekey>digital geologic map</themekey>
+<themekey>digital geologic-GIS map</themekey>
+<themekey>geologic map</themekey>
+<themekey>geologic-GIS map</themekey>
+<themekey>geologic-GIS map</themekey>
+<themekey>Geology Help Map Document</themekey>
+<themekey>geologic unit descriptions</themekey>
+<themekey>geologic units</themekey>
+<themekey>Geologic Unit Information Table</themekey>
+<themekey>UNIT table</themekey>
+<themekey>Source Map Information Table</themekey>
+<themekey>MAP table</themekey>
+<themekey>source geologic maps</themekey>
+<themekey>source maps</themekey>
+<themekey>SHENGLG (Bedrock Units)</themekey>
+<themekey>SHENGLGA (Bedrock Contacts)</themekey>
+<themekey>SHENGSL (Geologic Sample Localities)</themekey>
+<themekey>SHENGPF (Geologic Point Features)</themekey>
+<themekey>SHENGOL (Geologic Observation Localities)</themekey>
+<themekey>SHENSUR (Surficial Units)</themekey>
+<themekey>SHENSURA (Surficial Contacts)</themekey>
+<themekey>SHENATD (Geologic Attitude Observation Localities)</themekey>
+<themekey>SHENDEF (Deformation Areas)</themekey>
+<themekey>SHENDEFA (Deformation Area Boundaries)</themekey>
+<themekey>SHENHZP (Hazard Point Features)</themekey>
+<themekey>SHENMIN (Mine Point Features)</themekey>
+<themekey>SHENHZA (Hazard Area Features)</themekey>
+<themekey>SHENHZAA (Hazard Area Feature Boundaries)</themekey>
+<themekey>SHENSEC (Geologic Cross Section Lines)</themekey>
+<themekey>SHENFLT (Faults)</themekey>
+<themekey>National Park Service</themekey>
+<themekey>NPS</themekey>
+<themekey>Geologic Resources Division</themekey>
+<themekey>GRD</themekey>
+<themekey>Geologic Resources Inventory</themekey>
+<themekey>GRI</themekey>
+<themekey>Geologic Resource Evaluation</themekey>
+<themekey>GRE</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Shenandoah National Park</placekey>
+<placekey>SHEN</placekey>
+<placekey>Virginia</placekey>
+<placekey>United States</placekey>
+<placekey>US</placekey>
+<placekey>USA</placekey>
+<placekey>North America</placekey>
+</place>
+<place>
+<placekt>National Park System Unit Code Thesaurus</placekt>
+<placekey>SHEN</placekey>
+<placekey>GRD</placekey>
+<placekey>GRI</placekey>
+</place>
+<place>
+<placekt>National Park System Unit Name Thesaurus</placekt>
+<placekey>Shenandoah National Park</placekey>
+<placekey>Geologic Resources Division</placekey>
+<placekey>Geologic Resources Inventory</placekey>
+</place>
+<theme>
+<themekt>National Park Service Theme Category Thesaurus</themekt>
+<themekey>Geology</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>Environment</themekey>
+<themekey>Geoscientific Information</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>Not for use at scale greater than 1:100,000 (source map scale).  Users of this data are cautioned about the locational accuracy of features within this dataset.  Based on the source map scale and United States National Map Accuracy Standards features are within (horizontally) 50.8 meters or 166.7 feet of their actual location as presented by this dataset.  Users of this data should thus not assume the location of features is exactly where they portrayed are in Google Earth, ArcGIS or other software used to display this dataset.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Stephanie O&apos;Meara</cntper>
+<cntorg>Colorado State University</cntorg>
+</cntperp>
+<cntpos>Research Associate, Geologist/GIS Specialist/Data Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1201 Oak Ridge Drive, Suite 200</address>
+<city>Fort Collins</city>
+<state>Colorado</state>
+<postal>80525</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 491-6655</cntvoice>
+<cntfax>(970) 225-3597</cntfax>
+<cntemail>stephanie_omeara@colostate.edu</cntemail>
+<hours>9:00 a.m. to 5:00 p.m. (MST), Monday - Friday</hours>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>Not applicable</browsen>
+<browsed>No browse graphic provided</browsed>
+<browset></browset>
+</browse>
+<datacred>Philip M. Reiker, James R. Chappell and Stephanie O&apos;Meara (NPS Geologic Resources Division and Colorado State University)</datacred>
+<native>ESRI ArcGIS 9.3 and Microsoft Windows XP</native>
+<crossref>
+<citeinfo>
+<origin>National Park Service Geologic Resources Inventory (GRI) program</origin>
+<pubdate>20091104</pubdate>
+<title>Metadata for the Unpublished Digital Geologic Map of Shenandoah National Park and Vicinity, Virginia (NPS, GRD, GRI, SHEN, SHEN digital map)</title>
+<edition>1st</edition>
+<geoform>document</geoform>
+<onlink>http://nrdata.nps.gov/shen/nrdata/geology/gis/shen_metadata.xml</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Feature and table attribution was derived and checked with the source map(s).  Attribution was checked (QCd) for errors.  Users of this data are advised to FULLY and CAREFULLY READ the &quot;DISTRIBUTION LIABILITY&quot; section of this metadata before using the data.</attraccr>
+</attracc>
+<logic>GIS data in 9.3 personal geodatabase (.MDB), and shapefile (.SHP) and DBASEIV (.DBF) table, and 2.2 KML/KMZ  file formats.</logic>
+<complete>All data is considered complete to the extent of the source map(s).</complete>
+<posacc>
+<horizpa>
+<horizpar>Data, produced from digital source data, is assumed to meet National Map Accuracy Standards.  Based on the source map scale United States National Map Accuracy Standards features are within (horizontally) 50.8 meters or 166.7 feet of their actual location as presented by this dataset.  Users of this data should thus not assume the location of features is exactly where they portrayed are in Google Earth, ArcGIS or other software used to display this dataset.  The PRECISION of any Shapefile (.SHP) files is DOUBLE.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Southworth, S., Aleinikoff, J.N., Bailey, C.M., Burton, W.C., Crider, E.A., Hackley, P.C., Smoot, J.P., and Tollo, R.P.</origin>
+<pubdate>2009</pubdate>
+<title>Geologic Map of the Shenandoah National Park Region, Virginia</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Open-File Report Series</sername>
+<issue>OFR 2009-1153</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, Virginia</pubplace>
+<publish>U.S. Geological Survey (USGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>100000</srcscale>
+<typesrc>digital data</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2009</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>USGS OFR 2009-1153</srccitea>
+<srccontr>Features and attribution were derived from source digital data.  Ancillary map text, including unit descriptions, and graphics, if present on the source map, were captured, formatted and added to the map-related pdf document.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>1.) GIS features were produced from source digital data.  See the Source Information Contribution section(s) for specific source map details.  GIS features were imported into a geodatabase as per the GRI data model.  Topology rules were then imposed and validated, as per the GRI data model, to check for and correct topology errors.  Quality control (QC) consisting of a visual check and/or queries of the data against its source (where applicable), as well as running a GRI developed script (QC_Script) to check for GRI data model validation and feature-related consistency, was conducted.  2.) GIS table attribution was derived and checked using the source digital data file(s).  Relationship classes were also used to ensure attribution consistency between feature class and table attribution.  For details on the GRI data model see the NPS GRI Geology-GIS Geodatabase Data Model v. 2.1 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm).  3.) GIS feature classes were then exported from the geodatabase to shapefile (.SHP) format, and GIS tables exported from the geodatabase to DBASEIV (.DBF) format.  4.) The map-related pdf document, see the Supplemental Information section for additional information, was produced from textual information and figures present on the source map(s) and/or in digital data files.  If applicable, source map images were produced at 150dpi or greater resolution.  The text, source map images and other ancillary source map information were added to a Help &amp; Manual (.HMX) template file.  The Help &amp; Manual (.HMX) file was then compiled to produce the .PDF map document.  Any compilation errors were then checked and corrected and the document was reviewed for content, usability and grammatical errors.  KML/KMZ files were then produced with key table fields appended to each data layer prior to export.</procdesc>
+<srcused>USGS OFR 2009-1153</srcused>
+<procdate>20091104</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Philip M. Reiker</cntper>
+<cntorg>NPS Geologic Resources Division</cntorg>
+</cntperp>
+<cntpos>Geologist/GIS Specialist</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>P.O. Box 25287</address>
+<city>Denver</city>
+<state>Colorado</state>
+<postal>80225-0287</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(303) 969-2171</cntvoice>
+<cntfax>(303) 987-6792</cntfax>
+<cntemail>philip_reiker@partner.nps.gov</cntemail>
+<hours>9:00 a.m. to 5:00 p.m. (MST), Monday - Friday</hours>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spref>
+<horizsys>
+<cordsysn>
+<geogcsn>GCS_North_American_1983</geogcsn>
+<projcsn>NAD_1983_UTM_Zone_17N</projcsn>
+</cordsysn>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>17</utmzone>
+<transmer>
+<sfctrmer>0.999600</sfctrmer>
+<longcm>-81.0</longcm>
+<latprjo>0.000000</latprjo>
+<feast>500000.000000</feast>
+<fnorth>0.000000</fnorth>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<plandu>meters</plandu>
+<coordrep>
+<absres>0.000007</absres>
+<ordres>0.000007</ordres>
+</coordrep>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>Refer to the NPS GRI Geology-GIS Geodatabase Data Model v. 2.1 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm) for detailed feature class and table attribute field parameters, definitions and domains, and implemented relationship classes, as well as for implemented feature class topology rules.</eaover>
+<eadetcit>NPS GRI Geology-GIS Geodatabase Data Model v. 2.1. (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm)</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Stephanie O&apos;Meara</cntper>
+<cntorg>Colorado State University</cntorg>
+</cntperp>
+<cntpos>Research Associate, Geologist/GIS Specialist/Data Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1201 Oak Ridge Drive, Suite 200</address>
+<city>Fort Collins</city>
+<state>Colorado</state>
+<postal>80525</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 491-6655</cntvoice>
+<cntfax>(970) 225-3597</cntfax>
+<cntemail>stephanie_omeara@colostate.edu</cntemail>
+<hours>8:00 a.m. to 4:00 p.m. (MST), Monday - Friday</hours>
+<cntinst>GRI data are available at: http://nrinfo.nps.gov/Reference.mvc/Search</cntinst>
+</cntinfo>
+</distrib>
+<resdesc>GIS map data available in 9.3 personal geodatabase (.MDB) file format (in shengdb.zip), shapefile (.SHP) and DBASEIV (.DBF) table file format (in shenshp.zip), and in 2.2 KML/KMZ format (in shenkml.zip)</resdesc>
+<distliab>
+The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related graphics are not legal documents and are not intended to be used as such.
+
+The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.  The related graphics are intended to aid the data user in acquiring relevant data; it is not appropriate to use the related graphics as data.
+
+The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  It is strongly recommended that these data are directly acquired from an NPS server and not indirectly through other sources which may have changed the data in some way.  Although these data have been processed successfully on a computer system at the National Park Service, no warranty, expressed or implied is made regarding the utility of the data on another system or for general scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies to both to individual use of the data and aggregate use with other data.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>GDB</formname>
+<formvern>ArcGIS 9.3</formvern>
+<formspec>Personal Geodatabase (.MDB) file</formspec>
+<filedec>Compression applied</filedec>
+<transize>20.6</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://nrdata.nps.gov/shen/nrdata/geology/gis/shengdb.zip</networkr>
+</networka>
+</computer>
+<accinstr>Personal geodatabase (.MDB) file (shen_geology.mdb)</accinstr>
+</onlinopt>
+</digtopt>
+</digform>
+<digform>
+<digtinfo>
+<formname>SHP</formname>
+<formvern>ArcGIS 9.3</formvern>
+<formspec>Shapefile (.SHP) and DBASEIV (.DBF) table files</formspec>
+<filedec>Compression applied</filedec>
+<transize>19.8</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://nrdata.nps.gov/shen/nrdata/geology/gis/shenshp.zip</networkr>
+</networka>
+</computer>
+<accinstr>Shapefile (.SHP) and DBASEIV (.DBF) data</accinstr>
+</onlinopt>
+</digtopt>
+</digform>
+<digform>
+<digtinfo>
+<formname>KML/KMZ for use in Google Earth software</formname>
+<formvern>2.2</formvern>
+<formspec>KMZ files</formspec>
+<filedec>Compression applied</filedec>
+<transize>14.4</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://nrdata.nps.gov/shen/nrdata/geology/gis/shenkml.zip</networkr>
+</networka>
+</computer>
+<accinstr>2.2 KML/KMZ data</accinstr>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+<ordering>Search and download GRI data at: http://nrinfo.nps.gov/Reference.mvc/Search</ordering>
+</stdorder>
+<availabl>
+<timeinfo>
+<sngdate>
+<caldate>20091104</caldate>
+</sngdate>
+</timeinfo>
+</availabl>
+</distinfo>
+<metainfo>
+<metd>20091104</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Stephanie O&apos;Meara</cntper>
+<cntorg>Colorado State University</cntorg>
+</cntperp>
+<cntpos>Research Associate, Geologist/GIS Specialist/Data Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1201 Oak Ridge Drive, Suite 200</address>
+<city>Fort Collins</city>
+<state>Colorado</state>
+<postal>80525-5589</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 491-6655</cntvoice>
+<cntfax>(970) 225-3597</cntfax>
+<cntemail>stephanie.omeara@colostate.edu</cntemail>
+<hours>9:00 a.m. to 5:00 p.m. (MST), Monday - Friday</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>None</metac>
+<metuc>None</metuc>
+<metextns>
+<onlink>http://www.fgdc.gov/metadata/meta_stand.html</onlink>
+<metprof>FGDC Geospatial Metadata Standards</metprof>
+</metextns>
+<metextns>
+<onlink>http://nrdata.nps.gov/profiles/nps_profile.xml</onlink>
+<metprof>NPS NR and GIS Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>
