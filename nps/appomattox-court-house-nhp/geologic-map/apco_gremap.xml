@@ -1,0 +1,440 @@
+<?xml version="1.0"?>
+<metadata>
+	<NPS_Info>
+		<MetaPurp>CSDGM</MetaPurp>
+		<MetaPurp>NPS</MetaPurp>
+		<MetaPurp>OnlineData</MetaPurp>
+		<MetaPurp>IMInventory</MetaPurp>
+		<NPS_Unit>
+			<UnitType>Park</UnitType>
+			<UnitCode>APCO</UnitCode>
+		</NPS_Unit>
+		<DSC_Info>
+			<Cat_Date>
+				<sngdate>
+					<caldate>20070827</caldate>
+				</sngdate>
+			</Cat_Date>
+		</DSC_Info>
+		<DatStore>
+			<DSteward>
+				<cntinfo>
+					<cntperp>
+						<cntper>Stephanie O'Meara</cntper>
+						<cntorg>Colorado State University</cntorg>
+					</cntperp>
+					<cntpos>Research Associate, Geologist/GIS Specialist</cntpos>
+					<cntaddr>
+						<addrtype>mailing and physical address</addrtype>
+						<address>1201 Oak Ridge Drive, Suite 200</address>
+						<city>Fort Collins</city>
+						<state>Colorado</state>
+						<postal>80525</postal>
+						<country>USA</country>
+					</cntaddr>
+					<cntvoice>(970) 225-3584</cntvoice>
+					<cntfax>(970) 225-3597</cntfax>
+					<cntemail>Stephanie_O'Meara@partner.nps.gov</cntemail>
+					<hours>9:00 a.m. to 5:00 p.m. (MST), Monday - Friday</hours>
+				</cntinfo>
+			</DSteward>
+			<Category>Geology</Category>
+			<DataSite>NR-GIS</DataSite>
+		</DatStore>
+	</NPS_Info>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>National Park Service (NPS) Geologic Resource Evaluation (GRE) program</origin>
+				<pubdate>20070827</pubdate>
+				<title>Digital Geologic Map of Appomattox Court House National Historical Park and Vicinity, Virginia (NPS, GRD, GRE, APCO)</title>
+				<edition>1st</edition>
+				<geoform>map</geoform>
+				<onlink>http://nrdata.nps.gov/apco/nrdata/geology/gis/apcogdb.zip</onlink>
+				<onlink>http://nrdata.nps.gov/apco/nrdata/geology/gis/apcocov.zip</onlink>
+				<onlink>http://nrdata.nps.gov/apco/nrdata/geology/gis/apcoshp.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The Digital Geologic Map of Appomattox Court House National Historical Park and Vicinity, Virginia is composed of GIS data layers, two ancillary GIS tables, a Windows Help File with ancillary map text, figures and tables, GIS data layer and table FGDC metadata and ArcMap 9.1 layer (.LYR) files.  The data were completed as a component of the Geologic Resource Evaluation (GRE) program, a National Park Service (NPS) Inventory and Monitoring (I&amp;M) funded program that is administered by the NPS Geologic Resources Division (GRD).  All GIS and ancillary tables were produced as per the NPS GRE Geology-GIS Geodatabase Data Model v. 1.4. (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm).  The GIS data is available as a 9.1 personal geodatabase (apco_geology.mdb), as coverage and table export (.E00) files, and as a shapefile (.SHP) and DBASEIV (.DBF) table files.  The GIS data projection is NAD83, UTM Zone 17N.  That data is within the area of interest of Appomattox Court House National Historical Park.</abstract>
+			<purpose>The data are intended to assist NPS personnel in the protection and management of Appomattox Court House National Historical Park.  The digital data is of limited use as GIS data as the source scale, 1:500,000, is very small-scale.  Feature positional accuracy maybe as high as 417'(127 meters) of the feature's mapped position.</purpose>
+			<supplinf>The data layers (feature classes) that comprise the Digital Geologic Map of Appomattox Court House National Historical Park and Vicinity, Virginia include: APCODKE (Linear Dikes), APCOFLT (Faults), APCOGLG (Geologic Units) and APCOGLGA (Geologic Contacts).  There are three additional ancillary map components, the Geologic Unit Information (APCOGLG1) Table, the Source Map Information (APCOMAP) Table and the Map Help File (apco_geology.hlp).  Refer to the NPS GRE Geology-GIS Geodatabase Data Model v. 1.4 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm) for detailed data layer (feature class) and table specifications including attribute field parameters, definitions and domains, and implemented topology rules and relationship classes.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20070827</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-78.8747429717842</westbc>
+				<eastbc>-78.7497304193116</eastbc>
+				<northbc>37.5001590835465</northbc>
+				<southbc>37.2501461695495</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>Appomattox Court House National Historical Park</themekey>
+				<themekey>APCO</themekey>
+				<themekey>Virginia</themekey>
+				<themekey>digital data</themekey>
+				<themekey>GIS data</themekey>
+				<themekey>digital geologic map</themekey>
+				<themekey>digital geologic-GIS map</themekey>
+				<themekey>geologic map</themekey>
+				<themekey>geologic-GIS map</themekey>
+				<themekey>geology</themekey>
+				<themekey>National Park Service</themekey>
+				<themekey>NPS</themekey>
+				<themekey>Geologic Resources Division</themekey>
+				<themekey>GRD</themekey>
+				<themekey>Geologic Resource Evaluation</themekey>
+				<themekey>GRE</themekey>
+			</theme>
+			<place>
+				<placekt>none</placekt>
+				<placekey>Appomattox Court House National Historical Park</placekey>
+				<placekey>APCO</placekey>
+				<placekey>Virginia</placekey>
+				<placekey>Appomattox 7.5 Quadrangle</placekey>
+				<placekey>Vera 7.5 Quadrangle</placekey>
+				<placekey>United States</placekey>
+				<placekey>US</placekey>
+				<placekey>USA</placekey>
+				<placekey>North America</placekey>
+			</place>
+			<place>
+				<placekt>National Park System Unit Code Thesaurus</placekt>
+				<placekey>APCO</placekey>
+			</place>
+			<place>
+				<placekt>National Park System Unit Name Thesaurus</placekt>
+				<placekey>Appomattox Court House National Historical Park</placekey>
+			</place>
+			<theme>
+				<themekt>National Park Service Theme Category Thesaurus</themekt>
+				<themekey>Geology</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>Environment</themekey>
+				<themekey>Geoscientific Information</themekey>
+			</theme>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Not for use at scale greater than 1:500,000 (source map scale).  The digital data is of limited use as GIS data as the source scale, 1:500,000, is very small-scale.  Feature positional accuracy maybe as high as 417'(127 meters) of the feature's mapped position.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Stephanie O'Meara</cntper>
+					<cntorg>Colorado State University</cntorg>
+				</cntperp>
+				<cntpos>Research Associate, Geologist/GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>1201 Oak Ridge Drive, Suite 200</address>
+					<city>Fort Collins</city>
+					<state>Colorado</state>
+					<postal>80525</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(970) 225-3584</cntvoice>
+				<cntfax>(970) 225-3597</cntfax>
+				<cntemail>Stephanie_O'Meara@partner.nps.gov</cntemail>
+				<hours>9:00 a.m. to 5:00 p.m. (MST), Monday - Friday</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Andrea Croskrey and Georgia Hybels (NPS Geologic Resources Division)</datacred>
+		<native>ESRI ArcGIS 9.1 and Microsoft Windows XP</native>
+		<crossref>
+			<citeinfo>
+				<origin>National Park Service Geologic Resource Evaluation (GRE) program</origin>
+				<pubdate>20070827</pubdate>
+				<title>Metadata for the Digital Geologic Map of Appomattox Court House National Historical Park and Vicinity, Virginia (NPS, GRD, GRE, APCO, APCOGLG) Geodatabase (within APCOGDB.ZIP)</title>
+				<edition>1st</edition>
+				<geoform>document</geoform>
+				<onlink>http://nrdata.nps.gov/apco/nrdata/geology/gis/apco_gremap.xml</onlink>
+			</citeinfo>
+		</crossref>
+		<crossref>
+			<citeinfo>
+				<origin>National Park Service Geologic Resource Evaluation (GRE) program</origin>
+				<pubdate>20070827</pubdate>
+				<title>Metadata for the Digital Geologic Map of Appomattox Court House National Historical Park and Vicinity, Virginia (NPS, GRD, GRE, APCO, APCOGLG) Export (.E00) Files (within APCOCOV.ZIP)</title>
+				<edition>1st</edition>
+				<geoform>document</geoform>
+				<onlink>http://nrdata.nps.gov/apco/nrdata/geology/gis/apco_gremap.xml</onlink>
+			</citeinfo>
+		</crossref>
+		<crossref>
+			<citeinfo>
+				<origin>National Park Service Geologic Resource Evaluation (GRE) program</origin>
+				<pubdate>20070827</pubdate>
+				<title>Metadata for the Digital Geologic Map of Appomattox Court House National Historical Park and Vicinity, Virginia (NPS, GRD, GRE, APCO, APCOGLG) Shapefile (.SHP) Files (within APCOSHP.ZIP)</title>
+				<edition>1st</edition>
+				<geoform>document</geoform>
+				<onlink>http://nrdata.nps.gov/apco/nrdata/geology/gis/apco_gremap.xml</onlink>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Feature and table attribution was derived and checked with the source map(s).  Attribution was checked (QCd) for errors.  Users of this data are advised to FULLY and CAREFULLY READ the "DISTRIBUTION LIABILITY" section of this metadata before using the data.</attraccr>
+		</attracc>
+		<logic>GIS data in 9.1 personal geodatabase (.MDB), coverage and table export (.E00) file and shapefile (.SHP) and DBASEIV (.DBF) table file formats.</logic>
+		<complete>All data is considered complete to the extent of the source map(s).</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data, produced from digital source data, is assumed to meet National Map Accuracy Standards.  The digital data is of limited use as GIS data as the source scale, 1:500,000, is very small-scale.  Feature positional accuracy maybe as high as 417'(127 meters) of the feature's mapped position.  The PRECISION of the Export (.E00) file and Shapefile (.SHP) file is DOUBLE.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Virginia Division of Mineral Resources</origin>
+						<pubdate>2003</pubdate>
+						<title>Digital Representation of the 1993 Geologic Map of Virginia</title>
+						<edition>1st</edition>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>NA</sername>
+							<issue>Publication 174</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Charlottesville, Virginia</pubplace>
+							<publish>Virginia Department of Mines, Minerals and Energy, Division of Mineral Resources (VDMR)</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>500000</srcscale>
+				<typesrc>digital data</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2003</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>VDMR Publication 174</srccitea>
+				<srccontr>Features were derived from source data.  Source data attribution was used to attribute features, as per the NPS GRE Geology-GIS Geodatabase Data Model v. 1.4.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Features were produced from source data.  Source data attribution was used to attribute features as per the NPS GRE Geology-GIS Geodatabase Data Model v. 1.4.  Topology rules were imposed to check for and correct topology errors.  Topology rules maintain spatial coincidence between features and related features in another feature class, as well as maintain defined spatial relationships within a single feature class.  Positional accuracy was checked with georeferenced source map image(s), USGS digital raster graphics (DRGs) and/or USGS digital ortho quarter quadrangles (DOQQs).  Table attribution was derived from and checked against the source map(s).  Relationship classes were also used to ensure attribution consistency.  For more details about imposed topological and relationship rules, see the NPS GRE Geology-GIS Geodatabase Data Model v. 1.4 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm).  Features were exported from the geodatabase to coverage and shapefile (.SHP) formats.</procdesc>
+				<srcused>VDMR Publication 174</srcused>
+				<procdate>20070827</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Andrea Croskrey</cntper>
+							<cntorg>NPS Geologic Resources Division</cntorg>
+						</cntperp>
+						<cntpos>Geologist/GIS Analyst</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>P.O. Box 25287</address>
+							<city>Denver</city>
+							<state>Colorado</state>
+							<postal>80225-0287</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(303) 969-2148</cntvoice>
+						<cntfax>(303) 987-6792</cntfax>
+						<cntemail>Andrea_Croskrey@nps.gov</cntemail>
+						<hours>9:00 a.m. to 5:00 p.m. (MST), Monday - Friday</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn>GCS_North_American_1983</geogcsn>
+				<projcsn>NAD_1983_UTM_Zone_17N</projcsn>
+			</cordsysn>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>17</utmzone>
+						<transmer>
+							<sfctrmer>0.999600</sfctrmer>
+							<longcm>-81.0</longcm>
+							<latprjo>0.000000</latprjo>
+							<feast>500000.000000</feast>
+							<fnorth>0.000000</fnorth>
+						</transmer>
+					</utm>
+				</gridsys>
+				<planci>
+					<plance>coordinate pair</plance>
+					<plandu>meters</plandu>
+					<coordrep>
+						<absres>0.000007</absres>
+						<ordres>0.000007</ordres>
+					</coordrep>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>Refer to the NPS GRE Geology-GIS Geodatabase Data Model v. 1.4 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm) for detailed feature class and table attribute field parameters, definitions and domains, and implemented relationship classes, as well as for implemented feature class topology rules.</eaover>
+			<eadetcit>NPS GRE Geology-GIS Geodatabase Data Model v. 1.4. (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm)</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Stephanie O'Meara</cntper>
+					<cntorg>Colorado State University</cntorg>
+				</cntperp>
+				<cntpos>Research Associate, Geologist/GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>1201 Oak Ridge Drive, Suite 200</address>
+					<city>Fort Collins</city>
+					<state>Colorado</state>
+					<postal>80525</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(970) 225-3584</cntvoice>
+				<cntfax>(970) 225-3597</cntfax>
+				<cntemail>Stephanie_O'Meara@partner.nps.gov</cntemail>
+				<hours>8:00 a.m. to 4:00 p.m. (MST), Monday - Friday</hours>
+				<cntinst>GRE data are available at the NPS Data Store: http://science.nature.nps.gov/nrdata</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>GIS map data available in APCOGDB.ZIP (9.1 personal geodatabase (.MDB) file), APCOCOV.ZIP (coverage and table export (.E00) files) or APCOSHP.ZIP (shapefile (.SHP) and DBASEIV (.DBF) table files)</resdesc>
+		<distliab>
+The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related graphics are not legal documents and are not intended to be used as such.
+
+The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.  The related graphics are intended to aid the data user in acquiring relevant data; it is not appropriate to use the related graphics as data.
+
+The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  It is strongly recommended that these data are directly acquired from an NPS server and not indirectly through other sources which may have changed the data in some way.  Although these data have been processed successfully on a computer system at the National Park Service, no warranty, expressed or implied is made regarding the utility of the data on another system or for general scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies to both to individual use of the data and aggregate use with other data.
+</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>GDB</formname>
+					<formvern>ArcGIS 9.1</formvern>
+					<formspec>Personal Geodatabase (.MDB) file</formspec>
+					<filedec>Compression applied</filedec>
+					<transize>5.37</transize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://nrdata.nps.gov/apco/nrdata/geology/gis/apcogdb.zip</networkr>
+							</networka>
+						</computer>
+						<accinstr>Download the digital geologic-GIS map metadata (APCO_GREMAP.XML) or the .ZIP download file (APCOGDB.ZIP) with the personal geodatabase (.MDB) file (APCO_GEOLOGY.MDB).</accinstr>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<digform>
+				<digtinfo>
+					<formname>E00</formname>
+					<formvern>ArcGIS 9.1</formvern>
+					<formspec>Coverage and Table Export (.E00) files</formspec>
+					<filedec>Compression applied</filedec>
+					<transize>5.35</transize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://nrdata.nps.gov/apco/nrdata/geology/gis/apcocov.zip</networkr>
+							</networka>
+						</computer>
+						<accinstr>Download the digital geologic-GIS map metadata (APCO_GREMAP.XML) or the .ZIP download file (APCOCOV.ZIP).</accinstr>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<digform>
+				<digtinfo>
+					<formname>SHP</formname>
+					<formvern>ArcGIS 9.1</formvern>
+					<formspec>Shapefile (.SHP) and DBASEIV (.DBF) table files</formspec>
+					<filedec>Compression applied</filedec>
+					<transize>5.36</transize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://nrdata.nps.gov/apco/nrdata/geology/gis/apcoshp.zip</networkr>
+							</networka>
+						</computer>
+						<accinstr>Download the digital geologic-GIS map metadata (APCO_GREMAP.XML) or the .ZIP download file (APCOSHP.ZIP).</accinstr>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>None</fees>
+			<ordering>Search and download GRE data at: http://science.nature.nps.gov/nrdata</ordering>
+		</stdorder>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20070827</caldate>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd>20070827</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Andrea Croskrey</cntper>
+					<cntorg>NPS Geologic Resources Division</cntorg>
+				</cntperp>
+				<cntpos>Geologist/GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>P.O. Box 25287</address>
+					<city>Denver</city>
+					<state>Colorado</state>
+					<postal>80225-0287</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(303) 969-2148</cntvoice>
+				<cntfax>(303) 987-6792</cntfax>
+				<cntemail>Andrea_Croskrey@nps.gov</cntemail>
+				<hours>9:00 a.m. to 5:00 p.m. (MST), Monday - Friday</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<metextns>
+			<onlink>http://www.fgdc.gov/metadata/meta_stand.html</onlink>
+			<metprof>FGDC Geospatial Metadata Standards</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://nrdata.nps.gov/profiles/nps_profile.xml</onlink>
+			<metprof>NPS NR and GIS Metadata Profile</metprof>
+		</metextns>
+	</metainfo>
+</metadata>
