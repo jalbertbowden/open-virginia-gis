@@ -1,0 +1,596 @@
+[
+  {
+    "Layer Name":"",
+    "Layer Type":"",
+    "Description of Layer Contents":"",
+    "Sources":""
+  },
+  {
+    "Layer Name":"Place ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Boundaries of incorporated areas that appear on 1:100,000 scale maps",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads, Park Brochures"
+  },
+  {
+    "Layer Name":"Park Polygon ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"NPS Unit being mapped",
+    "Sources":"National Park Service Boundary Dataset at www.nps.gov/gis/national_data.html"
+  },
+  {
+    "Layer Name":"Natl Park ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"other NPS Units close to the mapped unit",
+    "Sources":"National Park Service Boundary Dataset at www.nps.gov/gis/national_data.html"
+  },
+  {
+    "Layer Name":"Natl Forest ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"National Forest Units",
+    "Sources":"USGS 1:2,000,000 Federal Lands Dataset, USGS 1:24,000 Quads, Park Brochure, USFS Maps"
+  },
+  {
+    "Layer Name":"Wilderness ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Wilderness areas within the National Forest (If known)",
+    "Sources":"USGS 1:2,000,000 Federal Lands Dataset, USGS 1:24,000 Quads, USFS Maps"
+  },
+  {
+    "Layer Name":"NRA Natl Forest",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"National Recreation Area administered by the National Forest Service",
+    "Sources":"USGS 1:2,000,000 Federal Lands Dataset, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"NM BLM",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"National Mounents,  Scenic Areas & Recreation Areas administered by the BLM",
+    "Sources":"USGS 1:2,000,000 Federal Lands Dataset, USGS 1:24,000 Quads, BLM Maps"
+  },
+  {
+    "Layer Name":"Preserve BLM",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"BLM Preserves",
+    "Sources":"USGS 1:2,000,000 Federal Lands Dataset, USGS 1:24,000 Quads, BLM Maps"
+  },
+  {
+    "Layer Name":"Natl Grass ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"National Grasslands",
+    "Sources":"USGS 1:2,000,000 Federal Lands Dataset, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Natl Refuge ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"National Refuge Areas",
+    "Sources":"USGS 1:2,000,000 Federal Lands Dataset, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Natl Mar Sanc",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"National Marine Sanctuary",
+    "Sources":"USGS 1:2,000,000 Federal Lands Dataset, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Indian Res ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Indian Reservations",
+    "Sources":"USGS 1:2,000,000 Federal Lands Dataset, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"State Park ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"State Parks",
+    "Sources":"USGS 1:2,000,000 Federal Lands Dataset, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"State Forest ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"State Forests",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads, Park Brochures"
+  },
+  {
+    "Layer Name":"St Wldlife Fish ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"State Wildlife and Fishing Areas",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads, Park Brochures"
+  },
+  {
+    "Layer Name":"EC Preserve",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"State Ecological Reserve ",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads, Park Brochures"
+  },
+  {
+    "Layer Name":"Other Park Pres ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Other Parks & Preserves which don't fall in the above categories",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads, Park Brochures"
+  },
+  {
+    "Layer Name":"Military ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Military Installations",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads, Park Brochures"
+  },
+  {
+    "Layer Name":"Cemetery ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"National Cemeteries",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads, Park Brochures"
+  },
+  {
+    "Layer Name":"Landmark ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Landmark polygons that appear on 1:100,000 scale maps",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads, Park Brochures"
+  },
+  {
+    "Layer Name":"Airport ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Major airports",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads, Park Brochures"
+  },
+  {
+    "Layer Name":"College ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"University in mapping area (only used once)",
+    "Sources":"USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"WQ Panel ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Water Quality Panels",
+    "Sources":"Screen Digitized by NPS WRD for Map Display Purposes"
+  },
+  {
+    "Layer Name":"IDG Panel ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"IDG Panels",
+    "Sources":"Screen Digitized by NPS WRD for Map Display Purposes"
+  },
+  {
+    "Layer Name":"State ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"States used for Regional map view",
+    "Sources":"USGS 1:2,000,000 State Boundary Dataset"
+  },
+  {
+    "Layer Name":"Canada ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Provinces which fall with regional map view",
+    "Sources":"USGS 1:2,000,000 State Boundary Dataset"
+  },
+  {
+    "Layer Name":"Mexico ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Mexico",
+    "Sources":"USGS 1:2,000,000 State Boundary Dataset"
+  },
+  {
+    "Layer Name":"Country ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Other Counties in mapping view",
+    "Sources":"USGS 1:2,000,000 State Boundary Dataset"
+  },
+  {
+    "Layer Name":"100K Quad ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"100K Quad Boundaries",
+    "Sources":"USGS 1:100,000 Quad Outlines"
+  },
+  {
+    "Layer Name":"24K Quad ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"24K Quad Boundaries",
+    "Sources":"USGS 1:24,000 Quad Outlines"
+  },
+  {
+    "Layer Name":"63K Quad",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Alaska - 63K Quad Boundaries",
+    "Sources":"USGS 1:63,360 Alaska Quad Outlines"
+  },
+  {
+    "Layer Name":"250K Quad",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Alaska - 250K Quad Boundaries",
+    "Sources":"USGS 1:250,000 Alaska Quad Outlines"
+  },
+  {
+    "Layer Name":"County ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"County Boundaries",
+    "Sources":"USGS 1:2,000,000 1990 County Boundary Dataset"
+  },
+  {
+    "Layer Name":"Catalog Unit ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"USGS Catalog Units",
+    "Sources":"USGS 1:250,000 Hydrologic Unit Boundary Map"
+  },
+  {
+    "Layer Name":"Study Area ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Retrieval area for water quality data",
+    "Sources":"Screen Digitized by NPS WRD for Map Display Purposes"
+  },
+  {
+    "Layer Name":"Superfund",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Superfund sites",
+    "Sources":"National Priority List (Superfund Sites) at http://www.epa.gov/superfund/sites/index.htm"
+  },
+  {
+    "Layer Name":"Lake ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Large lakes created into polygon for shading purposes",
+    "Sources":"1:100,000 DLG/RF3 Data, 1:24,000 DLG, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Subdivision ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Housing Tracts",
+    "Sources":"Park GIS at Roosevelt-Vanderbilt National Historic Site"
+  },
+  {
+    "Layer Name":"Lava Flow ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Lava flows digitized for shading purposes",
+    "Sources":"Park Brochure"
+  },
+  {
+    "Layer Name":"State Impr ",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"{Polygon} State boundaries at better scale than normal",
+    "Sources":"USGS 1:100,000 or 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Tank",
+    "Layer Type":"Region",
+    "Description of Layer Contents":"Reservoirs of water called tanks",
+    "Sources":"USGS 1:24,000 Quads or Park Brochures"
+  },
+  {
+    "Layer Name":"RF3 Hydro ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"River Reach File Hydrography Version 3",
+    "Sources":"1:100,000 DLG/RF3 Data, 1:24,000 DLG, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Island ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Islands in the RF3 Hydro layer",
+    "Sources":"1:100,000 DLG/RF3 Data, 1:24,000 DLG, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Hydro Main ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Shorelines, Main Hydrography, ",
+    "Sources":"1:100,000 DLG/RF3 Data, 1:24,000 DLG, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Trail ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Trails",
+    "Sources":"USGS 1:24,000 Quads, Park Brochures"
+  },
+  {
+    "Layer Name":"4WD Road",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"4 wheel drive roads",
+    "Sources":"USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Dirt Road ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Dirt Roads",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Road ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Roads",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Ferry Route ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Ferry Routes",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Railroad ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Railroads",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Rail Main ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Smaller subset of the Railroad layer",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Main Hwy",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"smaller subset of the Highway layer",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Highway ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Highways",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Interstate ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Interstates",
+    "Sources":"USGS 1:2,000,000 Highways Dataset"
+  },
+  {
+    "Layer Name":"Aqueduct ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"aqueducts",
+    "Sources":"USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Dam ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Impoundments",
+    "Sources":"USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Park Line ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"BLRI Park Bdy digitized as a line format from Land Status Map",
+    "Sources":"NPS Land Status Maps for Blue Ridge Parkway"
+  },
+  {
+    "Layer Name":"Park QLine ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"BLRI Park Bdy digitized from Quad Maps (different than LS maps)",
+    "Sources":"USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Parkway ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Parkway Road Line",
+    "Sources":"USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"State Bdy ",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Improved state boundary as a line layer",
+    "Sources":"USGS 1:24,000 Quads, 1:100,000 Quads"
+  },
+  {
+    "Layer Name":"Levee",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Levee",
+    "Sources":"USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Pipeline",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Pipeline",
+    "Sources":"USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Major Trail",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"National Scenic Trails, trails with more importance",
+    "Sources":"USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Rock Wall",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Rock walls",
+    "Sources":"USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Divide",
+    "Layer Type":"Line",
+    "Description of Layer Contents":"Continental Divide layer",
+    "Sources":"USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"City ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Cities",
+    "Sources":"Census Bureau 1990 Summary Tape File 1"
+  },
+  {
+    "Layer Name":"Road Blank ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Used to create white backround of  road symbols in main maps",
+    "Sources":"Ignore/Don't Convert"
+  },
+  {
+    "Layer Name":"Road Symbol ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Used to create road symbols in main maps",
+    "Sources":"Ignore/Don't Convert"
+  },
+  {
+    "Layer Name":"Road Blk2 ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Used to create white backround of  road symbols in panel maps",
+    "Sources":"Ignore/Don't Convert"
+  },
+  {
+    "Layer Name":"Rd Sym2 ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Used to create road symbols in panel maps",
+    "Sources":"Ignore/Don't Convert"
+  },
+  {
+    "Layer Name":"Visitor Center ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Vistor Centers/ Ranger Stations (not including Park Headquarters)",
+    "Sources":"Park Brochure"
+  },
+  {
+    "Layer Name":"Airstrip ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"point layer of small airports",
+    "Sources":"Census Bureau 1:100,000 1992 TIGER/Line Files, USGS 1:24,000 Quads"
+  },
+  {
+    "Layer Name":"Crater ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Craters",
+    "Sources":"Park Brochure"
+  },
+  {
+    "Layer Name":"Gage ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Gage outside Study Area included for map",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads"
+  },
+  {
+    "Layer Name":"Ruin Indian ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Indian Ruin locations",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads"
+  },
+  {
+    "Layer Name":"Lighthouse ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Lighthouse",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads"
+  },
+  {
+    "Layer Name":"Mountain Peak ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Mountain Peaks",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads"
+  },
+  {
+    "Layer Name":"Prison ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"prison (used only once)",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads"
+  },
+  {
+    "Layer Name":"Spring ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Springs",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads, Park Brochure"
+  },
+  {
+    "Layer Name":"Town ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Towns ",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads"
+  },
+  {
+    "Layer Name":"Unit HQ ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Unit Headquarter locations",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads, Park Brochure"
+  },
+  {
+    "Layer Name":"Pt of Interest ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Catch-all layer for almost anything",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads, Park Brochure"
+  },
+  {
+    "Layer Name":"Campground ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Campgrounds",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads, Park Brochure"
+  },
+  {
+    "Layer Name":"Forest Natl ",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"National Forest as Point type",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads"
+  },
+  {
+    "Layer Name":"Access Pt",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Boating Access points",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads"
+  },
+  {
+    "Layer Name":"Corral",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Corral, Horse Stables",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads"
+  },
+  {
+    "Layer Name":"Marina",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Marina",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads"
+  },
+  {
+    "Layer Name":"Land Fill",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Landfills",
+    "Sources":"1986 National Water Summary Report (U.S. Geological Survey, 1987) at http://water.usgs.gov/GIS/metadata/usgswrd/landfill.html.  "
+  },
+  {
+    "Layer Name":"Gaswell",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Gas Wells",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads"
+  },
+  {
+    "Layer Name":"Well",
+    "Layer Type":"Point",
+    "Description of Layer Contents":"Water Wells",
+    "Sources":"USGS 1:24,000 Quads, USGS 1:100,000 Quads"
+  },
+  {
+    "Layer Name":"",
+    "Layer Type":"",
+    "Description of Layer Contents":"",
+    "Sources":""
+  },
+  {
+    "Layer Name":"",
+    "Layer Type":"",
+    "Description of Layer Contents":"",
+    "Sources":""
+  },
+  {
+    "Layer Name":"DBF FILES",
+    "Layer Type":"Layer Name",
+    "Description of Layer Contents":"",
+    "Sources":""
+  },
+  {
+    "Layer Name":"",
+    "Layer Type":"",
+    "Description of Layer Contents":"",
+    "Sources":""
+  },
+  {
+    "Layer Name":"PARKwq.dbf",
+    "Layer Type":"WQ Station",
+    "Description of Layer Contents":"Water Quality Stations from EPA STORET",
+    "Sources":"EPA STORET Database at www.epa.gov/storet"
+  },
+  {
+    "Layer Name":"PARKidg.dbf",
+    "Layer Type":"IDG Station",
+    "Description of Layer Contents":"Dischargers, Drinking Intakes, Gages, and Dams",
+    "Sources":"EPA Inhouse Database System on NCC Mainframe"
+  },
+  {
+    "Layer Name":"PARKhead.dbf",
+    "Layer Type":"Parkhead",
+    "Description of Layer Contents":"Park Headquarters",
+    "Sources":"USGS 1:24,000 Quads, Park Brochures"
+  },
+  {
+    "Layer Name":"PARKmine.dbf",
+    "Layer Type":"Mine",
+    "Description of Layer Contents":"Mines",
+    "Sources":"US Bureau of Mines/USGS Minerals Availability System/Mineral Industry Location System (MAS/MILS) CD-ROM"
+  }
+]
