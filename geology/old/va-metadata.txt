@@ -1,0 +1,4430 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Connie L. Dicken
+      Originator: Suzanne W. Nicholson
+      Originator: John D. Horton
+      Originator: Scott A. Kinney
+      Originator: Gregory Gunther
+      Originator: Michael P. Foose
+      Originator: Julia A.L. Mueller
+      Publication_Date: 2005
+      Title: Integrated Geologic Map Databases for the United States:  Delaware, Maryland, New York, Pennsylvania, and Virginia
+      Edition: version 1.0
+      Geospatial_Data_Presentation_Form: map
+      Series_Information:
+        Series_Name: U.S. Geological Survey Open-File Report
+        Issue_Identification: 2005-1325
+
+      Publication_Information:
+        Publication_Place: Reston, VA
+        Publisher: U.S. Geological Survey
+      Online_Linkage: http://pubs.usgs.gov/of/2005/1325
+  Description:
+    Abstract: This report presents the results of the USGS Mineral Resources Program activity to compile a national-scale geologic map database at a nominal scale of 1:500,000, to support national and regional level projects, including mineral resource and geoenvironmental assessments. The only comprehensive sources for input into regional- and national-scale geologic maps are state geologic maps with scales ranging from 1:100,000 to 1:1,000,000.  Digital versions of these state maps form the core of what is presented here.  Because no adequate geologic map exists for the state of Alaska, it is being compiled as regional blocks of 3 degree quadrangles that also form part of this national database. It is expected that this series will completed by approximately the end of 2007.  These maps and databases are being released in blocks of states or, in the case of Alaska, as compiled blocks of 1:250,000-scale quadrangles as chapters in this series.  For Alaska, formal maps as well as databases are being published here, whereas for the conterminous U.S. only state databases are presented, because published maps for most states already exist.  For Alaska these regional compilations will form the base for compiling a new geologic map of the state.  As documented in CONUS documentation, standards for the conterminous U.S. are somewhat different than those for Alaska and Hawaii.
+    Purpose: A primary goal of this work is to develop geologic map datasets with standardized structure and attribution.  The database design and standards are documented in CONUS documentation of this report.  The intent is that contiguous databases can be merged seamlessly and without any additional effort.  In addition to a common database structure, the conterminous U.S. state databases (the contiguous 48 states) have been fitted to a set of standard state boundaries derived from the USGS Digial Line Graph 1:100,000 quadrangle boundaries (Johnson and Leveritch, 1998) so that, when states are merged, they match without slivers or overlap.  No attempt has been made to reconcile differences in mapping across state boundaries.
+    Supplemental_Information:
+      This database consists of five major Arc/Info GIS datasets for each state;
+      - one: geologic map with formations,
+      - two: faults (where present),
+      - three: dikes (where present),
+      - four: miscellaneous line features (where present),
+      - five: miscellaneous point features (where present).
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 2005
+    Currentness_Reference: publication date
+
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: none planned
+
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -83.675682 (decimal degrees)
+      East_Bounding_Coordinate: -75.097580 (decimal degrees)
+
+      North_Bounding_Coordinate: 39.465752 (decimal degrees)
+      South_Bounding_Coordinate: 36.535133 (decimal degrees)
+
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: none
+      Theme_Keyword: geology
+    Place:
+      Place_Keyword_Thesaurus: none
+      Place_Keyword: USA
+      Place_Keyword: Virginia
+
+    Theme:
+      Theme_Keyword_Thesaurus: National Geologic Map Database Catalog themes, augmented
+      Theme_Keyword: 3100 - Vector
+      Theme_Keyword: 3110 - ESRI
+      Theme_Keyword: 3112 - export
+      Theme_Keyword: 1100 - Geology
+      Theme_Keyword: 1101 - General
+    Place:
+      Place_Keyword_Thesaurus: Augmented FIPS 10-4 and FIPS 6-4, version 1.0
+      Place_Keyword: US51 = Virginia
+  Access_Constraints: none
+
+  Use_Constraints:
+    This database is not meant to be used or displayed at any scale other
+    than 1:500,000.
+
+    Any hardcopies utilizing these data sets shall clearly indicate
+    their source.  If the licensee has modified the data in any way
+    they are obligated to describe the types of modifications they
+    have performed on the hardcopy map.  Licensee specifically agrees
+    not to misrepresent these data sets, nor to imply that changes they
+    made were approved by the U.S. Geological Survey.
+
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Suzanne W. Nicholson
+
+        Contact_Organization: U.S. Geological Survey
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 12201 Sunrise Valley Dr.  MS954
+        City: Reston
+        State_or_Province: VA
+        Postal_Code: 20192
+        Country: USA
+      Contact_Voice_Telephone: 703-648-6344
+      Contact_Electronic_Mail_Address: swnich@usgs.gov
+
+  Data_Set_Credit:
+    State Geologic Map Compilation (SGMC) activity of the National Surveys and Analysis
+    projects of the US Geological Survey Mineral Resources Program.
+
+  Native_Data_Set_Environment:
+    ARC/INFO version 8.3 and 9.0
+    ArcView 3.2
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: The values of the attributes ROCKTYPE1 and ROCKTYPE2 were assigned based on the information in the legends of the source maps (most of which are paper).  The definitions of these values are described in the draft document Geologic Map Classification version 6.1 (Johnson and others); available at the following website:  http://www.nadm-geo.org/dmdt/index.html
+  Logical_Consistency_Report: All internal polygons were checked for closure with vendor software and on hard copy plots.  Overshoots and undershoots have been deleted or corrected as appropriate.
+  Completeness_Report: Bodies of water are classified as water, and the geologic units underlying them are not included in this coverage.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        Accuracy of Virginia state boundary and those arcs intersecting it: The accuracy of the state boundary arcs is based on the 1:100,000 scale original data used to produce this boundary.  (Johnson, Bruce R. and Leveritch, Beth, 1998, 1:100,000 Scale State Boundaries of the Conterminous United States: U.S. Geological Survey, unpublished).
+
+        Those internal arcs intersecting the state boundary were extended or shortened as needed to complete polygons, possibly creating a small amount of error.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Virginia Department of Mines, Mineral and Energy
+          Publication_Date: unpublished
+          Title: Geologic Map of Virginia
+          Geospatial_Data_Presentation_Form: map
+          Publication_Information:
+            Publication_Place: Charlottesville, VA
+            Publisher: Virginia Department of Mines, Mineral and Energy
+          Online_Linkage: http://www.dmme.virginia.gov/DMR/DOCS/Digit/dgm2.html#digeo
+      Source_Scale_Denominator: 500,000
+      Type_of_Source_Media: vector
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20050710
+        Source_Currentness_Reference: release to USGS from Virginia DMME (July 10, 2005)
+      Source_Citation_Abbreviation: va geology
+      Source_Contribution: provided geology for state map
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Bruce R. Johnson
+          Publication_Date: unpublished
+          Title: 1:100,000 Scale State Boundaries of the Conterminous United States
+          Geospatial_Data_Presentation_Form: vector data
+          Other_Citation_Details: Arc/INFO coverage developed by Bruce Johnson.  Derived from USGS 100,000-scale DLG boundary layer quadrangles.
+      Source_Scale_Denominator: 100,000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1998
+        Source_Currentness_Reference: unknown
+      Source_Citation_Abbreviation: state boundaries
+      Source_Contribution: provided linework of the conterminous state boundaries
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Bruce R. Johnson
+          Publication_Date: unpublished
+          Title: Geologic Map Unit Classification, ver. 6.1
+          Geospatial_Data_Presentation_Form: unknown
+          Other_Citation_Details: Document has been modified and is included in Appedices of the publication.
+      Source_Scale_Denominator: none
+      Type_of_Source_Media: online; http:/geology.usgs.gov/dm
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1998
+        Source_Currentness_Reference: unknown
+      Source_Citation_Abbreviation: lithclass
+      Source_Contribution: Source of lithologic codes and specific rock names found in ROCKTYPE1 and ROCKTYPE2.
+    Process_Step:
+      Process_Description: The purpose of this standardization is to allow all covers to be seamlessly joined without any additional effort to form regional or national level digital maps. Note that for Alaska, the state is being compiled as blocks of 1:250k quadrangles that will ultimately be used to compile a new state map.  Douglas Stoeser and Ric Wilson are co-coordinators for the overall State Geologic Map Compilation (SGMC) effort, with Stoeser coordinating work on the mainland states and Wilson coordinating work for Alaska and Hawaii.
+      Process_Date: 2003 - 2005
+    Process_Step:
+      Process_Description:
+        C.L. Dicken received the digital geology file from Karen Hostettler of the Virginia Department of Mines, Mineral and Energy on July 12, 2005 by ftp.
+
+        The coverage was re-projected into the following:
+
+        projection:		Lambert Conformal Conic
+        units:			meters
+        datum:			NAD27
+        standard parallel 1: 	33 0 0.000
+        standard parallel 2: 	45 0 0.000
+        central meridian:	-100 0 0.000
+        reference latitude:	0 0 0.000
+        false easting:		0.00000
+        false northing:		0.00000
+
+        All attributes were deleted except geology.
+
+        (Note:  Attributes associated with the generation of the coverages were not deleted.
+        PAT - shape, area, perimeter, coverage#, and coverage-id
+        AAT - shape, fnode#, tnode#, lnode#, rnode#, length, coverage#, and coverage-id)
+
+        The values from geology where then calculated into a new field called orig_label.
+      Process_Date: 2005
+    Process_Step:
+      Process_Description:
+        The relevant state outline (arcs) was removed from the coverage and replaced with the arcs from the 1:100,000 Scale State Boundaries of the Conterminous United States.
+
+        This allows for a seamless fit of each state to a standard state boundary base.
+      Process_Date: 2005
+    Process_Step:
+      Process_Description:
+        The following attributes were exported from Filemaker as a .dbf:
+        orig_label, map_symbol2, unit_link, reference_id, unit_age, rocktype1, and rocktype2.
+
+        orig_label  reflects the original map symbol used on the source map
+
+        map_symbol2  reflects map-symbol1 with the addition of a province number (renamed sgmc_label in PAT)
+
+        unit_link  is an auto generated field based on map-symbol2 and the state abbreviation (e.g. IN001) that produces a unique identifier for each map unit
+
+        reference_id was populated with an alphanumeric code (e.g. US001) that designates the source used for the linework and other references used to describe the age or lithologies of the unit.  (renamed source in PAT).
+
+        unit_age  was populated with general age assignment
+
+        rocktype1  records dominant lithology (must be >50% of unit), using standardized data dictionary
+
+        rocktype2  records second most dominant lithology, using standardized data dictionary
+
+
+
+        The attributes were then converted using the following structure:
+
+        item name:	orig_label
+        width:		12
+        output:		12
+        type:		c
+
+        item name:	sgmc_label
+        width:		16
+        output:		16
+        type:		c
+
+        item name:	unit_link
+        width:		18
+        output:		18
+        type:		c
+
+        item name:	source
+        width:		6
+        output:		8
+        type:		c
+
+        item name:	unit_age
+        width:		60
+        output:		60
+        type:		c
+
+        item name:	rocktype1
+        width:		40
+        output:		40
+        type:		c
+
+        item name:	rocktype2
+        width:		40
+        output:		40
+        type:		c
+      Process_Date: 2005
+    Process_Step:
+      Process_Description: Once the .dbf was in the correct format with standardized column widths and data structure, it was converted into a lookup table (.lut) in Arc/Info.  Then a joinitem was performed to join the look-up table to the polygon attribute table.  orig_label was used as the merge item.
+      Process_Date: 2005
+    Process_Step:
+      Process_Description:
+        Next, in preparing the uniform .aat file, the following items were added to the table:
+
+        item name:  arc-code
+        width:	3
+        output:	3
+        type:	i
+
+        item name:  arc-para1
+        width:	3
+        output:	3
+        type:	i
+
+        item name:  arc-para2
+        width:	3
+        output:	3
+        type:	i
+
+        item name:  source
+        width:	6
+        output:	8
+        type:	c
+
+      Process_Date: 2005
+    Process_Step:
+      Process_Description:
+        Arc-code was populated using the paper map source to tag the lines using the AAT line type data dictionary (see CONUS documentation in this report).
+
+        Arc-para1 was populated when additional information was available such as identifying the upthrown side of a fault or direction of thrusting on a fault. (see CONUS documentation)
+
+        Arc-para2 is a scratch field that is used mostly in Alaska.
+
+        Source was populated with an alphanumeric code (e.g. US001) that designates the source used for the linework.
+
+      Process_Date: 2005
+    Process_Step:
+      Process_Description:
+        Once the .aat and the .pat were populated with the correct attributes, the coverage was exported as an .e00 file (VAgeol_lcc.e00).
+
+        Then it was unprojected into geographic coordinates and exported again (VAgeol_dd.e00).
+      Process_Date: 2005
+    Process_Step:
+      Process_Description: Separate faults were received from DMME and the fault coverage.  The arcs were attributed with arc-code = 30.  The file was projected into the Lambert projection and saved as VAfaults_lcc.  It was then exported as VAfaults_lcc.e00.
+      Process_Date: 2005
+    Process_Step:
+      Process_Description: Finally, the geology lines and geology polygons were converted into shapefiles; in both geographic coordinates and in Lambert Conformal Conic projection.
+      Process_Date: 2005
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: Lambert Conformal Conic
+        Lambert_Conformal_Conic:
+          Standard_Parallel: 33
+          Standard_Parallel: 45
+          Longitude_of_Central_Meridian: -100.0
+          Latitude_of_Projection_Origin: 0
+          False_Easting: 0.00000
+          False_Northing: 0.00000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.01
+          Ordinate_Resolution: 0.01
+        Planar_Distance_Units: Meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1927
+      Ellipsoid_Name: Clarke 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio: 294.98
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: VA_geol.pat
+      Entity_Type_Definition: Polygon attribute table for the Virginia geologic coverage.
+      Entity_Type_Definition_Source: ESRI
+    Attribute:
+      Attribute_Label: ORIG_LABEL
+      Attribute_Definition:
+        unmodified map unit symbol from source cover.
+
+        type: character
+        width: 12
+        output width: 12
+      Attribute_Definition_Source: Doug Stoeser
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: adg
+          Enumerated_Domain_Value_Definition: Altered Diorite and Gabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: af
+          Enumerated_Domain_Value_Definition: Artificial Fill
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ag
+          Enumerated_Domain_Value_Definition: Abbeyville Gabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ak
+          Enumerated_Domain_Value_Definition: Alaskite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: al
+          Enumerated_Domain_Value_Definition: Alluvium
+        Enumerated_Domain:
+          Enumerated_Domain_Value: amr
+          Enumerated_Domain_Value_Definition: Amphibolite and Amphibole-Bearing Gneiss and Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: basalt
+          Enumerated_Domain_Value_Definition: Valley and Ridge Igneous Intrusions; Basalt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: bgd
+          Enumerated_Domain_Value_Definition: Biotite Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: bgp
+          Enumerated_Domain_Value_Definition: Porphyroblastic Biotite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: bgr
+          Enumerated_Domain_Value_Definition: Burkeville Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: bgs
+          Enumerated_Domain_Value_Definition: Biotite Gneiss and Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: bmgl
+          Enumerated_Domain_Value_Definition: Biotite-Muscovite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: bo
+          Enumerated_Domain_Value_Definition: Buffalo Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [bg
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [c
+          Enumerated_Domain_Value_Definition: Conasauga Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [ca
+          Enumerated_Domain_Value_Definition: Candler Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [cas
+          Enumerated_Domain_Value_Definition: Candler Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [cfv
+          Enumerated_Domain_Value_Definition: Chopawamsic Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [ch
+          Enumerated_Domain_Value_Definition: Chilhowee Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [cmv
+          Enumerated_Domain_Value_Definition: Chopawamsic Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [co
+          Enumerated_Domain_Value_Definition: Conococheague Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [cv
+          Enumerated_Domain_Value_Definition: Chopawamsic Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [d
+          Enumerated_Domain_Value_Definition: Dale City Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [e
+          Enumerated_Domain_Value_Definition: Elbrook Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [eh
+          Enumerated_Domain_Value_Definition: Erwin and Hampton Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [ev
+          Enumerated_Domain_Value_Definition: Everona Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [f
+          Enumerated_Domain_Value_Definition: Frederick Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [fq
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [fv
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [fvs
+          Enumerated_Domain_Value_Definition: Metavolcanic and Metasedimentary Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [g
+          Enumerated_Domain_Value_Definition: Amphibolite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [gi
+          Enumerated_Domain_Value_Definition: Georgetown Intrusive Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [i
+          Enumerated_Domain_Value_Definition: Indian Run Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [l
+          Enumerated_Domain_Value_Definition: Lunga Reservoir Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [lw
+          Enumerated_Domain_Value_Definition: Leatherwood Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [m
+          Enumerated_Domain_Value_Definition: Melrose Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [mv
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [mvs
+          Enumerated_Domain_Value_Definition: Metavolcanic and Metasedimentary Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [nhk
+          Enumerated_Domain_Value_Definition: Nolichucky and Honaker Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [nmrr
+          Enumerated_Domain_Value_Definition: Nolichucky and Maryville Formations, Rogersville Shale, and Rutledge Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [p
+          Enumerated_Domain_Value_Definition: Purcell Branch Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [r
+          Enumerated_Domain_Value_Definition: Rome Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [ra
+          Enumerated_Domain_Value_Definition: Rich Acres Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [s
+          Enumerated_Domain_Value_Definition: Shady Dolomite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [sg
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [sv
+          Enumerated_Domain_Value_Definition: Sykesville Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [t
+          Enumerated_Domain_Value_Definition: Tomstown Dolomite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [ta
+          Enumerated_Domain_Value_Definition: Ta River Metamorphic Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [u
+          Enumerated_Domain_Value_Definition: Unicoi Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [wb
+          Enumerated_Domain_Value_Definition: Waynesboro Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [wbt
+          Enumerated_Domain_Value_Definition: Waynesboro Formation and Tomstown Dolomite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [y
+          Enumerated_Domain_Value_Definition: Yorkshire Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Za
+          Enumerated_Domain_Value_Definition: Annandale Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zba
+          Enumerated_Domain_Value_Definition: Alligator Back Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zac
+          Enumerated_Domain_Value_Definition: Alligator Back Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zas
+          Enumerated_Domain_Value_Definition: Alligator Back Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zba
+          Enumerated_Domain_Value_Definition: Bassett Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zc
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zcb
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zcr
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zcs
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zfm
+          Enumerated_Domain_Value_Definition: Fork Mountain Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zg
+          Enumerated_Domain_Value_Definition: Garrisonville Mafic Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zh
+          Enumerated_Domain_Value_Definition: Holly Corner Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zhb
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zl
+          Enumerated_Domain_Value_Definition: Annandale Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zlb
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zmd
+          Enumerated_Domain_Value_Definition: Metagabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zmg
+          Enumerated_Domain_Value_Definition: Mather Gorge Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zmi
+          Enumerated_Domain_Value_Definition: Mafic Igneous Complex Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zmq
+          Enumerated_Domain_Value_Definition: Micaceous Quartzite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zms
+          Enumerated_Domain_Value_Definition: Mather Gorge Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zmy
+          Enumerated_Domain_Value_Definition: Alligator Back Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zpb
+          Enumerated_Domain_Value_Definition: Piney Branch Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zpm
+          Enumerated_Domain_Value_Definition: Metagraywacke, Quartzose Schist, and Melange
+        Enumerated_Domain:
+          Enumerated_Domain_Value: [Zum
+          Enumerated_Domain_Value_Definition: Ultramafic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: cm
+          Enumerated_Domain_Value_Definition: Polygenetic Melange
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Db
+          Enumerated_Domain_Value_Definition: Brallier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dch
+          Enumerated_Domain_Value_Definition: Chemung Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: dgn
+          Enumerated_Domain_Value_Definition: Diorite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dhs
+          Enumerated_Domain_Value_Definition: Hampshire Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: di
+          Enumerated_Domain_Value_Definition: Diorite and Quartz Diorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dma
+          Enumerated_Domain_Value_Definition: Mahantango Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dmn
+          Enumerated_Domain_Value_Definition: Millboro Shale and Needmore Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dmrn
+          Enumerated_Domain_Value_Definition: Marcellus Shale and Needmore Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ds
+          Enumerated_Domain_Value_Definition: Dune Sand
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DSOz
+          Enumerated_Domain_Value_Definition: Lower Devonian, Silurian and Upper Ordovician Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DSu
+          Enumerated_Domain_Value_Definition: Ridgeley Sandstone, Helderberg and Cayugan Groups
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DSz
+          Enumerated_Domain_Value_Definition: Lower Devonian and Silurian Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dx
+          Enumerated_Domain_Value_Definition: Millboro Shale, Huntersville Chert, and Rocky Gap Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: fbgr
+          Enumerated_Domain_Value_Definition: Foliated Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: fcm
+          Enumerated_Domain_Value_Definition: Fine Creek Mills Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: fg
+          Enumerated_Domain_Value_Definition: Gneissic Granite and Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: fgb
+          Enumerated_Domain_Value_Definition: Biotite Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: fr
+          Enumerated_Domain_Value_Definition: Flat Rock Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: g
+          Enumerated_Domain_Value_Definition: Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ga
+          Enumerated_Domain_Value_Definition: Hornblende Gabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: gn
+          Enumerated_Domain_Value_Definition: Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: gns
+          Enumerated_Domain_Value_Definition: Gneiss and Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: gr
+          Enumerated_Domain_Value_Definition: Granitoid Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: grb
+          Enumerated_Domain_Value_Definition: Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: grbi
+          Enumerated_Domain_Value_Definition: Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: grc
+          Enumerated_Domain_Value_Definition: Carysbrook Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: grp
+          Enumerated_Domain_Value_Definition: Porphyritic Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: grpo
+          Enumerated_Domain_Value_Definition: Porphyritic Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: grt
+          Enumerated_Domain_Value_Definition: Metatonalite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: gs
+          Enumerated_Domain_Value_Definition: Actinolite Schist Metabasalt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jb
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Jurassic Basalt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jc
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Jurassic Conglomerate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jd
+          Enumerated_Domain_Value_Definition: Diabase
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jsh
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Jurassic Siltstone and Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jss
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Jurassic Interbedded Sandstone and Siltstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: JTp
+          Enumerated_Domain_Value_Definition: Valley and Ridge Igneous Intrusions; Peridotite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kp
+          Enumerated_Domain_Value_Definition: Potomac Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ks
+          Enumerated_Domain_Value_Definition: Kyanite Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: lgn
+          Enumerated_Domain_Value_Definition: Lineated Biotite Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ls
+          Enumerated_Domain_Value_Definition: Candler Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: m
+          Enumerated_Domain_Value_Definition: Marsh and Intertidal Mud Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mbf
+          Enumerated_Domain_Value_Definition: Bluefield Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mccf
+          Enumerated_Domain_Value_Definition: Cove Creek Limestone and Fido Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MDcw
+          Enumerated_Domain_Value_Definition: Chattanooda Shale and Wildcat Valley Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: mf
+          Enumerated_Domain_Value_Definition: Mafic Plutonic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mg
+          Enumerated_Domain_Value_Definition: Greenbrier Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: mgb
+          Enumerated_Domain_Value_Definition: Metagabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: mgr
+          Enumerated_Domain_Value_Definition: Metagraywacke
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mm
+          Enumerated_Domain_Value_Definition: Maccrady Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mmpr
+          Enumerated_Domain_Value_Definition: Maccrady Shale and Price Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mp
+          Enumerated_Domain_Value_Definition: Pennington Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mpbg
+          Enumerated_Domain_Value_Definition: Petersburg Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: mpg
+          Enumerated_Domain_Value_Definition: Migmatitic Paragneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mpo
+          Enumerated_Domain_Value_Definition: Pocono Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mpr
+          Enumerated_Domain_Value_Definition: Price Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: msg
+          Enumerated_Domain_Value_Definition: Miocene Sand and Gravel
+        Enumerated_Domain:
+          Enumerated_Domain_Value: mss
+          Enumerated_Domain_Value_Definition: Metasandstone and Metasiltstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: my
+          Enumerated_Domain_Value_Definition: Mylonite, Mylonite Gneiss, and Cataclastic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mz
+          Enumerated_Domain_Value_Definition: Mississippian Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: nv
+          Enumerated_Domain_Value_Definition: North View Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oa
+          Enumerated_Domain_Value_Definition: Arvonia Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oas
+          Enumerated_Domain_Value_Definition: Arvonia Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ob
+          Enumerated_Domain_Value_Definition: Beekmantown Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Obf
+          Enumerated_Domain_Value_Definition: Buffards Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Obi
+          Enumerated_Domain_Value_Definition: Bear Island Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Obq
+          Enumerated_Domain_Value_Definition: Arvonia Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[cc
+          Enumerated_Domain_Value_Definition: Chepultepec and Copper Ridge Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[co
+          Enumerated_Domain_Value_Definition: Conococheague Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[d
+          Enumerated_Domain_Value_Definition: Dalecarlia Instrusive Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[f
+          Enumerated_Domain_Value_Definition: Falls Church Intrusive Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[gg
+          Enumerated_Domain_Value_Definition: Goldvein Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[k
+          Enumerated_Domain_Value_Definition: Knox Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[o
+          Enumerated_Domain_Value_Definition: Occoquan Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[p
+          Enumerated_Domain_Value_Definition: Phyllite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[pg
+          Enumerated_Domain_Value_Definition: Plagiogranite Tonalite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[po
+          Enumerated_Domain_Value_Definition: Popes Head Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[ps
+          Enumerated_Domain_Value_Definition: Popes Head Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[tj
+          Enumerated_Domain_Value_Definition: Trondhjemite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[u
+          Enumerated_Domain_Value_Definition: Metasedimentary Rocks Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O[z
+          Enumerated_Domain_Value_Definition: Lower Ordovician and Upper Cambrian Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ocg
+          Enumerated_Domain_Value_Definition: Columbia pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oeln
+          Enumerated_Domain_Value_Definition: Edinburg Formation, Lincolnshire and New Market Limestones
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Okpl
+          Enumerated_Domain_Value_Definition: Knobs Formation, Paperville Shale, Lenoir and Mosheim Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Okq
+          Enumerated_Domain_Value_Definition: Arvonia Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ol
+          Enumerated_Domain_Value_Definition: Lake Jackson Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ola
+          Enumerated_Domain_Value_Definition: Lahore Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Olm
+
+          Enumerated_Domain_Value_Definition: Lahore Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Olp
+
+          Enumerated_Domain_Value_Definition: Lahore Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ols
+
+          Enumerated_Domain_Value_Definition: Moccasin or Bays Formation through Blackford Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Om
+
+          Enumerated_Domain_Value_Definition: Martinsburg and Oranda Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Omk
+
+          Enumerated_Domain_Value_Definition: Mascot and Kingsport Dolomites
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oml
+
+          Enumerated_Domain_Value_Definition: Hardy Creek Limestone through Dot Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oq
+
+          Enumerated_Domain_Value_Definition: Quantico Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oqq
+
+          Enumerated_Domain_Value_Definition: Quantico Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ost
+
+          Enumerated_Domain_Value_Definition: Shelton Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ot
+
+          Enumerated_Domain_Value_Definition: Metatonalite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ou
+
+          Enumerated_Domain_Value_Definition: Sequatchie Formation, Reedsville Shale, Trenton Limestone, Eggleston Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oun
+
+          Enumerated_Domain_Value_Definition: Juniata, Oswego, Martinsburg (Reedsville and Dolly Ridge), and Eggleston Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ous
+
+          Enumerated_Domain_Value_Definition: Juniata, Reedsville, Trenton, and Eggleston Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oz
+
+          Enumerated_Domain_Value_Definition: Upper and Middle Ordovician Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OZl
+
+          Enumerated_Domain_Value_Definition: Mine Run Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OZll
+
+          Enumerated_Domain_Value_Definition: Mine Run Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OZlll
+
+          Enumerated_Domain_Value_Definition: Mine Run Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: @h
+
+          Enumerated_Domain_Value_Definition: Harlan Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: @k
+
+          Enumerated_Domain_Value_Definition: Kanawha Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: @l
+
+          Enumerated_Domain_Value_Definition: Lee Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: @Mbi
+
+          Enumerated_Domain_Value_Definition: Buggs Island Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: @Mf
+
+          Enumerated_Domain_Value_Definition: Falmouth Intrusive Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: @Ml
+
+          Enumerated_Domain_Value_Definition: Lee Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: @n
+
+          Enumerated_Domain_Value_Definition: Norton Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: @nr
+
+          Enumerated_Domain_Value_Definition: New River Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: @p
+
+          Enumerated_Domain_Value_Definition: Pocahontas Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: @w
+
+          Enumerated_Domain_Value_Definition: Wise Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: @wg
+
+          Enumerated_Domain_Value_Definition: Wise Formation and Gladeville Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: @z
+
+          Enumerated_Domain_Value_Definition: Norton, New River, Lee and Pocahontas Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pbg
+
+          Enumerated_Domain_Value_Definition: Porphyroblastic Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: peg
+
+          Enumerated_Domain_Value_Definition: Granite Pegmatite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pg
+
+          Enumerated_Domain_Value_Definition: Plagiogranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pgo
+
+          Enumerated_Domain_Value_Definition: Pegmatite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ppg
+
+          Enumerated_Domain_Value_Definition: Pegmatite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: psg
+
+          Enumerated_Domain_Value_Definition: Pliocene Sand and Gravel
+        Enumerated_Domain:
+          Enumerated_Domain_Value: py
+
+          Enumerated_Domain_Value_Definition: Phyllonite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qc
+
+          Enumerated_Domain_Value_Definition: Chuckatuck Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qcc
+
+          Enumerated_Domain_Value_Definition: Charles City Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qj
+
+          Enumerated_Domain_Value_Definition: Joynes Neck Sand
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qk
+
+          Enumerated_Domain_Value_Definition: Kent Island Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qnb
+
+          Enumerated_Domain_Value_Definition: Nassawadox Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qno
+
+          Enumerated_Domain_Value_Definition: Nassawadox Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qoa
+
+          Enumerated_Domain_Value_Definition: Omar Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qsh
+
+          Enumerated_Domain_Value_Definition: Shirley Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qt
+
+          Enumerated_Domain_Value_Definition: Tabb Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qtl
+
+          Enumerated_Domain_Value_Definition: Tabb Formation; Lynnhaven Member
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qtlp
+
+          Enumerated_Domain_Value_Definition: Tabb Formation: Lynnhaven and Poquoson Members
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qtp
+
+          Enumerated_Domain_Value_Definition: Tabb Formtaion; Poquoson Member
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qts
+
+          Enumerated_Domain_Value_Definition: Tabb Formation; Sedgefield Member
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTu
+
+          Enumerated_Domain_Value_Definition: Quaternary and Tertiary Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTw
+
+          Enumerated_Domain_Value_Definition: Windsor Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qwa
+
+          Enumerated_Domain_Value_Definition: Wachapreague Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: rbg
+
+          Enumerated_Domain_Value_Definition: Biotite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ro
+
+          Enumerated_Domain_Value_Definition: Red Oak Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: sb
+
+          Enumerated_Domain_Value_Definition: Beach Sand and Dune Sand Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: sch
+
+          Enumerated_Domain_Value_Definition: Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sf
+
+          Enumerated_Domain_Value_Definition: Falls Run Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Shrc
+
+          Enumerated_Domain_Value_Definition: Hancock, Rose Hill, and Clinch Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Skrt
+
+          Enumerated_Domain_Value_Definition: Keefer, Rose Hill, and Tuscarora Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sm
+
+          Enumerated_Domain_Value_Definition: Massanutten Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SOe
+
+          Enumerated_Domain_Value_Definition: Ellisville Biotite Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SOz
+
+          Enumerated_Domain_Value_Definition: Silurian and Upper Ordovician Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: sp
+
+          Enumerated_Domain_Value_Definition: Swamp Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sz
+
+          Enumerated_Domain_Value_Definition: Silurian Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tb1
+
+          Enumerated_Domain_Value_Definition: Bacons Castle Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tb2
+
+          Enumerated_Domain_Value_Definition: Bacons Castle Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tc
+
+          Enumerated_Domain_Value_Definition: Chesapeake Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: td
+
+          Enumerated_Domain_Value_Definition: Terrace Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tl
+
+          Enumerated_Domain_Value_Definition: Lower Tertiary Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tm
+
+          Enumerated_Domain_Value_Definition: Moorings Unit of Oaks and Coch (1973)
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRbr
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Breccia, mixed clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRbr1
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Breccia, mudstone clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRc
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Conglomerate, mixed clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRc1
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Conglomerate, limestone clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRc2
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Conglomerate, greenstone clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRc3
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Conglomerate, arkosic maatrix
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRcs
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Triassic Sandstone, Siltstone, Shale, and Coal
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRs
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Sandstone, undifferentiated
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRs1
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Arkosic Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRsh
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Triassic shale and siltstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRss
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Triassic Sandstone, Siltstone, and Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: u
+
+          Enumerated_Domain_Value_Definition: Ultramafic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: um
+
+          Enumerated_Domain_Value_Definition: Ultramafic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: v
+
+          Enumerated_Domain_Value_Definition: Mafic and Felsic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: vl
+
+          Enumerated_Domain_Value_Definition: Metavolcanic and Metavolcanic Clastic Phyllite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: vo
+
+          Enumerated_Domain_Value_Definition: Felsic/Mafic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: water
+
+          Enumerated_Domain_Value_Definition: water
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ya
+
+          Enumerated_Domain_Value_Definition: Amphibolite, Amphibole Gneiss, and Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yal
+
+          Enumerated_Domain_Value_Definition: Alkali Feldspar Leucogranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yan
+
+          Enumerated_Domain_Value_Definition: Montpelier Metanorthosite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ybg
+
+          Enumerated_Domain_Value_Definition: Porphyoblastic Biotite-Plagioclase Augen Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yblg
+
+          Enumerated_Domain_Value_Definition: Biotite-Muscovite Leucogranite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ybp
+
+          Enumerated_Domain_Value_Definition: Porphyroblastic Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ybr
+
+          Enumerated_Domain_Value_Definition: Border Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yc
+
+          Enumerated_Domain_Value_Definition: Charnockite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ycm
+
+          Enumerated_Domain_Value_Definition: Charnockite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ycz
+
+          Enumerated_Domain_Value_Definition: Crozet Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yec
+
+          Enumerated_Domain_Value_Definition: Elk Park Plutonic Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yep
+
+          Enumerated_Domain_Value_Definition: Elk Park Plutonic Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yfh
+
+          Enumerated_Domain_Value_Definition: Flint Hill Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yg
+
+          Enumerated_Domain_Value_Definition: Leucocratic Metagranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygb
+
+          Enumerated_Domain_Value_Definition: Layered Biotite Granulite and Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygbt
+
+          Enumerated_Domain_Value_Definition: Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygg
+
+          Enumerated_Domain_Value_Definition: Layered Leucocratic Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygh
+
+          Enumerated_Domain_Value_Definition: Hornblende Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygn
+
+          Enumerated_Domain_Value_Definition: Leucocratic Granulite and Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygr
+
+          Enumerated_Domain_Value_Definition: Biotite Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygt
+
+          Enumerated_Domain_Value_Definition: Garnetiferous Leucocratic Metagranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yhd
+
+          Enumerated_Domain_Value_Definition: Biotite-Hornblende Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yhg
+
+          Enumerated_Domain_Value_Definition: Megacrystic Charnockite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yl
+
+          Enumerated_Domain_Value_Definition: Leucocharnockite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yma
+
+          Enumerated_Domain_Value_Definition: Layered Quartzofeldspathic Augen Gneiss and Flaser Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ymc
+
+          Enumerated_Domain_Value_Definition: Marshall Metagranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ymd
+
+          Enumerated_Domain_Value_Definition: Porphyroblastic Garnet-Biotite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ymg
+
+          Enumerated_Domain_Value_Definition: Two-Mica Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ymm
+
+          Enumerated_Domain_Value_Definition: Marshall Metagranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yms
+
+          Enumerated_Domain_Value_Definition: Muscovite Schist and Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yn
+
+          Enumerated_Domain_Value_Definition: Metanorite and Metadiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yor
+
+          Enumerated_Domain_Value_Definition: Old Rag Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yp
+
+          Enumerated_Domain_Value_Definition: Garnet-Graphite Paragneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PzYgr
+
+          Enumerated_Domain_Value_Definition: Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PzYpm
+
+          Enumerated_Domain_Value_Definition: Quartzofeldspathic Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ypc
+
+          Enumerated_Domain_Value_Definition: Porphyritic Leucocharnockite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ypg
+
+          Enumerated_Domain_Value_Definition: Layered Pyroxene Granulite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ypp
+
+          Enumerated_Domain_Value_Definition: Layered Porphyrobliastic Pyroxene Granulite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yq
+
+          Enumerated_Domain_Value_Definition: Quartzite and Quartz-Sericite Tectonite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yra
+
+          Enumerated_Domain_Value_Definition: Roseland Anorthosite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ysc
+
+          Enumerated_Domain_Value_Definition: Stuart Creek Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ysf
+
+          Enumerated_Domain_Value_Definition: State Farm Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ysh
+
+          Enumerated_Domain_Value_Definition: Schaeffer Hollow Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yt
+
+          Enumerated_Domain_Value_Definition: Metatrondhjemite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yum
+
+          Enumerated_Domain_Value_Definition: Metaperidotite, Metapyroxenite, and Hornblende Metagabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Za
+
+          Enumerated_Domain_Value_Definition: Aaron Slate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zaa
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zac
+
+          Enumerated_Domain_Value_Definition: Aaron Slate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zam
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zas
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zau
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zav
+
+          Enumerated_Domain_Value_Definition: Felsic Volcanic and Volcaniclastic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zbg
+
+          Enumerated_Domain_Value_Definition: Bassett Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zch
+
+          Enumerated_Domain_Value_Definition: Charlottesville Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zfa
+
+          Enumerated_Domain_Value_Definition: Fauquier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zfc
+
+          Enumerated_Domain_Value_Definition: Fauquier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zfl
+
+          Enumerated_Domain_Value_Definition: Fauquier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zfs
+
+          Enumerated_Domain_Value_Definition: Fauquier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zfv
+
+          Enumerated_Domain_Value_Definition: Felsic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zgd
+
+          Enumerated_Domain_Value_Definition: Biotite Granodiorite and Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zgdm
+
+          Enumerated_Domain_Value_Definition: Mobley Mountain Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zgdr
+
+          Enumerated_Domain_Value_Definition: Rockfish River Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zgds
+
+          Enumerated_Domain_Value_Definition: Striped Rock Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zgs
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zh
+
+          Enumerated_Domain_Value_Definition: Hyco Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zhf
+
+          Enumerated_Domain_Value_Definition: Phyllite and Metatuff
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zkr
+
+          Enumerated_Domain_Value_Definition: Konnarock Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zlc
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zlf
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zlg
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zlm
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zlq
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zlv
+
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zm
+
+          Enumerated_Domain_Value_Definition: Marble
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zmf
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zmg
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zml
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zmm
+
+          Enumerated_Domain_Value_Definition: Monumental Mills Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zmp
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zmr
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zmv
+
+          Enumerated_Domain_Value_Definition: Mafic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PzZbk
+
+          Enumerated_Domain_Value_Definition: Buckingham Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PzZbq
+
+          Enumerated_Domain_Value_Definition: Buckingham Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PzZdm
+
+          Enumerated_Domain_Value_Definition: Diana Mills Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PzZgq
+
+          Enumerated_Domain_Value_Definition: Green Springs Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PzZgs
+
+          Enumerated_Domain_Value_Definition: Green Springs Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zph
+
+          Enumerated_Domain_Value_Definition: Phyllite and Metasiltstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zra
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zram
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrbf
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrbg
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrc
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrh
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrl
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrr
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrw
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zsr
+
+          Enumerated_Domain_Value_Definition: Swift Run Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zvi
+
+          Enumerated_Domain_Value_Definition: Virgilina Greenstone
+    Attribute:
+      Attribute_Label: SGMC_LABEL
+      Attribute_Definition:
+        orig_label + ;n where n= province number (n=0 if no province number)
+
+        type: character
+        width: 16
+        output width: 16
+      Attribute_Definition_Source: Doug Stoeser
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: adg;0
+          Enumerated_Domain_Value_Definition: Altered Diorite and Gabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: af;0
+          Enumerated_Domain_Value_Definition: Artificial Fill
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ag;0
+          Enumerated_Domain_Value_Definition: Abbeyville Gabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ak;0
+          Enumerated_Domain_Value_Definition: Alaskite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: al;0
+          Enumerated_Domain_Value_Definition: Alluvium
+        Enumerated_Domain:
+          Enumerated_Domain_Value: amr;0
+          Enumerated_Domain_Value_Definition: Amphibolite and Amphibole-Bearing Gneiss and Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: JTbasalt;0
+          Enumerated_Domain_Value_Definition: Valley and Ridge Igneous Intrusions; Basalt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: bgd;0
+          Enumerated_Domain_Value_Definition: Biotite Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: bgp;0
+          Enumerated_Domain_Value_Definition: Porphyroblastic Biotite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: bgr;0
+          Enumerated_Domain_Value_Definition: Burkeville Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: bgs;0
+          Enumerated_Domain_Value_Definition: Biotite Gneiss and Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: bmgl;0
+          Enumerated_Domain_Value_Definition: Biotite-Muscovite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: bo;0
+          Enumerated_Domain_Value_Definition: Buffalo Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAbg;0
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAc;0
+          Enumerated_Domain_Value_Definition: Conasauga Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAca;0
+          Enumerated_Domain_Value_Definition: Candler Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAcas;0
+          Enumerated_Domain_Value_Definition: Candler Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAcfv;0
+          Enumerated_Domain_Value_Definition: Chopawamsic Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAch;0
+          Enumerated_Domain_Value_Definition: Chilhowee Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAcmv;0
+          Enumerated_Domain_Value_Definition: Chopawamsic Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAco;0
+          Enumerated_Domain_Value_Definition: Conococheague Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAcv;0
+          Enumerated_Domain_Value_Definition: Chopawamsic Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAd;0
+          Enumerated_Domain_Value_Definition: Dale City Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAe;0
+          Enumerated_Domain_Value_Definition: Elbrook Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAeh;0
+          Enumerated_Domain_Value_Definition: Erwin and Hampton Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAev;0
+          Enumerated_Domain_Value_Definition: Everona Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAf;0
+          Enumerated_Domain_Value_Definition: Frederick Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAfq;0
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAfv;0
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAfvs;0
+          Enumerated_Domain_Value_Definition: Metavolcanic and Metasedimentary Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAg;0
+          Enumerated_Domain_Value_Definition: Amphibolite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAgi;0
+          Enumerated_Domain_Value_Definition: Georgetown Intrusive Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAi;0
+          Enumerated_Domain_Value_Definition: Indian Run Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAl;0
+          Enumerated_Domain_Value_Definition: Lunga Reservoir Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAlw;0
+          Enumerated_Domain_Value_Definition: Leatherwood Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAm;0
+          Enumerated_Domain_Value_Definition: Melrose Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAmv;0
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAmvs;0
+          Enumerated_Domain_Value_Definition: Metavolcanic and Metasedimentary Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAnhk;0
+          Enumerated_Domain_Value_Definition: Nolichucky and Honaker Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAnmrr;0
+          Enumerated_Domain_Value_Definition: Nolichucky and Maryville Formations, Rogersville Shale, and Rutledge Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAp;0
+          Enumerated_Domain_Value_Definition: Purcell Branch Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAr;0
+          Enumerated_Domain_Value_Definition: Rome Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAra;0
+          Enumerated_Domain_Value_Definition: Rich Acres Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAs;0
+          Enumerated_Domain_Value_Definition: Shady Dolomite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAsg;0
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAsv;0
+          Enumerated_Domain_Value_Definition: Sykesville Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAt;0
+          Enumerated_Domain_Value_Definition: Tomstown Dolomite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAta;0
+          Enumerated_Domain_Value_Definition: Ta River Metamorphic Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAu;0
+          Enumerated_Domain_Value_Definition: Unicoi Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAwb;0
+          Enumerated_Domain_Value_Definition: Waynesboro Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAwbt;0
+          Enumerated_Domain_Value_Definition: Waynesboro Formation and Tomstown Dolomite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAy;0
+          Enumerated_Domain_Value_Definition: Yorkshire Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZa;0
+          Enumerated_Domain_Value_Definition: Annandale Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZba;0
+          Enumerated_Domain_Value_Definition: Alligator Back Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZac;0
+          Enumerated_Domain_Value_Definition: Alligator Back Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZas;0
+          Enumerated_Domain_Value_Definition: Alligator Back Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZba;0
+          Enumerated_Domain_Value_Definition: Bassett Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZc;0
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZcb;0
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZcr;0
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZcs;0
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZfm;0
+          Enumerated_Domain_Value_Definition: Fork Mountain Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZg;0
+          Enumerated_Domain_Value_Definition: Garrisonville Mafic Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZh;0
+          Enumerated_Domain_Value_Definition: Holly Corner Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZhb;0
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZl;0
+          Enumerated_Domain_Value_Definition: Annandale Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZlb;0
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZmd;0
+          Enumerated_Domain_Value_Definition: Metagabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZmg;0
+          Enumerated_Domain_Value_Definition: Mather Gorge Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZmi;0
+          Enumerated_Domain_Value_Definition: Mafic Igneous Complex Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZmq;0
+          Enumerated_Domain_Value_Definition: Micaceous Quartzite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZms;0
+          Enumerated_Domain_Value_Definition: Mather Gorge Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZmy;0
+          Enumerated_Domain_Value_Definition: Alligator Back Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZpb;0
+          Enumerated_Domain_Value_Definition: Piney Branch Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZpm;0
+          Enumerated_Domain_Value_Definition: Metagraywacke, Quartzose Schist, and Melange
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAZum;0
+          Enumerated_Domain_Value_Definition: Ultramafic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: cm;0
+          Enumerated_Domain_Value_Definition: Polygenetic Melange
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Db;0
+          Enumerated_Domain_Value_Definition: Brallier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dch;0
+          Enumerated_Domain_Value_Definition: Chemung Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: dgn;0
+          Enumerated_Domain_Value_Definition: Diorite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dhs;0
+          Enumerated_Domain_Value_Definition: Hampshire Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: di;0
+          Enumerated_Domain_Value_Definition: Diorite and Quartz Diorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dma;0
+          Enumerated_Domain_Value_Definition: Mahantango Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dmn;0
+          Enumerated_Domain_Value_Definition: Millboro Shale and Needmore Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dmrn;0
+          Enumerated_Domain_Value_Definition: Marcellus Shale and Needmore Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ds;0
+          Enumerated_Domain_Value_Definition: Dune Sand
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DSOz;0
+          Enumerated_Domain_Value_Definition: Lower Devonian, Silurian and Upper Ordovician Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DSu;0
+          Enumerated_Domain_Value_Definition: Ridgeley Sandstone, Helderberg and Cayugan Groups
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DSz;0
+          Enumerated_Domain_Value_Definition: Lower Devonian and Silurian Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dx;0
+          Enumerated_Domain_Value_Definition: Millboro Shale, Huntersville Chert, and Rocky Gap Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: fbgr;0
+          Enumerated_Domain_Value_Definition: Foliated Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: fcm;0
+          Enumerated_Domain_Value_Definition: Fine Creek Mills Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: fg;0
+          Enumerated_Domain_Value_Definition: Gneissic Granite and Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: fgb;0
+          Enumerated_Domain_Value_Definition: Biotite Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: fr;0
+          Enumerated_Domain_Value_Definition: Flat Rock Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: g;0
+          Enumerated_Domain_Value_Definition: Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ga;0
+          Enumerated_Domain_Value_Definition: Hornblende Gabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: gn;0
+          Enumerated_Domain_Value_Definition: Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: gns;0
+          Enumerated_Domain_Value_Definition: Gneiss and Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: gr;0
+          Enumerated_Domain_Value_Definition: Granitoid Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: grb;0
+          Enumerated_Domain_Value_Definition: Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: grbi;0
+          Enumerated_Domain_Value_Definition: Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: grc;0
+          Enumerated_Domain_Value_Definition: Carysbrook Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: grp;0
+          Enumerated_Domain_Value_Definition: Porphyritic Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: grpo;0
+          Enumerated_Domain_Value_Definition: Porphyritic Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: grt;0
+          Enumerated_Domain_Value_Definition: Metatonalite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: gs;0
+          Enumerated_Domain_Value_Definition: Actinolite Schist Metabasalt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jb;0
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Jurassic Basalt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jc;0
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Jurassic Conglomerate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jd;0
+          Enumerated_Domain_Value_Definition: Diabase
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jsh;0
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Jurassic Siltstone and Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jss;0
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Jurassic Interbedded Sandstone and Siltstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: JTRp;0
+          Enumerated_Domain_Value_Definition: Valley and Ridge Igneous Intrusions; Peridotite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kp;0
+          Enumerated_Domain_Value_Definition: Potomac Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ks;0
+          Enumerated_Domain_Value_Definition: Kyanite Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: lgn;0
+          Enumerated_Domain_Value_Definition: Lineated Biotite Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ls;0
+          Enumerated_Domain_Value_Definition: Candler Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: m;0
+          Enumerated_Domain_Value_Definition: Marsh and Intertidal Mud Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mbf;0
+          Enumerated_Domain_Value_Definition: Bluefield Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mccf;0
+          Enumerated_Domain_Value_Definition: Cove Creek Limestone and Fido Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MDcw;0
+          Enumerated_Domain_Value_Definition: Chattanooda Shale and Wildcat Valley Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: mf;0
+          Enumerated_Domain_Value_Definition: Mafic Plutonic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mg;0
+          Enumerated_Domain_Value_Definition: Greenbrier Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: mgb;0
+          Enumerated_Domain_Value_Definition: Metagabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: mgr;0
+          Enumerated_Domain_Value_Definition: Metagraywacke
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mm;0
+          Enumerated_Domain_Value_Definition: Maccrady Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mmpr;0
+          Enumerated_Domain_Value_Definition: Maccrady Shale and Price Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mp;0
+          Enumerated_Domain_Value_Definition: Pennington Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mpbg;0
+          Enumerated_Domain_Value_Definition: Petersburg Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: mpg;0
+          Enumerated_Domain_Value_Definition: Migmatitic Paragneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mpo;0
+          Enumerated_Domain_Value_Definition: Pocono Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mpr;0
+          Enumerated_Domain_Value_Definition: Price Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: msg;0
+          Enumerated_Domain_Value_Definition: Miocene Sand and Gravel
+        Enumerated_Domain:
+          Enumerated_Domain_Value: mss;0
+          Enumerated_Domain_Value_Definition: Metasandstone and Metasiltstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: my;0
+          Enumerated_Domain_Value_Definition: Mylonite, Mylonite Gneiss, and Cataclastic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mz;0
+          Enumerated_Domain_Value_Definition: Mississippian Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: nv;0
+          Enumerated_Domain_Value_Definition: North View Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oa;0
+          Enumerated_Domain_Value_Definition: Arvonia Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oas;0
+          Enumerated_Domain_Value_Definition: Arvonia Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ob;0
+          Enumerated_Domain_Value_Definition: Beekmantown Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Obf;0
+          Enumerated_Domain_Value_Definition: Buffards Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Obi;0
+          Enumerated_Domain_Value_Definition: Bear Island Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Obq;0
+          Enumerated_Domain_Value_Definition: Arvonia Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCAcc;0
+          Enumerated_Domain_Value_Definition: Chepultepec and Copper Ridge Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCAco;0
+          Enumerated_Domain_Value_Definition: Conococheague Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCAd;0
+          Enumerated_Domain_Value_Definition: Dalecarlia Instrusive Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCAf;0
+          Enumerated_Domain_Value_Definition: Falls Church Intrusive Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCAgg;0
+          Enumerated_Domain_Value_Definition: Goldvein Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCAk;0
+          Enumerated_Domain_Value_Definition: Knox Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCAo;0
+          Enumerated_Domain_Value_Definition: Occoquan Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCAp;0
+          Enumerated_Domain_Value_Definition: Phyllite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCApg;0
+          Enumerated_Domain_Value_Definition: Plagiogranite Tonalite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCApo;0
+          Enumerated_Domain_Value_Definition: Popes Head Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCAps;0
+          Enumerated_Domain_Value_Definition: Popes Head Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCAtj;0
+          Enumerated_Domain_Value_Definition: Trondhjemite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCAu;0
+          Enumerated_Domain_Value_Definition: Metasedimentary Rocks Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OCAz;0
+          Enumerated_Domain_Value_Definition: Lower Ordovician and Upper Cambrian Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ocg;0
+          Enumerated_Domain_Value_Definition: Columbia pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oeln;0
+          Enumerated_Domain_Value_Definition: Edinburg Formation, Lincolnshire and New Market Limestones
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Okpl;0
+          Enumerated_Domain_Value_Definition: Knobs Formation, Paperville Shale, Lenoir and Mosheim Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Okq;0
+          Enumerated_Domain_Value_Definition: Arvonia Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ol;0
+          Enumerated_Domain_Value_Definition: Lake Jackson Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ola;0
+          Enumerated_Domain_Value_Definition: Lahore Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Olm;0
+
+          Enumerated_Domain_Value_Definition: Lahore Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Olp;0
+
+          Enumerated_Domain_Value_Definition: Lahore Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ols;0
+
+          Enumerated_Domain_Value_Definition: Moccasin or Bays Formation through Blackford Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Om;0
+
+          Enumerated_Domain_Value_Definition: Martinsburg and Oranda Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Omk;0
+
+          Enumerated_Domain_Value_Definition: Mascot and Kingsport Dolomites
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oml;0
+
+          Enumerated_Domain_Value_Definition: Hardy Creek Limestone through Dot Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oq;0
+
+          Enumerated_Domain_Value_Definition: Quantico Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oqq;0
+
+          Enumerated_Domain_Value_Definition: Quantico Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ost;0
+
+          Enumerated_Domain_Value_Definition: Shelton Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ot;0
+
+          Enumerated_Domain_Value_Definition: Metatonalite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ou;0
+
+          Enumerated_Domain_Value_Definition: Sequatchie Formation, Reedsville Shale, Trenton Limestone, Eggleston Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oun;0
+
+          Enumerated_Domain_Value_Definition: Juniata, Oswego, Martinsburg (Reedsville and Dolly Ridge), and Eggleston Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ous;0
+
+          Enumerated_Domain_Value_Definition: Juniata, Reedsville, Trenton, and Eggleston Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oz;0
+
+          Enumerated_Domain_Value_Definition: Upper and Middle Ordovician Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OZl;0
+
+          Enumerated_Domain_Value_Definition: Mine Run Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OZll;0
+
+          Enumerated_Domain_Value_Definition: Mine Run Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OZlll;0
+
+          Enumerated_Domain_Value_Definition: Mine Run Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PAh;0
+
+          Enumerated_Domain_Value_Definition: Harlan Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PAk;0
+
+          Enumerated_Domain_Value_Definition: Kanawha Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PAl;0
+
+          Enumerated_Domain_Value_Definition: Lee Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PAMbi;0
+
+          Enumerated_Domain_Value_Definition: Buggs Island Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PAMf;0
+
+          Enumerated_Domain_Value_Definition: Falmouth Intrusive Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PAMl;0
+
+          Enumerated_Domain_Value_Definition: Lee Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PAn;0
+
+          Enumerated_Domain_Value_Definition: Norton Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PAnr;0
+
+          Enumerated_Domain_Value_Definition: New River Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PAp;0
+
+          Enumerated_Domain_Value_Definition: Pocahontas Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PAw;0
+
+          Enumerated_Domain_Value_Definition: Wise Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PAwg;0
+
+          Enumerated_Domain_Value_Definition: Wise Formation and Gladeville Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PAz;0
+
+          Enumerated_Domain_Value_Definition: Norton, New River, Lee and Pocahontas Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pbg;0
+
+          Enumerated_Domain_Value_Definition: Porphyroblastic Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: peg;0
+
+          Enumerated_Domain_Value_Definition: Granite Pegmatite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pg;0
+
+          Enumerated_Domain_Value_Definition: Plagiogranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pgo;0
+
+          Enumerated_Domain_Value_Definition: Pegmatite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ppg;0
+
+          Enumerated_Domain_Value_Definition: Pegmatite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: psg;0
+
+          Enumerated_Domain_Value_Definition: Pliocene Sand and Gravel
+        Enumerated_Domain:
+          Enumerated_Domain_Value: py;0
+
+          Enumerated_Domain_Value_Definition: Phyllonite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qc;0
+
+          Enumerated_Domain_Value_Definition: Chuckatuck Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qcc;0
+
+          Enumerated_Domain_Value_Definition: Charles City Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qj;0
+
+          Enumerated_Domain_Value_Definition: Joynes Neck Sand
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qk;0
+
+          Enumerated_Domain_Value_Definition: Kent Island Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qnb;0
+
+          Enumerated_Domain_Value_Definition: Nassawadox Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qno;0
+
+          Enumerated_Domain_Value_Definition: Nassawadox Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qoa;0
+
+          Enumerated_Domain_Value_Definition: Omar Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qsh;0
+
+          Enumerated_Domain_Value_Definition: Shirley Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qt;0
+
+          Enumerated_Domain_Value_Definition: Tabb Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qtl;0
+
+          Enumerated_Domain_Value_Definition: Tabb Formation; Lynnhaven Member
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qtlp;0
+
+          Enumerated_Domain_Value_Definition: Tabb Formation: Lynnhaven and Poquoson Members
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qtp;0
+
+          Enumerated_Domain_Value_Definition: Tabb Formtaion; Poquoson Member
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qts;0
+
+          Enumerated_Domain_Value_Definition: Tabb Formation; Sedgefield Member
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTu;0
+
+          Enumerated_Domain_Value_Definition: Quaternary and Tertiary Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTw;0
+
+          Enumerated_Domain_Value_Definition: Windsor Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qwa;0
+
+          Enumerated_Domain_Value_Definition: Wachapreague Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: rbg;0
+
+          Enumerated_Domain_Value_Definition: Biotite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ro;0
+
+          Enumerated_Domain_Value_Definition: Red Oak Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: sb;0
+
+          Enumerated_Domain_Value_Definition: Beach Sand and Dune Sand Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: sch;0
+
+          Enumerated_Domain_Value_Definition: Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sf;0
+
+          Enumerated_Domain_Value_Definition: Falls Run Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Shrc;0
+
+          Enumerated_Domain_Value_Definition: Hancock, Rose Hill, and Clinch Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Skrt;0
+
+          Enumerated_Domain_Value_Definition: Keefer, Rose Hill, and Tuscarora Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sm;0
+
+          Enumerated_Domain_Value_Definition: Massanutten Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SOe;0
+
+          Enumerated_Domain_Value_Definition: Ellisville Biotite Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SOz;0
+
+          Enumerated_Domain_Value_Definition: Silurian and Upper Ordovician Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: sp;0
+
+          Enumerated_Domain_Value_Definition: Swamp Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sz;0
+
+          Enumerated_Domain_Value_Definition: Silurian Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tb1;0
+
+          Enumerated_Domain_Value_Definition: Bacons Castle Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tb2;0
+
+          Enumerated_Domain_Value_Definition: Bacons Castle Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tc;0
+
+          Enumerated_Domain_Value_Definition: Chesapeake Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: td;0
+
+          Enumerated_Domain_Value_Definition: Terrace Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tl;0
+
+          Enumerated_Domain_Value_Definition: Lower Tertiary Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tm;0
+
+          Enumerated_Domain_Value_Definition: Moorings Unit of Oaks and Coch (1973)
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRbr;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Breccia, mixed clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRbr1;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Breccia, mudstone clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRc;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Conglomerate, mixed clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRc1;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Conglomerate, limestone clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRc2;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Conglomerate, greenstone clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRc3;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Conglomerate, arkosic maatrix
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRcs;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Triassic Sandstone, Siltstone, Shale, and Coal
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRs;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Sandstone, undifferentiated
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRs1;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Arkosic Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRsh;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Triassic shale and siltstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRss;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Triassic Sandstone, Siltstone, and Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: u;0
+
+          Enumerated_Domain_Value_Definition: Ultramafic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: um;0
+
+          Enumerated_Domain_Value_Definition: Ultramafic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: v;0
+
+          Enumerated_Domain_Value_Definition: Mafic and Felsic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: vl;0
+
+          Enumerated_Domain_Value_Definition: Metavolcanic and Metavolcanic Clastic Phyllite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: vo;0
+
+          Enumerated_Domain_Value_Definition: Felsic/Mafic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: water;0
+
+          Enumerated_Domain_Value_Definition: water
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ya;0
+
+          Enumerated_Domain_Value_Definition: Amphibolite, Amphibole Gneiss, and Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yal;0
+
+          Enumerated_Domain_Value_Definition: Alkali Feldspar Leucogranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yan;0
+
+          Enumerated_Domain_Value_Definition: Montpelier Metanorthosite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ybg;0
+
+          Enumerated_Domain_Value_Definition: Porphyoblastic Biotite-Plagioclase Augen Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yblg;0
+
+          Enumerated_Domain_Value_Definition: Biotite-Muscovite Leucogranite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ybp;0
+
+          Enumerated_Domain_Value_Definition: Porphyroblastic Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ybr;0
+
+          Enumerated_Domain_Value_Definition: Border Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yc;0
+
+          Enumerated_Domain_Value_Definition: Charnockite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ycm;0
+
+          Enumerated_Domain_Value_Definition: Charnockite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ycz;0
+
+          Enumerated_Domain_Value_Definition: Crozet Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yec;0
+
+          Enumerated_Domain_Value_Definition: Elk Park Plutonic Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yep;0
+
+          Enumerated_Domain_Value_Definition: Elk Park Plutonic Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yfh;0
+
+          Enumerated_Domain_Value_Definition: Flint Hill Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yg;0
+
+          Enumerated_Domain_Value_Definition: Leucocratic Metagranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygb;0
+
+          Enumerated_Domain_Value_Definition: Layered Biotite Granulite and Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygbt;0
+
+          Enumerated_Domain_Value_Definition: Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygg;0
+
+          Enumerated_Domain_Value_Definition: Layered Leucocratic Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygh;0
+
+          Enumerated_Domain_Value_Definition: Hornblende Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygn;0
+
+          Enumerated_Domain_Value_Definition: Leucocratic Granulite and Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygr;0
+
+          Enumerated_Domain_Value_Definition: Biotite Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ygt;0
+
+          Enumerated_Domain_Value_Definition: Garnetiferous Leucocratic Metagranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yhd;0
+
+          Enumerated_Domain_Value_Definition: Biotite-Hornblende Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yhg;0
+
+          Enumerated_Domain_Value_Definition: Megacrystic Charnockite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yl;0
+
+          Enumerated_Domain_Value_Definition: Leucocharnockite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yma;0
+
+          Enumerated_Domain_Value_Definition: Layered Quartzofeldspathic Augen Gneiss and Flaser Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ymc;0
+
+          Enumerated_Domain_Value_Definition: Marshall Metagranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ymd;0
+
+          Enumerated_Domain_Value_Definition: Porphyroblastic Garnet-Biotite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ymg;0
+
+          Enumerated_Domain_Value_Definition: Two-Mica Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ymm;0
+
+          Enumerated_Domain_Value_Definition: Marshall Metagranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yms;0
+
+          Enumerated_Domain_Value_Definition: Muscovite Schist and Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yn;0
+
+          Enumerated_Domain_Value_Definition: Metanorite and Metadiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yor;0
+
+          Enumerated_Domain_Value_Definition: Old Rag Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yp;0
+
+          Enumerated_Domain_Value_Definition: Garnet-Graphite Paragneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YPAgr;0
+
+          Enumerated_Domain_Value_Definition: Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YPApm;0
+
+          Enumerated_Domain_Value_Definition: Quartzofeldspathic Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ypc;0
+
+          Enumerated_Domain_Value_Definition: Porphyritic Leucocharnockite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ypg;0
+
+          Enumerated_Domain_Value_Definition: Layered Pyroxene Granulite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ypp;0
+
+          Enumerated_Domain_Value_Definition: Layered Porphyrobliastic Pyroxene Granulite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yq;0
+
+          Enumerated_Domain_Value_Definition: Quartzite and Quartz-Sericite Tectonite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yra;0
+
+          Enumerated_Domain_Value_Definition: Roseland Anorthosite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ysc;0
+
+          Enumerated_Domain_Value_Definition: Stuart Creek Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ysf;0
+
+          Enumerated_Domain_Value_Definition: State Farm Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ysh;0
+
+          Enumerated_Domain_Value_Definition: Schaeffer Hollow Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yt;0
+
+          Enumerated_Domain_Value_Definition: Metatrondhjemite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yum;0
+
+          Enumerated_Domain_Value_Definition: Metaperidotite, Metapyroxenite, and Hornblende Metagabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Za;0
+
+          Enumerated_Domain_Value_Definition: Aaron Slate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zaa;0
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zac;0
+
+          Enumerated_Domain_Value_Definition: Aaron Slate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zam;0
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zas;0
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zau;0
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zav;0
+
+          Enumerated_Domain_Value_Definition: Felsic Volcanic and Volcaniclastic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zbg;0
+
+          Enumerated_Domain_Value_Definition: Bassett Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zch;0
+
+          Enumerated_Domain_Value_Definition: Charlottesville Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zfa;0
+
+          Enumerated_Domain_Value_Definition: Fauquier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zfc;0
+
+          Enumerated_Domain_Value_Definition: Fauquier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zfl;0
+
+          Enumerated_Domain_Value_Definition: Fauquier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zfs;0
+
+          Enumerated_Domain_Value_Definition: Fauquier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zfv;0
+
+          Enumerated_Domain_Value_Definition: Felsic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zgd;0
+
+          Enumerated_Domain_Value_Definition: Biotite Granodiorite and Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zgdm;0
+
+          Enumerated_Domain_Value_Definition: Mobley Mountain Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zgdr;0
+
+          Enumerated_Domain_Value_Definition: Rockfish River Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zgds;0
+
+          Enumerated_Domain_Value_Definition: Striped Rock Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zgs;0
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zh;0
+
+          Enumerated_Domain_Value_Definition: Hyco Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zhf;0
+
+          Enumerated_Domain_Value_Definition: Phyllite and Metatuff
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zkr;0
+
+          Enumerated_Domain_Value_Definition: Konnarock Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zlc;0
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zlf;0
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zlg;0
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zlm;0
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zlq;0
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zlv;0
+
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zm;0
+
+          Enumerated_Domain_Value_Definition: Marble
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zmf;0
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zmg;0
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zml;0
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zmm;0
+
+          Enumerated_Domain_Value_Definition: Monumental Mills Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zmp;0
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zmr;0
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zmv;0
+
+          Enumerated_Domain_Value_Definition: Mafic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ZPAbk;0
+
+          Enumerated_Domain_Value_Definition: Buckingham Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ZPAbq;0
+
+          Enumerated_Domain_Value_Definition: Buckingham Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ZPAdm
+
+          Enumerated_Domain_Value_Definition: Diana Mills Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ZPAgq;0
+
+          Enumerated_Domain_Value_Definition: Green Springs Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ZPAgs;0
+
+          Enumerated_Domain_Value_Definition: Green Springs Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zph;0
+
+          Enumerated_Domain_Value_Definition: Phyllite and Metasiltstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zra;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zram;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrbf;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrbg;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrc;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrh;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrl;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrr;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zrw;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zsr;0
+
+          Enumerated_Domain_Value_Definition: Swift Run Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Zvi;0
+
+          Enumerated_Domain_Value_Definition: Virgilina Greenstone
+    Attribute:
+      Attribute_Label: unit_link
+      Attribute_Definition:
+        composite map label = ST + sgmc_label
+        This creates a unique identifier for every unit in the CONUS (continental United States) covers.
+
+        type: character
+        width: 18
+        output width: 18
+      Attribute_Definition_Source: Doug Stoeser
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAadg;0
+          Enumerated_Domain_Value_Definition: Altered Diorite and Gabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAaf;0
+          Enumerated_Domain_Value_Definition: Artificial Fill
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAag;0
+          Enumerated_Domain_Value_Definition: Abbeyville Gabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAak;0
+          Enumerated_Domain_Value_Definition: Alaskite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAal;0
+          Enumerated_Domain_Value_Definition: Alluvium
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAamr;0
+          Enumerated_Domain_Value_Definition: Amphibolite and Amphibole-Bearing Gneiss and Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAJTbasalt;0
+          Enumerated_Domain_Value_Definition: Valley and Ridge Igneous Intrusions; Basalt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAbgd;0
+          Enumerated_Domain_Value_Definition: Biotite Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAbgp;0
+          Enumerated_Domain_Value_Definition: Porphyroblastic Biotite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAbgr;0
+          Enumerated_Domain_Value_Definition: Burkeville Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAbgs;0
+          Enumerated_Domain_Value_Definition: Biotite Gneiss and Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAbmgl;0
+          Enumerated_Domain_Value_Definition: Biotite-Muscovite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAbo;0
+          Enumerated_Domain_Value_Definition: Buffalo Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAbg;0
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAc;0
+          Enumerated_Domain_Value_Definition: Conasauga Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAca;0
+          Enumerated_Domain_Value_Definition: Candler Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAcas;0
+          Enumerated_Domain_Value_Definition: Candler Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAcfv;0
+          Enumerated_Domain_Value_Definition: Chopawamsic Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAch;0
+          Enumerated_Domain_Value_Definition: Chilhowee Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAcmv;0
+          Enumerated_Domain_Value_Definition: Chopawamsic Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAco;0
+          Enumerated_Domain_Value_Definition: Conococheague Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAcv;0
+          Enumerated_Domain_Value_Definition: Chopawamsic Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAd;0
+          Enumerated_Domain_Value_Definition: Dale City Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAe;0
+          Enumerated_Domain_Value_Definition: Elbrook Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAeh;0
+          Enumerated_Domain_Value_Definition: Erwin and Hampton Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAev;0
+          Enumerated_Domain_Value_Definition: Everona Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAf;0
+          Enumerated_Domain_Value_Definition: Frederick Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAfq;0
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAfv;0
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAfvs;0
+          Enumerated_Domain_Value_Definition: Metavolcanic and Metasedimentary Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAg;0
+          Enumerated_Domain_Value_Definition: Amphibolite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAgi;0
+          Enumerated_Domain_Value_Definition: Georgetown Intrusive Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAi;0
+          Enumerated_Domain_Value_Definition: Indian Run Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAl;0
+          Enumerated_Domain_Value_Definition: Lunga Reservoir Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAlw;0
+          Enumerated_Domain_Value_Definition: Leatherwood Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAm;0
+          Enumerated_Domain_Value_Definition: Melrose Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAmv;0
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAmvs;0
+          Enumerated_Domain_Value_Definition: Metavolcanic and Metasedimentary Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAnhk;0
+          Enumerated_Domain_Value_Definition: Nolichucky and Honaker Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAnmrr;0
+          Enumerated_Domain_Value_Definition: Nolichucky and Maryville Formations, Rogersville Shale, and Rutledge Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAp;0
+          Enumerated_Domain_Value_Definition: Purcell Branch Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAr;0
+          Enumerated_Domain_Value_Definition: Rome Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAra;0
+          Enumerated_Domain_Value_Definition: Rich Acres Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAs;0
+          Enumerated_Domain_Value_Definition: Shady Dolomite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAsg;0
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Metavolcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAsv;0
+          Enumerated_Domain_Value_Definition: Sykesville Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAt;0
+          Enumerated_Domain_Value_Definition: Tomstown Dolomite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAta;0
+          Enumerated_Domain_Value_Definition: Ta River Metamorphic Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAu;0
+          Enumerated_Domain_Value_Definition: Unicoi Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAwb;0
+          Enumerated_Domain_Value_Definition: Waynesboro Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAwbt;0
+          Enumerated_Domain_Value_Definition: Waynesboro Formation and Tomstown Dolomite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAy;0
+          Enumerated_Domain_Value_Definition: Yorkshire Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZa;0
+          Enumerated_Domain_Value_Definition: Annandale Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZba;0
+          Enumerated_Domain_Value_Definition: Alligator Back Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZac;0
+          Enumerated_Domain_Value_Definition: Alligator Back Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZas;0
+          Enumerated_Domain_Value_Definition: Alligator Back Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZba;0
+          Enumerated_Domain_Value_Definition: Bassett Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZc;0
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZcb;0
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZcr;0
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZcs;0
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZfm;0
+          Enumerated_Domain_Value_Definition: Fork Mountain Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZg;0
+          Enumerated_Domain_Value_Definition: Garrisonville Mafic Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZh;0
+          Enumerated_Domain_Value_Definition: Holly Corner Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZhb;0
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZl;0
+          Enumerated_Domain_Value_Definition: Annandale Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZlb;0
+          Enumerated_Domain_Value_Definition: Catoctin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZmd;0
+          Enumerated_Domain_Value_Definition: Metagabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZmg;0
+          Enumerated_Domain_Value_Definition: Mather Gorge Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZmi;0
+          Enumerated_Domain_Value_Definition: Mafic Igneous Complex Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZmq;0
+          Enumerated_Domain_Value_Definition: Micaceous Quartzite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZms;0
+          Enumerated_Domain_Value_Definition: Mather Gorge Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZmy;0
+          Enumerated_Domain_Value_Definition: Alligator Back Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZpb;0
+          Enumerated_Domain_Value_Definition: Piney Branch Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZpm;0
+          Enumerated_Domain_Value_Definition: Metagraywacke, Quartzose Schist, and Melange
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACAZum;0
+          Enumerated_Domain_Value_Definition: Ultramafic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAcm;0
+          Enumerated_Domain_Value_Definition: Polygenetic Melange
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VADb;0
+          Enumerated_Domain_Value_Definition: Brallier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VADch;0
+          Enumerated_Domain_Value_Definition: Chemung Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAdgn;0
+          Enumerated_Domain_Value_Definition: Diorite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VADhs;0
+          Enumerated_Domain_Value_Definition: Hampshire Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAdi;0
+          Enumerated_Domain_Value_Definition: Diorite and Quartz Diorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VADma;0
+          Enumerated_Domain_Value_Definition: Mahantango Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VADmn;0
+          Enumerated_Domain_Value_Definition: Millboro Shale and Needmore Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VADmrn;0
+          Enumerated_Domain_Value_Definition: Marcellus Shale and Needmore Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAds;0
+          Enumerated_Domain_Value_Definition: Dune Sand
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VADSOz;0
+          Enumerated_Domain_Value_Definition: Lower Devonian, Silurian and Upper Ordovician Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VADSu;0
+          Enumerated_Domain_Value_Definition: Ridgeley Sandstone, Helderberg and Cayugan Groups
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VADSz;0
+          Enumerated_Domain_Value_Definition: Lower Devonian and Silurian Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VADx;0
+          Enumerated_Domain_Value_Definition: Millboro Shale, Huntersville Chert, and Rocky Gap Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAfbgr;0
+          Enumerated_Domain_Value_Definition: Foliated Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAfcm;0
+          Enumerated_Domain_Value_Definition: Fine Creek Mills Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAfg;0
+          Enumerated_Domain_Value_Definition: Gneissic Granite and Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAfgb;0
+          Enumerated_Domain_Value_Definition: Biotite Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAfr;0
+          Enumerated_Domain_Value_Definition: Flat Rock Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAg;0
+          Enumerated_Domain_Value_Definition: Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAga;0
+          Enumerated_Domain_Value_Definition: Hornblende Gabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAgn;0
+          Enumerated_Domain_Value_Definition: Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAgns;0
+          Enumerated_Domain_Value_Definition: Gneiss and Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAgr;0
+          Enumerated_Domain_Value_Definition: Granitoid Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAgrb;0
+          Enumerated_Domain_Value_Definition: Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAgrbi;0
+          Enumerated_Domain_Value_Definition: Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAgrc;0
+          Enumerated_Domain_Value_Definition: Carysbrook Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAgrp;0
+          Enumerated_Domain_Value_Definition: Porphyritic Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAgrpo;0
+          Enumerated_Domain_Value_Definition: Porphyritic Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAgrt;0
+          Enumerated_Domain_Value_Definition: Metatonalite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAgs;0
+          Enumerated_Domain_Value_Definition: Actinolite Schist Metabasalt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAJb;0
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Jurassic Basalt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAJc;0
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Jurassic Conglomerate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAJd;0
+          Enumerated_Domain_Value_Definition: Diabase
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAJsh;0
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Jurassic Siltstone and Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAJss;0
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Jurassic Interbedded Sandstone and Siltstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAJTRp;0
+          Enumerated_Domain_Value_Definition: Valley and Ridge Igneous Intrusions; Peridotite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAKp;0
+          Enumerated_Domain_Value_Definition: Potomac Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAks;0
+          Enumerated_Domain_Value_Definition: Kyanite Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAlgn;0
+          Enumerated_Domain_Value_Definition: Lineated Biotite Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAls;0
+          Enumerated_Domain_Value_Definition: Candler Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAm;0
+          Enumerated_Domain_Value_Definition: Marsh and Intertidal Mud Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAMbf;0
+          Enumerated_Domain_Value_Definition: Bluefield Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAMccf;0
+          Enumerated_Domain_Value_Definition: Cove Creek Limestone and Fido Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAMDcw;0
+          Enumerated_Domain_Value_Definition: Chattanooda Shale and Wildcat Valley Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAmf;0
+          Enumerated_Domain_Value_Definition: Mafic Plutonic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAMg;0
+          Enumerated_Domain_Value_Definition: Greenbrier Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAmgb;0
+          Enumerated_Domain_Value_Definition: Metagabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAmgr;0
+          Enumerated_Domain_Value_Definition: Metagraywacke
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAMm;0
+          Enumerated_Domain_Value_Definition: Maccrady Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAMmpr;0
+          Enumerated_Domain_Value_Definition: Maccrady Shale and Price Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAMp;0
+          Enumerated_Domain_Value_Definition: Pennington Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAMpbg;0
+          Enumerated_Domain_Value_Definition: Petersburg Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAmpg;0
+          Enumerated_Domain_Value_Definition: Migmatitic Paragneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAMpo;0
+          Enumerated_Domain_Value_Definition: Pocono Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAMpr;0
+          Enumerated_Domain_Value_Definition: Price Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAmsg;0
+          Enumerated_Domain_Value_Definition: Miocene Sand and Gravel
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAmss;0
+          Enumerated_Domain_Value_Definition: Metasandstone and Metasiltstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAmy;0
+          Enumerated_Domain_Value_Definition: Mylonite, Mylonite Gneiss, and Cataclastic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAMz;0
+          Enumerated_Domain_Value_Definition: Mississippian Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAnv;0
+          Enumerated_Domain_Value_Definition: North View Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOa;0
+          Enumerated_Domain_Value_Definition: Arvonia Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOas;0
+          Enumerated_Domain_Value_Definition: Arvonia Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOb;0
+          Enumerated_Domain_Value_Definition: Beekmantown Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAObf;0
+          Enumerated_Domain_Value_Definition: Buffards Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAObi;0
+          Enumerated_Domain_Value_Definition: Bear Island Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAObq;0
+          Enumerated_Domain_Value_Definition: Arvonia Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCAcc;0
+          Enumerated_Domain_Value_Definition: Chepultepec and Copper Ridge Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCAco;0
+          Enumerated_Domain_Value_Definition: Conococheague Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCAd;0
+          Enumerated_Domain_Value_Definition: Dalecarlia Instrusive Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCAf;0
+          Enumerated_Domain_Value_Definition: Falls Church Intrusive Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCAgg;0
+          Enumerated_Domain_Value_Definition: Goldvein Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCAk;0
+          Enumerated_Domain_Value_Definition: Knox Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCAo;0
+          Enumerated_Domain_Value_Definition: Occoquan Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCAp;0
+          Enumerated_Domain_Value_Definition: Phyllite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCApg;0
+          Enumerated_Domain_Value_Definition: Plagiogranite Tonalite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCApo;0
+          Enumerated_Domain_Value_Definition: Popes Head Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCAps;0
+          Enumerated_Domain_Value_Definition: Popes Head Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCAtj;0
+          Enumerated_Domain_Value_Definition: Trondhjemite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCAu;0
+          Enumerated_Domain_Value_Definition: Metasedimentary Rocks Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOCAz;0
+          Enumerated_Domain_Value_Definition: Lower Ordovician and Upper Cambrian Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOcg;0
+          Enumerated_Domain_Value_Definition: Columbia pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOeln;0
+          Enumerated_Domain_Value_Definition: Edinburg Formation, Lincolnshire and New Market Limestones
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOkpl;0
+          Enumerated_Domain_Value_Definition: Knobs Formation, Paperville Shale, Lenoir and Mosheim Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOkq;0
+          Enumerated_Domain_Value_Definition: Arvonia Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOl;0
+          Enumerated_Domain_Value_Definition: Lake Jackson Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOla;0
+          Enumerated_Domain_Value_Definition: Lahore Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOlm;0
+
+          Enumerated_Domain_Value_Definition: Lahore Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOlp;0
+
+          Enumerated_Domain_Value_Definition: Lahore Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOls;0
+
+          Enumerated_Domain_Value_Definition: Moccasin or Bays Formation through Blackford Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOm;0
+
+          Enumerated_Domain_Value_Definition: Martinsburg and Oranda Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOmk;0
+
+          Enumerated_Domain_Value_Definition: Mascot and Kingsport Dolomites
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOml;0
+
+          Enumerated_Domain_Value_Definition: Hardy Creek Limestone through Dot Limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOq;0
+
+          Enumerated_Domain_Value_Definition: Quantico Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOqq;0
+
+          Enumerated_Domain_Value_Definition: Quantico Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOst;0
+
+          Enumerated_Domain_Value_Definition: Shelton Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOt;0
+
+          Enumerated_Domain_Value_Definition: Metatonalite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOu;0
+
+          Enumerated_Domain_Value_Definition: Sequatchie Formation, Reedsville Shale, Trenton Limestone, Eggleston Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOun;0
+
+          Enumerated_Domain_Value_Definition: Juniata, Oswego, Martinsburg (Reedsville and Dolly Ridge), and Eggleston Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOus;0
+
+          Enumerated_Domain_Value_Definition: Juniata, Reedsville, Trenton, and Eggleston Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOz;0
+
+          Enumerated_Domain_Value_Definition: Upper and Middle Ordovician Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOZl;0
+
+          Enumerated_Domain_Value_Definition: Mine Run Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOZll;0
+
+          Enumerated_Domain_Value_Definition: Mine Run Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAOZlll;0
+
+          Enumerated_Domain_Value_Definition: Mine Run Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAPAh;0
+
+          Enumerated_Domain_Value_Definition: Harlan Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAPAk;0
+
+          Enumerated_Domain_Value_Definition: Kanawha Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAPAl;0
+
+          Enumerated_Domain_Value_Definition: Lee Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAPAMbi;0
+
+          Enumerated_Domain_Value_Definition: Buggs Island Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAPAMf;0
+
+          Enumerated_Domain_Value_Definition: Falmouth Intrusive Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAPAMl;0
+
+          Enumerated_Domain_Value_Definition: Lee Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAPAn;0
+
+          Enumerated_Domain_Value_Definition: Norton Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAPAnr;0
+
+          Enumerated_Domain_Value_Definition: New River Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAPAp;0
+
+          Enumerated_Domain_Value_Definition: Pocahontas Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAPAw;0
+
+          Enumerated_Domain_Value_Definition: Wise Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAPAwg;0
+
+          Enumerated_Domain_Value_Definition: Wise Formation and Gladeville Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAPAz;0
+
+          Enumerated_Domain_Value_Definition: Norton, New River, Lee and Pocahontas Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VApbg;0
+
+          Enumerated_Domain_Value_Definition: Porphyroblastic Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VApeg;0
+
+          Enumerated_Domain_Value_Definition: Granite Pegmatite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VApg;0
+
+          Enumerated_Domain_Value_Definition: Plagiogranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VApgo;0
+
+          Enumerated_Domain_Value_Definition: Pegmatite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAPpg;0
+
+          Enumerated_Domain_Value_Definition: Pegmatite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VApsg;0
+
+          Enumerated_Domain_Value_Definition: Pliocene Sand and Gravel
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VApy;0
+
+          Enumerated_Domain_Value_Definition: Phyllonite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQc;0
+
+          Enumerated_Domain_Value_Definition: Chuckatuck Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQcc;0
+
+          Enumerated_Domain_Value_Definition: Charles City Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQj;0
+
+          Enumerated_Domain_Value_Definition: Joynes Neck Sand
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQk;0
+
+          Enumerated_Domain_Value_Definition: Kent Island Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQnb;0
+
+          Enumerated_Domain_Value_Definition: Nassawadox Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQno;0
+
+          Enumerated_Domain_Value_Definition: Nassawadox Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQoa;0
+
+          Enumerated_Domain_Value_Definition: Omar Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQsh;0
+
+          Enumerated_Domain_Value_Definition: Shirley Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQt;0
+
+          Enumerated_Domain_Value_Definition: Tabb Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQtl;0
+
+          Enumerated_Domain_Value_Definition: Tabb Formation; Lynnhaven Member
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQtlp;0
+
+          Enumerated_Domain_Value_Definition: Tabb Formation: Lynnhaven and Poquoson Members
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQtp;0
+
+          Enumerated_Domain_Value_Definition: Tabb Formtaion; Poquoson Member
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQts;0
+
+          Enumerated_Domain_Value_Definition: Tabb Formation; Sedgefield Member
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQTu;0
+
+          Enumerated_Domain_Value_Definition: Quaternary and Tertiary Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQTw;0
+
+          Enumerated_Domain_Value_Definition: Windsor Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAQwa;0
+
+          Enumerated_Domain_Value_Definition: Wachapreague Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VArbg;0
+
+          Enumerated_Domain_Value_Definition: Biotite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAro;0
+
+          Enumerated_Domain_Value_Definition: Red Oak Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAsb;0
+
+          Enumerated_Domain_Value_Definition: Beach Sand and Dune Sand Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAsch;0
+
+          Enumerated_Domain_Value_Definition: Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VASf;0
+
+          Enumerated_Domain_Value_Definition: Falls Run Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAShrc;0
+
+          Enumerated_Domain_Value_Definition: Hancock, Rose Hill, and Clinch Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VASkrt;0
+
+          Enumerated_Domain_Value_Definition: Keefer, Rose Hill, and Tuscarora Formations
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VASm;0
+
+          Enumerated_Domain_Value_Definition: Massanutten Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VASOe;0
+
+          Enumerated_Domain_Value_Definition: Ellisville Biotite Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VASOz;0
+
+          Enumerated_Domain_Value_Definition: Silurian and Upper Ordovician Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAsp;0
+
+          Enumerated_Domain_Value_Definition: Swamp Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VASz;0
+
+          Enumerated_Domain_Value_Definition: Silurian Formations Undivided
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATb1;0
+
+          Enumerated_Domain_Value_Definition: Bacons Castle Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATb2;0
+
+          Enumerated_Domain_Value_Definition: Bacons Castle Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATc;0
+
+          Enumerated_Domain_Value_Definition: Chesapeake Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAtd;0
+
+          Enumerated_Domain_Value_Definition: Terrace Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATl;0
+
+          Enumerated_Domain_Value_Definition: Lower Tertiary Deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATm;0
+
+          Enumerated_Domain_Value_Definition: Moorings Unit of Oaks and Coch (1973)
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATRbr;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Breccia, mixed clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATRbr1;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Breccia, mudstone clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATRc;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Conglomerate, mixed clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATRc1;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Conglomerate, limestone clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATRc2;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Conglomerate, greenstone clasts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATRc3;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Conglomerate, arkosic maatrix
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATRcs;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Triassic Sandstone, Siltstone, Shale, and Coal
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATRs;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Sandstone, undifferentiated
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATRs1;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Arkosic Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATRsh;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Triassic shale and siltstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VATRss;0
+
+          Enumerated_Domain_Value_Definition: Newark Supergroup; Triassic Sandstone, Siltstone, and Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAu;0
+
+          Enumerated_Domain_Value_Definition: Ultramafic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAum;0
+
+          Enumerated_Domain_Value_Definition: Ultramafic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAv;0
+
+          Enumerated_Domain_Value_Definition: Mafic and Felsic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAvl;0
+
+          Enumerated_Domain_Value_Definition: Metavolcanic and Metavolcanic Clastic Phyllite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAvo;0
+
+          Enumerated_Domain_Value_Definition: Felsic/Mafic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAwater;0
+
+          Enumerated_Domain_Value_Definition: water
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYa;0
+
+          Enumerated_Domain_Value_Definition: Amphibolite, Amphibole Gneiss, and Schist
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYal;0
+
+          Enumerated_Domain_Value_Definition: Alkali Feldspar Leucogranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYan;0
+
+          Enumerated_Domain_Value_Definition: Montpelier Metanorthosite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYbg;0
+
+          Enumerated_Domain_Value_Definition: Porphyoblastic Biotite-Plagioclase Augen Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYblg;0
+
+          Enumerated_Domain_Value_Definition: Biotite-Muscovite Leucogranite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYbp;0
+
+          Enumerated_Domain_Value_Definition: Porphyroblastic Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYbr;0
+
+          Enumerated_Domain_Value_Definition: Border Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYc;0
+
+          Enumerated_Domain_Value_Definition: Charnockite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYcm;0
+
+          Enumerated_Domain_Value_Definition: Charnockite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYcz;0
+
+          Enumerated_Domain_Value_Definition: Crozet Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYec;0
+
+          Enumerated_Domain_Value_Definition: Elk Park Plutonic Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYep;0
+
+          Enumerated_Domain_Value_Definition: Elk Park Plutonic Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYfh;0
+
+          Enumerated_Domain_Value_Definition: Flint Hill Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYg;0
+
+          Enumerated_Domain_Value_Definition: Leucocratic Metagranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYgb;0
+
+          Enumerated_Domain_Value_Definition: Layered Biotite Granulite and Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYgbt;0
+
+          Enumerated_Domain_Value_Definition: Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYgg;0
+
+          Enumerated_Domain_Value_Definition: Layered Leucocratic Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYgh;0
+
+          Enumerated_Domain_Value_Definition: Hornblende Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYgn;0
+
+          Enumerated_Domain_Value_Definition: Leucocratic Granulite and Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYgr;0
+
+          Enumerated_Domain_Value_Definition: Biotite Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYgt;0
+
+          Enumerated_Domain_Value_Definition: Garnetiferous Leucocratic Metagranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYhd;0
+
+          Enumerated_Domain_Value_Definition: Biotite-Hornblende Granodiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYhg;0
+
+          Enumerated_Domain_Value_Definition: Megacrystic Charnockite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYl;0
+
+          Enumerated_Domain_Value_Definition: Leucocharnockite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYma;0
+
+          Enumerated_Domain_Value_Definition: Layered Quartzofeldspathic Augen Gneiss and Flaser Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYmc;0
+
+          Enumerated_Domain_Value_Definition: Marshall Metagranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYmd;0
+
+          Enumerated_Domain_Value_Definition: Porphyroblastic Garnet-Biotite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYmg;0
+
+          Enumerated_Domain_Value_Definition: Two-Mica Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYmm;0
+
+          Enumerated_Domain_Value_Definition: Marshall Metagranite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYms;0
+
+          Enumerated_Domain_Value_Definition: Muscovite Schist and Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYn;0
+
+          Enumerated_Domain_Value_Definition: Metanorite and Metadiorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYor;0
+
+          Enumerated_Domain_Value_Definition: Old Rag Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYp;0
+
+          Enumerated_Domain_Value_Definition: Garnet-Graphite Paragneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYPAgr;0
+
+          Enumerated_Domain_Value_Definition: Granite Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYPApm;0
+
+          Enumerated_Domain_Value_Definition: Quartzofeldspathic Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYpc;0
+
+          Enumerated_Domain_Value_Definition: Porphyritic Leucocharnockite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYpg;0
+
+          Enumerated_Domain_Value_Definition: Layered Pyroxene Granulite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYpp;0
+
+          Enumerated_Domain_Value_Definition: Layered Porphyrobliastic Pyroxene Granulite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYq;0
+
+          Enumerated_Domain_Value_Definition: Quartzite and Quartz-Sericite Tectonite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYra;0
+
+          Enumerated_Domain_Value_Definition: Roseland Anorthosite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYsc;0
+
+          Enumerated_Domain_Value_Definition: Stuart Creek Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYsf;0
+
+          Enumerated_Domain_Value_Definition: State Farm Gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYsh;0
+
+          Enumerated_Domain_Value_Definition: Schaeffer Hollow Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYt;0
+
+          Enumerated_Domain_Value_Definition: Metatrondhjemite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAYum;0
+
+          Enumerated_Domain_Value_Definition: Metaperidotite, Metapyroxenite, and Hornblende Metagabbro
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZa;0
+
+          Enumerated_Domain_Value_Definition: Aaron Slate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZaa;0
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZac;0
+
+          Enumerated_Domain_Value_Definition: Aaron Slate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZam;0
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZas;0
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZau;0
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZav;0
+
+          Enumerated_Domain_Value_Definition: Felsic Volcanic and Volcaniclastic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZbg;0
+
+          Enumerated_Domain_Value_Definition: Bassett Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZch;0
+
+          Enumerated_Domain_Value_Definition: Charlottesville Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZfa;0
+
+          Enumerated_Domain_Value_Definition: Fauquier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZfc;0
+
+          Enumerated_Domain_Value_Definition: Fauquier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZfl;0
+
+          Enumerated_Domain_Value_Definition: Fauquier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZfs;0
+
+          Enumerated_Domain_Value_Definition: Fauquier Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZfv;0
+
+          Enumerated_Domain_Value_Definition: Felsic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZgd;0
+
+          Enumerated_Domain_Value_Definition: Biotite Granodiorite and Biotite Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZgdm;0
+
+          Enumerated_Domain_Value_Definition: Mobley Mountain Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZgdr;0
+
+          Enumerated_Domain_Value_Definition: Rockfish River Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZgds;0
+
+          Enumerated_Domain_Value_Definition: Striped Rock Granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZgs;0
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZh;0
+
+          Enumerated_Domain_Value_Definition: Hyco Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZhf;0
+
+          Enumerated_Domain_Value_Definition: Phyllite and Metatuff
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZkr;0
+
+          Enumerated_Domain_Value_Definition: Konnarock Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZlc;0
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZlf;0
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZlg;0
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZlm;0
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZlq;0
+
+          Enumerated_Domain_Value_Definition: Lynchburg Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZlv;0
+
+          Enumerated_Domain_Value_Definition: Interlayered Mafic and Felsic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZm;0
+
+          Enumerated_Domain_Value_Definition: Marble
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZmf;0
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZmg;0
+
+          Enumerated_Domain_Value_Definition: Ashe Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZml;0
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZmm;0
+
+          Enumerated_Domain_Value_Definition: Monumental Mills Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZmp;0
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZmr;0
+
+          Enumerated_Domain_Value_Definition: Mount Rogers Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZmv;0
+
+          Enumerated_Domain_Value_Definition: Mafic Volcanic Rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZPAbk;0
+
+          Enumerated_Domain_Value_Definition: Buckingham Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZPAbq;0
+
+          Enumerated_Domain_Value_Definition: Buckingham Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZPAdm
+
+          Enumerated_Domain_Value_Definition: Diana Mills Complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZPAgq;0
+
+          Enumerated_Domain_Value_Definition: Green Springs Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZPAgs;0
+
+          Enumerated_Domain_Value_Definition: Green Springs Pluton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZph;0
+
+          Enumerated_Domain_Value_Definition: Phyllite and Metasiltstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZra;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZram;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZrbf;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZrbg;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZrc;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZrh;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZrl;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZrr;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZrw;0
+
+          Enumerated_Domain_Value_Definition: Robertson River Igneous Suite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZsr;0
+
+          Enumerated_Domain_Value_Definition: Swift Run Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VAZvi;0
+
+          Enumerated_Domain_Value_Definition: Virgilina Greenstone
+    Attribute:
+      Attribute_Label: source
+      Attribute_Definition:
+        An alphanumeric code (e.g. US001) that designates the source material used.
+
+        type: character
+        width: 6
+        output width: 8
+      Attribute_Definition_Source: Doug Stoeser
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VA003
+
+          Enumerated_Domain_Value_Definition: Digital Representation of the 1993 Geologic Map of Virginia”, 2003, CD ROM (ISO-9660) contains image file, expanded explanation in pdf, and ESRI shapefiles, viewing software not included. This is a digital version of "Geologic Map of Virginia" published in 1993. Available from: https://www.dmme.virginia.gov/commerce/
+        Enumerated_Domain:
+          Enumerated_Domain_Value: US001
+
+          Enumerated_Domain_Value_Definition: Johnson, Bruce R. and Leveritch, Beth, 1998, 1:100,000 Scale State Boundaries of the Conterminous United States: U.S. Geological Survey, unpublished (see metadata file: st100kmeta.txt, Chapter A)
+    Attribute:
+      Attribute_Label: unit_age
+      Attribute_Definition:
+        geologic age from the source map used.
+
+        type: character
+        width: 60
+        output width: 60
+      Attribute_Definition_Source: Doug Stoeser
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Cambrian
+          Enumerated_Domain_Value: Cambrian-Ordovician
+          Enumerated_Domain_Value: Cretaceous
+          Enumerated_Domain_Value: Devonian
+          Enumerated_Domain_Value: Devonian-Mississippian
+          Enumerated_Domain_Value: Jurassic
+          Enumerated_Domain_Value: Jurassic-Tertiary
+          Enumerated_Domain_Value: Mississippian
+          Enumerated_Domain_Value: Mississippian Pennsylvanian
+          Enumerated_Domain_Value: Ordovician
+          Enumerated_Domain_Value: Ordovician-Devonian
+          Enumerated_Domain_Value: Ordovician-Silurian
+          Enumerated_Domain_Value: Pennsylvanian
+          Enumerated_Domain_Value: Pennsylvanian - Miss
+          Enumerated_Domain_Value: Permian
+          Enumerated_Domain_Value: Proterozoic
+          Enumerated_Domain_Value: Proterozoic Cambrian
+          Enumerated_Domain_Value: Proterozoic Y
+          Enumerated_Domain_Value: Proterozoic Y-Pennsylvanian
+          Enumerated_Domain_Value: Proterozoic Z
+          Enumerated_Domain_Value: Proterozoic Z-Cambrian
+          Enumerated_Domain_Value: Proterozoic Z-Ordovician
+          Enumerated_Domain_Value: Proterozoic Z-Pennsylvanian
+          Enumerated_Domain_Value: Quaternary
+          Enumerated_Domain_Value: Silurian
+          Enumerated_Domain_Value: Silurian-Devonian
+          Enumerated_Domain_Value: Tertiary
+          Enumerated_Domain_Value: Tertiary-Quaternary
+          Enumerated_Domain_Value: Triassic
+    Attribute:
+      Attribute_Label: rocktype1
+      Attribute_Definition:
+        The predominant lithology found in the formation.
+
+        type: character
+        width: 40
+        output width: 40
+      Attribute_Definition_Source: Johnson Lith Class 6.1a
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: alkali syenite
+          Enumerated_Domain_Value: alkali-granite (alaskite)
+          Enumerated_Domain_Value: alluvium
+          Enumerated_Domain_Value: amphibolite
+          Enumerated_Domain_Value: anorthosite
+          Enumerated_Domain_Value: arenite
+          Enumerated_Domain_Value: augen gneiss
+          Enumerated_Domain_Value: basalt
+          Enumerated_Domain_Value: beach sand
+          Enumerated_Domain_Value: biotite gneiss
+          Enumerated_Domain_Value: black shale
+          Enumerated_Domain_Value: breccia
+          Enumerated_Domain_Value: clay or mud
+          Enumerated_Domain_Value: conglomerate
+          Enumerated_Domain_Value: diabase
+          Enumerated_Domain_Value: diorite
+          Enumerated_Domain_Value: dolostone (dolomite)
+          Enumerated_Domain_Value: dune sand
+          Enumerated_Domain_Value: felsic gneiss
+          Enumerated_Domain_Value: felsic metavolcanic rock
+          Enumerated_Domain_Value: felsic volcanic rock
+          Enumerated_Domain_Value: gabbro
+          Enumerated_Domain_Value: gneiss
+          Enumerated_Domain_Value: granite
+          Enumerated_Domain_Value: granitic gneiss
+          Enumerated_Domain_Value: granitoid
+          Enumerated_Domain_Value: granodiorite
+          Enumerated_Domain_Value: granulite
+          Enumerated_Domain_Value: gravel
+          Enumerated_Domain_Value: greenstone
+          Enumerated_Domain_Value: limestone
+          Enumerated_Domain_Value: mafic gneiss
+          Enumerated_Domain_Value: mafic metavolcanic rock
+          Enumerated_Domain_Value: mafic rock
+          Enumerated_Domain_Value: marble
+          Enumerated_Domain_Value: melange
+          Enumerated_Domain_Value: meta-argillite
+          Enumerated_Domain_Value: meta-basalt
+          Enumerated_Domain_Value: meta-conglomerate
+          Enumerated_Domain_Value: metamorphic rock
+          Enumerated_Domain_Value: metasedimentary rock
+          Enumerated_Domain_Value: metavolcanic rock
+          Enumerated_Domain_Value: mica schist
+          Enumerated_Domain_Value: monzonite
+          Enumerated_Domain_Value: mylonite
+          Enumerated_Domain_Value: norite
+          Enumerated_Domain_Value: orthogneiss
+          Enumerated_Domain_Value: paragneiss
+          Enumerated_Domain_Value: peat
+          Enumerated_Domain_Value: pegmatite
+          Enumerated_Domain_Value: pelitic schist
+          Enumerated_Domain_Value: peridotite
+          Enumerated_Domain_Value: phyllite
+          Enumerated_Domain_Value: phyllonite
+          Enumerated_Domain_Value: quartz diorite
+          Enumerated_Domain_Value: quartz monzonite
+          Enumerated_Domain_Value: quartzite
+          Enumerated_Domain_Value: rhyolite
+          Enumerated_Domain_Value: sand
+          Enumerated_Domain_Value: sandstone
+          Enumerated_Domain_Value: schist
+          Enumerated_Domain_Value: sedimentary breccia
+          Enumerated_Domain_Value: serpentinite
+          Enumerated_Domain_Value: shale
+          Enumerated_Domain_Value: slate
+          Enumerated_Domain_Value: terrace
+          Enumerated_Domain_Value: tonalite
+          Enumerated_Domain_Value: trondhjemite
+          Enumerated_Domain_Value: ultramafitite (komatiite)
+          Enumerated_Domain_Value: unconsolidated deposit
+          Enumerated_Domain_Value: water
+    Attribute:
+      Attribute_Label: rocktype2
+      Attribute_Definition:
+        The second most predominant lithology in the formation.
+
+        type: character
+        width: 40
+        output width: 40
+      Attribute_Definition_Source: Johnson Lith Class 6.1
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: amphibolite
+          Enumerated_Domain_Value: andesite
+          Enumerated_Domain_Value: arkose
+          Enumerated_Domain_Value: biotite gneiss
+          Enumerated_Domain_Value: black shale
+          Enumerated_Domain_Value: chert
+          Enumerated_Domain_Value: clay or mud
+          Enumerated_Domain_Value: conglomerate
+          Enumerated_Domain_Value: dolostone (dolomite)
+          Enumerated_Domain_Value: dune sand
+          Enumerated_Domain_Value: felsic metavolcanic rock
+          Enumerated_Domain_Value: flaser gneiss
+          Enumerated_Domain_Value: gabbro
+          Enumerated_Domain_Value: gneiss
+          Enumerated_Domain_Value: granite
+          Enumerated_Domain_Value: granitic gneiss
+          Enumerated_Domain_Value: granodiorite
+          Enumerated_Domain_Value: gravel
+          Enumerated_Domain_Value: graywacke
+          Enumerated_Domain_Value: greenstone
+          Enumerated_Domain_Value: hornblendite
+          Enumerated_Domain_Value: intermediate metavolcanic rock
+          Enumerated_Domain_Value: limestone
+          Enumerated_Domain_Value: meta-argillite
+          Enumerated_Domain_Value: metasedimentary rock
+          Enumerated_Domain_Value: mica schist
+          Enumerated_Domain_Value: mixed clastic/volcanic
+          Enumerated_Domain_Value: monzonite
+          Enumerated_Domain_Value: mudstone
+          Enumerated_Domain_Value: norite
+          Enumerated_Domain_Value: phyllite
+          Enumerated_Domain_Value: quartz diorite
+          Enumerated_Domain_Value: quartz monzodiorite
+          Enumerated_Domain_Value: quartz monzonite
+          Enumerated_Domain_Value: quartzite
+          Enumerated_Domain_Value: sand
+          Enumerated_Domain_Value: sandstone
+          Enumerated_Domain_Value: schist
+          Enumerated_Domain_Value: shale
+          Enumerated_Domain_Value: silt
+          Enumerated_Domain_Value: siltstone
+          Enumerated_Domain_Value: slate
+          Enumerated_Domain_Value: syenite
+          Enumerated_Domain_Value: tectonite
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: VA_geol.aat
+      Entity_Type_Definition: Arc attribute table for Virginia geologic coverage.
+      Entity_Type_Definition_Source: ESRI
+    Attribute:
+      Attribute_Label: arc-code
+      Attribute_Definition:
+        Unique identifier for the line feature
+
+        type: integer
+        width: 3
+        output width: 3
+      Attribute_Definition_Source: AAT data dictionary
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: contact, location certain
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 7
+          Enumerated_Domain_Value_Definition: shoreline or riverbank
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 94
+          Enumerated_Domain_Value_Definition: shear zone, certain.
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 124
+          Enumerated_Domain_Value_Definition: state boundary
+    Attribute:
+      Attribute_Label: arc-para1
+      Attribute_Definition:
+        Used for "decorated" lines where additional information is needed.
+
+        type: integer
+        width: 3
+        output width: 3
+      Attribute_Definition_Source: AAT data dictionary
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0
+          Enumerated_Domain_Value_Definition: no additional information
+    Attribute:
+      Attribute_Label: arc-para2
+      Attribute_Definition:
+        "Scratch" field used mostly in Alaska.
+
+        type: integer
+        width: 3
+        output width: 3
+      Attribute_Definition_Source: AAT data dictionary
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0
+          Enumerated_Domain_Value_Definition: no additional information
+    Attribute:
+      Attribute_Label: source
+      Attribute_Definition:
+        An alphanumeric code (e.g. US001) that designates the source material used.
+
+        type: character
+        width: 6
+        output width: 8
+      Attribute_Definition_Source: Doug Stoeser
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VA003
+
+          Enumerated_Domain_Value_Definition: Digital Representation of the 1993 Geologic Map of Virginia”, 2003, CD ROM (ISO-9660) contains image file, expanded explanation in pdf, and ESRI shapefiles, viewing software not included. This is a digital version of "Geologic Map of Virginia" published in 1993. Available from: https://www.dmme.virginia.gov/commerce/
+        Enumerated_Domain:
+          Enumerated_Domain_Value: US001
+          Enumerated_Domain_Value_Definition: Johnson, Bruce R. and Leveritch, Beth, 1998, 1:100,000 Scale State Boundaries of the Conterminous United States: U.S. Geological Survey, unpublished (see metadata file: st100kmeta.txt, Chapter A)
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      Coding for polygon attributes:
+
+      NAME:           FEATURE:
+      orig_label   unmodified map unit symbols from source cover
+      sgmc_label   orig_label modified for standard geologic age symbols and an
+      integer code added for province
+      unit_link    sgmc_label and a state code identifier
+      source       reference to source of data
+      unit_age     geologic age
+      rocktype1    predominant lithology
+      rocktype2    second most predominant lithology
+
+      Coding for arc attributes:
+
+      NAME:           FEATURE:
+      arc-code     unique integer identifier
+      arc-para1    used where additional information is needed
+      arc-para2    scratch field
+      source       reference to source of data
+
+      Coding for point attributes:
+
+      NAME:           FEATURE:
+      point_feature  name of feature on map
+      source         reference to source of data
+
+      Coding for dikes (special arcs) attributes:
+
+      NAME:           FEATURE:
+      orig_label   unmodified map unit symbols from source cover
+      sgmc_label   orig_label modified for standard geologic age symbols and an
+      integer code added for province
+      arc-code     unique integer identifier
+      dike_lith    general lithology
+      dike_age     geologic age
+      source       reference to source of data
+
+    Entity_and_Attribute_Detail_Citation: ESRI
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Geological Survey Information Services
+          Reston-ESIC
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address:
+          U.S. Geological Survey
+          507 National Center
+        City: Reston
+        State_or_Province: Virginia
+        Postal_Code: 20192
+        Country: USA
+      Contact_Voice_Telephone:
+        1-888-ASK-USGS
+        or
+        1-703-648-5953
+      Contact_Electronic_Mail_Address: http://www.usgs.gov/contact/
+  Distribution_Liability:
+    Any use of trade, product, or firm names is for
+    descriptive purposes only and does not imply endorsement by the USGS.
+    Although these data have been used by the USGS and have been successfully
+    imported into data base programs, no warranty, expressed or implied, is made
+    by the USGS as to how successfully or accurately the data can be imported into
+    any specific application software running on any specific hardware platform.
+    The fact of distribution shall not constitute any such warranty, and no
+    responsibility is assumed by the USGS in connection therewith.
+    This data base GIS is not meant to be used or displayed at any scale other than 1:500,000.
+  Resource_Description:
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ARC/INFO export
+        Format_Version_Number: 9.0
+        Format_Information_Content: Geologic units and structural features
+        File_Decompression_Technique: gzip and tar
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://pubs.usgs.gov/
+    Fees: none
+Metadata_Reference_Information:
+  Metadata_Date: 20050912
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+        Contact_Person: Connie L. Dicken
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 12201 Sunrise Valley Dr.  MS954
+        City: Reston
+        State_or_Province: VA
+        Postal_Code: 20192
+        Country: USA
+      Contact_Voice_Telephone: 703-648-6482
+      Contact_Electronic_Mail_Address: cdicken@usgs.gov
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata ("CSDGM version 2")
+  Metadata_Standard_Version: FGDC-STD-001-1998
