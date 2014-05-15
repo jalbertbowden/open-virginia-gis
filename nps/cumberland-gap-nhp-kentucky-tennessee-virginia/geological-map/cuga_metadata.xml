@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+<NPS_Info>
+<MetaPurp>CSDGM</MetaPurp>
+<MetaPurp>NPS</MetaPurp>
+<MetaPurp>OnlineData</MetaPurp>
+<MetaPurp>IMInventory</MetaPurp>
+<NPS_Unit>
+<UnitType>Park</UnitType>
+<UnitCode>CUGA</UnitCode>
+</NPS_Unit>
+<DSC_Info>
+<Cat_Date>
+<sngdate>
+<caldate>20080930</caldate>
+</sngdate>
+</Cat_Date>
+</DSC_Info>
+<DatStore>
+<DSteward>
+<cntinfo>
+<cntperp>
+<cntper>Stephanie O&apos;Meara</cntper>
+<cntorg>Colorado State University</cntorg>
+</cntperp>
+<cntpos>Research Associate, Geologist/GIS Specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1201 Oak Ridge Drive, Suite 200</address>
+<city>Fort Collins</city>
+<state>Colorado</state>
+<postal>80525</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 225-3584</cntvoice>
+<cntfax>(970) 225-3597</cntfax>
+<cntemail>Stephanie_O&apos;Meara@partner.nps.gov</cntemail>
+<hours>9:00 a.m. to 5:00 p.m. (MST), Monday - Friday</hours>
+</cntinfo>
+</DSteward>
+<Category>Geology</Category>
+<DataSite>NR-GIS</DataSite>
+</DatStore>
+</NPS_Info>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>National Park Service (NPS) Geologic Resource Evaluation (GRE) program</origin>
+<pubdate>20080930</pubdate>
+<title>Digital Geologic Map of Cumberland Gap National Historical Park and Vicinity, Kentucky, Tennessee and Virginia (NPS, GRD, GRE, CUGA, CUGA digital map)</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<onlink>http://nrdata.nps.gov/cuga/nrdata/geology/gis/cugagdb.zip</onlink>
+<onlink>http://nrdata.nps.gov/cuga/nrdata/geology/gis/cugashp.zip</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The Digital Geologic Map of Cumberland Gap National Historical Park and Vicinity, Kentucky, Tennessee and Virginia is composed of GIS data layers complete with ArcMap 9.2 layer (.LYR) files, two ancillary GIS tables, a Windows Help File with ancillary map text, figures and tables, a FGDC metadata record and a 9.2 ArcMap (.MXD) Document that displays the digital map in 9.2 ArcGIS.  The data were completed as a component of the Geologic Resource Evaluation (GRE) program, a National Park Service (NPS) Inventory and Monitoring (I&amp;M) funded program that is administered by the NPS Geologic Resources Division (GRD).  Source geologic maps and data used to complete this GRE digital dataset were provided by the following: .  Detailed information concerning the sources used and their contribution the GRE product are listed in the Source Citation sections(s) of this metadata record (cuga_metadata.txt; available at http://nrdata.nps.gov/cuga/nrdata/geology/gis/cuga_metadata.xml).  All GIS and ancillary tables were produced as per the NPS GRE Geology-GIS Geodatabase Data Model v. 2.0. (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm).  The GIS data is available as a 9.2 personal geodatabase (cuga_geology.mdb), and as shapefile (.SHP) and DBASEIV (.DBF) table files.  The GIS data projection is NAD83, UTM Zone 17N.  That data is within the area of interest of Cumberland Gap National Historical Park.</abstract>
+<purpose>The data are intended to assist NPS personnel in the protection and management of Cumberland Gap National Historical Park.</purpose>
+<supplinf>The data layers (feature classes) that comprise the Digital Geologic Map of Cumberland Gap National Historical Park and Vicinity, Kentucky, Tennessee and Virginia include: CUGAGLG (Geologic Units), CUGAGLGA (Geologic Contacts), CUGAGLN (Linear Geologic Units), CUGAGPT (Fossil Localities), CUGAGPF (Coal Outcrops), CUGASEC (Geologic Cross Section Lines), CUGASUR (Surficial Units), CUGASURA (Surficial Contacts), CUGAATD (Geologic Attitude and Observation Localities), CUGACN1 (Structure Contours, Base Fire Clay Coal Bed), CUGAFLD (Folds), CUGAFLT (Faults), CUGASYM (Map Symbology), CUGAMAF (Mine Area Features), CUGAMAFA (Mine Area Feature Boundaries), CUGAMFL (Mine Feature Lines), CUGAMIN (Mine Point Features), CUGACN2 (Structure Contours, Base Manchester Coal Bed), CUGACN3 (Structure Contours, Base Upper Elkhorn No. 2 (Jellico) Coal Bed) and CUGACN4 (Structure Contours, Top Upper Elkhorn No. 2 (Jellico) Coal Bed).  There are three additional ancillary map components, the Geologic Unit Information (CUGAUNIT) Table, the Source Map Information (CUGAMAP) Table and the Map Help File (cuga_geology.hlp).  Refer to the NPS GRE Geology-GIS Geodatabase Data Model v. 2.0 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm) for detailed data layer (feature class) and table specifications including attribute field parameters, definitions and domains, and implemented topology rules and relationship classes.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20080930</caldate>
+</sngdate>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-83.8749241738811</westbc>
+<eastbc>-83.2498973779733</eastbc>
+<northbc>36.7501035049262</northbc>
+<southbc>36.5000789625681</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>Cumberland Gap National Historical Park</themekey>
+<themekey>CUGA</themekey>
+<themekey>Kentucky, Tennessee and Virginia</themekey>
+<themekey>digital data</themekey>
+<themekey>GIS data</themekey>
+<themekey>geodatabase</themekey>
+<themekey>personal geodatabase</themekey>
+<themekey>shapefile</themekey>
+<themekey>DBASE IV tables</themekey>
+<themekey>geology</themekey>
+<themekey>digital geologic map</themekey>
+<themekey>digital geologic-GIS map</themekey>
+<themekey>geologic map</themekey>
+<themekey>geologic-GIS map</themekey>
+<themekey>geologic-GIS map</themekey>
+<themekey>Geology Help File</themekey>
+<themekey>geologic unit descriptions</themekey>
+<themekey>geologic units</themekey>
+<themekey>Geologic Unit Information Table</themekey>
+<themekey>UNIT table</themekey>
+<themekey>Source Map Information Table</themekey>
+<themekey>MAP table</themekey>
+<themekey>source geologic maps</themekey>
+<themekey>source maps</themekey>
+<themekey>CUGAGLG (Geologic Units)</themekey>
+<themekey>CUGAGLGA (Geologic Contacts)</themekey>
+<themekey>CUGAGLN (Linear Geologic Units)</themekey>
+<themekey>CUGAGPT (Fossil Localities)</themekey>
+<themekey>CUGAGPF (Coal Outcrops)</themekey>
+<themekey>CUGASEC (Geologic Cross Section Lines)</themekey>
+<themekey>CUGASUR (Surficial Units)</themekey>
+<themekey>CUGASURA (Surficial Contacts)</themekey>
+<themekey>CUGAATD (Geologic Attitude and Observation Localities)</themekey>
+<themekey>CUGACN1 (Structure Contours, Base Fire Clay Coal Bed)</themekey>
+<themekey>CUGAFLD (Folds)</themekey>
+<themekey>CUGAFLT (Faults)</themekey>
+<themekey>CUGASYM (Map Symbology)</themekey>
+<themekey>CUGAMAF (Mine Area Features)</themekey>
+<themekey>CUGAMAFA (Mine Area Feature Boundaries)</themekey>
+<themekey>CUGAMFL (Mine Feature Lines)</themekey>
+<themekey>CUGAMIN (Mine Point Features)</themekey>
+<themekey>CUGACN2 (Structure Contours, Base Manchester Coal Bed)</themekey>
+<themekey>CUGACN3 (Structure Contours, Base Upper Elkhorn No. 2 (Jellico) Coal Bed)</themekey>
+<themekey>CUGACN4 (Structure Contours, Top Upper Elkhorn No. 2 (Jellico) Coal Bed)</themekey>
+<themekey>National Park Service</themekey>
+<themekey>NPS</themekey>
+<themekey>Geologic Resources Division</themekey>
+<themekey>GRD</themekey>
+<themekey>Geologic Resource Evaluation</themekey>
+<themekey>GRE</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>Cumberland Gap National Historical Park</placekey>
+<placekey>CUGA</placekey>
+<placekey>Kentucky</placekey>
+<placekey>Tennessee</placekey>
+<placekey>Virginia</placekey>
+<placekey>United States</placekey>
+<placekey>US</placekey>
+<placekey>USA</placekey>
+<placekey>North America</placekey>
+</place>
+<place>
+<placekt>National Park System Unit Code Thesaurus</placekt>
+<placekey>CUGA</placekey>
+</place>
+<place>
+<placekt>National Park System Unit Name Thesaurus</placekt>
+<placekey>Cumberland Gap National Historical Park</placekey>
+</place>
+<theme>
+<themekt>National Park Service Theme Category Thesaurus</themekt>
+<themekey>Geology</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>Environment</themekey>
+<themekey>Geoscientific Information</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>Not for use at scale greater than 1:24,000 (source map scale)</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Stephanie O&apos;Meara</cntper>
+<cntorg>Colorado State University</cntorg>
+</cntperp>
+<cntpos>Research Associate, Geologist/GIS Specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1201 Oak Ridge Drive, Suite 200</address>
+<city>Fort Collins</city>
+<state>Colorado</state>
+<postal>80525</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 225-3584</cntvoice>
+<cntfax>(970) 225-3597</cntfax>
+<cntemail>Stephanie_O&apos;Meara@partner.nps.gov</cntemail>
+<hours>9:00 a.m. to 5:00 p.m. (MST), Monday - Friday</hours>
+</cntinfo>
+</ptcontac>
+<datacred>Heather I. Stanton, Philip M. Reiker, Georgia Hybels, Aaron Rice, Jeremy Hurshman, Dave Green, James R. Chappell, Ron Karpilo, Jason Isherwood, Cory Karpilo and Stephanie O&apos;Meara (Colorado State University and NPS Geologic Resources Division)</datacred>
+<native>ESRI ArcGIS 9.2 and Microsoft Windows XP</native>
+<crossref>
+<citeinfo>
+<origin>National Park Service Geologic Resource Evaluation (GRE) program</origin>
+<pubdate>20080930</pubdate>
+<title>Metadata for The Digital Geologic Map of Cumberland Gap National Historical Park and Vicinity, Kentucky, Tennessee and Virginia (NPS, GRD, GRE, CUGA, CUGA digital map)</title>
+<edition>1st</edition>
+<geoform>document</geoform>
+<onlink>http://nrdata.nps.gov/cuga/nrdata/geology/gis/cuga_metadata.xml</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Feature and table attribution was derived and checked with the source map(s).  Attribution was checked (QCd) for errors.  Users of this data are advised to FULLY and CAREFULLY READ the &quot;DISTRIBUTION LIABILITY&quot; section of this metadata before using the data.</attraccr>
+</attracc>
+<logic>GIS data in 9.2 personal geodatabase (.MDB), and shapefile (.SHP) and DBASEIV (.DBF) table file formats.</logic>
+<complete>All data is considered complete to the extent of the source map(s).</complete>
+<posacc>
+<horizpa>
+<horizpar>Data, produced from digital source data and digitized from a georeferenced MrSID image downloaded from the Kentucky Geological Survey (http://www.uky.edu/KGS/gis/gqmaps/index.html) or from a 300 dpi georeferenced .tif image, is assumed to meet National Map Accuracy Standards.  The PRECISION of the Export (.E00) file and Shapefile (.SHP) file is DOUBLE.  When features were digitized from the MrSID image, care was taken to align the digitized features with the source digital data if discrepancies were noted, as the digital data was originally digitized from a more stable base (mylar).  The PRECISION of any Shapefile (.SHP) files is DOUBLE.  Coordinate tics on the georeferenced (registered and rectified) source map image(s) were checked against control points that had the exact specified coordinates of the tic.  The direct distance between the image tic and its control point were measured.  All measured distances were less than 50% of the required distance to meet National Map Accuracy Standards (1/50th of an inch for maps at 1:20,000 scale and smaller).  Features were checked (QCd) after digitizing for positional accuracy errors using the georeferenced source map image.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Brent, W.B.</origin>
+<pubdate>1988</pubdate>
+<title>Geologic Map and Mineral Resources Summary of the Back Valley Quadrangle</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>NA</sername>
+<issue>Map 161</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Nashville, Tennessee</pubplace>
+<publish>Tennessee Division of Geology (TDG)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1988</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>TDG Map 161</srccitea>
+<srccontr>Geologic features present on the source map were digitized using a .TIF image of the paper/mylar map that was scanned at 300dpi and georeferenced in NAD83 UTM.  The source map scan was also used to attribute features, as well as to check (QC) line quality, both positionally and spatially, and feature attribution.  Ancillary source map text, including unit descriptions, and graphics, if present, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Harris, L.D., Stephens, J.G., and Miller, R.L.</origin>
+<pubdate>1962</pubdate>
+<title>Geology of the Coleman Gap quadrangle, Tennessee and Virginia</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Geologic Quadrangle (GQ) Map Series</sername>
+<issue>GQ-188</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, Virginia</pubplace>
+<publish>U.S. Geological Survey (USGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1962</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>USGS GQ-188</srccitea>
+<srccontr>Geologic features present on the source map were digitized using a .TIF image of the paper/mylar map that was scanned at 300dpi and georeferenced in NAD83 UTM.  The source map scan was also used to attribute features, as well as to check (QC) line quality, both positionally and spatially, and feature attribution.  Ancillary source map text, including unit descriptions, and graphics, if present, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Harris, L.D.</origin>
+<pubdate>1965</pubdate>
+<title>Geologic map of the Wheeler quadrangle, Claiborne County, Tennessee and Lee County, Virginia</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Geologic Quadrangle (GQ) Map Series</sername>
+<issue>GQ-435</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, Virginia</pubplace>
+<publish>U.S. Geological Survey (USGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1965</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>USGS GQ-435</srccitea>
+<srccontr>Geologic features present on the source map were digitized using a .TIF image of the paper/mylar map that was scanned at 300dpi and georeferenced in NAD83 UTM.  The source map scan was also used to attribute features, as well as to check (QC) line quality, both positionally and spatially, and feature attribution.  Ancillary source map text, including unit descriptions, and graphics, if present, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Englund, K.J.</origin>
+<pubdate>1964</pubdate>
+<title>Geology of the Middlesboro South quadrangle, Tennessee-Kentucky-Virginia</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Geologic Quadrangle (GQ) Map Series</sername>
+<issue>GQ-301</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, Virginia</pubplace>
+<publish>U.S. Geological Survey (USGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1964</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>USGS GQ-301</srccitea>
+<srccontr>Geologic features present on the source map were digitized using a MrSID image downloaded from the Kentucky Geological Survey (KGS). The image was also used to attribute features, as well as to check (QC) line quality, both positionally and spatially, and feature attribution.  Ancillary source map text, including unit descriptions, and graphics, if present, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Kohl, M.S.;Sykes, C.R.</origin>
+<pubdate>1991</pubdate>
+<title>Geologic Map and Mineral Resources Summary of the Fork Ridge Quadrangle</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>NA</sername>
+<issue>Map 144 SE</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Nashville, Tennessee</pubplace>
+<publish>Tennessee Division of Geology (TDG)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1991</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>TDG Map 144 SE</srccitea>
+<srccontr>Geologic features present on the source map were digitized using a .TIF image of the paper/mylar map that was scanned at 300dpi and georeferenced in NAD83 UTM.  The source map scan was also used to attribute features, as well as to check (QC) line quality, both positionally and spatially, and feature attribution.  Ancillary source map text, including unit descriptions, and graphics, if present, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Thompson, M.F.</origin>
+<pubdate>2003</pubdate>
+<title>Spatial database of the Middlesboro South quadrangle, Tennessee-Kentucky-Virginia</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Digitally Vectorized Geologic Quadrangle Data</sername>
+<issue>DVGQ-12_301</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Lexington, Kentucky</pubplace>
+<publish>Kentucky Geological Survey (KGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>digital data</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2003</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>KGS DVGQ-12_301</srccitea>
+<srccontr>Features and attribution were derived from source digital data.  Ancillary map text, including unit descriptions, and graphics, if present on the source map, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Conley, T.J.</origin>
+<pubdate>2003</pubdate>
+<title>Spatial database of the Kayjay quadrangle and part of the Fork Ridge quadrangle</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Digitally Vectorized Geologic Quadrangle Data</sername>
+<issue>DVGQ-12_1505</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Lexington, Kentucky</pubplace>
+<publish>Kentucky Geological Survey (KGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>digital data</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2003</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>KGS DVGQ-12_1505</srccitea>
+<srccontr>Features and attribution were derived from source digital data.  Ancillary map text, including unit descriptions, and graphics, if present on the source map, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Mullins, J.E.</origin>
+<pubdate>2003</pubdate>
+<title>Spatial database of the Ewing quadrangle, Kentucky-Virginia</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Digitally Vectorized Geologic Quadrangle Data</sername>
+<issue>DVGQ-12_172</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Lexington, Kentucky</pubplace>
+<publish>Kentucky Geological Survey (KGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>digital data</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2003</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>KGS DVGQ-12_172</srccitea>
+<srccontr>Features and attribution were derived from source digital data.  Ancillary map text, including unit descriptions, and graphics, if present on the source map, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Johnson, T.L.</origin>
+<pubdate>2003</pubdate>
+<title>Spatial database of the Varilla quadrangle, Kentucky-Virginia</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Digitally Vectorized Geologic Quadrangle Data</sername>
+<issue>DVGQ-12_190</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Lexington, Kentucky</pubplace>
+<publish>Kentucky Geological Survey (KGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>digital data</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2003</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>KGS DVGQ-12_190</srccitea>
+<srccontr>Features and attribution were derived from source digital data.  Ancillary map text, including unit descriptions, and graphics, if present on the source map, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Crawford, M.M.</origin>
+<pubdate>2003</pubdate>
+<title>Spatial database of the Rose Hill quadrangle</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Digitally Vectorized Geologic Quadrangle Data</sername>
+<issue>DVGQ-12_1121</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Lexington, Kentucky</pubplace>
+<publish>Kentucky Geological Survey (KGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>digital data</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2003</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>KGS DVGQ-12_1121</srccitea>
+<srccontr>Features and attribution were derived from source digital data.  Ancillary map text, including unit descriptions, and graphics, if present on the source map, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Sparks, T.N.</origin>
+<pubdate>2003</pubdate>
+<title>Spatial database of the Middlesboro North quadrangle</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Digitally Vectorized Geologic Quadrangle Data</sername>
+<issue>DVGQ-12_1663</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Lexington, Kentucky</pubplace>
+<publish>Kentucky Geological Survey (KGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>digital data</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2003</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>KGS DVGQ-12_1663</srccitea>
+<srccontr>Features and attribution were derived from source digital data.  Ancillary map text, including unit descriptions, and graphics, if present on the source map, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Englund, K.J., Smith, H.L., Harris, L.D., and Stephens, J.G.</origin>
+<pubdate>1963</pubdate>
+<title>Geology of the Ewing quadrangle, Kentucky and Virginia</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>NA</sername>
+<issue>Bulletin 1142-B</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, Virginia</pubplace>
+<publish>U.S. Geological Survey (USGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1963</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>USGS Bulletin 1142-B</srccitea>
+<srccontr>Geologic features present on the source map were digitized using a MrSID image downloaded from the Kentucky Geological Survey (KGS). The image was also used to attribute features, as well as to check (QC) line quality, both positionally and spatially, and feature attribution.  Ancillary source map text, including unit descriptions, and graphics, if present, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Englund, K.J., Landis, E.R., and Smith, H.L.</origin>
+<pubdate>1963</pubdate>
+<title>Geology of the Varilla quadrangle, Kentucky-Virginia</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Geologic Quadrangle (GQ) Map Series</sername>
+<issue>GQ-190</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, Virginia</pubplace>
+<publish>U.S. Geological Survey (USGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1963</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>USGS GQ-190</srccitea>
+<srccontr>Geologic features present on the source map were digitized using a MrSID image downloaded from the Kentucky Geological Survey (KGS). The image was also used to attribute features, as well as to check (QC) line quality, both positionally and spatially, and feature attribution.  Ancillary source map text, including unit descriptions, and graphics, if present, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Englund, K.J., Roen, J.B., and Delaney, A.O.</origin>
+<pubdate>1964</pubdate>
+<title>Geology of the Middlesboro North quadrangle, Kentucky</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Geologic Quadrangle (GQ) Map Series</sername>
+<issue>GQ-300</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, Virginia</pubplace>
+<publish>U.S. Geological Survey (USGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1964</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>USGS GQ-300</srccitea>
+<srccontr>Geologic features present on the source map were digitized using a MrSID image downloaded from the Kentucky Geological Survey (KGS). The image was also used to attribute features, as well as to check (QC) line quality, both positionally and spatially, and feature attribution.  Ancillary source map text, including unit descriptions, and graphics, if present, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Maughan, E.K. and Tazelaar, J.F.</origin>
+<pubdate>1973</pubdate>
+<title>Geologic map of part of the Rose Hill quadrangle, Harlan County, Kentucky</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Geologic Quadrangle (GQ) Map Series</sername>
+<issue>GQ-1121</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, Virginia</pubplace>
+<publish>U.S. Geological Survey (USGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1973</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>USGS GQ-1121</srccitea>
+<srccontr>Geologic features present on the source map were digitized using a MrSID image downloaded from the Kentucky Geological Survey (KGS). The image was also used to attribute features, as well as to check (QC) line quality, both positionally and spatially, and feature attribution.  Ancillary source map text, including unit descriptions, and graphics, if present, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Rice, C.L. and Maughan, E.K.</origin>
+<pubdate>1978</pubdate>
+<title>Geologic map of the Kayjay quadrangle and part of the Fork Ridge quadrangle, Bell and Knox Counties, Kentucky</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>Geologic Quadrangle (GQ) Map Series</sername>
+<issue>GQ-1505</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Reston, Virginia</pubplace>
+<publish>U.S. Geological Survey (USGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>1978</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>USGS GQ-1505</srccitea>
+<srccontr>Geologic features present on the source map were digitized using a MrSID image downloaded from the Kentucky Geological Survey (KGS). The image was also used to attribute features, as well as to check (QC) line quality, both positionally and spatially, and feature attribution.  Ancillary source map text, including unit descriptions, and graphics, if present, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Energy and Minerals Section, Kentucky Geological Survey, University of Kentucky</origin>
+<pubdate>2005</pubdate>
+<title>Kentucky Oil and Gas Well Data, NAD 83 Version 10</title>
+<edition>1st</edition>
+<geoform>map</geoform>
+<serinfo>
+<sername>NA</sername>
+<issue>kyog83v10</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Lexington, Kentucky</pubplace>
+<publish>Kentucky Geological Survey (KGS)</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>100000</srcscale>
+<typesrc>paper</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2005</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>KGS kyog83v10</srccitea>
+<srccontr>Geologic features present on the source map were digitized using a MrSID image downloaded from the Kentucky Geological Survey (KGS). The image was also used to attribute features, as well as to check (QC) line quality, both positionally and spatially, and feature attribution.  Ancillary source map text, including unit descriptions, and graphics, if present, were captured, formatted and added to the map-related help file.  See the Process Step section for additional information.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>1.) GIS features were produced from source digital data or digitized from scanned source paper maps or MrSID images.  See the Source Information Contribution section(s) for specific source map details.  GIS features converted from source digital data were imported into a geodatabase as per the GRE data model.  GIS features captured from a scanned source paper map were digitized from a .TIF image of the paper map that was scanned at 300dpi and georeferenced in NAD83 UTM.  These GIS features were first digitized into a digitizing geodatabase with limited attribution and topological rules.  Line quality was checked against the source scan to ensure that GIS features were represented accurately, both positionally and spatially. These features were then parsed using a GRE developed script (Genesis) into their appropriate GRE data model feature classes (data layers) within a new geodatabase, and further attributed.  Topology rules were imposed and validated on all GIS data, as per the GRE data model, to check for and correct topology errors.  Quality control (QC) consisting of a visual check and/or queries of the data against its source (where applicable), as well as running a GRE developed script (QC_Script) to check for GRE data model validation and feature-related consistency, was conducted.  2.) GIS table attribution was derived and checked using the source map(s) and/or digital data file(s).  Relationship classes were also used to ensure attribution consistency between feature class and table attribution.  For details on the GRE data model see the NPS GRE Geology-GIS Geodatabase Data Model v. 2.0 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm).  3.) GIS feature classes were then exported from the geodatabase to shapefile (.SHP) format, and GIS tables exported from the geodatabase to DBASEIV (.DBF) format.  4.) The map-related help file, see the Supplemental Information section for additional information, was produced from textual information and figures present on the source map(s) and/or in digital data files.  If applicable, source map images were produced at 150dpi or greater resolution and optical character recognition (OCR) software was used to produce text from source map text.  The text, source map images and other ancillary source map information were added to a Help &amp; Manual (.HMX) template file.  Help file pages were organized based on topic and links and keywords were added to enhance usability.  The Help &amp; Manual (.HMX) file was then compiled to produce the .HLP help file.  Any compilation errors were then checked and corrected and the help file was reviewed for content, usability and grammatical errors.</procdesc>
+<srcused>TDG Map 161, USGS GQ-188, USGS GQ-435, USGS GQ-301, TDG Map 144 SE, KGS DVGQ-12_301, KGS DVGQ-12_1505, KGS DVGQ-12_172, KGS DVGQ-12_190, KGS DVGQ-12_1121, KGS DVGQ-12_1663, USGS Bulletin 1142-B, USGS GQ-190, USGS GQ-300, USGS GQ-1121, USGS GQ-1505, KGS kyog83v10</srcused>
+<procdate>20080930</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Heather I. Stanton</cntper>
+<cntorg>Colorado State University</cntorg>
+</cntperp>
+<cntpos>Research Associate, Geologist/GIS Specialist</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>1201 Oak Ridge Drive, Suite 200</address>
+<city>Fort Collins</city>
+<state>Colorado</state>
+<postal>80525-5589</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 267-2159</cntvoice>
+<cntfax>(970) 225-3597</cntfax>
+<cntemail>Heather_Stanton@partner.nps.gov</cntemail>
+<hours>9:00 a.m. to 5:00 p.m. (MST), Monday - Friday</hours>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spref>
+<horizsys>
+<cordsysn>
+<geogcsn>GCS_North_American_1983</geogcsn>
+<projcsn>NAD_1983_UTM_Zone_17N</projcsn>
+</cordsysn>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>17</utmzone>
+<transmer>
+<sfctrmer>0.999600</sfctrmer>
+<longcm>-81.0</longcm>
+<latprjo>0.000000</latprjo>
+<feast>500000.000000</feast>
+<fnorth>0.000000</fnorth>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<plandu>meters</plandu>
+<coordrep>
+<absres>0.000007</absres>
+<ordres>0.000007</ordres>
+</coordrep>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>Refer to the NPS GRE Geology-GIS Geodatabase Data Model v. 2.0 (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm) for detailed feature class and table attribute field parameters, definitions and domains, and implemented relationship classes, as well as for implemented feature class topology rules.</eaover>
+<eadetcit>NPS GRE Geology-GIS Geodatabase Data Model v. 2.0. (available at: http://science.nature.nps.gov/im/inventory/geology/GeologyGISDataModel.cfm)</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Stephanie O&apos;Meara</cntper>
+<cntorg>Colorado State University</cntorg>
+</cntperp>
+<cntpos>Research Associate, Geologist/GIS Specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1201 Oak Ridge Drive, Suite 200</address>
+<city>Fort Collins</city>
+<state>Colorado</state>
+<postal>80525</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 225-3584</cntvoice>
+<cntfax>(970) 225-3597</cntfax>
+<cntemail>Stephanie_O&apos;Meara@partner.nps.gov</cntemail>
+<hours>8:00 a.m. to 4:00 p.m. (MST), Monday - Friday</hours>
+<cntinst>GRE data are available at the NPS Data Store: http://science.nature.nps.gov/nrdata</cntinst>
+</cntinfo>
+</distrib>
+<resdesc>GIS map data available in CUGAGDB.ZIP (9.2 personal geodatabase (.MDB) file) or CUGASHP.ZIP (shapefile (.SHP) and DBASEIV (.DBF) table files)</resdesc>
+<distliab>
+The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related graphics are not legal documents and are not intended to be used as such.
+
+The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.  The related graphics are intended to aid the data user in acquiring relevant data; it is not appropriate to use the related graphics as data.
+
+The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  It is strongly recommended that these data are directly acquired from an NPS server and not indirectly through other sources which may have changed the data in some way.  Although these data have been processed successfully on a computer system at the National Park Service, no warranty, expressed or implied is made regarding the utility of the data on another system or for general scientific purposes, nor shall the act of distribution constitute any such warranty.  This disclaimer applies to both to individual use of the data and aggregate use with other data.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>GDB</formname>
+<formvern>ArcGIS 9.2</formvern>
+<formspec>Personal Geodatabase (.MDB) file</formspec>
+<filedec>Compression applied</filedec>
+<transize>32.4</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://nrdata.nps.gov/cuga/nrdata/geology/gis/cugagdb.zip</networkr>
+</networka>
+</computer>
+<accinstr>Download the digital geologic-GIS map metadata (cuga_metadata.xml) or the .ZIP download file (CUGAGDB.ZIP) with the personal geodatabase (.MDB) file (cuga_geology.mdb).</accinstr>
+</onlinopt>
+</digtopt>
+</digform>
+<digform>
+<digtinfo>
+<formname>SHP</formname>
+<formvern>ArcGIS 9.2</formvern>
+<formspec>Shapefile (.SHP) and DBASEIV (.DBF) table files</formspec>
+<filedec>Compression applied</filedec>
+<transize>30.8</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://nrdata.nps.gov/cuga/nrdata/geology/gis/cugashp.zip</networkr>
+</networka>
+</computer>
+<accinstr>Download the digital geologic-GIS map metadata (cuga_metadata.xml) or the .ZIP download file (CUGASHP.ZIP) with Shapefile (.SHP) and DBASEIV (.DBF) data.</accinstr>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+<ordering>Search and download GRE data at: http://science.nature.nps.gov/nrdata</ordering>
+</stdorder>
+<availabl>
+<timeinfo>
+<sngdate>
+<caldate>20080930</caldate>
+</sngdate>
+</timeinfo>
+</availabl>
+</distinfo>
+<metainfo>
+<metd>20080930</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Heather I. Stanton</cntper>
+<cntorg>Colorado State University</cntorg>
+</cntperp>
+<cntpos>Research Associate, Geologist/GIS Specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1201 Oak Ridge Drive, Suite 200</address>
+<city>Fort Collins</city>
+<state>Colorado</state>
+<postal>80525-5589</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(970) 267-2159</cntvoice>
+<cntfax>(970) 225-3597</cntfax>
+<cntemail>Heather_Stanton@partner.nps.gov</cntemail>
+<hours>9:00 a.m. to 5:00 p.m. (MST), Monday - Friday</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>None</metac>
+<metuc>None</metuc>
+<metextns>
+<onlink>http://www.fgdc.gov/metadata/meta_stand.html</onlink>
+<metprof>FGDC Geospatial Metadata Standards</metprof>
+</metextns>
+<metextns>
+<onlink>http://nrdata.nps.gov/profiles/nps_profile.xml</onlink>
+<metprof>NPS NR and GIS Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>
