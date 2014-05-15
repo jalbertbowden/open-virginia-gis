@@ -1,0 +1,54 @@
+Name: “Table 1 of 1 on page 17 of 48”,Name: “Table 1 of 1 on page 17 of 48”,Name: “Table 1 of 1 on page 17 of 48”,Name: “Table 1 of 1 on page 17 of 48”,Name: “Table 1 of 1 on page 17 of 48”,Name: “Table 1 of 1 on page 17 of 48”
+Table: 17,Table: 17,Table: 17,Table: 17,Table: 17,Table: 17
+,,,,,
+,,,,value list,
+Age Table (STAGE),Age Table (STAGE),,,,
+,The STAGE table (Table 9) record text and numerical minimum and maximum ages (in,The STAGE table (Table 9) record text and numerical minimum and maximum ages (in,The STAGE table (Table 9) record text and numerical minimum and maximum ages (in,The STAGE table (Table 9) record text and numerical minimum and maximum ages (in,The STAGE table (Table 9) record text and numerical minimum and maximum ages (in
+millions of years; Ma) for each map unit.,millions of years; Ma) for each map unit.,millions of years; Ma) for each map unit.,This table has a one-to-one relationship with the units,This table has a one-to-one relationship with the units,This table has a one-to-one relationship with the units
+table.,The names used to populate fields in these tables are assigned using the Age data,The names used to populate fields in these tables are assigned using the Age data,The names used to populate fields in these tables are assigned using the Age data,The names used to populate fields in these tables are assigned using the Age data,The names used to populate fields in these tables are assigned using the Age data
+"dictionary (Appendix 3), derived from Palmer (1983) to assign maximum and minimum ages to","dictionary (Appendix 3), derived from Palmer (1983) to assign maximum and minimum ages to","dictionary (Appendix 3), derived from Palmer (1983) to assign maximum and minimum ages to","dictionary (Appendix 3), derived from Palmer (1983) to assign maximum and minimum ages to","dictionary (Appendix 3), derived from Palmer (1983) to assign maximum and minimum ages to","dictionary (Appendix 3), derived from Palmer (1983) to assign maximum and minimum ages to"
+"geologic units. The table has the full hierarchy of the maximum and minimum ages of the unit,","geologic units. The table has the full hierarchy of the maximum and minimum ages of the unit,","geologic units. The table has the full hierarchy of the maximum and minimum ages of the unit,","geologic units. The table has the full hierarchy of the maximum and minimum ages of the unit,","geologic units. The table has the full hierarchy of the maximum and minimum ages of the unit,","geologic units. The table has the full hierarchy of the maximum and minimum ages of the unit,"
+"allowing searches based on any part of the time scale. For example, searches could be for units","allowing searches based on any part of the time scale. For example, searches could be for units","allowing searches based on any part of the time scale. For example, searches could be for units","allowing searches based on any part of the time scale. For example, searches could be for units","allowing searches based on any part of the time scale. For example, searches could be for units","allowing searches based on any part of the time scale. For example, searches could be for units"
+that are at least Paleozoic but no older than Devonian. Because maximum and minimum numeric,that are at least Paleozoic but no older than Devonian. Because maximum and minimum numeric,that are at least Paleozoic but no older than Devonian. Because maximum and minimum numeric,that are at least Paleozoic but no older than Devonian. Because maximum and minimum numeric,that are at least Paleozoic but no older than Devonian. Because maximum and minimum numeric,that are at least Paleozoic but no older than Devonian. Because maximum and minimum numeric
+"ages were automatically populated (from Palmer, 1983), the table can also be searched based on","ages were automatically populated (from Palmer, 1983), the table can also be searched based on","ages were automatically populated (from Palmer, 1983), the table can also be searched based on","ages were automatically populated (from Palmer, 1983), the table can also be searched based on","ages were automatically populated (from Palmer, 1983), the table can also be searched based on","ages were automatically populated (from Palmer, 1983), the table can also be searched based on"
+numeric maximum and minimum ages.,numeric maximum and minimum ages.,,,,
+"A field, named age_type, shows whether the age of the unit is based on stratigraphic or fossil","A field, named age_type, shows whether the age of the unit is based on stratigraphic or fossil","A field, named age_type, shows whether the age of the unit is based on stratigraphic or fossil","A field, named age_type, shows whether the age of the unit is based on stratigraphic or fossil","A field, named age_type, shows whether the age of the unit is based on stratigraphic or fossil","A field, named age_type, shows whether the age of the unit is based on stratigraphic or fossil"
+control or based on radiometric dating.,control or based on radiometric dating.,Only two values are allowed in this field.,Only two values are allowed in this field.,Only two values are allowed in this field.,Relative is
+used if the unit is simply assigned an age or range based on stratigraphic position (e.g. late,used if the unit is simply assigned an age or range based on stratigraphic position (e.g. late,used if the unit is simply assigned an age or range based on stratigraphic position (e.g. late,used if the unit is simply assigned an age or range based on stratigraphic position (e.g. late,used if the unit is simply assigned an age or range based on stratigraphic position (e.g. late,used if the unit is simply assigned an age or range based on stratigraphic position (e.g. late
+Triassic or late Triassic to early Cretaceous).,Triassic or late Triassic to early Cretaceous).,Triassic or late Triassic to early Cretaceous).,"If a map unit’s age is within a single time unit, e.g.","If a map unit’s age is within a single time unit, e.g.","If a map unit’s age is within a single time unit, e.g."
+"late Triassic, then that is used for both maximum and minimum.","late Triassic, then that is used for both maximum and minimum.","late Triassic, then that is used for both maximum and minimum.","late Triassic, then that is used for both maximum and minimum.",Relative coding was used for,Relative coding was used for
+most map units.,most map units.,Absolute is used where age determination information is available.,Absolute is used where age determination information is available.,Absolute is used where age determination information is available.,Absolute age
+"information, if available, was manually entered into the tables, overriding the automatically","information, if available, was manually entered into the tables, overriding the automatically","information, if available, was manually entered into the tables, overriding the automatically","information, if available, was manually entered into the tables, overriding the automatically","information, if available, was manually entered into the tables, overriding the automatically","information, if available, was manually entered into the tables, overriding the automatically"
+populated field entry.,populated field entry.,"If a user chooses to use a different time scale, in converting from our time","If a user chooses to use a different time scale, in converting from our time","If a user chooses to use a different time scale, in converting from our time","If a user chooses to use a different time scale, in converting from our time"
+"scale, the user would be able use this field to determine whether to shift the text age term or the","scale, the user would be able use this field to determine whether to shift the text age term or the","scale, the user would be able use this field to determine whether to shift the text age term or the","scale, the user would be able use this field to determine whether to shift the text age term or the","scale, the user would be able use this field to determine whether to shift the text age term or the","scale, the user would be able use this field to determine whether to shift the text age term or the"
+numeric age term (Ma) for each unit.,numeric age term (Ma) for each unit.,,,,
+"The comments field (age_com) is used to document methodology, referencing, etc. (e.g.","The comments field (age_com) is used to document methodology, referencing, etc. (e.g.","The comments field (age_com) is used to document methodology, referencing, etc. (e.g.","The comments field (age_com) is used to document methodology, referencing, etc. (e.g.","The comments field (age_com) is used to document methodology, referencing, etc. (e.g.","The comments field (age_com) is used to document methodology, referencing, etc. (e.g."
+"“U/Pb zircon isochron age, reference NV012”).","“U/Pb zircon isochron age, reference NV012”).","“U/Pb zircon isochron age, reference NV012”).","If more than one determination is referred to, the","If more than one determination is referred to, the","If more than one determination is referred to, the"
+overall interpreted age was used.,overall interpreted age was used.,,,,
+Table 9.,STAGE table field definitions,STAGE table field definitions,,,
+,Field name,Information type,Information type,Field type,Data dictionary
+1,unit_link,Same definition as units table,Same definition as units table,Text,UNITS
+,(mandatory),,,,
+2,min_eon,The minimum or youngest age,The minimum or youngest age,,
+,min_era,assignment for the map unit.,assignment for the map unit.,,
+,,,,"Text,",
+,min_period,,,,
+,,,,restricted,Appendix 3
+,min_epoch,,,,
+,,,,value list,
+,min_age,,,,
+,(mandatory if),,,,
+3,full_min,Automatically generated field that,Automatically generated field that,,
+,,,,"Text,",
+,(auto,concatenates all of the input from the,concatenates all of the input from the,,
+,,,,auto entry,
+,generated),minimum fields into a single field.,minimum fields into a single field.,,
+4,max_eon,The maximum or oldest age assignment,The maximum or oldest age assignment,"Text,",
+,max_era,for the map unit.,,restricted,
+,max_period,,,value list,
+,,,,,Appendix 3
+,max_epoch,,,,
+,max_age,,,,
+,(mandatory if),,,,
+5,full_max,Automatically generated field that,Automatically generated field that,"Text,",
+,,,14,,

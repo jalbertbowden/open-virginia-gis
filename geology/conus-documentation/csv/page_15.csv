@@ -1,0 +1,46 @@
+Name: “Table 1 of 1 on page 15 of 48”,Name: “Table 1 of 1 on page 15 of 48”,Name: “Table 1 of 1 on page 15 of 48”,Name: “Table 1 of 1 on page 15 of 48”,Name: “Table 1 of 1 on page 15 of 48”
+Table: 15,Table: 15,Table: 15,Table: 15,Table: 15
+,,,,
+6 herein).,Rocktype1 is the lithology inferred to be the most abundant lithology in the unit;,Rocktype1 is the lithology inferred to be the most abundant lithology in the unit;,Rocktype1 is the lithology inferred to be the most abundant lithology in the unit;,Rocktype1 is the lithology inferred to be the most abundant lithology in the unit;
+"rocktype2 is the second-most abundant lithology, and all other lithologies are listed in rocktype3.","rocktype2 is the second-most abundant lithology, and all other lithologies are listed in rocktype3.","rocktype2 is the second-most abundant lithology, and all other lithologies are listed in rocktype3.","rocktype2 is the second-most abundant lithology, and all other lithologies are listed in rocktype3.","rocktype2 is the second-most abundant lithology, and all other lithologies are listed in rocktype3."
+Neither the rocktype1 nor the rocktype2 fields imply anything in regards to abundance other than,Neither the rocktype1 nor the rocktype2 fields imply anything in regards to abundance other than,Neither the rocktype1 nor the rocktype2 fields imply anything in regards to abundance other than,Neither the rocktype1 nor the rocktype2 fields imply anything in regards to abundance other than,Neither the rocktype1 nor the rocktype2 fields imply anything in regards to abundance other than
+being the most and second most abundant of the rock types present in the unit.,being the most and second most abundant of the rock types present in the unit.,being the most and second most abundant of the rock types present in the unit.,being the most and second most abundant of the rock types present in the unit.,The fields for
+rocktype1 and rocktype2 were placed in the units table because they have a one-to-one,rocktype1 and rocktype2 were placed in the units table because they have a one-to-one,rocktype1 and rocktype2 were placed in the units table because they have a one-to-one,rocktype1 and rocktype2 were placed in the units table because they have a one-to-one,rocktype1 and rocktype2 were placed in the units table because they have a one-to-one
+relationship to the geology PAT table as does the units table whereas the lithology table has a,relationship to the geology PAT table as does the units table whereas the lithology table has a,relationship to the geology PAT table as does the units table whereas the lithology table has a,relationship to the geology PAT table as does the units table whereas the lithology table has a,relationship to the geology PAT table as does the units table whereas the lithology table has a
+one-to-many relationship.,one-to-many relationship.,,,
+Map Symbols,,,,
+Some maps use special symbols (e.g. Triassic d) to display map unit ages.,Some maps use special symbols (e.g. Triassic d) to display map unit ages.,Some maps use special symbols (e.g. Triassic d) to display map unit ages.,Some maps use special symbols (e.g. Triassic d) to display map unit ages.,To display such
+special symbols on a computer screen requires the use of a specialized font.,special symbols on a computer screen requires the use of a specialized font.,special symbols on a computer screen requires the use of a specialized font.,special symbols on a computer screen requires the use of a specialized font.,Since it is unlikely
+"that most users will have a particular special font for geologic symbols installed, we have avoided","that most users will have a particular special font for geologic symbols installed, we have avoided","that most users will have a particular special font for geologic symbols installed, we have avoided","that most users will have a particular special font for geologic symbols installed, we have avoided","that most users will have a particular special font for geologic symbols installed, we have avoided"
+this problem by the use of an age symbol data dictionary not dependent on fonts (Appendix 2).,this problem by the use of an age symbol data dictionary not dependent on fonts (Appendix 2).,this problem by the use of an age symbol data dictionary not dependent on fonts (Appendix 2).,this problem by the use of an age symbol data dictionary not dependent on fonts (Appendix 2).,this problem by the use of an age symbol data dictionary not dependent on fonts (Appendix 2).
+"Using this data dictionary, Triassic is coded as “TR” and therefore the unit label for a Triassic","Using this data dictionary, Triassic is coded as “TR” and therefore the unit label for a Triassic","Using this data dictionary, Triassic is coded as “TR” and therefore the unit label for a Triassic","Using this data dictionary, Triassic is coded as “TR” and therefore the unit label for a Triassic","Using this data dictionary, Triassic is coded as “TR” and therefore the unit label for a Triassic"
+"granite, dgr, would be entered in the units table map_sym1 field as TRgr.","granite, dgr, would be entered in the units table map_sym1 field as TRgr.","granite, dgr, would be entered in the units table map_sym1 field as TRgr.","granite, dgr, would be entered in the units table map_sym1 field as TRgr.",
+Table 8.,STUNITS table field definitions.,The field column also indicates the requirement upon,The field column also indicates the requirement upon,The field column also indicates the requirement upon
+"the compiler in regards to populating the field: mandatory (must be filled in), mandatory if (must","the compiler in regards to populating the field: mandatory (must be filled in), mandatory if (must","the compiler in regards to populating the field: mandatory (must be filled in), mandatory if (must","the compiler in regards to populating the field: mandatory (must be filled in), mandatory if (must","the compiler in regards to populating the field: mandatory (must be filled in), mandatory if (must"
+"be filled in if information available), optional (not required), and auto generated (automatically","be filled in if information available), optional (not required), and auto generated (automatically","be filled in if information available), optional (not required), and auto generated (automatically","be filled in if information available), optional (not required), and auto generated (automatically","be filled in if information available), optional (not required), and auto generated (automatically"
+filled in script in the FileMaker database form used to compile the information).,filled in script in the FileMaker database form used to compile the information).,filled in script in the FileMaker database form used to compile the information).,filled in script in the FileMaker database form used to compile the information).,This scheme
+was also applied to the other supplemental tables.,was also applied to the other supplemental tables.,was also applied to the other supplemental tables.,,
+,,,Field,Data
+Field,Explanation,Explanation,,
+,,,Type,Dictionary
+state,Two letter state code (e.g. NM - New,Two letter state code (e.g. NM - New,"Text,",Appendix 1
+(mandatory),Mexico).,,restricted,
+,,,value list,
+map_ref,Reference id (ref_id) code for the state map,Reference id (ref_id) code for the state map,Text,
+(mandatory),being coded (e.g. NM001) from the STREF,being coded (e.g. NM001) from the STREF,,
+,table.,,,
+unit_ref,List of reference id codes (ref_id) from the,List of reference id codes (ref_id) from the,Text,
+(mandatory if),references table (STREF) for sources used to,references table (STREF) for sources used to,,
+,compile a particular unit other than the,compile a particular unit other than the,,
+,map_ref above (ref_ids separated by carriage,map_ref above (ref_ids separated by carriage,,
+,returns if more than one),returns if more than one),,
+orig_label,Map unit label from the original digital,Map unit label from the original digital,Text,
+(mandatory),source.,,,
+map_sym1,Original map unit label as given in the,Original map unit label as given in the,Text,Appendix 2
+(mandatory),"source, having age part of map symbol","source, having age part of map symbol",,
+,assigned from the “Standard Age Symbol”,assigned from the “Standard Age Symbol”,,
+,data dictionary.,,,
+map_sym2,"Automatically generated, derived by","Automatically generated, derived by",Text,
+(auto generated),"combining map_sym1, a semicolon, and the","combining map_sym1, a semicolon, and the",,
+,prov_no (e.g. TRrb;0).,This generates a,,
+,,12,,

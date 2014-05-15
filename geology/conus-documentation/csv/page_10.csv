@@ -1,0 +1,43 @@
+Name: “Table 1 of 1 on page 10 of 48”,Name: “Table 1 of 1 on page 10 of 48”,Name: “Table 1 of 1 on page 10 of 48”,Name: “Table 1 of 1 on page 10 of 48”,Name: “Table 1 of 1 on page 10 of 48”,Name: “Table 1 of 1 on page 10 of 48”
+Table: 10,Table: 10,Table: 10,Table: 10,Table: 10,Table: 10
+,,,,,
+Table 3.,Geology polygon attribute table (PAT).,Geology polygon attribute table (PAT).,"In the format field, the numbers indicate input","In the format field, the numbers indicate input","In the format field, the numbers indicate input"
+"or stored width, and the output width of the field.","or stored width, and the output width of the field.","or stored width, and the output width of the field.","or stored width, and the output width of the field.",“ST” in file name is placeholder for the,“ST” in file name is placeholder for the
+"appropriate state abbreviation in upper case (e.g. NV – Nevada, see Appendix 1).","appropriate state abbreviation in upper case (e.g. NV – Nevada, see Appendix 1).","appropriate state abbreviation in upper case (e.g. NV – Nevada, see Appendix 1).","appropriate state abbreviation in upper case (e.g. NV – Nevada, see Appendix 1).","appropriate state abbreviation in upper case (e.g. NV – Nevada, see Appendix 1).","appropriate state abbreviation in upper case (e.g. NV – Nevada, see Appendix 1)."
+Field Name,Format,Definition and Notes,Definition and Notes,,Data dictionary
+orig_label,"12, 12,",Map unit symbol from the original,Map unit symbol from the original,Map unit symbol from the original,
+,Character,source database:,source database:,Examples: Ch or Krc.,
+sgmc_label,"16, 16,",Same as map_sym2 of STUNITS Table.,Same as map_sym2 of STUNITS Table.,Same as map_sym2 of STUNITS Table.,
+,Character,,,,
+,,(orig_label + ;n where n = province,(orig_label + ;n where n = province,(orig_label + ;n where n = province,
+,,number (n = 0 if no province number),number (n = 0 if no province number),number (n = 0 if no province number),
+,,(e.g. original map unit Jtg occurs in two,(e.g. original map unit Jtg occurs in two,(e.g. original map unit Jtg occurs in two,
+,,map provinces and is subdivided into two,map provinces and is subdivided into two,map provinces and is subdivided into two,
+,,units with sgmc_labels of Jtg;1 and,units with sgmc_labels of Jtg;1 and,units with sgmc_labels of Jtg;1 and,
+,,Jtg;2)).,,,
+unit_link,"18, 18,",ST + sgmc_label.,ST + sgmc_label.,This creates a unique,
+,Character,identifier for every unit in the set of state,identifier for every unit in the set of state,identifier for every unit in the set of state,
+,,databases. Examples:,databases. Examples:,NJCAh;6 or,
+,,ALKrc;1,,,
+source,"6, 8,",ref_id number from the references table,ref_id number from the references table,ref_id number from the references table,
+,Character,(STREF).,Documents editing changes,Documents editing changes,
+,,(i.e. changes to source spatial database).,(i.e. changes to source spatial database).,(i.e. changes to source spatial database).,
+unit_age,"60, 60,",Free form field stating age of the unit,Free form field stating age of the unit,Free form field stating age of the unit,
+,Character,(e.g. “Permian to Cretaceous”).,(e.g. “Permian to Cretaceous”).,Same as,
+,,unit_age field of STUNITS table.,unit_age field of STUNITS table.,unit_age field of STUNITS table.,
+rocktype1,"40, 40,",Dominant lithology of the unit.,Dominant lithology of the unit.,,Appendix 6
+,Character,,,,
+rocktype2,"40, 40,",Second most abundant lithology.,Second most abundant lithology.,Second most abundant lithology.,Appendix 6
+,Character,,,,
+A RC A TTRIBUTE T ABLES (AAT),A RC A TTRIBUTE T ABLES (AAT),,,,
+The arc attribute table (AAT) stores attributes indicating the type of line features in the,The arc attribute table (AAT) stores attributes indicating the type of line features in the,The arc attribute table (AAT) stores attributes indicating the type of line features in the,The arc attribute table (AAT) stores attributes indicating the type of line features in the,The arc attribute table (AAT) stores attributes indicating the type of line features in the,The arc attribute table (AAT) stores attributes indicating the type of line features in the
+"coverages and shape files, e.g. a normal fault and its location (certain, approximate, inferred, or","coverages and shape files, e.g. a normal fault and its location (certain, approximate, inferred, or","coverages and shape files, e.g. a normal fault and its location (certain, approximate, inferred, or","coverages and shape files, e.g. a normal fault and its location (certain, approximate, inferred, or","coverages and shape files, e.g. a normal fault and its location (certain, approximate, inferred, or","coverages and shape files, e.g. a normal fault and its location (certain, approximate, inferred, or"
+concealed).,"In addition, each arc within a spatial database has a source attribute.","In addition, each arc within a spatial database has a source attribute.","In addition, each arc within a spatial database has a source attribute.","In addition, each arc within a spatial database has a source attribute.",This allows the
+user to refer to original sources to determine the reason for an attribute assignment.,user to refer to original sources to determine the reason for an attribute assignment.,user to refer to original sources to determine the reason for an attribute assignment.,user to refer to original sources to determine the reason for an attribute assignment.,user to refer to original sources to determine the reason for an attribute assignment.,The line-type
+data dictionary is presented in Appendix 7.,data dictionary is presented in Appendix 7.,Arc attribute tables are uniform for all 50 states.,Arc attribute tables are uniform for all 50 states.,Arc attribute tables are uniform for all 50 states.,Arc attribute tables are uniform for all 50 states.
+Table 4 presents the fields used for the geology and fault AAT tables; the coding of dikes is,Table 4 presents the fields used for the geology and fault AAT tables; the coding of dikes is,Table 4 presents the fields used for the geology and fault AAT tables; the coding of dikes is,Table 4 presents the fields used for the geology and fault AAT tables; the coding of dikes is,Table 4 presents the fields used for the geology and fault AAT tables; the coding of dikes is,Table 4 presents the fields used for the geology and fault AAT tables; the coding of dikes is
+described in a separate section below (see Table 5).,described in a separate section below (see Table 5).,described in a separate section below (see Table 5).,described in a separate section below (see Table 5).,,
+The linework or “arc” coding scheme was developed originally for use in the production of,The linework or “arc” coding scheme was developed originally for use in the production of,The linework or “arc” coding scheme was developed originally for use in the production of,The linework or “arc” coding scheme was developed originally for use in the production of,The linework or “arc” coding scheme was developed originally for use in the production of,The linework or “arc” coding scheme was developed originally for use in the production of
+"geologic maps on the Alaska Peninsula (Wilson, 1989; Wilson and others, 1995; Wilson and","geologic maps on the Alaska Peninsula (Wilson, 1989; Wilson and others, 1995; Wilson and","geologic maps on the Alaska Peninsula (Wilson, 1989; Wilson and others, 1995; Wilson and","geologic maps on the Alaska Peninsula (Wilson, 1989; Wilson and others, 1995; Wilson and","geologic maps on the Alaska Peninsula (Wilson, 1989; Wilson and others, 1995; Wilson and","geologic maps on the Alaska Peninsula (Wilson, 1989; Wilson and others, 1995; Wilson and"
+"others, in press).","Since that time, the coding scheme has been modified to allow for capture of","Since that time, the coding scheme has been modified to allow for capture of","Since that time, the coding scheme has been modified to allow for capture of","Since that time, the coding scheme has been modified to allow for capture of","Since that time, the coding scheme has been modified to allow for capture of"
+,,,7,,

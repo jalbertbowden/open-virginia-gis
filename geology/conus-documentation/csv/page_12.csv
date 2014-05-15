@@ -1,0 +1,35 @@
+Name: “Table 1 of 1 on page 12 of 48”,Name: “Table 1 of 1 on page 12 of 48”,Name: “Table 1 of 1 on page 12 of 48”,Name: “Table 1 of 1 on page 12 of 48”,Name: “Table 1 of 1 on page 12 of 48”
+Table: 12,Table: 12,Table: 12,Table: 12,Table: 12
+,,,,
+Dike Attribute Table,Dike Attribute Table,,,
+"If a state source map included dikes, a separate dike database was prepared.","If a state source map included dikes, a separate dike database was prepared.","If a state source map included dikes, a separate dike database was prepared.","If a state source map included dikes, a separate dike database was prepared.",The attribute
+fields of a dike database are presented in Table 5.,fields of a dike database are presented in Table 5.,fields of a dike database are presented in Table 5.,,
+Table 5.,Dike database arc attribute table (AAT).,Dike database arc attribute table (AAT).,"In the format field, I indicates a numeric code","In the format field, I indicates a numeric code"
+"stored as integers in the PAT, C is stored as characters, the numbers indicate input or","stored as integers in the PAT, C is stored as characters, the numbers indicate input or","stored as integers in the PAT, C is stored as characters, the numbers indicate input or","stored as integers in the PAT, C is stored as characters, the numbers indicate input or","stored as integers in the PAT, C is stored as characters, the numbers indicate input or"
+"stored width, and the output width.","stored width, and the output width.","stored width, and the output width.",,
+Field Name,Format,,Definition and Notes,
+orig_label,"12, 12,",Original map symbol/label (e.g. Td),Original map symbol/label (e.g. Td),
+,Character,,,
+sgmc_label,"18,18,","st + orig_label (e.g. NVTd), including use of special age","st + orig_label (e.g. NVTd), including use of special age","st + orig_label (e.g. NVTd), including use of special age"
+,Character,symbols as necessary (Appendix 2).,symbols as necessary (Appendix 2).,
+arc_code,"3,3,",Numeric code from AAT data dictionary (Appendix 7),Numeric code from AAT data dictionary (Appendix 7),Numeric code from AAT data dictionary (Appendix 7)
+,Integer,,,
+dike_lith,"20, 20,",General lithologic classification as specified below:,General lithologic classification as specified below:,General lithologic classification as specified below:
+,Character,,,
+,,unspecified,,
+,,mafic,,
+,,felsic,,
+,,mafic and felsic,mafic and felsic,
+,,lamprophyre,lamprophyre,
+dike_age,"60, 60,","Free form field, usage same as unit_age field from unit","Free form field, usage same as unit_age field from unit","Free form field, usage same as unit_age field from unit"
+,Character,"coding specifications (e.g. “Tertiary”, “Cretaceous-Tertiary”,","coding specifications (e.g. “Tertiary”, “Cretaceous-Tertiary”,","coding specifications (e.g. “Tertiary”, “Cretaceous-Tertiary”,"
+,,"“unknown, probably Precambrian”).","“unknown, probably Precambrian”).",
+source,"6, 8,",ref_id number from the references table (STREF).,ref_id number from the references table (STREF).,ref_id number from the references table (STREF).
+,Character,Documents editing changes (i.e. changes to source spatial,Documents editing changes (i.e. changes to source spatial,Documents editing changes (i.e. changes to source spatial
+,,database).,,
+Other Arc Features Attribute Table,Other Arc Features Attribute Table,Other Arc Features Attribute Table,,
+This database is created if the source map or spatial database included line features other than,This database is created if the source map or spatial database included line features other than,This database is created if the source map or spatial database included line features other than,This database is created if the source map or spatial database included line features other than,This database is created if the source map or spatial database included line features other than
+"faults or dikes (e.g. fold axes, glacial limit line, etc.).","faults or dikes (e.g. fold axes, glacial limit line, etc.).","faults or dikes (e.g. fold axes, glacial limit line, etc.).",There is no standardized database structure,There is no standardized database structure
+for these additional tables and documentation is restricted to the metadata file for the coverage.,for these additional tables and documentation is restricted to the metadata file for the coverage.,for these additional tables and documentation is restricted to the metadata file for the coverage.,for these additional tables and documentation is restricted to the metadata file for the coverage.,for these additional tables and documentation is restricted to the metadata file for the coverage.
+Table 6 presents the attribute fields for a line (arc) feature coverage.,Table 6 presents the attribute fields for a line (arc) feature coverage.,Table 6 presents the attribute fields for a line (arc) feature coverage.,Table 6 presents the attribute fields for a line (arc) feature coverage.,
+,,9,,

@@ -1,0 +1,32 @@
+Name: “Table 1 of 1 on page 13 of 48”,Name: “Table 1 of 1 on page 13 of 48”,Name: “Table 1 of 1 on page 13 of 48”,Name: “Table 1 of 1 on page 13 of 48”,Name: “Table 1 of 1 on page 13 of 48”
+Table: 13,Table: 13,Table: 13,Table: 13,Table: 13
+,,,,
+Table 6.,Features coverage arc attribute table (AAT).,Features coverage arc attribute table (AAT).,,
+Field Name,Format,,Definition and Notes,
+orig_line_label,"25, 25,",Arc code taken from original spatial database.,Arc code taken from original spatial database.,Arc code taken from original spatial database.
+,Character,,,
+arc-code,"3, 3,","Unique identifier for the feature (see appendix 7, AAT data","Unique identifier for the feature (see appendix 7, AAT data","Unique identifier for the feature (see appendix 7, AAT data"
+,Integer,dictionary),,
+arc-para1,"3, 3,","arc-para1 is used for ""decorated"" lines where additional","arc-para1 is used for ""decorated"" lines where additional","arc-para1 is used for ""decorated"" lines where additional"
+,,information is needed.,,
+,Integer,,,
+arc-para2,"3, 3,",arc-para2 is an optional field for scratch entries used,arc-para2 is an optional field for scratch entries used,arc-para2 is an optional field for scratch entries used
+,Integer,during processing of coverages.,Field is currently not,Field is currently not
+,,populated in file.,,
+source,"6, 8,",ref_id number from the references table (STREF).,ref_id number from the references table (STREF).,ref_id number from the references table (STREF).
+,Character,Documents editing changes (i.e. changes to source spatial,Documents editing changes (i.e. changes to source spatial,Documents editing changes (i.e. changes to source spatial
+,,database).,,
+P OINT F EATURE A TTRIBUTE T ABLE,P OINT F EATURE A TTRIBUTE T ABLE,,,
+Point features coverages are for source maps or spatial databases that include one or more,Point features coverages are for source maps or spatial databases that include one or more,Point features coverages are for source maps or spatial databases that include one or more,Point features coverages are for source maps or spatial databases that include one or more,Point features coverages are for source maps or spatial databases that include one or more
+"point features (e.g. volcanic vents, fossil localities, radiometric sample locations).","point features (e.g. volcanic vents, fossil localities, radiometric sample locations).","point features (e.g. volcanic vents, fossil localities, radiometric sample locations).","point features (e.g. volcanic vents, fossil localities, radiometric sample locations).",Because only a
+"few state maps have such features, we have not compiled a data dictionary for point features and","few state maps have such features, we have not compiled a data dictionary for point features and","few state maps have such features, we have not compiled a data dictionary for point features and","few state maps have such features, we have not compiled a data dictionary for point features and","few state maps have such features, we have not compiled a data dictionary for point features and"
+these features are only documented in the database attribute table.,these features are only documented in the database attribute table.,these features are only documented in the database attribute table.,Table 7 presents the attribute,Table 7 presents the attribute
+fields for a points feature database.,fields for a points feature database.,,,
+Table 7.,Points coverage attribute table (PAT).,,,
+Field Name,Format,,Definition and Notes,
+point_feature,"40, 40,",Text descriptor of point feature from original map or spatial,Text descriptor of point feature from original map or spatial,Text descriptor of point feature from original map or spatial
+,Character,database (see metadata).,,
+source,"6, 8,",ref_id number from the references table (STREF).,ref_id number from the references table (STREF).,ref_id number from the references table (STREF).
+,Character,Documents editing changes (i.e. changes to source spatial,Documents editing changes (i.e. changes to source spatial,Documents editing changes (i.e. changes to source spatial
+,,database).,,
+,,10,,

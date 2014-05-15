@@ -1,0 +1,50 @@
+Name: “Table 1 of 1 on page 16 of 48”,Name: “Table 1 of 1 on page 16 of 48”,Name: “Table 1 of 1 on page 16 of 48”,Name: “Table 1 of 1 on page 16 of 48”,Name: “Table 1 of 1 on page 16 of 48”
+Table: 16,Table: 16,Table: 16,Table: 16,Table: 16
+,,,,
+,unique map symbol for each province.,unique map symbol for each province.,,
+,(Same field as sgmc_label in PAT).,(Same field as sgmc_label in PAT).,,
+unit_link,"Automatically generated, combining the state","Automatically generated, combining the state","Automatically generated, combining the state",Text
+(auto generated),code and map_sym2 (e.g. NMTRrb;0).,code and map_sym2 (e.g. NMTRrb;0).,This,
+,creates a unique code for every unit in the,creates a unique code for every unit in the,creates a unique code for every unit in the,
+,CONUS databases.,Linking field (primary,Linking field (primary,
+,key) between supplemental tables and PAT.,key) between supplemental tables and PAT.,key) between supplemental tables and PAT.,
+unit_name,The name of the map unit as given on the,The name of the map unit as given on the,The name of the map unit as given on the,Text
+(mandatory),source map.,,,
+prov_no,Some state geologic maps are subdivided,Some state geologic maps are subdivided,Some state geologic maps are subdivided,Number
+(mandatory if),into regions or provinces (e.g. Carolina Slate,into regions or provinces (e.g. Carolina Slate,into regions or provinces (e.g. Carolina Slate,
+,"Belt, Northwestern Plateau, etc.).","Belt, Northwestern Plateau, etc.).",Provincial,
+,coding was used only in a few eastern states,coding was used only in a few eastern states,coding was used only in a few eastern states,
+,where units had the same map symbol within,where units had the same map symbol within,where units had the same map symbol within,
+,multiple provinces but a different unit,multiple provinces but a different unit,,
+,description for each province.,Province,Province,
+,"numbers (e.g. 1, 2, 3...) were arbitrarily","numbers (e.g. 1, 2, 3...) were arbitrarily","numbers (e.g. 1, 2, 3...) were arbitrarily",
+,assigned by the unit compiler.,If provincial,If provincial,
+,"coding is not done, a zero is entered for the","coding is not done, a zero is entered for the","coding is not done, a zero is entered for the",
+,province number.,,,
+province,Name of the province as given on the map,Name of the province as given on the map,Name of the province as given on the map,Text
+(mandatory if),(e.g. Carolina Slate Belt).,,,
+strat_unit,Additional stratigraphic unit information,Additional stratigraphic unit information,Additional stratigraphic unit information,Text
+(mandatory if),about the map unit.,,,
+unit_age,Free form field for unit age description (e.g.,Free form field for unit age description (e.g.,Free form field for unit age description (e.g.,Text
+(mandatory if),"“Cretaceous”, or “Permian to Cretaceous”; or","“Cretaceous”, or “Permian to Cretaceous”; or","“Cretaceous”, or “Permian to Cretaceous”; or",
+,"“Permian-Cretaceous, and Miocene”).","“Permian-Cretaceous, and Miocene”).",,
+,Generally from the source map or as inferred,Generally from the source map or as inferred,Generally from the source map or as inferred,
+,"from the map correlation chart, or other","from the map correlation chart, or other","from the map correlation chart, or other",
+,referenced sources.,Stated oldest to,,
+,youngest.,,,
+unitdesc,The unit description as given on the source,The unit description as given on the source,The unit description as given on the source,Text
+(mandatory if),map.,,,
+unit_com,Free form field for additional information,Free form field for additional information,Free form field for additional information,Text
+(optional),about the unit or to document an action taken,about the unit or to document an action taken,about the unit or to document an action taken,
+,by a compiler.,,,
+rocktype1,Single most abundant (dominant) lithology of,Single most abundant (dominant) lithology of,Single most abundant (dominant) lithology of,"Text,"
+(mandatory),the unit as best inferred by the complier.,the unit as best inferred by the complier.,the unit as best inferred by the complier.,restricted
+,Does not imply any minimum percentage of,Does not imply any minimum percentage of,Does not imply any minimum percentage of,value list
+,abundance.,,,
+,,,,Appendix 6
+rocktype2,Second most abundant lithology of the unit.,Second most abundant lithology of the unit.,Second most abundant lithology of the unit.,"Text,"
+(mandatory_if),,,,restricted
+,,,,value list
+rocktype3,"All other lithologies of the unit, comma","All other lithologies of the unit, comma","All other lithologies of the unit, comma","Text,"
+(mandatory_if),separated.,,,restricted
+,,13,,

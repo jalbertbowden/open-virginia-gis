@@ -1,0 +1,46 @@
+Name: “Table 1 of 1 on page 19 of 48”,Name: “Table 1 of 1 on page 19 of 48”,Name: “Table 1 of 1 on page 19 of 48”,Name: “Table 1 of 1 on page 19 of 48”,Name: “Table 1 of 1 on page 19 of 48”
+Table: 19,Table: 19,Table: 19,Table: 19,Table: 19
+,,,,
+Table 10.,STLITH table field definitions,,,
+Field,,Explanation,Field type,Data
+,,,,Dictionary
+unit_link,As defined in UNITS table.,,Text,
+(mandatory),,,,
+lith1,A hierarchical classification of the,A hierarchical classification of the,,
+lith2,lithology.,The contents of each field,,
+lith3,depends on the next higher field contents,depends on the next higher field contents,,
+,,,"Text,",
+lith4,(e.g. if “Sedimentary” is selected at lith1,(e.g. if “Sedimentary” is selected at lith1,,
+,,,restricted,Appendix 4
+lith5,only sedimentary lithologic terms can be,only sedimentary lithologic terms can be,,
+,,,value list,
+(mandatory),selected for lith2.,Coding completed to,,
+,the lowest level required to code a,the lowest level required to code a,,
+,specific lithology.,,,
+total_lith,A text string that combines all of the,A text string that combines all of the,"Text, auto-",
+(auto,coding from lith1 to lith5.,This string,generated,
+generated),allows searches based on any aspect of,allows searches based on any aspect of,,
+,the lithologic hierarchy.,,,
+lith_form,Derived from a list of terms that modify,Derived from a list of terms that modify,"Text,",
+(mandatory,the lithologic name.,Values available,restricted,Appendix 5
+if),dependent on choice for lith1 field.,dependent on choice for lith1 field.,value list,
+lith_rank,Relative volumetric importance of the,Relative volumetric importance of the,,
+(mandatory),lithology ranked by one of four categories,lithology ranked by one of four categories,,
+,as estimated by complier:,,,
+,Major - ≥33 1/3 %,,,
+,,,"Text,",
+,,,,See explanation
+,Minor - 10 – 33 1/3%,,restricted,
+,,,,at left
+,,,value list,
+,"Incidental - 
+    ",,,
+,Indeterminate – information doesn’t,Indeterminate – information doesn’t,,
+,allow compiler to estimate rank of,allow compiler to estimate rank of,,
+,the lithology,,,
+low_lith,Auto generated field showing the,Auto generated field showing the,,
+(auto,hierarchically lowest level lithology,hierarchically lowest level lithology,,
+generated),coded.,,,
+lith_com,Free form comment field.,,,
+(optional),,,,
+,,16,,
