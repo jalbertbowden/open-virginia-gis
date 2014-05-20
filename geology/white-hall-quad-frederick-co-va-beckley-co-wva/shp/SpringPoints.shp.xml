@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Daniel H. Doctor</origin>
+				<origin>Randall C. Orndorff</origin>
+				<origin>Ronald  A. Parker</origin>
+				<origin>David J. Weary</origin>
+				<origin>John E. Repetski</origin>
+				<pubdate>2010</pubdate>
+				<title>Geologic Map of the White Hall Quadrangle, Frederick County, Virginia and Berkeley County, West Virginia: SpringPoints</title>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>Open File Report</sername>
+				</serinfo>
+				<onlink>http://pubs.usgs.gov/of/2010/1265</onlink>
+				<ftname Sync="TRUE">SpringPoints</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Geologic map of the White Hall 7.5 minute quadrangle, Frederick County, Virginia, and Berkeley County, West Virginia, USA.</abstract>
+			<purpose>This map was produced to provide basic geologic information for land-use planning and ground-water aquifer studies. This data will be incorporated into a 3-dimesional model of the hydrogeologic framework of the lower Shenandoah Valley.</purpose>
+			<supplinf>Production of this map was funded by the National Cooperative Geologic Mapping Program of the United States Geological Survey.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2009</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
+-78.175393</westbc>
+				<eastbc>
+-78.126622</eastbc>
+				<northbc>
+39.334714</northbc>
+				<southbc>
+39.251327</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">743736.042300</leftbc><rightbc Sync="TRUE">747658.857500</rightbc><bottombc Sync="TRUE">4348593.611100</bottombc><topbc Sync="TRUE">4357735.498500</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>http://www.usgs.gov/science/about/term-simple.php</themekt>
+				<themekey>springs</themekey>
+				<themekey>karst</themekey>
+			</theme>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None if properly cited. Although all data and software released on this CD-ROM have been used by the USGS, no warranty, expressed or implied, is made by the USGS as to the accuracy of the data and related materials and (or) the functioning of the software. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Daniel H. Doctor</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntpos>Research Geologist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>12201 Sunrise Valley Drive, MS9 26A</address>
+					<city>Reston</city>
+					<state>Virginia</state>
+					<postal>20192</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>703-648-6027</cntvoice>
+				<cntemail>dhdoctor@usgs.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Daniel H. Doctor, U.S. Geological Survey, Reston, Virginia</datacred>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>All point, line and polygon attributes were checked for correct values against original field data by the geologists.</attraccr>
+		</attracc>
+		<logic>These points represent locations of springs within karstified carbonate rock units or along faults adjacent to those units in the quadrangle. Some springs may be ephemeral.</logic>
+		<complete>The data are believed to be complete at the time of publication a resolution of 1:24,000; however, due to vagaries of fieldwork, this dataset is not warranted to be complete.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The orginally created data points (stations DrWH, WWH, and OWH) were collected with the aid of a Trimble GeoXm GPS reciever with an accuracy rating of within 3 m (10 feet).  Digitized geologic data points (stations PWH and WVGS) were obtained from 1:24,000 scale paper or mylar maps; positional accuracy of the digitized data points is not better than 50 m (150 feet), and may be poorer.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>These data were plotted on a USGS 7.5 minute topographic map at 1:24,000 scale. Therefore, the mapped vertical accuracy is assumed to approach National Map Accuracy Standards, with a horizontal accuracy of 11.9 feet at the 95% confidence level.</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Daniel H. Doctor</origin>
+						<origin>Randall C. Orndorff</origin>
+						<origin>David J. Weary</origin>
+						<title>White Hall quadrangle</title>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>U.S. Geological Survey topographic basemap</typesrc>
+				<srccitea>White Hall quadrangle</srccitea>
+				<srccontr>Original geologic data creation throughout the map area</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Peter Lessing</origin>
+						<origin>Stuart L. Dean</origin>
+						<origin>Byron R. Kulander</origin>
+						<pubdate>1994</pubdate>
+						<title>Geology of the White Hall Quadrangle, Berkeley County, West Virginia</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>OF-9406</sername>
+							<issue>OF-9406</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Morgantown, West Virginia</pubplace>
+							<publish>West Virginia Geological and Economic Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srccitea>WVGS</srccitea>
+				<srccontr>Geologic map data obtained from the West Virginia Geological and Economic Survey (WVGS) for the West Virginia portion of the White Hall quadrangle</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Ronald A. Parker</origin>
+						<pubdate>Unpublished Material</pubdate>
+						<title>Parker greenline</title>
+						<geoform>map</geoform>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>transparency</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1992</begdate>
+							<enddate>1994</enddate>
+						</rngdates>
+					</timeinfo>
+				</srctime>
+				<srccitea>PWH</srccitea>
+				<srccontr>Reconnaissance geologic mapping conducted by Ronald A. Parker, digitized from a mylar greenline transparency of an unpublished USGS map</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>ORIGINAL DATA CREATION: 
+Geologic data was captured in the field as point locations with a Trimble GeoXM GPS-enabled handheld computer running ArcPad 6.0 GIS software. Root mean square (RMS) horizontal error was required to be less than 3 meters (10 ft) at ground level.  A digital geographic base layer was created by georegistering then rectifying a digital raster Tagged Image File (TIF) of the USGS 7.5 minute quadrangle. The raster base map was re-projected to North American Datum 1983 geographic coordinate system, UTM Zone 17 projection. The geologic point data acquired in the field were added to an ArcMap project file, and shapefiles created over the base map. The feature classes were then exported as shapefiles for digital distribution.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>DIGITIZATION OF OTHER DATA:
+The paper map of the West Virginia portion of the quadrangle and the mylar greenline reconnaissance map of the entire quadrangle were scanned into digital raster form, imported into the ArcMap project, overlain on the topographic base map, georeferenced, and rectified.  Point data were then digitized in ArcMap.
+
+Karst feature identification was assisted by georeferenced aerial imagery obtained from the Commonwealth of Virginia for the period of 2006-2009.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="SpringPoints">
+				<sdtstype>Entity point</sdtstype>
+				<ptvctcnt>26</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="SpringPoints"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000100</absres>
+						<ordres>0.000100</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Transverse Mercator</mapprojn><transmer><sfctrmer Sync="TRUE">0.999600</sfctrmer><longcm Sync="TRUE">-81.000000</longcm><latprjo Sync="TRUE">0.000000</latprjo><feast Sync="TRUE">500000.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></transmer></mapproj></planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">North_American_1983_UTM_Zone_17N</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres>0.000100</altres>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="SpringPoints">
+			<enttyp>
+				<enttypl>
+SpringPoints</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SpringName</attrlabl>
+				<attrdef>Name of spring, if known</attrdef>
+				<attalias Sync="TRUE">SpringName</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">FlowAzimut</attrlabl><attalias Sync="TRUE">FlowAzimut</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr></detailed>
+		<overview>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Daniel H. Doctor</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntpos>Research Geologist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>12201 Sunrise Valley Drive, MS 926A</address>
+					<city>Reston</city>
+					<state>Virginia</state>
+					<postal>20192</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>703-648-6027</cntvoice>
+				<cntemail>dhdoctor@usgs.gov</cntemail>
+				<cntinst>email preferred.</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>Although all data and software released on this CD-ROM have been used by the USGS, no warranty, expressed or implied, is made by the USGS as to the accuracy of the data and related materials and (or) the functioning of the software.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.015</transize>
+					<dssize Sync="TRUE">0.000</dssize></digtinfo>
+			</digform>
+		</stdorder>
+		<custom>These data are availble at no charge over the internet at: &lt;http://pubs.usgs.gov/&gt;. CD versions may be requested by emailing dhdoctor@usgs.gov.</custom>
+		<techpreq>The graphic file for the full map plate requires Adobe Acrobat Reader 5.0 or above. Use of the GIS data files requires a GIS software capable of viewing shapefiles, geodatabases, or importing .e00 Arc export files produced by ESRI ArcMap V. 9.0.</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd>20101108</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Daniel H. Doctor</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntpos>Research Geologist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>12201 Sunrise Valley Drive, MS 926A</address>
+					<city>Reston</city>
+					<state>Virginia</state>
+					<postal>20192</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>703-648-6027</cntvoice>
+				<cntemail>dhdoctor@usgs.gov</cntemail>
+				<cntinst>email preferred.</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>none</metac>
+		<metuc>none</metuc>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{B7281D26-4005-4948-A3C1-B251344FAFC6}</MetaID><CreaDate>20101108</CreaDate><CreaTime>13375800</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20101108</SyncDate><SyncTime>19043900</SyncTime><ModDate>20101108</ModDate><ModTime>19043900</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20101108" Time="190439">CopyFeatures C:\ARC_FILES\VA_Mapping\White_Hall\WhiteHall_OPEN-FILE\WhiteHall_GIS_data\WhiteHallGeologicMap.mdb\KarstFeatures\SpringPoints C:\ARC_FILES\VA_Mapping\White_Hall\WhiteHall_OPEN-FILE\WhiteHall_GIS_data\WhiteHall_shapefiles\SpringPoints.shp # 0 0 0</Process></lineage></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">SpringPoints</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">743736.0423</westBL><eastBL Sync="TRUE">747658.8575</eastBL><northBL Sync="TRUE">4357735.4985</northBL><southBL Sync="TRUE">4348593.6111</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-78.175393</westBL><eastBL Sync="TRUE">-78.126622</eastBL><northBL Sync="TRUE">39.334714</northBL><southBL Sync="TRUE">39.251327</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\IGSAAAHMWSG534\C$\ARC_FILES\VA_Mapping\White_Hall\WhiteHall_OPEN-FILE\WhiteHall_GIS_data\WhiteHall_shapefiles\SpringPoints.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">North_American_1983_UTM_Zone_17N</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="SpringPoints"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20101108</mdDateSt></metadata>
