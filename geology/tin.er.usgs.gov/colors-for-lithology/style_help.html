@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>How to get color for lithology in the state geologic maps using ArcMap</title>
+  <link rel="stylesheet" href="http://www.usgs.gov/styles/common.css">
+  <link rel="stylesheet" href="/local.css">
+  <link rel="P3Pv1" href="/w3c/p3p.xml">
+  <script type="application/javascript" src="http://www.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
+</head>
+<body>
+<!-- BEGIN USGS Header Template -->
+<div id="usgscolorband">
+	<div id="usgsbanner">
+		<div id="usgsidentifier"><a href="http://www.usgs.gov/"><img src="/images/header_graphic_usgsIdentifier_white.jpg" alt="USGS - science for a changing world" title="U.S. Geological Survey Home Page" width="178" height="72" /></a></div>
+		<div id="usgsccsabox">
+			<div id="usgsccsa">
+			  <br /><a href="http://www.usgs.gov/">USGS Home</a>
+			  <br /><a href="http://www.usgs.gov/ask/">Contact USGS</a>
+			  <br /><a href="http://search.usgs.gov/">Search USGS</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="usgstitle">
+	<p>Mineral Resources On-Line Spatial Data</p>
+</div>
+<!-- END USGS Header Template -->
+<div style="clear: both; margin: 0; padding: 0;"></div>
+
+
+<p>
+  <a href="http://minerals.usgs.gov">Mineral Resources</a>
+  &gt; <a href="http://mrdata.usgs.gov/">Online Spatial Data</a>
+  &gt; <a href="http://mrdata.usgs.gov/geology/">Geology</a>
+  &gt; <a href="http://mrdata.usgs.gov/geology/state/">by state</a>
+</p>
+
+<h1>How to get color for lithology in the state geologic maps using ArcMap</h1>
+
+<div style="margin: 1em;">
+<div>Download <a href="http://mrdata.usgs.gov/geology/state/lith6_2.style">lith6_2.style</a>.</div>
+
+<p>This is a modified version of <a href="http://pubs.usgs.gov/of/2005/1314/styles_folder/lith6_2.style">http://pubs.usgs.gov/of/2005/1314/styles_folder/lith6_2.style</a> in which the "Name" field of the "Fill Symbols" field is converted to lower case.</p>
+
+Here is how you use it:
+<ol>
+  <li>Open a new ArcMap project.  Add geologic unit data such as VTgeol_dd shapefile.</li>
+  <li>Right click the layer name, select Properties, choose the Symbology tab.</li>
+  <li>On the left, click Categories, choose "Match to symbols in a style"</li>
+  <li>Choose ROCKTYPE1 as the Value Field</li>
+  <li>Under "Match to symbols in Style" click Browse button, navigate to lith6_2.style.  Click Open to select this style.</li>
+  <li>Click the button labeled "Match Symbols" below the (currently mostly empty) table of values.  Matched values will appear in the table, with the corresponding color.</li>
+  <li>Click Apply or OK.  The map will now be symbolized using this color scheme.</li>
+</ol>
+
+</div>
+
+<!-- BEGIN USGS Footer Template -->
+<div id="usgsfooter">
+	<p id="usgsfooterbar">
+		<a href="http://www.usgs.gov/laws/accessibility.html" title="Accessibility Policy (Section 508)">Accessibility</a>
+		<a href="http://www.usgs.gov/foia/" title="Freedom of Information Act">FOIA</a>
+		<a href="http://www.usgs.gov/laws/privacy.html" title="Privacy policies of the U.S. Geological Survey.">Privacy</a>
+		<a href="http://www.usgs.gov/laws/policies_notices.html" title="Policies and notices that govern information posted on USGS Web sites.">Policies and Notices</a>
+	</p>
+
+	<p id="usgsfootertext">
+		<a href="http://www.takepride.gov/"><img src="/images/footer_graphic_takePride.jpg" alt="Take Pride in America logo" title="Take Pride in America Home Page" width="60" height="58" /></a>
+		<a href="http://usa.gov/"><img src="/images/footer_graphic_usagov.jpg" alt="USA.gov logo" title="USA.gov: Government made easy" width="90" height="26" /></a>
+		<a href="http://www.doi.gov/">U.S. Department of the Interior</a> |
+		<a href="http://www.usgs.gov/">U.S. Geological Survey</a><br/>
+		Page Contact Information: <a href="mailto:pschweitzer@usgs.gov">Peter Schweitzer</a><br/>
+		Page Last Modified: Friday, 05-Apr-2013 10:58:21 MDT
+	</p>
+</div>
+<!-- END USGS Footer Template -->
+
+</body>
+</html>
