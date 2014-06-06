@@ -1,0 +1,275 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Virginia Department of Game & Inland Fisheries/Wildlife Diversity Division/Fish & Wildlife Information Services
+      Publication_Date: 07-14-04
+      Title: Birding_and_Wildlife_Trail_Sites
+      Geospatial_Data_Presentation_Form: vector digital data
+      Online_Linkage: http://www.dgif.virginia.gov/vbwt/
+  Description:
+    Abstract: This dataset contains locational information for Virginia Department of Game and Inland Fisheries' (VDGIF) designated Birding & Wildlife Trail sites located along the Virginia Birding and Wildlife Trail. The coverage includes all of Virginia. These data were compiled by the VDGIF Geographic Information Systems section from the VDGIF's Watchable Wildlife Section. These data are presented as point locations within an ESRI shapefile.
+    Purpose: This dataset shows Virginia Department of Game and Inland Fisheries Birding & Wildlife Trail sites located on the trail.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 10/12/10
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -83.729777
+      East_Bounding_Coordinate: -75.274366
+      North_Bounding_Coordinate: 39.340093
+      South_Bounding_Coordinate: 36.434811
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.
+      Theme_Keyword: Birding & Wildlife Trail
+      Theme_Keyword: Birding
+      Theme_Keyword: Wildlife
+      Theme_Keyword: Virginia
+    Place:
+      Place_Keyword: Virginia
+  Access_Constraints: These data are available to public or private entities.
+  Use_Constraints:
+    Neither the VDGIF nor the contributors of data to VDGIF shall be held liable for any improper or incorrect use or application of the data provided, and assume no responsibility for the use or application of the data or information derived from interpretation of the data. In no event shall the VDGIF or its collaborators be liable for any direct, indirect, or incidental damages arising from the use or application of these data. This disclaimer of liability applies to any damages or injury, including but not limited to those caused by any failure of performance, error, omission, defect, delay in operation or transmission, computer virus, alteration, use, application, analysis, or interpretation of data. 
+
+    Data are available by permission of the Virginia Department of Game and Inland Fisheries.  Use of data in publications, either digital or hardcopy, must be cited as follows:  DGIF_Boat_Ramp03_1783.   2
+    003.   Virginia Department of Game and Inland Fisheries.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Lenée Pennington
+        Contact_Organization: Department of Game & Inland Fisheries/Wildlife Diversity Division/Fish & Wildlife Services Section
+      Contact_Position: GIS Specialist/Cartographer
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 4010 West Broad Street
+        City: Richmond
+        State_or_Province: VA
+        Postal_Code: 23230
+        Country: USA
+      Contact_Voice_Telephone: 804-367-0058
+      Contact_Facsimile_Telephone: 804-367-2427
+      Contact_Electronic_Mail_Address: lenee.pennington@dgif.virginia.gov
+      Hours_of_Service: M - F 8 am - 5 pm
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.3000
+Data_Quality_Information:
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: +/- 50 meters
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: Not Applicable
+  Lineage:
+    Source_Information:
+      Source_Time_Period_of_Content:
+        Source_Currentness_Reference: 2010
+    Process_Step:
+      Source_Used_Citation_Abbreviation: \\GIS2\VOL1\DATA\birding_trail\Birding_Trail.mdb
+    Process_Step:
+      Process_Description: Dataset copied.
+      Source_Used_Citation_Abbreviation: \\Gis\Share\Data\birding_trail\Birding_Trail.mdb
+      Process_Date: 20090309
+      Process_Time: 11592700
+    Process_Step:
+      Process_Description: Metadata imported.
+      Source_Used_Citation_Abbreviation: K:\birding_trail\Birding_&_Wildlife_Trail_Loops.shp.xml
+      Process_Date: 20090309
+      Process_Time: 12073700
+    Process_Step:
+      Process_Description: Metadata imported.
+      Source_Used_Citation_Abbreviation: K:\birding_trail\Birding_and_Wildlife_Trail_Site_for_Distribution.xml
+      Process_Date: 20100325
+      Process_Time: 15485400
+    Process_Step:
+      Process_Description: Metadata imported.
+      Source_Used_Citation_Abbreviation: K:\GISData\Recreation\Birding_&_Wildlife_Trail_sites.shp.xml
+      Process_Date: 20101006
+      Process_Time: 15584100
+    Process_Step:
+      Process_Description: Metadata imported.
+      Source_Used_Citation_Abbreviation: K:\GIS_Downloads\dgifwebdata\Birding_and_Wildlife_Trail_Sites.shp.xml
+      Process_Date: 20101012
+      Process_Time: 11550100
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 635
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 17
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999600
+            Longitude_of_Central_Meridian: -81.000000
+            Latitude_of_Projection_Origin: 0.000000
+            False_Easting: 500000.000000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000000
+          Ordinate_Resolution: 0.000000
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+  Vertical_Coordinate_System_Definition:
+    Altitude_System_Definition:
+      Altitude_Resolution: 1.000000
+      Altitude_Encoding_Method: Explicit elevation coordinate included with horizontal coordinates
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Birding_and_Wildlife_Trail_Sites
+    Attribute:
+      Attribute_Label: SITE_NAME
+      Attribute_Definition: Name of VBWT Site
+      Attribute_Definition_Source: individual site managers
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Loop_Name
+      Attribute_Definition: Name of VBWT Loop
+      Attribute_Definition_Source: VDGIF
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: SiteID
+      Attribute_Definition: ID number
+      Attribute_Definition_Source: VDGIF
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: site_id
+      Attribute_Definition: ID
+      Attribute_Definition_Source: VDGIF
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: site_direc
+      Attribute_Definition: Driving directions to site
+      Attribute_Definition_Source: VDGIF
+      Attribute_Domain_Values:
+    Attribute:
+      Attribute_Label: site_seaso
+      Attribute_Definition: Seasonal information for site
+      Attribute_Definition_Source: individual site managers
+      Attribute_Domain_Values:
+    Attribute:
+      Attribute_Label: site_conta
+      Attribute_Definition: Contact information for site manager
+      Attribute_Definition_Source: individual site managers
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: site_web
+      Attribute_Definition: URL for site information
+      Attribute_Definition_Source: individual site managers
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: site_acces
+      Attribute_Definition: Access information
+      Attribute_Definition_Source: individual site managers
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: site_descr
+      Attribute_Definition: Site Description
+      Attribute_Definition_Source: VDGIF
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: site_loop
+      Attribute_Definition: VBWT Loop
+      Attribute_Definition_Source: VDGIF
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Site_
+      Attribute_Definition: Site number within Loop
+      Attribute_Definition_Source: VDGIF
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: LOOP_NAME
+      Attribute_Definition: Name of loop in which site belongs
+      Attribute_Definition_Source: VDGIF
+    Attribute:
+      Attribute_Label: site_nam_1
+    Attribute:
+      Attribute_Label: Phase
+      Attribute_Definition: One of 3 VBWT phases: Mountain, Piedmont or Coastal
+      Attribute_Definition_Source: VDGIF
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Dave Morton
+        Contact_Organization: Department of Game & Inland Fisheries/Wildlife Diversity Division
+      Contact_Position: GIS Coordinator
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 4010 West Broad Street
+        City: Richmond
+        State_or_Province: VA
+        Postal_Code: 23230
+        Country: USA
+      Contact_Voice_Telephone: 804-367-6772
+      Contact_Facsimile_Telephone: 804-367-2427
+      Contact_Electronic_Mail_Address: dmorton@dgif.state.va.us
+  Resource_Description: Downloadable Data
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Transfer_Size: 0.711
+Metadata_Reference_Information:
+  Metadata_Date: 20101012
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Department of Game & Inland Fisheries/Wildlife Diversity Division
+        Contact_Person: Lenée Harner
+      Contact_Position: GIS Specialist/Cartographer
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 4010 West Broad Street
+        City: Richmond
+        State_or_Province: VA
+        Postal_Code: 23230
+        Country: USA
+      Contact_Voice_Telephone: 804-367-0058
+      Contact_Facsimile_Telephone: 804-367-2427
+      Contact_Electronic_Mail_Address: lharner@dgif.state.va.us
+      Hours_of_Service: M - F 8 am - 5 pm
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
