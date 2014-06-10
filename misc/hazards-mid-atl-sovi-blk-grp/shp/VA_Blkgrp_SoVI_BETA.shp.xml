@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">VA_Blkgrp_SoVI</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink>\\129.252.37.22\data$\HRL\Workspace\Projects\SEAGrant\TX_and_MS_BlkGrp\Texas\Export_Output1.shp</onlink>
+				<ftname Sync="TRUE">VA_Blkgrp_SoVI</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This shapefile depicts the social vulnerability of Virginia census block groups to environmental hazards.  Data were culled primarily from the 2000 Decennial Census.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-83.675413</westbc>
+				<eastbc Sync="TRUE">-74.979071</eastbc>
+				<northbc Sync="TRUE">40.047957</northbc>
+				<southbc Sync="TRUE">35.537813</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">1089283.317819</leftbc><rightbc Sync="TRUE">1790551.260672</rightbc><bottombc Sync="TRUE">-30021.958957</bottombc><topbc Sync="TRUE">359727.840432</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>Social Vulnerability Index</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<procdate>20100903</procdate>
+				<proctime>14420000</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\morath\LOCALS~1\Temp\xml69.tmp</srcused>
+				<procdate>20100903</procdate>
+				<proctime>14594800</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\morath\LOCALS~1\Temp\xml293.tmp</srcused>
+				<procdate>20100924</procdate>
+				<proctime>12442600</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\morath\LOCALS~1\Temp\xml4AB.tmp</srcused>
+				<procdate>20100927</procdate>
+				<proctime>11443300</proctime>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\schumanr\LOCALS~1\Temp\xmlB7.tmp</srcused><procdate Sync="TRUE">20110204</procdate><proctime Sync="TRUE">16322800</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="VA_Blkgrp_SoVI">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">4728</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="VA_Blkgrp_SoVI"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">4728</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn><albers><stdparll Sync="TRUE">29.500000</stdparll><stdparll Sync="TRUE">45.500000</stdparll><longcm Sync="TRUE">-96.000000</longcm><latprjo Sync="TRUE">37.500000</latprjo><feast Sync="TRUE">0.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></albers></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="VA_Blkgrp_SoVI">
+			<enttyp>
+				<enttypl Sync="TRUE">VA_Blkgrp_SoVI</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">4728</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>FID is an automated ESRI code.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry automated by ESRI.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">FIPSSTCO</attrlabl><attalias Sync="TRUE">FIPSSTCO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth></attr><attr><attrlabl Sync="TRUE">TRACT</attrlabl><attalias Sync="TRUE">TRACT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth></attr><attr><attrlabl Sync="TRUE">GROUP</attrlabl><attalias Sync="TRUE">GROUP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth></attr><attr><attrlabl Sync="TRUE">STFID</attrlabl><attalias Sync="TRUE">STFID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr><attr><attrlabl Sync="TRUE">GISJOIN</attrlabl><attalias Sync="TRUE">GISJOIN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth></attr><attr><attrlabl Sync="TRUE">GISJOIN2</attrlabl><attalias Sync="TRUE">GISJOIN2</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">14</attwidth></attr><attr><attrlabl Sync="TRUE">OID_</attrlabl><attalias Sync="TRUE">OID_</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr>
+				<attrlabl>FIPS</attrlabl>
+				<attrdef>Unique identifier for each block group.</attrdef>
+				<attrdefs>Federal Information Processing Standard</attrdefs>
+				<attalias Sync="TRUE">FIPS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">KEY</attrlabl><attalias Sync="TRUE">KEY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">32</attwidth></attr><attr><attrlabl Sync="TRUE">P001001</attrlabl><attalias Sync="TRUE">P001001</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">H001001</attrlabl><attalias Sync="TRUE">H001001</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">FID_1</attrlabl><attalias Sync="TRUE">FID_1</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr>
+				<attrlabl>stfips</attrlabl>
+				<attrdef>Unique identifier for the state.</attrdef>
+				<attrdefs>Federal Informaiton Processing Standard</attrdefs>
+				<attalias Sync="TRUE">STFIPS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>stcofips</attrlabl>
+				<attrdef>Unique identifer for the county.</attrdef>
+				<attrdefs>Federal Information Processing Standard</attrdefs>
+				<attalias Sync="TRUE">STCOFIPS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>name</attrlabl>
+				<attrdef>Block group name.</attrdef>
+				<attrdefs>US Census, 2000.</attrdefs>
+				<attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">64</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">name_1</attrlabl><attalias Sync="TRUE">name_1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr>
+				<attrlabl>QBLACK</attrlabl>
+				<attrdef>Percent African American.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QBLACK</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QINDIAN</attrlabl>
+				<attrdef>Percent Native American.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QINDIAN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QASIAN</attrlabl>
+				<attrdef>Percent Asian and Hawaiian Islander.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QASIAN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QSPANISH</attrlabl>
+				<attrdef>Percent Hispanic.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QSPANISH</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QKIDS</attrlabl>
+				<attrdef>Percent of population under 5 years of age.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QKIDS</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QPOP65O</attrlabl>
+				<attrdef>Percent of population age 65 and over.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QPOP65O</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>MEDAGE</attrlabl>
+				<attrdef>Median age.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">MEDAGE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QFEMALE</attrlabl>
+				<attrdef>Percent female population.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QFEMALE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>PPUNIT</attrlabl>
+				<attrdef>Average number of people per household.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">PPUNIT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QRENTER</attrlabl>
+				<attrdef>Percent renter occupied units.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QRENTER</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QFHH</attrlabl>
+				<attrdef>Percent female headed households, no spouse present.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QFHH</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>NRRESPC</attrlabl>
+				<attrdef>Nursing home residents per capita.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">NRRESPC</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QCVLUN</attrlabl>
+				<attrdef>Percent civilian unemployment.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QCVLUN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>PERCAP</attrlabl>
+				<attrdef>Per capita Income (2000 dollars).</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">PERCAP</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QRICH</attrlabl>
+				<attrdef>Percentage of households earning 100,000 or more.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QRICH</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QPOVTY</attrlabl>
+				<attrdef>Percent living below the poverty level.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QPOVTY</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>MEAN_HSEVA</attrlabl>
+				<attalias Sync="TRUE">MEAN_HSEVA</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>MC_RENT</attrlabl>
+				<attrdef>Mean contract rent for renter occupied housing units.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">MC_RENT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>PHYSICN</attrlabl>
+				<attrdef>Number persons per 100,000 population employed as healthcare practitioners and technical occupations.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">PHYSICN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QRFRM</attrlabl>
+				<attrdef>Percent rural farm population.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QRFRM</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QMOHO</attrlabl>
+				<attrdef>Percent of housing units that are mobile homes.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QMOHO</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QED12LES</attrlabl>
+				<attrdef>Percent of population 25 years or older with no high school diploma.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QED12LES</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QCVLBR</attrlabl>
+				<attrdef>Percent of population participating in the labor force.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QCVLBR</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QFEMLBR</attrlabl>
+				<attrdef>Percent females participating in the labor force.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QFEMLBR</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QAGRI</attrlabl>
+				<attrdef>Percent employment in farming, fishing, and forestry occupations.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QAGRI</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QTRAN</attrlabl>
+				<attrdef>Percent employed in transportation, communications, and other public utilities.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QTRAN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QSERV</attrlabl>
+				<attrdef>Percent Employed in service industry.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QSERV</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QSSBEN</attrlabl>
+				<attrdef>Percent of population collecting social security benefits.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QSSBEN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QMIGRA</attrlabl>
+				<attrdef>Percent Foreign Born Citizens Immigrating between 1990 and 2000.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QMIGRA</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>QURBAN</attrlabl>
+				<attrdef>Percent urban population.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">QURBAN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr><attrlabl Sync="TRUE">HODENSTY</attrlabl><attalias Sync="TRUE">HODENSTY</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">14</atnumdec></attr><attr><attrlabl Sync="TRUE">stfid_1</attrlabl><attalias Sync="TRUE">stfid_1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr>
+				<attrlabl>COMP1</attrlabl>
+				<attrdef>SoVI Component 1: Race &amp; Class (Poverty) (+); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">COMP1</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>COMP2</attrlabl>
+				<attrdef>SoVI Component 2: Urban / Rural Divide (||); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">COMP2</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>COMP3</attrlabl>
+				<attrdef>SoVI Component 3: Elderly (+); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">COMP3</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>COMP4</attrlabl>
+				<attrdef>SoVI Component 4: Ethnicity / Migrants / Renters (+); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">COMP4</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>COMP5</attrlabl>
+				<attrdef>SoVI Component 5: Wealth (-); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">COMP5</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>COMP6</attrlabl>
+				<attrdef>SoVI Component 6: Youth / Families (+); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">COMP6</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>COMP7</attrlabl>
+				<attrdef>SoVI Component 7: Gender (+); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">COMP7</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr>
+			<attr>
+				<attrlabl>SoVI</attrlabl>
+				<attrdef>Aggregate SoVI Score</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attalias Sync="TRUE">SoVI</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">14</atnumdec></attr>
+		</detailed>
+		<overview></overview>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>6.822</transize>
+					<dssize Sync="TRUE">16.315</dssize></digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20110204</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{09997209-4946-4ED3-BC7F-1C65401D23FC}</MetaID><CreaDate>20110204</CreaDate><CreaTime>16322800</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20110204</SyncDate><SyncTime>16322900</SyncTime><ModDate>20110204</ModDate><ModTime>16342700</ModTime></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">VA_Blkgrp_SoVI</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">1089283.317819</westBL><eastBL Sync="TRUE">1790551.260672</eastBL><northBL Sync="TRUE">359727.840432</northBL><southBL Sync="TRUE">-30021.958957</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-83.675413</westBL><eastBL Sync="TRUE">-74.979071</eastBL><northBL Sync="TRUE">40.047957</northBL><southBL Sync="TRUE">35.537813</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\129.252.37.22\data$\HRL\Workspace\Projects\SEAGrant\Virginia\VA_Blkgrp_SoVI.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">16.315</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="VA_Blkgrp_SoVI"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">4728</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20110204</mdDateSt></metadata>
