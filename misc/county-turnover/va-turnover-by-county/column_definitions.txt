@@ -1,0 +1,22 @@
+Fields included on csv files
+
+Variable      Type           Length  Label
+
+periodicity   C              1       Periodicity of report
+seasonadj     C              1       Seasonal Adjustment Indicator
+geo_level     C              1       Group: Geographic level of aggregation
+geography     C              8       Group: Geography code
+ind_level     C              1       Group: Industry level of aggregation
+industry      C              5       Group: Industry code
+ownercode     C              3       Group: Ownership group code
+sex           C              1       Group: Gender code
+agegrp        C              3       Group: Age group code (WIA)
+race          C              2       Group: race
+ethnicity     C              2       Group: ethnicity
+education     C              2       Group: education
+firmage       C              1       Group: Firm Age group
+firmsize      C              1       Group: Firm Size group
+year          N              3       Time: Year
+quarter       N              3       Time: Quarter
+TurnOvrS      N              8       Turnover stable jobs: Ratio
+sTurnOvrS     N              8       Status: Turnover stable jobs: Ratio
