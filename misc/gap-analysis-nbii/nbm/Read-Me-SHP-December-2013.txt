@@ -1,0 +1,209 @@
+National Broadband Map Data
+
+Note: If you have any questions about this data please e-mail sbdd@ntia.doc.gov. 
+
+
+This folders contain broadband availibility data submitted to the National Telecommunications and Information  Administration (NTIA) on April 1, 2014 from State Broadband Initiative grantees in every state, Territory and the District of Columbia. This data is current as of December 31, 2013. For more information regarding the Grantees please visit http://www2.ntia.doc.gov/SBDD 
+
+The following files are included for each grantee: 
+	StateAbbreviation-NBM-CBLOCK-SHP-December-2013.zip --- Broadband Availibility data for Census Blocks less than 2 square miles
+	StateAbbreviation-NBM-WIRELESS-SHP-December-2013.zip --- Broadband Availibility data for Wireless
+	StateAbbreviation-NBM-STREET-SHP-December-2013.zip  --- Broadband Availibility data in street segments Census blocks over 2 square mile 
+	StateAbbreviation-NBM-ADDRESS-SHP-December-2013.zip  --- Broadband Availibility data in address points 
+        StateAbbreviation-NBM-CAI-SHP-December-2013.zip  --- Community Anchor Institutions data 
+	StateAbbreviation_Methodology_YYYY_MM_DD.pdf --- Methodological description of grantee data collection proccess
+	StateAbbreviation_DataPackage_YYYY_MM_DD.xls --- This is the List of providers that the grantee reached out to for inclusion
+	
+Note: Because data was originally submitted in a file geodatabase and exported to SHP for download, this data may look slightly different in this format than how it is displayed on BroadbandMap.gov. The HOCONUM and HOCONAME field values, were added during the data integration proccess and are a holding company roll-up based on the FCC Registration Numbers (FRNs). This allows you to identify unique providers accross the country. For a complete description of how the data was collected, please refer the NOFA, Technical Appendix, and NOFA clarification, which can be found here: http://www2.ntia.doc.gov/notices#mapping . 
+
+When citing data, it should read, "US Dept of Commerce, National Telecommunications and Information Administration, State Broadband Initiative (SHP format December 31, 2013)."
+
+Please consult the following information for each SHP file
+
+###########Census Blocks with an area less than 2 square miles###########
+NOTES: The following are column headings for the shp file named StateAbbreviation-NBM-CBLOCK-SHP-December-2013.zip. This data was originally submitted to NTIA in a file geodatabase and was exported as a shapefile. 
+
+PROVNAME - Provider Name
+DBANAME - Doing Business As Name
+FRN - FCC Registration Number
+TRANSTECH - Technology Code (See below for valid values)
+MAXADDOWN - Maximum Advertised Download Speed (see below for valid values) from record level
+MAXADUP - Maximum Advertised Upload Speed (see below for valid values) from record level
+TYPICDOWN - Typical Download Speed (see below for valid values)
+TYPICUP - Typical Upload Speed (see below for valid values)
+FID - These values are just a record count from the database and should be ignored
+
+###########Wireless###########
+NOTES: The following are column headings for the shp file named State Abbreviation-NBM-Wireless-SHP-December-2013.zip. This data was originally submitted to NTIA in a file geodatabase and was exported as a shapefile. 
+
+*DATASOURCE - Source of availability data (Originally submitted to NTIA in geodatabase)*
+
+PROVNAME - Provider Name
+DBANAME - Doing Business As Name
+FRN - FCC Registration Number
+TRANSTECH - Technology Code (See below for valid values)
+MAXADDOWN - Maximum Advertised Download Speed (see below for valid values) from record level
+Spectrum - 
+Spectrum used to transit wireless broadband
+MAXADUP - Maximum Advertised Upload Speed (see below for valid values) from record level
+TYPICDOWN - Typical Download Speed (see below for valid values)
+TYPICUP - Typical Upload Speed (see below for valid values)
+STATEABBR - 2 character State Abbreviation
+SBDD_ID - These values are internal IDs from the database and should be ignored
+FID - These values are just a record count from the database and should be ignored
+
+###########Large Blocks - Census blocks over 2 square miles (Address or Street)###########
+NOTES: The following are column headings for the shp file named State Abbreviation-NBM-Address-Street-SHP-December-2013.txt. This data was originally submitted to NTIA in a file geodatabase and was exported as a shapefile. 
+
+
+*DATASOURCE - Source of availability data (Originally submitted to NTIA as Road Segment or Address Points)*
+PROVNAME - Provider Name
+DBANAME - Doing Business As Name
+FRN - FCC Registration Number
+TRANSTECH - Technology Code (See below for valid values)
+MAXADDOWN - Maximum Advertised Download Speed (see below for valid values) from record level
+MAXADUP - Maximum Advertised Upload Speed (see below for valid values) from record level
+TYPICDOWN - Typical Download Speed (see below for valid values)
+TYPICUP - Typical Upload Speed (see below for valid values)
+FID - These values are just a record count from the database and should be ignored
+
+###########Community Anchor Institutions###########
+NOTES: The following are column headings for the shp file named State Abbreviation-NBM-CAI-SHP-December-2013.txt. This data was originally submitted to NTIA in a file geodatabase and was exported as a shapefile. 
+
+
+*DATASOURCE - Source of availability data (Originally submitted to NTIA as Points)*
+FID - These values are just a record count from the database and should be ignored
+ANCHORNAME - Community Anchor Institution Name
+ADDRESS - Community Anchor Institution Address
+BLDGNBR - Building number
+PREDIR - Street direction (ex. North, N, S)
+STREETNAME - The name of the street
+STREETTYPE - The street type (ex. ST, RD, AVE)
+SUFFDIR - Direction (ex. NW, W, SE)
+CITY - City where the CAI is located
+STATECODE - Two character State Abbreviation
+ZIP5 - zip code
+ZIP4 - zip code + 4
+CAICAT - Category of institution (see details below for category codes)
+BBSERVICE - Does institution subscribe to broadband service at location (ex. Y=Yes; N=No; U=Unknown)
+PUBLICWIFI - Whether or not they offer free wifi to the public (ex. Y=Yes; N=No; I or U=Unknown)
+URL - The URL of the CAI's web address,
+TRANSTECH - Technology Code (See below for valid values)
+FULLFIPSID - 2010 US Census Block 15 Character number
+CAIID -these are the unique federal ID's associated with the CAICAT
+SubScrbDOWN - Subscribed Download Speed (see below for valid values) from record level
+SubScrbUP - Subscribed Upload Speed (see below for valid values) from record level
+SBDD_ID - These IDs are internal and should be ignored
+
+
+###########Data_Dictionary###########
+
+###########CAI Categoy Codes###########
+1 School—K through 12
+2 Library
+3 Medical/healthcare
+4 Public safety
+5 University, college, other postsecondary
+6 Other community support—government
+7 Other community support—nongovernmental
+
+###########CAIID###########
+K-12 institutions (type 1) may have the NCES ID CCD value
+Libraries (type 2) may have the IMLS ID value
+Higher Education (type 5) may have the NCES IPEDS
+
+###########TransTech###########
+Code	Description
+10	Asymmetric xDSL
+20	Symmetric xDSL
+30	Other Copper Wire
+40	Cable Modem - DOCSIS 3.0 Down
+41	Cable Model - Other
+50	Optical Carrier/Fiber to the End User
+60	Satellite
+70	Terrestrial Fixed - Unlicensed
+71	Terrestrial Fixed - Licensed
+80	Terrestrial Mobile Wireless
+90	Electric Power Line
+0	All Other
+
+###########MaxAdDown###########
+Code	Description
+2	Greater than 200 kbps and less than 768 kbps
+3	Greater than 768 kbps and less than 1.5 mbps
+4	Greater than 1.5 mbps and less than 3 mbps
+5	Greater than 3 mbps and less than 6 mbps
+6	Greater than 6 mbps and less than 10 mbps
+7	Greater than 10 mbps and less than 25 mbps
+8	Greater than 25 mbps and less than 50 mbps
+9	Greater than 50 mbps and less than 100 mbps
+10	Greater than 100 mbps and less than 1 gbps
+11	Greater than 1 gbps
+
+###########MaxAdUp###########
+Code	Description
+2	Greater than 200 kbps and less than 768 kbps
+3	Greater than 768 kbps and less than 1.5 mbps
+4	Greater than 1.5 mbps and less than 3 mbps
+5	Greater than 3 mbps and less than 6 mbps
+6	Greater than 6 mbps and less than 10 mbps
+7	Greater than 10 mbps and less than 25 mbps
+8	Greater than 25 mbps and less than 50 mbps
+9	Greater than 50 mbps and less than 100 mbps
+10	Greater than 100 mbps and less than 1 gbps
+11	Greater than 1 gbps
+
+###########TYPICDOWN###########
+Code	Description
+2	Greater than 200 kbps and less than 768 kbps
+3	Greater than 768 kbps and less than 1.5 mbps
+4	Greater than 1.5 mbps and less than 3 mbps
+5	Greater than 3 mbps and less than 6 mbps
+6	Greater than 6 mbps and less than 10 mbps
+7	Greater than 10 mbps and less than 25 mbps
+8	Greater than 25 mbps and less than 50 mbps
+9	Greater than 50 mbps and less than 100 mbps
+10	Greater than 100 mbps and less than 1 gbps
+11	Greater than 1 gbps
+
+###########TYPICUP###########
+Code	Description
+2	Greater than 200 kbps and less than 768 kbps
+3	Greater than 768 kbps and less than 1.5 mbps
+4	Greater than 1.5 mbps and less than 3 mbps
+5	Greater than 3 mbps and less than 6 mbps
+6	Greater than 6 mbps and less than 10 mbps
+7	Greater than 10 mbps and less than 25 mbps
+8	Greater than 25 mbps and less than 50 mbps
+9	Greater than 50 mbps and less than 100 mbps
+10	Greater than 100 mbps and less than 1 gbps
+11	Greater than 1 gbps
+
+
+###########Spectrum###########
+
+Code	Description
+
+9	Unknown.  Did not provide
+
+1	Cellular spectrum (824-849 MHz; 869-894) used to provide service
+
+2	700 MHz spectrum (698-758 MHz; 775-788 MHz; 775-788 MHz) used to provide service
+
+3	Broadband Personal Communications Services spectrum (1850-1915 MHz; 1930-1995) used to provide service
+
+4	Advanced Wireless Services spectrum (1710-1755 MHz; 2100-2155) used to provide service
+
+5	Broadband Radio Service/Educational Broadband Service spectrum (2496-2690 MHz) used to provide service
+
+6	is Unlicensed (including broadcast television "white spaces" ) spectrum Used to provide service
+
+7	Specialized Mobile Radio Service (SMR) (817-824 MHz; 862-869 MHz; 896-901 MHz; 935-940 MHz)
+
+8	Wireless Communications Service (WCS) spectrum (2305-2320 MHz; 2345-2360 MHz), 3650-3700 MHz
+
+9	Satellite (L-band, Big LEO, Little LEO, 2 GHz)1is Cellular spectrum (824-849 MHz; 869-894) used to provide service
+10	Other licensed spectrum
+
+
+<end>
