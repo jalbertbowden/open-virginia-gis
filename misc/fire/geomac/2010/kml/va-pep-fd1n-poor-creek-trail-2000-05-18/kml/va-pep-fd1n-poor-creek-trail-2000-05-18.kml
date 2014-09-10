@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://earth.google.com/kml/2.1'>
+<Document>
+ <name>VA-PEP-FD1N Poor Creek Trail 5-18-2010 0000</name>
+ <open>1</open>
+ <Style id='sh_grn-pushpin'>
+     <IconStyle>
+         <scale>.5</scale>
+         <Icon>
+             <href>http://geomac.usgs.gov/images/flame1.gif</href>
+         </Icon>
+         <hotSpot x='20' y='2' xunits='pixels' yunits='pixels'/>
+     </IconStyle>
+ </Style>
+ <Style id='sn_grn-pushpin'>
+     <IconStyle>
+         <scale>.5</scale>
+         <Icon>
+             <href>http://geomac.usgs.gov/images/flame1.gif</href>
+         </Icon>
+         <hotSpot x='20' y='2' xunits='pixels' yunits='pixels'/>
+     </IconStyle>
+ </Style>
+ <StyleMap id='msn_grn-pushpin'>
+     <Pair>
+         <key>normal</key>
+         <styleUrl>#sn_grn-pushpin</styleUrl>
+     </Pair>
+     <Pair>
+         <key>highlight</key>
+         <styleUrl>#sh_grn-pushpin</styleUrl>
+     </Pair>
+ </StyleMap>
+ <Style id='polyOne'>
+     <LineStyle>
+         <color>ff0000ff</color>
+         <width>3</width>
+     </LineStyle>
+     <PolyStyle>
+         <fill>0</fill>
+     </PolyStyle>
+ </Style>
+ <Style id='lineOne'>
+     <LineStyle>
+         <color>ff0000ff</color>
+         <width>2</width>
+     </LineStyle>
+  </Style>
+ <Placemark>
+     <name>VA-PEP-FD1N Poor Creek Trail 5-18-2010 0000</name>
+     <description>
+         <![CDATA[
+             <b>Fire Information</b><br />
+             Agency: NPS<br />
+             Unit Identifer: VA-PEP<br />
+             Fire Number: FD1N<br />
+             Fire Name: Poor Creek Trail<br />
+             Fire Name (if in complex):  <br />
+         Acres: 0.45<br />
+             Perimeter Date: 5/18/2010<br />
+             Perimeter Time: 0000<br />
+             Comments: WFDSS; GPS ground<br /><br />
+             For more information about this fire, visit<br />
+             <a href='http://www.nifc.gov/fire_info/nfn.htm' target='_blank'>National Fire News</a><br />
+             <a href='http://www.geomac.gov/' target='_blank'>Geomac Wildland Fire Support</a><br />
+         ]]>
+     </description>
+     <styleUrl>#msn_grn-pushpin</styleUrl>
+     <Point>
+         <coordinates>
+             -77.3719088232964,37.2207024020382,0</coordinates>
+     </Point>
+ </Placemark>
+ <Placemark>
+     <name>VA-PEP-FD1N Poor Creek Trail 5-18-2010 0000</name>
+     <styleUrl>#polyOne</styleUrl>
+     <MultiGeometry>
+         <Polygon>
+             <outerBoundaryIs>
+                 <LinearRing>
+             <extrude>0</extrude>
+             <tesselate>1</tesselate>
+             <altitudeMode>clampToGround</altitudeMode>
+             <coordinates>
+                -77.37225,37.22062,0
+                -77.37225,37.22072,0
+                -77.37222,37.22078,0
+                -77.37217,37.22083,0
+                -77.37208,37.22088,0
+                -77.37204,37.22097,0
+                -77.3719,37.22094,0
+                -77.37186,37.2209,0
+                -77.3718,37.22088,0
+                -77.37176,37.2208,0
+                -77.37177,37.22075,0
+                -77.37175,37.22073,0
+                -77.3717,37.22069,0
+                -77.37167,37.22069,0
+                -77.37166,37.22071,0
+                -77.3716,37.22071,0
+                -77.37164,37.22063,0
+                -77.37169,37.2206,0
+                -77.37169,37.2206,0
+                -77.37163,37.22058,0
+                -77.37164,37.22056,0
+                -77.37161,37.22055,0
+                -77.37157,37.22058,0
+                -77.37157,37.22055,0
+                -77.37154,37.22055,0
+                -77.37151,37.22057,0
+                -77.37148,37.22051,0
+                -77.37155,37.22051,0
+                -77.37175,37.22047,0
+                -77.3718,37.22047,0
+                -77.37198,37.22058,0
+                -77.37209,37.22063,0
+                -77.37218,37.22065,0
+                -77.37225,37.22062,0</coordinates>
+         </LinearRing>
+       </outerBoundaryIs>
+      </Polygon>
+     </MultiGeometry>
+</Placemark>
+</Document>
+</kml>
