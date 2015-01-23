@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Untitled layer</name>
+		<Placemark>
+			<styleUrl>#poly-FF0000-3-89</styleUrl>
+			<name>St. Paul's Quadrant</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[100 acres of mostly city-owned land between Brambleton and City Hall avenues.]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-76.285028,36.852325,0.0 -76.284728,36.850986,0.0 -76.284127,36.849578,0.0 -76.283998,36.848273,0.0 -76.282969,36.847552,0.0 -76.282711,36.846899,0.0 -76.282883,36.846144,0.0 -76.280522,36.845388,0.0 -76.279449,36.845388,0.0 -76.278291,36.846178,0.0 -76.276832,36.849818,0.0 -76.277003,36.850677000000005,0.0 -76.280823,36.853218,0.0 -76.285071,36.85373299999999,0.0 -76.285028,36.852325,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-FF0000-3-89'>
+			<LineStyle>
+				<color>ff0000FF</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>590000FF</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>
