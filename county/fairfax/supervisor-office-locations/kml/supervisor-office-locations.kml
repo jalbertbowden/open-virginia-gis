@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="WEB_ADRESS">www.fairfaxcounty.gov/huntermill/</SimpleData>
+		<SimpleData name="PHONE_NUMBER">703-478-0283</SimpleData>
+		<SimpleData name="DISTRICT">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.358526,38.964042</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="WEB_ADRESS">www.fairfaxcounty.gov/providence/</SimpleData>
+		<SimpleData name="PHONE_NUMBER">703-560-6946</SimpleData>
+		<SimpleData name="DISTRICT">7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.24737,38.872</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="WEB_ADRESS">www.fairfaxcounty.gov/mason/</SimpleData>
+		<SimpleData name="PHONE_NUMBER">703-256-7717</SimpleData>
+		<SimpleData name="DISTRICT">5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.164989,38.837151</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="WEB_ADRESS">www.fairfaxcounty.gov/chairman/</SimpleData>
+		<SimpleData name="PHONE_NUMBER">703-324-2321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.356757,38.854016</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="WEB_ADRESS">www.fairfaxcounty.gov/dranesville/</SimpleData>
+		<SimpleData name="PHONE_NUMBER">703-356-0551</SimpleData>
+		<SimpleData name="DISTRICT">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.197699,38.932814</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="WEB_ADRESS">www.fairfaxcounty.gov/springfield/</SimpleData>
+		<SimpleData name="PHONE_NUMBER">703-451-8873</SimpleData>
+		<SimpleData name="DISTRICT">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.237106,38.783171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="WEB_ADRESS">www.fairfaxcounty.gov/lee/</SimpleData>
+		<SimpleData name="PHONE_NUMBER">703-971-6262</SimpleData>
+		<SimpleData name="DISTRICT">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.148314,38.7812</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="WEB_ADRESS">www.fairfaxcounty.gov/sully/</SimpleData>
+		<SimpleData name="PHONE_NUMBER">703-814-7100</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.452112,38.871415</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="WEB_ADRESS">www.fairfaxcounty.gov/braddock/</SimpleData>
+		<SimpleData name="PHONE_NUMBER">703-425-9300</SimpleData>
+		<SimpleData name="DISTRICT">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.256455,38.807529</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="WEB_ADRESS">www.fairfaxcounty.gov/mountvernon/</SimpleData>
+		<SimpleData name="PHONE_NUMBER">703-780-7518</SimpleData>
+		<SimpleData name="DISTRICT">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.077274,38.741443</coordinates></Point>
+  </Placemark>
+</Folder>
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="WEB_ADRESS" type="string"></SimpleField>
+	<SimpleField name="MAR_ID" type="string"></SimpleField>
+	<SimpleField name="PHONE_NUMBER" type="string"></SimpleField>
+	<SimpleField name="DISTRICT" type="string"></SimpleField>
+</Schema>
+</Document></kml>
