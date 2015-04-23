@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">807</SimpleData>
+		<SimpleData name="ZipCode">24551</SimpleData>
+		<SimpleData name="ShapeSTArea">6268860.15353492</SimpleData>
+		<SimpleData name="ShapeSTLength">12179.5615679282</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">810</SimpleData>
+		<SimpleData name="ZipCode">24513</SimpleData>
+		<SimpleData name="ShapeSTArea">2049539.05463205</SimpleData>
+		<SimpleData name="ShapeSTLength">5815.83363847364</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">811</SimpleData>
+		<SimpleData name="ZipCode">24502</SimpleData>
+		<SimpleData name="ShapeSTArea">423353885.642793</SimpleData>
+		<SimpleData name="ShapeSTLength">155274.944820138</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">3284</SimpleData>
+		<SimpleData name="ZipCode">24502</SimpleData>
+		<SimpleData name="ShapeSTArea">63404163.6458436</SimpleData>
+		<SimpleData name="ShapeSTLength">72893.513742929</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">3348</SimpleData>
+		<SimpleData name="ZipCode">24503</SimpleData>
+		<SimpleData name="ShapeSTArea">562738.035594658</SimpleData>
+		<SimpleData name="ShapeSTLength">4001.02283136204</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">808</SimpleData>
+		<SimpleData name="ZipCode">24503</SimpleData>
+		<SimpleData name="ShapeSTArea">359986110.991105</SimpleData>
+		<SimpleData name="ShapeSTLength">145047.808839508</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">812</SimpleData>
+		<SimpleData name="ZipCode">24501</SimpleData>
+		<SimpleData name="ShapeSTArea">385072710.63312</SimpleData>
+		<SimpleData name="ShapeSTLength">220913.893570298</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">8012</SimpleData>
+		<SimpleData name="ZipCode">24504</SimpleData>
+		<SimpleData name="Creator">BOYERSC</SimpleData>
+		<SimpleData name="DateCreated">2015-03-11T19:48:25.000Z</SimpleData>
+		<SimpleData name="ShapeSTArea">136815061.802381</SimpleData>
+		<SimpleData name="ShapeSTLength">111604.629780248</SimpleData>
+	</SchemaData></ExtendedData>
+  </Placemark>
+</Folder>
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Zipcd_ID" type="string"></SimpleField>
+	<SimpleField name="ZipCode" type="int"></SimpleField>
+	<SimpleField name="Creator" type="string"></SimpleField>
+	<SimpleField name="DateCreated" type="string"></SimpleField>
+	<SimpleField name="ShapeSTArea" type="float"></SimpleField>
+	<SimpleField name="ShapeSTLength" type="float"></SimpleField>
+</Schema>
+</Document></kml>
