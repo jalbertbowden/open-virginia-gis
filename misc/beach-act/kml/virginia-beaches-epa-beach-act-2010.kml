@@ -1,0 +1,3574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Virginia Beaches</name>
+	<open>1</open>
+	<Schema name="SC_beach_pts_Project_4" id="SC_beach_pts_Project_4_schema">
+		<SimpleField type="int" name="FID"></SimpleField>
+		<SimpleField type="string" name="BEACH_ID"></SimpleField>
+		<SimpleField type="string" name="NAME"></SimpleField>
+		<SimpleField type="string" name="COUNTY"></SimpleField>
+	</Schema>
+	<Schema name="RI_beach_pts_Project_2" id="RI_beach_pts_Project_2_schema">
+		<SimpleField type="int" name="FID"></SimpleField>
+		<SimpleField type="string" name="BEACH_ID"></SimpleField>
+		<SimpleField type="string" name="NAME"></SimpleField>
+		<SimpleField type="string" name="COUNTY"></SimpleField>
+	</Schema>
+	<Schema name="VA_beach_pts_Project_8" id="VA_beach_pts_Project_8_schema">
+		<SimpleField type="int" name="FID"></SimpleField>
+		<SimpleField type="string" name="BEACH_ID"></SimpleField>
+		<SimpleField type="string" name="NAME"></SimpleField>
+		<SimpleField type="string" name="COUNTY"></SimpleField>
+	</Schema>
+	<Schema name="VA_beach_line_Project_9" id="VA_beach_line_Project_9_schema">
+		<SimpleField type="int" name="FID"></SimpleField>
+		<SimpleField type="int" name="Id"></SimpleField>
+		<SimpleField type="string" name="ET_ID"></SimpleField>
+		<SimpleField type="string" name="ET_FromAtt"></SimpleField>
+		<SimpleField type="string" name="ET_ToAtt"></SimpleField>
+	</Schema>
+	<Schema name="RI_beach_line_Project_3" id="RI_beach_line_Project_3_schema">
+		<SimpleField type="int" name="FID"></SimpleField>
+		<SimpleField type="int" name="Id"></SimpleField>
+		<SimpleField type="string" name="ET_ID"></SimpleField>
+		<SimpleField type="string" name="ET_FromAtt"></SimpleField>
+		<SimpleField type="string" name="ET_ToAtt"></SimpleField>
+	</Schema>
+	<Schema name="SC_beach_line_Project_5" id="SC_beach_line_Project_5_schema">
+		<SimpleField type="int" name="FID"></SimpleField>
+		<SimpleField type="int" name="Id"></SimpleField>
+		<SimpleField type="string" name="ET_ID"></SimpleField>
+		<SimpleField type="string" name="ET_FromAtt"></SimpleField>
+		<SimpleField type="string" name="ET_ToAtt"></SimpleField>
+	</Schema>
+	<Schema name="TX_beach_line_Project_7" id="TX_beach_line_Project_7_schema">
+		<SimpleField type="int" name="FID"></SimpleField>
+		<SimpleField type="int" name="Id"></SimpleField>
+		<SimpleField type="string" name="ET_ID"></SimpleField>
+		<SimpleField type="string" name="ET_FromAtt"></SimpleField>
+		<SimpleField type="string" name="ET_ToAtt"></SimpleField>
+	</Schema>
+	<Schema name="TX_beach_pts_Project_6" id="TX_beach_pts_Project_6_schema">
+		<SimpleField type="int" name="FID"></SimpleField>
+		<SimpleField type="string" name="BEACH_ID"></SimpleField>
+		<SimpleField type="string" name="NAME"></SimpleField>
+		<SimpleField type="string" name="COUNTY"></SimpleField>
+	</Schema>
+	<Style id="Style_7n">
+		<IconStyle>
+			<Icon>
+				<href>files/Style_7n.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+			<color>ffdcf5f5</color>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff54a300</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Style_6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Style_61</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Style_62</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Style_7h">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+			<color>ffdcf5f5</color>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff54a300</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Style_7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Style_7n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Style_7h0</styleUrl>
+		</Pair>
+		<BalloonStyle><color>ffdcf5f5</color><textColor>ff000000</textColor><text> $[description] </text></BalloonStyle>
+	</StyleMap>
+	<Style id="Style_60">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>files/icon_t.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+			<color>ffdcf5f5</color>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00a365</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00a365</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Style_7h0">
+		<IconStyle>
+			<Icon>
+				<href>files/Style_7h.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+			<color>ffdcf5f5</color>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff54a300</color>
+		</PolyStyle>
+	</Style>
+	<Style id="Style_7n0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+			<color>ffdcf5f5</color>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff54a300</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Style_70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Style_7n0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Style_7h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Style_61">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>files/icon_t.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+			<color>ffdcf5f5</color>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>99ff5500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="Style_62">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>files/icon_t.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+			<color>ffdcf5f5</color>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>99ff5500</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>VA Beach Lines</name>
+		<open>1</open>
+		<Placemark>
+			<styleUrl>#Style_6</styleUrl>
+		</Placemark>
+		<Folder>
+			<name>Data</name>
+			<Placemark id="pm1234">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">0</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA017488</SimpleData>
+						<SimpleData name="ET_ToAtt">VA017488</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1234">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.98798600000001,37.1726179990913,208 -75.97639,37.1543399990915,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1235">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">1</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA152245</SimpleData>
+						<SimpleData name="ET_ToAtt">VA152245</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1235">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.925,36.6999989990956,208 -75.91528,36.6763899990959,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1236">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">2</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA153278</SimpleData>
+						<SimpleData name="ET_ToAtt">VA153278</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1236">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.680629,37.8443119990857,208 -75.67646000000001,37.8473099990856,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1237">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">3</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA197713</SimpleData>
+						<SimpleData name="ET_ToAtt">VA197713</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1237">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.11,36.9138879990937,208 -76.13236000000001,36.9198499990936,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1238">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">4</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA209936</SimpleData>
+						<SimpleData name="ET_ToAtt">VA209936</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1238">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.093262,36.9077799990937,208 -76.11,36.9138899990937,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1239">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">5</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA307929</SimpleData>
+						<SimpleData name="ET_ToAtt">VA307929</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1239">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.96249899999999,36.8055549990947,208 -75.96528000000001,36.8152799990946,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1240">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">6</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA323310</SimpleData>
+						<SimpleData name="ET_ToAtt">VA323310</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1240">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.97210200000001,36.8437339990943,208 -75.97566000000001,36.8567499990942,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1241">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">7</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA366712</SimpleData>
+						<SimpleData name="ET_ToAtt">VA366712</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1241">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.915277,36.6763879990959,208 -75.86788,36.5504799990971,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1242">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">8</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA441400</SimpleData>
+						<SimpleData name="ET_ToAtt">VA441400</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1242">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.988591,36.9033279990938,208 -75.9919,36.9151299990937,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1243">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">9</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA482894</SimpleData>
+						<SimpleData name="ET_ToAtt">VA482894</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1243">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.50416800000001,37.2342759990908,208 -76.50718999999999,37.2381999990908,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1244">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">10</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA509547</SimpleData>
+						<SimpleData name="ET_ToAtt">VA509547</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1244">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.24761700000001,36.9528049990933,208 -76.25386,36.9572699990933,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1245">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">11</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA514504</SimpleData>
+						<SimpleData name="ET_ToAtt">VA514504</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1245">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.965277,36.8152769990946,208 -75.96858,36.8287999990945,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1246">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">12</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA523358</SimpleData>
+						<SimpleData name="ET_ToAtt">VA523358</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1246">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.40225700000001,36.9747289990931,208 -76.40038,36.9775599990931,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1247">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">13</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA532597</SimpleData>
+						<SimpleData name="ET_ToAtt">VA532597</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1247">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.068806,36.9144019990937,208 -76.09039,36.9076999990937,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1248">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">14</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA536165</SimpleData>
+						<SimpleData name="ET_ToAtt">VA536165</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1248">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.232911,36.9439789990934,208 -76.24762,36.9527999990933,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1249">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">15</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA551311</SimpleData>
+						<SimpleData name="ET_ToAtt">VA551311</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1249">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.931111,36.7152769990955,208 -75.925,36.6999999990956,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1250">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">16</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA582379</SimpleData>
+						<SimpleData name="ET_ToAtt">VA582379</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1250">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.943611,36.7463879990952,208 -75.93111,36.7152799990955,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1251">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">17</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA591163</SimpleData>
+						<SimpleData name="ET_ToAtt">VA591163</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1251">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.038653,36.9310429990935,208 -76.05417,36.9194399990936,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1252">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">18</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA620108</SimpleData>
+						<SimpleData name="ET_ToAtt">VA620108</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1252">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.991832,36.9152279990937,208 -76.00660000000001,36.9278199990935,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1253">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">19</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA695544</SimpleData>
+						<SimpleData name="ET_ToAtt">VA695544</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1253">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.980608,36.873859999094,208 -75.98521,36.8888899990939,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1254">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">20</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA714367</SimpleData>
+						<SimpleData name="ET_ToAtt">VA714367</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1254">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.504099,37.2455299990907,208 -76.50161,37.2472199990907,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1255">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">21</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA718451</SimpleData>
+						<SimpleData name="ET_ToAtt">VA718451</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1255">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.132353,36.9198089990936,208 -76.17565000000001,36.9299099990935,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1256">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">22</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA722627</SimpleData>
+						<SimpleData name="ET_ToAtt">VA722627</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1256">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.409368,36.9683289990932,208 -76.41058,36.9651499990932,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1257">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">23</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA723069</SimpleData>
+						<SimpleData name="ET_ToAtt">VA723069</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1257">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.968936,36.8303799990944,208 -75.9721,36.8437299990943,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1258">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">24</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA742733</SimpleData>
+						<SimpleData name="ET_ToAtt">VA742733</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1258">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.25385900000001,36.9572689990933,208 -76.26958999999999,36.9654199990932,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1259">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">25</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA747813</SimpleData>
+						<SimpleData name="ET_ToAtt">VA747813</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1259">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.455868,37.0166179990927,208 -76.45556000000001,37.0142199990928,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1260">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">26</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA747818</SimpleData>
+						<SimpleData name="ET_ToAtt">VA747818</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1260">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.465394,37.0284139990926,208 -76.46451,37.0276999990926,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1261">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">27</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA818754</SimpleData>
+						<SimpleData name="ET_ToAtt">VA818754</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1261">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.255121,37.441474999089,208 -76.2517,37.4234399990892,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1262">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">28</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA821032</SimpleData>
+						<SimpleData name="ET_ToAtt">VA821032</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1262">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.179232,36.9296599990935,208 -76.18777,36.9301899990935,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1263">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">29</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA824084</SimpleData>
+						<SimpleData name="ET_ToAtt">VA824084</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1263">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.97566000000001,36.8566569990942,208 -75.98061,36.873859999094,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1264">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">30</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA845980</SimpleData>
+						<SimpleData name="ET_ToAtt">VA845980</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1264">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.296943,36.9691379990932,208 -76.28436000000001,36.9687799990932,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1265">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">31</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA863269</SimpleData>
+						<SimpleData name="ET_ToAtt">VA863269</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1265">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.943611,36.7463879990952,208 -75.95,36.763889999095,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1266">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">32</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA864045</SimpleData>
+						<SimpleData name="ET_ToAtt">VA864045</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1266">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.200783,36.9330009990935,208 -76.18777,36.9301899990935,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1267">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">33</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA884979</SimpleData>
+						<SimpleData name="ET_ToAtt">VA884979</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1267">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.285406,37.0510129990924,208 -76.29288,37.0348699990926,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1268">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">34</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA888917</SimpleData>
+						<SimpleData name="ET_ToAtt">VA888917</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1268">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.21670399999999,36.9375169990934,208 -76.20078,36.9329999990935,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1269">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">35</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA898733</SimpleData>
+						<SimpleData name="ET_ToAtt">VA898733</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1269">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.985208,36.8888879990939,208 -75.98859,36.9034199990938,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1270">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">36</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA912105</SimpleData>
+						<SimpleData name="ET_ToAtt">VA912105</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1270">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.28435399999999,36.9687879990932,208 -76.26958999999999,36.9654199990932,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1271">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">37</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA927341</SimpleData>
+						<SimpleData name="ET_ToAtt">VA927341</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1271">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.94999900000001,36.763887999095,208 -75.95694,36.7838899990949,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1272">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">38</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA938661</SimpleData>
+						<SimpleData name="ET_ToAtt">VA938661</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1272">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.281768,37.0625409990923,208 -76.28541,37.0510099990924,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1273">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">39</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA938849</SimpleData>
+						<SimpleData name="ET_ToAtt">VA938849</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1273">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.232911,36.9439789990934,208 -76.21669,36.9375199990935,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1274">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">40</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA960898</SimpleData>
+						<SimpleData name="ET_ToAtt">VA960898</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1274">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.054166,36.9194439990936,208 -76.06879000000001,36.9143999990937,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1275">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">41</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA963844</SimpleData>
+						<SimpleData name="ET_ToAtt">VA963844</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1275">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-76.024387,37.2669139990905,208 -76.02009,37.2739799990905,208 </coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="pm1276">
+				<styleUrl>#Style_6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_line_Project_9">
+						<SimpleData name="FID">42</SimpleData>
+						<SimpleData name="Id">System.__ComObject</SimpleData>
+						<SimpleData name="ET_ID">0</SimpleData>
+						<SimpleData name="ET_FromAtt">VA999541</SimpleData>
+						<SimpleData name="ET_ToAtt">VA999541</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString id="g1276">
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+-75.95694399999999,36.7838879990949,208 -75.96250000000001,36.8055499990947,208 </coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>VA Beach Points</name>
+		<open>1</open>
+		<Placemark>
+			<styleUrl>#Style_70</styleUrl>
+		</Placemark>
+		<Folder>
+			<name>Data</name>
+			<Placemark id="10TH VIEW, BEHIND QUALITY INN,1010 W OCEAN VIEW AVE">
+				<name>10TH VIEW, BEHIND QUALITY INN,1010 W OCEAN VIEW AVE</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA912105</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>10TH VIEW, BEHIND QUALITY INN,1010 W OCEAN VIEW AVE</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">36</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA912105</SimpleData>
+						<SimpleData name="COUNTY">10TH VIEW, BEHIND QUALITY INN,1010 W OCEAN VIEW AVE</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1277">
+					<coordinates>-76.28435399999999,36.9687879990932,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="10TH VIEW, BEHIND QUALITY INN,1010 W OCEAN VIEW AVE">
+				<name>10TH VIEW, BEHIND QUALITY INN,1010 W OCEAN VIEW AVE</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA912105</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>10TH VIEW, BEHIND QUALITY INN,1010 W OCEAN VIEW AVE</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">79</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA912105</SimpleData>
+						<SimpleData name="COUNTY">10TH VIEW, BEHIND QUALITY INN,1010 W OCEAN VIEW AVE</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1278">
+					<coordinates>-76.26958999999999,36.9654199990932,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="13TH VIEW, NORTH END">
+				<name>13TH VIEW, NORTH END</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA845980</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>13TH VIEW, NORTH END</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">30</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA845980</SimpleData>
+						<SimpleData name="COUNTY">13TH VIEW, NORTH END</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1279">
+					<coordinates>-76.296943,36.9691379990932,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="13TH VIEW, NORTH END">
+				<name>13TH VIEW, NORTH END</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA845980</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>13TH VIEW, NORTH END</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">73</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA845980</SimpleData>
+						<SimpleData name="COUNTY">13TH VIEW, NORTH END</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1280">
+					<coordinates>-76.28436000000001,36.9687799990932,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="15TH STREET">
+				<name>15TH STREET</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA323310</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>15TH STREET</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">6</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA323310</SimpleData>
+						<SimpleData name="COUNTY">15TH STREET</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1281">
+					<coordinates>-75.97210200000001,36.8437339990943,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="15TH STREET">
+				<name>15TH STREET</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA323310</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>15TH STREET</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">49</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA323310</SimpleData>
+						<SimpleData name="COUNTY">15TH STREET</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1282">
+					<coordinates>-75.97566000000001,36.8567499990942,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="21ST BAY ST., NORTH END BEHIND SHIP?S CAPTAIN RESTAURANT">
+				<name>21ST BAY ST., NORTH END BEHIND SHIP?S CAPTAIN RESTAURANT</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA864045</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>21ST BAY ST., NORTH END BEHIND SHIP?S CAPTAIN RESTAURANT</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">32</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA864045</SimpleData>
+						<SimpleData name="COUNTY">21ST BAY ST., NORTH END BEHIND SHIP?S CAPTAIN RESTAURANT</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1283">
+					<coordinates>-76.200783,36.9330009990935,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="21ST BAY ST., NORTH END BEHIND SHIP?S CAPTAIN RESTAURANT">
+				<name>21ST BAY ST., NORTH END BEHIND SHIP?S CAPTAIN RESTAURANT</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA864045</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>21ST BAY ST., NORTH END BEHIND SHIP?S CAPTAIN RESTAURANT</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">75</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA864045</SimpleData>
+						<SimpleData name="COUNTY">21ST BAY ST., NORTH END BEHIND SHIP?S CAPTAIN RESTAURANT</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1284">
+					<coordinates>-76.18777,36.9301899990935,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="28TH STREET">
+				<name>28TH STREET</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA824084</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>28TH STREET</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">29</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA824084</SimpleData>
+						<SimpleData name="COUNTY">28TH STREET</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1285">
+					<coordinates>-75.97566000000001,36.8566569990942,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="28TH STREET">
+				<name>28TH STREET</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA824084</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>28TH STREET</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">72</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA824084</SimpleData>
+						<SimpleData name="COUNTY">28TH STREET</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1286">
+					<coordinates>-75.98061,36.873859999094,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="45TH STREET">
+				<name>45TH STREET</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA695544</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>45TH STREET</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">19</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA695544</SimpleData>
+						<SimpleData name="COUNTY">45TH STREET</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1287">
+					<coordinates>-75.980608,36.873859999094,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="45TH STREET">
+				<name>45TH STREET</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA695544</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>45TH STREET</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">62</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA695544</SimpleData>
+						<SimpleData name="COUNTY">45TH STREET</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1288">
+					<coordinates>-75.98521,36.8888899990939,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="5TH BAY ST., NORTH END">
+				<name>5TH BAY ST., NORTH END</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA888917</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>5TH BAY ST., NORTH END</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">34</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA888917</SimpleData>
+						<SimpleData name="COUNTY">5TH BAY ST., NORTH END</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1289">
+					<coordinates>-76.21670399999999,36.9375169990934,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="5TH BAY ST., NORTH END">
+				<name>5TH BAY ST., NORTH END</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA888917</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>5TH BAY ST., NORTH END</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">77</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA888917</SimpleData>
+						<SimpleData name="COUNTY">5TH BAY ST., NORTH END</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1290">
+					<coordinates>-76.20078,36.9329999990935,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="63RD STREET">
+				<name>63RD STREET</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA898733</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>63RD STREET</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">35</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA898733</SimpleData>
+						<SimpleData name="COUNTY">63RD STREET</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1291">
+					<coordinates>-75.985208,36.8888879990939,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="63RD STREET">
+				<name>63RD STREET</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA898733</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>63RD STREET</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">78</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA898733</SimpleData>
+						<SimpleData name="COUNTY">63RD STREET</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1292">
+					<coordinates>-75.98859,36.9034199990938,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="78TH STREET">
+				<name>78TH STREET</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA441400</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>78TH STREET</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">8</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA441400</SimpleData>
+						<SimpleData name="COUNTY">78TH STREET</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1293">
+					<coordinates>-75.988591,36.9033279990938,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="78TH STREET">
+				<name>78TH STREET</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA441400</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>78TH STREET</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">51</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA441400</SimpleData>
+						<SimpleData name="COUNTY">78TH STREET</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1294">
+					<coordinates>-75.9919,36.9151299990937,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ANDERSON&apos;S BEACH">
+				<name>ANDERSON&apos;S BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA523358</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>ANDERSON'S BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NEWPORT NEWS</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">12</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA523358</SimpleData>
+						<SimpleData name="COUNTY">ANDERSON&apos;S BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1295">
+					<coordinates>-76.40225700000001,36.9747289990931,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ANDERSON&apos;S BEACH">
+				<name>ANDERSON&apos;S BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA523358</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>ANDERSON'S BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NEWPORT NEWS</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">55</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA523358</SimpleData>
+						<SimpleData name="COUNTY">ANDERSON&apos;S BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1296">
+					<coordinates>-76.40038,36.9775599990931,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="BACK BAY BEACH">
+				<name>BACK BAY BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA366712</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>BACK BAY BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">7</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA366712</SimpleData>
+						<SimpleData name="COUNTY">BACK BAY BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1297">
+					<coordinates>-75.915277,36.6763879990959,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="BACK BAY BEACH">
+				<name>BACK BAY BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA366712</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>BACK BAY BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">50</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA366712</SimpleData>
+						<SimpleData name="COUNTY">BACK BAY BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1298">
+					<coordinates>-75.86788,36.5504799990971,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="BUCKROE BEACH">
+				<name>BUCKROE BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA884979</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>BUCKROE BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>HAMPTON</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">33</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA884979</SimpleData>
+						<SimpleData name="COUNTY">BUCKROE BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1299">
+					<coordinates>-76.285406,37.0510129990924,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="BUCKROE BEACH">
+				<name>BUCKROE BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA884979</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>BUCKROE BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>HAMPTON</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">76</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA884979</SimpleData>
+						<SimpleData name="COUNTY">BUCKROE BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1300">
+					<coordinates>-76.29288,37.0348699990926,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="CAMP PENDLETON">
+				<name>CAMP PENDLETON</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA514504</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>CAMP PENDLETON</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">11</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA514504</SimpleData>
+						<SimpleData name="COUNTY">CAMP PENDLETON</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1301">
+					<coordinates>-75.965277,36.8152769990946,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="CAMP PENDLETON">
+				<name>CAMP PENDLETON</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA514504</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>CAMP PENDLETON</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">54</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA514504</SimpleData>
+						<SimpleData name="COUNTY">CAMP PENDLETON</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1302">
+					<coordinates>-75.96858,36.8287999990945,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="CAPEVIEW AVE., NORTH END">
+				<name>CAPEVIEW AVE., NORTH END</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA938849</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>CAPEVIEW AVE., NORTH END</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">39</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA938849</SimpleData>
+						<SimpleData name="COUNTY">CAPEVIEW AVE., NORTH END</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1303">
+					<coordinates>-76.232911,36.9439789990934,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="CAPEVIEW AVE., NORTH END">
+				<name>CAPEVIEW AVE., NORTH END</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA938849</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>CAPEVIEW AVE., NORTH END</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">82</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA938849</SimpleData>
+						<SimpleData name="COUNTY">CAPEVIEW AVE., NORTH END</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1304">
+					<coordinates>-76.21669,36.9375199990935,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="CHESAPEAKE BEACH">
+				<name>CHESAPEAKE BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA197713</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>CHESAPEAKE BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">3</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA197713</SimpleData>
+						<SimpleData name="COUNTY">CHESAPEAKE BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1305">
+					<coordinates>-76.11,36.9138879990937,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="CHESAPEAKE BEACH">
+				<name>CHESAPEAKE BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA197713</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>CHESAPEAKE BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">46</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA197713</SimpleData>
+						<SimpleData name="COUNTY">CHESAPEAKE BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1306">
+					<coordinates>-76.13236000000001,36.9198499990936,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="CHICK&apos;S BEACH">
+				<name>CHICK&apos;S BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA718451</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>CHICK'S BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">21</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA718451</SimpleData>
+						<SimpleData name="COUNTY">CHICK&apos;S BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1307">
+					<coordinates>-76.132353,36.9198089990936,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="CHICK&apos;S BEACH">
+				<name>CHICK&apos;S BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA718451</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>CHICK'S BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">64</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA718451</SimpleData>
+						<SimpleData name="COUNTY">CHICK&apos;S BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1308">
+					<coordinates>-76.17565000000001,36.9299099990935,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="CROATAN">
+				<name>CROATAN</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA723069</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>CROATAN</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">23</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA723069</SimpleData>
+						<SimpleData name="COUNTY">CROATAN</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1309">
+					<coordinates>-75.968936,36.8303799990944,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="CROATAN">
+				<name>CROATAN</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA723069</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>CROATAN</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">66</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA723069</SimpleData>
+						<SimpleData name="COUNTY">CROATAN</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1310">
+					<coordinates>-75.9721,36.8437299990943,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="DAM NECK MIDDLE">
+				<name>DAM NECK MIDDLE</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA999541</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>DAM NECK MIDDLE</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">42</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA999541</SimpleData>
+						<SimpleData name="COUNTY">DAM NECK MIDDLE</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1311">
+					<coordinates>-75.95694399999999,36.7838879990949,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="DAM NECK MIDDLE">
+				<name>DAM NECK MIDDLE</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA999541</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>DAM NECK MIDDLE</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">85</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA999541</SimpleData>
+						<SimpleData name="COUNTY">DAM NECK MIDDLE</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1312">
+					<coordinates>-75.96250000000001,36.8055499990947,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="DAM NECK NORTH">
+				<name>DAM NECK NORTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA307929</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>DAM NECK NORTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">5</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA307929</SimpleData>
+						<SimpleData name="COUNTY">DAM NECK NORTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1313">
+					<coordinates>-75.96249899999999,36.8055549990947,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="DAM NECK NORTH">
+				<name>DAM NECK NORTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA307929</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>DAM NECK NORTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">48</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA307929</SimpleData>
+						<SimpleData name="COUNTY">DAM NECK NORTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1314">
+					<coordinates>-75.96528000000001,36.8152799990946,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="DAM NECK SOUTH">
+				<name>DAM NECK SOUTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA927341</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>DAM NECK SOUTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">37</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA927341</SimpleData>
+						<SimpleData name="COUNTY">DAM NECK SOUTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1315">
+					<coordinates>-75.94999900000001,36.763887999095,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="DAM NECK SOUTH">
+				<name>DAM NECK SOUTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA927341</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>DAM NECK SOUTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">80</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA927341</SimpleData>
+						<SimpleData name="COUNTY">DAM NECK SOUTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1316">
+					<coordinates>-75.95694,36.7838899990949,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="EAST COMMUNITY BEACH, END OF EAST OCEAN VIEW AVE.">
+				<name>EAST COMMUNITY BEACH, END OF EAST OCEAN VIEW AVE.</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA821032</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>EAST COMMUNITY BEACH, END OF EAST OCEAN VIEW AVE.</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">28</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA821032</SimpleData>
+						<SimpleData name="COUNTY">EAST COMMUNITY BEACH, END OF EAST OCEAN VIEW AVE.</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1317">
+					<coordinates>-76.179232,36.9296599990935,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="EAST COMMUNITY BEACH, END OF EAST OCEAN VIEW AVE.">
+				<name>EAST COMMUNITY BEACH, END OF EAST OCEAN VIEW AVE.</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA821032</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>EAST COMMUNITY BEACH, END OF EAST OCEAN VIEW AVE.</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">71</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA821032</SimpleData>
+						<SimpleData name="COUNTY">EAST COMMUNITY BEACH, END OF EAST OCEAN VIEW AVE.</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1318">
+					<coordinates>-76.18777,36.9301899990935,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="FESTIVAL  BEACH">
+				<name>FESTIVAL  BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA818754</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>FESTIVAL  BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>MATHEWS</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">27</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA818754</SimpleData>
+						<SimpleData name="COUNTY">FESTIVAL  BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1319">
+					<coordinates>-76.255121,37.441474999089,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="FESTIVAL  BEACH">
+				<name>FESTIVAL  BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA818754</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>FESTIVAL  BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>MATHEWS</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">70</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA818754</SimpleData>
+						<SimpleData name="COUNTY">FESTIVAL  BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1320">
+					<coordinates>-76.2517,37.4234399990892,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="FIRST LANDING STATE PARK">
+				<name>FIRST LANDING STATE PARK</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA960898</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>FIRST LANDING STATE PARK</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">40</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA960898</SimpleData>
+						<SimpleData name="COUNTY">FIRST LANDING STATE PARK</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1321">
+					<coordinates>-76.054166,36.9194439990936,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="FIRST LANDING STATE PARK">
+				<name>FIRST LANDING STATE PARK</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA960898</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>FIRST LANDING STATE PARK</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">83</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA960898</SimpleData>
+						<SimpleData name="COUNTY">FIRST LANDING STATE PARK</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1322">
+					<coordinates>-76.06879000000001,36.9143999990937,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="FORT STORY SOUTH">
+				<name>FORT STORY SOUTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA620108</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>FORT STORY SOUTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">18</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA620108</SimpleData>
+						<SimpleData name="COUNTY">FORT STORY SOUTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1323">
+					<coordinates>-75.991832,36.9152279990937,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="FORT STORY SOUTH">
+				<name>FORT STORY SOUTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA620108</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>FORT STORY SOUTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">61</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA620108</SimpleData>
+						<SimpleData name="COUNTY">FORT STORY SOUTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1324">
+					<coordinates>-76.00660000000001,36.9278199990935,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="FORT STORY WEST">
+				<name>FORT STORY WEST</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA591163</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>FORT STORY WEST</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">17</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA591163</SimpleData>
+						<SimpleData name="COUNTY">FORT STORY WEST</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1325">
+					<coordinates>-76.038653,36.9310429990935,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="FORT STORY WEST">
+				<name>FORT STORY WEST</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA591163</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>FORT STORY WEST</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">60</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA591163</SimpleData>
+						<SimpleData name="COUNTY">FORT STORY WEST</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1326">
+					<coordinates>-76.05417,36.9194399990936,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="GLOUCESTER POINT BEACH">
+				<name>GLOUCESTER POINT BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA714367</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>GLOUCESTER POINT BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>GLOUCESTER</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">20</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA714367</SimpleData>
+						<SimpleData name="COUNTY">GLOUCESTER POINT BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1327">
+					<coordinates>-76.504099,37.2455299990907,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="GLOUCESTER POINT BEACH">
+				<name>GLOUCESTER POINT BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA714367</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>GLOUCESTER POINT BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>GLOUCESTER</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">63</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA714367</SimpleData>
+						<SimpleData name="COUNTY">GLOUCESTER POINT BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1328">
+					<coordinates>-76.50161,37.2472199990907,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="GUARD SHORE">
+				<name>GUARD SHORE</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA153278</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>GUARD SHORE</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>ACCOMACK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">2</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA153278</SimpleData>
+						<SimpleData name="COUNTY">GUARD SHORE</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1329">
+					<coordinates>-75.680629,37.8443119990857,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="GUARD SHORE">
+				<name>GUARD SHORE</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA153278</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>GUARD SHORE</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>ACCOMACK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">45</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA153278</SimpleData>
+						<SimpleData name="COUNTY">GUARD SHORE</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1330">
+					<coordinates>-75.67646000000001,37.8473099990856,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="HILTON BEACH">
+				<name>HILTON BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA747818</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>HILTON BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NEWPORT NEWS</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">26</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA747818</SimpleData>
+						<SimpleData name="COUNTY">HILTON BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1331">
+					<coordinates>-76.465394,37.0284139990926,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="HILTON BEACH">
+				<name>HILTON BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA747818</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>HILTON BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NEWPORT NEWS</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">69</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA747818</SimpleData>
+						<SimpleData name="COUNTY">HILTON BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1332">
+					<coordinates>-76.46451,37.0276999990926,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="HUNTINGTON BEACH">
+				<name>HUNTINGTON BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA747813</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>HUNTINGTON BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NEWPORT NEWS</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">25</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA747813</SimpleData>
+						<SimpleData name="COUNTY">HUNTINGTON BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1333">
+					<coordinates>-76.455868,37.0166179990927,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="HUNTINGTON BEACH">
+				<name>HUNTINGTON BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA747813</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>HUNTINGTON BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NEWPORT NEWS</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">68</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA747813</SimpleData>
+						<SimpleData name="COUNTY">HUNTINGTON BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1334">
+					<coordinates>-76.45556000000001,37.0142199990928,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="KING/LINCOLN PARK">
+				<name>KING/LINCOLN PARK</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA722627</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>KING/LINCOLN PARK</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NEWPORT NEWS</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">22</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA722627</SimpleData>
+						<SimpleData name="COUNTY">KING/LINCOLN PARK</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1335">
+					<coordinates>-76.409368,36.9683289990932,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="KING/LINCOLN PARK">
+				<name>KING/LINCOLN PARK</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA722627</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>KING/LINCOLN PARK</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NEWPORT NEWS</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">65</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA722627</SimpleData>
+						<SimpleData name="COUNTY">KING/LINCOLN PARK</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1336">
+					<coordinates>-76.41058,36.9651499990932,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="KIPTOPEKE STATE PARK">
+				<name>KIPTOPEKE STATE PARK</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA017488</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>KIPTOPEKE STATE PARK</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORTHAMPTON</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">0</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA017488</SimpleData>
+						<SimpleData name="COUNTY">KIPTOPEKE STATE PARK</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1337">
+					<coordinates>-75.98798600000001,37.1726179990913,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="KIPTOPEKE STATE PARK">
+				<name>KIPTOPEKE STATE PARK</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA017488</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>KIPTOPEKE STATE PARK</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORTHAMPTON</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">43</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA017488</SimpleData>
+						<SimpleData name="COUNTY">KIPTOPEKE STATE PARK</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1338">
+					<coordinates>-75.97639,37.1543399990915,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="LESNER BRIDGE EAST">
+				<name>LESNER BRIDGE EAST</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA209936</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>LESNER BRIDGE EAST</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">4</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA209936</SimpleData>
+						<SimpleData name="COUNTY">LESNER BRIDGE EAST</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1339">
+					<coordinates>-76.093262,36.9077799990937,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="LESNER BRIDGE EAST">
+				<name>LESNER BRIDGE EAST</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA209936</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>LESNER BRIDGE EAST</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">47</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA209936</SimpleData>
+						<SimpleData name="COUNTY">LESNER BRIDGE EAST</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1340">
+					<coordinates>-76.11,36.9138899990937,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="LITTLE ISLAND BEACH NORTH">
+				<name>LITTLE ISLAND BEACH NORTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA551311</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>LITTLE ISLAND BEACH NORTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">15</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA551311</SimpleData>
+						<SimpleData name="COUNTY">LITTLE ISLAND BEACH NORTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1341">
+					<coordinates>-75.931111,36.7152769990955,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="LITTLE ISLAND BEACH NORTH">
+				<name>LITTLE ISLAND BEACH NORTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA551311</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>LITTLE ISLAND BEACH NORTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">58</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA551311</SimpleData>
+						<SimpleData name="COUNTY">LITTLE ISLAND BEACH NORTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1342">
+					<coordinates>-75.925,36.6999999990956,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="LITTLE ISLAND BEACH SOUTH">
+				<name>LITTLE ISLAND BEACH SOUTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA152245</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>LITTLE ISLAND BEACH SOUTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">1</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA152245</SimpleData>
+						<SimpleData name="COUNTY">LITTLE ISLAND BEACH SOUTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1343">
+					<coordinates>-75.925,36.6999989990956,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="LITTLE ISLAND BEACH SOUTH">
+				<name>LITTLE ISLAND BEACH SOUTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA152245</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>LITTLE ISLAND BEACH SOUTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">44</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA152245</SimpleData>
+						<SimpleData name="COUNTY">LITTLE ISLAND BEACH SOUTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1344">
+					<coordinates>-75.91528,36.6763899990959,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="NORTH COMMUNITY BEACH">
+				<name>NORTH COMMUNITY BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA536165</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>NORTH COMMUNITY BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">14</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA536165</SimpleData>
+						<SimpleData name="COUNTY">NORTH COMMUNITY BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1345">
+					<coordinates>-76.232911,36.9439789990934,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="NORTH COMMUNITY BEACH">
+				<name>NORTH COMMUNITY BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA536165</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>NORTH COMMUNITY BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">57</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA536165</SimpleData>
+						<SimpleData name="COUNTY">NORTH COMMUNITY BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1346">
+					<coordinates>-76.24762,36.9527999990933,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="OCEAN VIEW PARK, EAST SIDE OF PARKING LOT">
+				<name>OCEAN VIEW PARK, EAST SIDE OF PARKING LOT</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA509547</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>OCEAN VIEW PARK, EAST SIDE OF PARKING LOT</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">10</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA509547</SimpleData>
+						<SimpleData name="COUNTY">OCEAN VIEW PARK, EAST SIDE OF PARKING LOT</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1347">
+					<coordinates>-76.24761700000001,36.9528049990933,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="OCEAN VIEW PARK, EAST SIDE OF PARKING LOT">
+				<name>OCEAN VIEW PARK, EAST SIDE OF PARKING LOT</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA509547</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>OCEAN VIEW PARK, EAST SIDE OF PARKING LOT</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">53</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA509547</SimpleData>
+						<SimpleData name="COUNTY">OCEAN VIEW PARK, EAST SIDE OF PARKING LOT</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1348">
+					<coordinates>-76.25386,36.9572699990933,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="SALT PONDS">
+				<name>SALT PONDS</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA938661</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>SALT PONDS</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>HAMPTON</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">38</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA938661</SimpleData>
+						<SimpleData name="COUNTY">SALT PONDS</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1349">
+					<coordinates>-76.281768,37.0625409990923,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="SALT PONDS">
+				<name>SALT PONDS</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA938661</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>SALT PONDS</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>HAMPTON</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">81</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA938661</SimpleData>
+						<SimpleData name="COUNTY">SALT PONDS</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1350">
+					<coordinates>-76.28541,37.0510099990924,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="SANDBRIDGE NORTH">
+				<name>SANDBRIDGE NORTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA863269</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>SANDBRIDGE NORTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">31</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA863269</SimpleData>
+						<SimpleData name="COUNTY">SANDBRIDGE NORTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1351">
+					<coordinates>-75.943611,36.7463879990952,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="SANDBRIDGE NORTH">
+				<name>SANDBRIDGE NORTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA863269</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>SANDBRIDGE NORTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">74</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA863269</SimpleData>
+						<SimpleData name="COUNTY">SANDBRIDGE NORTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1352">
+					<coordinates>-75.95,36.763889999095,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="SANDBRIDGE SOUTH">
+				<name>SANDBRIDGE SOUTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA582379</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>SANDBRIDGE SOUTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">16</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA582379</SimpleData>
+						<SimpleData name="COUNTY">SANDBRIDGE SOUTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1353">
+					<coordinates>-75.943611,36.7463879990952,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="SANDBRIDGE SOUTH">
+				<name>SANDBRIDGE SOUTH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA582379</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>SANDBRIDGE SOUTH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">59</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA582379</SimpleData>
+						<SimpleData name="COUNTY">SANDBRIDGE SOUTH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1354">
+					<coordinates>-75.93111,36.7152799990955,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="SARA CONSTANCE PARK, EAST END">
+				<name>SARA CONSTANCE PARK, EAST END</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA742733</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>SARA CONSTANCE PARK, EAST END</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">24</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA742733</SimpleData>
+						<SimpleData name="COUNTY">SARA CONSTANCE PARK, EAST END</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1355">
+					<coordinates>-76.25385900000001,36.9572689990933,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="SARA CONSTANCE PARK, EAST END">
+				<name>SARA CONSTANCE PARK, EAST END</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA742733</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>SARA CONSTANCE PARK, EAST END</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORFOLK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">67</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA742733</SimpleData>
+						<SimpleData name="COUNTY">SARA CONSTANCE PARK, EAST END</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1356">
+					<coordinates>-76.26958999999999,36.9654199990932,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="SEA GATE">
+				<name>SEA GATE</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA532597</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>SEA GATE</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">13</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA532597</SimpleData>
+						<SimpleData name="COUNTY">SEA GATE</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1357">
+					<coordinates>-76.068806,36.9144019990937,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="SEA GATE">
+				<name>SEA GATE</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA532597</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>SEA GATE</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>VIRGINIA BEACH</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">56</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA532597</SimpleData>
+						<SimpleData name="COUNTY">SEA GATE</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1358">
+					<coordinates>-76.09039,36.9076999990937,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="TOWN OF CAPE CHARLES PUBLIC BEACH">
+				<name>TOWN OF CAPE CHARLES PUBLIC BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA963844</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>TOWN OF CAPE CHARLES PUBLIC BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORTHAMPTON</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">41</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA963844</SimpleData>
+						<SimpleData name="COUNTY">TOWN OF CAPE CHARLES PUBLIC BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1359">
+					<coordinates>-76.024387,37.2669139990905,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="TOWN OF CAPE CHARLES PUBLIC BEACH">
+				<name>TOWN OF CAPE CHARLES PUBLIC BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA963844</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>TOWN OF CAPE CHARLES PUBLIC BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>NORTHAMPTON</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">84</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA963844</SimpleData>
+						<SimpleData name="COUNTY">TOWN OF CAPE CHARLES PUBLIC BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1360">
+					<coordinates>-76.02009,37.2739799990905,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="YORKTOWN BEACH">
+				<name>YORKTOWN BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA482894</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>YORKTOWN BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>YORK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">9</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA482894</SimpleData>
+						<SimpleData name="COUNTY">YORKTOWN BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1361">
+					<coordinates>-76.50416800000001,37.2342759990908,2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="YORKTOWN BEACH">
+				<name>YORKTOWN BEACH</name>
+				<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>BEACH_ID:</td>
+<td>VA482894</td>
+</tr>
+<tr>
+<td>NAME:</td>
+<td>YORKTOWN BEACH</td>
+</tr>
+<tr>
+<td>COUNTY:</td>
+<td>YORK</td>
+</tr>
+</table>]]></description>
+				<styleUrl>#Style_70</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#VA_beach_pts_Project_8">
+						<SimpleData name="FID">52</SimpleData>
+						<SimpleData name="BEACH_ID">System.__ComObject</SimpleData>
+						<SimpleData name="NAME">VA482894</SimpleData>
+						<SimpleData name="COUNTY">YORKTOWN BEACH</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point id="g1362">
+					<coordinates>-76.50718999999999,37.2381999990908,2</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

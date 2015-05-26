@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<metadata 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xsi:noNamespaceSchemaLocation="http://www.fgdc.gov/metadata/fgdc-std-001-1998.xsd"
+>
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>US Environmental Protection Agency, Office of Water</origin>
+            <pubdate>20070614</pubdate>
+            <title>EPA Office of Water (OW): Beaches PRAWN Attribute Data</title>
+            <edition>20100616</edition>
+            <geoform>tabular digital data</geoform>
+            <pubinfo>
+               <pubplace>Washington, DC</pubplace>
+               <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>http://www.epa.gov/waters/data/downloads.html</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>The Beaches Environmental Assessment and Coastal Health (BEACH) Program focuses on the following five areas to meet the goals of improving public health and environmental protection for beach goers and providing the public with information about the quality of their beach water: strengthening beach standards and testing, providing faster laboratory test methods-predicting pollution, investing in health and methods research, informing the public. Under the BEACH Act Grant Program states (including tribes and territories) are required to submit their beach monitoring (water quality), notification (advisory and closing), and beach location data to EPA.</abstract>
+         <purpose>This dataset contains start and end points for coastal beaches covered under the BEACH Act. The latitude and Longitude data used to generate the start and end points was taken from the PRAWN Database. ESRI tools were used to draw a straight line between points to better visualize the beaches in Google Earth.This dataset also contains information on beaches including beach name and county name where the beach is located.</purpose>
+         <supplinf>This is an EPA-produced data set. Additional information regarding this data set is available at: http://www.epa.gov/waterscience/beaches/</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>2009</caldate>
+            </sngdate>
+         </timeinfo>
+         <current>publication date</current>
+      </timeperd>
+      <status>
+         <progress>In work</progress>
+         <update>Continually</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-180</westbc>
+            <eastbc>180</eastbc>
+            <northbc>90</northbc>
+            <southbc>-90</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>ISO 19115 Topic Category</themekt>
+            <themekey>environment</themekey>
+            <themekey>health</themekey>
+            <themekey>oceans</themekey>
+         </theme>
+         <theme>
+            <themekt>EPA GIS Keyword Thesaurus</themekt>
+            <themekey>Conservation</themekey>
+            <themekey>Ecology</themekey>
+            <themekey>Environment</themekey>
+            <themekey>Health</themekey>
+            <themekey>Human</themekey>
+            <themekey>Recreation</themekey>
+            <themekey>Water</themekey>
+         </theme>
+         <theme>
+            <themekt>User</themekt>
+            <themekey>NHD</themekey>
+            <themekey>beach</themekey>
+            <themekey>BEACH locational data</themekey>
+            <themekey>Beach Act</themekey>
+            <themekey>waterbody</themekey>
+            <themekey>beach data</themekey>
+            <themekey>water program</themekey>
+            <themekey>Beaches</themekey>
+         </theme>
+         <place>
+            <placekt>None</placekt>
+            <placekey>United States</placekey>
+         </place>
+      </keywords>
+      <accconst>None.</accconst>
+      <useconst>None. Please check accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntperp>
+               <cntper>Bill Kramer</cntper>
+               <cntorg>U.S. Environmental Protection Agency, Office of Water</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>1200 Pennsylvania Ave. Room 6210-TT Mail Code 4305T</address>
+               <address>EPA East</address>
+               <city>Washington</city>
+               <state>DC</state>
+               <postal>20460</postal>
+            </cntaddr>
+            <cntvoice>202-566-0385</cntvoice>
+            <cntemail>kramer.bill@epa.gov</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <secinfo>
+         <secsys>FIPS Pub 199</secsys>
+         <secclass>No Confidentiality</secclass>
+         <sechandl>Standard Technical Controls</sechandl>
+      </secinfo>
+   </idinfo>
+   <dataqual>
+      <logic>Not presently available</logic>
+      <complete>Feature attribute data has not been tested for completeness.</complete>
+      <posacc>
+         <horizpa>
+            <horizpar>Unknown</horizpar>
+         </horizpa>
+         <vertacc>
+            <vertaccr>Unknown</vertaccr>
+         </vertacc>
+      </posacc>
+      <lineage>
+         <procstep>
+            <procdesc>Attribute data extracted from the PRAWN system.</procdesc>
+            <procdate>20100610</procdate>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spref>
+      <horizsys>
+         <geograph>
+            <latres>0.000001</latres>
+            <longres>0.000001</longres>
+            <geogunit>Decimal degrees</geogunit>
+         </geograph>
+         <geodetic>
+            <horizdn>World Geodetic System 84 (WGS84)</horizdn>
+            <ellips> World Geodetic System 84 Ellipsoid</ellips>
+            <semiaxis>6378137.000000</semiaxis>
+            <denflat>298.257222</denflat>
+         </geodetic>
+      </horizsys>
+   </spref>
+   <eainfo>
+      <detailed>
+         <enttyp>
+            <enttypl>BEACH_PRGATTR</enttypl>
+            <enttypd>BEACH Attribute Data</enttypd>
+            <enttypds>PRAWN</enttypds>
+         </enttyp>
+         <attr>
+            <attrlabl>BEACH_ID</attrlabl>
+            <attrdef>Unique identifier for a beach.</attrdef>
+            <attrdefs>PRAWN</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>BEACH_NAME</attrlabl>
+            <attrdef>Common name for a beach.</attrdef>
+            <attrdefs>PRAWN</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>COUNTY</attrlabl>
+            <attrdef>Name of the county or equivalent entity in which the beach is located.</attrdef>
+            <attrdefs>PRAWN</attrdefs>
+            <attrdomv>
+               <udom>Text value</udom>
+            </attrdomv>
+         </attr>
+         <attr>
+            <attrlabl>OBJECTID</attrlabl>
+            <attrdef>ArcSDE managed numeric key</attrdef>
+            <attrdefs>ESRI</attrdefs>
+            <attrdomv>
+               <rdom>
+                  <rdommin>1</rdommin>
+                  <rdommax>2147483647</rdommax>
+               </rdom>
+            </attrdomv>
+         </attr>
+      </detailed>
+   </eainfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>US EPA Headquarters</cntorg>
+               <cntper>Office of Water</cntper>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>1200 Pennsylvania Avenue, NW MC 4503T</address>
+               <city>Washington</city>
+               <state>DC</state>
+               <postal>20460</postal>
+            </cntaddr>
+            <cntvoice>202-566-0385</cntvoice>
+            <cntemail>kramer.bill@epa.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <resdesc>Live Data and Maps</resdesc>
+      <distliab>Although these data have been processed successfully on a computer system at the Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>Tabular Data</formname>
+               <formcont>National Extracts</formcont>
+               <filedec>Zipped (compressed) file</filedec>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>http://www.epa.gov/waters/data/downloads.html</networkr>
+                     </networka>
+                  </computer>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None</fees>
+      </stdorder>
+   </distinfo>
+   <metainfo>
+      <metd>2008</metd>
+      <metfrd>20111101</metfrd>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntper>Office of Water</cntper>
+               <cntorg>US EPA Headquarters</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>1200 Pennsylvania Avenue, NW MC 4503T</address>
+               <city>Washington</city>
+               <state>DC</state>
+               <postal>20460</postal>
+            </cntaddr>
+            <cntvoice>202-566-0385</cntvoice>
+            <cntemail>kramer.bill@epa.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+   </metainfo>
+</metadata>
