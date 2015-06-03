@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="fire_stations" id="fire_stations">
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Station" type="string"></SimpleField>
+</Schema>
+<Folder><name>fire_stations</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#fire_stations">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Station">Shenandoah Farms</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.046596905909496,39.012151940192055</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#fire_stations">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Station">Boyce</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.060460637913337,39.092535035018635</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#fire_stations">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Station">Enders</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.983400957153108,39.151201142019112</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#fire_stations">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Station">Blue Ridge</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.875715263016303,39.123439154247919</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#fire_stations">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Station">Mount Weather</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.88831486207998,39.063999000142815</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
