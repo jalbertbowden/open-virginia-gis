@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Schools" id="Schools">
+	<SimpleField name="ID" type="int"></SimpleField>
+	<SimpleField name="TYPE" type="string"></SimpleField>
+	<SimpleField name="NAME_" type="string"></SimpleField>
+</Schema>
+<Folder><name>Schools</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Schools">
+		<SimpleData name="ID">1</SimpleData>
+		<SimpleData name="TYPE">School</SimpleData>
+		<SimpleData name="NAME_">Mary Ellen Henderson</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.192973813206905,38.897611811909606</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Schools">
+		<SimpleData name="ID">2</SimpleData>
+		<SimpleData name="TYPE">School</SimpleData>
+		<SimpleData name="NAME_">Mt. Daniel</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.180896997779953,38.897419592505585</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Schools">
+		<SimpleData name="ID">3</SimpleData>
+		<SimpleData name="TYPE">School</SimpleData>
+		<SimpleData name="NAME_">Thomas Jefferson</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.18375176389381,38.883405555536548</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Schools">
+		<SimpleData name="ID">0</SimpleData>
+		<SimpleData name="TYPE">School</SimpleData>
+		<SimpleData name="NAME_">George Mason</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.191375219770734,38.895977667717538</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
