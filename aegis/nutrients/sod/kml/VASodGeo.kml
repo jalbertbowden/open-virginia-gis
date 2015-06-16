@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="VASodGeo" id="VASodGeo">
+	<SimpleField name="ADDRESS" type="string"></SimpleField>
+	<SimpleField name="CITY" type="string"></SimpleField>
+	<SimpleField name="STATE" type="string"></SimpleField>
+	<SimpleField name="ZIP" type="int"></SimpleField>
+	<SimpleField name="LAT" type="float"></SimpleField>
+	<SimpleField name="LONG" type="float"></SimpleField>
+</Schema>
+<Folder><name>VASodGeo</name>
+  <Placemark>
+	<name>Bass Sod Farm</name>
+	<ExtendedData><SchemaData schemaUrl="#VASodGeo">
+		<SimpleData name="ADDRESS">2703 Pigeon Run Rd</SimpleData>
+		<SimpleData name="CITY">Gladys</SimpleData>
+		<SimpleData name="STATE">VA</SimpleData>
+		<SimpleData name="ZIP">24554</SimpleData>
+		<SimpleData name="LAT">37.16907900</SimpleData>
+		<SimpleData name="LONG">-79.02756000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.027300285531766,37.169222313808667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Brookmeade Sod Farm</name>
+	<ExtendedData><SchemaData schemaUrl="#VASodGeo">
+		<SimpleData name="ADDRESS">14328 Medley Grove Ln</SimpleData>
+		<SimpleData name="CITY">Doswell</SimpleData>
+		<SimpleData name="STATE">VA</SimpleData>
+		<SimpleData name="ZIP">23047</SimpleData>
+		<SimpleData name="LAT">37.79906400</SimpleData>
+		<SimpleData name="LONG">-77.55197400</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.551681820087822,37.799206312619759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Daniel Sod Farm &amp; Irrigation</name>
+	<ExtendedData><SchemaData schemaUrl="#VASodGeo">
+		<SimpleData name="ADDRESS">2030 Davmunds Trl</SimpleData>
+		<SimpleData name="CITY">Sutherlin</SimpleData>
+		<SimpleData name="STATE">VA</SimpleData>
+		<SimpleData name="ZIP">24594</SimpleData>
+		<SimpleData name="LAT">36.62144700</SimpleData>
+		<SimpleData name="LONG">-79.11841000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-79.118147419107331,36.621585580107826</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Farrar Sod Farm Incorporated</name>
+	<ExtendedData><SchemaData schemaUrl="#VASodGeo">
+		<SimpleData name="ADDRESS">996 Baskerville Rd</SimpleData>
+		<SimpleData name="CITY">Baskerville</SimpleData>
+		<SimpleData name="STATE">VA</SimpleData>
+		<SimpleData name="ZIP">23915</SimpleData>
+		<SimpleData name="LAT">36.65041500</SimpleData>
+		<SimpleData name="LONG">-78.26329600</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.263014736549877,36.650557228909989</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Frog Hollow Sod Farm Incorporat</name>
+	<ExtendedData><SchemaData schemaUrl="#VASodGeo">
+		<SimpleData name="ADDRESS">1220 Horse Landing Rd # 6</SimpleData>
+		<SimpleData name="CITY">King Willia</SimpleData>
+		<SimpleData name="STATE">VA</SimpleData>
+		<SimpleData name="ZIP">23086</SimpleData>
+		<SimpleData name="LAT">37.69490400</SimpleData>
+		<SimpleData name="LONG">-76.99763700</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.997327951846771,37.695046466344529</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Laverys Sod Farm</name>
+	<ExtendedData><SchemaData schemaUrl="#VASodGeo">
+		<SimpleData name="ADDRESS">4767 Northfork Rd</SimpleData>
+		<SimpleData name="CITY">Elliston</SimpleData>
+		<SimpleData name="STATE">VA</SimpleData>
+		<SimpleData name="ZIP">24087</SimpleData>
+		<SimpleData name="LAT">37.23257400</SimpleData>
+		<SimpleData name="LONG">-80.25238800</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-80.252153403865861,37.232706063132341</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Virginia Sod Farms</name>
+	<ExtendedData><SchemaData schemaUrl="#VASodGeo">
+		<SimpleData name="ADDRESS">2475 Goodes Bridge Rd</SimpleData>
+		<SimpleData name="CITY">Richmond</SimpleData>
+		<SimpleData name="STATE">VA</SimpleData>
+		<SimpleData name="ZIP">23224</SimpleData>
+		<SimpleData name="LAT">37.47365900</SimpleData>
+		<SimpleData name="LONG">-77.52092500</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.520633679998426,37.473806918588849</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
