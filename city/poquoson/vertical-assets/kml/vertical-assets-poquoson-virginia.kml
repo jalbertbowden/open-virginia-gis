@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>0.3 kM South of Rte. 171</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1221</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3976</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.3 kM South of Rte. 171</value>
+ </Data>
+ <Data name="height">
+   <value>114.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.901</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Creative Educational Media Corp. Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3976,37.1221</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>0 South Lawson Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1251</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3543</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0 South Lawson Road</value>
+ </Data>
+ <Data name="height">
+   <value>60</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.155216</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3543,37.1251</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>500 FT OF INT RDS CEDAR &amp; LITTLE FL, BTWN POQUOSON AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1289</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3767</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 FT OF INT RDS CEDAR &amp; LITTLE FL, BTWN POQUOSON AVE</value>
+ </Data>
+ <Data name="height">
+   <value>56.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.807825</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COX COMMUNICATIONS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3767,37.1289</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>32 CEDAR LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1289</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3767</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>32 CEDAR LN</value>
+ </Data>
+ <Data name="height">
+   <value>60.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.807825</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS SERVICES, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3767,37.1289</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>500 City Hall Avenue</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1211</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3976</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 City Hall Avenue</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.936244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of York</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3976,37.1211</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>POQUOSON MUNICIPAL PARK, MUNICIPAL DRIVE (094369)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1304</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3771</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POQUOSON MUNICIPAL PARK, MUNICIPAL DRIVE (094369)</value>
+ </Data>
+ <Data name="height">
+   <value>57.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.008419</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3771,37.1304</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>500 City Hall Avenue (VA10066I)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1213</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.398</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 City Hall Avenue (VA10066I)</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.917144</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>T-Mobile Northeast LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.398,37.1213</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>POQUOSON MUNICIPAL PARK, MUNICIPAL DRIVE (094369)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1303</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.376899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POQUOSON MUNICIPAL PARK, MUNICIPAL DRIVE (094369)</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.0649</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POQUOSON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.376899,37.1303</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>POQUOSON MUNICIPAL PARK, MUNICIPAL DRIVE (094369)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1303</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.376899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POQUOSON MUNICIPAL PARK, MUNICIPAL DRIVE (094369)</value>
+ </Data>
+ <Data name="height">
+   <value>60.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.0649</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POQUOSON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.376899,37.1303</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>500 FT OF INT RDS CEDAR &amp; LITTLE FL, BTWN POQUOSON</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1289</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3767</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 FT OF INT RDS CEDAR &amp; LITTLE FL, BTWN POQUOSON</value>
+ </Data>
+ <Data name="height">
+   <value>60.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.807825</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POQUOSON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3767,37.1289</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>500 CITY HALL AVENUE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1211</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3975</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 CITY HALL AVENUE</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.936244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3975,37.1211</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1283</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3775</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.813248</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POQUOSON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3775,37.1283</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>500 FT OF INT RDS CEDAR &amp; LITTLE FL, BTWN POQUOSON</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1289</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3767</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 FT OF INT RDS CEDAR &amp; LITTLE FL, BTWN POQUOSON</value>
+ </Data>
+ <Data name="height">
+   <value>60.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.807825</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POQUOSON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3767,37.1289</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>830 POQUSON AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1289</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3717</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>830 POQUSON AVE</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.171999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POQUOSON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3717,37.1289</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>500 CITY HALL AVENUE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1211</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3975</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 CITY HALL AVENUE</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.936244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POQUOSON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3975,37.1211</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>500 CITY HALL AVENUE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1211</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3975</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 CITY HALL AVENUE</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.936244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POQUOSON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3975,37.1211</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>500 FT OF INT RDS CEDAR &amp; LITTLE FL, BTWN POQUOSON AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1289</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3767</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 FT OF INT RDS CEDAR &amp; LITTLE FL, BTWN POQUOSON AVE</value>
+ </Data>
+ <Data name="height">
+   <value>60.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.807825</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3767,37.1289</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>500 City Hall Avenue (VA10066I)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1213</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.398</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 City Hall Avenue (VA10066I)</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.917144</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.398,37.1213</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>POQUOSON MUNICIPAL PARK, MUNICIPAL DRIVE (094369)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1304</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3771</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POQUOSON MUNICIPAL PARK, MUNICIPAL DRIVE (094369)</value>
+ </Data>
+ <Data name="height">
+   <value>60.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.008419</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3771,37.1304</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>500 City Hall Avenue (VA10066I)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1213</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.398</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 City Hall Avenue (VA10066I)</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.917144</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hampton Roads Planning District Commission</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.398,37.1213</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>500 City Hall Avenue</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1211</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3976</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 City Hall Avenue</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.936244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY OF YORK</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3976,37.1211</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>500 City Hall Avenue</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Poquoson city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1213</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.398</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 City Hall Avenue</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.917144</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY OF YORK</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.398,37.1213</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>
