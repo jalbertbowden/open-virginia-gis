@@ -1,0 +1,4511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>33372 School House Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6022</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9381</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>33372 School House Road</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.228106</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9381,36.6022</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>HWY 611 4/10 MILE WEST OF RT 649</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7158</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.017799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 611 4/10 MILE WEST OF RT 649</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.506113</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>J H LEE &amp; SONS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.017799,36.7158</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>24205 STORYS STATION RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6883</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>24205 STORYS STATION RD</value>
+ </Data>
+ <Data name="height">
+   <value>151</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.456043</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FRANKLIN BROADCASTING CORPORATION  DBA =  WLQM FM</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0158,36.6883</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>30010 Camp Parkway  Courtland, Virginia</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6837</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9985</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>30010 Camp Parkway  Courtland, Virginia</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.726434</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of  Dept. of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9985,36.6837</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>3329 Southampton Parkway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6843</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4491</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3329 Southampton Parkway</value>
+ </Data>
+ <Data name="height">
+   <value>48.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.819984</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4491,36.6843</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>ROUTE 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7051</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2253</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 58</value>
+ </Data>
+ <Data name="height">
+   <value>86.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.018444</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2253,36.7051</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>23127 WHITE HOUSE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7038</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0831</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23127 WHITE HOUSE RD</value>
+ </Data>
+ <Data name="height">
+   <value>85.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.774224</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0831,36.7038</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>34597 General Mahoney Blvd. (310378)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8815</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>34597 General Mahoney Blvd. (310378)</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.396772</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SpectraSite Communications, LLC. through American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8815,36.9</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>5033 Rouse Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6969</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3869</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5033 Rouse Drive</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.972999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3869,36.6969</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>HIGHWAY 611 EAST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7099</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0407</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGHWAY 611 EAST</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.189058</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0407,36.7099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>23373 ROYAL OAK LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7064</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.288099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23373 ROYAL OAK LANE</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.56509</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.288099,36.7064</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>0.25 MILES W OF INTERSECTION OF RTS. 258 &amp; 684</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6587</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.25 MILES W OF INTERSECTION OF RTS. 258 &amp; 684</value>
+ </Data>
+ <Data name="height">
+   <value>86.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.9082</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9499,36.6587</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>100 Main St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.90387611</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.89754896</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tower with Lines</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 Main St.</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>88.14584833</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Ivor, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.89754896,36.90387611</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>24205 Story Station Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6878</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0163</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>24205 Story Station Road</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.234686</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0163,36.6878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>37216 General Mahone Boulevard (028220)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8906</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8704</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>37216 General Mahone Boulevard (028220)</value>
+ </Data>
+ <Data name="height">
+   <value>77.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.790519</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8704,36.8906</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>30393 Meherrin Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.605</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.191399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>30393 Meherrin Road</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.838647</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.191399,36.605</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>8265 Main Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9052</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8944</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8265 Main Street</value>
+ </Data>
+ <Data name="height">
+   <value>77.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.511686</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>T-Mobile Northeast LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8944,36.9052</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>23197 BRYANTS CHURCH ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6831</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.148</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23197 BRYANTS CHURCH ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.389629</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.148,36.6831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Approximately 300 yds east of Governor Darden Rd, Courtland, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.724499</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0521</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Approximately 300 yds east of Governor Darden Rd, Courtland, VA</value>
+ </Data>
+ <Data name="height">
+   <value>83.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.794726</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Southampton</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0521,36.724499</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Flaggy Run Rd. RR Crossing @ RR MP FD045.60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7158</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0558</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Flaggy Run Rd. RR Crossing @ RR MP FD045.60</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.248206</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0558,36.7158</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>30010 Camp Parkway  Courtland, Virginia</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6836</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.998299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>30010 Camp Parkway  Courtland, Virginia</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.715869</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF, DEPT OF TRANSPORTATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.998299,36.6836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>RT 35 RR CROSSING @ RR MP FD46.27</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7178</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0686</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 35 RR CROSSING @ RR MP FD46.27</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.604268</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0686,36.7178</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>30010 CAMP PARKWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6836</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.998299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>30010 CAMP PARKWAY</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.715869</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.998299,36.6836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>22336 Main Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7142</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>22336 Main Street</value>
+ </Data>
+ <Data name="height">
+   <value>36.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.471079</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Southampton, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0786,36.7142</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Approximately 300 yds east of Governor Darden Rd, Courtland, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.724499</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0519</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Approximately 300 yds east of Governor Darden Rd, Courtland, VA</value>
+ </Data>
+ <Data name="height">
+   <value>83.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.092515</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Southampton, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0519,36.724499</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>RT1503 RR CROSSING AT RR MP FD46.20</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7178</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.066399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT1503 RR CROSSING AT RR MP FD46.20</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.710999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.066399,36.7178</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>RT 35 1.4 MILES NORTH OF TOWN OF BOYKINS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5953</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.195</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 35 1.4 MILES NORTH OF TOWN OF BOYKINS</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.208553</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHAMPTON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.195,36.5953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>HWY 611 EAST OF COURTLAND</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7097</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0406</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 611 EAST OF COURTLAND</value>
+ </Data>
+ <Data name="height">
+   <value>126.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.889459</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHAMPTON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0406,36.7097</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>19458 CAMP TWENTY DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7536</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2489</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>19458 CAMP TWENTY DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.572711</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHAMPTON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2489,36.7536</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>37216 GENERAL MAHONEY RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.881399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>37216 GENERAL MAHONEY RD.</value>
+ </Data>
+ <Data name="height">
+   <value>85.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.082139</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHAMPTON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.881399,36.9</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5967</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1758</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.242986</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Chapman Lumber Company Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1758,36.5967</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>19585 FULLERS MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5967</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1758</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>19585 FULLERS MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.242986</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Chapman Lumber Company Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1758,36.5967</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>HWY 260 1 MI N OF RT 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6761</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.967199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 260 1 MI N OF RT 58</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.041299</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>INTERNATIONAL PAPER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.967199,36.6761</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>18197 SEDLEY ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7747</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9836</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>18197 SEDLEY ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>8.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.33609</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SEDLEY VOLUNTEER FIRE DEPARTMENT INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9836,36.7747</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7222</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.05</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.241452</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.05,36.7222</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>31251 SANDS ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5903</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.103299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>31251 SANDS ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.754142</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SANDY RIDGE FARMS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.103299,36.5903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>30134 General Thomas Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6519</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.995</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>30134 General Thomas Highway</value>
+ </Data>
+ <Data name="height">
+   <value>32.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.124334</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.995,36.6519</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>Dispatch Base, MP FD 53.6</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7111</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1994</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dispatch Base, MP FD 53.6</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.24464</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1994,36.7111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>RR MILEPOST SA 41.2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6528</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9903</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST SA 41.2</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.598237</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9903,36.6528</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>2.5 MI S OF RT 58 ON DELAWARE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6506</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.994399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.5 MI S OF RT 58 ON DELAWARE</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.655534</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HERCULES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.994399,36.6506</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>RUDEE HEIGHTS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8283</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9711</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RUDEE HEIGHTS</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.085969</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The City of Virginia Beach</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9711,36.8283</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>ARTS &amp; CONFERENCE CENTER 18TH &amp; CYPRESS AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8442</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9875</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ARTS &amp; CONFERENCE CENTER 18TH &amp; CYPRESS AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>22.338441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The City of Virginia Beach</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9875,36.8442</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>ROUTE 195 600 FT W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2047</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 195 600 FT W</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.064498</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PARKER OIL CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2047,36.5806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>RT 658 .25 MI E INT RT 609</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6853</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1658</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 658 .25 MI E INT RT 609</value>
+ </Data>
+ <Data name="height">
+   <value>98</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.75954</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Henderson Jr, Henry B</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1658,36.6853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7414</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.078899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.638596</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DAVIS LOGGING OF VIRGINIA INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.078899,36.7414</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7106</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2014</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.236736</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LAUGENI, CAROLYN J:HUFF, MARK DBA T BONE MOTOR SPORTS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2014,36.7106</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>28158 SOUTHAMPTON PKWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6881</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.028</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>28158 SOUTHAMPTON PKWY</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.120852</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HELENA CHEMICAL COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.028,36.6881</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>HWY 611 .4MI W RT 649</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7156</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0175</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 611 .4MI W RT 649</value>
+ </Data>
+ <Data name="height">
+   <value>82</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.184057</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AREAWIDE COMMUNICATIONS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0175,36.7156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>.36 MILES E HWY673</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6264</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1186</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.36 MILES E HWY673</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.608039</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1186,36.6264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>HWY 658 AT INT HWY 656</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6853</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1658</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 658 AT INT HWY 656</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.75954</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JERRY D ROSE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1658,36.6853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>31251 SANDS ROAD - 44 MI NE OF HWY 673  INT HWY 674</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5903</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.103299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>31251 SANDS ROAD - 44 MI NE OF HWY 673  INT HWY 674</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.754142</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SANDY RIDGE FARMS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.103299,36.5903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>HWY 611 4/10 MI W OF RT 649</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7056</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.028</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 611 4/10 MI W OF RT 649</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.688943</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>J H LEE &amp; SONS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.028,36.7056</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>HWY 658</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6853</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1658</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 658</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.75954</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAMP CHANCO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1658,36.6853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>50FT N INT ST RT 653 &amp; 654 E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.71</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2017</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>50FT N INT ST RT 653 &amp; 654 E</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.783359</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>J T BARHAM &amp; CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2017,36.71</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>SR 748 .1 KM E OF SR 654</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7114</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2033</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 748 .1 KM E OF SR 654</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.967094</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2033,36.7114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>SR 626 .2 KM SE OF SR 616</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8622</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.975</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 626 .2 KM SE OF SR 616</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.543485</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.975,36.8622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>SR 688 1.0 KM N OF INT SR 687</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6728</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9905</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 688 1.0 KM N OF INT SR 687</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.626462</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9905,36.6728</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>2000  NE OF US 58 AND RT 646</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7222</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.05</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2000  NE OF US 58 AND RT 646</value>
+ </Data>
+ <Data name="height">
+   <value>85</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.241452</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.05,36.7222</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>RT 646 W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7175</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0675</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 646 W</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.457301</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0675,36.7175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>12TH ST &amp; OCEAN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8361</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9708</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>12TH ST &amp; OCEAN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.572906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA BEACH LIFESAVING SERVICE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9708,36.8361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>1920 ARCTIC AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.847199</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9783</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1920 ARCTIC AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.052164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The City of Virginia Beach</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9783,36.847199</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>1920 ARCTIC AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.847199</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9783</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1920 ARCTIC AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.052164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The City of Virginia Beach</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9783,36.847199</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>US RT 58  6 KM  N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6833</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9994</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 58  6 KM  N</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.19089</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9994,36.6833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>CAPRON CU 1 MI N OF RTS 612 308</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7567</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2455</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CAPRON CU 1 MI N OF RTS 612 308</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.895931</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2455,36.7567</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>SOUTHAMPTON CC RT 308 3 MI N RT 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.725</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2536</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SOUTHAMPTON CC RT 308 3 MI N RT 58</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.239097</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2536,36.725</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>2000 NE OF US 58 AND RT 646</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7222</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.05</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2000 NE OF US 58 AND RT 646</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.241452</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHAMPTON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.05,36.7222</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>VIRGINIA AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5958</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1983</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VIRGINIA AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.878652</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOYKINS, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1983,36.5958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>DEERFIELD CC 1 MI SE RTS 308 652</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7292</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2419</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DEERFIELD CC 1 MI SE RTS 308 652</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.517929</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2419,36.7292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7167</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0678</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.975662</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COURTLAND VOLUNTEER RESCUE SQUAD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0678,36.7167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7161</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1244</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.605186</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MEDSTAR AMBULANCE SERVICE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1244,36.7161</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8917</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.905</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.264135</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>IVOR VOLUNTEER RESCUE SQUAD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.905,36.8917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>14545 OLD BELFIELD RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6906</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2625</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14545 OLD BELFIELD RD</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.977401</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2625,36.6906</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>2000 NE OF US 58 AND RT 646</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7222</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.05</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2000 NE OF US 58 AND RT 646</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.241452</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHAMPTON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.05,36.7222</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>RT 35 N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7269</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0731</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 35 N</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.050479</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0731,36.7269</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>CAPRON COR UNIT N RTS 612/608</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7567</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2455</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CAPRON COR UNIT N RTS 612/608</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.895931</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2455,36.7567</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>SOUTHAMPTON COR CTR RT 308 N RT 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.725</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2536</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SOUTHAMPTON COR CTR RT 308 N RT 58</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.239097</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2536,36.725</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>DEERFIELD CC 1 MI SE RT 308 652</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7292</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2419</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DEERFIELD CC 1 MI SE RT 308 652</value>
+ </Data>
+ <Data name="height">
+   <value>38</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.517929</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2419,36.7292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>1920 ARTIC AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.847199</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9783</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1920 ARTIC AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.052164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The City of Virginia Beach</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9783,36.847199</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>US 460 IVOR VRS 1/4 MI W F RT 616</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9083</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 460 IVOR VRS 1/4 MI W F RT 616</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.615175</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>IVOR VOLUNTEER FIRE AND RESCUE SQUADS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8964,36.9083</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>RT 646 2000 NE OF INT RTS 58 AND 646</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7222</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.05</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 646 2000 NE OF INT RTS 58 AND 646</value>
+ </Data>
+ <Data name="height">
+   <value>88</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.241452</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHAMPTON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.05,36.7222</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>HWY 609 &amp; 693</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6853</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1658</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 609 &amp; 693</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.75954</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TELPAGE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1658,36.6853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>6.51 MI SW OF US 58 &amp; ST 35</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6161</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1536</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6.51 MI SW OF US 58 &amp; ST 35</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.228599</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1536,36.6161</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>E SIDE OF RT 650 .4 MI N OF JET W HWY 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6881</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0156</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>E SIDE OF RT 650 .4 MI N OF JET W HWY 58</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.358508</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0156,36.6881</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>16469 Southampton Pkwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.705</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.225</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>16469 Southampton Pkwy</value>
+ </Data>
+ <Data name="height">
+   <value>90.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.424951</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.225,36.705</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>0.25 MILES W OF INTERSECTION OF RTS. 258 &amp; 684</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6586</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9497</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.25 MILES W OF INTERSECTION OF RTS. 258 &amp; 684</value>
+ </Data>
+ <Data name="height">
+   <value>90.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.888279</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9497,36.6586</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>Drewryville Cell Site 23373 Royal Oak Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7061</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2878</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Drewryville Cell Site 23373 Royal Oak Road</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.845609</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2878,36.7061</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>4200' WEST FROM THE INTERSECTION OF VIRGINIA STATE ROUTE 611 AND 649</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7103</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.04</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4200' WEST FROM THE INTERSECTION OF VIRGINIA STATE ROUTE 611 AND 649</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.837554</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.04,36.7103</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>37216 General Mahoney Road       ( 310378 )</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.881399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>37216 General Mahoney Road       ( 310378 )</value>
+ </Data>
+ <Data name="height">
+   <value>80.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.082139</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buggs Island Telephone Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.881399,36.9</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>30393 Meherrin Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.605</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.191399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>30393 Meherrin Road</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.838647</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buggs Island Telephone Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.191399,36.605</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>23197 BRYANTS CHURCH ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6831</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.148</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23197 BRYANTS CHURCH ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>80.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.389629</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buggs Island Telephone Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.148,36.6831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6786</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4794</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>19.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.161895</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4794,36.6786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>30010 Camp Parkway  Courtland, Virginia</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6837</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9985</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>30010 Camp Parkway  Courtland, Virginia</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.726434</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH OF VIRGINIA, DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9985,36.6837</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>30393 Meherrin Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.605</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.191399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>30393 Meherrin Road</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.838647</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.191399,36.605</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>19458 CAMP TWENTY DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7536</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.249</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>19458 CAMP TWENTY DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.486846</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.249,36.7536</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>8265 Main Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9052</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8944</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8265 Main Street</value>
+ </Data>
+ <Data name="height">
+   <value>77.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.511686</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8944,36.9052</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>Approximately 300 yds east of Governor Darden Rd, Courtland, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.724499</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0521</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Approximately 300 yds east of Governor Darden Rd, Courtland, VA</value>
+ </Data>
+ <Data name="height">
+   <value>83.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.794726</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0521,36.724499</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>GOVERNOR DARDEN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7246</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.052199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GOVERNOR DARDEN RD</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.866293</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hampton Roads Planning District Commission</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.052199,36.7246</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7146</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.068</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>39.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.772766</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hampton Roads Planning District Commission</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.068,36.7146</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7068</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0571</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.208063</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0571,36.7068</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6895</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9753</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.370532</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Southampton County Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9753,36.6895</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.586099</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2028</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.933812</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NARRICOT INDUSTRIES LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2028,36.586099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>33143 WOODARD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5703</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2489</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>33143 WOODARD ST</value>
+ </Data>
+ <Data name="height">
+   <value>3.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.292377</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2489,36.5703</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7111</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1994</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.24464</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1994,36.7111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>24205 STORY STATION ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6881</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0156</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>24205 STORY STATION ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>152</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.358508</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HELLO PAGER COMPANY, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0156,36.6881</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>7 MILES EAST OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6881</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0156</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7 MILES EAST OF</value>
+ </Data>
+ <Data name="height">
+   <value>152.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.358508</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0156,36.6881</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>HIGHWAY 611, 0.4 MILE WEST ON ROUTE 649</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7056</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.028</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGHWAY 611, 0.4 MILE WEST ON ROUTE 649</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.688943</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.028,36.7056</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>RT. 658, .25 MI E OF INTSECTION WITH RT. 609</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Southampton County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6853</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1658</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT. 658, .25 MI E OF INTSECTION WITH RT. 609</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.75954</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1658,36.6853</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>
