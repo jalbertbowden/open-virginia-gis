@@ -1,0 +1,2789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>500 Jamestown Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2678</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7128</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 Jamestown Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>46.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.952117</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Williamsburg United Methodist Church</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7128,37.2678</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>1118 IRONBOUND RD JCT RT 615 &amp; 616</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2731</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7347</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1118 IRONBOUND RD JCT RT 615 &amp; 616</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.264734</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JAMES CITY, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7347,37.2731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>South Henry</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.262099</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7036</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>South Henry</value>
+ </Data>
+ <Data name="height">
+   <value>19.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>22.7518</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7036,37.262099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>201 5th Ave / 2600 FT PAST QUARTER PATH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.259</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6761</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>201 5th Ave / 2600 FT PAST QUARTER PATH RD</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>22.561651</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Colonial Williamsburg Foundation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6761,37.259</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>1118 IRONBOUND RD BERKELEY MIDDLE SCHOOL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2733</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7347</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1118 IRONBOUND RD BERKELEY MIDDLE SCHOOL</value>
+ </Data>
+ <Data name="height">
+   <value>75.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.40657</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS EDUCATIONAL TELECOMMUNICATIONS ASSOCIATION INC  DBA =  WHRO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7347,37.2733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Berkeley</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.273</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7343</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Berkeley</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.641225</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of york</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7343,37.273</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>227 Woodmere Dr</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2520014</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7291584</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>227 Woodmere Dr</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>91.52541615</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Williamsburg, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7291584,37.2520014</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>520 Armistead Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2769432</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.71116054</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>520 Armistead Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>69.16290415</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Williamsburg, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.71116054,37.2769432</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>412 N. BOUNDARY STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2754</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7083</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>412 N. BOUNDARY STREET</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.635145</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CITY OF WILLIAMSBURG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7083,37.2754</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>613 SOUTH HENRY STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2653</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7058</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>613 SOUTH HENRY STREET</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.627929</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>College of William &amp; Mary</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7058,37.2653</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>550 LANDRUM DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.27</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7147</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>550 LANDRUM DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.540771</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>College of William &amp; Mary</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7147,37.27</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>119 GRIGSBY DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2686</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7083</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>119 GRIGSBY DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>22.705648</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>College of William &amp; Mary</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7083,37.2686</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>500 MARQUIS PKWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2703</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7075</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 MARQUIS PKWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.437574</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JCPENNEY CORP INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7075,37.2703</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>105 VISITORS CENTER DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2811</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6992</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>105 VISITORS CENTER DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.555027</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6992,37.2811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>506 NORTH HENRY STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2767</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7067</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>506 NORTH HENRY STREET</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.421876</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7067,37.2767</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>136 EAST FRANCIS STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2689</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6975</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>136 EAST FRANCIS STREET</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.690277</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6975,37.2689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>310 SOUTH ENGLAND STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2683</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>310 SOUTH ENGLAND STREET</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>22.724649</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7,37.2683</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>JAMESTOWN RD &amp; RT 199</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.252</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7289</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JAMESTOWN RD &amp; RT 199</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.771055</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7289,37.252</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2742</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7208</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.519603</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>College of William &amp; Mary</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7208,37.2742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>KEK LAB WAKE DR ROOM 103</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2703</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.722499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>KEK LAB WAKE DR ROOM 103</value>
+ </Data>
+ <Data name="height">
+   <value>10.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.572717</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLLEGE OF WILLIAM AND MARY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.722499,37.2703</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2664</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7042</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>18.152513</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>National Center for State Courts</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7042,37.2664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2658</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6814</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.074678</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6814,37.2658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2714</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.686399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.945573</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HERITAGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.686399,37.2714</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>201 5th Ave / 2600 FT PAST QUARTER PATH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2592</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6758</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>201 5th Ave / 2600 FT PAST QUARTER PATH RD</value>
+ </Data>
+ <Data name="height">
+   <value>60.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.135526</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6758,37.2592</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>1812 RICHMOND ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2928</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7242</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1812 RICHMOND ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.599159</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS IV, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7242,37.2928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>BERKELEY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2728</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7342</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BERKELEY</value>
+ </Data>
+ <Data name="height">
+   <value>60.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.255306</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7342,37.2728</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.290799</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.725599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.246475</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Williamsburg-James City County Public Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.725599,37.290799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2836</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7192</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.926301</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CENTRAL FLORIDA INVESTMENTS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7192,37.2836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>1324 RICHMOND ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2836</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7192</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1324 RICHMOND ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.926301</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CENTRAL FLORIDA INVESTMENTS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7192,37.2836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3033</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.733299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.650415</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Waterscapz Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.733299,37.3033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>313 First Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2747</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.691399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>313 First Street</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.88684</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Redcoats Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.691399,37.2747</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.275</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6933</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.602609</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6933,37.275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>201 5TH AVE 2600 FT PAST QTR RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2592</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6758</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>201 5TH AVE 2600 FT PAST QTR RD</value>
+ </Data>
+ <Data name="height">
+   <value>60.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.135526</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6758,37.2592</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>621 S ENGLAND ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2642</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6972</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>621 S ENGLAND ST</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.698808</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6972,37.2642</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>2600 FT PAST QUARTER PATH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2592</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6758</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2600 FT PAST QUARTER PATH RD</value>
+ </Data>
+ <Data name="height">
+   <value>60</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.135526</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6758,37.2592</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>2600 FT PAST QUARTER PATH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2592</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6758</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2600 FT PAST QUARTER PATH RD</value>
+ </Data>
+ <Data name="height">
+   <value>60</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.135526</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6758,37.2592</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>325 W FRANCIS ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2689</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7047</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>325 W FRANCIS ST</value>
+ </Data>
+ <Data name="height">
+   <value>17.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.548637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7047,37.2689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2667</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6994</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>22.947992</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GATELY COMMUNICATION COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6994,37.2667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>2600 FT PAST QUATER PATH RD ON RT 60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2592</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6758</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2600 FT PAST QUATER PATH RD ON RT 60</value>
+ </Data>
+ <Data name="height">
+   <value>60</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.135526</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6758,37.2592</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>2600 FT PAST QUATER PATH RD ON RT 60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2592</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6758</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2600 FT PAST QUATER PATH RD ON RT 60</value>
+ </Data>
+ <Data name="height">
+   <value>60</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.135526</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6758,37.2592</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>309 FIRST ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.276099</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.694399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>309 FIRST ST.</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>22.590095</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.694399,37.276099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>RT 60 2600 FT PAST QUARTER PATH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2592</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6758</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 60 2600 FT PAST QUARTER PATH RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.135526</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL WILLIAMSBURG FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6758,37.2592</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.252</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7289</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.771055</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7289,37.252</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>JCY RTS 615 &amp; 616</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2728</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7344</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JCY RTS 615 &amp; 616</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.447065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>James City County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7344,37.2728</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>WATER TOWER JAMESTOWN RD AND RT 199</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.252</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7289</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TOWER JAMESTOWN RD AND RT 199</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.771055</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7289,37.252</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>425 ARMISTEAD AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.275</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7083</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>425 ARMISTEAD AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.247806</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7083,37.275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.275599</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.708</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.051996</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.708,37.275599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>400 YDS E OF RT615 &amp; 616 INT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2728</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7344</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>400 YDS E OF RT615 &amp; 616 INT</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.447065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>James City County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7344,37.2728</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>S ENGLAND ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2608</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S ENGLAND ST</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.304826</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS SANITATION DISTRICT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7,37.2608</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>RT 615 &amp; RT 616</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2728</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7344</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 615 &amp; RT 616</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.447065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>James City County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7344,37.2728</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>412 N BOUNDRY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2753</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.708</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>412 N BOUNDRY ST</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.108301</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.708,37.2753</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>BERKLEY SCHOOLS INT RT 615 &amp; 616</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2728</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7344</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BERKLEY SCHOOLS INT RT 615 &amp; 616</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.447065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>James City County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7344,37.2728</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>440 N BOUNDRY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.275599</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.708</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>440 N BOUNDRY ST</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.051996</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.708,37.275599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>400 YARDS E OF SR 615 &amp; 616</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2728</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7344</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>400 YARDS E OF SR 615 &amp; 616</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.447065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7344,37.2728</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2735</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7347</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.842247</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON RD ED'L TELECOM ASSOC(HRETA)</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7347,37.2735</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>5500 Cox Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3031</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7307</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5500 Cox Rd</value>
+ </Data>
+ <Data name="height">
+   <value>37.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.576982</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7307,37.3031</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>Berkeley</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.273</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7343</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Berkeley</value>
+ </Data>
+ <Data name="height">
+   <value>60.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.641225</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hampton Roads Planning District Commission</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7343,37.273</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>104 JAMESTOWN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2689</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7087</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>104 JAMESTOWN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>17.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.036056</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE COLLEGE OF WILLIAM &amp; MARY IN VA.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7087,37.2689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>1118 IRONBOUND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.273</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7343</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1118 IRONBOUND RD</value>
+ </Data>
+ <Data name="height">
+   <value>60.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.641225</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY OF YORK</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7343,37.273</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>1005 RICHMOND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2796</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7174</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1005 RICHMOND RD</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.882345</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG'S RADIO STATION, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7174,37.2796</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>IRONBOUND ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2735</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7347</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>IRONBOUND ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>75.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.842247</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS EDUCATIONAL TELECOMMUNICATIONS ASSOC., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7347,37.2735</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2814</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6833</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.641265</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL PINES APARTMENTS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6833,37.2814</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>1118 IRONBOUND ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2733</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7344</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1118 IRONBOUND ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>76</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.308353</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMS Spectrum Holdings, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7344,37.2733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>1118 IRON BOUND ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2728</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7344</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1118 IRON BOUND ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>75.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.447065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Redi-Call Communications Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7344,37.2728</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>1118 IRONBOUND ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2733</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7344</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1118 IRONBOUND ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.308353</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7344,37.2733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>1118 IRONBOUND RD BERKELEY MIDDLE SCHOOL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Williamsburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2733</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7347</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1118 IRONBOUND RD BERKELEY MIDDLE SCHOOL</value>
+ </Data>
+ <Data name="height">
+   <value>81.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.40657</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7347,37.2733</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>
