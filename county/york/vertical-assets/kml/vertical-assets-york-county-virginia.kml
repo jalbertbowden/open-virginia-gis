@@ -1,0 +1,7703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>412 Oaktree Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3451</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7244</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>412 Oaktree Rd</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.035438</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HTS Towers, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7244,37.3451</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>I64 @ Rt 143, Merrimac Trail, x 238</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3025</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6845</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>I64 @ Rt 143, Merrimac Trail, x 238</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.816389</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of, Dept of Trans</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6845,37.3025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>I-64 @ Rt 143, Yorktown Rd, x 247A</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2131</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5872</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>I-64 @ Rt 143, Yorktown Rd, x 247A</value>
+ </Data>
+ <Data name="height">
+   <value>44.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.056371</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of, Dept of Trans</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5872,37.2131</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>700 Penniman Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2679</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6737</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>700 Penniman Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>52.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.139339</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Richmond 20Mhz, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6737,37.2679</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>1201 Airport Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.319</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6958</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1201 Airport Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>22.49225</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6958,37.319</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>200' N OF FALCON RD &amp; US 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.205</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5017</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200' N OF FALCON RD &amp; US 17</value>
+ </Data>
+ <Data name="height">
+   <value>107</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.658053</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK COUNTY OF VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5017,37.205</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>2831 GEORGE WASHINGTON HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.124</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4589</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2831 GEORGE WASHINGTON HWY</value>
+ </Data>
+ <Data name="height">
+   <value>44.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.797497</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4589,37.124</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>914 Denbigh Blvd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.157399</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5009</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>914 Denbigh Blvd.</value>
+ </Data>
+ <Data name="height">
+   <value>38.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.22698</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5009,37.157399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>100 TOWER LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2094</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5428</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 TOWER LN</value>
+ </Data>
+ <Data name="height">
+   <value>152.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.911045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEWPORT NEWS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5428,37.2094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>1311 seaford road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.188</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.442299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1311 seaford road</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.038018</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Global Tower, LCC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.442299,37.188</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>CORNER OF VICTORY BLVD. &amp; BIG BETHEL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1228</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4336</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CORNER OF VICTORY BLVD. &amp; BIG BETHEL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>50.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.382979</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Richmond 20MHz, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4336,37.1228</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>REDOUBT RD. (LOT 30 OF VICTORY INDUSTRIAL PARK)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1803</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4753</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>REDOUBT RD. (LOT 30 OF VICTORY INDUSTRIAL PARK)</value>
+ </Data>
+ <Data name="height">
+   <value>45.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.441674</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Richmond 20MHz, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4753,37.1803</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>2360 Hampton Hwy - NO60XC832B</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1042</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4279</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2360 Hampton Hwy - NO60XC832B</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.004097</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Monarch Towers II, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4279,37.1042</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Dare Elementary  300 Dare Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1643</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4587</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dare Elementary  300 Dare Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>41.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.03692</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Monarch Towers II, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4587,37.1643</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>210 ROY LN 2.5 MI NW RTS 168 &amp; 143</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3331</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7082</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 ROY LN 2.5 MI NW RTS 168 &amp; 143</value>
+ </Data>
+ <Data name="height">
+   <value>107</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.42781</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pinnacle Towers LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7082,37.3331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>185 E. ROCHAMBEAU DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3093</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6945</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>185 E. ROCHAMBEAU DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>54.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.44769</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6945,37.3093</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>301 Goodwin Neck Road - York ECC</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1827</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4664</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>301 Goodwin Neck Road - York ECC</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.239387</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of York</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4664,37.1827</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>929-Z Dare Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1661</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.432</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>929-Z Dare Road</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.245766</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pegasus Tower Company, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.432,37.1661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>1600 WATERVIEW RD YORKTOWN POWER STA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2147</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4606</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1600 WATERVIEW RD YORKTOWN POWER STA</value>
+ </Data>
+ <Data name="height">
+   <value>62.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.104606</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4606,37.2147</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>I-64  @ grove Interchange EXIT 243A</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.239</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.632799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>I-64  @ grove Interchange EXIT 243A</value>
+ </Data>
+ <Data name="height">
+   <value>44.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.14673</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of, Dept of Trans</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.632799,37.239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>206 Hubbard Ln</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.26905789</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.67438256</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>206 Hubbard Ln</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>81.41902124</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Williamsburg, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.67438256,37.26905789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>715 Lakeside Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1551</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4542</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>715 Lakeside Drive</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.309003</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4542,37.1551</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>210 ROY LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.333</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7085</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 ROY LANE</value>
+ </Data>
+ <Data name="height">
+   <value>115.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.561347</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7085,37.333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>122 PRODUCTION DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1118</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4596</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>122 PRODUCTION DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.219237</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4596,37.1118</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>100 TOWER LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2089</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5429</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 TOWER LANE</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.353569</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5429,37.2089</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>1400 PENNIMAN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2589</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6536</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1400 PENNIMAN RD</value>
+ </Data>
+ <Data name="height">
+   <value>56.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.461219</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6536,37.2589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>Rt 1020 (Old Route 238)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.249699</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5169</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt 1020 (Old Route 238)</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>MPPDC</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5169,37.249699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>7601 GEORGE WASHINGTON HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1818</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.486099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7601 GEORGE WASHINGTON HWY</value>
+ </Data>
+ <Data name="height">
+   <value>56.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.167358</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.486099,37.1818</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>Fenton Mill Road, York County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3355</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7113</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fenton Mill Road, York County</value>
+ </Data>
+ <Data name="height">
+   <value>92.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.764202</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7113,37.3355</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>4026 GEORGE WASHINGTON HWY. (094371)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1416</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4561</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4026 GEORGE WASHINGTON HWY. (094371)</value>
+ </Data>
+ <Data name="height">
+   <value>33.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.400925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4561,37.1416</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>2376 George Washington Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1823</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.481699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2376 George Washington Highway</value>
+ </Data>
+ <Data name="height">
+   <value>46.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.450861</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Nelson Investments, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.481699,37.1823</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>ASCOTT DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0989</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.403599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ASCOTT DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>41.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.616379</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SprintCom. Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.403599,37.0989</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>BACK CREEK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.202999</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4491</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BACK CREEK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>49.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.25381</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STC Two LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4491,37.202999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>314 WALLER MILL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.294</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7064</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>314 WALLER MILL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.820531</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STC Two LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7064,37.294</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>215-Z Falcon Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2026</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4976</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>215-Z Falcon Road</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.019313</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of York</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4976,37.2026</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>200 OLD YORK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2599</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6458</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 OLD YORK RD</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.643421</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pinnacle Towers LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6458,37.2599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>1117 Oriana Rd. (VA40134A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.148</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4643</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1117 Oriana Rd. (VA40134A)</value>
+ </Data>
+ <Data name="height">
+   <value>38.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.264663</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>T-Mobile Northeast LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4643,37.148</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>229 Redoubt Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1811</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4758</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>229 Redoubt Rd</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.18402</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>T-Mobile Northeast LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4758,37.1811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>2032 Old Williamsburg Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2306</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5498</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2032 Old Williamsburg Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.799516</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pegasus Tower Development Company, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5498,37.2306</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>100 SENTARA CIRCLE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3369</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7458</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 SENTARA CIRCLE</value>
+ </Data>
+ <Data name="height">
+   <value>66.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.776</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SENTARA WILLIAMSBURG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7458,37.3369</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>50 KINGSMILL RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2592</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6367</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>50 KINGSMILL RD.</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.839837</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA SUSSEX CORP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6367,37.2592</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2897</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7155</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.085418</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Delta - T Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7155,37.2897</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2247</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5161</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.05097</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>York County School District</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5161,37.2247</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>6700 Mooretown Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3367</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7369</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6700 Mooretown Road</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.877389</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HOME DEPOT U.S.A., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7369,37.3367</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>147 FENTON MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3353</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.711099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>147 FENTON MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>102.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.669107</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.711099,37.3353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>9300 George Washington Memorial Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2036</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5003</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9300 George Washington Memorial Highway</value>
+ </Data>
+ <Data name="height">
+   <value>12.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.431585</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>York County School District</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5003,37.2036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>601 C. Mooretown Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3367</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.737999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>601 C. Mooretown Road</value>
+ </Data>
+ <Data name="height">
+   <value>28.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.561717</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Sentara Willamsburg Community Hospital</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.737999,37.3367</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>215-Z FALCON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2025</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4975</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>215-Z FALCON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>125</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.05945</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4975,37.2025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3203</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.722499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.831817</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.722499,37.3203</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>FENTON MILL ROAD NEAR I-64 WEST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3358</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FENTON MILL ROAD NEAR I-64 WEST</value>
+ </Data>
+ <Data name="height">
+   <value>96</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.885013</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7114,37.3358</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>559 E ROCHAMBEAU DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3478</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7322</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>559 E ROCHAMBEAU DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>19.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.519374</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GREAT WOLF LODGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7322,37.3478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>147 FENTON MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3353</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.711099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>147 FENTON MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>102.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.669107</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.711099,37.3353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>200 HAWKS NEST DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2744</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 HAWKS NEST DR</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.982732</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6308,37.2744</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>210 ROY LN 2.5 MI NW RTS 168 &amp; 143</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3322</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.708599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 ROY LN 2.5 MI NW RTS 168 &amp; 143</value>
+ </Data>
+ <Data name="height">
+   <value>76</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.976232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL CENTER FOR STATE COURTS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.708599,37.3322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2378</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5547</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.564619</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EMCOR GOVERNMENT SERVICES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5547,37.2378</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>USCG Training Center Building 62</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2378</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5547</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>USCG Training Center Building 62</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.564619</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EMCOR GOVERNMENT SERVICES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5547,37.2378</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>Rt. 631 1.5 Mi. NNE of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.212499</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4614</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt. 631 1.5 Mi. NNE of</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.531666</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4614,37.212499</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>3100 HAMPTON HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1008</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4144</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3100 HAMPTON HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.907188</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PINES OF YORK APARTMENTS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4144,37.1008</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>5230 G. WASHINGTON MEM HWY.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1583</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4631</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5230 G. WASHINGTON MEM HWY.</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.074188</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS V, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4631,37.1583</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>210 ROY LANE, 2.5 MI NW RTS 168 &amp; 143</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3322</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.708599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 ROY LANE, 2.5 MI NW RTS 168 &amp; 143</value>
+ </Data>
+ <Data name="height">
+   <value>76</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.976232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.708599,37.3322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>215-Z FALCON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2025</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4975</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>215-Z FALCON RD</value>
+ </Data>
+ <Data name="height">
+   <value>125</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.05945</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4975,37.2025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>215 - Z FALCON RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2025</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4975</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>215 - Z FALCON RD.</value>
+ </Data>
+ <Data name="height">
+   <value>125</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.05945</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4975,37.2025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2886</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7203</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.245378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Embassy Suites Williamsburg</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7203,37.2886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>147 FENTON MILL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3358</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>147 FENTON MILL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>96</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.885013</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7114,37.3358</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>100 TOWER LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2094</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5428</value>
+ </Data>
+ <Data name="structure_type">
+   <value>OTHER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 TOWER LN</value>
+ </Data>
+ <Data name="height">
+   <value>152</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.911045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEWPORT NEWS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5428,37.2094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>1715 MERRIMAC TRL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2439</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6522</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1715 MERRIMAC TRL</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.117498</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PHILIP MORRIS USA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6522,37.2439</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1228</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4589</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.871263</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SPECIALTY COMMUNICATIONS INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4589,37.1228</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1228</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4589</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.871263</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SPECIALTY COMMUNICATIONS INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4589,37.1228</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1228</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4589</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.871263</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SPECIALTY COMMUNICATIONS INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4589,37.1228</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>515 BACK CREEK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2025</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.445</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>515 BACK CREEK RD</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.152164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS SANITATION DISTRICT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.445,37.2025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>108 Rich Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1228</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4589</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>108 Rich Rd</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.871263</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HUX JR., HERMAN R</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4589,37.1228</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>8 KM E OF YORKTOWN ON RT 173 5 KM NE OF INT WITH RT 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2103</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4494</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8 KM E OF YORKTOWN ON RT 173 5 KM NE OF INT WITH RT 17</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.104178</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Plains Marketing, L.P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4494,37.2103</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>210 ROY LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3328</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7083</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 ROY LANE</value>
+ </Data>
+ <Data name="height">
+   <value>119.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.530986</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GATELY COMMUNICATIONS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7083,37.3328</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>7801 POCOHONTAS TRL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2431</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6536</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7801 POCOHONTAS TRL</value>
+ </Data>
+ <Data name="height">
+   <value>144</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.268714</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Anheuser Busch LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6536,37.2431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>RR MP 14 NEAR AMTRAK STA ON WARWICK BLVD W OF US60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1719</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4511</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MP 14 NEAR AMTRAK STA ON WARWICK BLVD W OF US60</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.870507</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4511,37.1719</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>RR MILEPOST 38.9</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2956</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7242</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST 38.9</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.317295</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7242,37.2956</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>YORKTOWN POWER STA SR 631 1.5 MI NNE OF HORNSBYVILLE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2144</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4603</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>YORKTOWN POWER STA SR 631 1.5 MI NNE OF HORNSBYVILLE</value>
+ </Data>
+ <Data name="height">
+   <value>68</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.002256</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4603,37.2144</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>POTTERY FACTORY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3431</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7536</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POTTERY FACTORY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.18618</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>James City County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7536,37.3431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>POWER STATION ST RT 631 1.5 MI NNE OF HORNSBYVILLE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2144</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4603</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POWER STATION ST RT 631 1.5 MI NNE OF HORNSBYVILLE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.002256</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4603,37.2144</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>100 TOWER LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2094</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5428</value>
+ </Data>
+ <Data name="structure_type">
+   <value>OTHER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 TOWER LN</value>
+ </Data>
+ <Data name="height">
+   <value>152.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.911045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEWPORT NEWS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5428,37.2094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2122</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4594</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.946457</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4594,37.2122</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>1409 ORIANA RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.147199</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4603</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1409 ORIANA RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.385688</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROSE BROTHERS HEATING &amp; AC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4603,37.147199</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>5 MI E OF YORKTOWN ON RT 173 3 MI NE OF INT WITH RT 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2103</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4494</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5 MI E OF YORKTOWN ON RT 173 3 MI NE OF INT WITH RT 17</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.104178</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Plains Marketing, L.P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4494,37.2103</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2403</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6467</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.208528</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG COUNTRY CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6467,37.2403</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>210 ROY LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3328</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7083</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 ROY LN</value>
+ </Data>
+ <Data name="height">
+   <value>120</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.530986</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7083,37.3328</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>100 TOWER LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2086</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.543</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 TOWER LN</value>
+ </Data>
+ <Data name="height">
+   <value>102</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.486898</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.543,37.2086</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2483</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6605</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.879013</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Xanterra Kingsmill, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6605,37.2483</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>50 KINGSMILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2592</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6367</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>50 KINGSMILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.839837</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG MARRIOTT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6367,37.2592</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>YORKTOWN POWER STA SR 631 1.5 MI NNE OF HORNSBYVILLE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2144</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4603</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>YORKTOWN POWER STA SR 631 1.5 MI NNE OF HORNSBYVILLE</value>
+ </Data>
+ <Data name="height">
+   <value>72</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.002256</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4603,37.2144</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>1715 MERRIMAC TRAIL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2431</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.649999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1715 MERRIMAC TRAIL</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.228263</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PHILIP MORRIS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.649999,37.2431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>2376 GEORGE WASHINGTON HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1822</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4814</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2376 GEORGE WASHINGTON HWY</value>
+ </Data>
+ <Data name="height">
+   <value>49</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.346936</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COX COMMUNICATIONS HAMPTON RDS L L C</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4814,37.1822</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>5 MI E OF YORKTOWN ON RT 173 3 MI NE OF INT S RT 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2103</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4494</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5 MI E OF YORKTOWN ON RT 173 3 MI NE OF INT S RT 17</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.104178</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMOCO OIL COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4494,37.2103</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>2.5 MI NW OF RT 168 &amp; RT 143</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3319</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7083</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.5 MI NW OF RT 168 &amp; RT 143</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.971551</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Gately Communication Co</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7083,37.3319</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>176 WATER COUNTRY PKWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2644</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.627799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>176 WATER COUNTRY PKWY</value>
+ </Data>
+ <Data name="height">
+   <value>6.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.116455</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Busch Entertainment Co dba Water Country USA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.627799,37.2644</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>210 ROY LN 2.5 MI NW RTS 168 &amp; 143</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3331</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.708</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 ROY LN 2.5 MI NW RTS 168 &amp; 143</value>
+ </Data>
+ <Data name="height">
+   <value>106.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.153299</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GATELY COMMUNICATION CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.708,37.3331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>210 ROY LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3319</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7083</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 ROY LANE</value>
+ </Data>
+ <Data name="height">
+   <value>76</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.971551</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Titan Virginia Ready Mix LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7083,37.3319</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>FENTON MILL ROAD, YORK COUNTY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3353</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.711099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FENTON MILL ROAD, YORK COUNTY</value>
+ </Data>
+ <Data name="height">
+   <value>102.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.669107</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.711099,37.3353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>STATION 2 BIG BETHAL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1225</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4333</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATION 2 BIG BETHAL RD</value>
+ </Data>
+ <Data name="height">
+   <value>39</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.304111</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4333,37.1225</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>9300 G WASH. HWY @ HIGH SCHOOL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2047</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.501399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9300 G WASH. HWY @ HIGH SCHOOL</value>
+ </Data>
+ <Data name="height">
+   <value>103</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.749049</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.501399,37.2047</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>ROY LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3319</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7083</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROY LANE</value>
+ </Data>
+ <Data name="height">
+   <value>76</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.971551</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7083,37.3319</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>1000 ST RTE 132</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2833</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7017</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1000 ST RTE 132</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.470009</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS SANITATION DISTRICT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7017,37.2833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>61M N FALCON RD US 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2047</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.501399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>61M N FALCON RD US 17</value>
+ </Data>
+ <Data name="height">
+   <value>108</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.749049</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.501399,37.2047</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>SR 622 3 KM W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1853</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4614</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 622 3 KM W</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.15632</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4614,37.1853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>FENTON MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3356</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.711099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FENTON MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>96</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.760959</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of    Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.711099,37.3356</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>FENTON MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3356</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.711099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FENTON MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>96</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.760959</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of  Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.711099,37.3356</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>210 ROY LN 2.5 MI NW RTS 168 &amp; 143</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3331</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.708</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 ROY LN 2.5 MI NW RTS 168 &amp; 143</value>
+ </Data>
+ <Data name="height">
+   <value>107.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.153299</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RIVERSIDE HEALTH SYSTEM INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.708,37.3331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2361</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5172</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.323706</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5172,37.2361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>WATER TANK JAMES YORK PLZ</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2689</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.674199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TANK JAMES YORK PLZ</value>
+ </Data>
+ <Data name="height">
+   <value>44</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.314289</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.674199,37.2689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>SHERIFFS OFC 115 BALLARD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2336</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5175</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SHERIFFS OFC 115 BALLARD ST</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>18.477237</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5175,37.2336</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>5806 MOORETOWN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3203</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.722499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5806 MOORETOWN RD</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.831817</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.722499,37.3203</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>5806 MOORETOWN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3203</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.722499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5806 MOORETOWN RD</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.831817</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.722499,37.3203</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>FORESTRY OFC 147 FENTON MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3364</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY OFC 147 FENTON MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.001234</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7114,37.3364</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>RT 17 &amp; 105</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1908</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4886</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 17 &amp; 105</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.211332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4886,37.1908</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>402 ROLLING HILLS DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.251399</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6439</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>402 ROLLING HILLS DR</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.704367</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS SANITATION DISTRICT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6439,37.251399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>1000 SR 132</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2833</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7017</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1000 SR 132</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.470009</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS SANITATION DISTRICT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7017,37.2833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>WATER ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2389</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5111</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.504929</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5111,37.2389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>READ ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2375</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.510599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>READ ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.493782</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.510599,37.2375</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>YORK HIGH SCHOOL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2036</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.510599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>YORK HIGH SCHOOL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.698945</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.510599,37.2036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>HORNSBYVILLE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1958</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4805</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HORNSBYVILLE RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.577911</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4805,37.1958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>COCKLETOWN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1956</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5047</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COCKLETOWN RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.284383</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5047,37.1956</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>BROKENBRIDGE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1917</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.494399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BROKENBRIDGE RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.6385</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.494399,37.1917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>HERITAGE HAMLET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1817</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.445</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HERITAGE HAMLET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.354373</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.445,37.1817</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>BARCROFT RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1806</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4586</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BARCROFT RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.639754</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4586,37.1806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>HWY 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.168599</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4689</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 17</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.809234</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4689,37.168599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>ORIANA RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.147199</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4647</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ORIANA RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.970598</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4647,37.147199</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>DARE HEIGHTS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.147199</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.442999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DARE HEIGHTS</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.246927</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.442999,37.147199</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark126">
+ <name>PINEHURST RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1461</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4339</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PINEHURST RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.507595</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4339,37.1461</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark127">
+ <name>HOLLYWOOD BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1408</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4444</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HOLLYWOOD BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.041164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4444,37.1408</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark128">
+ <name>YORKTOWN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1239</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4161</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>YORKTOWN RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.42083</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4161,37.1239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark129">
+ <name>515 BACK CREEK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2017</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4461</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>515 BACK CREEK RD</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.934608</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS SANITATION DISTRICT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4461,37.2017</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark130">
+ <name>100 TOWER LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2094</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5428</value>
+ </Data>
+ <Data name="structure_type">
+   <value>OTHER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 TOWER LN</value>
+ </Data>
+ <Data name="height">
+   <value>152.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.911045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEWPORT NEWS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5428,37.2094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark131">
+ <name>WATER ST UNDER RT 17 BRIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2386</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.51</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER ST UNDER RT 17 BRIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.270354</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.51,37.2386</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark132">
+ <name>COLEMAN BRIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.237</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5072</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COLEMAN BRIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.541332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5072,37.237</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark133">
+ <name>9300 GEORGE WASHINGTON MEMORIAL HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2036</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.503299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9300 GEORGE WASHINGTON MEMORIAL HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.942257</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.503299,37.2036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark134">
+ <name>503 BACK CREEK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2011</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4489</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>503 BACK CREEK RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.502095</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4489,37.2011</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark135">
+ <name>2036 LIGHTFOOT RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3539</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7242</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2036 LIGHTFOOT RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.433687</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7242,37.3539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark136">
+ <name>901 GOOSELY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.225</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5194</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>901 GOOSELY RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>18.133935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5194,37.225</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark137">
+ <name>301 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2361</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5169</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>301 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.575997</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5169,37.2361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark138">
+ <name>126 BALLARD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2361</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5172</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>126 BALLARD ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.323706</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5172,37.2361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark139">
+ <name>5751 GEORGE WASHINGTON MEMORIAL HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1672</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4678</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5751 GEORGE WASHINGTON MEMORIAL HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.979754</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4678,37.1672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark140">
+ <name>4405 BIG BETHEL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1225</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.433</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4405 BIG BETHEL RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.480715</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.433,37.1225</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark141">
+ <name>114 HUBBARD LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2764</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6703</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>114 HUBBARD LN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.605266</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6703,37.2764</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark142">
+ <name>9300 GEORGE WASHINGTON MEMORIAL HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2036</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.503299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9300 GEORGE WASHINGTON MEMORIAL HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.942257</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.503299,37.2036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark143">
+ <name>I-64 EXIT 247A</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2133</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5872</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>I-64 EXIT 247A</value>
+ </Data>
+ <Data name="height">
+   <value>48.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>18.078462</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5872,37.2133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark144">
+ <name>HWY 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1844</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4856</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 17</value>
+ </Data>
+ <Data name="height">
+   <value>46.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.854332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4856,37.1844</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark145">
+ <name>2831 GEORGE WASHINGTON HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.124199</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4589</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2831 GEORGE WASHINGTON HWY</value>
+ </Data>
+ <Data name="height">
+   <value>49</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.881403</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4589,37.124199</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark146">
+ <name>503 BACKCREEK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2017</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4489</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>503 BACKCREEK RD</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.510182</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4489,37.2017</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark147">
+ <name>1363 GEORGE  WASHINGTON MEMORIAL HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.237</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5072</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1363 GEORGE  WASHINGTON MEMORIAL HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>5.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.541332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Commonwealth of Virginia, Coleman Toll Facility</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5072,37.237</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark148">
+ <name>210 ROY LANE 2.5 MI NW RTS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3319</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7083</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 ROY LANE 2.5 MI NW RTS</value>
+ </Data>
+ <Data name="height">
+   <value>76</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.971551</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Nextel License Holdings 1, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7083,37.3319</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark149">
+ <name>2.5 MI OF RTS 143 &amp; 168</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3319</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7083</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.5 MI OF RTS 143 &amp; 168</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.971551</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Nextel Communications of the Mid-Atlantic, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7083,37.3319</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark150">
+ <name>2.8 MI SE OF ST 105 &amp; US 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1756</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4658</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.8 MI SE OF ST 105 &amp; US 17</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.292227</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4658,37.1756</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark151">
+ <name>ROY LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3319</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7083</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROY LN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.971551</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7083,37.3319</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark152">
+ <name>GRAFTON CELL SITE 610 GOODWIN NECK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1881</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.462199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GRAFTON CELL SITE 610 GOODWIN NECK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.073694</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.462199,37.1881</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark153">
+ <name>APPROX. 0.35 MILES NORTHWEST OF INT. OF INTERSTATE 64 &amp; SR 604</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3331</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7083</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>APPROX. 0.35 MILES NORTHWEST OF INT. OF INTERSTATE 64 &amp; SR 604</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.479076</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7083,37.3331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark154">
+ <name>Robin Hood Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1051</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.413</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Robin Hood Rd</value>
+ </Data>
+ <Data name="height">
+   <value>39.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.351</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.413,37.1051</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark155">
+ <name>314 Waller Mill Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2941</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.712099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>314 Waller Mill Road</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.031225</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.712099,37.2941</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark156">
+ <name>215-Z Falcon Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2026</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4976</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>215-Z Falcon Road</value>
+ </Data>
+ <Data name="height">
+   <value>125</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.019313</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>York, County of - HRPDC - Hospital System</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4976,37.2026</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark157">
+ <name>4405 BIG BETHEL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1228</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4336</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4405 BIG BETHEL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.382979</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4336,37.1228</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark158">
+ <name>2831 GEORGE WASHINGTON HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.124</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4589</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2831 GEORGE WASHINGTON HWY</value>
+ </Data>
+ <Data name="height">
+   <value>49.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.797497</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4589,37.124</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark159">
+ <name>215-Z Falcon Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2026</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4976</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>215-Z Falcon Road</value>
+ </Data>
+ <Data name="height">
+   <value>125</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.019313</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hampton Roads Planning District Commission</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4976,37.2026</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark160">
+ <name>301 Goodwin Neck Road - York ECC</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1827</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4664</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>301 Goodwin Neck Road - York ECC</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.239387</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hampton Roads Planning District Commission</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4664,37.1827</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark161">
+ <name>Fenton Mill Road, York County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3355</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7113</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fenton Mill Road, York County</value>
+ </Data>
+ <Data name="height">
+   <value>102.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.764202</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Commonwealth of Virginia, Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7113,37.3355</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark162">
+ <name>215-Z Falcon Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2026</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4976</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>215-Z Falcon Road</value>
+ </Data>
+ <Data name="height">
+   <value>125</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.019313</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4976,37.2026</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark163">
+ <name>210 ROY LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3322</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.708599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 ROY LN</value>
+ </Data>
+ <Data name="height">
+   <value>76</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.976232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.708599,37.3322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark164">
+ <name>301 Goodwin Neck Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1827</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4664</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>301 Goodwin Neck Road</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.239387</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY OF YORK</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4664,37.1827</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark165">
+ <name>1600 WATERVIEW RD YORKTOWN POWER STA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2147</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4606</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1600 WATERVIEW RD YORKTOWN POWER STA</value>
+ </Data>
+ <Data name="height">
+   <value>71.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.104606</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4606,37.2147</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark166">
+ <name>100 TOWER LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2089</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5429</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 TOWER LANE</value>
+ </Data>
+ <Data name="height">
+   <value>101.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.353569</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5429,37.2089</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark167">
+ <name>100 TOWER LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2094</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5428</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 TOWER LN</value>
+ </Data>
+ <Data name="height">
+   <value>152.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.911045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS EDUCATIONAL TELECOMMUNICATIONS ASSOC., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5428,37.2094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark168">
+ <name>100 TOWER LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2094</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5428</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 TOWER LN</value>
+ </Data>
+ <Data name="height">
+   <value>152.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.911045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS EDUCATIONAL TELECOMMUNICATIONS ASSOC., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5428,37.2094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark169">
+ <name>100 TOWER LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2094</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5428</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 TOWER LN</value>
+ </Data>
+ <Data name="height">
+   <value>152.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.911045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS EDUCATIONAL TELECOMMUNICATIONS ASSOC., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5428,37.2094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark170">
+ <name>I-64 &amp; ST RT 602 NR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3357</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7113</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>I-64 &amp; ST RT 602 NR</value>
+ </Data>
+ <Data name="height">
+   <value>96</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.865619</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7113,37.3357</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark171">
+ <name>191 COTTAGE COVE LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2653</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.637799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>191 COTTAGE COVE LANE</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>18.479969</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KINGS CREEK PLANTATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.637799,37.2653</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark172">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3022</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7269</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.894193</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WYNDHAM RESORTS - GOVERNORS GREEN</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7269,37.3022</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark173">
+ <name>215-Z FALCON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2025</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4975</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>215-Z FALCON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>125</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.05945</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YORK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4975,37.2025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark174">
+ <name>Water Country location I-64 at exit 243</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2578</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6436</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Water Country location I-64 at exit 243</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.814369</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Commonwealth of Virginia</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6436,37.2578</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark175">
+ <name>Coleman Bridge Ft Eustis Blvd (Rt 105) at Rt 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1895</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Coleman Bridge Ft Eustis Blvd (Rt 105) at Rt 17</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.395353</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Commonwealth of Virginia</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4875,37.1895</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark176">
+ <name>100 SENTRA CIRCLE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3364</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.740799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 SENTRA CIRCLE</value>
+ </Data>
+ <Data name="height">
+   <value>28</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.056842</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.740799,37.3364</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark177">
+ <name>OFF ROUTE 60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3419</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7514</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ROUTE 60</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.323795</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hello Pager Company, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7514,37.3419</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark178">
+ <name>CRAWFORD ROAD, 2.4 MILES SOUTHWEST OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2092</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5425</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CRAWFORD ROAD, 2.4 MILES SOUTHWEST OF</value>
+ </Data>
+ <Data name="height">
+   <value>140</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.103191</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMS Spectrum Holdings, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5425,37.2092</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark179">
+ <name>CRAWFORD ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2092</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5425</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CRAWFORD ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>152.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.103191</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5425,37.2092</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark180">
+ <name>2.5 MILES NW OF RT 143 &amp; 168</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3319</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7083</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.5 MILES NW OF RT 143 &amp; 168</value>
+ </Data>
+ <Data name="height">
+   <value>82</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.971551</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buttner Holdings LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7083,37.3319</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark181">
+ <name>CRAWFORD RD.,     2.4 MILES SW OF YORKTOWN, VIRGINIA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2092</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5425</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CRAWFORD RD.,     2.4 MILES SW OF YORKTOWN, VIRGINIA</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.103191</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5425,37.2092</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark182">
+ <name>100 TOWER LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>York County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2094</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5428</value>
+ </Data>
+ <Data name="structure_type">
+   <value>OTHER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 TOWER LN</value>
+ </Data>
+ <Data name="height">
+   <value>152.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.911045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5428,37.2094</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>
