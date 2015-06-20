@@ -1,0 +1,6023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>4154 South Amherst Hwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4641</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1201</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4154 South Amherst Hwy</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>256.676788</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1201,37.4641</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>SR 606 1.2 KM E OF US RT 60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.575</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0203</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 606 1.2 KM E OF US RT 60</value>
+ </Data>
+ <Data name="height">
+   <value>77.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>202.666</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMUNITY FIRST BROADCASTERS INC  DBA =  WAMV AM RADIO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0203,37.575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>1105 OLD MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4272</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1236</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1105 OLD MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>93</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>235.687622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DOUGLAS E CATON</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1236,37.4272</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>520 RAGLAND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4211</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.115</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>520 RAGLAND RD</value>
+ </Data>
+ <Data name="height">
+   <value>67.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>221.81575</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TRI COUNTY BROADCASTING INC  DBA =  WBRG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.115,37.4211</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Bobwhite Road (Walton Park 196496470)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5219</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.063</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Bobwhite Road (Walton Park 196496470)</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>263.17807</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.063,37.5219</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>300 ELDON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4622</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1419</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 ELDON RD</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>251.322647</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1419,37.4622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>ATOP ROUND MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4692</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.006899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP ROUND MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>92.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>332.178741</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Capstar Radio Operating Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.006899,37.4692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>ON TOBACCO ROW MOUNTAIN 5 KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON TOBACCO ROW MOUNTAIN 5 KM N</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LYH BROADCASTING L C</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>South of Rt. 60, East of Blue Ridge Pkwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7272</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3063</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>South of Rt. 60, East of Blue Ridge Pkwy</value>
+ </Data>
+ <Data name="height">
+   <value>82.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>736.132812</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>First Media Radio LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3063,37.7272</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>Mount Airy Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5331</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0922</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Mount Airy Road</value>
+ </Data>
+ <Data name="height">
+   <value>134.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>280.459716</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Comcast of Connecticut/Georgia/Massachusetts/New Hampshire/New York/</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0922,37.5331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>840 Elon Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4734</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1494</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>840 Elon Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>226.411682</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1494,37.4734</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>IN THE CITY OF MADISON HEIGHTS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4227</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1171</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>IN THE CITY OF MADISON HEIGHTS</value>
+ </Data>
+ <Data name="height">
+   <value>73.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>226.701919</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1171,37.4227</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>1/2 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5864</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0247</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>103.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>200.882492</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0247,37.5864</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>1146 KM NE INT HWYS 677 &amp; 622 MADISON DIST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4503</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0745</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1146 KM NE INT HWYS 677 &amp; 622 MADISON DIST</value>
+ </Data>
+ <Data name="height">
+   <value>100</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>226.931442</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mel Wheeler, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0745,37.4503</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5631</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>56</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.137634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pinnacle Towers LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>139 Lancer Ln</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.57</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.058</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>139 Lancer Ln</value>
+ </Data>
+ <Data name="height">
+   <value>18.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>223.763305</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Amherst County Public Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.058,37.57</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.565</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1886</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>818.516296</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1886,37.565</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>HIGH PEAK TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>35</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLUE RIDGE STONE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>4783 SOUTH AMHERST HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4425</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.119399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4783 SOUTH AMHERST HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>245.612899</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRANT AVE DEVELOPMENT, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.119399,37.4425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>509 CREST OF PEDLAR DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.59</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.224699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>509 CREST OF PEDLAR DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>272.350311</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cobbeldick, Mark A</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.224699,37.59</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4325</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.097199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>247.197601</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMHERST CO TAXI SERVICE, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.097199,37.4325</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>349 OLD WRIGHT SHOP RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4325</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.097199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>349 OLD WRIGHT SHOP RD</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>247.197601</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMHERST CO TAXI SERVICE, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.097199,37.4325</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6406</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.221899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>298.53125</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LLOYD JR, RAYMOND E</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.221899,37.6406</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>High peak tobacco row mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>High peak tobacco row mountain</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CENTRA HEALTH INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.556399</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0811</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>259.506622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SWEET BRIAR COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0811,37.556399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.64</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0242</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>231.050811</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Winton Country Club</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0242,37.64</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>HI PEAK ON TOBACCO ROW MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5636</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1928</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HI PEAK ON TOBACCO ROW MTN</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.392211</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Electric Power Service Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1928,37.5636</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>2821 WIGGINS SPRINGS ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7953</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.18</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2821 WIGGINS SPRINGS ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>55.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1233.816528</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMHERST, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.18,37.7953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6856</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0244</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>239.157913</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADDOX JR, HENRY D</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0244,37.6856</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>RTE 210</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4122</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1181</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RTE 210</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>232.704269</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1181,37.4122</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ELECOM INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>OFF VA SECONDARY RT 634, 4.43KM NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7953</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.18</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF VA SECONDARY RT 634, 4.43KM NE</value>
+ </Data>
+ <Data name="height">
+   <value>55.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1233.816528</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LYNCHBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.18,37.7953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>TOBACCO ROW MOUNTAIN 11 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5636</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1928</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN 11 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>50</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.392211</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMERICAN ELECTRIC POWER SERVICE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1928,37.5636</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>HIGH PEAK TOBACCO ROW MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1939</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK TOBACCO ROW MTN</value>
+ </Data>
+ <Data name="height">
+   <value>43</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>842.193237</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ELECOM INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1939,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5647</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1883</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>819.841735</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1883,37.5647</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>ARN 8, NEAR SR 779, HIGH PEAK SITE ATOP TOBACCO ROW MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5647</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1883</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ARN 8, NEAR SR 779, HIGH PEAK SITE ATOP TOBACCO ROW MTN</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>819.841735</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1883,37.5647</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>RR &amp; PARTRIDGE CRK 900 FT E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4711</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9756</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR &amp; PARTRIDGE CRK 900 FT E</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.56047</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9756,37.4711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>PARTRIDGE CREEK CRSG 1417 FT W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4667</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.980799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PARTRIDGE CREEK CRSG 1417 FT W</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.937622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.980799,37.4667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>.2 MI S OF ST HWY 624 &amp; RR XING MP 160.1</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5511</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.07</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.2 MI S OF ST HWY 624 &amp; RR XING MP 160.1</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>221.200866</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.07,37.5511</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>ATOP HIGH PEAK MOUNTAIN 5.5 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.565</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1886</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP HIGH PEAK MOUNTAIN 5.5 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>818.516296</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1886,37.565</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4222</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1164</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>205.435943</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRIFFIN PIPE PRODUCTS CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1164,37.4222</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>RT 779 TOBACCO ROW MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1939</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 779 TOBACCO ROW MTN</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>842.193237</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LYNCHBURG READY MIX CONCRETE CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1939,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>OFF RT 60 NEAR BLUE RIDGE PKY E OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7269</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.306699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF RT 60 NEAR BLUE RIDGE PKY E OF</value>
+ </Data>
+ <Data name="height">
+   <value>83</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>730.981994</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CONSTRUCTION MATERIALS CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.306699,37.7269</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5631</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.137634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>H H HUNT DBA WALDEN POND APARTMENTS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4308</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.123</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>232.864562</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>4562 LLC DBA MCDONALD S</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.123,37.4308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>HIGH PEAK TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5633</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1933</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>43</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.257629</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HIGH PEAK COMMUNICATIONS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1933,37.5633</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.455</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1481</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>210.802246</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>O NEAL STEEL INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1481,37.455</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>PHYSICAL PLANT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5558</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0814</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PHYSICAL PLANT</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>256.248138</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SWEET BRIAR COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0814,37.5558</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>HIGH PEAK TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1939</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>842.193237</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ELECOM INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1939,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>HIGH PEAK TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WATTS PETROLEUM CORP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>HIGH PEAK TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Comcast of Georgia/Virginia, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>RT 774 4 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 774 4 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>APPOMATTOX RESCUE SQUAD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>INT RT 825 &amp; 731 ZANE SNEAD IND PK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.592499</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0331</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT RT 825 &amp; 731 ZANE SNEAD IND PK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>220.617111</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GLAD MANUFACTURING CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0331,37.592499</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>TOBACCO ROW MOUNTAIN HI PEAK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1939</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN HI PEAK</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>842.193237</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JOHN R TONEY CONSTRUCTION CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1939,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>HIGH PEAK TOBACCO ROW MOUN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1939</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK TOBACCO ROW MOUN</value>
+ </Data>
+ <Data name="height">
+   <value>43</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>842.193237</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ELECOM INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1939,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>HIGH PEAK TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ELECOM INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>TOBACCO ROW MOUNTAIN OFF ST RT 779</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.553099</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2122</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN OFF ST RT 779</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>711.091979</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ELECOM INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2122,37.553099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5492</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.208899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>666.510925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EAGLE EYRIE BAPTIST CONFERENCE CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.208899,37.5492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5492</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.208899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>666.510925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TAYLOR BROTHERS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.208899,37.5492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5631</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.137634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HURT &amp; PROFITT INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HENDERSON JR, HENRY B</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5631</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.137634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEWIS SCRUGGS PULPWOOD &amp; LOGGING</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.556399</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0811</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>259.506622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SWEET BRIAR COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0811,37.556399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>LIBRARY BLDG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.556399</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0811</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LIBRARY BLDG</value>
+ </Data>
+ <Data name="height">
+   <value>18.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>259.506622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SWEET BRIAR COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0811,37.556399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>TOBACCO ROW MOUNTAIN OFF ST RT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.553099</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2122</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN OFF ST RT</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>711.091979</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ELECOM INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2122,37.553099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DONNLEY, R R</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>HIGH PEAK TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>35</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>L E LICHFORD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Amherst County School Board</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>OFF VA SECONDARY RT 600 5 KM S US RT 60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5208</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.985799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF VA SECONDARY RT 600 5 KM S US RT 60</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>343.220458</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA REGION 2000 LOCAL GOVERMENT COUNCIL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.985799,37.5208</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>2.5 MI NEE OF SR 635 &amp; US 60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7028</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1889</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.5 MI NEE OF SR 635 &amp; US 60</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>678.310852</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA REGION 2000 LOCAL GOVERMENT COUNCIL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1889,37.7028</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>SR 1324 0.2 KM S OF SR 130 N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4664</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.136399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 1324 0.2 KM S OF SR 130 N</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>256.078125</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.136399,37.4664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>US 60 1 KM W OF INT SR 802 E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6667</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1919</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 60 1 KM W OF INT SR 802 E</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>247.732147</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1919,37.6667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>BUS US 29 0.2 KM S INT BUS 29 &amp; SR 643</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5833</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0511</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUS US 29 0.2 KM S INT BUS 29 &amp; SR 643</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>217.714767</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0511,37.5833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>403 S MAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5861</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.051899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>403 S MAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>231.661941</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMHERST, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.051899,37.5861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>36.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMHERST, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>112 TAYLOR ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.585</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0511</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>112 TAYLOR ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>232.298233</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMHERST, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0511,37.585</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>FORESTRY OFC RT 689 1/2 MI W OF RT 60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.592499</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0492</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY OFC RT 689 1/2 MI W OF RT 60</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>220.147018</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0492,37.592499</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>ADMIN BLDG CENTRALVA TRAINING CTR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4122</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1214</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ADMIN BLDG CENTRALVA TRAINING CTR</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>231.238922</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1214,37.4122</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>BLDG 1 BRADFORD CENTRAL VA TRAINING CTR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4111</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1225</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLDG 1 BRADFORD CENTRAL VA TRAINING CTR</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>232.445175</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1225,37.4111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>403 S MAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5861</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.051899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>403 S MAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>231.661941</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMHERST, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.051899,37.5861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>400 YARDS N OF BEDFORD HYDROELECTRIC PLANT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5736</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2875</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>400 YARDS N OF BEDFORD HYDROELECTRIC PLANT</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>285.364532</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BEDFORD, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2875,37.5736</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MONELSION VOLUNTEER FIRE DEPT AND RESCUE SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>HIGH PEAK TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5631</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>35</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.137634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>ST Hwy 624 @ RR MP 160.6</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5458</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0739</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST Hwy 624 @ RR MP 160.6</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>231.589904</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0739,37.5458</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>1901 Tate Springs</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4664</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1697</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1901 Tate Springs</value>
+ </Data>
+ <Data name="height">
+   <value>19.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>202.062057</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Centra Health Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1697,37.4664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>143 BOXWOOD CIRCLE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5292</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.097499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>143 BOXWOOD CIRCLE</value>
+ </Data>
+ <Data name="height">
+   <value>48.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>257.446441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.097499,37.5292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>143 BOXWOOD CIRCLE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5292</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.097499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>143 BOXWOOD CIRCLE</value>
+ </Data>
+ <Data name="height">
+   <value>48.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>257.446441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.097499,37.5292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>173 SNEAD INDUSTRIAL PARK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5931</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.031099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>173 SNEAD INDUSTRIAL PARK</value>
+ </Data>
+ <Data name="height">
+   <value>44.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>214.522735</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.031099,37.5931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>141 HIGHVIEW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4761</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1178</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>141 HIGHVIEW</value>
+ </Data>
+ <Data name="height">
+   <value>31.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>283.222839</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1178,37.4761</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>ROUTE 2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5303</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0914</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 2</value>
+ </Data>
+ <Data name="height">
+   <value>48.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>273.097991</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0914,37.5303</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>173 SNEAD INDUSTRIAL PARK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5928</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0314</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>173 SNEAD INDUSTRIAL PARK</value>
+ </Data>
+ <Data name="height">
+   <value>44.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>217.62471</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0314,37.5928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>HIGH PEAK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1939</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>43</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>842.193237</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1939,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>RAILROAD MP 160.0</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5511</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.07</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RAILROAD MP 160.0</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>221.200866</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.07,37.5511</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>0.25 MI W OF INT OF SSR 726 &amp; US 46</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3858</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0675</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.25 MI W OF INT OF SSR 726 &amp; US 46</value>
+ </Data>
+ <Data name="height">
+   <value>2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.347961</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0675,37.3858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>SR 779 MISTOVER DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5492</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.208899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 779 MISTOVER DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>666.510925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HENDERSON JR, HENRY B</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.208899,37.5492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5492</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.208899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>666.510925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HENDERSON JR, HENRY B DBA PROFESSIONAL COMMUNICATIONS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.208899,37.5492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5492</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.208899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>666.510925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HENDERSON, HENRY B DBA PROFESSIONAL COMMUNICATIONS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.208899,37.5492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>HIGH PEAK TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5631</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>35</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.137634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HIGH PEAK COMMUNICATIONS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>11.6 MILES E OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7494</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1422</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11.6 MILES E OF</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>772.192443</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL LICENSE HOLDINGS 3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1422,37.7494</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>11.6 MILES E OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7494</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1422</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11.6 MILES E OF</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>772.192443</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1422,37.7494</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>TOBACCO ROW MOUNT HIGH PEAK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNT HIGH PEAK</value>
+ </Data>
+ <Data name="height">
+   <value>43</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.770935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5631</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.137634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>840 Elon Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4733</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1492</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>840 Elon Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>226.040328</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1492,37.4733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>IN THE CITY OF MADISON HEIGHTS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4225</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.116899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>IN THE CITY OF MADISON HEIGHTS</value>
+ </Data>
+ <Data name="height">
+   <value>77.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>223.461639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.116899,37.4225</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>AMHERST CELL SITE: 1/2 MILE EAST OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5861</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0247</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>AMHERST CELL SITE: 1/2 MILE EAST OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>195.843124</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0247,37.5861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>FAULCONERVILLE CELL SITE: INTERSECTION OF US 29 &amp; CR 663</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5328</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0922</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FAULCONERVILLE CELL SITE: INTERSECTION OF US 29 &amp; CR 663</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>281.904418</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0922,37.5328</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>1.0 MILE NW OF THE INTERSECTION OF STATE ROUTE 614 AND STATE ROUTE 610</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6642</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0364</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.0 MILE NW OF THE INTERSECTION OF STATE ROUTE 614 AND STATE ROUTE 610</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>370.587554</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0364,37.6642</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>3.31 MILES NORTH OF ELON</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5642</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1925</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3.31 MILES NORTH OF ELON</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>848.808654</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1925,37.5642</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>High Peak Mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5632</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>High Peak Mountain</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.408691</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Sweet Briar Institute/College</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5632</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>HIGH PEAK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5632</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.408691</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Liberty University</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5632</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>TOBACCO ROW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5631</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW</value>
+ </Data>
+ <Data name="height">
+   <value>58.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.137634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LYNCHBURG CITY SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>HIGH PEAK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5632</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>61.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.408691</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Twedt, Alice</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5632</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5631</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>58.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.137634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Twedt, Alice</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>HIGH PEAK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5632</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>61.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.408691</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Twedt, Alice</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5632</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>HIGH PEAK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5632</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>61.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.408691</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DESMOND T. DOSS JUNIOR ACADEMY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5632</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4271</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1236</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>235.876602</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Twedt, Alice</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1236,37.4271</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6941</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2455</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>432.096343</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS OF VIRGINIA INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2455,37.6941</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>2.7 MI S of SR600 &amp; US60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5211</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.985999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.7 MI S of SR600 &amp; US60</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>344.527923</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Amherst, County of  Department of Public Safety</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.985999,37.5211</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>2.5 MI NNE of SR635 &amp; US60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7029</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1891</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.5 MI NNE of SR635 &amp; US60</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>678.055603</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Amherst, County of Department of Public Safety</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1891,37.7029</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>ATOP ROUND MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4692</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.006899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP ROUND MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>93.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>332.178741</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALOHA STATION TRUST, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.006899,37.4692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>Power Plant Road Sweet Briar College</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5567</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0814</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Power Plant Road Sweet Briar College</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>257.464477</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STU-COMM, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0814,37.5567</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>Atop Round Mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4692</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.006899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Atop Round Mountain</value>
+ </Data>
+ <Data name="height">
+   <value>93.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>332.178741</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALOHA STATION TRUST, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.006899,37.4692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>100 SCHOOL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5835</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.052</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 SCHOOL RD</value>
+ </Data>
+ <Data name="height">
+   <value>55.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>220.230804</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.052,37.5835</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>3.3 MI N OF ELON</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5641</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1926</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3.3 MI N OF ELON</value>
+ </Data>
+ <Data name="height">
+   <value>28.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>848.842468</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1926,37.5641</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>IN THE CITY OF MADISON HEIGHTS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4227</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1171</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>IN THE CITY OF MADISON HEIGHTS</value>
+ </Data>
+ <Data name="height">
+   <value>77.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>226.701919</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1171,37.4227</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>132 SCHOOL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5835</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.051899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>132 SCHOOL RD</value>
+ </Data>
+ <Data name="height">
+   <value>55.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>220.230804</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMUNITY FIRST BROADCASTERS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.051899,37.5835</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark126">
+ <name>.35 MI NW FROM JCT US HWYS 29 AND 60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5853</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0503</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.35 MI NW FROM JCT US HWYS 29 AND 60</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>234.190185</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CENTRAL VIRGINIA RADIO COMMUNICATION SYSTEMS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0503,37.5853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark127">
+ <name>1 MI SW FROM RT 659 AND 1 MI NE FROM RT 624</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5207</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9861</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI SW FROM RT 659 AND 1 MI NE FROM RT 624</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>344.330596</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CENTRAL VIRGINIA RADIO COMMUNICATION SYSTEMS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9861,37.5207</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark128">
+ <name>1/2 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5864</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>106.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>200.882492</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0247,37.5864</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark129">
+ <name>RT 29 N &amp; AMELON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4418</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.126899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 29 N &amp; AMELON RD</value>
+ </Data>
+ <Data name="height">
+   <value>14.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>213.011383</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SEVEN HILLS MEDIA, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.126899,37.4418</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark130">
+ <name>TOBACCO ROW MTN 4 MI N ELON VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5638</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1931</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MTN 4 MI N ELON VA</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>848.144836</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLUE RIDGE PUBLIC TELEVISION, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1931,37.5638</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark131">
+ <name>TOBACCO ROW MTN NEAR TOWN OF ELON</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5638</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1931</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MTN NEAR TOWN OF ELON</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>848.144836</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLUE RIDGE PUBLIC TELEVISION, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1931,37.5638</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark132">
+ <name>SOUTHERN RAILWAY COMMUNICATIONS DEPT BLDG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5025</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1282</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SOUTHERN RAILWAY COMMUNICATIONS DEPT BLDG</value>
+ </Data>
+ <Data name="height">
+   <value>13.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>220.42337</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1282,37.5025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark133">
+ <name>HIGH PEAK MTN 6 MI NW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.565</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.188499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK MTN 6 MI NW OF</value>
+ </Data>
+ <Data name="height">
+   <value>34.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>821.857482</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.188499,37.565</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark134">
+ <name>7.8 MILES SW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5657</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1906</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7.8 MILES SW OF</value>
+ </Data>
+ <Data name="height">
+   <value>27.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>884.419555</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AT&amp;T Communications of Virginia, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1906,37.5657</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark135">
+ <name>4066 GLASGOW HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6147</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.434399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4066 GLASGOW HWY</value>
+ </Data>
+ <Data name="height">
+   <value>3.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>219.039718</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.434399,37.6147</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark136">
+ <name>1006 FIBRE PLANT RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5064</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9117</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1006 FIBRE PLANT RD</value>
+ </Data>
+ <Data name="height">
+   <value>3.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>130.906158</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9117,37.5064</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark137">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4544</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.113</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>254.982742</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Amherst County Public Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.113,37.4544</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark138">
+ <name>2247 Little Piney Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7658</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1383</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2247 Little Piney Rd</value>
+ </Data>
+ <Data name="height">
+   <value>12.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>573.85437</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Crossroads Camp and Conference Center</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1383,37.7658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark139">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7658</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1383</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>573.85437</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Crossroads Camp and Conference Center</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1383,37.7658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark140">
+ <name>HIGH PEAK, APPROX 3 MI E. OF PEDLAR MILLS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1939</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH PEAK, APPROX 3 MI E. OF PEDLAR MILLS</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>842.193237</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The Beeper Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1939,37.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark141">
+ <name>ROUND MOUNTAIN LOOP 1.2 MI  NORTH OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.468599</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0072</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUND MOUNTAIN LOOP 1.2 MI  NORTH OF</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>353.908752</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0072,37.468599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark142">
+ <name>TOBACCO ROW MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Amherst County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5631</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOBACCO ROW MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>58.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>849.137634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1936,37.5631</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>
