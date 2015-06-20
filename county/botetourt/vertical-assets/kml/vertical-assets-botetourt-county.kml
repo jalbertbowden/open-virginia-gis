@@ -1,0 +1,6485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>Salt Petre Cave Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6396</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.7935</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Salt Petre Cave Road</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>333.62741</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers II LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.7935,37.6396</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>Tinker Top Road, Daleville VA Botetourt County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3735</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9273</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Tinker Top Road, Daleville VA Botetourt County</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>665.100585</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Western Virginia Emergency Medical Services Council, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9273,37.3735</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>2.3 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5656</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6892</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.3 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>28.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>902.297607</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6892,37.5656</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>Tinker Mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3739</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9264</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Tinker Mountain</value>
+ </Data>
+ <Data name="height">
+   <value>53.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>663.300964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia PCS Alliance, L.C. d/b/a NTELOS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9264,37.3739</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Intersection of Hwy 11 &amp; 220A</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3862</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8976</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Intersection of Hwy 11 &amp; 220A</value>
+ </Data>
+ <Data name="height">
+   <value>48.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>408.066741</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Beacon Towers</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8976,37.3862</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Troutville</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4252</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8748</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Troutville</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>438.22174</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Beacon Towers</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8748,37.4252</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>467 Layman Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4098</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9093</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>467 Layman Lane</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>420.701507</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9093,37.4098</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>67 Strawberry Hill Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3634</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9337</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>67 Strawberry Hill Road</value>
+ </Data>
+ <Data name="height">
+   <value>33.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>414.701721</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9337,37.3634</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>TINKER MOUNTAIN RT 1 BOX 273</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3731</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TINKER MOUNTAIN RT 1 BOX 273</value>
+ </Data>
+ <Data name="height">
+   <value>36.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.688964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HARTMAN JR, LEE C</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>791 GROVE HILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4836</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8833</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>791 GROVE HILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>395.519836</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8833,37.4836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>1808 PRINCESS BLUFF RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.72</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8192</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1808 PRINCESS BLUFF RD</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.066131</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8192,37.72</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Tinker Mtn, 1.1 km Northwest of Cloverdale, Botetourt County, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3732</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9267</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Tinker Mtn, 1.1 km Northwest of Cloverdale, Botetourt County, VA</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>677.138061</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Positive Alternative Radio Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9267,37.3732</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>RT 1 BOX 273</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3737</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9258</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 1 BOX 273</value>
+ </Data>
+ <Data name="height">
+   <value>44.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>671.636047</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9258,37.3737</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>410 CRAWFORD MOUNTAIN LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6322</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8308</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>410 CRAWFORD MOUNTAIN LANE</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>678.436401</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8308,37.6322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>END OF TINKER MOUNTAIN 3.2 MI SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3729</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF TINKER MOUNTAIN 3.2 MI SSW</value>
+ </Data>
+ <Data name="height">
+   <value>32.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>677.276611</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3729</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Southernmost point on plateau atop Tinker Mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3731</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Southernmost point on plateau atop Tinker Mountain</value>
+ </Data>
+ <Data name="height">
+   <value>30.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.688964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Capstar Radio Operating Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>SR-645 RR Crossing @ RR MP H220.45</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.759999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-645 RR Crossing @ RR MP H220.45</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>317.759368</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.759999,37.4628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>SR-784 RR Crossing @ RR MP H219.10</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.750299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-784 RR Crossing @ RR MP H219.10</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>298.599609</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.750299,37.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Tinker Crk Bot  3.44mi  NNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4672</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.929399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Tinker Crk Bot  3.44mi  NNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>473.613494</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.929399,37.4672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>205 N ROANOKE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5003</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8769</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>205 N ROANOKE ST</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>369.684448</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8769,37.5003</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>187 Vista Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3658</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9222</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>187 Vista Drive</value>
+ </Data>
+ <Data name="height">
+   <value>10.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>380.88208</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Metalsa Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9222,37.3658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.55</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8333</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>303.84729</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8333,37.55</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.63</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.016099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>856.367126</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOTO: RACING FABRICATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.016099,37.63</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>37 Maple Ave.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4189</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8758</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>37 Maple Ave.</value>
+ </Data>
+ <Data name="height">
+   <value>41</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>438.648895</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electrical Services, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8758,37.4189</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>5352 CLOVERDALE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3344</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.874199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5352 CLOVERDALE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>319.207244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.874199,37.3344</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>200 THE GLEBE BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4206</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.915</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 THE GLEBE BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>6.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>419.605438</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE GLEBE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.915,37.4206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>TINKER TOP ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3733</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9272</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TINKER TOP ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.108581</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROANOKE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9272,37.3733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>1435 ROANOKE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4058</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9147</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1435 ROANOKE RD</value>
+ </Data>
+ <Data name="height">
+   <value>10.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>379.349853</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LORD BOTETROUT HIGH SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9147,37.4058</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>Tinker Top Road, Daleville VA Botetourt County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3733</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9272</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Tinker Top Road, Daleville VA Botetourt County</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.108581</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Roanoke, County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9272,37.3733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Blue Ridge Dr RR crossing at MP H228.50</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4106</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8822</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Blue Ridge Dr RR crossing at MP H228.50</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>417.044372</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8822,37.4106</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>SR723 RR crossing at MP M248.55</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3511</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.826399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR723 RR crossing at MP M248.55</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>341.455383</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.826399,37.3511</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4719</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9289</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>444.821838</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Botetourt Country Club</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9289,37.4719</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>I 81 near MM 162.5</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4994</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.7486</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>I 81 near MM 162.5</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>295.075592</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of, Department of Transportation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.7486,37.4994</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5278</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.668</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>255.26773</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GLOBAL STONE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.668,37.5278</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3783</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8992</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>367.053527</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AQUMIX</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8992,37.3783</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>2647 LEE HWY S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3845</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.903</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2647 LEE HWY S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>369.497833</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MKG INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.903,37.3845</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>1.5 MI FROM INT OF US 11 &amp; SR 611 AT 110 DEG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5653</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6889</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI FROM INT OF US 11 &amp; SR 611 AT 110 DEG</value>
+ </Data>
+ <Data name="height">
+   <value>29</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>892.873718</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Electric Power Service Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6889,37.5653</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>1.5 MI FROM INT OF US 11 &amp; SR 611 AT 110 DEG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5653</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6889</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI FROM INT OF US 11 &amp; SR 611 AT 110 DEG</value>
+ </Data>
+ <Data name="height">
+   <value>29</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>892.873718</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Electric Power Service Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6889,37.5653</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>1 AVERY ROW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3292</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.865799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 AVERY ROW</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>316.795806</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NLG MERGER CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.865799,37.3292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>RR crossing at SR-763 and MP H221.01</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4581</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.7669</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR crossing at SR-763 and MP H221.01</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>328.912353</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.7669,37.4581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>RR crossing at SR-625 and MP H215.78</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5089</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.7061</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR crossing at SR-625 and MP H215.78</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>277.834381</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.7061,37.5089</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>RR crossing at SR-614 and MP H208.8</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5478</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.623899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR crossing at SR-614 and MP H208.8</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>245.799255</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.623899,37.5478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>microwave site 1.5 mi from int of US-11 &amp; SR-611 at 110 degrees near B</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5653</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6889</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>microwave site 1.5 mi from int of US-11 &amp; SR-611 at 110 degrees near B</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>892.873718</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6889,37.5653</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>458 CAMP EAGLE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5375</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9019</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>458 CAMP EAGLE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>341.567474</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH BAPTIST CHURCH</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9019,37.5375</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>ARR MILEPOST 204.4</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.605</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.7414</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ARR MILEPOST 204.4</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>280.610504</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.7414,37.605</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>RR &amp; GRAIN ELEVATOR CROSSING</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6453</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8086</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR &amp; GRAIN ELEVATOR CROSSING</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>285.212799</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8086,37.6453</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>WASP ROCK TUNNEL 935 E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5458</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.653599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WASP ROCK TUNNEL 935 E</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>255.571823</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.653599,37.5458</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>DETECTOR, RR RoW MP H 208.9</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5464</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6242</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DETECTOR, RR RoW MP H 208.9</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>248.312423</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6242,37.5464</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>SAD at RR MP H 224.6 NEAR NACE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4389</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.825299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SAD at RR MP H 224.6 NEAR NACE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>416.526855</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.825299,37.4389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>RR MILEPOST 200.8</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.565</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.735599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST 200.8</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>263.912475</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.735599,37.565</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>500  N OF RR CROSSING SINKING CREEK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8131</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500  N OF RR CROSSING SINKING CREEK</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>287.136352</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8131,37.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>MIDDLE RIDGE MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5308</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6978</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MIDDLE RIDGE MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>29</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>398.121429</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6978,37.5308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>US RT 220 3 MI W OF EAGLE ROCK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6922</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.7956</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 220 3 MI W OF EAGLE ROCK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>330.170104</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS TRANSMISSION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.7956,37.6922</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>ST RT 779</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4347</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9761</value>
+ </Data>
+ <Data name="structure_type">
+   <value>SILO</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 779</value>
+ </Data>
+ <Data name="height">
+   <value>171</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>649.076354</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROANOKE CEMENT COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9761,37.4347</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5147</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.7072</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>260.924407</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MEADVILLE FORGING COMPANY, L.P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.7072,37.5147</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4167</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8767</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>424.194396</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAINBOW FOREST BAPTIST CHURCH</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8767,37.4167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>RT 604 E 1/4 MI E OF RT 11</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3828</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8986</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 604 E 1/4 MI E OF RT 11</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>373.08612</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHANDLER CONCRETE OF VIRGINIA INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8986,37.3828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>55  N OF CSXT XING CSXT MP CAB 227.4</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.788299</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.7814</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>55  N OF CSXT XING CSXT MP CAB 227.4</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>303.104095</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.7814,37.788299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>SR 605</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3642</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.903</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 605</value>
+ </Data>
+ <Data name="height">
+   <value>7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>376.667327</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SUMMIT HELICOPTERS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.903,37.3642</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>1/4 MI N RT 655 1 1/4 MI S US RT 220</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6044</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8511</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/4 MI N RT 655 1 1/4 MI S US RT 220</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>384.829345</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CARPER, DAVID M</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8511,37.6044</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>143 STEPHENS DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4195</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8778</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>143 STEPHENS DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>443.601531</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>R F CONSULTING INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8778,37.4195</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5667</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.7664</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>325.816375</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.7664,37.5667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>1808 PRICES BLUFF RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.72</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8192</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1808 PRICES BLUFF RD</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.066131</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8192,37.72</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>2187 TINKER TOP RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3736</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.926899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2187 TINKER TOP RD</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>668.082885</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.926899,37.3736</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>176 FIRE TOWER LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6322</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>176 FIRE TOWER LANE</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>678.436401</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8308,37.6322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>1062 LAKE CATHERINE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5622</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1062 LAKE CATHERINE DR</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>902.955017</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6894,37.5622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5667</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.7667</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>319.989532</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.7667,37.5667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>1808 PRICES BLUFF RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.72</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8192</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1808 PRICES BLUFF RD</value>
+ </Data>
+ <Data name="height">
+   <value>60</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.066131</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8192,37.72</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>2187 TINKER TOP RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3736</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.926899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2187 TINKER TOP RD</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>668.082885</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.926899,37.3736</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>176 FIRE TOWER LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6322</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>176 FIRE TOWER LN</value>
+ </Data>
+ <Data name="height">
+   <value>60</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>678.436401</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8308,37.6322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>1062 LAKE CATHERINE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5622</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6897</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1062 LAKE CATHERINE DR</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>895.375915</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6897,37.5622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>US 220 .7 KM N OF SR 655</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.612</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8297</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 220 .7 KM N OF SR 655</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>376.293304</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8297,37.612</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>US 11 .2 KM S OF I81 EXIT 47</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5439</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6672</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 11 .2 KM S OF I81 EXIT 47</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>282.248199</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6672,37.5439</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>SR 651 2 KM E OF US 11 E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4233</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8431</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 651 2 KM E OF US 11 E</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>473.316925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8431,37.4233</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>TOP OF TINKER MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3731</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOP OF TINKER MTN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.688964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WESTERN VIRGINIA EMS COUNCIL INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>I81 .5 MI S OF RT 11</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3708</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9189</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>I81 .5 MI S OF RT 11</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>415.144622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9189,37.3708</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>BOTETOURT CU</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4236</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.845599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BOTETOURT CU</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>466.869537</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.845599,37.4236</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>19753 MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5289</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6797</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>19753 MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>12.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>255.080307</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6797,37.5289</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4178</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8758</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>424.746429</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TROUTVILLE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8758,37.4178</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.55</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8333</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>303.84729</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8333,37.55</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>RT 718 1 KM NW OF RT 622</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7547</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.82</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 718 1 KM NW OF RT 622</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>331.032684</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.82,37.7547</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>BOTETOURT CU</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4236</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.845599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BOTETOURT CU</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>466.869537</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.845599,37.4236</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>ROUTE 460</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3742</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8086</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 460</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>387.859313</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8086,37.3742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>4505 EASTPARK DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3431</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8778</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4505 EASTPARK DR</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>336.424926</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROANOKE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8778,37.3431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>ATOP TINKER MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3731</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP TINKER MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.688964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROANOKE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>1035 BLUE RIDGE DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3961</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8125</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1035 BLUE RIDGE DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>494.375549</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8125,37.3961</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>605 ARCH MILL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4797</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.7753</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>605 ARCH MILL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>39.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>405.476196</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.7753,37.4797</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>2213 TINKER TOP ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3736</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9258</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2213 TINKER TOP ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>48.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>672.148986</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9258,37.3736</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>5426 BORE AUGER ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3508</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.7889</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5426 BORE AUGER ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>554.671813</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.7889,37.3508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>RT 688 S AND RR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6331</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.787199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 688 S AND RR</value>
+ </Data>
+ <Data name="height">
+   <value>2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>290.96228</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.787199,37.6331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>RAILROAD MP H 214.2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5236</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6828</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RAILROAD MP H 214.2</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>271.051696</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6828,37.5236</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>TINKER MOUNTAIN 3.7 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3731</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TINKER MOUNTAIN 3.7 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.688964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>8.2 MILES NNW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6067</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8.2 MILES NNW OF</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>456.453247</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL LICENSE HOLDINGS 3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9414,37.6067</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>8.2 MILES NNW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6067</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8.2 MILES NNW OF</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>456.453247</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9414,37.6067</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>TINKER MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3731</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TINKER MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.688964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>2.5 MILES NORTH OF BUCHANAN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5622</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.5 MILES NORTH OF BUCHANAN</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>902.955017</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6894,37.5622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>RT 1 BOX 273</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3736</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9258</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 1 BOX 273</value>
+ </Data>
+ <Data name="height">
+   <value>46.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>672.148986</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9258,37.3736</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>2.5 miles north of Buchanan</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5622</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6894</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.5 miles north of Buchanan</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>902.955017</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6894,37.5622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>GROVE HILL ROAD @ WATER TOWER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4994</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8892</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GROVE HILL ROAD @ WATER TOWER</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>423.630859</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8892,37.4994</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>TINKER MTN CELL SITE, TINKER MOUNTAIN, 3.2 MILES SSW OF DALEVILLE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3728</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9278</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TINKER MTN CELL SITE, TINKER MOUNTAIN, 3.2 MILES SSW OF DALEVILLE</value>
+ </Data>
+ <Data name="height">
+   <value>36</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>674.120178</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9278,37.3728</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>COYNER SPRINGS CELL SITE: 2160 BLUE RIDGE BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3331</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.863299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COYNER SPRINGS CELL SITE: 2160 BLUE RIDGE BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>38.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>321.524993</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.863299,37.3331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>PURGATORY MOUNTAIN CELL SITE 2.3 MILES NORTH OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5656</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6892</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PURGATORY MOUNTAIN CELL SITE 2.3 MILES NORTH OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>902.297607</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6892,37.5656</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>END OF TINKER MOUNTAIN 3.2 MI SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3728</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF TINKER MOUNTAIN 3.2 MI SSW</value>
+ </Data>
+ <Data name="height">
+   <value>36</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>671.968505</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3728</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>0.7 MILES SOUTH OF BUCHANAN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.516</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.676699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.7 MILES SOUTH OF BUCHANAN</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>428.188323</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE BOTETOURT COUNTY SCHOOL BOARD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.676699,37.516</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3738</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9264</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>664.361206</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE BOTETOURT COUNTY SCHOOL BOARD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9264,37.3738</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>0.7 MI. S. of BUCHANAN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.516</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.676699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.7 MI. S. of BUCHANAN</value>
+ </Data>
+ <Data name="height">
+   <value>59.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>428.188323</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Clearwire Spectrum Holdings II LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.676699,37.516</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.374</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9261</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>663.970947</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Clearwire Spectrum Holdings II LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9261,37.374</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>0.7 MILES SOUTH OF BUCHANAN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.516</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.676699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.7 MILES SOUTH OF BUCHANAN</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>428.188323</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLUE RIDGE PUBLIC TELEVISION, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.676699,37.516</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3738</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9264</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>664.361206</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLUE RIDGE PUBLIC TELEVISION, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9264,37.3738</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>0.7 MILES SOUTH OF BUCHANAN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.516</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.676699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.7 MILES SOUTH OF BUCHANAN</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>428.188323</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCHOOL BOARD OF THE CITY OF ROANOKE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.676699,37.516</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3738</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9264</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>664.361206</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCHOOL BOARD OF THE CITY OF ROANOKE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9264,37.3738</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>0.7  MILES  SOUTH OF BUCHANAN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.516</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.676699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.7  MILES  SOUTH OF BUCHANAN</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>428.188323</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The School Board of Roanoke County, Virginia</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.676699,37.516</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3738</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9264</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>664.361206</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The School Board of Roanoke County, Virginia</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9264,37.3738</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>0.7  MILES SOUTH  OF  BUCHANAN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.516</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.676699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.7  MILES SOUTH  OF  BUCHANAN</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>428.188323</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The Salem City School Board</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.676699,37.516</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3738</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9264</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>664.361206</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The Salem City School Board</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9264,37.3738</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4179</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8756</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>425.171569</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF TROUTVILLE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8756,37.4179</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4958</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.876199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>386.704895</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT COUNTY PUBLIC WORKS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.876199,37.4958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3569</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9074</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>376.927459</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Aqua Utilities, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9074,37.3569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>Tinker Top Road, Daleville VA Botetourt County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3735</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9272</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Tinker Top Road, Daleville VA Botetourt County</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>666.115112</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9272,37.3735</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>791 GROVE HILL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4889</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9011</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>791 GROVE HILL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>402.849548</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9011,37.4889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>1062 LAKE CATHERINE DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5622</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1062 LAKE CATHERINE DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>51</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>902.955017</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6894,37.5622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>791 Grove Hill Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4889</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9011</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>791 Grove Hill Road</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>402.849548</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9011,37.4889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>176 Fire Tower Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6322</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8306</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>176 Fire Tower Lane</value>
+ </Data>
+ <Data name="height">
+   <value>51</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>682.793823</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8306,37.6322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>1808 Prices Bluff Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.72</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.818899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1808 Prices Bluff Road</value>
+ </Data>
+ <Data name="height">
+   <value>51</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>488.477172</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.818899,37.72</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>1.5 MI FROM INT OF US 11 &amp; SR 611 AT 110 DEGREES NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5655</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6889</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI FROM INT OF US 11 &amp; SR 611 AT 110 DEGREES NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>897.289062</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6889,37.5655</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>2.3 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5656</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6892</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.3 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>32.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>902.297607</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6892,37.5656</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark126">
+ <name>2.5 MI N OF BUCHANAN PURGATORY MTN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5622</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.5 MI N OF BUCHANAN PURGATORY MTN RD</value>
+ </Data>
+ <Data name="height">
+   <value>34.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>902.955017</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6894,37.5622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark127">
+ <name>END OF TINKER MOUNTAIN 3.2 MI SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3729</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF TINKER MOUNTAIN 3.2 MI SSW</value>
+ </Data>
+ <Data name="height">
+   <value>36</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>677.276611</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3729</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark128">
+ <name>RTE 1 BOX 273</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3737</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9258</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RTE 1 BOX 273</value>
+ </Data>
+ <Data name="height">
+   <value>46.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>671.636047</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9258,37.3737</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark129">
+ <name>Daleville  1.3mi  WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4172</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.935</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Daleville  1.3mi  WNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>375.521789</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.935,37.4172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark130">
+ <name>Carvin Crk  2.54mi  SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3836</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9464</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Carvin Crk  2.54mi  SW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>361.049957</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9464,37.3836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark131">
+ <name>Glade Crk  1.51mi  SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3583</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8169</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Glade Crk  1.51mi  SSW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>345.790466</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8169,37.3583</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark132">
+ <name>Troutville  0.08 mi  ENE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4186</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8736</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Troutville  0.08 mi  ENE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>429.022583</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8736,37.4186</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark133">
+ <name>Lithia  1.08 mi SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4647</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.740799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Lithia  1.08 mi SE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>405.491638</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.740799,37.4647</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark134">
+ <name>Oriskany  0.05 mi NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6169</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9844</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Oriskany  0.05 mi NW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>349.152282</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9844,37.6169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark135">
+ <name>Buchanan   0.22 mi  NNE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5306</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6783</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Buchanan   0.22 mi  NNE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>253.949249</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6783,37.5306</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark136">
+ <name>North Fork  4.83 mi  NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5442</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9475</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>North Fork  4.83 mi  NW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>416.607757</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9475,37.5442</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark137">
+ <name>100 SMORGON WAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4078</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8744</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 SMORGON WAY</value>
+ </Data>
+ <Data name="height">
+   <value>10.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>465.28247</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LITESTEEL TECHNOLOGIES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8744,37.4078</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark138">
+ <name>Sloan Branch  6.5 mi  ENE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6675</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.708899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Sloan Branch  6.5 mi  ENE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>651.385559</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.708899,37.6675</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark139">
+ <name>1374 INDIAN ROCK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5592</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6267</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1374 INDIAN ROCK RD</value>
+ </Data>
+ <Data name="height">
+   <value>3.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>241.613861</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6267,37.5592</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark140">
+ <name>APPLE ORCHARD MOUNTAIN, JEFFERSON NATIONAL FOREST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5175</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5094</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>APPLE ORCHARD MOUNTAIN, JEFFERSON NATIONAL FOREST</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1282.108276</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5094,37.5175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark141">
+ <name>Botetourt County 911 - 20 E Back St, Fincastle</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8769</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Botetourt County 911 - 20 E Back St, Fincastle</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>370.892395</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8769,37.5</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark142">
+ <name>1896 Tinkertop Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3731</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1896 Tinkertop Rd</value>
+ </Data>
+ <Data name="height">
+   <value>36.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.688964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Catawba Masons Cove Rescue Squad</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark143">
+ <name>160 PRESTON HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5667</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.7664</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>160 PRESTON HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>325.816375</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTETOURT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.7664,37.5667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark144">
+ <name>5352 Cloverdale Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3344</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.874199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5352 Cloverdale Road</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>319.207244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Afton Communications Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.874199,37.3344</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark145">
+ <name>459 INDUSTRIAL DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3542</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9208</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>459 INDUSTRIAL DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>365.767059</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CANATAL STEEL USA, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9208,37.3542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark146">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3658</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9222</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>380.88208</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Metalsa Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9222,37.3658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark147">
+ <name>2.6 MILES AT 198' FROM DALEVILLE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3731</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.6 MILES AT 198' FROM DALEVILLE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.688964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The Beeper Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark148">
+ <name>3946 Lee Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4675</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8125</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3946 Lee Highway</value>
+ </Data>
+ <Data name="height">
+   <value>19.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>345.144805</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ComSoft Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8125,37.4675</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark149">
+ <name>TINKER MOUNTAIN, 3.7 MILES NORTH OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3731</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TINKER MOUNTAIN, 3.7 MILES NORTH OF</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.688964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SkyTel Spectrum LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark150">
+ <name>TINKER MOUNTAIN, 6 KM N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3731</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TINKER MOUNTAIN, 6 KM N OF</value>
+ </Data>
+ <Data name="height">
+   <value>51</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.688964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark151">
+ <name>TINKER MTN. 3.7 MI NORTH OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3731</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TINKER MTN. 3.7 MI NORTH OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.688964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark152">
+ <name>TINKER MOUNTAIN, 3.7 MILES NORTH OF ROANOKE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3731</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TINKER MOUNTAIN, 3.7 MILES NORTH OF ROANOKE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.688964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark153">
+ <name>TINKER MTN., 3.2 MI SSW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Botetourt County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3731</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TINKER MTN., 3.2 MI SSW OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.688964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9275,37.3731</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

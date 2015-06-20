@@ -1,0 +1,3545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>Rt. 659 Ranson Rd. (Ransons)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6308</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.503699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt. 659 Ranson Rd. (Ransons)</value>
+ </Data>
+ <Data name="height">
+   <value>94.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.685241</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.503699,37.6308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>US Route 672</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6839</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3179</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US Route 672</value>
+ </Data>
+ <Data name="height">
+   <value>80.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>104.503227</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Communication Enhancement, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3179,37.6839</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>355 Sharron Church Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6786</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5054</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>355 Sharron Church Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>153.624816</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Vision Ventures, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5054,37.6786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>2 MILES EAST OF GLADSTONE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5265</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7683</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 MILES EAST OF GLADSTONE</value>
+ </Data>
+ <Data name="height">
+   <value>73.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>213.320861</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7683,37.5265</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>2385 WOODBURN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.783299</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4922</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2385 WOODBURN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>103.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>123.704795</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4922,37.783299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>INT SRT 688 &amp; 650 5 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5504</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4639</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT SRT 688 &amp; 650 5 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>196.928405</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4639,37.5504</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>13664 S. Constitution Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7217</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4976</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13664 S. Constitution Road</value>
+ </Data>
+ <Data name="height">
+   <value>94.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>149.281372</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4976,37.7217</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>US RT 60 &amp; 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5308</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 60 &amp; 15</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>193.331085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4964,37.5308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>OFF US 60 WEST OF ROSNEY ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5064</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4357</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF US 60 WEST OF ROSNEY ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>135.654281</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL COMMUNICATION TOWERS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4357,37.5064</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>NW OF THE INTERSECTION OF US ROUTE 15 &amp; SR 633</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4198</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4619</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NW OF THE INTERSECTION OF US ROUTE 15 &amp; SR 633</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>138.78247</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL COMMUNICATION TOWERS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4619,37.4198</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>S SIDE OF HWY 640 14.2 KM WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5808</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6214</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S SIDE OF HWY 640 14.2 KM WNW</value>
+ </Data>
+ <Data name="height">
+   <value>106.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>171.885375</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WKGM INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6214,37.5808</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>15154 N James Madison Highway (196489870)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5321</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4843</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>15154 N James Madison Highway (196489870)</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>192.910888</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4843,37.5321</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>HC 02 Box 53 (Route 56)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5655</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.610999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HC 02 Box 53 (Route 56)</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>147.353561</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.610999,37.5655</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Chapel Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6609</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3409</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Chapel Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.190277</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3409,37.6609</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>ROUTE 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5939</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3986</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 15</value>
+ </Data>
+ <Data name="height">
+   <value>80.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>190.705352</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AT&amp;T CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3986,37.5939</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>0.6 MILE NE OF INTERSECTION OF US ROUTE 15 &amp; SR 610</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6282</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3621</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.6 MILE NE OF INTERSECTION OF US ROUTE 15 &amp; SR 610</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>149.238479</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL COMMUNICATION TOWERS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3621,37.6282</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>1.3 Miles SSW of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3733</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4931</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.3 Miles SSW of</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>148.334762</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4931,37.3733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5428</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4575</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>189.802139</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RUSSELL ENTERPRISES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4575,37.5428</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5686</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.525</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.024322</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTE CO SCHOOL BOARD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.525,37.5686</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5425</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4572</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>190.490737</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buckingham Branch Railroad</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4572,37.5425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5306</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>193.451797</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4964,37.5306</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>300FT N OF CENTRAL WATER STORAGE CORP. RESERVOIR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6964</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2775</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300FT N OF CENTRAL WATER STORAGE CORP. RESERVOIR</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>63.423065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EAST COAST TRANSPORT INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2775,37.6964</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>FIRST DR N OF BEAR GARDEN FARMS RR1</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7028</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2883</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIRST DR N OF BEAR GARDEN FARMS RR1</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.780021</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EAST COAST TRANSPORT INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2883,37.7028</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>US Rt. 15, 1 block N of int St Rt 629</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5431</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4531</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US Rt. 15, 1 block N of int St Rt 629</value>
+ </Data>
+ <Data name="height">
+   <value>7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>193.138977</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Roy C. Jenkins, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4531,37.5431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>US Rt. 15, 1 block N of int St Rt 629</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5431</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4531</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US Rt. 15, 1 block N of int St Rt 629</value>
+ </Data>
+ <Data name="height">
+   <value>22</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>193.138977</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Roy C. Jenkins, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4531,37.5431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>300' E OF JH COCKE MEM BRIDGE S SIDE OF BRANCH</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7092</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.302799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300' E OF JH COCKE MEM BRIDGE S SIDE OF BRANCH</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>74.460472</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.302799,37.7092</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>JAMES RIVER STATE PARK RT 1</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6258</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8111</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JAMES RIVER STATE PARK RT 1</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>153.289062</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8111,37.6258</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>4 MI S OF 60 ON US RT 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4839</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.475599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4 MI S OF 60 ON US RT 15</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>184.378158</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KYANITE MINING CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.475599,37.4839</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>AT END OF ST RT 712</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4753</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.421699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>AT END OF ST RT 712</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.271148</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KYANITE MINING CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.421699,37.4753</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.607</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>196.567901</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Diversified Electronics, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7997,37.607</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.607</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>196.567901</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VINTAGE PHOTO STUDIOS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7997,37.607</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.607</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>196.567901</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RALPH DALE EARNHARDT INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7997,37.607</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>ON RT 250 E 1 MI OF RT 22</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6506</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3833</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON RT 250 E 1 MI OF RT 22</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.227691</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GLENMORE ASSOCIATES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3833,37.6506</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.607</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>196.567901</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLARD JR., BARTH S</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7997,37.607</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>1043 Main St</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5425</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4572</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1043 Main St</value>
+ </Data>
+ <Data name="height">
+   <value>22</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>190.490737</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buckingham Branch Railroad Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4572,37.5425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5386</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.483299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>184.732666</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CUMBERLAND BUILDING SUPPLY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.483299,37.5386</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>ROUTE 15 N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5806</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4108</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 15 N</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>219.359222</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUCKINGHAM, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4108,37.5806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>OFF RT 15 .5 MI N OF INT W RT 60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5344</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4878</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF RT 15 .5 MI N OF INT W RT 60</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>194.392425</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SPROUSE, ROBERT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4878,37.5344</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>SR 669 .2 KM E OF US 15 4 KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5703</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4231</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 669 .2 KM E OF US 15 4 KM N</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>175.301956</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4231,37.5703</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>SR 640 2.0 KM NE OF SR 638 NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5489</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 640 2.0 KM NE OF SR 638 NE</value>
+ </Data>
+ <Data name="height">
+   <value>7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>199.880477</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5489,37.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>RT 15 AND RT 20 NEW FIRE HOUSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5428</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4775</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 15 AND RT 20 NEW FIRE HOUSE</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>190.668701</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUCKINGHAM, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4775,37.5428</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>COURTHOUSE SERIFFS DEPT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5508</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5567</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COURTHOUSE SERIFFS DEPT</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>136.217575</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUCKINGHAM, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5567,37.5508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>BUFFARDS MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5833</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4092</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUFFARDS MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>188.460983</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUCKINGHAM, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4092,37.5833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>OFC BLDG SR 629 .3 KM S OF US 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5417</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.455299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFC BLDG SR 629 .3 KM S OF US 15</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>195.453048</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.455299,37.5417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>US RT 60 &amp; 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5306</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4964</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 60 &amp; 15</value>
+ </Data>
+ <Data name="height">
+   <value>81</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>193.451797</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4964,37.5306</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5744</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4744</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>148.929443</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4744,37.5744</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5672</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4744</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>160.247375</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4744,37.5672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>DILLWYN CC 1.5 MI N RTS 20 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5725</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4725</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DILLWYN CC 1.5 MI N RTS 20 15</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>156.116928</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4725,37.5725</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>BUCKINGHAM CC US 15 3 MI N RT 20</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5672</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4744</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUCKINGHAM CC US 15 3 MI N RT 20</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>160.247375</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4744,37.5672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>BUFFARDS MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5833</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4092</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUFFARDS MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>188.460983</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUCKINGHAM, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4092,37.5833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>BEHIND COURTHOUSE SHERIFFS DEPT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5508</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5567</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BEHIND COURTHOUSE SHERIFFS DEPT</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>136.217575</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUCKINGHAM, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5567,37.5508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>FORESTRY OFC RT 60 E 1/2 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5511</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5547</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY OFC RT 60 E 1/2 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.10559</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5547,37.5511</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>ALPHA FT BUFFARDS MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5833</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4092</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ALPHA FT BUFFARDS MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>188.460983</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUCKINGHAM, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4092,37.5833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>TANK 1.5 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5725</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4725</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TANK 1.5 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>156.116928</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4725,37.5725</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>BOOSTER STA 1.5 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5639</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4728</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BOOSTER STA 1.5 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>155.49533</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4728,37.5639</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>DILLWYN CC 1.5 MI N RTS 20 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5725</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4725</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DILLWYN CC 1.5 MI N RTS 20 15</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>156.116928</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4725,37.5725</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>BUCKINGHAM CORRECTIONAL CENTER, US ROUTE 15, DILLWYN; 3 MILES NORTH OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.565</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.478099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUCKINGHAM CORRECTIONAL CENTER, US ROUTE 15, DILLWYN; 3 MILES NORTH OF</value>
+ </Data>
+ <Data name="height">
+   <value>41.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>163.619598</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.478099,37.565</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>3.42 M SSE OF ST 24 &amp; US 60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4894</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5864</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3.42 M SSE OF ST 24 &amp; US 60</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.543258</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5864,37.4894</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>3.42 MI SSE OF ST 24 &amp; US 60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4894</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5864</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3.42 MI SSE OF ST 24 &amp; US 60</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.543258</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5864,37.4894</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>(Saint Joy site) 3690 Greenway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5347</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.663099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>(Saint Joy site) 3690 Greenway</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>177.928146</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.663099,37.5347</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>ROUTE 606 SPEARS MOUNTAIN, 1/2 UP TO THE TOP OF THE MOUNTAIN PRUETTS C</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5728</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7611</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 606 SPEARS MOUNTAIN, 1/2 UP TO THE TOP OF THE MOUNTAIN PRUETTS C</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>394.758789</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7611,37.5728</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>Rt. 15 North from town of Dillwyn to Alpha Turn right on Dirt Fire Roa</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5806</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4111</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt. 15 North from town of Dillwyn to Alpha Turn right on Dirt Fire Roa</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>222.591201</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4111,37.5806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>SCOTTSVILL CELL SITE 2385 WOODBURN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.783299</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4922</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SCOTTSVILL CELL SITE 2385 WOODBURN RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>123.704795</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4922,37.783299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>PRUETT'S MT. SITE: 2 MILES EAST OF GLADSTONE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5264</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7683</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PRUETT'S MT. SITE: 2 MILES EAST OF GLADSTONE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>212.834182</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7683,37.5264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>SPROUSES CORNER CELL SITE SRT 688, Intersection SR650, 5 mi. W of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5503</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4639</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SPROUSES CORNER CELL SITE SRT 688, Intersection SR650, 5 mi. W of</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>197.252426</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4639,37.5503</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>355 Sharron Church Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6786</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5054</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>355 Sharron Church Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>96</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>153.624816</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buggs Island Telephone Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5054,37.6786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>3484 Spear Mtn Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.573</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.761</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3484 Spear Mtn Rd</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>389.706176</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buggs Island Telephone Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.761,37.573</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>30 Willis Mtn Plant Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4718</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4647</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>30 Willis Mtn Plant Rd</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>309.192565</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buggs Island Telephone Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4647,37.4718</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>Chapel Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6609</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3409</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Chapel Road</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.190277</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3409,37.6609</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>355 Sharron Church Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6786</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5054</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>355 Sharron Church Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>96</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>153.624816</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5054,37.6786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>US RT 60 &amp; 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5308</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4964</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 60 &amp; 15</value>
+ </Data>
+ <Data name="height">
+   <value>81</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>193.331085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH OF VIRGINIA,  Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4964,37.5308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>1.8 km North of Dillwyn on Route #15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5567</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.438399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.8 km North of Dillwyn on Route #15</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>188.776931</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WKGM, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.438399,37.5567</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>2385 WOODBURN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.783299</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4922</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2385 WOODBURN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>106.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>123.704795</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4922,37.783299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>2 MILES EAST OF GLADSTONE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5265</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7683</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 MILES EAST OF GLADSTONE</value>
+ </Data>
+ <Data name="height">
+   <value>77.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>213.320861</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7683,37.5265</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>INT SRT 688 &amp; 650 5 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5504</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4639</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT SRT 688 &amp; 650 5 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>125</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>196.928405</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4639,37.5504</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>RT 606 SPEARS MTN 1/2 UP THE TOP OF MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5729</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7611</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 606 SPEARS MTN 1/2 UP THE TOP OF MTN</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>391.483856</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7611,37.5729</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>ROUTE 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5938</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3986</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 15</value>
+ </Data>
+ <Data name="height">
+   <value>88.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>191.637542</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AT&amp;T Communications of Virginia, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3986,37.5938</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>US RT 60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5304</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4967</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 60</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>192.439636</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4967,37.5304</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>2608 CG WOODSON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6956</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2847</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2608 CG WOODSON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>9.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>93.146484</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2847,37.6956</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>2608 CG WOODSON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6967</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2847</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2608 CG WOODSON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>9.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.604423</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2847,37.6967</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>2608 CG WOODSON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6961</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2869</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2608 CG WOODSON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>7.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.483169</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2869,37.6961</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>2608 CG WOODSON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6861</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2925</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2608 CG WOODSON RD</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>115.3013</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EAST COAST TRANSPORT INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2925,37.6861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>31860 North James Madison Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7086</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3019</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>31860 North James Madison Highway</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>98.634681</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buckingham Branch Railroad Co</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3019,37.7086</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>2385 WOODBURN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Buckingham County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.783299</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4922</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2385 WOODBURN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>106.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>123.704795</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALBEMARLE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4922,37.783299</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>
