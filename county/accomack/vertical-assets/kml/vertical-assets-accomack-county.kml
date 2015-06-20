@@ -1,0 +1,6863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>Tangier Island</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8271</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.9916</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Tangier Island</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.048999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Virginia Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.9916,37.8271</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>1 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7008</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7497</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>89.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.034017</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Virginia Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7497,37.7008</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>4 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9292</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.4811</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.710343</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Virginia Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.4811,37.9292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>Shields Bridge Rd, 1.5 Mi. North of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5543</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.8269</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Shields Bridge Rd, 1.5 Mi. North of</value>
+ </Data>
+ <Data name="height">
+   <value>104.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.154488</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Merrick Tower Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.8269,37.5543</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>14306 LANKFORD HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.842399</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5711</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14306 LANKFORD HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>142.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.625824</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY OF ACCOMACK, VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5711,37.842399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>1/4 mile south of intersection four</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9397</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.541799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/4 mile south of intersection four</value>
+ </Data>
+ <Data name="height">
+   <value>83.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.904184</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN ATLANTIC COMPANY, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.541799,37.9397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>28238 HATTON STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.652</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7425</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>28238 HATTON STREET</value>
+ </Data>
+ <Data name="height">
+   <value>12.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.012404</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MELFA VOLUNTEER FIRIE &amp; RESCUE CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7425,37.652</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>.1 KM SW RT 676 .3 KM E OF US 13</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7847</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.604199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.1 KM SW RT 676 .3 KM E OF US 13</value>
+ </Data>
+ <Data name="height">
+   <value>100.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.473405</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Chincoteague Broadcasting Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.604199,37.7847</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>US RT 13 1 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6658</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.733099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 13 1 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.903431</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.733099,37.6658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>23323 WISE COURT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7207</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6702</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23323 WISE COURT</value>
+ </Data>
+ <Data name="height">
+   <value>85.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.016402</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY OF ACCOMACK VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6702,37.7207</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>15207 MERRY CAT LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5506</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.819</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>15207 MERRY CAT LN</value>
+ </Data>
+ <Data name="height">
+   <value>92.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.591244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Del Marva Communications Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.819,37.5506</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>23201 Front Street  Accomack, Virginia</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7177</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6756</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23201 Front Street  Accomack, Virginia</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.572207</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of  Dept. of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6756,37.7177</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>JUNCTION OF HWY 602&amp; 609 1 MILE W OF BELL HAVEN STATION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.554</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.8261</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JUNCTION OF HWY 602&amp; 609 1 MILE W OF BELL HAVEN STATION</value>
+ </Data>
+ <Data name="height">
+   <value>58.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.19193</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JACKMAN PROPERTIES LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.8261,37.554</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>JUNCTION OF HWY 602 &amp; 609 1 MILE W OF BELLE HAVEN STATION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5542</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.8269</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JUNCTION OF HWY 602 &amp; 609 1 MILE W OF BELLE HAVEN STATION</value>
+ </Data>
+ <Data name="height">
+   <value>92.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.110414</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JACKMAN PROPERTIES LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.8269,37.5542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>JUNCTION OF HWY 602 &amp; 609 1 MILE W OF BELLE HAVEN STATION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5544</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.8277</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JUNCTION OF HWY 602 &amp; 609 1 MILE W OF BELLE HAVEN STATION</value>
+ </Data>
+ <Data name="height">
+   <value>58.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.155076</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JACKMAN PROPERTIES LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.8277,37.5544</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>VA RT 703 1.3 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9437</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5709</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA RT 703 1.3 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>69.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.519682</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>A &amp; N Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5709,37.9437</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>VA RT 718 .75 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7016</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7501</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA RT 718 .75 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>94.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.947577</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>A &amp; N Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7501,37.7016</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Accomack County Airport</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6429</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.760999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Accomack County Airport</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.477999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Commonwealth of Virginia  Department of Aviation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.760999,37.6429</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>22476 FRONT ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7172</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6833</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>22476 FRONT ST</value>
+ </Data>
+ <Data name="height">
+   <value>105.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.499634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN SHORE RADIO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6833,37.7172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Tangier</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.825</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.9893</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Tangier</value>
+ </Data>
+ <Data name="height">
+   <value>62.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.048999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Falcon Cable Media, a California Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.9893,37.825</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>24061 CHURCH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7139</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6783</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>24061 CHURCH RD</value>
+ </Data>
+ <Data name="height">
+   <value>96</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.413872</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Falcon Cable Media, a California Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6783,37.7139</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>HOOK DR # 3356</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9206</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.384999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HOOK DR # 3356</value>
+ </Data>
+ <Data name="height">
+   <value>152.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.562589</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Falcon Cable Media, a California Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.384999,37.9206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>ON CR 648 .3 KM SE OF CR 609 NR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7003</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6931</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON CR 648 .3 KM SE OF CR 609 NR</value>
+ </Data>
+ <Data name="height">
+   <value>89</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.991539</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Great Scott Broadcasting</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6931,37.7003</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>6097 Community Drive (010142)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9374</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.3613</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6097 Community Drive (010142)</value>
+ </Data>
+ <Data name="height">
+   <value>58.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.242649</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.3613,37.9374</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Fleming Road &amp; Dublin Farm Rd. (273173)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9872</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.4584</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fleming Road &amp; Dublin Farm Rd. (273173)</value>
+ </Data>
+ <Data name="height">
+   <value>57.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.742992</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.4584,37.9872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>19151 Downing Rd.    (029534)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6348</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7491</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>19151 Downing Rd.    (029534)</value>
+ </Data>
+ <Data name="height">
+   <value>41.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.011232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7491,37.6348</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>Church Rd  ( 000132 )</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7117</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6857</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Church Rd  ( 000132 )</value>
+ </Data>
+ <Data name="height">
+   <value>132.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.444629</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6857,37.7117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>13249 Lankford Highway (029473)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8543</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.555</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13249 Lankford Highway (029473)</value>
+ </Data>
+ <Data name="height">
+   <value>60.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.886114</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.555,37.8543</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>26350 LANKFORD HWY NANDUA HIGH SCHOOL RT 13</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6772</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7267</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>26350 LANKFORD HWY NANDUA HIGH SCHOOL RT 13</value>
+ </Data>
+ <Data name="height">
+   <value>67.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.460719</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS EDUCATIONAL TELECOMMUNICATIONS ASSOCIATION INC  DBA =  WHRO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7267,37.6772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>32198 A S West Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6032</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.8421</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>32198 A S West Road</value>
+ </Data>
+ <Data name="height">
+   <value>86.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.31535</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Accomack, Virginia</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.8421,37.6032</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>2.9 miles Northwest of Painter, Virginia.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6076</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.8263</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.9 miles Northwest of Painter, Virginia.</value>
+ </Data>
+ <Data name="height">
+   <value>98</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.029623</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hispanic Target Media, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.8263,37.6076</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>CR 710, South of CR 712</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9914</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.525899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CR 710, South of CR 712</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.125636</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Properties</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.525899,37.9914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>14524 Shields Bridge Road    (VA10751-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5575</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.829099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14524 Shields Bridge Road    (VA10751-A)</value>
+ </Data>
+ <Data name="height">
+   <value>119.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.443315</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers II LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.829099,37.5575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>23201 FRONT STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7175</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6755</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23201 FRONT STREET</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.149793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6755,37.7175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>1 HIGH STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6039</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.689399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 HIGH STREET</value>
+ </Data>
+ <Data name="height">
+   <value>25.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.367065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WACHAPREAGUE VOL FIRE CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.689399,37.6039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>29465 BEACON RD A</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6383</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.774999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>29465 BEACON RD A</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.013392</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN SHORE NURSERY OF VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.774999,37.6383</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>23201 FRONT STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7175</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6755</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23201 FRONT STREET</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.149793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6755,37.7175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>15207 MERRY CAT LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5506</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.818899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>15207 MERRY CAT LN</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.53703</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN SHORE OF VIRGINIA 911 COMMISSION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.818899,37.5506</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>23323 WISE COURT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7206</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.67</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23323 WISE COURT</value>
+ </Data>
+ <Data name="height">
+   <value>91.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.749633</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN SHORE OF VIRGINIA 911 COMMISSION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.67,37.7206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>14306 LANKFORD HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8422</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5711</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14306 LANKFORD HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>145.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.676085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN SHORE OF VIRGINIA 911 COMMISSION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5711,37.8422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9897</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.4222</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.602695</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAPTAIN'S COVE LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.4222,37.9897</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8542</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5556</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.954431</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN SHORE SEAFOOD PRODUCTS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5556,37.8542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>28205 GROTON TOWN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8644</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5833</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>28205 GROTON TOWN RD</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.290403</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EULO FARMS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5833,37.8644</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>19056 GREENBUSH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7811</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6558</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>19056 GREENBUSH RD</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.312073</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>A &amp; N Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6558,37.7811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>28328 HATTON STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6519</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7422</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>28328 HATTON STREET</value>
+ </Data>
+ <Data name="height">
+   <value>14.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.02328</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MELFA VOLUNTEER FIRE AND RESCUE CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7422,37.6519</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>VA RT 718 .75 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7014</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.75</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA RT 718 .75 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>94.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.262604</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DELMARVA POWER AND LIGHT COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.75,37.7014</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8394</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5389</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.132173</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>East Coast Brokers and Packers</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5389,37.8394</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>ROUTE 13 AND 179</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6792</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6975</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 13 AND 179</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.579396</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POTOMAC FOODS GROUP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6975,37.6792</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>15207 MERRY CAT LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5506</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.818899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>15207 MERRY CAT LN</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.53703</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GERALD M MOORE &amp; SON, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.818899,37.5506</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>11224 LANKFORD HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8864</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.552799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11224 LANKFORD HWY</value>
+ </Data>
+ <Data name="height">
+   <value>12.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.198413</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TYSON FOODS, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.552799,37.8864</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8689</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6006</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.212491</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6006,37.8689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8764</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5944</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.982708</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5944,37.8764</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>23201 FRONT ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7053</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.675</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23201 FRONT ST</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.916069</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN SHORE OF VIRGINIA 911 COMMISSION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.675,37.7053</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>23323 WISE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7206</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6697</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23323 WISE ST</value>
+ </Data>
+ <Data name="height">
+   <value>91</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.920844</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN SHORE OF VIRGINIA 911 COMMISSION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6697,37.7206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>33281 HOLLY LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9281</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.4961</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>33281 HOLLY LN</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.14708</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN SHORE OF VIRGINIA 911 COMMISSION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.4961,37.9281</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>VA RT 718 .75 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7014</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.75</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA RT 718 .75 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>94.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.262604</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DELMARVA POWER AND LIGHT COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.75,37.7014</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>VA RT 703 1.3 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9436</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5708</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA RT 703 1.3 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>69.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.529497</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DELMARVA POWER AND LIGHT COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5708,37.9436</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>W SIDE OF VA RT 609 0.65 MI</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7117</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6853</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>W SIDE OF VA RT 609 0.65 MI</value>
+ </Data>
+ <Data name="height">
+   <value>145</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.480761</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Teltronic, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6853,37.7117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>24179 SAXIS RD JENKINS BRIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9339</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6497</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>24179 SAXIS RD JENKINS BRIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.36477</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BROADWATER, BRIAN</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6497,37.9339</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>US 13 .5 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8889</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5525</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 13 .5 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.812006</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tyson Foods, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5525,37.8889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7825</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6564</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.55532</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>A &amp; N Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6564,37.7825</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>RT 617 2000 E OF RT 178</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6031</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.8419</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 617 2000 E OF RT 178</value>
+ </Data>
+ <Data name="height">
+   <value>91</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.343578</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>A &amp; N ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.8419,37.6031</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>500 E INT SR 178 &amp; SR T1023 ON SR T1023</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7125</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7547</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 E INT SR 178 &amp; SR T1023 ON SR T1023</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.034393</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DAVIS OIL CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7547,37.7125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>15442 MERRY CAT LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5439</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.8142</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>15442 MERRY CAT LN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.411007</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GERALD MOORE &amp; SON INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.8142,37.5439</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>DEPOT STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9775</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5339</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DEPOT STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.861539</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DAVIS, C LEE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5339,37.9775</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>15207 MERRY CAT LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5506</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.818899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>15207 MERRY CAT LN</value>
+ </Data>
+ <Data name="height">
+   <value>91</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.53703</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAMDEN BROTHERS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.818899,37.5506</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>W SIDE OF VA RT 609 .65 MI S OF INT OF BUSINESS RT US 13</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7117</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.685499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>W SIDE OF VA RT 609 .65 MI S OF INT OF BUSINESS RT US 13</value>
+ </Data>
+ <Data name="height">
+   <value>137</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.481235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BYRD FOODS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.685499,37.7117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>1/2 MI S INT OF SR 669 &amp; 670</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7825</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6975</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MI S INT OF SR 669 &amp; 670</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.613826</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YOUNG CONSTRUCTION CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6975,37.7825</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>24512 COASTAL BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7119</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.698899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>24512 COASTAL BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.842253</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>IA CONSTRUCTION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.698899,37.7119</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>RT 126</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7106</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.699399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 126</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.901695</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>IA CONSTRUCTION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.699399,37.7106</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>INT VA RTS 687 &amp; 688</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8583</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6036</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT VA RTS 687 &amp; 688</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.856324</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GLADDING, GARLAND J</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6036,37.8583</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>3145 WHITE OAK WAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9892</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5394</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3145 WHITE OAK WAY</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.471938</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH CHESAPEAKE CO LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5394,37.9892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>8013 LONG LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9245</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6278</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8013 LONG LN</value>
+ </Data>
+ <Data name="height">
+   <value>25</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.677577</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HALL, BENNY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6278,37.9245</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>5360 TRAILS END DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.96</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.455799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5360 TRAILS END DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.501008</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHINCOTEAGUE BAY TRAILS END ASSOCIATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.455799,37.96</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>0.5 MI N OF T S COR ON RT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9511</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5364</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.5 MI N OF T S COR ON RT</value>
+ </Data>
+ <Data name="height">
+   <value>49</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.330129</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MEARS OIL CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5364,37.9511</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>RT 13</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9017</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6011</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 13</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.478925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FOX, JAMES N</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6011,37.9017</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>13249 LANKFORD HIGHWAY (029473)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8542</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5556</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13249 LANKFORD HIGHWAY (029473)</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.954431</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN SHORE SEAFOOD PRODUCTS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5556,37.8542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7117</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.685499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.481235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Teltronic, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.685499,37.7117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>W SIDE OF VA RT 609 .65 M</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7117</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.685499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>W SIDE OF VA RT 609 .65 M</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.481235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Teltronic, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.685499,37.7117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>RT 180 BOX 20</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6294</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.803</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 180 BOX 20</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.392622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STERLING ELECTRIC INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.803,37.6294</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>1/2 MI SE OF RT 13 &amp; MD VA LINE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0008</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.540599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MI SE OF RT 13 &amp; MD VA LINE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.539434</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DBA SHELTON REFRIGERATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.540599,38.0008</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>ON US 13 1/2 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8889</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5525</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON US 13 1/2 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.812006</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tyson Foods, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5525,37.8889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>RFD 637 1 1/2 MI SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7083</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7494</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RFD 637 1 1/2 MI SW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.291297</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MASON JR, NORMAN F</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7494,37.7083</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>11224 LANKFORD HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8889</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5525</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11224 LANKFORD HWY</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.812006</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tyson Foods, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5525,37.8889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>VA RT 601 NEAR US RT 13</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7133</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.675</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA RT 601 NEAR US RT 13</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.481048</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BAGWELL OIL CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.675,37.7133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>33 MARKET ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7083</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7411</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>33 MARKET ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.588864</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BAGWELL OIL CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7411,37.7083</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>US ROUTE 13 1 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6658</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7328</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US ROUTE 13 1 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.848395</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7328,37.6658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>US RT 13 1 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6658</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7328</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 13 1 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.848395</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7328,37.6658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6517</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7617</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.069725</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ACCOMACK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7617,37.6517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>6150 COMMUNITY DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9375</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.360799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6150 COMMUNITY DR</value>
+ </Data>
+ <Data name="height">
+   <value>49</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.109222</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHINCOTEAGUE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.360799,37.9375</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>4026 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9347</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.3769</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4026 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.651138</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHINCOTEAGUE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.3769,37.9347</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>SR 695 1 KM E OF US RT 13</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8933</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5372</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 695 1 KM E OF US RT 13</value>
+ </Data>
+ <Data name="height">
+   <value>29</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.256285</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5372,37.8933</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>FORESTRY OFC RT 657</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7158</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.692199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY OFC RT 657</value>
+ </Data>
+ <Data name="height">
+   <value>35</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.097531</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.692199,37.7158</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>INT US RT 13 AND SR 764</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7278</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6717</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT US RT 13 AND SR 764</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.242848</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6717,37.7278</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>US RT 13 1.6KM N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6658</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7328</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 13 1.6KM N OF</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.848395</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of       Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7328,37.6658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>RT 13 3 MI S OF MD STATE LINE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9872</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5392</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 13 3 MI S OF MD STATE LINE</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.462892</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5392,37.9872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>6150 COMMUNITY DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8422</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.4814</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6150 COMMUNITY DR</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.257845</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHINCOTEAGUE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.4814,37.8422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>23323 WISE COURT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7206</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.67</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23323 WISE COURT</value>
+ </Data>
+ <Data name="height">
+   <value>35</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.749633</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ACCOMACK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.67,37.7206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>14306 LANKFORD HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8422</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5711</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14306 LANKFORD HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>145.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.676085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ACCOMACK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5711,37.8422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>VIRGINIA STATE POLICE OFC</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6658</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7328</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VIRGINIA STATE POLICE OFC</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.848395</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7328,37.6658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>W SIDE RT 609 1 KM S OF BUS 13</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7117</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.685499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>W SIDE RT 609 1 KM S OF BUS 13</value>
+ </Data>
+ <Data name="height">
+   <value>139</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.481235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.685499,37.7117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>SHIELDS BRIDGE RD ST RT 178</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5542</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.8267</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SHIELDS BRIDGE RD ST RT 178</value>
+ </Data>
+ <Data name="height">
+   <value>91</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.144515</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.8267,37.5542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>FORESTRY OFC RT 657</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7158</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.692199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY OFC RT 657</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.097531</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.692199,37.7158</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>FIRE TWR AT RT 692</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8764</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5944</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIRE TWR AT RT 692</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.982708</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5944,37.8764</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>HALLWOOD FIRE TWR RT 692</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8689</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6006</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HALLWOOD FIRE TWR RT 692</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.212491</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6006,37.8689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>E MAIN AND COASTAL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6897</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7608</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>E MAIN AND COASTAL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.252798</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7608,37.6897</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>3239 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5317</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7903</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3239 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.814</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EXMORE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7903,37.5317</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>17 NORTH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7125</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7436</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>17 NORTH ST</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.842909</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ONANCOCK, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7436,37.7125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>23323 WISE COURT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7206</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.67</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23323 WISE COURT</value>
+ </Data>
+ <Data name="height">
+   <value>91.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.749633</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ACCOMACK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.67,37.7206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>14306 LANKFORD HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8422</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5711</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14306 LANKFORD HWY</value>
+ </Data>
+ <Data name="height">
+   <value>145.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.676085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ACCOMACK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5711,37.8422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>TANGIER VAOL FIRE DEPT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8286</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.991699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TANGIER VAOL FIRE DEPT</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.046579</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TANGIER VOL FIRE DEPT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.991699,37.8286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>500 FT S OF INT OF VA TRTS 316 &amp; 187</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8258</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.628</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 FT S OF INT OF VA TRTS 316 &amp; 187</value>
+ </Data>
+ <Data name="height">
+   <value>7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.964776</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLOXOM VOL FIRE COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.628,37.8258</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>17116 WAYSIDE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5867</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7864</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>17116 WAYSIDE DR</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.088317</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PAINTER VOL FIRE DEPT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7864,37.5867</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>22476 FRONT ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7172</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6833</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>22476 FRONT ST</value>
+ </Data>
+ <Data name="height">
+   <value>105.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.499634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6833,37.7172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>RT 178 &amp; RT 601</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5506</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.818899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 178 &amp; RT 601</value>
+ </Data>
+ <Data name="height">
+   <value>98</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.53703</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SEYMOUR, JAMES:WARREN, MILTON DBA DELMARVA COMMUNICATIONS PARTNERSHIP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.818899,37.5506</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>1 MI E OF I13</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7117</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.685499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI E OF I13</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.481235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.685499,37.7117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>.65 MI S OF US RT 13</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7117</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.685499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.65 MI S OF US RT 13</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.481235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.685499,37.7117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>W SIDE OF VA RT 609 .65 MI S OF INT BUS RT US 13</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7117</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.685499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>W SIDE OF VA RT 609 .65 MI S OF INT BUS RT US 13</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.481235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.685499,37.7117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>1735 Winders Neck</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.987</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.4583</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1735 Winders Neck</value>
+ </Data>
+ <Data name="height">
+   <value>58.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.172079</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.4583,37.987</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>31220 Sign Post Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9914</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5258</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>31220 Sign Post Road</value>
+ </Data>
+ <Data name="height">
+   <value>80.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.154721</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5258,37.9914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>6150 Community Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9375</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.3611</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6150 Community Drive</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.229182</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.3611,37.9375</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>West Side Route 13, 1/4 Mile North of Route 729</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8422</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5711</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>West Side Route 13, 1/4 Mile North of Route 729</value>
+ </Data>
+ <Data name="height">
+   <value>145.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.676085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5711,37.8422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>23032 Church Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7117</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.685499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23032 Church Road</value>
+ </Data>
+ <Data name="height">
+   <value>145.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.481235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.685499,37.7117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>15207 Merry Cat Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5506</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.818899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>15207 Merry Cat Lane</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.53703</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.818899,37.5506</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>23032 Church Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7117</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.685499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23032 Church Rd</value>
+ </Data>
+ <Data name="height">
+   <value>145</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.481235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.685499,37.7117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>15207 MERRY CAT LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5506</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.818899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>15207 MERRY CAT LANE</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.53703</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.818899,37.5506</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark126">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8268</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.9941</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.048999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS EDUCATIONAL TELECOMMUNICATIONS ASSOCIATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.9941,37.8268</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark127">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.681</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7277</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.487713</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS EDUCATIONAL TELECOMMUNICATIONS ASSOCIATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7277,37.681</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark128">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7177</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6756</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.572207</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6756,37.7177</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark129">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6659</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.733</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.846426</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.733,37.6659</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark130">
+ <name>NOAA, Wallops CDA Station, 35663 Chincoteague Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9467</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.4606</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NOAA, Wallops CDA Station, 35663 Chincoteague Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>50.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.399249</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Synergy Telecommunications Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.4606,37.9467</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark131">
+ <name>23201 Front Street  Accomack, Virginia</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7177</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6756</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23201 Front Street  Accomack, Virginia</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.572207</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH OF VIRGINIA, DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6756,37.7177</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark132">
+ <name>4082 Main St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.934</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.3767</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4082 Main St.</value>
+ </Data>
+ <Data name="height">
+   <value>4.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1.289219</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SEBAGO BROADCASTING COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.3767,37.934</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark133">
+ <name>20154 MARKET ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7059</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.729899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>20154 MARKET ST</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.191967</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GREAT SCOTT BROADCASTING</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.729899,37.7059</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark134">
+ <name>VA RT 703 1.3 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9437</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5709</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA RT 703 1.3 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>69.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.519682</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conectiv Communications, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5709,37.9437</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark135">
+ <name>VA RT 718 .75 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7016</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7501</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA RT 718 .75 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>94.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.947577</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DELMARVA POWER AND LIGHT COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7501,37.7016</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark136">
+ <name>VA RT 718 .75 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7016</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7501</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA RT 718 .75 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>94.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.947577</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conectiv Communications, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7501,37.7016</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark137">
+ <name>VA RT 703 1.3 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9437</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5709</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA RT 703 1.3 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>69.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.519682</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DELMARVA POWER AND LIGHT COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5709,37.9437</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark138">
+ <name>26350 LANKFORD HWY NANDUA HIGH SCHOOL RT 13</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6772</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7267</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>26350 LANKFORD HWY NANDUA HIGH SCHOOL RT 13</value>
+ </Data>
+ <Data name="height">
+   <value>60.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.460719</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS EDUCATIONAL TELECOMMUNICATIONS ASSOC., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7267,37.6772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark139">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.701</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.749599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.88034</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Virginia LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.749599,37.701</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark140">
+ <name>TANGIER ISLAND</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8271</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.9916</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TANGIER ISLAND</value>
+ </Data>
+ <Data name="height">
+   <value>19.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.048999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Virginia LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.9916,37.8271</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark141">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8271</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.9916</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.048999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Virginia LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.9916,37.8271</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark142">
+ <name>1 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.701</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.749599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.88034</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Virginia LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.749599,37.701</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark143">
+ <name>26206 LANKFORD HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6869</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7219</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>26206 LANKFORD HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.486781</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ONLEY ASSETS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7219,37.6869</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark144">
+ <name>3370 CAPTAINS CORRIDOR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9945</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.426899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3370 CAPTAINS CORRIDOR</value>
+ </Data>
+ <Data name="height">
+   <value>19.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.58796</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAPTAINS COVE GOLF &amp; YACHT CLUB INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.426899,37.9945</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark145">
+ <name>23201 FRONT STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7175</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6755</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23201 FRONT STREET</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.149793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF, DEPT OF TRANSPORTATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6755,37.7175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark146">
+ <name>23201 FRONT STREET  ACCOMACK, VIRGINIA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7175</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6755</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23201 FRONT STREET  ACCOMACK, VIRGINIA</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.149793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN SHORE OF VIRGINIA 911 COMMISSION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6755,37.7175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark147">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6578</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.825</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.528959</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN SHORE YACHT &amp; COUNTRY CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.825,37.6578</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark148">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6881</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7219</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.104424</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WAL-MART STORES, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7219,37.6881</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark149">
+ <name>22520 LANKFORD HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7325</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6558</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>22520 LANKFORD HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>38</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.208014</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PERDUE FARMS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6558,37.7325</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark150">
+ <name>VA Rt 703 1.3 mi W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9436</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.5708</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Tower</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA Rt 703 1.3 mi W</value>
+ </Data>
+ <Data name="height">
+   <value>69.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.529497</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>A &amp; N Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.5708,37.9436</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark151">
+ <name>VA Rt 718 .75 mi S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7014</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.75</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Tower</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA Rt 718 .75 mi S</value>
+ </Data>
+ <Data name="height">
+   <value>94.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.262604</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>A &amp; N Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.75,37.7014</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark152">
+ <name>19125 GREENBUSH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7792</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6556</value>
+ </Data>
+ <Data name="structure_type">
+   <value>SILO</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>19125 GREENBUSH RD</value>
+ </Data>
+ <Data name="height">
+   <value>39.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.662809</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ATLANTIC TRACTOR LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6556,37.7792</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark153">
+ <name>29300 LANKFORD HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6328</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7542</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>29300 LANKFORD HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.919866</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN SHORE COMMUNITY COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7542,37.6328</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark154">
+ <name>WALLOPS IS, 4 MI E OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9292</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.4808</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WALLOPS IS, 4 MI E OF</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.381507</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ComSoft Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.4808,37.9292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark155">
+ <name>1 MILE SOUTH OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7008</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7494</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MILE SOUTH OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.812564</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ComSoft Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7494,37.7008</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark156">
+ <name>0.65 MI S OF INT OF BUSINESS RTE US 13</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7117</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.685499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.65 MI S OF INT OF BUSINESS RTE US 13</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.481235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DOVER RADIO PAGE, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.685499,37.7117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark157">
+ <name>SHIELDS BRIDGE, 1.5 MILES N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5542</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.8267</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SHIELDS BRIDGE, 1.5 MILES N OF</value>
+ </Data>
+ <Data name="height">
+   <value>114</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.144515</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.8267,37.5542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark158">
+ <name>CHINCOTEAGUE ISLAND, APPRX. 5 MI. ESE OF WALLOPS AIR FORCE BASE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9206</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.3844</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CHINCOTEAGUE ISLAND, APPRX. 5 MI. ESE OF WALLOPS AIR FORCE BASE</value>
+ </Data>
+ <Data name="height">
+   <value>152.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.561001</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Redi-Call Communications Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.3844,37.9206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark159">
+ <name>1 MILE SOUTH OF ONANCOCK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7008</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7494</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MILE SOUTH OF ONANCOCK</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.812564</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Redi-Call Communications Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7494,37.7008</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark160">
+ <name>1 Mile South of Onancock, Accomack, Virginia</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7008</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.7494</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 Mile South of Onancock, Accomack, Virginia</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.812564</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Redi-Call Communications Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.7494,37.7008</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark161">
+ <name>CHINCOTEAGUE ISLAND, APPROX. 5 MI. ESE OF WALLOPS AIR FORCE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9206</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.3844</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CHINCOTEAGUE ISLAND, APPROX. 5 MI. ESE OF WALLOPS AIR FORCE</value>
+ </Data>
+ <Data name="height">
+   <value>152.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.561001</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Redi-Call Communications Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.3844,37.9206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark162">
+ <name>US-13; 2.71 MILES ENE OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Accomack County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7847</value>
+ </Data>
+ <Data name="lng">
+   <value>-75.6039</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US-13; 2.71 MILES ENE OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.384531</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-75.6039,37.7847</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>
