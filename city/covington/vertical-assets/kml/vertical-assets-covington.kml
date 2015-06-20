@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>ASBURY PARK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7675</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.984699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ASBURY PARK</value>
+ </Data>
+ <Data name="height">
+   <value>99</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>447.8125</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WKEY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.984699,37.7675</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>in the city</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8012</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.979199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>in the city</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>477.07019</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.979199,37.8012</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>Peters Mountain Road Rt. 660</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.787268</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.977049</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Landfill Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Peters Mountain Road Rt. 660</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1680.742253</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Covington, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.977049,37.787268</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>Unknown</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.782651</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.980619</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Hunters Hill Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Unknown</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1586.599726</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Covington, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.980619,37.782651</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>1310 S CRAIG AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7928</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.994399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1310 S CRAIG AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>378.794616</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WENDNOKE CORP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.994399,37.7928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>1011 NORTH ROCKBRIDGE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8044</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9883</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1011 NORTH ROCKBRIDGE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>8.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>415.03128</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9883,37.8044</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>331 N COURT AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7928</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9958</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>331 N COURT AVE</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>377.765167</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALLEGHANY, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9958,37.7928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7714</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9914</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>373.033691</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEAR CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9914,37.7714</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>308 THACKER DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7714</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9914</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>308 THACKER DR</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>373.033691</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEAR CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9914,37.7714</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7911</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.995</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>375.436553</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.995,37.7911</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>820 WEST EDGEMONT DR STATION II</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.76</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9955</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>820 WEST EDGEMONT DR STATION II</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>380.201477</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9955,37.76</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>435 W HAWTHORNE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7892</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9955</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>435 W HAWTHORNE ST</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>376.515594</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9955,37.7892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>HUNTERS HILL WATER TANK (HIGH SERVICE)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7864</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.977199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HUNTERS HILL WATER TANK (HIGH SERVICE)</value>
+ </Data>
+ <Data name="height">
+   <value>38</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>514.563049</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.977199,37.7864</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>420 S MAPLE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7856</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9922</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>420 S MAPLE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>381.065063</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>D D KERNS CONST CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9922,37.7856</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>COVINGTON REGIONAL JAIL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7928</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9958</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COVINGTON REGIONAL JAIL</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>377.765167</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9958,37.7928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>CFD/CRS STATION II 820 W EDGEMONT DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.76</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9955</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CFD/CRS STATION II 820 W EDGEMONT DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>380.201477</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9955,37.76</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>CFD/CRS STATION 1 435 W. HALDTHORNEST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7892</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9955</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CFD/CRS STATION 1 435 W. HALDTHORNEST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>376.515594</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9955,37.7892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>CITY HALL 158 N COURT AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7911</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.995</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CITY HALL 158 N COURT AVE</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>375.436553</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.995,37.7911</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>HUNTER S HILL WATER TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7864</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.977199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HUNTER S HILL WATER TANK</value>
+ </Data>
+ <Data name="height">
+   <value>41</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>514.563049</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.977199,37.7864</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>HIGH ACRES TRAILER COURT INTERSECTIONOF N HIGH ACRES &amp; N AUGESTA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7981</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9844</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH ACRES TRAILER COURT INTERSECTIONOF N HIGH ACRES &amp; N AUGESTA</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>475.698028</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9844,37.7981</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>CITY HALL 158 N COURT AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7911</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.995</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CITY HALL 158 N COURT AVE</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>375.436553</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.995,37.7911</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>NEAR INT OF N AUGUSTA N HIGH ACRES</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7981</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9844</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR INT OF N AUGUSTA N HIGH ACRES</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>475.698028</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9844,37.7981</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>WATER TOWER NEAR INT N HIGH ACRES &amp; N AUGUSTA AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7981</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9844</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TOWER NEAR INT N HIGH ACRES &amp; N AUGUSTA AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>475.698028</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9844,37.7981</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>CITY HALL 158 N COURT AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7911</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.995</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CITY HALL 158 N COURT AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>375.436553</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.995,37.7911</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>NEAR INT OF N AUGUSTA N HIGH ACRES</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7981</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9844</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR INT OF N AUGUSTA N HIGH ACRES</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>475.698028</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9844,37.7981</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>COVINGTON FIRE STA II 820 W EDGEMONT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.76</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9955</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COVINGTON FIRE STA II 820 W EDGEMONT</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>380.201477</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9955,37.76</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>COVINGTON FIRE STA 435 W HAWTHORNE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7892</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9955</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COVINGTON FIRE STA 435 W HAWTHORNE</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>376.515594</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COVINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9955,37.7892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>First Right from Corner of RT. 60 &amp;220 at Top of Hill</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8008</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9783</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>First Right from Corner of RT. 60 &amp;220 at Top of Hill</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>493.135131</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9783,37.8008</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>Covington  0.51 mi  SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.0006</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Covington  0.51 mi  SW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>373.637054</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.0006,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>331 N. COURT AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7928</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9958</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>331 N. COURT AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>377.765167</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALLEHANY, COUnty OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9958,37.7928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>RIVERSIDE AVE.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8058</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9933</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RIVERSIDE AVE.</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>388.1557</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MeadWestvaco Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9933,37.8058</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>1.0 MILES N 177.0 E FROM COVINGTON</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7675</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.9844</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.0 MILES N 177.0 E FROM COVINGTON</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>452.608581</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NTELOS Telephone, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.9844,37.7675</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>.25 miles S of Carrolton Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Covington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7697</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.98</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.25 miles S of Carrolton Road</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>510.811981</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.98,37.7697</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>
