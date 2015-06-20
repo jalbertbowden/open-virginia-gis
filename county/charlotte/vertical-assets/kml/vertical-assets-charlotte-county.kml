@@ -1,0 +1,2999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>13255 Crafton's Gate Hwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9065</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.525</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13255 Crafton's Gate Hwy</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>181.060882</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.525,36.9065</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>2 Law Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0518</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6378</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 Law Lane</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>177.174743</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6378,37.0518</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>1 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0467</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4717</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>196.203536</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4717,37.0467</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>ROUTE 652</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0672</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 652</value>
+ </Data>
+ <Data name="height">
+   <value>86.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>182.516372</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4997,37.0672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>5192 Barnesville Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7958</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6077</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5192 Barnesville Highway</value>
+ </Data>
+ <Data name="height">
+   <value>76.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.542282</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6077,36.7958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Dickerson Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1142</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7309</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dickerson Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>177.140792</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7309,37.1142</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>.3 MI E INT HWYS 671 &amp; 665</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1939</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6447</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.3 MI E INT HWYS 671 &amp; 665</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>210.194488</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6447,37.1939</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>451 Tower Loop Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2022</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.691699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>451 Tower Loop Rd</value>
+ </Data>
+ <Data name="height">
+   <value>57.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>238.779891</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Global Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.691699,37.2022</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>Route 611</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8685</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5886</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 611</value>
+ </Data>
+ <Data name="height">
+   <value>80.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>147.825531</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5886,36.8685</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>288 Isabella St</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9973</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.608999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>288 Isabella St</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>147.203613</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mid-Atlantic Broadband Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.608999,36.9973</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>CR - 267 near US - 15   ( 090223 )</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7967</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5935</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CR - 267 near US - 15   ( 090223 )</value>
+ </Data>
+ <Data name="height">
+   <value>77.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.922729</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5935,36.7967</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>840 Bacon School Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8883</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5674</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>840 Bacon School Rd</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>163.718139</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mid-Atlantic Broadband Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5674,36.8883</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>5015 Patrick Henry Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0751</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5015 Patrick Henry Highway</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>150.155288</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mid-Atlantic Broadband Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7158,37.0751</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Proctor Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9973</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6155</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Proctor Street</value>
+ </Data>
+ <Data name="height">
+   <value>35.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>148.28659</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tower Assets Newco X, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6155,36.9973</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>SR712</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0464</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4728</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR712</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>195.855697</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tower Assets Newco X, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4728,37.0464</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>SR-675 RR CROSSING @ RR MP V157.3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0783</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7508</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-675 RR CROSSING @ RR MP V157.3</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>142.256774</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7508,37.0783</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.975</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6833</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.494171</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6833,36.975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>8 MI @ 275 DEG.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0517</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6378</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8 MI @ 275 DEG.</value>
+ </Data>
+ <Data name="height">
+   <value>95.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.790664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6378,37.0517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>2 Law Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0517</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6378</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 Law Lane</value>
+ </Data>
+ <Data name="height">
+   <value>95.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.790664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6378,37.0517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>RAILROAD AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0406</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4839</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RAILROAD AVE</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>195.812469</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>North Carolina &amp; Virginia Railroad Co.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4839,37.0406</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0514</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6383</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>175.731277</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6383,37.0514</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>CR - 267 near US - 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7975</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5928</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CR - 267 near US - 15</value>
+ </Data>
+ <Data name="height">
+   <value>82.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>145.341064</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5928,36.7975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Intersection US 15 &amp; 360 Water Tank</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0645</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4719</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Intersection US 15 &amp; 360 Water Tank</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>185.880599</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4719,37.0645</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0514</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6383</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>175.731277</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Charlotte, County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6383,37.0514</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>CR - 267 near US - 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7975</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5928</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CR - 267 near US - 15</value>
+ </Data>
+ <Data name="height">
+   <value>82.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>145.341064</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Charlotte, County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5928,36.7975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>Intersection US 15 &amp; 360 Water Tank</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0645</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4719</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Intersection US 15 &amp; 360 Water Tank</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>185.880599</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Charlotte, County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4719,37.0645</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.057</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6328</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.501495</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Charlotte Land Surveying</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6328,37.057</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9094</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5283</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.2406</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5283,36.9094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>NEAR INT ST RT 40 AND 47</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0561</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6367</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR INT ST RT 40 AND 47</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>179.235931</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTE COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6367,37.0561</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>4 LOCUST RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0511</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4811</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4 LOCUST RD</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>185.784378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROY C JENKINS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4811,37.0511</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>Detector, RR MP B 29.3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1739</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.636899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detector, RR MP B 29.3</value>
+ </Data>
+ <Data name="height">
+   <value>4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>188.07135</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.636899,37.1739</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Detector  RR MP V 162.9</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.039699</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.828899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detector  RR MP V 162.9</value>
+ </Data>
+ <Data name="height">
+   <value>4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>136.095184</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.828899,37.039699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Detector, RR MP V 151.2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1153</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6553</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detector, RR MP V 151.2</value>
+ </Data>
+ <Data name="height">
+   <value>4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>154.349517</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6553,37.1153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>1 BLK W INT HWY 40 &amp; 47</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0578</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6356</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 BLK W INT HWY 40 &amp; 47</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>179.872085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PARKER OIL CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6356,37.0578</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1492</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6622</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.9691</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Aclara Technologies LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6622,37.1492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>HWY 15 1/2 MI S 1/4 MI FROM RT 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8475</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.583599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 15 1/2 MI S 1/4 MI FROM RT 360</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>145.986343</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH JR, WOODSON W</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.583599,36.8475</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>FIREHOUSE MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9942</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6008</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIREHOUSE MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>117.337776</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DRAKES BRANCH VOL FIRE DEPT INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6008,36.9942</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>HWY 47</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0514</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.638</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 47</value>
+ </Data>
+ <Data name="height">
+   <value>95</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>175.583221</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.638,37.0514</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9094</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5283</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.2406</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5283,36.9094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>US 360 1 KM E INT SR 47</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.075</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6997</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 360 1 KM E INT SR 47</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>158.775512</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6997,37.075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>SR 40 .4 KM NW INT SR 649</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.075</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6997</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 40 .4 KM NW INT SR 649</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>158.775512</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6997,37.075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>HWY 47</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0517</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6378</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 47</value>
+ </Data>
+ <Data name="height">
+   <value>95</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.790664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTE COUNTY RESCUE SQUAD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6378,37.0517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>ST RT 40 RESCUE SQUAD BLDG 1 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0433</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.497999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 40 RESCUE SQUAD BLDG 1 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>49</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.474563</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTE COUNTY RESCUE SQUAD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.497999,37.0433</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>HWY 47</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0517</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6378</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 47</value>
+ </Data>
+ <Data name="height">
+   <value>95</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.790664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6378,37.0517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>CHARLOTTE CTY JAIL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0547</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.636899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CHARLOTTE CTY JAIL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>177.69725</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.636899,37.0547</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>FORESTRY OFC RT 57 E 1/2 MI SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.045</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.624699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY OFC RT 57 E 1/2 MI SE</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.948974</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.624699,37.045</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>RT 360 .5 MI E OF INT RT 47</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9094</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5283</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 360 .5 MI E OF INT RT 47</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.2406</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5283,36.9094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>FIRE TWR RT 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9094</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5283</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIRE TWR RT 15</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.2406</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5283,36.9094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0417</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4664</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>175.152877</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALLENS AMBULANCE SERVICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4664,37.0417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>HWY 47</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0514</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.638</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 47</value>
+ </Data>
+ <Data name="height">
+   <value>95</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>175.583221</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.638,37.0514</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>INT RT 15 &amp; 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0645</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4719</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT RT 15 &amp; 360</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>185.880599</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4719,37.0645</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>630 ft. S of Route 652/940 ft. W of Route 680</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0669</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>630 ft. S of Route 652/940 ft. W of Route 680</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.902633</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4997,37.0669</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>KEYSVILLE CELL SITE: 1 MILE WEST OF KEYSVILLE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0467</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4717</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>KEYSVILLE CELL SITE: 1 MILE WEST OF KEYSVILLE</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>196.203536</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4717,37.0467</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>8 miles bearing 275 deg. from</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0517</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6378</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8 miles bearing 275 deg. from</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.790664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6378,37.0517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>5192 Barnesville Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7956</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6075</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5192 Barnesville Highway</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.295089</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6075,36.7956</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>ROUTE 652</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0672</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4997</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 652</value>
+ </Data>
+ <Data name="height">
+   <value>93.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>182.516372</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4997,37.0672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>Dickerson Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1142</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7309</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dickerson Road</value>
+ </Data>
+ <Data name="height">
+   <value>60.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>177.140792</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7309,37.1142</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>1 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0467</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4717</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>196.203536</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4717,37.0467</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1754</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7867</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.29779</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7867,37.1754</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>NEAR SR 638 3.8 MI NE OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2229</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.758099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR SR 638 3.8 MI NE OF</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>174.218307</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.758099,37.2229</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>.3 MI E OF INT HWY 671 &amp; 665</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1939</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6447</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.3 MI E OF INT HWY 671 &amp; 665</value>
+ </Data>
+ <Data name="height">
+   <value>60.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>210.194488</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6447,37.1939</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>.2 MI W OF INT HWY 671 &amp; 665</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1938</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6447</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.2 MI W OF INT HWY 671 &amp; 665</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>209.166763</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6447,37.1938</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>2 Law Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0518</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6378</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 Law Lane</value>
+ </Data>
+ <Data name="height">
+   <value>95.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>177.174743</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6378,37.0518</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>NEAR TECH LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0361</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4558</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR TECH LN</value>
+ </Data>
+ <Data name="height">
+   <value>12.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>188.748168</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE VIRGINIA COMMUNITY COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4558,37.0361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9936</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.602199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.556137</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DRAKES BRANCH, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.602199,36.9936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>628 JEB STUART HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8297</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6508</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>628 JEB STUART HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>21.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.998779</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MORGAN LUMBER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6508,36.8297</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>205 Main Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.039199</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4839</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>205 Main Street</value>
+ </Data>
+ <Data name="height">
+   <value>25</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>194.837295</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buckingham Branch Railroad Co</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4839,37.039199</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>200 Daniel Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.035</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4572</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 Daniel Road</value>
+ </Data>
+ <Data name="height">
+   <value>6.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>189.07434</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Southside Virginia Community College</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4572,37.035</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>HWY 47</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0517</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6378</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 47</value>
+ </Data>
+ <Data name="height">
+   <value>95.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.790664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Charlotte County Volunteer Rescue Squad</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6378,37.0517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0264</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6069</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>119.227973</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Dept. Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6069,37.0264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>County Road 627, 0.4 MI off US-15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlotte County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7972</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5928</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>County Road 627, 0.4 MI off US-15</value>
+ </Data>
+ <Data name="height">
+   <value>82.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.50624</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5928,36.7972</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

@@ -1,0 +1,1823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>1/2 MI NE OF HUGHES STORE ON RD 600 2800' E OF CR 603</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4564</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1816</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MI NE OF HUGHES STORE ON RD 600 2800' E OF CR 603</value>
+ </Data>
+ <Data name="height">
+   <value>80.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.071063</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RCTC Wholesale Corporation d/b/a Alltel</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1816,37.4564</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>1201 MUNFORD RD ON RT 600 .25 MI FROM RT 155</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.385</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0606</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1201 MUNFORD RD ON RT 600 .25 MI FROM RT 155</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.372615</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS EDUCATIONAL TELECOMMUNICATIONS ASSOCIATION INC  DBA =  WHRO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0606,37.385</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>4031 Mount Pleasant Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4313</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1433</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4031 Mount Pleasant Road</value>
+ </Data>
+ <Data name="height">
+   <value>79.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.715589</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN ATLANTIC COMPANY, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1433,37.4313</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>(MOUNT PLEASANT) 4031 MT. PLEASANT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4342</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1409</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>(MOUNT PLEASANT) 4031 MT. PLEASANT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>65.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.78897</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AT&amp;T CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1409,37.4342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>1.38 km SW of intersection of RT 5 and RT 613</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.301</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9736</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.38 km SW of intersection of RT 5 and RT 613</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.734594</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Delmarva Educational Association</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9736,37.301</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>17100 TOMAHUND DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2683</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8967</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>17100 TOMAHUND DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>86.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.564199</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8967,37.2683</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>RT 660 1400' W OF RT 155</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3872</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0625</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 660 1400' W OF RT 155</value>
+ </Data>
+ <Data name="height">
+   <value>79.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.483085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0625,37.3872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>RT 660 1400' W OF RT 155</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3875</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.061899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 660 1400' W OF RT 155</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.554252</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.061899,37.3875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>10000 Block of Carters Mill Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3817</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2321</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10000 Block of Carters Mill Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.584006</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>National Communication Towers, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2321,37.3817</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>HAUPTS LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4331</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HAUPTS LANE</value>
+ </Data>
+ <Data name="height">
+   <value>106.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.042381</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMERICAN FAMILY ASSOCIATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1936,37.4331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>ROUTE 614</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3547</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9991</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 614</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.014537</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Properties</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9991,37.3547</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>SR 609, East of SR 625</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3569</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1585</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 609, East of SR 625</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.925222</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Properties</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1585,37.3569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>1910 ROXBURY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.463599</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.139999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1910 ROXBURY RD</value>
+ </Data>
+ <Data name="height">
+   <value>4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.476799</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.139999,37.463599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>RT 660 1400' W OF RT 155</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3875</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.061899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 660 1400' W OF RT 155</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.554252</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLES CITY COUNTY BOARD OF SUPERVISORS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.061899,37.3875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>RR crossing at RT-631 and MP F111.10</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4069</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.088099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR crossing at RT-631 and MP F111.10</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.93597</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.088099,37.4069</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>RT 660 1400 W OF RT 155</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3875</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.061899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 660 1400 W OF RT 155</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.554252</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLES CITY COUNTY BOARD OF SUPERVISORS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.061899,37.3875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>RT 660 1400' W OF RT 155</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3875</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.061899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 660 1400' W OF RT 155</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.554252</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Charles City County Board of Supervisors</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.061899,37.3875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>RT 60 E 3.2KM TO ELKO ROAD S,.8 KM ELKO TRACT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3389</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.244699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 60 E 3.2KM TO ELKO ROAD S,.8 KM ELKO TRACT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.179924</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>QIMONDA RICHMOND LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.244699,37.3389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>1200 W SR 155 .80 KM S JCT RT 155 &amp; 612</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3872</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.061699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1200 W SR 155 .80 KM S JCT RT 155 &amp; 612</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.134307</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.061699,37.3872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>RT 660 1400' W OF RT 155</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3875</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.061899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 660 1400' W OF RT 155</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.554252</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.061899,37.3875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>1200 W OF SR 155 0.5 MI S OF INT RT 155 &amp; RT 612</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3872</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.061699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1200 W OF SR 155 0.5 MI S OF INT RT 155 &amp; RT 612</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.134307</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.061699,37.3872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>RT 155 W .25 MI/W ROACHES CORNER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3858</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0614</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 155 W .25 MI/W ROACHES CORNER</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.93399</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLES CITY COUNTY SCHOOL BOARD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0614,37.3858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3133</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.179399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.795024</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>APB III ENTERPRISES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.179399,37.3133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>CSXT MP 67</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.463599</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1394</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CSXT MP 67</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.861892</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1394,37.463599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2945</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.932199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.979672</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH OF VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.932199,37.2945</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>RT 155 W 40KM W ROACHES CORNER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3858</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0614</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 155 W 40KM W ROACHES CORNER</value>
+ </Data>
+ <Data name="height">
+   <value>60</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.93399</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLES CITY, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0614,37.3858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>RT 660 1400 FT WEST OF RT 155</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3875</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.061899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 660 1400 FT WEST OF RT 155</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.554252</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLES CITY VOLUNTEER FIRE DEPARTMENT INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.061899,37.3875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>RT 155 1/4 MI W ROACHES COR 2.5 MI SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3858</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0614</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 155 1/4 MI W ROACHES COR 2.5 MI SSW</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.93399</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLES CITY, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0614,37.3858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.35</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.074399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.147826</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLES CITY VOLUNTEER FIRE DEPARTMENT INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.074399,37.35</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>RT 155 1 MI N OF RT 5</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3578</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0747</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 155 1 MI N OF RT 5</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.104387</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0747,37.3578</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>ROXBURY RD RT 106 &amp; RR TRACKS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4639</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1397</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROXBURY RD RT 106 &amp; RR TRACKS</value>
+ </Data>
+ <Data name="height">
+   <value>2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.465291</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1397,37.4639</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>17100 TOMAHUND DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2683</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8964</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>17100 TOMAHUND DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>91.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.48286</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8964,37.2683</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>1/2 MI NE OF HUGHES STORE ON RD 600 2800' E OF CR 603</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4578</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1814</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MI NE OF HUGHES STORE ON RD 600 2800' E OF CR 603</value>
+ </Data>
+ <Data name="height">
+   <value>80.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.836322</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RCTC Wholesale Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1814,37.4578</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>1/2 MI NE OF HUGHES STORE ON RD 600 2800' E OF CR 603</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4564</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1816</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MI NE OF HUGHES STORE ON RD 600 2800' E OF CR 603</value>
+ </Data>
+ <Data name="height">
+   <value>80.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.071063</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1816,37.4564</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>Courthouse Green</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.341</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0709</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Courthouse Green</value>
+ </Data>
+ <Data name="height">
+   <value>41.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.963553</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Charles City County Sheriffs Office</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0709,37.341</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.377</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0702</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.158573</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Charles City County Public Works</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0702,37.377</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>17100 TOMAHUND DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2683</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8967</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>17100 TOMAHUND DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>91.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.564199</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8967,37.2683</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>1201 MUNFORD RD ON RT 600 .25 MI FROM RT 155</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.385</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.060499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1201 MUNFORD RD ON RT 600 .25 MI FROM RT 155</value>
+ </Data>
+ <Data name="height">
+   <value>82.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.244518</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS EDUCATIONAL TELECOMMUNICATIONS ASSOC., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.060499,37.385</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>1201 MUNFORD RD ON RT 600 .25 MI FROM RT 155</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.385</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.060499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1201 MUNFORD RD ON RT 600 .25 MI FROM RT 155</value>
+ </Data>
+ <Data name="height">
+   <value>82.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.244518</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPTON ROADS EDUCATIONAL TELECOMMUNICATIONS ASSOC., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.060499,37.385</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>RT 660 1400' W OF RT 155</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3872</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0625</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 660 1400' W OF RT 155</value>
+ </Data>
+ <Data name="height">
+   <value>85.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.483085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0625,37.3872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>4031 MT PLEASANT RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4343</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.140999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4031 MT PLEASANT RD</value>
+ </Data>
+ <Data name="height">
+   <value>71</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.537567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AT&amp;T Communications of Virginia, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.140999,37.4343</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>17100 TOMAHUND DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2683</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8967</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>17100 TOMAHUND DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>91.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.564199</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Charles City County Board of Supervisors</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8967,37.2683</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>2.3 MILES SSW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charles City County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3858</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0614</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.3 MILES SSW OF</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.93399</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0614,37.3858</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

@@ -1,0 +1,4931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>RUTHER GLEN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9254</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4498</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RUTHER GLEN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>76.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.318946</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pinnacle Towers LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4498,37.9254</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>8467 CEDON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0689</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5054</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8467 CEDON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>76.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>69.897026</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pinnacle Towers LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5054,38.0689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>7458 EDMOND ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1569</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.21</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7458 EDMOND ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>86.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>50.185462</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.21,38.1569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>22091 Jefferson Davis Hwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.961099</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5049</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>22091 Jefferson Davis Hwy</value>
+ </Data>
+ <Data name="height">
+   <value>87.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.953636</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5049,37.961099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>RT 651</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8145</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3711</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 651</value>
+ </Data>
+ <Data name="height">
+   <value>86.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>57.187229</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3711,37.8145</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>HWY 95 &amp; RT 632</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5114</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 95 &amp; RT 632</value>
+ </Data>
+ <Data name="height">
+   <value>101.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.370315</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBC TOWER HOLDINGS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5114,38.0806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>W RT 301 S RT 628</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.012</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.339</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>W RT 301 S RT 628</value>
+ </Data>
+ <Data name="height">
+   <value>90.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>60.780849</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBC TOWER HOLDINGS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.339,38.012</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>17009 Dry Bridge Rd.  (VA14100-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9071</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3598</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>17009 Dry Bridge Rd.  (VA14100-A)</value>
+ </Data>
+ <Data name="height">
+   <value>59.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.861106</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3598,37.9071</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>14355 Concord Rd.  (VA14102-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8599</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3966</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14355 Concord Rd.  (VA14102-A)</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>59.18209</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3966,37.8599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>State Rt. 2 Caroline County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0799</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.363899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Rt. 2 Caroline County</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.347091</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of   Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.363899,38.0799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>1 MILE NORTH OF BOWLING GREEN ON ROUTE 2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0635</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3553</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MILE NORTH OF BOWLING GREEN ON ROUTE 2</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>63.869392</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Rappahannock Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3553,38.0635</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>5431 Gatewood Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.049</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5515</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5431 Gatewood Road</value>
+ </Data>
+ <Data name="height">
+   <value>100.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>86.115081</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5515,38.049</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>26145 JEFFERSON DAVIS HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9062</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4715</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>26145 JEFFERSON DAVIS HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>57.070697</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4715,37.9062</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>off SR 656</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9313</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4073</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>off SR 656</value>
+ </Data>
+ <Data name="height">
+   <value>38.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>69.993003</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Global Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4073,37.9313</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>Landora Glen Road  (273685)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9947</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.591299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Landora Glen Road  (273685)</value>
+ </Data>
+ <Data name="height">
+   <value>91.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>96.863906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.591299,37.9947</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>RTE 610 OFF ST RTE 10 (VA088293)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2121</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3569</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RTE 610 OFF ST RTE 10 (VA088293)</value>
+ </Data>
+ <Data name="height">
+   <value>95.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.791793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3569,38.2121</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>STATE ROUTE 631 (088283)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0768</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3666</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATE ROUTE 631 (088283)</value>
+ </Data>
+ <Data name="height">
+   <value>68.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.459167</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3666,38.0768</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>.5 MI SW (009212)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9284</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4551</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.5 MI SW (009212)</value>
+ </Data>
+ <Data name="height">
+   <value>91.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>63.87968</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4551,37.9284</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Locks Corner</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1543</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3895</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Locks Corner</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.942596</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STC Three LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3895,38.1543</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Port Royal</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1811</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.278</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Port Royal</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>60.613731</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STC Three LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.278,38.1811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>Bowling Green VA.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1027</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2719</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Bowling Green VA.</value>
+ </Data>
+ <Data name="height">
+   <value>76.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>59.389102</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STC Three LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2719,38.1027</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>17503 FROG LEVEL ROAD (2OC)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8579</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3383</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>17503 FROG LEVEL ROAD (2OC)</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.43507</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STC Three LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3383,37.8579</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>RT 601 (22)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9682</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.542</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 601 (22)</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.394416</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STC Three LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.542,37.9682</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>26389 JEFFERSON DAVIS HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4658</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>26389 JEFFERSON DAVIS HWY</value>
+ </Data>
+ <Data name="height">
+   <value>86.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.31583</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4658,37.9</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>0.7 KM N OF RT 601 &amp; 0.8 KM W OF FRED/POTOMOC RLD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.965599</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3717</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.7 KM N OF RT 601 &amp; 0.8 KM W OF FRED/POTOMOC RLD</value>
+ </Data>
+ <Data name="height">
+   <value>151.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.704681</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHHANNOCK COMM. GROUP, INC.  DBA =  WWUZ</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3717,37.965599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>1650 ft NNW of the intersection of RT.30 and RT. 651 in Caroline County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8371</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3626</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1650 ft NNW of the intersection of RT.30 and RT. 651 in Caroline County</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>62.407829</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Rappahannock Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3626,37.8371</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>15093 CADAWOOD DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0533</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3686</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>15093 CADAWOOD DR</value>
+ </Data>
+ <Data name="height">
+   <value>86.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.545101</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3686,38.0533</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>INT. OF US 1 A &amp; ROUTE 603</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1001</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5191</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT. OF US 1 A &amp; ROUTE 603</value>
+ </Data>
+ <Data name="height">
+   <value>86.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.412925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5191,38.1001</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>RAINWATER PLACE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0203</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5109</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RAINWATER PLACE</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>74.443405</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pinnacle Towers LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5109,38.0203</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>21764 COOL WATER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9597</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4819</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>21764 COOL WATER</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>53.626178</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pinnacle Towers LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4819,37.9597</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>Route 619 &amp; 301 in the center of the Town of Bowling Green</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0507</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3441</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 619 &amp; 301 in the center of the Town of Bowling Green</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.349044</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Consulting Group, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3441,38.0507</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0003</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4156</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.521713</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAROLINE COUNTY HIGH SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4156,38.0003</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0253</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.34</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.482604</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHESAPEAKE WOOD SPECIALTIES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.34,38.0253</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>18173 TIDEWATER TRAIL HAYFIELD PLANT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2361</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3278</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>18173 TIDEWATER TRAIL HAYFIELD PLANT</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.166125</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MID ATLANTIC MATERIALS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3278,38.2361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>20500 EASTER SEAL DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9764</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1353</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>20500 EASTER SEAL DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.392143</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>REMUDA RANCH CENTER FOR EATING DISORDERS EAST INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1353,37.9764</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9761</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1342</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>49.120426</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>REMUDA RANCH CENTER FOR EATING DISORDERS EAST INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1342,37.9761</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>18031 GREEN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0175</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5014</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>18031 GREEN RD</value>
+ </Data>
+ <Data name="height">
+   <value>32.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.733581</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMET INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5014,38.0175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>13902 LEE JACK MEM HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.06</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4286</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13902 LEE JACK MEM HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.745262</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DAVCO RESTAURANTS, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4286,38.06</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9972</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.534699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.574798</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TRICORO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.534699,37.9972</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>INTERSECTION AMERICAN DR &amp; W POINT DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9839</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5331</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INTERSECTION AMERICAN DR &amp; W POINT DR</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>74.367561</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LAKE CAROLINE PROPERTY OWNERS ASSOCIATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5331,37.9839</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>FT AP HILL ON THOMAS RD 1.5 MI NW OF INT OF THOMAS RD &amp; LEE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.135</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FT AP HILL ON THOMAS RD 1.5 MI NW OF INT OF THOMAS RD &amp; LEE DR</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.129653</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOY SCOUTS OF AMERICA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3308,38.135</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>FT A.P. HILL ON THOMAS RD 1.5 MI NW OF INT OF THOMAS RD &amp; LEE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.135</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FT A.P. HILL ON THOMAS RD 1.5 MI NW OF INT OF THOMAS RD &amp; LEE DR</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.129653</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOY SCOUTS OF AMERICA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3308,38.135</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9408</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.449399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.874862</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Russell Stovers Candy</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.449399,37.9408</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>15401 NELSON HILL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0186</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3772</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>15401 NELSON HILL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>7.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.142198</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MBT MEDICAL TRANSPORT, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3772,38.0186</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9981</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6167</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>81.861068</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Bellemount Farms Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6167,37.9981</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>23029 RICHMOND TURNPIKE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9483</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3456</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23029 RICHMOND TURNPIKE</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.11943</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUCK STONE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3456,37.9483</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>16221 RICHMOND TURNPIKE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.037</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.342199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>16221 RICHMOND TURNPIKE</value>
+ </Data>
+ <Data name="height">
+   <value>12.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>55.232341</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAROLINE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.342199,38.037</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>17017 NEW BALTIMORE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0272</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3575</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>17017 NEW BALTIMORE RD</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>53.910606</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAROLINE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3575,38.0272</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>17377 RICHMOND TURNPIKE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0228</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.339699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>17377 RICHMOND TURNPIKE</value>
+ </Data>
+ <Data name="height">
+   <value>12.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>60.57883</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAROLINE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.339699,38.0228</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>107 COUNTY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0339</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3456</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>107 COUNTY ST</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.420906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAROLINE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3456,38.0339</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>26145 JEFF DAVIS HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9028</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4703</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>26145 JEFF DAVIS HWY</value>
+ </Data>
+ <Data name="height">
+   <value>35</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>58.712699</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>H &amp; L PRICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4703,37.9028</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>5431 GATEWOOD ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0489</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5514</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5431 GATEWOOD ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>106.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>86.467002</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5514,38.0489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>1.5 MI N INT ST RT 669 AND 679</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9903</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6244</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI N INT ST RT 669 AND 679</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.357215</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6244,37.9903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>RT 2 1 MI N REC MICROWAVE TOWER SITE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0633</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.355</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 2 1 MI N REC MICROWAVE TOWER SITE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.428047</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.355,38.0633</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>REC OPERATIONS OFC SR 2 1 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0606</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.365</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>REC OPERATIONS OFC SR 2 1 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>53.091365</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.365,38.0606</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.125</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4161</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.850246</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4161,38.125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>RTS 628 &amp; 640 S ON 640</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0139</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.36</value>
+ </Data>
+ <Data name="structure_type">
+   <value>SILO</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RTS 628 &amp; 640 S ON 640</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.758792</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>R R BEASLEY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.36,38.0139</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>INT RT 207 AND COLONIAL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0272</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.373899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT RT 207 AND COLONIAL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>28</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.84785</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROP PRODUCTION SERVICES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.373899,38.0272</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>.25 MI S RT 628 &amp; 640</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0139</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.36</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.25 MI S RT 628 &amp; 640</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.758792</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>E M GRAY &amp; SON INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.36,38.0139</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>5431 GATEWOOD ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0489</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5514</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5431 GATEWOOD ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>106.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>86.467002</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5514,38.0489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>RUTHER GLEN RD .93 MI SE OF SRS 27 207</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9281</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.455</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RUTHER GLEN RD .93 MI SE OF SRS 27 207</value>
+ </Data>
+ <Data name="height">
+   <value>91</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>63.937564</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.455,37.9281</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>INTS RTS 1 &amp; 639 W 2.5 MI BEAR RT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0417</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5586</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INTS RTS 1 &amp; 639 W 2.5 MI BEAR RT</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>76.351539</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LAKE LAND OR PROPERTY OWNERS ASSOCIATION INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5586,38.0417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>1 MI S OF INT US 1 AND RT 639</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0175</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5017</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI S OF INT US 1 AND RT 639</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>73.145309</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LAKE CAROLINE PROPERTY OWNERS ASSOCIATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5017,38.0175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>11093 S W LEWIS MEMORIAL DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1111</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2694</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11093 S W LEWIS MEMORIAL DR</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>58.204982</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PEUMANSEND CREEK, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2694,38.1111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>11093 S W LEWIS MEMORIAL DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1111</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2694</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11093 S W LEWIS MEMORIAL DR</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>58.204982</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PEUMANSEND CREEK REGIONAL JAIL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2694,38.1111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>107 COUNTY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0339</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3453</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>107 COUNTY ST</value>
+ </Data>
+ <Data name="height">
+   <value>58</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.303169</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAROLINE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3453,38.0339</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>BASEMENT OF JAIL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0339</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3453</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BASEMENT OF JAIL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.303169</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAROLINE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3453,38.0339</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>CAROLINE CU .4 MI N RT 30 301</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8333</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.329999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CAROLINE CU .4 MI N RT 30 301</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>59.158107</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.329999,37.8333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>DIV OF FORESTRY OFC</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0517</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3436</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DIV OF FORESTRY OFC</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.528404</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3436,38.0517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>CTY JAIL BLDG 107 COUNTY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0339</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3453</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CTY JAIL BLDG 107 COUNTY ST</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.303169</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAROLINE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3453,38.0339</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>31220 CAMP RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.835</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3314</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>31220 CAMP RD</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>57.557926</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3314,37.835</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>US RT 1 2 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.99</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.505</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 1 2 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>63.541889</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.505,37.99</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>RT 2 2 MI N OF BOWLING GREEN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0811</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.363899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 2 2 MI N OF BOWLING GREEN</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.096565</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.363899,38.0811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>CTY DISPATCH CTR 107 COUNTY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0339</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3453</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CTY DISPATCH CTR 107 COUNTY ST</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.303169</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAROLINE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3453,38.0339</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>RUTHER GLEN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9253</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4497</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RUTHER GLEN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>82.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.167259</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4497,37.9253</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>DEFAULT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.104699</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.293</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DEFAULT</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>63.279266</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.293,38.104699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>WESTSIDE RT. 633 (NANCY WRIGHT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.510799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WESTSIDE RT. 633 (NANCY WRIGHT</value>
+ </Data>
+ <Data name="height">
+   <value>106</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.111465</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.510799,38.0806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>WESTSIDE RT. 633 (NANCY WRIGHT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.510799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WESTSIDE RT. 633 (NANCY WRIGHT</value>
+ </Data>
+ <Data name="height">
+   <value>106</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.111465</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.510799,38.0806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>26145 JEFFERSON DAVIS HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9058</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.471099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>26145 JEFFERSON DAVIS HWY</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>56.463348</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.471099,37.9058</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>22308 TELEGRAPH ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.961099</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5036</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>22308 TELEGRAPH ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>69.463386</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5036,37.961099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>3.9 MI SE OF US301 &amp; US 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1172</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1725</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3.9 MI SE OF US301 &amp; US 17</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>55.362312</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1725,38.1172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>INT. OF US 1 A &amp; ROUTE 603</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5192</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT. OF US 1 A &amp; ROUTE 603</value>
+ </Data>
+ <Data name="height">
+   <value>90.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.842819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5192,38.1</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>26389 JEFFERSON DAVIS HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8997</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4658</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>26389 JEFFERSON DAVIS HWY</value>
+ </Data>
+ <Data name="height">
+   <value>91.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>52.242622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4658,37.8997</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>Rt 651</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8145</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3711</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt 651</value>
+ </Data>
+ <Data name="height">
+   <value>91.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>57.187229</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3711,37.8145</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>7458 EDMOND ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1567</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2097</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7458 EDMOND ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>87.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.288166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2097,38.1567</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>INT. OF US 1 A &amp; ROUTE 603</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5192</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT. OF US 1 A &amp; ROUTE 603</value>
+ </Data>
+ <Data name="height">
+   <value>90.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.842819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5192,38.1</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>22091 Jefferson Davis Hwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.961099</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5047</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>22091 Jefferson Davis Hwy</value>
+ </Data>
+ <Data name="height">
+   <value>91.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.484832</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5047,37.961099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>State Road 603 (Landora Bridge Road)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9947</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.591099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Road 603 (Landora Bridge Road)</value>
+ </Data>
+ <Data name="height">
+   <value>93.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>98.035987</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.591099,37.9947</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>17009 Dry Bridge Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9069</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.359699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>17009 Dry Bridge Road</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.023185</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.359699,37.9069</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>14335 Concord Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8597</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3964</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14335 Concord Road</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.290092</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3964,37.8597</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>16341 Pepmeier Hill Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2119</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.356699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>16341 Pepmeier Hill Road</value>
+ </Data>
+ <Data name="height">
+   <value>101.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.768013</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.356699,38.2119</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>Summer Brook Farm/Route 633</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Summer Brook Farm/Route 633</value>
+ </Data>
+ <Data name="height">
+   <value>105.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.370315</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5114,38.0806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>ROUTE 1 SOUTH 704 SITE IS 1/2 MILE PAST 704</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.961099</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5047</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 1 SOUTH 704 SITE IS 1/2 MILE PAST 704</value>
+ </Data>
+ <Data name="height">
+   <value>91.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.484832</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5047,37.961099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>1650 ft NNW of the intersection of RT.30 and RT. 651 in Caroline Count</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8371</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3626</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1650 ft NNW of the intersection of RT.30 and RT. 651 in Caroline Count</value>
+ </Data>
+ <Data name="height">
+   <value>79.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>62.407829</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3626,37.8371</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>I-95 &amp; ROUTE 639 (NORTHEAST QUANDRANT)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0209</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4981</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>I-95 &amp; ROUTE 639 (NORTHEAST QUANDRANT)</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>68.394622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FiberTower Network Services Corp.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4981,38.0209</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>HWY 95 &amp; RT 632</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 95 &amp; RT 632</value>
+ </Data>
+ <Data name="height">
+   <value>105.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.370315</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FiberTower Network Services Corp.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5114,38.0806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>INT. OF US 1 A &amp; ROUTE 603</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1001</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5192</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT. OF US 1 A &amp; ROUTE 603</value>
+ </Data>
+ <Data name="height">
+   <value>90.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.842819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FiberTower Network Services Corp.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5192,38.1001</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>RTE 610 OFF ST RTE 10 (VA088293)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2121</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3569</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RTE 610 OFF ST RTE 10 (VA088293)</value>
+ </Data>
+ <Data name="height">
+   <value>104.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.791793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FiberTower Network Services Corp.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3569,38.2121</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>State Rt. 2 Caroline County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0799</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.363899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Rt. 2 Caroline County</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.347091</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH OF VIRGINIA, DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.363899,38.0799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0497</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3469</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>69.213104</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAROLINE COUNTY PUBLIC WORKS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3469,38.0497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>5431 Gatewood Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.049</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5514</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5431 Gatewood Road</value>
+ </Data>
+ <Data name="height">
+   <value>106.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>86.115081</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5514,38.049</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>Summer Brook Farm/Route 633</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Summer Brook Farm/Route 633</value>
+ </Data>
+ <Data name="height">
+   <value>105.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.370315</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5114,38.0806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>Route 301 West, South of Route 628</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.012</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.339</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 301 West, South of Route 628</value>
+ </Data>
+ <Data name="height">
+   <value>93.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>60.780849</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.339,38.012</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>REC OFFICE BLDG RT 2 N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0635</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.355199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>REC OFFICE BLDG RT 2 N</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.184188</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.355199,38.0635</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>RT 301 SW OF RT 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1569</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 301 SW OF RT 17</value>
+ </Data>
+ <Data name="height">
+   <value>94.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>50.653652</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2099,38.1569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>.68 MI N INT I-95 &amp; SR 605</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1001</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5192</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.68 MI N INT I-95 &amp; SR 605</value>
+ </Data>
+ <Data name="height">
+   <value>90.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.842819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5192,38.1001</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>2.4 MI NW FROM CROSSROAD OF US 1 &amp; RT 207</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9612</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5047</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.4 MI NW FROM CROSSROAD OF US 1 &amp; RT 207</value>
+ </Data>
+ <Data name="height">
+   <value>91.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.989166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5047,37.9612</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>ON RT 2, 1 MI NORTH OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0635</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.355199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON RT 2, 1 MI NORTH OF</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.184188</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.355199,38.0635</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>1 MILE NORTH OF BOWLING GREEN ON ROUTE 2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0633</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.355</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MILE NORTH OF BOWLING GREEN ON ROUTE 2</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.428047</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.355,38.0633</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0069</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.578899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>88.883659</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEWIS AND CLARK ELEMENTARY SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.578899,38.0069</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>VDOT BOWLING GREEN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0797</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.363899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VDOT BOWLING GREEN</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.625984</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF, DEPT OF TRANSPORTATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.363899,38.0797</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>31285 CAMP ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8331</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3311</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>31285 CAMP ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>60.235088</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3311,37.8331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0167</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5183</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>73.412376</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAROLINE COUNTY DEVERSIFIED LEARNING CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5183,38.0167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9383</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4464</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.878555</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4464,37.9383</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>2350 SKINKERS NECK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2328</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2658</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2350 SKINKERS NECK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>7.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.671382</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FOUR WINDS CLUB INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2658,38.2328</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>CITY WATER TOWER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0528</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.344699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CITY WATER TOWER</value>
+ </Data>
+ <Data name="height">
+   <value>44.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>57.933982</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.344699,38.0528</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>US 1, 1 MILE NORTH OF COUNTY LINE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Caroline County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9058</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.471399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 1, 1 MILE NORTH OF COUNTY LINE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>57.755184</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.471399,37.9058</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>
