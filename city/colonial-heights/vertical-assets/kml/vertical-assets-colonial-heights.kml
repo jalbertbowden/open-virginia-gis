@@ -1,0 +1,1865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>Off Charles H. Dimmock Parkway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2449</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3824</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off Charles H. Dimmock Parkway</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.540566</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CITY OF COLONIAL HEIGHTS, VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3824,37.2449</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>901 East Roslyn Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.24392052</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.38621953</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Tower Site</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>901 East Roslyn Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>18.93409654</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Colonial Heights, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.38621953,37.24392052</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>Ellerslie and I95</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.27014198</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.40812367</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Ellerslie and I95</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.15910458</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Colonial Heights, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.40812367,37.27014198</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>RI-159D</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2569</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RI-159D</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.864571</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of, Dept of Trans</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3997,37.2569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>NE CORNER OF CONDUIT RD AND TEMPLE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2586</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3942</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NE CORNER OF CONDUIT RD AND TEMPLE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>131.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.415231</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Radio Disney Group, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3942,37.2586</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2542</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3903</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.023698</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Toys R Us Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3903,37.2542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>2600 Conduit Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2583</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.396099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2600 Conduit Road</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.459007</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HOME DEPOT U.S.A., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.396099,37.2583</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>Off Charles H. Dimmock Parkway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2447</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3822</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off Charles H. Dimmock Parkway</value>
+ </Data>
+ <Data name="height">
+   <value>125.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.929783</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>City of Richmond</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3822,37.2447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>3110 GREENWOOD AVE.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2636</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3911</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3110 GREENWOOD AVE.</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.754165</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MOUNT PLEASANT BAPTIST CHURCH</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3911,37.2636</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2478</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3889</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.177761</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GAP INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3889,37.2478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2561</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.396099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.402341</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JC Penney Corp Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.396099,37.2561</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>230 Southpark Circle</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2558</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3955</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>230 Southpark Circle</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.521393</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Southpark Mall</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3955,37.2558</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>628 SOUTH PARK BLVD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.245</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3906</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>628 SOUTH PARK BLVD.</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.595378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS IV, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3906,37.245</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2639</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3989</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>18.218927</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SEARS SOUTHPARK</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3989,37.2639</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>901 EAST ROSLYN ROAD, OFF CHARLES H. DIMMOCK PARKWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2447</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3822</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>901 EAST ROSLYN ROAD, OFF CHARLES H. DIMMOCK PARKWAY</value>
+ </Data>
+ <Data name="height">
+   <value>125.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.929783</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Chesterfield, County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3822,37.2447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>OFF CHARLES H DIMMOCK PARKWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2447</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3822</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF CHARLES H DIMMOCK PARKWAY</value>
+ </Data>
+ <Data name="height">
+   <value>125.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.929783</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS POLICE DEPT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3822,37.2447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>OFF CHARLES H DIMMOCK PARKWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2447</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3822</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF CHARLES H DIMMOCK PARKWAY</value>
+ </Data>
+ <Data name="height">
+   <value>126</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.929783</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Chesterfield, County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3822,37.2447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2481</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3889</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.975194</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS HIGH SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3889,37.2481</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>WATER TANK SOUTHPARK MALL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2481</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3889</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TANK SOUTHPARK MALL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.975194</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS HIGH SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3889,37.2481</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2672</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3908</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.324275</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS HIGH SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3908,37.2672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>157 ROANOKE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2481</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3975</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>157 ROANOKE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>33</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>18.81075</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3975,37.2481</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>401 TEMPLE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2581</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4058</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>401 TEMPLE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.982355</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4058,37.2581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>WATER TANK SOUTHPARK MALL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2481</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3889</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TANK SOUTHPARK MALL</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.975194</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3889,37.2481</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>401 TEMPLE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2581</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4058</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>401 TEMPLE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.982355</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4058,37.2581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2539</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.409999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.25954</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.409999,37.2539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>401 TEMPLE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2581</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4058</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>401 TEMPLE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.982355</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4058,37.2581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>401 TEMPLE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2581</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4058</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>401 TEMPLE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.982355</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4058,37.2581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>NR HARRIS HALL VA STATE UNIVERSITY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2375</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4147</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NR HARRIS HALL VA STATE UNIVERSITY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.045917</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4147,37.2375</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>157 ROANOKE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2483</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4144</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>157 ROANOKE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.656267</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4144,37.2483</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>400 TEMPLE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2581</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4058</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>400 TEMPLE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>43</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.982355</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4058,37.2581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>ROSLYN ROAD OFF CHARLES H DIMMOCK PARKWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2447</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3822</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROSLYN ROAD OFF CHARLES H DIMMOCK PARKWAY</value>
+ </Data>
+ <Data name="height">
+   <value>125.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.929783</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3822,37.2447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2581</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4058</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.982355</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4058,37.2581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>401 TEMPLE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2581</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4058</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>401 TEMPLE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.982355</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4058,37.2581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>ROSLYN ROAD OFF CHARLES H DIMMOCK PARKWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2447</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3822</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROSLYN ROAD OFF CHARLES H DIMMOCK PARKWAY</value>
+ </Data>
+ <Data name="height">
+   <value>125.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.929783</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLONIAL HEIGHTS, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3822,37.2447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>RI-159D</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2569</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3997</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RI-159D</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.864571</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3997,37.2569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>21031 Vaughn-Williams St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2378</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4155</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>21031 Vaughn-Williams St.</value>
+ </Data>
+ <Data name="height">
+   <value>39.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.124685</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4155,37.2378</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>200 ROANOKE AVENUE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2492</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4146</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 ROANOKE AVENUE</value>
+ </Data>
+ <Data name="height">
+   <value>40.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.972913</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4146,37.2492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>301 South Park Blvd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2396</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.396099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>301 South Park Blvd</value>
+ </Data>
+ <Data name="height">
+   <value>47.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.856283</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.396099,37.2396</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>RI-159D</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2569</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3997</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RI-159D</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.864571</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3997,37.2569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>Off Charles H. Dimmock Parkway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2449</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3824</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off Charles H. Dimmock Parkway</value>
+ </Data>
+ <Data name="height">
+   <value>125.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.540566</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Colonial Heights, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3824,37.2449</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>1507 Boulevard</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2544</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4097</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BTWR</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1507 Boulevard</value>
+ </Data>
+ <Data name="height">
+   <value>11.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.919212</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Colonial Heights, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4097,37.2544</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Off Charles H. Dimmock Parkway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2449</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3824</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off Charles H. Dimmock Parkway</value>
+ </Data>
+ <Data name="height">
+   <value>125.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.540566</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Chesterfield, County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3824,37.2449</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>OFF CHARLES H. DIMMOCK PARKWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2447</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3822</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF CHARLES H. DIMMOCK PARKWAY</value>
+ </Data>
+ <Data name="height">
+   <value>125.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.929783</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHESTERFIELD, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3822,37.2447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Colonial Heights city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2664</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4153</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.435407</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Colonial Heights City Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4153,37.2664</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>
