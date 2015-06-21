@@ -1,0 +1,333 @@
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: FwsInterest
+      Entity_Type_Definition: Nature of land ownership relative to the National Wildlife Refuge System.
+      Entity_Type_Definition_Source: USFWS Realty
+    Attribute:
+      Attribute_Label: Shape_Length
+      Attribute_Definition: Length of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape_Area
+      Attribute_Definition: Area of feature in internal units squared.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: CMPXNAME
+      Attribute_Definition: Complex Name - Name of a number of stations combined under one management structure
+      Attribute_Definition_Source: USFWS National Wildlife Refuge System
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Region 5 Refuge Complex List
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: ORGNAME
+      Attribute_Definition: Organization Name - Official name given to a Service organization that has been assigned an official five-digit numeric organization code by the Washington Office, Division of Financial Management
+      Attribute_Definition_Source: USFWS Data Element Standard for Organization Name
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Master List of Official Names for FWS Land Units
+    Attribute:
+      Attribute_Label: DIVNAME
+      Attribute_Definition: Division Name - Name given to a Service organization Division
+      Attribute_Definition_Source: USFWS, Region 5, Realty Division
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Region 5 Refuge Division List
+    Attribute:
+      Attribute_Label: UNITNAME
+      Attribute_Definition: Unit Name - Name given to a Service Unit
+      Attribute_Definition_Source: USFWS, Region 5, Realty Division
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Region 5 Refuge Division List
+    Attribute:
+      Attribute_Label: SUBUNAME
+      Attribute_Definition: Subunit Name - Name given to a Service Subunit Division
+      Attribute_Definition_Source: USFWS, Region 5, Realty Division
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Region 5 Refuge Division List
+    Attribute:
+      Attribute_Label: ORGCODE
+      Attribute_Definition: Organization Code - Unique five-digit numeric codes assigned by the Washington Office, Division of Financial Management, to Service organizations where personnel are assigned and all unstaffed land management units. Organization codes may also be assigned to meet an administrative requirement.
+      Attribute_Definition_Source: USFWS Division of Financial Management
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Master List of Organization Codes for FWS Land Units
+          Codeset_Source: USFWS Division of Financial Management
+    Attribute:
+      Attribute_Label: IFWS
+      Attribute_Definition: Interior-Fish and Wildlife Service Number - Unique code assigned by the Washington Office, Division of Realty, to each organizational unit, area, or project site over which the Service has some type of jurisdiction.
+      Attribute_Definition_Source: USFWS Data Element Standard for IFWS Number
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Master List of IFWS Numbers for FWS Land Units
+          Codeset_Source: USFWS Division of Realty
+    Attribute:
+      Attribute_Label: LIT
+      Attribute_Definition: Literals - Unique alpha codes assigned by the Washington Office, Division of Realty, that identify the organizational units, areas, and project sites on Service-owned lands.
+      Attribute_Definition_Source: USFWS Data Element Standard for Literals
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Master List of Literal Codes for FWS Land Units
+          Codeset_Source: USFWS Division of Realty
+    Attribute:
+      Attribute_Label: GISACRES
+      Attribute_Definition: Geographic Information System Acres - Acres determined by GIS software for each polygon
+      Attribute_Definition_Source: USFWS, Region 5, Realty Division
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: DOCACRES
+      Attribute_Definition: Document Acres - Acres indicated in deed or other official document
+      Attribute_Definition_Source: USFWS, Region 5, Realty Division
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are derived from deed or other official document.
+    Attribute:
+      Attribute_Label: SURACRES
+      Attribute_Definition: Survey Acres - Acres determined by survey
+      Attribute_Definition_Source: USFWS, Region 5, Realty Division
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are derived from survey document.
+    Attribute:
+      Attribute_Label: USRIGHTS
+      Attribute_Definition: A claim or title to/or interest in anything which is enforceable by law.
+      Attribute_Definition_Source: USFWS, Region 5, Realty Division
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PD
+          Enumerated_Domain_Value_Definition: Public Domain
+          Enumerated_Domain_Value_Definition_Source: USFWS, CDWG
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AQ
+          Enumerated_Domain_Value_Definition: Acquired
+          Enumerated_Domain_Value_Definition_Source: USFWS, CDWG
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PE
+          Enumerated_Domain_Value_Definition: Public Domain with Exception Right
+          Enumerated_Domain_Value_Definition_Source: USFWS, CDWG
+        Enumerated_Domain:
+          Enumerated_Domain_Value: UNK-AQ
+          Enumerated_Domain_Value_Definition: Unknown Acquired
+          Enumerated_Domain_Value_Definition_Source: USFWS, CDWG
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NON-PD
+          Enumerated_Domain_Value_Definition: No US Rights Reserved - Public Domain
+          Enumerated_Domain_Value_Definition_Source: USFWS, CDWG
+    Attribute:
+      Attribute_Label: INTTYPE1
+      Attribute_Definition: Interest Type 1 - nature of land interest relative to the National Wildlife Refuge System
+      Attribute_Definition_Source: USFWS, Region 5, Realty Division
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: none - area approved for acquisition by USFWS
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O
+          Enumerated_Domain_Value_Definition: ownership - area of land owned by USFWS
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: E
+          Enumerated_Domain_Value_Definition: easement - area of land where USFWS shares interest via easement or lease
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: S
+          Enumerated_Domain_Value_Definition: secondary - area of land where USFWS holds secondary interest to another federal agency (ies)
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: U
+          Enumerated_Domain_Value_Definition: uncertain - status of parcel is uncertain because it is unknown or requires additional research
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: LE
+          Enumerated_Domain_Value_Definition: Life Estate - An estate in property, the duration of which is confined to the life of one or more persons or contingent upon certain happenings.
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: P
+          Enumerated_Domain_Value_Definition: Partial Interest - A shared ownership in a tract of land, between the Service and others.
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: A
+          Enumerated_Domain_Value_Definition: Agreement - A written concurrence between FWS and another party(ies).
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: L
+          Enumerated_Domain_Value_Definition: Lease - Possession of land and/or a building is given by the owner to another person for a specified period of time.
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: TRACTNO
+      Attribute_Definition: Tract Number - Number assigned to each tract
+      Attribute_Definition_Source: USFWS, Region 5, Realty Division
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique numeric and alpha codes generated for each tract by USFWS Realty
+    Attribute:
+      Attribute_Label: INTTYPE2
+      Attribute_Definition: Interest Type 2 - subtype of INTTYPE1 relative to easements of land interest in the National Wildlife Refuge System
+      Attribute_Definition_Source: USFWS, Region 5, Realty Division
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: C
+          Enumerated_Domain_Value_Definition: Conservation
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: E
+          Enumerated_Domain_Value_Definition: Electrical
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: Flowage
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: G
+          Enumerated_Domain_Value_Definition: Grassland
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: H
+          Enumerated_Domain_Value_Definition: Occupancy
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: M
+          Enumerated_Domain_Value_Definition: Miscellaneous
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: R
+          Enumerated_Domain_Value_Definition: Roads
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: U
+          Enumerated_Domain_Value_Definition: Underground Materials
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: X
+          Enumerated_Domain_Value_Definition: Wetlands
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: XT
+          Enumerated_Domain_Value_Definition: Timber in exchange for FWS receiving title to land
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MU
+          Enumerated_Domain_Value_Definition: Memorandum of Understanding
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: A
+          Enumerated_Domain_Value_Definition: Agriculture
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: D
+          Enumerated_Domain_Value_Definition: Ditch, Canal, or Culvert
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ET
+          Enumerated_Domain_Value_Definition: Electrical and Telephone
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FX
+          Enumerated_Domain_Value_Definition: Flowage and Wetland
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: GU
+          Enumerated_Domain_Value_Definition: All Minerals (includes gas and oil)
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: L
+          Enumerated_Domain_Value_Definition: Levy, Dike or Jetty
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: P
+          Enumerated_Domain_Value_Definition: Pipeline
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: W
+          Enumerated_Domain_Value_Definition: Water
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: XL
+          Enumerated_Domain_Value_Definition: Land in exchange for FWS receiving title to land
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 17B
+          Enumerated_Domain_Value_Definition: Easement across native owned land
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MA
+          Enumerated_Domain_Value_Definition: Memorandum of Agreement
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N/A
+          Enumerated_Domain_Value_Definition: Not applicable
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty Division
+    Attribute:
+      Attribute_Label: COMMENTS
+      Attribute_Definition: Comments - additional information
+      Attribute_Definition_Source: USFWS, Region 5, Realty Division
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique note for each tract when necessary.
+    Attribute:
+      Attribute_Label: INTIDNO
+      Attribute_Definition: Interest Identification Number - a concatination of IFWS and TRACTNO
+      Attribute_Definition_Source: USFWS, Region 5, Realty Division
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique string derived by concatinating the IFWS and TRACTNO fields.
+    Attribute:
+      Attribute_Label: RSL_TYPE
+      Attribute_Definition: Organization Type - Administrative categories that identify Service organizations by their primary facility function, program activities, specialized duties and responsibilities, and/or operational status.
+      Attribute_Definition_Source: USFWS Data Element Standard for Organization Type
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AS
+          Enumerated_Domain_Value_Definition: Administrative Site
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty
+        Enumerated_Domain:
+          Enumerated_Domain_Value: COORD
+          Enumerated_Domain_Value_Definition: Coordination Area
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FR
+          Enumerated_Domain_Value_Definition: Fisheries Research Station
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FTC
+          Enumerated_Domain_Value_Definition: Fish Technology Center
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NFH
+          Enumerated_Domain_Value_Definition: National Fish Hatchery
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NWR
+          Enumerated_Domain_Value_Definition: National Wildlife Refuge
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WMA
+          Enumerated_Domain_Value_Definition: Wildlife Management Area
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WPA
+          Enumerated_Domain_Value_Definition: Waterfowl Production Area
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WRC
+          Enumerated_Domain_Value_Definition: Wildlife Research Center
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty
+    Attribute:
+      Attribute_Label: FWSREGION
+      Attribute_Definition: FWS Region -  Regional offices within the Service that have responsibility for program and/or administrative activities within a geographically-defined area
+      Attribute_Definition_Source: USFWS, Region 5, Realty Division
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Northeast
+          Enumerated_Domain_Value_Definition: Northeast Region
+          Enumerated_Domain_Value_Definition_Source: USFWS, Region 5, Realty
