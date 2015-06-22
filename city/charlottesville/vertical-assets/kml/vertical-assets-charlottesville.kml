@@ -1,0 +1,3335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>1719 HYDRAULIC RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4906</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1719 HYDRAULIC RD.</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>135.372344</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4906,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>CORNER 7TH ST SW &amp; DELEVEN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0306</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4892</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CORNER 7TH ST SW &amp; DELEVEN ST</value>
+ </Data>
+ <Data name="height">
+   <value>118.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.25209</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MONTICELLO MEDIA, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4892,38.0306</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>ON W. MAIN (HWY 29) .1 MI OF INT. OF MAIN AND 7TH ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4917</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON W. MAIN (HWY 29) .1 MI OF INT. OF MAIN AND 7TH ST.</value>
+ </Data>
+ <Data name="height">
+   <value>69</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.390441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4917,38.0322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0292</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4767</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.423446</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cycle Systems Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4767,38.0292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0169</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5186</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.574996</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Caroline County Public Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5186,38.0169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0308</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4994</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.901885</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>University of Virginia - Health Systems</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4994,38.0308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>100 6th St SE  MP 181.4</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0283</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.477799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 6th St SE  MP 181.4</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.459182</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buckingham Branch Railroad Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.477799,38.0283</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0311</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4986</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.032211</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>University of Virginia - Health Systems</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4986,38.0311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0489</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.502999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.872909</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GAP INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.502999,38.0489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>1215 Lee Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0306</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.497999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1215 Lee Street</value>
+ </Data>
+ <Data name="height">
+   <value>53.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.017242</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>University of Virginia - Health Systems</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.497999,38.0306</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>1215 Lee Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0311</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4986</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1215 Lee Street</value>
+ </Data>
+ <Data name="height">
+   <value>53.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.032211</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>University of Virginia - Health Systems</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4986,38.0311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>312 CONNOR DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0311</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4772</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>312 CONNOR DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>153.1566</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TARGET STORE T1858</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4772,38.0311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0306</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4803</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.658859</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Paramount Theatre</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4803,38.0306</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>1158 5TH STREET SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0117</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5028</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1158 5TH STREET SW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>117.154273</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5028,38.0117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>801 EMMET STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0478</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5039</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>801 EMMET STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.885604</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5039,38.0478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0183</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4867</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.007743</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Yellow Cab Company of Charlottesville Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4867,38.0183</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>1515 6th St SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0183</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4867</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1515 6th St SE</value>
+ </Data>
+ <Data name="height">
+   <value>49.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.007743</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Yellow Cab Company of Charlottesville Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4867,38.0183</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>1705 N. EMMETT STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0586</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4944</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1705 N. EMMETT STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.978683</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JRN, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4944,38.0586</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>1230 EMMET STREET NORTH</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0406</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5064</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1230 EMMET STREET NORTH</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.267913</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRANT AVENUE DEVELOPMENT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5064,38.0406</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0328</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.497999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.858596</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GE Medical Systems Information Technologies</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.497999,38.0328</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>Shamrock Road (714771C) crossing at MP 113.29</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0264</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5103</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Shamrock Road (714771C) crossing at MP 113.29</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>148.292602</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5103,38.0264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>RR DEPOT MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0283</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.477799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR DEPOT MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.459182</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.477799,38.0283</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>UNION PASSENGER STATION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0308</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4917</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>UNION PASSENGER STATION</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.330505</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4917,38.0308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>1719 HYDRAULIC RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4905</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1719 HYDRAULIC RD.</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>135.465637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4905,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>1325 E HIGH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0292</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.477799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1325 E HIGH ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.511932</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AmeriGas Propane, L.P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.477799,38.0292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>1070 SEMINOLE TRAIL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.05</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1070 SEMINOLE TRAIL</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>172.697479</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Sperry Marine, a business unit of Northrop Grumman Systems Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4894,38.05</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0292</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4767</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.423446</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FULLER, HENRY P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4767,38.0292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0292</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4767</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.423446</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FULLER, HENRY P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4767,38.0292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0292</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4767</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.423446</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BODDIE NOELL ENTERPRISES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4767,38.0292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0389</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4753</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.234558</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FIRST BAPTIST CHURCH</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4753,38.0389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>1001 N EMMET ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0497</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.497999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1001 N EMMET ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.797149</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STATE FARM MUTUAL AUTO INSURANCE COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.497999,38.0497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>203 RIDGE ST FIRE HOUSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0294</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>203 RIDGE ST FIRE HOUSE</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.554153</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTESVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4875,38.0294</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0333</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4775</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.323516</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALBEMARLE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4775,38.0333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0333</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4775</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.323516</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALBEMARLE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4775,38.0333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>500 E JEFFERSON</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0317</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4775</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 E JEFFERSON</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.959365</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTESVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4775,38.0317</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>606 E MARKET ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0297</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4769</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>606 E MARKET ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.62857</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHARLOTTESVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4769,38.0297</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>459 LOCUST AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4717</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>459 LOCUST AVE</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>137.510787</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTHA JEFFERSON HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4717,38.0322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>E PARKING GARAGE 11TH &amp; LEE STS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0325</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.497499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>E PARKING GARAGE 11TH &amp; LEE STS</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.55751</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.497499,38.0325</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>501 E JEFFERSON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0333</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4775</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>501 E JEFFERSON ST</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.323516</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALBEMARLE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4775,38.0333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>811 WEST MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4917</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>811 WEST MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>70.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.390441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4917,38.0322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>100 MEAD AVE.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0242</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4681</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 MEAD AVE.</value>
+ </Data>
+ <Data name="height">
+   <value>50.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>115.395935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4681,38.0242</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>811 WEST MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4917</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>811 WEST MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>70.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.390441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4917,38.0322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>1719 HYDRAULIC RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4905</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1719 HYDRAULIC RD</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>135.465637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4905,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>500 COURT SQUARE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0314</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.478299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 COURT SQUARE</value>
+ </Data>
+ <Data name="height">
+   <value>31.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.204208</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.478299,38.0314</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>Charlottesville</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4917</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Charlottesville</value>
+ </Data>
+ <Data name="height">
+   <value>69</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.390441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL LICENSE HOLDINGS 4, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4917,38.0322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>Charlottesville</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4917</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Charlottesville</value>
+ </Data>
+ <Data name="height">
+   <value>69</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.390441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL LICENSE HOLDINGS 4, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4917,38.0322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>N OF PASSENGER STATION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4917</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N OF PASSENGER STATION</value>
+ </Data>
+ <Data name="height">
+   <value>69</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.390441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL LICENSE HOLDINGS 4, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4917,38.0322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>Charlottesville</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4917</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Charlottesville</value>
+ </Data>
+ <Data name="height">
+   <value>69</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.390441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL LICENSE HOLDINGS 4, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4917,38.0322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>Charlottesville</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4917</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Charlottesville</value>
+ </Data>
+ <Data name="height">
+   <value>69</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.390441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL LICENSE HOLDINGS 4, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4917,38.0322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>501 E MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0303</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.478299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>501 E MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.934677</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SAGA COMMUNICATIONS OF CHARLOTTESVILLE, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.478299,38.0303</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0306</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.480799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.598861</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SAGA COMMUNICATIONS OF CHARLOTTESVILLE, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.480799,38.0306</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0442</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4839</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.288055</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MONTICELLO MEDIA  LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4839,38.0442</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0442</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4839</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.288055</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MONTICELLO MEDIA  LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4839,38.0442</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>501 EAST MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0303</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.478299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>501 EAST MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>174</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.934677</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SAGA  COMMUNICATIONS OF CHARLOTTESVILLE, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.478299,38.0303</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>1719 HYDRAULIC ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4905</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1719 HYDRAULIC ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>135.465637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4905,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>500 COURT SQUARE CELL SITE 500 COURT SQUARE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0311</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.478299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 COURT SQUARE CELL SITE 500 COURT SQUARE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>150.434249</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.478299,38.0311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>999 Second Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.024</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4843</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BTWR</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>999 Second Street</value>
+ </Data>
+ <Data name="height">
+   <value>12.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>121.482482</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAY TELEVISION LICENSEE, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4843,38.024</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>999 Second Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.024</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4843</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BTWR</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>999 Second Street</value>
+ </Data>
+ <Data name="height">
+   <value>12.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>121.482482</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAY TELEVISION LICENSEE, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4843,38.024</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>155 Carlton Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0244</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4689</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>155 Carlton Road</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.182815</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POSITIVE ALTERNATIVE RADIO, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4689,38.0244</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>JORDAN HALL--JEFFERSON PARK AVE AND PARK AVE 1300 JEFFERSON PARK AVENU</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5006</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JORDAN HALL--JEFFERSON PARK AVE AND PARK AVE 1300 JEFFERSON PARK AVENU</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.730758</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Commonwealth of Virginia</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5006,38.0322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0336</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4917</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.606369</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CITY OF CHARLOTTESVILLE  Public Utilities</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4917,38.0336</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>503 E MARKET ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.031</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4694</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>503 E MARKET ST</value>
+ </Data>
+ <Data name="height">
+   <value>12.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.618591</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA BROADCASTING CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4694,38.031</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>PEABODY HALL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0368</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4919</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PEABODY HALL</value>
+ </Data>
+ <Data name="height">
+   <value>8.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>148.129547</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>UNIVERSITY OF VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4919,38.0368</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>503 E. MARKET ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.031</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4694</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>503 E. MARKET ST.</value>
+ </Data>
+ <Data name="height">
+   <value>12.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.618591</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA BROADCASTING CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4694,38.031</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>1140 ROSE HILL DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0436</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4834</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1140 ROSE HILL DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.871047</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SAGA COMMUNICATIONS OF CHARLOTTESVILLE, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4834,38.0436</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>1140 Rose Hill Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0436</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4834</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1140 Rose Hill Drive</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.871047</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SAGA  COMMUNICATIONS OF CHARLOTTESVILLE, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4834,38.0436</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>503 E. MARKET ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.031</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4694</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>503 E. MARKET ST</value>
+ </Data>
+ <Data name="height">
+   <value>12.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.618591</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA BROADCASTING CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4694,38.031</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>1719 HYDRAULIC RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4905</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1719 HYDRAULIC RD.</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>135.465637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4905,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>N OF SOUTHERN RAILWAY PASSENGER STATION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4917</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N OF SOUTHERN RAILWAY PASSENGER STATION</value>
+ </Data>
+ <Data name="height">
+   <value>70.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.390441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4917,38.0322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>1430 EAST HIGH STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0329</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4619</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1430 EAST HIGH STREET</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.636932</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AT&amp;T Communications of Virginia, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4619,38.0329</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0378</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.514999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.653625</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KELTRON CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.514999,38.0378</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0525</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4522</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.918357</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MEADOWCREEK GOLF COURSE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4522,38.0525</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>1215 LEE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0311</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4983</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1215 LEE ST</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>150.243606</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>UNIVERSITY OF VIRGINIA HEALTH SYSTEM</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4983,38.0311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0492</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.505499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>150.40625</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JEFFERSON TRAIL TREATMENT CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.505499,38.0492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0314</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4925</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>149.629074</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4925,38.0314</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>600 MASSIE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0536</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5072</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>600 MASSIE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>28.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>171.768035</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>UNIVERSITY OF VIRGINIA-VITA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5072,38.0536</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>1719 HYDRAULIC RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4905</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1719 HYDRAULIC RD.</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>135.465637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4905,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4989</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>150.61557</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>University of Virginia - Health Systems</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4989,38.0322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>MARTHA JEFFERSON HOSPITAL, 459 LOCUST AVENUE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Charlottesville city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4717</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MARTHA JEFFERSON HOSPITAL, 459 LOCUST AVENUE</value>
+ </Data>
+ <Data name="height">
+   <value>45.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>137.510787</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NTELOS Telephone, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4717,38.0322</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

@@ -1,0 +1,4637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>One Radio Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5809</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.445299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>One Radio Lane</value>
+ </Data>
+ <Data name="height">
+   <value>64.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>159.827545</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mitchell Communications, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.445299,36.5809</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>305 M SE OF RT 1239 &amp; US 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5836</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3756</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>305 M SE OF RT 1239 &amp; US 58</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.831939</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CITY OF DANVILLE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3756,36.5836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>DANVILLE REGIONAL AIRPORT AIRPORT DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5747</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3397</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DANVILLE REGIONAL AIRPORT AIRPORT DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>11.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.915664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH OF VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3397,36.5747</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>114 Third Avenue</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6114</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3847</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>114 Third Avenue</value>
+ </Data>
+ <Data name="height">
+   <value>45</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>195.504272</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Danville, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3847,36.6114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>601 EAGLE SPRINGS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5993</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3516</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>601 EAGLE SPRINGS RD</value>
+ </Data>
+ <Data name="height">
+   <value>53</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>154.95195</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3516,36.5993</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>RT 4 BOX 499 HOLLAND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5469</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4511</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 4 BOX 499 HOLLAND RD</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>179.695739</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4511,36.5469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>733 River Park Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5718</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3589</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>733 River Park Drive</value>
+ </Data>
+ <Data name="height">
+   <value>44.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>159.965454</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3589,36.5718</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>North End of RR Yard</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5939</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3736</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>North End of RR Yard</value>
+ </Data>
+ <Data name="height">
+   <value>54</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.919158</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3736,36.5939</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>949 Piney Forest Rd (VA21337-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6196</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.409699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>949 Piney Forest Rd (VA21337-A)</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>179.072021</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Structures, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.409699,36.6196</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>416 EDGEWOOD DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5641</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.443099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>416 EDGEWOOD DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>178.600494</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Virginia No. 1, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.443099,36.5641</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Rt 86</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5489</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4048</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt 86</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>159.177536</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4048,36.5489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Corning Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.546</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4485</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Corning Drive</value>
+ </Data>
+ <Data name="height">
+   <value>56.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>194.908477</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4485,36.546</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>136 Hamlin Avenue</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6152</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3863</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>136 Hamlin Avenue</value>
+ </Data>
+ <Data name="height">
+   <value>44.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>188.699981</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3863,36.6152</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>One Radio Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5814</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4447</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>One Radio Lane</value>
+ </Data>
+ <Data name="height">
+   <value>64.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>155.54187</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mitchell Communications, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4447,36.5814</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>One Radio Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5815</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4436</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>One Radio Lane</value>
+ </Data>
+ <Data name="height">
+   <value>64.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.040039</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mitchell Communications, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4436,36.5815</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>One Radio Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5815</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.443099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>One Radio Lane</value>
+ </Data>
+ <Data name="height">
+   <value>64.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.19696</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mitchell Communications, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.443099,36.5815</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>710 GROVE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5892</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4003</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>710 GROVE ST</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>138.745727</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Danville Cellular Telephone Company Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4003,36.5892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Intersection of Goodyear Blvd &amp; Jenny Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5441</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.385999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Intersection of Goodyear Blvd &amp; Jenny Lane</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>187.674148</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Danville, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.385999,36.5441</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5933</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4311</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.445495</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Toys R Us Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4311,36.5933</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>110 RIVER POINT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5819</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3539</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>110 RIVER POINT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>156.951812</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PILOT TRAVEL CENTERS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3539,36.5819</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>WOODING AVENUE RR CROSSING @ RR MP 238.12</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5711</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4161</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WOODING AVENUE RR CROSSING @ RR MP 238.12</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.753448</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4161,36.5711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>HOLBROOK AVE. RR CROSSING @ RR MP 237.04</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.575</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.397499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HOLBROOK AVE. RR CROSSING @ RR MP 237.04</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.775054</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.397499,36.575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>MONUMENT STREET RR CROSSING @ RR MP 236.01</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5806</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3844</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MONUMENT STREET RR CROSSING @ RR MP 236.01</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>130.366683</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3844,36.5806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>LYNN STREET RR CROSSING @ RR MP 235.92</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5819</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3842</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LYNN STREET RR CROSSING @ RR MP 235.92</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>130.006774</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3842,36.5819</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>608 UPPER ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5903</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3978</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>608 UPPER ST</value>
+ </Data>
+ <Data name="height">
+   <value>15.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>134.021179</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMUNITY IMPROVEMENT COUNCIL INC. HEAD START</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3978,36.5903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5975</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4225</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>148.079483</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JC Penney Corp Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4225,36.5975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5533</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4592</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>193.22879</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE GOLF CLUB, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4592,36.5533</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>RT-1132 RR CROSSING AT RR MP 6.09DW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5469</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4697</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT-1132 RR CROSSING AT RR MP 6.09DW</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>191.693313</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4697,36.5469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>325 PIEDMONT DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5922</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.419199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>325 PIEDMONT DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>158.873138</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT MALL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.419199,36.5922</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>1325 PINEY FOREST ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6286</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3989</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1325 PINEY FOREST ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>192.623229</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRANT AVE DEVELOPMENT, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3989,36.6286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>250 MASONITE DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.545</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.355299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>250 MASONITE DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>134.668304</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Knight-Celotex, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.355299,36.545</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>865 PINEY FOREST DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6167</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4058</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>865 PINEY FOREST DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>184.460952</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AOG, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4058,36.6167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5625</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4372</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>172.446685</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE COMMUNITY COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4372,36.5625</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5772</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4125</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.384399</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROBERT WOODALL CHEVROLET, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4125,36.5772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>202 CHRISTOPHER LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5772</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4125</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>202 CHRISTOPHER LANE</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.384399</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROBERT WOODALL CHEVROLET, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4125,36.5772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>1901 GOODYEAR BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5497</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.374999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1901 GOODYEAR BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>169.574279</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOODYEAR TIRE AND RUBBER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.374999,36.5497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>998 S BOSTON ROAD AT PUBLIC WORKS HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5836</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3756</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>998 S BOSTON ROAD AT PUBLIC WORKS HILL</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.831939</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3756,36.5836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>THIRD AVENUE WATER TOWER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5892</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3917</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>THIRD AVENUE WATER TOWER</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>124.235076</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3917,36.5892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>Mechanical Base, 745 Halifax Rd, Bldg M2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5914</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3761</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Mechanical Base, 745 Halifax Rd, Bldg M2</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>132.171875</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3761,36.5914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5936</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.373299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.822021</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.373299,36.5936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>ARN 8, North End Railway Yard</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5936</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.373299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ARN 8, North End Railway Yard</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.822021</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.373299,36.5936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Double Trk - 2 Radio Detector, RR MP 240 NEAR BENTLEY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5628</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4478</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Double Trk - 2 Radio Detector, RR MP 240 NEAR BENTLEY</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.298416</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4478,36.5628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Dundee Yard Base, Yd Office Tower, 745 Halifax Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5922</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3761</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dundee Yard Base, Yd Office Tower, 745 Halifax Road</value>
+ </Data>
+ <Data name="height">
+   <value>8.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>129.604583</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3761,36.5922</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>OLD HALIFAX RD STATE RD 729</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5922</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3347</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OLD HALIFAX RD STATE RD 729</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>177.78955</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LORILLARD TOBACCO COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3347,36.5922</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5508</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.370499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>163.107437</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LIGGETT &amp; MYERS TOBACCO CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.370499,36.5508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>810 CRAGHEAD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5508</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.370499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>810 CRAGHEAD ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>163.107437</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LIGGETT &amp; MYERS TOBACCO CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.370499,36.5508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>SCHOOLFIELD WATER TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5636</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4439</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SCHOOLFIELD WATER TANK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.932235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4439,36.5636</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>1912 WESTOVER DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5792</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.375299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1912 WESTOVER DR</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>136.527679</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>W HENRY HARDY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.375299,36.5792</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>142 S MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5717</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>142 S MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.413223</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE REGIONAL MEDICAL CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4114,36.5717</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>OLD HALIFAX RD STATE RD 729</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5922</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3347</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OLD HALIFAX RD STATE RD 729</value>
+ </Data>
+ <Data name="height">
+   <value>43</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>177.78955</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LORILLARD TOBACCO COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3347,36.5922</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5889</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4033</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.875045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HOTEL DANVILLE CO LP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4033,36.5889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>142 S MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5717</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4111</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>142 S MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>58</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.624664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE REGIONAL MEDICAL CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4111,36.5717</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>127 S MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5717</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4111</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>127 S MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>38</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.624664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE REGIONAL MEDICAL CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4111,36.5717</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5717</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4114</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.413223</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE REGIONAL MEDICAL CENTER LLC LIFEPOINT HOSPITALS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4114,36.5717</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>142 S MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5717</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>142 S MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.413223</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE REGIONAL MEDICAL CENTER LLC LIFEPOINT HOSPITALS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4114,36.5717</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5919</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3797</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>132.600051</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DAVIS, BARRY G</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3797,36.5919</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>420 W MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5744</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4136</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>420 W MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>168.389129</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AVERETT COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4136,36.5744</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>1008 S MAIN ST --DCC --WYATT BLDG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5661</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4078</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1008 S MAIN ST --DCC --WYATT BLDG</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>170.780136</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE COMMUNITY COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4078,36.5661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>382 TAYLOR DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5553</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4105</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>382 TAYLOR DR</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>138.866622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4105,36.5553</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>1901 GOODYEAR BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5497</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.374999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1901 GOODYEAR BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>169.574279</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOODYEAR TIRE AND RUBBER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.374999,36.5497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>660 KENTUCK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.59</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3369</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>660 KENTUCK RD</value>
+ </Data>
+ <Data name="height">
+   <value>17</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.203933</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DIMON INTERNATIONAL INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3369,36.59</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>325 PIEDMONT DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5922</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.419199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>325 PIEDMONT DR</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>158.873138</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT MALL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.419199,36.5922</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>PUBLIC WORKS HILL-998 S BOSTON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5836</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3756</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PUBLIC WORKS HILL-998 S BOSTON RD</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.831939</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3756,36.5836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>202 CHRISTOPHER LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5772</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.412199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>202 CHRISTOPHER LN</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>181.242706</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE LIFE SAVING &amp; FIRST AID CREW INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.412199,36.5772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>SCHOOLFIELD WATER TANK (NEAR INT OFEDGEWOOD DR &amp; US 29 S BUSINESS)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5636</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4439</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SCHOOLFIELD WATER TANK (NEAR INT OFEDGEWOOD DR &amp; US 29 S BUSINESS)</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.932235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4439,36.5636</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>PUBLIC WORKS HILL 998S BOSTON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5836</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3756</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PUBLIC WORKS HILL 998S BOSTON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.831939</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3756,36.5836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>114 THIRD AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6114</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3847</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>114 THIRD AVE</value>
+ </Data>
+ <Data name="height">
+   <value>45</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>195.504272</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3847,36.6114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>202 CHRISTOPHER LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5772</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.412199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>202 CHRISTOPHER LN</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>181.242706</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Danville Life Saving &amp; First Aid Crew, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.412199,36.5772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>418 PATTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5733</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.420599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>418 PATTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>183.842147</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.420599,36.5733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>DANVILLE MUNICIPAL AIRPORT TERMINAL BLDG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.575</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3372</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DANVILLE MUNICIPAL AIRPORT TERMINAL BLDG</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>172.417526</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3372,36.575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>300 FEET E US 29 ON THIRD AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5892</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3917</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 FEET E US 29 ON THIRD AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>124.235076</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3917,36.5892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>418 PATTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5733</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.420599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>418 PATTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>183.842147</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.420599,36.5733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>CORNER OF COURT &amp; PATTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5869</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3922</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CORNER OF COURT &amp; PATTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>136.381546</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3922,36.5869</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5703</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.367799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.628784</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.367799,36.5703</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5608</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4439</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.426101</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE REDEVELOPMENT AND HOUSING AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4439,36.5608</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>SCHOOLFIELD WATER TANK W MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5636</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4439</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SCHOOLFIELD WATER TANK W MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.932235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE REDEVELOPMENT AND HOUSING AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4439,36.5636</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>300 E OF US 29 ON THIRD AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5892</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3917</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 E OF US 29 ON THIRD AVE</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>124.235076</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3917,36.5892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>998 S. BOSTON RD @ PUBLIC WORKS HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5836</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3756</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>998 S. BOSTON RD @ PUBLIC WORKS HILL</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.831939</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3756,36.5836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>.25 MI W OF INT OF US 58 &amp; RT 734</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5822</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3092</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.25 MI W OF INT OF US 58 &amp; RT 734</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>160.432037</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RINGGOLD VOLUNTEER FIRE DEPARTMENT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3092,36.5822</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5878</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4022</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.917388</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4022,36.5878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>MASONITE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5486</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3519</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MASONITE DR</value>
+ </Data>
+ <Data name="height">
+   <value>1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>117.372444</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Knight-Celotex, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3519,36.5486</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>DANVILLE AEI @ RR MP 5.4DW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.55</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4608</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DANVILLE AEI @ RR MP 5.4DW</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>195.085342</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4608,36.55</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>3301 U.S. HIGHWAY 29</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6375</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3869</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3301 U.S. HIGHWAY 29</value>
+ </Data>
+ <Data name="height">
+   <value>58.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>196.409393</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3869,36.6375</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>1801 WESTOVER DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5931</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4539</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1801 WESTOVER DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>47.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.768096</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4539,36.5931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>1314 COLLEGE PARK DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5489</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.404699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1314 COLLEGE PARK DR</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>156.79393</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.404699,36.5489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>724 WILSON STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5828</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3931</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>724 WILSON STREET</value>
+ </Data>
+ <Data name="height">
+   <value>48.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.099273</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3931,36.5828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>475 CORNING DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5461</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4486</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>475 CORNING DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>193.899169</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4486,36.5461</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>S RWY DEPOT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5917</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3789</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S RWY DEPOT</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>127.710083</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL LICENSE HOLDINGS 4, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3789,36.5917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5814</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4422</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>149.760604</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MITCHELL COMMUNICATIONS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4422,36.5814</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>130 LEXINGTON AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5814</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4422</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>130 LEXINGTON AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>149.760604</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MITCHELL COMMUNICATIONS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4422,36.5814</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5878</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3986</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>159.347244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT BROADCASTING CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3986,36.5878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5778</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.520629</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT BROADCASTING CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3997,36.5778</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>South Danville Cell Site 29 South to Corning Dr. Follow Corning Dr. to</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5469</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4511</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>South Danville Cell Site 29 South to Corning Dr. Follow Corning Dr. to</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>179.695739</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4511,36.5469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>710 GROVE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5892</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4003</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>710 GROVE ST</value>
+ </Data>
+ <Data name="height">
+   <value>49.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>138.745727</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE CELLULAR TELEPHONE COMPANY LIMITED PARTNERSHIP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4003,36.5892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>100 Jenny Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5441</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.385999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 Jenny Lane</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>187.674148</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>North Carolina State Highway Patrol</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.385999,36.5441</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>710 GROVE STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5879</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3986</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>710 GROVE STREET</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>158.486633</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT BROADCASTING CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3986,36.5879</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>N END OF RAILROAD YARD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5938</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3736</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N END OF RAILROAD YARD</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.904479</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3736,36.5938</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>710 GROVE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5879</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3986</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>710 GROVE ST</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>158.486633</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT BROADCASTING CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3986,36.5879</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5847</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3472</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>181.455688</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cycle Systems Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3472,36.5847</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>142 S. Main Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5781</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.404699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>142 S. Main Street</value>
+ </Data>
+ <Data name="height">
+   <value>37.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>178.498474</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Danville Regional Medical Center</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.404699,36.5781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5936</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.373299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.822021</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.373299,36.5936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5922</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3761</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>129.604583</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3761,36.5922</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>EOT/HOT DUNDEE M/W BLDG NEAR SR730 EAGLE SPRINGS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5936</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.373299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>EOT/HOT DUNDEE M/W BLDG NEAR SR730 EAGLE SPRINGS RD</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.822021</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.373299,36.5936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5936</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.373299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.822021</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.373299,36.5936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5914</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3761</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>132.171875</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3761,36.5914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5864</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3392</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>170.912429</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>U S FLUE CURED TOBACCO GROWERS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3392,36.5864</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5683</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.365799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.54956</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JTI LEAF SERVICES LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.365799,36.5683</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>Dispatch Base, near St. Rt. 730 and RR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5936</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3736</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dispatch Base, near St. Rt. 730 and RR</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.933441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3736,36.5936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5936</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3736</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.933441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3736,36.5936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>3004 NORTH MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Danville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6364</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3878</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3004 NORTH MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>199.019592</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3878,36.6364</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

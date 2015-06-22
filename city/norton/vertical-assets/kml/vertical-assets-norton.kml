@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>150 Virginia Avenue NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9397</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6243</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>150 Virginia Avenue NE</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>698.846923</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Properties, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6243,36.9397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>7th &amp; Virginia Ave</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9353</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6295</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7th &amp; Virginia Ave</value>
+ </Data>
+ <Data name="height">
+   <value>58.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>655.906066</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6295,36.9353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>FLAG ROCK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9153</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.63</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FLAG ROCK</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1028.161865</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.63,36.9153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>Second Street RR crossing @ MP G000.30</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.94</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6194</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Second Street RR crossing @ MP G000.30</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>637.586669</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6194,36.94</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>12th ST. RR crossing @ MP CV463.99</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9397</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5944</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>12th ST. RR crossing @ MP CV463.99</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>636.993896</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5944,36.9397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>HIGH KNOB</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9383</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6353</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIGH KNOB</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>691.421752</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>G &amp; G COMMUNICATIONS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6353,36.9383</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>Clinch Valley Dispatch, 405 Depot Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9342</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6222</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Clinch Valley Dispatch, 405 Depot Street</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>653.600708</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6222,36.9342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9333</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.628899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>650.88153</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TACO BELL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.628899,36.9333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>Yard Base, 405 DEPOT ST SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9342</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6225</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Yard Base, 405 DEPOT ST SW</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>653.201477</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6225,36.9342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9333</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.628899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>650.88153</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BACCHO DEVELOPMENT DBA DOUBLE KWIK MARKETS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.628899,36.9333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>COR OF 4TH ST &amp; BEECH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9417</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COR OF 4TH ST &amp; BEECH ST</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>690.056396</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6247,36.9417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>3RD ST NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9433</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6233</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3RD ST NE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>662.266784</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Wellmont Health System DBA Mountain View Regional Medical Center (St. Mary's Hos</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6233,36.9433</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>CORNER OF 4TH AND BEACH STREETS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9383</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6356</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CORNER OF 4TH AND BEACH STREETS</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>698.565429</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6356,36.9383</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>FLAG ROCK NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9153</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.63</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FLAG ROCK NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1028.161865</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.63,36.9153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>ATOP NORTON REDEVELMT AND HOUSING AUTHORITY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9361</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6286</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP NORTON REDEVELMT AND HOUSING AUTHORITY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>655.4281</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6286,36.9361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>CORNER OF 4TH AND BEECH STREETS IN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9383</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6356</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CORNER OF 4TH AND BEECH STREETS IN</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>698.565429</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6356,36.9383</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>SR621 @ RR MP IN14.2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9286</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6544</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR621 @ RR MP IN14.2</value>
+ </Data>
+ <Data name="height">
+   <value>3.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>623.72583</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6544,36.9286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>ST MARYS HOSPITAL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9447</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6217</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST MARYS HOSPITAL</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>698.424377</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECLER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6217,36.9447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>401 RIDGE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9384</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6243</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>401 RIDGE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>712.932861</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VALLEY BROADCASTING AND COMMUNICATIONS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6243,36.9384</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>724 PARK AVE NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.934</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.629</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>724 PARK AVE NW</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>651.864135</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VALLEY BROADCASTING AND COMMUNICATIONS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.629,36.934</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>FLAG ROCK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9153</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.63</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FLAG ROCK</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1028.161865</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.63,36.9153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>Flag Rock</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9153</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.63</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Flag Rock</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1028.161865</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>City of Norton</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.63,36.9153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9342</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6225</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>653.201477</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6225,36.9342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9342</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6222</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>653.600708</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6222,36.9342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Mechanical Yard Base, 405 Depot Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9342</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6222</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Mechanical Yard Base, 405 Depot Street</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>653.600708</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6222,36.9342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9342</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6222</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>653.600708</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6222,36.9342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9442</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6253</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>692.408752</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mountain View Regional Medical Center</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6253,36.9442</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>210 3RD STREET, NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9444</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6253</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 3RD STREET, NE</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>692.456665</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6253,36.9444</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>NORTON COMMUNITY HOSPITAL, 100 15TH STREET, N.W.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Norton city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.931699</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6422</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NORTON COMMUNITY HOSPITAL, 100 15TH STREET, N.W.</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>721.926147</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6422,36.931699</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

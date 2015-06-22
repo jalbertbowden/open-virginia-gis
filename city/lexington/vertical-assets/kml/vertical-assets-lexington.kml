@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7858</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4464</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>318.361419</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Washington &amp; Lee University</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4464,37.7858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>One Health Circle</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7786</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4419</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>One Health Circle</value>
+ </Data>
+ <Data name="height">
+   <value>19.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>335.458343</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CARILION PATIENT TRANSPORTATION SERVICES LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4419,37.7786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>531 E NELSON STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.784999</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4447</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>531 E NELSON STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>320.84729</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WENDNOKE CORP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4447,37.784999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7786</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4419</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>335.458343</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STONEWALL JACKSON HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4419,37.7786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>ONE HEALTH CIRCLE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7786</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4419</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ONE HEALTH CIRCLE</value>
+ </Data>
+ <Data name="height">
+   <value>19.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>335.458343</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STONEWALL JACKSON HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4419,37.7786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7894</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4325</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>291.698577</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF  VIRGINIA MILITARY INSTITUTE--B&amp;G COMMUNICATIONS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4325,37.7894</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>302 REID HALL WASH &amp; LEE UNIV</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.788299</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4419</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>302 REID HALL WASH &amp; LEE UNIV</value>
+ </Data>
+ <Data name="height">
+   <value>25.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>319.588439</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WASHINGTON &amp; LEE UNIVERSITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4419,37.788299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7889</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4339</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>297.18341</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA MILITARY INSTITUTE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4339,37.7889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>300 E WASHINGTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7831</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4383</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 E WASHINGTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>323.152557</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY EMERGENCY SERVICES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4383,37.7831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>NICHOLS ENGINEERING BLDG VMI CAMPUS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.79</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4355</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NICHOLS ENGINEERING BLDG VMI CAMPUS</value>
+ </Data>
+ <Data name="height">
+   <value>17</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>311.26828</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4355,37.79</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>300 E WASHINGTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7831</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4375</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 E WASHINGTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>322.928039</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CITY OF LEXINGTON</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4375,37.7831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>300 E WASHINGTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7831</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4375</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 E WASHINGTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>322.928039</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEXINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4375,37.7831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>FORESTRY OFC 312 S MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7817</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4456</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY OFC 312 S MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>334.76123</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4456,37.7817</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>300 E WASHINGTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7831</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4383</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 E WASHINGTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>323.152557</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEXINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4383,37.7831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>NICHOLS ENGINEERING BLDG VMI CAMPUS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.79</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4355</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NICHOLS ENGINEERING BLDG VMI CAMPUS</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>311.26828</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4355,37.79</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>300 E WASHINGTIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7831</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4375</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 E WASHINGTIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>322.928039</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CITY OF LEXINGTON</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4375,37.7831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>300 E WASHINGTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7831</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4375</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 E WASHINGTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>322.928039</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE REGIONAL PUBLIC SAFETY COMMUNICATIONS CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4375,37.7831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7817</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.445</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>334.318389</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FIRST MEDIA RADIO, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.445,37.7817</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>312 S. MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7818</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.445</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>312 S. MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>333.086914</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FIRST MEDIA RADIO, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.445,37.7818</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Rockingham County Fire Station, 210 E Rock St</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7836</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4433</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rockingham County Fire Station, 210 E Rock St</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>324.871154</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4433,37.7836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>VMI INSTITUTE-SCOTT SHIP HALL-LETCHER AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7903</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.434399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BTWR</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VMI INSTITUTE-SCOTT SHIP HALL-LETCHER AVE</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>311.623901</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF / VMI</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.434399,37.7903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>1340  Thornhill Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lexington city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7661</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4572</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1340  Thornhill Rd</value>
+ </Data>
+ <Data name="height">
+   <value>8.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>334.234741</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Central Virginia Church Emergency Communications Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4572,37.7661</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

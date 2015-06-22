@@ -1,0 +1,2243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>291 WOODLEE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0867</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9114</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>291 WOODLEE RD</value>
+ </Data>
+ <Data name="height">
+   <value>90.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>414.362243</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CLARK BROADCASTING COMPANY  DBA =  WKDW/WSVO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9114,38.0867</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>MTSO ST101</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0557</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9346</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MTSO ST101</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>413.35324</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia PCS Alliance, L.C., d/b/a NTELOS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9346,38.0557</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>TWR 4 - SSR 795 &amp; SSR 1007</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0862</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9108</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TWR 4 - SSR 795 &amp; SSR 1007</value>
+ </Data>
+ <Data name="height">
+   <value>90.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>415.287841</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Clear Channel Broadcasting Licenses, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9108,38.0862</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>TWR 3  - SSR 795 &amp; SSR 1007</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0867</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9113</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TWR 3  - SSR 795 &amp; SSR 1007</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>414.340515</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Clear Channel Broadcasting Licenses, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9113,38.0867</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>TWR 2  - SSR 795 &amp; SSR 1007</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0871</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.912</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TWR 2  - SSR 795 &amp; SSR 1007</value>
+ </Data>
+ <Data name="height">
+   <value>90.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>416.009124</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Clear Channel Broadcasting Licenses, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.912,38.0871</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>SSR 795 and SSR 1007</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0876</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9126</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SSR 795 and SSR 1007</value>
+ </Data>
+ <Data name="height">
+   <value>90.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>414.345031</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Clear Channel Broadcasting Licenses, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9126,38.0876</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>300 Parker Heights Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.07502103</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.92809002</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Mondemain Tower/Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 Parker Heights Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1418.820023</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Waynesboro, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.92809002,38.07502103</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>969 Dogwood Circle</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.08108106</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.88897609</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Wayne Hills Water/Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>969 Dogwood Circle</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1341.11614</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Waynesboro, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.88897609,38.08108106</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>N. Winchester</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.06697667</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.86781781</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Landfill Water Tower/Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N. Winchester</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1571.48191</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Waynesboro, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.86781781,38.06697667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>1150 SHENANDOAH DR.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0556</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9345</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1150 SHENANDOAH DR.</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>413.083221</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CFW WIRELESS, INC.  DBA =  VA PCS ALLIANCE, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9345,38.0556</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>31 Windigrove Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0628</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.936399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>31 Windigrove Rd</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>420.631622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HOME DEPOT U.S.A., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.936399,38.0628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0581</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8947</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>396.68048</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RITENOUR, HARRY B</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8947,38.0581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>microwave building at int of Skyline Dr &amp; I-64</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0669</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8681</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>microwave building at int of Skyline Dr &amp; I-64</value>
+ </Data>
+ <Data name="height">
+   <value>50.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>477.794494</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8681,38.0669</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>2901 W. MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0825</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.929399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2901 W. MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>423.314544</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.929399,38.0825</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>RR Yard Office, 712 N. Baird Ave</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0758</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.873</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR Yard Office, 712 N. Baird Ave</value>
+ </Data>
+ <Data name="height">
+   <value>4.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>392.253814</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.873,38.0758</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0878</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8661</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>394.931701</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SPENCER &amp; BROWN RIGGING &amp; MILLWRIGHT INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8661,38.0878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>400 DUPONT BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0586</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8864</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>400 DUPONT BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>393.450531</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>INVISTA S.a r.l.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8864,38.0586</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0689</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.872799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>422.0195</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Invista Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.872799,38.0689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>524 BROAD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.07</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8908</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>524 BROAD ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>395.899108</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NTELOS Telephone, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8908,38.07</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>801 SECOND ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0783</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8736</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>801 SECOND ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>389.881591</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALLIED READY MIX CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8736,38.0783</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>1321 N DELPHINE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0842</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.868299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1321 N DELPHINE ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>390.57376</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALLIED READY MIX CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.868299,38.0842</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>1 DU PONT AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0572</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8858</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 DU PONT AVE</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>396.968231</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Invista Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8858,38.0572</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>400 DU PONT BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0572</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8858</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>400 DU PONT BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>44</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>396.968231</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Invista Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8858,38.0572</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0797</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8719</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>387.450592</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALLIED CNCRETE CO. INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8719,38.0797</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>400 DU PONT BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0572</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8858</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>400 DU PONT BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>41</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>396.968231</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Invista Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8858,38.0572</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>DU PONT MANUFACTURING PLANT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0572</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8858</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DU PONT MANUFACTURING PLANT</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>396.968231</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Invista Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8858,38.0572</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>250 S WAYNE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0661</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.889999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>250 S WAYNE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>17</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>393.318603</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.889999,38.0661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>250 S WAYNE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0661</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.889999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>250 S WAYNE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>393.318603</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WAYNESBORO, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.889999,38.0661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>GRAVEL BED WATER TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0672</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8675</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GRAVEL BED WATER TANK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>469.953704</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WAYNESBORO, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8675,38.0672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>250 W WAYNES AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0667</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.889999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>250 W WAYNES AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>392.781402</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WAYNESBORO, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.889999,38.0667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>I64 AND ST HWY 624</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0472</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9058</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>I64 AND ST HWY 624</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>427.601165</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9058,38.0472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>2 MI SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0575</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9081</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 MI SW</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>396.065948</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WAYNESBORO, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9081,38.0575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>WAYNESBORO EOC CITY HALL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0661</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.889999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WAYNESBORO EOC CITY HALL</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>393.318603</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WAYNESBORO, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.889999,38.0661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>201 W BROAD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0694</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8867</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>201 W BROAD ST</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>390.251342</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WAYNESBORO, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8867,38.0694</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>900 ESSEX AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0794</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8758</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>900 ESSEX AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>388.572937</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WAYNESBORO, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8758,38.0794</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>413 PORT REPUBLIC RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0761</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.885299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>413 PORT REPUBLIC RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>410.268218</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WAYNESBORO, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.885299,38.0761</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>250 S WAYNE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0661</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.889999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>250 S WAYNE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>393.318603</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WAYNESBORO, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.889999,38.0661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>GRAVEL BED WATER TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0672</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8675</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GRAVEL BED WATER TANK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>469.953704</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WAYNESBORO, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8675,38.0672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>211 W 12TH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0633</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8889</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>211 W 12TH ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>392.052978</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8889,38.0633</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>GRAVEL BED WATER TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0672</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8675</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GRAVEL BED WATER TANK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>469.953704</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WAYNESBORO, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8675,38.0672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>MONDOMAINE WATER TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.075</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.928</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MONDOMAINE WATER TANK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>432.456329</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WAYNESBORO, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.928,38.075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>1450 DELPHINE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0489</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.907199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1450 DELPHINE ST</value>
+ </Data>
+ <Data name="height">
+   <value>59.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>417.252166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.907199,38.0489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>IVY AND EDWARD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0783</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8961</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>IVY AND EDWARD ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>401.148254</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value></value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8961,38.0783</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0783</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8961</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>401.148254</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value></value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8961,38.0783</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>(Waynesboro Hub site) 1150 SHENANDOAH DR.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0556</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.934399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>(Waynesboro Hub site) 1150 SHENANDOAH DR.</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>412.709106</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WWC License L.L.C.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.934399,38.0556</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>300 N Winchester Ave</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0669</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.868299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 N Winchester Ave</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>477.317565</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WWC License L.L.C.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.868299,38.0669</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>Waynesboro East 300 N Winchester Ave.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0669</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.868299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Waynesboro East 300 N Winchester Ave.</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>477.317565</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Wireless (VAW) LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.868299,38.0669</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>1150 Shenandoah Village Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0556</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.934399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1150 Shenandoah Village Drive</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>412.709106</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Wireless (VAW) LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.934399,38.0556</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>Waynesboro</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0905</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8744</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Waynesboro</value>
+ </Data>
+ <Data name="height">
+   <value>49.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>382.757537</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FISHBURNE MILITARY SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8744,38.0905</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>INTERSECTION OF SKYLINE DR &amp; I-64</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0672</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8682</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INTERSECTION OF SKYLINE DR &amp; I-64</value>
+ </Data>
+ <Data name="height">
+   <value>489.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>470.12265</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8682,38.0672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>Jones Hollow  1.42 mi  SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.05</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.873</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Jones Hollow  1.42 mi  SE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>444.028472</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.873,38.05</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>Waynesboro  1.25 mi  SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0572</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9075</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Waynesboro  1.25 mi  SW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>395.791412</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9075,38.0572</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>Waynesboro 911 Center/EOC, 250 S Wayne St  Suite 301,  Waynesboro</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Waynesboro city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0661</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8897</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Waynesboro 911 Center/EOC, 250 S Wayne St  Suite 301,  Waynesboro</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>392.392974</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8897,38.0661</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

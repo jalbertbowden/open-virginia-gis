@@ -1,0 +1,3251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>WOLFE ST &amp; CAROLINE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.299981</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.456948</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value>AT&amp;T</value>
+ </Data>
+ <Data name="structure_address">
+   <value>WOLFE ST &amp; CAROLINE ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.772075</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AT&amp;T</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.456948,38.299981</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>POWHATAN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.303355</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.483834</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POWHATAN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.209625</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value></value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.483834,38.303355</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>COWAN BLVD &amp; CARL D SILVER PKWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.305352</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.507764</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COWAN BLVD &amp; CARL D SILVER PKWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>73.127327</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value></value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.507764,38.305352</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>ASHBY ST EXTENDED</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.275545</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.485111</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ASHBY ST EXTENDED</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>73.07328</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value></value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.485111,38.275545</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Corner of Powhatan &amp; Cowan Blvd. (085557)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3034</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4839</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Corner of Powhatan &amp; Cowan Blvd. (085557)</value>
+ </Data>
+ <Data name="height">
+   <value>58.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.290622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4839,38.3034</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>1593 CARL D. SILVER PARKWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3054</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.507799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1593 CARL D. SILVER PARKWAY</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.952804</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pinnacle Towers LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.507799,38.3054</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>.2 MILES FROM INTERSECT OF WILLIAM &amp; COLLEGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3006</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4725</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.2 MILES FROM INTERSECT OF WILLIAM &amp; COLLEGE</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.63169</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF/UNIV.OF MARY WASHINGTON</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4725,38.3006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3058</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5097</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>73.790283</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Brand Technologies Services LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5097,38.3058</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>1301 College Ave</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2995</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4739</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1301 College Ave</value>
+ </Data>
+ <Data name="height">
+   <value>22.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.138153</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>University of Mary Washington</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4739,38.2995</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>1201 Gateway Boulevard</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2945</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5008</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1201 Gateway Boulevard</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.500579</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HOME DEPOT U.S.A., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5008,38.2945</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2936</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5097</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>62.148334</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JCPENNEY CORP INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5097,38.2936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3039</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4769</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.618125</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>University of Mary Washington</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4769,38.3039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2997</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5097</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>75.599433</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GAP INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5097,38.2997</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>3708 PLANK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2956</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.513</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3708 PLANK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.157867</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Gander Mountain</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.513,38.2956</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>543 JEFFERSON DAVIS HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3131</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.475599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>543 JEFFERSON DAVIS HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.24571</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.475599,38.3131</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3119</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.495</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.186424</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Evergreens at Smith Run</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.495,38.3119</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2983</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5119</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.349067</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Target Store 772</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5119,38.2983</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3019</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4594</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.45261</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4594,38.3019</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Corner of Powhatan &amp; Cowan Blvd. (085557)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3033</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4836</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Corner of Powhatan &amp; Cowan Blvd. (085557)</value>
+ </Data>
+ <Data name="height">
+   <value>62.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.91399</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4836,38.3033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>2215 JEFFERSON DAVIS HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2819</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.489399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2215 JEFFERSON DAVIS HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>56.835433</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TAS DISPATCH SERVICE DBA HILLDRUP TAXI VIRGINIA CAB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.489399,38.2819</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>FALL HILL AVE &amp; BRISCOE LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3078</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5047</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FALL HILL AVE &amp; BRISCOE LN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.471061</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLEMAN, CARY G</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5047,38.3078</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>1000 SE OF CENTRAL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2883</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4692</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1000 SE OF CENTRAL RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.908176</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AmeriGas Propane, L.P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4692,38.2883</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3131</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4819</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.972635</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARY WASHINGTON HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4819,38.3131</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>1001 SAM PERRY BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3131</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4819</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1001 SAM PERRY BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.972635</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARY WASHINGTON HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4819,38.3131</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.306699</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4994</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>57.648208</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CENTRAL PARK FUNLAND</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4994,38.306699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2917</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.491099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>68.512542</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CORNERSTONE REALTY INCOME TRUST DBA GREENBRIER APARTMENTS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.491099,38.2917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3167</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4661</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.664265</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAFTON VILLAGE ELEMENTARY SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4661,38.3167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>137 SPOTSYLVANIA MALL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2986</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4817</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>137 SPOTSYLVANIA MALL</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.569889</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SPOTSLYVANIA MALL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4817,38.2986</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>2508 PRINCESS ANNE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3156</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4719</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2508 PRINCESS ANNE ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>18.833753</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRIGSBY, LOIS H</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4719,38.3156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>1001 SAM PERRY BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3131</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4819</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1001 SAM PERRY BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.972635</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARY WASHINGTON HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4819,38.3131</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>1001 SAM PERRY BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3117</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.468599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1001 SAM PERRY BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>88</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.64783</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.468599,38.3117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>601 PRINCESS ANNE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2995</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.458</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>601 PRINCESS ANNE ST</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.442051</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.458,38.2995</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>1521 POWHATAN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3033</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4833</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1521 POWHATAN ST</value>
+ </Data>
+ <Data name="height">
+   <value>58</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.939891</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4833,38.3033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>ASHBY ST EXTENDED</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2894</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.476099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ASHBY ST EXTENDED</value>
+ </Data>
+ <Data name="height">
+   <value>53</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.480564</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.476099,38.2894</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3025</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4597</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.300454</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4597,38.3025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>615 PRINCESS ANNE ST POLICE DEPT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.458</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>615 PRINCESS ANNE ST POLICE DEPT</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.072937</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Fredericksburg Police Department</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.458,38.3</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>WASHINGTON HALL, .1 MILE FROM COLLEGE &amp; WILLIAM STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3006</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4739</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WASHINGTON HALL, .1 MILE FROM COLLEGE &amp; WILLIAM STREET</value>
+ </Data>
+ <Data name="height">
+   <value>26</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.691856</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF/UNIV.OF MARY WASHINGTON</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4739,38.3006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>1320 BELMAN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2861</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4628</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1320 BELMAN RD</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.043804</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4628,38.2861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>1 MI N OF INT RT 1 &amp; RT 3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3097</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4836</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI N OF INT RT 1 &amp; RT 3</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.822467</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4836,38.3097</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>1301 COLLEGE AVE .1 MILE FROM INERSECT OF WILLIAMS AND COLLEGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3006</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4739</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1301 COLLEGE AVE .1 MILE FROM INERSECT OF WILLIAMS AND COLLEGE</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.691856</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4739,38.3006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>CITY WATER TOWER RAILROAD AVE &amp; SUMMIT ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2897</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4606</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CITY WATER TOWER RAILROAD AVE &amp; SUMMIT ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.333894</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4606,38.2897</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>SUMMIT STREET &amp; RAILROAD AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2897</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4606</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SUMMIT STREET &amp; RAILROAD AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.333894</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4606,38.2897</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>NEAR 2289 JEFFERSON DAVIS HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.28</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.491099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR 2289 JEFFERSON DAVIS HWY</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>59.9556</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.491099,38.28</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>COWAN &amp; POWHATAN ROADS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3033</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4839</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COWAN &amp; POWHATAN ROADS</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.797966</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4839,38.3033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3019</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.465</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.902065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE FREE LANCE-STAR PUBLISHING CO. OF FREDERICKSBURG, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.465,38.3019</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>616 AMELIA ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3019</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.465</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>616 AMELIA ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.902065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE FREE LANCE-STAR PUBLISHING CO. OF FREDERICKSBURG, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.465,38.3019</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3019</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.465</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.902065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE FREE LANCE-STAR PUBLISHING CO. OF FREDERICKSBURG, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.465,38.3019</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>616 AMELIA ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3019</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.465</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>616 AMELIA ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.902065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE FREE LANCE-STAR PUBLISHING CO. OF FREDERICKSBURG, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.465,38.3019</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>1593 Carl D. Silver Pkwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.305</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.507799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1593 Carl D. Silver Pkwy</value>
+ </Data>
+ <Data name="height">
+   <value>65.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.631538</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.507799,38.305</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>Corner of Powhatan &amp; Cowan Blvd. (085557)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3034</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4839</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Corner of Powhatan &amp; Cowan Blvd. (085557)</value>
+ </Data>
+ <Data name="height">
+   <value>62.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.290622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FiberTower Network Services Corp.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4839,38.3034</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>CARL D. SILVER PARKWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3052</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.507999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CARL D. SILVER PARKWAY</value>
+ </Data>
+ <Data name="height">
+   <value>65.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.317901</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FiberTower Network Services Corp.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.507999,38.3052</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>1320 Central Park Blvd. Suite 253</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3028</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.513</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1320 Central Park Blvd. Suite 253</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.566909</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POSITIVE ALTERNATIVE RADIO, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.513,38.3028</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>616 Amelia Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3019</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4653</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>616 Amelia Street</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.046075</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE FREE LANCE-STAR PUBLISHING CO. OF FREDERICKSBURG, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4653,38.3019</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>RTE 1 0.7 MI N OF RT 3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3043</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.483</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RTE 1 0.7 MI N OF RT 3</value>
+ </Data>
+ <Data name="height">
+   <value>39</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.340656</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.483,38.3043</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>616 AMELIA ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3021</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.465199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>616 AMELIA ST</value>
+ </Data>
+ <Data name="height">
+   <value>33.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.122953</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE FREE LANCE-STAR PUBLISHING CO. OF FREDERICKSBURG, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.465199,38.3021</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>616 AMELIA ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3021</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.465199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>616 AMELIA ST</value>
+ </Data>
+ <Data name="height">
+   <value>33.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.122953</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE FREE LANCE-STAR PUBLISHING CO. OF FREDERICKSBURG, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.465199,38.3021</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>2211 PLANK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2961</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4961</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2211 PLANK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.108001</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MSAA PARTNERS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4961,38.2961</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>Fire Station #2 - Altoona  Dr - Fredericksburg City</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2942</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.497799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fire Station #2 - Altoona  Dr - Fredericksburg City</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.214576</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.497799,38.2942</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>NEAR PARK HILL DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3097</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4836</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR PARK HILL DR</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.822467</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4836,38.3097</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>400 SPOTSYLVANIA MALL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2936</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5097</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>400 SPOTSYLVANIA MALL</value>
+ </Data>
+ <Data name="height">
+   <value>10.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>62.148334</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JCPENNEY CORP INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5097,38.2936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3019</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4703</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.761053</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VERIZON OF VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4703,38.3019</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>1001 SAM PERRY BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3111</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.483099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1001 SAM PERRY BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.776882</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.483099,38.3111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>1001 SAM PERRY BOULEVARD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3111</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4828</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1001 SAM PERRY BOULEVARD</value>
+ </Data>
+ <Data name="height">
+   <value>32.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.152702</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ComSoft Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4828,38.3111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>901 PRINCE EDWARD STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.301699</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4617</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>901 PRINCE EDWARD STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.139282</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ComSoft Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4617,38.301699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>1001 Sam Perry Boulevard</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3111</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.483099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1001 Sam Perry Boulevard</value>
+ </Data>
+ <Data name="height">
+   <value>20.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.776882</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.483099,38.3111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>904 PRINCESS ANN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3031</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4603</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>904 PRINCESS ANN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>20.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>16.133955</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SkyTel Spectrum LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4603,38.3031</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>NEAR PARK HILL DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3097</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4836</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR PARK HILL DR</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.822467</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4836,38.3097</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>SUMMIT STREET &amp; RAILROAD AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2897</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4606</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SUMMIT STREET &amp; RAILROAD AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.333894</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4606,38.2897</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>CITY WATER TOWER RAILROAD AVE &amp; SUMMIT ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2897</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4606</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CITY WATER TOWER RAILROAD AVE &amp; SUMMIT ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.333894</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4606,38.2897</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>1 MI N OF INT RT 1 &amp; RT 3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3097</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4836</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI N OF INT RT 1 &amp; RT 3</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.822467</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4836,38.3097</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>GEORGE ST &amp; PRINCESS ANNE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3025</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4597</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GEORGE ST &amp; PRINCESS ANNE ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.300454</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4597,38.3025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>ASHBY ST EXTENDED</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2894</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.476099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ASHBY ST EXTENDED</value>
+ </Data>
+ <Data name="height">
+   <value>53</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.480564</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.476099,38.2894</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>1521 POWHATAN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3033</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4833</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1521 POWHATAN ST</value>
+ </Data>
+ <Data name="height">
+   <value>58</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.939891</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4833,38.3033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>601 PRINCESS ANNE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2995</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.458</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>601 PRINCESS ANNE ST</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.442051</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.458,38.2995</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>1001 SAM PERRY BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3117</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.468599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1001 SAM PERRY BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>88</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.64783</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.468599,38.3117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>Corner of Powhatan &amp; Cowan Blvd. (085557)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3033</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4836</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Corner of Powhatan &amp; Cowan Blvd. (085557)</value>
+ </Data>
+ <Data name="height">
+   <value>62.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.91399</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4836,38.3033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>815 PRINCESS ANNE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fredericksburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3019</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4594</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>815 PRINCESS ANNE ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>17.45261</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FREDERICKSBURG PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Fredericksburg GIS</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4594,38.3019</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

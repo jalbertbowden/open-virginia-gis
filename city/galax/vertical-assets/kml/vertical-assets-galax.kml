@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>City View Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.659</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9343</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>City View Drive</value>
+ </Data>
+ <Data name="height">
+   <value>35</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>791.752868</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9343,36.659</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>325 POPLAR KNOB RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6633</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9142</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>325 POPLAR KNOB RD</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>740.932922</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TWIN COUNTY BROADCASTING CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9142,36.6633</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>Fair Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6543184</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.91753598</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Holding Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fair Street</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2345.138785</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Galax, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.91753598,36.6543184</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>200 HOSPITAL DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6706</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9239</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BTWR</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 HOSPITAL DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>793.933166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TWIN COUNTY E-911 REGIONAL COMMISSION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9239,36.6706</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>110 JACK GUYNN DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6889</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8897</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>110 JACK GUYNN DR</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>756.993347</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CONSOLIDATED GLASS &amp; MIRROR CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8897,36.6889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>506 E STUART DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6625</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9219</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>506 E STUART DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>716.576721</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WENDNOKE CORP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9219,36.6625</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>1979 E. STUART AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6481</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9189</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1979 E. STUART AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>729.893249</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9189,36.6481</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>CITY DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6589</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9339</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CITY DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>792.975708</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECLER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9339,36.6589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6556</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9197</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>718.050231</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Grayson Carroll Shrine Club Kazim Temple AAONMS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9197,36.6556</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>S RAILROAD AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6603</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9192</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S RAILROAD AVE</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>714.64978</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WEBB FURNITURE ENTERPRISES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9192,36.6603</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6858</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8969</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>740.41632</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL TEXTILES CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8969,36.6858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6858</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8969</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>740.41632</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL TEXTILES CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8969,36.6858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>1012 GLENDALE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6858</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8969</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1012 GLENDALE RD</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>740.41632</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL TEXTILES CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8969,36.6858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>ATOP HOSPITAL AT 200 HOSPITAL DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6722</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9219</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP HOSPITAL AT 200 HOSPITAL DR</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>786.619689</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Twin County Regional Healthcare, Inc. d/b/a Twin County Regional Hospital</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9219,36.6722</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>ATOP HOSPITAL AT 200 HOSPITAL DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6722</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9219</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP HOSPITAL AT 200 HOSPITAL DR</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>786.619689</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Twin County Regional Healthcare, Inc. d/b/a Twin County Regional Hospital</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9219,36.6722</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>FIRE DEPT 300 W GRAYSON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6706</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9269</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIRE DEPT 300 W GRAYSON ST</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>750.52124</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GALAX, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9269,36.6706</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>POLICE DEPT 353 N MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6644</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POLICE DEPT 353 N MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>725.400939</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GALAX, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9275,36.6644</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6631</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9142</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>743.014709</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLUE RIDGE RADIO, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9142,36.6631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Behind Galax City Police Department 353 North Main Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6648</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.924799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Behind Galax City Police Department 353 North Main Street</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>719.44989</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The Wired Road Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.924799,36.6648</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>325 POPLAR KNOB RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6634</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9142</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>325 POPLAR KNOB RD</value>
+ </Data>
+ <Data name="height">
+   <value>16.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>737.929992</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLUE RIDGE RADIO, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9142,36.6634</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6706</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9236</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>794.372497</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Twin County Regional Healthcare, Inc. d/b/a Twin County Regional Hospital</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9236,36.6706</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>200 Maroon Tide Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.655</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9239</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 Maroon Tide Drive</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>763.085632</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GALAX CITY SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9239,36.655</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.655</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9239</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>763.085632</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GALAX CITY SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9239,36.655</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>200 HOSPITAL DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6706</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9236</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BTWR</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 HOSPITAL DR</value>
+ </Data>
+ <Data name="height">
+   <value>26</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>794.372497</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9236,36.6706</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>End of City Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Galax city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6589</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9339</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>End of City Drive</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>792.975708</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9339,36.6589</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

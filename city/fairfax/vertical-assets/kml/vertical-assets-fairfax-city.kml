@@ -1,0 +1,1865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>4100 Chain Bridge Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8487</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3036</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4100 Chain Bridge Road</value>
+ </Data>
+ <Data name="height">
+   <value>64</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>125.25785</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Fairfax, Virginia</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3036,38.8487</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>4105 Williams Place</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.85063886</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.32969156</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Williams Place Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4105 Williams Place</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>482.6491303</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Fairfax, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.32969156,38.85063886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>4107 Williams Place</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.85060912</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.32975105</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4107 Williams Place</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>482.6491303</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Fairfax, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.32975105,38.85060912</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>9780 Main Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.84360878</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.28021767</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Main Street Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9780 Main Street</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>447.4338664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Fairfax, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.28021767,38.84360878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>9780 Main Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.84356357</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.28019626</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tower</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9780 Main Street</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>448.6977729</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Fairfax, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.28019626,38.84356357</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Lyndhurst Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.84349422</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.28026236</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Lyndhurst Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Lyndhurst Drive</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>447.660746</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Fairfax, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.28026236,38.84349422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>3201 Old Lee Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8633</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.276099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3201 Old Lee Highway</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>93.903106</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HOME DEPOT U.S.A., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.276099,38.8633</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>3500 Old Lee Hwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.86</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2861</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3500 Old Lee Hwy</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>117.4962</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Fairfax VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2861,38.86</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>3801 Jermantown Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.86</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3267</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3801 Jermantown Rd</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.596282</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Fairfax VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3267,38.86</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>3500 Old Lee Hwy.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8597</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2861</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3500 Old Lee Hwy.</value>
+ </Data>
+ <Data name="height">
+   <value>9.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.093795</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Fairfax</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2861,38.8597</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8564</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3311</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.682266</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>11180 MAIN STREET LIMITED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3311,38.8564</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3208</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>131.198181</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>City of Fairfax School</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3208,38.8589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8608</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2961</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>102.447189</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TRIDENT SYSTEMS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2961,38.8608</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>3730 Old Lee Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8508</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2992</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3730 Old Lee Highway</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>117.793594</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>City of Fairfax</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2992,38.8508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>4081 University Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8433</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.305299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4081 University Drive</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>124.932205</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>City of Fairfax</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.305299,38.8433</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>3847 PICKETT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8472</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2719</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3847 PICKETT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>121.040649</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2719,38.8472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>3924 OLD LEE HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8478</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3014</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3924 OLD LEE HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>127.46421</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VAN MANAGEMENT, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3014,38.8478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>3414 PICKETT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.278</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3414 PICKETT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>106.85012</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ARMY NAVY COUNTRY CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.278,38.8589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>4000 JERMANTOWN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8561</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.332499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4000 JERMANTOWN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.607528</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DAVCO RESTAURANTS, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.332499,38.8561</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>9688 MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8425</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2808</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9688 MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>131.806472</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DAVCO RESTAURANTS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2808,38.8425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8636</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2814</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>91.028564</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Patriot HD Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2814,38.8636</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8486</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3233</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>129.429397</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Quincy Amusement Fairfax Corner</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3233,38.8486</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>10030 LEE HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8631</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.288099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10030 LEE HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>98.408302</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KFC NATIONAL MANAGEMENT COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.288099,38.8631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8461</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3064</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.133758</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MC DONALDS REST</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3064,38.8461</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8469</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2778</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>118.075965</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUCKEYE PARTNERS L.P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2778,38.8469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>LYNDHURST WATER TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8417</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.28</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LYNDHURST WATER TANK</value>
+ </Data>
+ <Data name="height">
+   <value>38</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.052322</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FAIRFAX, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.28,38.8417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>FAIRFAX DIST OFF 11133 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8542</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3322</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FAIRFAX DIST OFF 11133 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>26</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>142.150817</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3322,38.8542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>11180 MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8542</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3328</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11180 MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.433914</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMFORT INN UNIVERSITY CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3328,38.8542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>3623 PARKLANE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8519</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.29</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3623 PARKLANE RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>105.356369</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GEORGE MASON UNIVERSITY INSTRUCTIONAL FOUNDATION INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.29,38.8519</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>4100 CHAIN BRIDGE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8486</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.303299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4100 CHAIN BRIDGE RD</value>
+ </Data>
+ <Data name="height">
+   <value>70</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>125.873748</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FAIRFAX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.303299,38.8486</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>4100 CHAIN BRIDGE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8486</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.303299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4100 CHAIN BRIDGE RD</value>
+ </Data>
+ <Data name="height">
+   <value>70.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>125.873748</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FAIRFAX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.303299,38.8486</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>4315 CHAIN BRIDGE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8378</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3094</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4315 CHAIN BRIDGE RD</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.700759</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FAIRFAX. COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3094,38.8378</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>3730 OLD LEE HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8514</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2994</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3730 OLD LEE HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>119.857536</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FAIRFAX, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2994,38.8514</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>3613 JERMANTOWN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8633</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3233</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3613 JERMANTOWN RD</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>138.616912</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FAIRFAX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3233,38.8633</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>3730 OLD LEE HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8514</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2994</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3730 OLD LEE HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>119.857536</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FAIRFAX, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2994,38.8514</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>3730 OLD LEE HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8514</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2994</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3730 OLD LEE HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>119.857536</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FAIRFAX, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2994,38.8514</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>3730 OLD LEE HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8514</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2994</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3730 OLD LEE HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>119.857536</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FAIRFAX, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2994,38.8514</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>3609 JERMANTOWN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8636</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3231</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3609 JERMANTOWN RD</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.490127</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FAIRFAX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3231,38.8636</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>FAIRFAX COUNTY COURTHOUSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8486</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3036</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FAIRFAX COUNTY COURTHOUSE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>125.319053</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NBC TELEMUNDO LICENSE LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3036,38.8486</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>9773 Main Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8437</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2802</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9773 Main Street</value>
+ </Data>
+ <Data name="height">
+   <value>35</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>135.880722</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CLEARWIRE SPECTRUM HOLDINGS III, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2802,38.8437</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>10400 Eaton Place</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8616</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3056</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10400 Eaton Place</value>
+ </Data>
+ <Data name="height">
+   <value>23.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>110.659164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CLEARWIRE SPECTRUM HOLDINGS III, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3056,38.8616</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>3909 OAK ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8523</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.315499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3909 OAK ST</value>
+ </Data>
+ <Data name="height">
+   <value>50.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>115.029891</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SIGNAL ABOVE LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.315499,38.8523</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8603</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.2711</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>89.934761</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ARMY NAVY COUNTRY CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.2711,38.8603</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fairfax city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8394</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.308</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>134.733139</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SUNRISE ASSISTED LIVING AT GEORGE MASON</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.308,38.8394</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

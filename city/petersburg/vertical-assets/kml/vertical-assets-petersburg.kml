@@ -1,0 +1,5897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>S CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2271</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3904</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>100.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.356121</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pinnacle Towers LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3904,37.2271</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>10 N UNION ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2294</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4047</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10 N UNION ST</value>
+ </Data>
+ <Data name="height">
+   <value>99.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.14047</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Virginia Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4047,37.2294</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>2641 Forest Hills Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.196</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3863</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2641 Forest Hills Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.506298</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Global Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3863,37.196</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>1.2mi S of I-95 and Halifax Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4231</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.2mi S of I-95 and Halifax Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.450016</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Co.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4231,37.1806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Halifax Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1996</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4202</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Halifax Road</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>49.17628</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Global Tower, LCC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4202,37.1996</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>6500' NE OF I-95 &amp; WASHIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2397</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.376399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6500' NE OF I-95 &amp; WASHIN</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.951866</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tower Assets Newco IX, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.376399,37.2397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>3323 JOHNSON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3992</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3323 JOHNSON RD</value>
+ </Data>
+ <Data name="height">
+   <value>87.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.371589</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3992,37.1806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>1511-17 Monticello Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.21207036</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39481016</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Mount Vernon Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1511-17 Monticello Street</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.8602559</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39481016,37.21207036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>1604-10 Halifax Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.20501159</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.41942098</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Halifax Street Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1604-10 Halifax Street</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>171.7629951</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.41942098,37.20501159</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>Jamestown Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.21103729</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.36419771</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Jamestown Water Tower</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Jamestown Drive</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.5512815</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.36419771,37.21103729</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Mercury Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.22009223</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39423119</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Mercury Street Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Mercury Street</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>127.0580207</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39423119,37.22009223</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Raleigh Avenue</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.19987717</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.37879863</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Walnut Hill Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Raleigh Avenue</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>159.3424881</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.37879863,37.19987717</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>3500 Halifax Rd.  Collier Yard (009209)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1772</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.421499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3500 Halifax Rd.  Collier Yard (009209)</value>
+ </Data>
+ <Data name="height">
+   <value>88.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.632007</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.421499,37.1772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>INTERSECTION OF CULPEPPER AND HARE STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2342</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3772</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INTERSECTION OF CULPEPPER AND HARE STREET</value>
+ </Data>
+ <Data name="height">
+   <value>123.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.170252</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Radio One Licenses, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3772,37.2342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>AT THE INT OF I-95 AND I-85/RT. 460, VDOT HUB RI03XC172</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2203</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>AT THE INT OF I-95 AND I-85/RT. 460, VDOT HUB RI03XC172</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.620193</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SprintCom. Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39,37.2203</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>3321 Johnson Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.182099</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3321 Johnson Road</value>
+ </Data>
+ <Data name="height">
+   <value>112.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>50.62627</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>METROCALL USA INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4,37.182099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>End of Frontage Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1945</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.359399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>End of Frontage Road</value>
+ </Data>
+ <Data name="height">
+   <value>106.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.266712</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>City of Petersburg</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.359399,37.1945</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>700 Block of Mount Airy Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2156</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4137</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>700 Block of Mount Airy Street</value>
+ </Data>
+ <Data name="height">
+   <value>106.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.601222</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>City of Petersburg</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4137,37.2156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>33 Rawlings Lane  (VA41481-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2186</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4466</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>33 Rawlings Lane  (VA41481-A)</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.741981</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>T-Mobile Northeast LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4466,37.2186</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2239</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4131</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.890096</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOVIS LEND LEASE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4131,37.2239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>100 PINE BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2239</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4131</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 PINE BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>19.890096</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOVIS LEND LEASE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4131,37.2239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>1950 INDUSTRY PLACE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1781</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4194</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1950 INDUSTRY PLACE</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.451</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOAR'S HEAD PROVISIONS CO INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4194,37.1781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1875</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.450656</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3964,37.1875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>700 BLOCK OF MOUNT AIRY STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2156</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4136</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>700 BLOCK OF MOUNT AIRY STREET</value>
+ </Data>
+ <Data name="height">
+   <value>114.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.884849</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4136,37.2156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1872</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3469</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.595752</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>QUALITY PLUS SERVICES, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3469,37.1872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>109 SOUTH PERRY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2167</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4008</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>109 SOUTH PERRY ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.11766</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PRE CON, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4008,37.2167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>1.2mi S of I95 and Halifax Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4231</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.2mi S of I95 and Halifax Rd</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.450016</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4231,37.1806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>INTERSECTION OF FRANKLIN AND ADAMS STREETS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2286</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4019</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INTERSECTION OF FRANKLIN AND ADAMS STREETS</value>
+ </Data>
+ <Data name="height">
+   <value>33.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.945503</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4019,37.2286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2167</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3994</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.229122</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOEHRINGER INGLEHEIM CHEMICALS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3994,37.2167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>2820 N. NORMANDY DR.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1986</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3586</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2820 N. NORMANDY DR.</value>
+ </Data>
+ <Data name="height">
+   <value>26</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.862007</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOEHRINGER INGLEHEIM CHEMICALS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3586,37.1986</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>3219 S CRATER ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.187799</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3697</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3219 S CRATER ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.788696</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS IV, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3697,37.187799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1986</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.345</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.655204</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.345,37.1986</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>240 WAGNER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1872</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.365</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>240 WAGNER RD</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.703937</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POPLAR SPRINGS HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.365,37.1872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2172</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4411</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.659076</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VULCAN CONSTRUCTION MATERIALS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4411,37.2172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>101 PINEHILL BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1828</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.364199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>101 PINEHILL BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>28</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>47.533142</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Hospital Company, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.364199,37.1828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>END OF FRONTAGE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1944</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.359199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF FRONTAGE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>114.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.158535</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.359199,37.1944</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>700 BLOCK OF MOUNT AIRY STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2156</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4136</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>700 BLOCK OF MOUNT AIRY STREET</value>
+ </Data>
+ <Data name="height">
+   <value>114.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.884849</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4136,37.2156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2172</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3981</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.677562</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GE Medical Systems Information Technologies</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3981,37.2172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>230 CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2269</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>230 CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>103</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.020088</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAMEY, DALE W</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39,37.2269</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>230 CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2264</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>230 CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>95</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.829963</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMTRONICS OF VA, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39,37.2264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>125 HARRISON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2239</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4039</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>125 HARRISON ST</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>22.362461</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FLYNN, DENNIS DBA BOULEVARD CAB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4039,37.2239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>91 M S OF HALIFAX RD SR 604 EAST SIDE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.182</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4206</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>91 M S OF HALIFAX RD SR 604 EAST SIDE</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.774761</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4206,37.182</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>61 M N OF RIVER W SIDE OF TRACKS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2258</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4325</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>61 M N OF RIVER W SIDE OF TRACKS</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.9368</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4325,37.2258</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>PETERSBURG INDUSTRIAL PK RT 95 S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2006</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3633</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PETERSBURG INDUSTRIAL PK RT 95 S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.71516</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BRENCO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3633,37.2006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.236699</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.378899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.013456</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.378899,37.236699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>26505 SIMPSON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2314</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4094</value>
+ </Data>
+ <Data name="structure_type">
+   <value>SILO</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>26505 SIMPSON RD</value>
+ </Data>
+ <Data name="height">
+   <value>26</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.259201</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA CONCRETE CONSTRUCTION CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4094,37.2314</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>11301 JOHNSON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2044</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3919</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11301 JOHNSON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.314414</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RICHARD BLAND COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3919,37.2044</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.18</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.415</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.451</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOAR S HEAD PROVISIONS CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.415,37.18</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>S CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2269</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>103</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.020088</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS OF VIRGINIA INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39,37.2269</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>801 S ADAM ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2172</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3969</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>801 S ADAM ST</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.712821</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3969,37.2172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4231</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.450016</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4231,37.1806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>1.2mi S  I95 and Halifax Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4231</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.2mi S  I95 and Halifax Rd</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.450016</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4231,37.1806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>101 N UNION ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2292</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4044</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>101 N UNION ST</value>
+ </Data>
+ <Data name="height">
+   <value>99</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.171588</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMTRONICS OF VA INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4044,37.2292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4231</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.450016</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4231,37.1806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>1.2mi S of I-95 and Halifax Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4231</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.2mi S of I-95 and Halifax Rd</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.450016</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4231,37.1806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>COLLIER YARD OFFICE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1769</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4217</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COLLIER YARD OFFICE</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.752784</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4217,37.1769</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2278</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4017</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.776597</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KENTUCKY FRIED CHICKEN #KFC1315VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4017,37.2278</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1828</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.364199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>47.533142</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Hospital Company LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.364199,37.1828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>230 CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2264</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>230 CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.829963</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DELTA OIL CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39,37.2264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>2775 COUNTY DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2083</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3453</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2775 COUNTY DR</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>47.298095</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HOUCHINS, BOBBY L</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3453,37.2083</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>200 N OF RIVER W SIDE OF TRACK MCP</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2258</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4325</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 N OF RIVER W SIDE OF TRACK MCP</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.9368</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4325,37.2258</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>3321 JOHNSON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1856</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3833</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3321 JOHNSON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.843147</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3833,37.1856</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>420 SECOND ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2353</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.403599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>420 SECOND ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.033173</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE VIRGINIA EMERGENCY CREW INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.403599,37.2353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>801 S ADAMS ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2172</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3969</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>801 S ADAMS ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.712821</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE VIRGINIA EMERGENCY CREW INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3969,37.2172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>700 BLOCK OF MOUNT AIRY STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2156</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4136</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>700 BLOCK OF MOUNT AIRY STREET</value>
+ </Data>
+ <Data name="height">
+   <value>114.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.884849</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4136,37.2156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>PETERSBURG GEN HOSP 801 S ADAMS ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2172</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3969</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PETERSBURG GEN HOSP 801 S ADAMS ST</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.712821</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3969,37.2172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>3321 JOHNSON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1742</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3321 JOHNSON RD</value>
+ </Data>
+ <Data name="height">
+   <value>113</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.438037</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4,37.1742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>3321 JOHNSON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1742</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3321 JOHNSON RD</value>
+ </Data>
+ <Data name="height">
+   <value>113</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.438037</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4,37.1742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2172</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3969</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.712821</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Hospital Company LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3969,37.2172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>101 PINE HILL BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1828</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.364199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>101 PINE HILL BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>28</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>47.533142</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Hospital Company LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.364199,37.1828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>S SYCAMORE ST WATER TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3792</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S SYCAMORE ST WATER TANK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.008796</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3792,37.2</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>N ADAMS &amp; HENRY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2308</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4022</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N ADAMS &amp; HENRY ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.938391</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4022,37.2308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>S SYCAMORE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3792</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S SYCAMORE ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.008796</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3792,37.2</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>POE CREEK WWPS 2018 WINFIELD RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2153</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3722</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POE CREEK WWPS 2018 WINFIELD RD</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.564674</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3722,37.2153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>HICKORY HILL WWPS 1638 HICKORY HILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2208</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3569</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HICKORY HILL WWPS 1638 HICKORY HILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.341064</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3569,37.2208</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>ROHOIC CK WWPS 3010 DUPUY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2006</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.444399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROHOIC CK WWPS 3010 DUPUY RD</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.652877</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.444399,37.2006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>BERKELEY MANOR WWPS 3599 NORMANDY DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1839</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.344699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BERKELEY MANOR WWPS 3599 NORMANDY DR</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.355033</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.344699,37.1839</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>PETERSBURG UTILITY OFC ANDREWS ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2239</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3939</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PETERSBURG UTILITY OFC ANDREWS ST</value>
+ </Data>
+ <Data name="height">
+   <value>26</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>8.029177</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3939,37.2239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>PETERSBURG WWTP 900 MAGAZINE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2397</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3911</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PETERSBURG WWTP 900 MAGAZINE RD</value>
+ </Data>
+ <Data name="height">
+   <value>60</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.559119</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3911,37.2397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>HALIFAX TANK 1603 HALIFAX ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2042</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4192</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HALIFAX TANK 1603 HALIFAX ST</value>
+ </Data>
+ <Data name="height">
+   <value>29</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>49.722629</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4192,37.2042</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>WALNUT HILL ELEVATED TANK 2250 S CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1997</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WALNUT HILL ELEVATED TANK 2250 S CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>47.461612</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3786,37.1997</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>JAMESTOWN RD ELEVATED TANK 2300 JAMESTOWN DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2011</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.363</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JAMESTOWN RD ELEVATED TANK 2300 JAMESTOWN DR</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.862564</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.363,37.2011</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>MERCURY ST GS TANK 50 WEBSTER ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2194</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3939</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MERCURY ST GS TANK 50 WEBSTER ST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.486907</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3939,37.2194</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>MOUNT VERNON WWPS 1580 MOUNT VERNON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2117</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3939</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MOUNT VERNON WWPS 1580 MOUNT VERNON ST</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.359916</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3939,37.2117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>EAST WALNUT HILL WWPS 1744 BUCKNER ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2111</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3703</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>EAST WALNUT HILL WWPS 1744 BUCKNER ST</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.835388</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3703,37.2111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>TRAVIS LN WWPS 2977 TRAVIS LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2072</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.339699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TRAVIS LN WWPS 2977 TRAVIS LN</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.943649</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.339699,37.2072</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>PRINCE GEORGE WWPS 3099 COUNTRY DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2011</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3333</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PRINCE GEORGE WWPS 3099 COUNTRY DR</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.780963</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3333,37.2011</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>FORT HAYES WWPS ON FORT HAYES CIR OFF FLANK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1803</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.381399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORT HAYES WWPS ON FORT HAYES CIR OFF FLANK RD</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.272789</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.381399,37.1803</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>LAKEWOOD WWPS 3747 BEECHWOOD DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1794</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3536</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LAKEWOOD WWPS 3747 BEECHWOOD DR</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.360015</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3536,37.1794</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>EDGEWOOD WWPS 1155 TRAID PKY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2064</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3458</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>EDGEWOOD WWPS 1155 TRAID PKY</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.896808</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3458,37.2064</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>SOUTH PLAINS WWPS 110 RICHLAND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1719</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3625</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SOUTH PLAINS WWPS 110 RICHLAND RD</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.334072</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3625,37.1719</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>ARWA METERING PT 15 METERS E OF TE END OF RAWLINGS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2175</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4411</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ARWA METERING PT 15 METERS E OF TE END OF RAWLINGS RD</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.361131</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4411,37.2175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>LOCKS PUMP HOUSE 244 METERS E OF THE END OF RAWLINGS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2206</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4425</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LOCKS PUMP HOUSE 244 METERS E OF THE END OF RAWLINGS RD</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.804962</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4425,37.2206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>209 PERRY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2231</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4075</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>209 PERRY ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.95104</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4075,37.2231</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>3321 JOHNSON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1742</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3321 JOHNSON RD</value>
+ </Data>
+ <Data name="height">
+   <value>113</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.438037</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4,37.1742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>3321 JOHNSON RD TOWER SITE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1742</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3321 JOHNSON RD TOWER SITE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.438037</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4,37.1742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>S CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.227199</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3903</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>103</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.913703</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3903,37.227199</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>2990 FRONTAGE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1989</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.36</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2990 FRONTAGE RD</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.336307</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.36,37.1989</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>230 S CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2264</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>230 S CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.829963</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TELPAGE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39,37.2264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>WITHIN CITY LIMITS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2278</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4017</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WITHIN CITY LIMITS</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.776597</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Nextel License Holdings 3, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4017,37.2278</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>WXEX 230 S CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2264</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WXEX 230 S CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.829963</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39,37.2264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>WXEX 230 S CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2264</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WXEX 230 S CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.829963</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39,37.2264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>3321 JOHNSON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1742</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3321 JOHNSON RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.438037</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4,37.1742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>3321 JOHNSON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1742</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3321 JOHNSON RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.438037</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4,37.1742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>230 S CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2264</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>230 S CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.829963</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YOUNG BROADCASTING OF RICHMOND, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39,37.2264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>230 SOUTH CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2264</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>230 SOUTH CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.829963</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YOUNG BROADCASTING OF RICHMOND, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39,37.2264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>3323 JOHNSON ROAD OUTH OF PEATERSBURG HIGH SCHOOL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1803</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3994</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3323 JOHNSON ROAD OUTH OF PEATERSBURG HIGH SCHOOL</value>
+ </Data>
+ <Data name="height">
+   <value>91</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.515625</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3994,37.1803</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>DT Petersburg Cell Site - 10 N UNION ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2294</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4047</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DT Petersburg Cell Site - 10 N UNION ST</value>
+ </Data>
+ <Data name="height">
+   <value>104.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.14047</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Cellular Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4047,37.2294</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>Gibbons Cell Site - 6500' NE OF I-95 &amp; WASHIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2397</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.376399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Gibbons Cell Site - 6500' NE OF I-95 &amp; WASHIN</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.951866</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Cellular Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.376399,37.2397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>3337-3399 W Washington St</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2172</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4467</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3337-3399 W Washington St</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.625753</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4467,37.2172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>2530 CRATON ROAD S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1975</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.378899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2530 CRATON ROAD S</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.140956</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.378899,37.1975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>2929 FRONTAGE RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1991</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.361099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2929 FRONTAGE RD.</value>
+ </Data>
+ <Data name="height">
+   <value>44.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.678489</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.361099,37.1991</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>2515 Hatchett Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2022</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4406</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2515 Hatchett Rd</value>
+ </Data>
+ <Data name="height">
+   <value>35.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>47.994514</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4406,37.2022</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>756 South West St</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2141</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4177</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>756 South West St</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.943328</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4177,37.2141</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>33 Rawlings Lane  (VA41481-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2186</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4466</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>33 Rawlings Lane  (VA41481-A)</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.741981</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4466,37.2186</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>S CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2271</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3904</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>107.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.356121</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3904,37.2271</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>700 Block of Mount Airy Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2156</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4137</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>700 Block of Mount Airy Street</value>
+ </Data>
+ <Data name="height">
+   <value>114.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.601222</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Police Department</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4137,37.2156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>End of Frontage Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1945</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.359399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>End of Frontage Road</value>
+ </Data>
+ <Data name="height">
+   <value>114.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.266712</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Police Department</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.359399,37.1945</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>NORTH ADAMS AT FRANKLIN ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2287</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4021</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NORTH ADAMS AT FRANKLIN ST.</value>
+ </Data>
+ <Data name="height">
+   <value>29.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.933267</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Police Department</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4021,37.2287</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>NORTH ADAMS ST. AT EAST TABB ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2311</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4024</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NORTH ADAMS ST. AT EAST TABB ST</value>
+ </Data>
+ <Data name="height">
+   <value>10.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.896881</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Police Department</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4024,37.2311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>PETERSBURG DISTRICT OFFICE 1340 E WASHINGTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2368</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.379099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PETERSBURG DISTRICT OFFICE 1340 E WASHINGTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>16.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>14.990964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.379099,37.2368</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>1.25M AT 186.0 DEG FROM INT OF HALIFAX RD &amp; INTERSTATE 95</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1807</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4227</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.25M AT 186.0 DEG FROM INT OF HALIFAX RD &amp; INTERSTATE 95</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.460643</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4227,37.1807</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>3323 JOHNSON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1804</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.399099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3323 JOHNSON RD</value>
+ </Data>
+ <Data name="height">
+   <value>90.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.460887</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.399099,37.1804</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>230 S CRATER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2265</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3902</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>230 S CRATER RD</value>
+ </Data>
+ <Data name="height">
+   <value>101.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.320186</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YOUNG BROADCASTING OF RICHMOND, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3902,37.2265</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.237</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3817</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.021397</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RSI LEASING INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3817,37.237</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>200 MEDICAL PARK BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1794</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.364399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 MEDICAL PARK BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>29</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.588489</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE REGIONAL MEDICAL CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.364399,37.1794</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark126">
+ <name>30 MILL STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2183</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.440499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>30 MILL STREET</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.806259</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUA RO INC DBA ATLANTIC IRON METAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.440499,37.2183</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark127">
+ <name>11301 JOHNSON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2044</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3919</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11301 JOHNSON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>48</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.314414</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RICHARD BLAND COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3919,37.2044</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark128">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2053</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.415799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.288963</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Public Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.415799,37.2053</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark129">
+ <name>2820 N NORMANDY DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1986</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3586</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2820 N NORMANDY DR</value>
+ </Data>
+ <Data name="height">
+   <value>36</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.862007</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOEHRINGER INGLEHEIM CHEMICALS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3586,37.1986</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark130">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1806</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4225</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.512981</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4225,37.1806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark131">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2303</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4019</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>18.143682</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PETERSBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4019,37.2303</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark132">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1914</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3478</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.415336</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Direct Distributors Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3478,37.1914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark133">
+ <name>26317 WEST WASHINGTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2169</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4461</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>26317 WEST WASHINGTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.202175</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE VIRGINIA TRAINING CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4461,37.2169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark134">
+ <name>101 PINE HILL BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1822</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.359699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>101 PINE HILL BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>26.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.761768</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.359699,37.1822</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark135">
+ <name>101 NORTH UNION STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2292</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4044</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>101 NORTH UNION STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.171588</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ComSoft Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4044,37.2292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark136">
+ <name>101 N UNION ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2292</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4044</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>101 N UNION ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.171588</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NTELOS Communications Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4044,37.2292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark137">
+ <name>3321 JOHNSON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1742</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.3997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3321 JOHNSON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.404136</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.3997,37.1742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark138">
+ <name>230 SOUTH CRATER ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2264</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>230 SOUTH CRATER ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.829963</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HELLO PAGER COMPANY, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39,37.2264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark139">
+ <name>230 South Crater  Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Petersburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2264</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.39</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>230 South Crater  Road</value>
+ </Data>
+ <Data name="height">
+   <value>102.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.829963</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buttner Holdings LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.39,37.2264</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

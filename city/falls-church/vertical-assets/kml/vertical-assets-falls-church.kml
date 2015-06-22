@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>161-B HILLWOOD AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8797</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.171399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>161-B HILLWOOD AVE</value>
+ </Data>
+ <Data name="height">
+   <value>82.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>94.483192</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEWCOMB BROADCASTING CORPORATION  DBA =  WFAX AM</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.171399,38.8797</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8808</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1719</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>95.073692</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The Church at the Falls-The Falls Church</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1719,38.8808</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>300 Park Avenue</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8856</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1722</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 Park Avenue</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.614952</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Falls church city</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1722,38.8856</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>1120  W BROAD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8922</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1861</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1120  W BROAD ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.46302</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KFC NATIONAL MANAGEMENT COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1861,38.8922</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>2936 GALLOWS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8822</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.171399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2936 GALLOWS RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>99.205337</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KFC OF AMERICA, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.171399,38.8822</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8925</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.190799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.588592</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FALLS CHURCH, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.190799,38.8925</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8903</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1881</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.327278</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CORALAIN GARDEN APARTMENTS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1881,38.8903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8822</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1711</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>99.594947</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TACO BELL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1711,38.8822</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>201 N WASHINGTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8828</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1694</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>201 N WASHINGTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>106.362701</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1694,38.8828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>FALLS CHURCH POLICE DEPT 300 PARK AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8856</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1722</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FALLS CHURCH POLICE DEPT 300 PARK AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.614952</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FALLS CHURCH, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1722,38.8856</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>300 PARK AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8856</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1722</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 PARK AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.614952</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Falls church city</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1722,38.8856</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>7100 GORDON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8925</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.190799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7100 GORDON RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.588592</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Falls church city</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.190799,38.8925</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>900 S. WASHINGTON STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.879199</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.183</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>900 S. WASHINGTON STREET</value>
+ </Data>
+ <Data name="height">
+   <value>13.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>98.879814</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.183,38.879199</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>405 N. WASHINGTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8858</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1664</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>405 N. WASHINGTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>15.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>99.022277</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1664,38.8858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>803 West Broad St</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8879</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1806</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>803 West Broad St</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>98.983001</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CLEARWIRE SPECTRUM HOLDINGS III, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1806,38.8879</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>900 S Washington St</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Falls Church city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8793</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1833</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>900 S Washington St</value>
+ </Data>
+ <Data name="height">
+   <value>15.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.702568</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CLEARWIRE SPECTRUM HOLDINGS III, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1833,38.8793</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

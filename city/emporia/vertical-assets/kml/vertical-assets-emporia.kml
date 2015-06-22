@@ -1,0 +1,4007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>705 WASHINGTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6992</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5483</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>705 WASHINGTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>73.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.995895</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STONE BROADCASTING CORPORATION  DBA =  WEVA RADIO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5483,36.6992</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>3330' N OF I-58 &amp; U.S. 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7102</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5465</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3330' N OF I-58 &amp; U.S. 58</value>
+ </Data>
+ <Data name="height">
+   <value>65.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.296813</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5465,36.7102</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>310 BUDD STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6932</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5375</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>310 BUDD STREET</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.576189</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>City of Emporia</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5375,36.6932</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>121 N MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6914</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.542199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>121 N MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>60.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.335559</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Comcast of Connecticut/Georgia/Massachusetts/New Hampshire/New York/</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.542199,36.6914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>608-A Davis Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6926</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.529999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>608-A Davis Street</value>
+ </Data>
+ <Data name="height">
+   <value>79.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.221435</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mid Atlantic Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.529999,36.6926</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Wiggins Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.69845331</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.55994838</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Champ</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Wiggins Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>118.8024924</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Emporia, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.55994838,36.69845331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>Wiggins Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.69843427</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.55875865</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tower</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Wiggins Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.028968</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Emporia, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.55875865,36.69843427</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>634 DAVIS ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6946</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5249</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>634 DAVIS ST.</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.117752</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Georgia Pacific</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5249,36.6946</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>315 W ATLANTIC ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6979</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5541</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>315 W ATLANTIC ST</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.459388</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pinnacle Towers LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5541,36.6979</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6944</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5247</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.993383</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GEORGIA-PACIFIC LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5247,36.6944</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>709 N MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6997</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.536699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>709 N MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>12.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.458053</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHERN CARS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.536699,36.6997</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7014</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5386</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.338241</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Emporia Hospital Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5386,36.7014</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>727 N Main St</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7014</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5381</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>727 N Main St</value>
+ </Data>
+ <Data name="height">
+   <value>19.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.336601</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Emporia Hospital Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5381,36.7014</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>935 S MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6745</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5503</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>935 S MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>19.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.367176</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LIFESTAR AMBULANCE SERVICE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5503,36.6745</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.71</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5219</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.566005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WILLIAMS VAULT CO, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5219,36.71</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7147</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5186</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.119922</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Creative Playthings Ltd</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5186,36.7147</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>209 HALIFAX ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6917</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5375</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>209 HALIFAX ST</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.34316</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAWLINGS BROS GARAGE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5375,36.6917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>508 E ATLANTIC ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6914</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5303</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>508 E ATLANTIC ST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.431144</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LIFESTAR AMBULANCE SERVICE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5303,36.6914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>189 M N OF ATLANTIC E SIDE OF THE TRACKS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.695299</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5339</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>189 M N OF ATLANTIC E SIDE OF THE TRACKS</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.397209</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5339,36.695299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Dispatch Base, 411 N MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.695299</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5403</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dispatch Base, 411 N MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.913196</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5403,36.695299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>RR MILEPOST A 60.5</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7181</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5172</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST A 60.5</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.235851</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5172,36.7181</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>920 W ATLANTIC AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7042</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5494</value>
+ </Data>
+ <Data name="structure_type">
+   <value>SIGN</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>920 W ATLANTIC AVE</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.358081</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SADLER BROTHERS OIL CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5494,36.7042</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>1.2 MI N OF INT US RT 58 &amp; ST RT 610</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7119</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5317</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.2 MI N OF INT US RT 58 &amp; ST RT 610</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.721427</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AmeriGas Propane, L.P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5317,36.7119</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>204 S MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6878</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5419</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>204 S MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.922245</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GLOVER WOOD CORP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5419,36.6878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>MUNICIPAL BLDG 310 BUDD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6931</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.537199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MUNICIPAL BLDG 310 BUDD ST</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.4657</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GREENSVILLE RESCUE SQUAD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.537199,36.6931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>310 BUDD STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6931</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.537199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>310 BUDD STREET</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.4657</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EMPORIA, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.537199,36.6931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>POLICE DEPT BUDD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6931</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.537199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POLICE DEPT BUDD ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.4657</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EMPORIA, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.537199,36.6931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>FORESTRY OFFICE 404 S MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6833</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5439</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY OFFICE 404 S MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.274921</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5439,36.6833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>MUNICIPAL BLDG BUDD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6931</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.537199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MUNICIPAL BLDG BUDD ST</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.4657</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EMPORIA, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.537199,36.6931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6931</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.537199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.4657</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EMPORIA VOLUNTEER FIRE DEPT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.537199,36.6931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>MUNICIPAL BLDG BUDD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6931</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.537199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MUNICIPAL BLDG BUDD ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.4657</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EMPORIA, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.537199,36.6931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>THE PROPOSED SITE IS LOCATED 3300 NORTH FROM THE INTERSECTION OF I95 &amp;</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7111</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5456</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>THE PROPOSED SITE IS LOCATED 3300 NORTH FROM THE INTERSECTION OF I95 &amp;</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.915889</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5456,36.7111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6797</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5486</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>6.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.912929</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5486,36.6797</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7028</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5628</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>6.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.991428</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5628,36.7028</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6828</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5439</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.459396</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5439,36.6828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7039</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.554199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>6.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.992851</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.554199,36.7039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6794</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.549199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>10.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.292743</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.549199,36.6794</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.682</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5481</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>7.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.897052</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5481,36.682</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6822</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5383</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.086017</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5383,36.6822</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6886</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5311</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>4.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.043992</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5311,36.6886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6733</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5505</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>10.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.92436</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5505,36.6733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7042</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5553</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>9.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.075714</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5553,36.7042</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6786</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5289</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>8.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.647922</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5289,36.6786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6875</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.541699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>10.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.208477</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.541699,36.6875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6853</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>7.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.785259</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5414,36.6853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6867</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5425</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>9.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.659961</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5425,36.6867</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6895</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.543</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>11.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.438741</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.543,36.6895</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6864</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5158</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>12.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.391452</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5158,36.6864</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6828</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5394</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>9.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.826045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5394,36.6828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6836</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.551699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.212104</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.551699,36.6836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7078</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5508</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.44149</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5508,36.7078</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7069</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5539</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>47.852664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5539,36.7069</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6858</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.543</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.213523</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.543,36.6858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6814</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.539699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.026569</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.539699,36.6814</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6811</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.551699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.045127</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.551699,36.6811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6886</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5553</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.365989</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5553,36.6886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6997</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5386</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.321609</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5386,36.6997</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6772</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5458</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.492763</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5458,36.6772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5392</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.176467</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5392,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6778</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5489</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.058788</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5489,36.6778</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6867</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5425</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.659961</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5425,36.6867</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6872</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5411</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>10.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.318754</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5411,36.6872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6847</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.551899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.104831</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.551899,36.6847</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6856</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5425</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.546291</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5425,36.6856</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6853</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5444</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.150096</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5444,36.6853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6833</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5392</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>9.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.263614</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5392,36.6833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6844</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.543</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>10.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.033554</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.543,36.6844</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6853</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5408</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>9.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.233943</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5408,36.6853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7092</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5553</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.678077</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5553,36.7092</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6935</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5373</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>6.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.76213</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5373,36.6935</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6871</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5424</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.443649</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5424,36.6871</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7094</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5536</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>9.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.122653</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5536,36.7094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7075</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.554899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.780265</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.554899,36.7075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6902</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.545399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.422466</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.545399,36.6902</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6926</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.529999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>79.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.221435</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.529999,36.6926</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6822</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.554699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.600906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.554699,36.6822</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6931</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5361</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.460144</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5361,36.6931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6811</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.554699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.458984</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.554699,36.6811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7019</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5586</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.827762</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5586,36.7019</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.69</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5453</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>10.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.497848</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5453,36.69</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6844</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5439</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>7.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.890621</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5439,36.6844</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6758</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5486</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>10.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.825668</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5486,36.6758</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6833</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5478</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>8.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.471557</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5478,36.6833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6817</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5497</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.266139</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5497,36.6817</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6825</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.552199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.484764</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.552199,36.6825</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7092</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.554399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>47.202297</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.554399,36.7092</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6808</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.554399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>4.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.539161</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.554399,36.6808</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>3330' N OF I-58 &amp; U.S. 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7102</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5465</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3330' N OF I-58 &amp; U.S. 58</value>
+ </Data>
+ <Data name="height">
+   <value>69.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.296813</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5465,36.7102</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>315 SOUTH MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6869</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5419</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>315 SOUTH MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>12.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.239646</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GREENSVILLE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5419,36.6869</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6875</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5525</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.299663</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>O'HARA, ROBERT G</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5525,36.6875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.695299</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5403</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>32.913196</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5403,36.695299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.682</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5375</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.462102</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEWSOME, RUSSELL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5375,36.682</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>727 N MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7014</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5381</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>727 N MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>19.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.336601</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EMPORIA HOSPITAL CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5381,36.7014</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7181</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5172</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.235851</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5172,36.7181</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>310 BUDD STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Emporia city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6931</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.537199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>310 BUDD STREET</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.4657</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.537199,36.6931</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

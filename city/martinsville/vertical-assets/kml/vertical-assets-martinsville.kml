@@ -1,0 +1,1697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>1129 CHATHAM HEIGHTS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8517</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1129 CHATHAM HEIGHTS</value>
+ </Data>
+ <Data name="height">
+   <value>121.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>347.794372</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE BROADCASTING INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8517,36.7</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>830 New York Avenue</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6947</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8903</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>830 New York Avenue</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>309.174682</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Martinsville, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8903,36.6947</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>21 STERLING AVENUE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6867</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.862999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>21 STERLING AVENUE</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>311.184753</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.862999,36.6867</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>320 HOSPITAL DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6947</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8569</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>320 HOSPITAL DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>322.05307</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MEMORIAL HOSPITAL OF MARTINSVILLE &amp; HENRY COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8569,36.6947</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6964</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8769</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>280.453186</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JC Penney Corp Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8769,36.6964</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>972 MEMORIAL BLVD N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8942</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>972 MEMORIAL BLVD N</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>256.373107</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRANT AVE DEVELOPMENT, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8942,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>220 MEHLER LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6836</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8639</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>220 MEHLER LANE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>314.890167</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MASTER BRAND CABINETS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8639,36.6836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>1 ELLSWORTH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6892</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8694</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 ELLSWORTH ST</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>307.258453</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8694,36.6892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>CENTRAL WAREHOUSE 1000 FISHEL ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6853</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.845</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CENTRAL WAREHOUSE 1000 FISHEL ST</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>284.36737</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.845,36.6853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>380 BEAVER CREEK DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6836</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8639</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>380 BEAVER CREEK DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>314.890167</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SARA LEE BRANDED APPAREL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8639,36.6836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Dispatcher Base, RR MP R66.4</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.685</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8739</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dispatcher Base, RR MP R66.4</value>
+ </Data>
+ <Data name="height">
+   <value>34.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>293.615356</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8739,36.685</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>E CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6922</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8555</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>E CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>302.843933</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HOOKER FURNITURE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8555,36.6922</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>GRANDVIEW AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6992</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8619</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GRANDVIEW AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>311.060058</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHWESTERN VIRGINIA GAS COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8619,36.6992</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>830 BROOKDALE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6992</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8619</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>830 BROOKDALE RD</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>311.060058</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PRILLAMAN &amp; PACE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8619,36.6992</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>401 BRIDGE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6856</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8689</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>401 BRIDGE ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>296.667388</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LESTER PENN OIL CORP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8689,36.6856</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>MUNICIPAL BLDG 55 W CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6858</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8694</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BTWR</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MUNICIPAL BLDG 55 W CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>295.612487</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8694,36.6858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>1 ELLSWORTH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6892</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8694</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 ELLSWORTH ST</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>307.258453</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8694,36.6892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>CENTRAL WAREHOUSE 1000 FISHEL ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6853</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.845</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CENTRAL WAREHOUSE 1000 FISHEL ST</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>284.36737</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.845,36.6853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>CITY WATER TOWER ON NEW YORK AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.695</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8911</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CITY WATER TOWER ON NEW YORK AVE</value>
+ </Data>
+ <Data name="height">
+   <value>44</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>302.721099</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8911,36.695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>FIRST CITIZENS BANK BLDG 231 E CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.695</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8669</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIRST CITIZENS BANK BLDG 231 E CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>268.393341</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8669,36.695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>1 ELLSWORTH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6892</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.869199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 ELLSWORTH ST</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>306.248443</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.869199,36.6892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>FIRE DEPT 67 W CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6858</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.869199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BTWR</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIRE DEPT 67 W CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>25</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>297.418487</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.869199,36.6858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>827B STARLING AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6892</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8728</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BTWR</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>827B STARLING AVE</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>298.44168</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STONE AMBULANCE SERVICE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8728,36.6892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>MEMORIAL HOSPITAL OF MARTINSVILLE AND HENRY COUNTY COMMONWEALTH BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6994</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8669</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MEMORIAL HOSPITAL OF MARTINSVILLE AND HENRY COUNTY COMMONWEALTH BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>312.64151</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WESTERN VIRGINIA EMS COUNCIL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8669,36.6994</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>CITY JAIL 55 W CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6925</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CITY JAIL 55 W CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>302.360595</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.875,36.6925</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>DEPT OF PUBLIC WORKS PRISON FARM DIV 300 CLEARVIEW DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.705</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8664</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DEPT OF PUBLIC WORKS PRISON FARM DIV 300 CLEARVIEW DR</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>237.059585</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8664,36.705</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>JONES CREEK 1.4 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.695</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.865299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JONES CREEK 1.4 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>287.750396</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HENRY, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.865299,36.695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>55 W CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6858</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.869199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>55 W CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>297.418487</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.869199,36.6858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>RADIO STN WMVA/1129 CHATHAM HTS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7067</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8514</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RADIO STN WMVA/1129 CHATHAM HTS</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>273.703369</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAPSTAR TX LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8514,36.7067</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7044</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8508</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>299.832244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE MEDIA, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8508,36.7044</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>MARTINSVILLE CELL SITE: 10 EAST MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6906</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.872999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MARTINSVILLE CELL SITE: 10 EAST MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>311.912261</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.872999,36.6906</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>10 E MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6907</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8731</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10 E MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>24.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>311.256713</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8731,36.6907</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Jones Creek  1.0 mi NNE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.705</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.865299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Jones Creek  1.0 mi NNE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>235.266906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.865299,36.705</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.685</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8739</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>293.615356</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8739,36.685</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>55 W CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6858</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.869199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>55 W CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>297.418487</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTINSVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.869199,36.6858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>240 COMMONWEALTH BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6983</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8778</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>240 COMMONWEALTH BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>281.431793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOXER RETAIL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8778,36.6983</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>200 SELLERS STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6858</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8847</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 SELLERS STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>279.2117</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8847,36.6858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.697</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8831</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>282.89151</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SB CAPITAL ACQUISITIONS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8831,36.697</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>755 CHURCH STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.69</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8553</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>755 CHURCH STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>317.801605</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ComSoft Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8553,36.69</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>711 N. MEMORIAL BLVD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Martinsville city</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6906</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.8867</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>711 N. MEMORIAL BLVD.</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>293.63739</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.8867,36.6906</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

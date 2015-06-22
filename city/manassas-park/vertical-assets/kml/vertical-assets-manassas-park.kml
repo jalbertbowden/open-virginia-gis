@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>9104 INDUSTRY DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7764</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4379</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9104 INDUSTRY DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>76.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>68.695678</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4379,38.7764</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>9102 MANASSAS DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7696</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4435</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9102 MANASSAS DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>57.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>85.320785</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Comcast of Virginia, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4435,38.7696</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>WS Centreville Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.770036</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.454135</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WS Centreville Rd</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>297.1355403</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Manassas Park, City of and Manassas Park City Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.454135,38.770036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>WS Centreville Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.770036</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.454135</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank 250,000 gallons</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WS Centreville Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>297.1355403</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Manassas Park, City of and Manassas Park City Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.454135,38.770036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>9300 Manassas Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7647</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.441699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9300 Manassas Drive</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>69.436477</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Railway Express</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.441699,38.7647</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7672</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4425</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>75.432968</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MANASSAS PARK, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4425,38.7672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>8200 EUCLID AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.774999</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.44</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8200 EUCLID AVE</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.64347</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MANASSAS PARK CITY SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.44,38.774999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.774999</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.44</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.64347</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MANASSAS PARK CITY SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.44,38.774999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.769999</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4542</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>90.566909</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MANASSAS PARK, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4542,38.769999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>300 S INT MANASSAS DR MATHIS AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.769999</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4542</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 S INT MANASSAS DR MATHIS AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>90.566909</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MANASSAS PARK, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4542,38.769999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>9102 Manassas Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.769999</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.453899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9102 Manassas Drive</value>
+ </Data>
+ <Data name="height">
+   <value>53.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>90.806877</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FCI 900, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.453899,38.769999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>9102 MANASSAS DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.769999</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.453899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9102 MANASSAS DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>53.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>90.806877</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.453899,38.769999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>9104 INDUSTRY DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7764</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4379</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9104 INDUSTRY DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>80.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>68.695678</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cricket License Company, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4379,38.7764</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>9104 INDUSTRY DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7764</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4379</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9104 INDUSTRY DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>80.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>68.695678</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FiberTower Network Services Corp.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4379,38.7764</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>NEW DOMINION SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Manassas Park city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7661</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.445</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEW DOMINION SE</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>79.097373</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PRINCE WILLIAM COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.445,38.7661</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

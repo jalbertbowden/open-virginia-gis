@@ -1,0 +1,6569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>Harrisonburg, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4434</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8761</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Harrisonburg, VA</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>395.775207</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Global Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8761,38.4434</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>3170 S MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4083</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9008</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3170 S MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>127</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>389.500854</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>M. Belmont VerStandig, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9008,38.4083</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>TWR 2 RT 33 W AT CITY LIMITS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4511</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9078</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TWR 2 RT 33 W AT CITY LIMITS</value>
+ </Data>
+ <Data name="height">
+   <value>107</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>440.350738</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>M. Belmont VerStandig, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9078,38.4511</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>TWR 1 RT 33 W AT CITY LIMITS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.45</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.906699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TWR 1 RT 33 W AT CITY LIMITS</value>
+ </Data>
+ <Data name="height">
+   <value>107</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>430.018341</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>M. Belmont VerStandig, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.906699,38.45</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Abbot Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.40553809</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.90242101</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Walker Tank water tower</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Abbot Lane</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1278.21178</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.90242101,38.40553809</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>JMU</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4274</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.864932</value>
+ </Data>
+ <Data name="structure_type">
+   <value>JMU Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JMU</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1513.687142</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.864932,38.4274</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>Summit Ave</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.46765944</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.88430837</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Parkview Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Summit Ave</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1544.95044</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.88430837,38.46765944</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>Tower Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.45301619</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.85113244</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Tower St Concrete Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Tower Street</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1485.409321</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.85113244,38.45301619</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>Washington &amp; Vine</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.45409874</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.85076162</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Washington Street Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Washington &amp; Vine</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1481.383764</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.85076162,38.45409874</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>Harrisonburg State Police Area Office,  Rockingham County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.395699</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.914699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Harrisonburg State Police Area Office,  Rockingham County</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>373.951934</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of  Dept of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.914699,38.395699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>HARRISONBURG STATE POLICE AREA OFFICE, ROCKINGHAM COUNTY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3956</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9144</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HARRISONBURG STATE POLICE AREA OFFICE, ROCKINGHAM COUNTY</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>372.378387</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9144,38.3956</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>121 Burgess Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4328</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8517</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>121 Burgess Road</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>432.548675</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HOME DEPOT U.S.A., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8517,38.4328</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4731</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.872799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>431.182434</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>James Madison University Board of Visitors</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.872799,38.4731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>821 SOUTH MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4378</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8694</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>821 SOUTH MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>400.403076</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8694,38.4378</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>821 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4411</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8756</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>821 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>401.950927</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8756,38.4411</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4306</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8425</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>442.547546</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JC Penney Corp Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8425,38.4306</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>653 TOWER STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4519</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8519</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>653 TOWER STREET</value>
+ </Data>
+ <Data name="height">
+   <value>59.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>452.300445</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8519,38.4519</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>1575 PEACH GROVE AVENUE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4175</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8756</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1575 PEACH GROVE AVENUE</value>
+ </Data>
+ <Data name="height">
+   <value>57.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>434.26416</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8756,38.4175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>1001 GARBERS CHURCH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4411</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9086</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1001 GARBERS CHURCH RD</value>
+ </Data>
+ <Data name="height">
+   <value>25.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>408.67749</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HARRISONBURG HIGH SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9086,38.4411</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>1995 EAST MARKET STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4286</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8417</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1995 EAST MARKET STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>445.891052</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TARGET STORE T2071</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8417,38.4286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>3560 Early Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3997</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9061</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3560 Early Road</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>382.462097</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg Auto Auction Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9061,38.3997</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>South Ave RR crossing @ MP EB20.58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.433899</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.884999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>South Ave RR crossing @ MP EB20.58</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>388.469421</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.884999,38.433899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3953</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.915</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>373.376159</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.915,38.3953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>Bruce St RR crossing at MP HS0.58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.448599</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8722</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Bruce St RR crossing at MP HS0.58</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>408.592468</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8722,38.448599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Rock St RR crossing at MP HS0.22</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4525</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8692</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rock St RR crossing at MP HS0.22</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>402.261322</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8692,38.4525</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>1041 A EDOM RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4614</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8686</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1041 A EDOM RD</value>
+ </Data>
+ <Data name="height">
+   <value>8.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>419.980407</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Valley Cab LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8686,38.4614</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>W.Rock St crossing @ MP HS0.22</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4525</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8697</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>W.Rock St crossing @ MP HS0.22</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>405.207244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8697,38.4525</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>2281 S. MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4208</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8931</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2281 S. MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>385.508666</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8931,38.4208</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>1680 E. MARKET STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4336</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8453</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1680 E. MARKET STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>436.159576</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8453,38.4336</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Maryland Ave RR crossing at MP HS1.04</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4361</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8803</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Maryland Ave RR crossing at MP HS1.04</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>392.438751</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8803,38.4361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>Grace St RR crossing at MP HS1.01</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4422</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8758</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Grace St RR crossing at MP HS1.01</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>398.363586</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8758,38.4422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>W.Market St RR crossing at MP HS0.44</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4497</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.87</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>W.Market St RR crossing at MP HS0.44</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>402.079895</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.87,38.4497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>ISAT/CS BUILDING 701 CARRIER DRIVE // MSC 4101</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4342</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8625</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ISAT/CS BUILDING 701 CARRIER DRIVE // MSC 4101</value>
+ </Data>
+ <Data name="height">
+   <value>28</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>434.13272</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8625,38.4342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>ELIZABETH ST. RR CROSSING @ M.P. HS000.37</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4492</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8705</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ELIZABETH ST. RR CROSSING @ M.P. HS000.37</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>401.362792</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8705,38.4492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>WOLFE ST. RR CROSSING @ M.P. HS000.29</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4533</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.87</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WOLFE ST. RR CROSSING @ M.P. HS000.29</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>408.868316</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.87,38.4533</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>MT. VIEW DR. RR CROSSING @ M.P. EB018.70</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4395</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8589</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MT. VIEW DR. RR CROSSING @ M.P. EB018.70</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>406.918853</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8589,38.4395</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>WASHINGTON ST. RR CROSSING @ M.P. CW111.66</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4575</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.865</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WASHINGTON ST. RR CROSSING @ M.P. CW111.66</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>412.009735</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.865,38.4575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>Cherry St. RR crossing @ MP HS009.58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.448599</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8722</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Cherry St. RR crossing @ MP HS009.58</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>408.592468</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8722,38.448599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>South St RR crossing @ MP HS001.23</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4336</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.882499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>South St RR crossing @ MP HS001.23</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>391.156066</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.882499,38.4336</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>1091 PORT REPUBLIC ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4197</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8697</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1091 PORT REPUBLIC ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>406.374572</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>APB III ENTERPRISES, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8697,38.4197</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4333</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8914</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>414.694335</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WHEELBARGER, CARSON</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8914,38.4333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Godwin Hall Rd RR crossing</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4367</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8694</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Godwin Hall Rd RR crossing</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>398.657958</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8694,38.4367</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Paul St RR crossing at MP EB18.9</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4381</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8622</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Paul St RR crossing at MP EB18.9</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>403.218688</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8622,38.4381</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>Maryland Ave RR crossing at MP EB20.14</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4392</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8814</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Maryland Ave RR crossing at MP EB20.14</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>394.128784</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8814,38.4392</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>Harrison St RR crossing at MP EB19.87</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4395</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8772</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Harrison St RR crossing at MP EB19.87</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>397.711517</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8772,38.4395</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>Power House Rd RR crossing at MP EB19.57</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4358</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8736</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Power House Rd RR crossing at MP EB19.57</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>394.344085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8736,38.4358</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>2KM SOUTH OF INTERSECTION RT 81 AND 11 SOUTH</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3953</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9153</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2KM SOUTH OF INTERSECTION RT 81 AND 11 SOUTH</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>373.902282</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9153,38.3953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4653</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.870299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>425.305694</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WEST VALLEY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.870299,38.4653</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4447</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8747</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>395.127868</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8747,38.4447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>YARD OFFICE, 290 CHESAPEAKE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4447</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8747</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>YARD OFFICE, 290 CHESAPEAKE DR</value>
+ </Data>
+ <Data name="height">
+   <value>16.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>395.127868</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8747,38.4447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>100 PLEASANT VALLEY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4056</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.902199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 PLEASANT VALLEY RD</value>
+ </Data>
+ <Data name="height">
+   <value>49</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>390.271636</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WALKER MANUFACTURING COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.902199,38.4056</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>126 W BRUCE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4478</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8717</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>126 W BRUCE ST</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>402.438262</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS OF VIRGINIA INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8717,38.4478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>87 89 W BRUCE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4494</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8603</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>87 89 W BRUCE ST</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>430.594696</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HARRISONBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8603,38.4494</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>868 N LIBERTY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4619</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.865299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>868 N LIBERTY ST</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>414.136535</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HARRISONBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.865299,38.4619</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>.25 MI N CITY LIMITS OFF US 42</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4344</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.25 MI N CITY LIMITS OFF US 42</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>412.829925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PILGRIMS PRIDE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8936,38.4344</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>PARK VIEW RIDGE AT WATER TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4697</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8789</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PARK VIEW RIDGE AT WATER TANK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>439.162536</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AmeriGas Propane, L.P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8789,38.4697</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>862 N LIBERTY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4597</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8647</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>862 N LIBERTY ST</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>410.177001</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ADVANTAGE COMMUNICATIONS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8647,38.4597</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>1300 HILLCREST DR.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4714</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8811</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1300 HILLCREST DR.</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>467.780914</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN MENNONITE UNIVERSITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8811,38.4714</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>1925 EAST MARKET STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4283</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8442</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1925 EAST MARKET STREET</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>447.223144</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE MACERICH PARTNERSHIP (Valley Mall 3375)</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8442,38.4283</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>1501 VIRGINIA AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4822</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8739</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1501 VIRGINIA AVE</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>440.940032</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA MENNONITE RETIREMENT COMMUNITY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8739,38.4822</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>2340 S MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.42</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2340 S MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>386.747924</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PUGH, BARRY L</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8936,38.42</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>295 MONROE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4628</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.863299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>295 MONROE ST</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>411.436065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKTOWN TRANSPORTATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.863299,38.4628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4358</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8892</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>400.070953</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HEW INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8892,38.4358</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4325</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8914</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>410.956848</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STONEBURNER INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8914,38.4325</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>235 CANTREL AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4397</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8711</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>235 CANTREL AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>411.916046</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKINGHAM MEMORIAL HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8711,38.4397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>875 SUMMIT AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4631</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8861</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>875 SUMMIT AVE</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>476.720489</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON LIME CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8861,38.4631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>1750 N I-33 &amp; CR 704</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4197</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8311</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1750 N I-33 &amp; CR 704</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>538.123291</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FRAZIER QUARRY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8311,38.4197</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>298 PORT REPUBLIC RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8758</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>298 PORT REPUBLIC RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>399.46817</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8758,38.4322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>1.6 KM S OF INT RT 81 &amp; RT 115</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3953</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.915</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.6 KM S OF INT RT 81 &amp; RT 115</value>
+ </Data>
+ <Data name="height">
+   <value>22</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>373.376159</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.915,38.3953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>210 E ROCK ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4519</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8655</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 E ROCK ST</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>409.254058</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8655,38.4519</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>210 E ROCK ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4519</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8655</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 E ROCK ST</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>409.254058</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8655,38.4519</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>2KM S OF INT RT 81 &amp; 11 S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3953</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.915</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2KM S OF INT RT 81 &amp; 11 S</value>
+ </Data>
+ <Data name="height">
+   <value>22</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>373.376159</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.915,38.3953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>SHOWKER HALL, JAMES MADISON UNIV</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4333</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8736</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SHOWKER HALL, JAMES MADISON UNIV</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>398.11676</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8736,38.4333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>SHENANDOAH HALL, JAMES MADISON UNIV</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4433</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8772</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SHENANDOAH HALL, JAMES MADISON UNIV</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>394.718658</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8772,38.4433</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>SECURITY OFC, JAMES MADISON UNIV</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4397</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8719</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SECURITY OFC, JAMES MADISON UNIV</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>412.251525</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8719,38.4397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>WILSON HALL AT JAMES MADISON UNIVERSITY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4381</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.873299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WILSON HALL AT JAMES MADISON UNIVERSITY</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>413.936187</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.873299,38.4381</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>EAGLE HALL, JAMES MADISON UNIV</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4342</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.873</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>EAGLE HALL, JAMES MADISON UNIV</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>395.975189</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.873,38.4342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>SHOWKER HALL, JAMES MADISON UNIV</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4333</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8736</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SHOWKER HALL, JAMES MADISON UNIV</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>398.11676</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8736,38.4333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>SHENADOAH HALL, JAMES MADISON UNIV</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4433</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8772</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SHENADOAH HALL, JAMES MADISON UNIV</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>394.718658</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8772,38.4433</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>SECUTIRY OFC, JAMES MADISON UNIV</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4397</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8719</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SECUTIRY OFC, JAMES MADISON UNIV</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>412.251525</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8719,38.4397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>WILLSON HALL, JAMES MADISON UNIV</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4392</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8739</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WILLSON HALL, JAMES MADISON UNIV</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>409.483306</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8739,38.4392</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>WATERMAN DR &amp; SR 763</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4583</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8567</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATERMAN DR &amp; SR 763</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>425.197326</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8567,38.4583</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4492</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.868299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>404.705291</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.868299,38.4492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>RESERVOIR HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.453599</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8519</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RESERVOIR HILL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>452.021514</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8519,38.453599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>181 S LIBERTY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4483</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8711</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>181 S LIBERTY ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>404.12796</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8711,38.4483</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>25 LIBERTY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4492</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8708</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>25 LIBERTY ST</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>401.499206</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8708,38.4492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>CITY RESERVOIR OLD FURNACE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4539</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8508</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CITY RESERVOIR OLD FURNACE RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>451.454315</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8508,38.4539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>4200 FT NE OF I81 AND RT 659 INT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4356</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8667</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4200 FT NE OF I81 AND RT 659 INT</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>416.001373</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JAMES MADISON UNIVERSITY BOARD OF VISITORS / STATE OF VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8667,38.4356</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>210 E ROCK ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4522</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8667</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 E ROCK ST</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>406.580383</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8667,38.4522</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>RESERVIOR HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.453599</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8519</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RESERVIOR HILL</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>452.021514</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8519,38.453599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>408 CTY OFC BLDG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4492</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.868299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>408 CTY OFC BLDG</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>404.705291</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.868299,38.4492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>305 S DOGWOOD AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4481</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8814</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>305 S DOGWOOD AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>402.779876</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8814,38.4481</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>80 MARYLAND AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4375</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8747</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>80 MARYLAND AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>407.519378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8747,38.4375</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>Gate 4 - Duke Drive South of Tennis Courts</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4372</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8672</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Gate 4 - Duke Drive South of Tennis Courts</value>
+ </Data>
+ <Data name="height">
+   <value>4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>401.370666</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>James Madison University Board of Visitors</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8672,38.4372</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>Gate 3 - Godwin Bus Stop West of Bluestone Drive at the Railroad Track</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4364</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.870299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Gate 3 - Godwin Bus Stop West of Bluestone Drive at the Railroad Track</value>
+ </Data>
+ <Data name="height">
+   <value>4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>397.365356</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>James Madison University Board of Visitors</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.870299,38.4364</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>Gate 2- Frederickson Bluestone Drive near Frederickson Hall</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4353</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.87</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Gate 2- Frederickson Bluestone Drive near Frederickson Hall</value>
+ </Data>
+ <Data name="height">
+   <value>4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>401.561553</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>James Madison University Board of Visitors</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.87,38.4353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>Gate 1 - Converse (Main) Bluestone Drive near Main Street entrance</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4386</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9094</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Gate 1 - Converse (Main) Bluestone Drive near Main Street entrance</value>
+ </Data>
+ <Data name="height">
+   <value>4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>401.310302</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>James Madison University Board of Visitors</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9094,38.4386</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>PARK VIEW RIDGE NEAR WATER TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4675</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8842</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PARK VIEW RIDGE NEAR WATER TANK</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>482.124664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES C</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8842,38.4675</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>PARKVIEW WATERTANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4675</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8842</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PARKVIEW WATERTANK</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>482.124664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8842,38.4675</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4395</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8722</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>413.420593</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JAMES MADISON UNIVERSITY BOARD OF VISITORS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8722,38.4395</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4395</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8722</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>413.420593</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JAMES MADISON UNIVERSITY BOARD OF VISITORS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8722,38.4395</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>298 PORT REPUBLIC RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8758</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>298 PORT REPUBLIC RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>399.46817</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8758,38.4322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4494</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8689</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>404.272155</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAPSTAR TX LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8689,38.4494</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>207 UNIVERSITY BLVD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4297</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8494</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>207 UNIVERSITY BLVD.</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>455.993225</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAPSTAR TX LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8494,38.4297</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4508</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9083</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>445.063812</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAY TELEVISION LICENSEE, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9083,38.4508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8758</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>399.46817</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8758,38.4322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>(JMU West site) 944 South High Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4389</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8844</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>(JMU West site) 944 South High Street</value>
+ </Data>
+ <Data name="height">
+   <value>38.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>399.759613</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WWC License L.L.C.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8844,38.4389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>(East Market St Site) 670 Vine Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4519</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8517</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>(East Market St Site) 670 Vine Street</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>452.842132</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WWC License L.L.C.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8517,38.4519</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>(DT Harrisonburg site) 2 South Main</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4492</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.868299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>(DT Harrisonburg site) 2 South Main</value>
+ </Data>
+ <Data name="height">
+   <value>32.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>404.705291</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WWC License L.L.C.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.868299,38.4492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>(Valley Mall site) 85 University Blvd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4311</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8469</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>(Valley Mall site) 85 University Blvd</value>
+ </Data>
+ <Data name="height">
+   <value>16.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>459.028869</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WWC License L.L.C.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8469,38.4311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>1575 Peach Grove Avenue</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4178</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.875299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1575 Peach Grove Avenue</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>439.12384</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Wireless (VAW) LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.875299,38.4178</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>670 Vine Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4519</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8517</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>670 Vine Street</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>452.842132</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Wireless (VAW) LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8517,38.4519</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>904 South High Street, Suite T</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4389</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8844</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>904 South High Street, Suite T</value>
+ </Data>
+ <Data name="height">
+   <value>38.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>399.759613</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Wireless (VAW) LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8844,38.4389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>2 South Main Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4492</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.868299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 South Main Street</value>
+ </Data>
+ <Data name="height">
+   <value>32.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>404.705291</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Wireless (VAW) LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.868299,38.4492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>85 University Blvd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4311</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8469</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>85 University Blvd.</value>
+ </Data>
+ <Data name="height">
+   <value>16.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>459.028869</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Wireless (VAW) LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8469,38.4311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>Summit Avenue</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4676</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8839</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Summit Avenue</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>482.550567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NTELOS LICENSES INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8839,38.4676</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>Harrisonburg</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4511</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9081</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Harrisonburg</value>
+ </Data>
+ <Data name="height">
+   <value>60.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>441.2164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FISHBURNE MILITARY SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9081,38.4511</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>Tower Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4521</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8519</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Tower Street</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>452.958526</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8519,38.4521</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>Neff Avenue</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4179</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8754</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Neff Avenue</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>440.333587</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8754,38.4179</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>101 North Main</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4507</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8687</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>101 North Main</value>
+ </Data>
+ <Data name="height">
+   <value>28</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>404.562408</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8687,38.4507</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>Harrisonburg State Police Area Office,  Rockingham County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.395699</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.914699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Harrisonburg State Police Area Office,  Rockingham County</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>373.951934</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH OF VIRGINIA, DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.914699,38.395699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>298 PORT REPUBLIC ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4323</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8758</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>298 PORT REPUBLIC ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>49.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>399.212432</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8758,38.4323</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>701 Carrier Drive (CISAT A-1)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4347</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.863299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>701 Carrier Drive (CISAT A-1)</value>
+ </Data>
+ <Data name="height">
+   <value>28.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>428.912597</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JAMES MADISON UNIVERSITY BOARD OF VISITORS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.863299,38.4347</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>933 Reservoir Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4409</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8584</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>933 Reservoir Street</value>
+ </Data>
+ <Data name="height">
+   <value>6.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>417.98822</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JAMES MADISON UNIVERSITY BOARD OF VISITORS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8584,38.4409</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>207 UNIVERSITY BLVD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4298</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8495</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>207 UNIVERSITY BLVD.</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>455.227325</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CC LICENSES, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8495,38.4298</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>130 University Blvd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4292</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8478</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>130 University Blvd.</value>
+ </Data>
+ <Data name="height">
+   <value>22.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>457.43872</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASY RADIO, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8478,38.4292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark126">
+ <name>207 UNIVERSITY BLVD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4298</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8495</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>207 UNIVERSITY BLVD.</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>455.227325</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CC LICENSES, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8495,38.4298</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark127">
+ <name>VARIOUS LOCATIONS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4426</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.872799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VARIOUS LOCATIONS</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>402.731567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HARRISONBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.872799,38.4426</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark128">
+ <name>1176 B S HIGH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4346</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1176 B S HIGH ST</value>
+ </Data>
+ <Data name="height">
+   <value>49.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>412.051574</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WWC License L.L.C.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8936,38.4346</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark129">
+ <name>VARIOUS LOCATIONS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4621</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.865299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VARIOUS LOCATIONS</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>412.746032</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HARRISONBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.865299,38.4621</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark130">
+ <name>298 PORT REPUBLIC RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4323</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8758</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>298 PORT REPUBLIC RD</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>399.212432</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8758,38.4323</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark131">
+ <name>298 PORT REPUBLIC RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4323</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8758</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>298 PORT REPUBLIC RD</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>399.212432</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8758,38.4323</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark132">
+ <name>207 UNIVERSITY BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4299</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8492</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>207 UNIVERSITY BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>13.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>456.698516</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAPSTAR TX LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8492,38.4299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark133">
+ <name>207 UNIV. BLVD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4298</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8494</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>207 UNIV. BLVD.</value>
+ </Data>
+ <Data name="height">
+   <value>10.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>455.904693</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAPSTAR TX LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8494,38.4298</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark134">
+ <name>130 University Blvd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4292</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8478</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>130 University Blvd.</value>
+ </Data>
+ <Data name="height">
+   <value>22.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>457.43872</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VOX COMMUNICATIONS GROUP LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8478,38.4292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark135">
+ <name>207 UNIVERSITY BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4298</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8494</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>207 UNIVERSITY BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>10.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>455.904693</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAPSTAR TX LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8494,38.4298</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark136">
+ <name>474 Linda Ln</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4389</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.835</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>474 Linda Ln</value>
+ </Data>
+ <Data name="height">
+   <value>10.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>437.866333</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg City Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.835,38.4389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark137">
+ <name>1711 NORTH LIBERTY STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4711</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8603</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1711 NORTH LIBERTY STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>432.96762</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ARIAKE USA, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8603,38.4711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark138">
+ <name>SMITHLAND RD RR CROSSING @ RR MP EB017.21</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4436</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.835</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SMITHLAND RD RR CROSSING @ RR MP EB017.21</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>419.195343</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.835,38.4436</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark139">
+ <name>653 TOWER STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4519</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8519</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>653 TOWER STREET</value>
+ </Data>
+ <Data name="height">
+   <value>59.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>452.300445</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Harrisonburg-Rockingham ECC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8519,38.4519</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark140">
+ <name>891 CANTRELL AVENUE?</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4419</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.856099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>891 CANTRELL AVENUE?</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>420.603088</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MSAA PARTNERS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.856099,38.4419</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark141">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4064</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9108</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>388.800903</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DOMINION HOTEL COMPANY, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9108,38.4064</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark142">
+ <name>Rockbridge EM Coordinator - 150 S. Main St - Lexington</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.450299</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.868299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rockbridge EM Coordinator - 150 S. Main St - Lexington</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>407.21109</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.868299,38.450299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark143">
+ <name>Rockingham County 911 - 101 N Main St,  Harrisonburg</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4511</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8644</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rockingham County 911 - 101 N Main St,  Harrisonburg</value>
+ </Data>
+ <Data name="height">
+   <value>36.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>412.569152</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8644,38.4511</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark144">
+ <name>Performing Arts Center 147 Warsaw Ave.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4397</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8764</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Performing Arts Center 147 Warsaw Ave.</value>
+ </Data>
+ <Data name="height">
+   <value>23.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>401.447631</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>James Madison University Board of Visitors</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8764,38.4397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark145">
+ <name>1711 NORTH LIBERTY STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4711</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8603</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1711 NORTH LIBERTY STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>432.96762</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ARIAKE USA, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8603,38.4711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark146">
+ <name>1711 NORTH LIBERTY STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.474499</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.860799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1711 NORTH LIBERTY STREET</value>
+ </Data>
+ <Data name="height">
+   <value>11.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>439.702636</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ARIAKE USA, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.860799,38.474499</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark147">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8555</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>432.119171</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Costco Wholesale Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8555,38.4322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark148">
+ <name>1475 VIRGINIA AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4742</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8725</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1475 VIRGINIA AVE</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>429.225219</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA MENNONITE RETIREMENT COMMUNITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8725,38.4742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark149">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4619</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.856099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>417.433593</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HARRIS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.856099,38.4619</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark150">
+ <name>250 CHAMPIONS DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4353</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.873</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>250 CHAMPIONS DR</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>395.069793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JAMES MADISON UNIVERSITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.873,38.4353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark151">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3933</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8953</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>377.943542</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>R R Donnelley Fulfillment</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8953,38.3933</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark152">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.447</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.9042</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>420.184844</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HARRISONBURG, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.9042,38.447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark153">
+ <name>0.5 MI , N 85 DEGREES EAST FROM HARRISONBURG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4711</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8822</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.5 MI , N 85 DEGREES EAST FROM HARRISONBURG</value>
+ </Data>
+ <Data name="height">
+   <value>52.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>477.595916</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Afton Communications Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8822,38.4711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark154">
+ <name>235 CANTRELL AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4397</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8711</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>235 CANTRELL AVE</value>
+ </Data>
+ <Data name="height">
+   <value>9.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>411.916046</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8711,38.4397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark155">
+ <name>PARK VIEW WATER TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Harrisonburg city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4675</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.8842</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PARK VIEW WATER TANK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>482.124664</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Krom III, Edward V</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.8842,38.4675</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>
