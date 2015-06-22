@@ -1,0 +1,3335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>JEFFERSON ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1539</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JEFFERSON ST.</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.119567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CFW WIRELESS, INC.  DBA =  VIRGINIA RSA 6 CELLULAR LIMITED PARTNERS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0786,38.1539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>1911 Craigmont Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1832</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.089499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1911 Craigmont Drive</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>519.416931</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tower Assets Newco VIII, LLC (VA-8093)</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.089499,38.1832</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>291 Woodlee Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1757</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.069799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>291 Woodlee Road</value>
+ </Data>
+ <Data name="height">
+   <value>77.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>491.850463</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Clear Channel Broadcasting, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.069799,38.1757</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>9 TECHNOLOGY DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1872</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0189</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9 TECHNOLOGY DR</value>
+ </Data>
+ <Data name="height">
+   <value>9.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>409.936553</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Specialty Blades Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0189,38.1872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1539</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0842</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>471.661071</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0842,38.1539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1483</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.060799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>413.718994</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DURBIN &amp; GREENBRIER VALLEY RAILROAD INC DBA WEST VIRGINIA CENTRAL RAILROAD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.060799,38.1483</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1872</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0189</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>409.936553</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Specialty Blades Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0189,38.1872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>541-A Buttermilk Spring Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1458</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.102199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>541-A Buttermilk Spring Rd</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>467.521728</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buckingham Branch Railroad Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.102199,38.1458</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>650 C&amp;O Flats</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1442</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0764</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>650 C&amp;O Flats</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>425.118133</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buckingham Branch Railroad Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0764,38.1442</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>1110 MONTGOMERY AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1411</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0939</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1110 MONTGOMERY AVE</value>
+ </Data>
+ <Data name="height">
+   <value>15.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>487.189453</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PSYCHIATRIC SOLUTIONS INC OF VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0939,38.1411</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>WESTERN STATE HOSPITAL, BUILDING &amp; GROUNDS BLDG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1392</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0392</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WESTERN STATE HOSPITAL, BUILDING &amp; GROUNDS BLDG</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>432.045715</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0392,38.1392</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>JEFFERSON ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1539</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JEFFERSON ST.</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.119567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON AUGUSTA RESCUE SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0786,38.1539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>854 STATLER BLVD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1425</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0631</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>854 STATLER BLVD.</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>473.389038</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0631,38.1425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.182</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0919</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>492.866729</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Augusta County Service Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0919,38.182</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>244 W GAY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1431</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.077799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>244 W GAY ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>433.826568</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CITY CAB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.077799,38.1431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>RR &amp; STAUNTON W BOUNDARY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1458</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.102199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR &amp; STAUNTON W BOUNDARY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>467.521728</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.102199,38.1458</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>RT 11 2 KM SW OF RT 612 BLUE RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1878</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0231</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 11 2 KM SW OF RT 612 BLUE RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>408.85794</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0231,38.1878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>MARY GRAY KNOB 2.4 KM SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1322</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.053299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MARY GRAY KNOB 2.4 KM SE</value>
+ </Data>
+ <Data name="height">
+   <value>36</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>539.302612</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS OF VIRGINIA INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.053299,38.1322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1489</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0717</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>422.214324</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BEST BUY CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0717,38.1489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>VA SCHOOL FOR THE DEAF &amp; BLIND MAIN HALL E BEVERLY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1506</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0636</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA SCHOOL FOR THE DEAF &amp; BLIND MAIN HALL E BEVERLY ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>432.717437</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA SCHOOL FOR THE DEAF AND BLIND</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0636,38.1506</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>.2 MI N INT RICHMOND RD &amp; STATLER BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1464</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0542</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.2 MI N INT RICHMOND RD &amp; STATLER BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>425.580261</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALLIED READY MIX CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0542,38.1464</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>519 HOUSTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1578</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0592</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>519 HOUSTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>437.582977</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JENKINS SECURITY SERVICES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0592,38.1578</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>308 E HAMPTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1422</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0708</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>308 E HAMPTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>419.582092</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTKIN PLUMBING &amp; HEATING INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0708,38.1422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>118 BODDINGTON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1758</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0822</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>118 BODDINGTON RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>501.607269</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOTKIN PLUMBING &amp; HEATING INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0822,38.1758</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>SOCIAL HALL BLDG ON CAMPUS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1542</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0689</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SOCIAL HALL BLDG ON CAMPUS</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>471.479217</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARY BALDWIN COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0689,38.1542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>BLDG 103 INT RT 81 &amp; RT 250</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1408</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0358</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLDG 103 INT RT 81 &amp; RT 250</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>426.102264</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0358,38.1408</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>STAUNTON WATER TREATMENT PLANT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1831</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STAUNTON WATER TREATMENT PLANT</value>
+ </Data>
+ <Data name="height">
+   <value>79</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>521.354187</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CITY OF STAUNTON FIRE &amp; RESCUE DEPT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0894,38.1831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>INTER OF JEFFERSON AND MADISON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1539</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INTER OF JEFFERSON AND MADISON ST</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.119567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0786,38.1539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>116 W BEVERLY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1489</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0742</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>116 W BEVERLY ST</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>425.979919</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0742,38.1489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>1601 N COALTER ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1653</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0544</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1601 N COALTER ST</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>444.524017</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0544,38.1653</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>116 W BEVERLY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1489</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0742</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>116 W BEVERLY ST</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>425.979919</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0742,38.1489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>RT 250 1166  W OF FRONTIER DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1369</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0461</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 250 1166  W OF FRONTIER DR</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>446.18045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0461,38.1369</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1653</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0544</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>444.524017</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON AUGUSTA RESCUE SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0544,38.1653</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1489</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0742</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>425.979919</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON AUGUSTA RESCUE SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0742,38.1489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>RESERVOIR HILL AT DE JEFFERSON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1533</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0789</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RESERVOIR HILL AT DE JEFFERSON ST</value>
+ </Data>
+ <Data name="height">
+   <value>49</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.908905</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON AUGUSTA RESCUE SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0789,38.1533</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>RT 250, 355M W OF FRONTIER DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1369</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0461</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 250, 355M W OF FRONTIER DR</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>446.18045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0461,38.1369</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>1601 N COALTER ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1653</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0544</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1601 N COALTER ST</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>444.524017</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0544,38.1653</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>1601 N COALTER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1653</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0544</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1601 N COALTER</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>444.524017</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0544,38.1653</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>116 W BEVERLEY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1489</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0742</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>116 W BEVERLEY ST</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>425.979919</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0742,38.1489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>116 W BEVERLY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1489</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0742</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>116 W BEVERLY ST</value>
+ </Data>
+ <Data name="height">
+   <value>17</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>425.979919</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0742,38.1489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>1911 Craigmont Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1831</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1911 Craigmont Drive</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>521.354187</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0894,38.1831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>RESERVOIR HILL AT JEFFERSON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1539</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RESERVOIR HILL AT JEFFERSON ST</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.119567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0786,38.1539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>116 W BEVERLEY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1489</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0742</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>116 W BEVERLEY ST</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>425.979919</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0742,38.1489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.165</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0639</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>455.410308</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0639,38.165</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>W END JEFFERSON ST RESERVOIR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1533</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0789</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>W END JEFFERSON ST RESERVOIR</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.908905</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0789,38.1533</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>STAUNTON CORRECTIONAL CTR RT 11 .2 MIS S RT 250</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1453</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0672</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STAUNTON CORRECTIONAL CTR RT 11 .2 MIS S RT 250</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>424.796295</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0672,38.1453</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>CITY RESERVOIR INT JEFFERSON &amp; MADISON STS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1542</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0692</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CITY RESERVOIR INT JEFFERSON &amp; MADISON STS</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>468.599761</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0692,38.1542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>BLDG 126 WESTERN STATE HOSPITAL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1408</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0358</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLDG 126 WESTERN STATE HOSPITAL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>426.102264</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0358,38.1408</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>FORESTRY OFC 728 RICHMOND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1431</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0617</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY OFC 728 RICHMOND RD</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>466.893646</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0617,38.1431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>1250 RICHMOND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.124399</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.048099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1250 RICHMOND RD</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>440.384216</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.048099,38.124399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>WESTERN STATE HOSPITAL, BLDG #103</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1364</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0358</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WESTERN STATE HOSPITAL, BLDG #103</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>421.561523</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0358,38.1364</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>1250 RICHMOND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1267</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0503</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1250 RICHMOND RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>447.32312</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0503,38.1267</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>BLDG 103 WESTERN STATE HOSPITAL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1408</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0358</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLDG 103 WESTERN STATE HOSPITAL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>426.102264</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0358,38.1408</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>116 W BEVERLEY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1489</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0742</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>116 W BEVERLEY ST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>425.979919</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0742,38.1489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>JEFFERSON ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1539</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JEFFERSON ST.</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.119567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0786,38.1539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>RESERVOIR HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1442</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.065</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RESERVOIR HILL</value>
+ </Data>
+ <Data name="height">
+   <value>50</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>451.552093</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES C</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.065,38.1442</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>250  N. JEFFERSON ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1539</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>250  N. JEFFERSON ST.</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.119567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0786,38.1539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1742</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0697</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>489.440826</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GLADES MEDIA COMPANY LLP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0697,38.1742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1489</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0761</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>440.511901</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HIGH IMPACT COMMUNICATIONS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0761,38.1489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>(Reservoir Hill site) 250 N. JEFFERSON ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1539</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>(Reservoir Hill site) 250 N. JEFFERSON ST.</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.119567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WWC License L.L.C.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0786,38.1539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>0.8 KM NORTH NORTHWEST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1831</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.8 KM NORTH NORTHWEST</value>
+ </Data>
+ <Data name="height">
+   <value>78.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>521.354187</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WWC License L.L.C.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0894,38.1831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>Jefferson Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1539</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Jefferson Street</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.119567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Wireless (VAW) LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0786,38.1539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>0.8 KM NORTH NORTHWEST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1831</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.8 KM NORTH NORTHWEST</value>
+ </Data>
+ <Data name="height">
+   <value>78.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>521.354187</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NTELOS LICENSES INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0894,38.1831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>Staunton</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1377</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.070299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Staunton</value>
+ </Data>
+ <Data name="height">
+   <value>49.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>433.505004</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FISHBURNE MILITARY SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: BRS (broadband radio service) and EBS (educational broadband services) (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.070299,38.1377</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>RT 11 1.3 MI SW OF RT 612</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1879</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0231</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 11 1.3 MI SW OF RT 612</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>408.825988</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0231,38.1879</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>304 WEST BEVERLY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.149</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0761</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>304 WEST BEVERLY</value>
+ </Data>
+ <Data name="height">
+   <value>30.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>437.824096</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HIGH IMPACT COMMUNICATIONS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0761,38.149</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>27 N. CENTRAL AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1504</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0734</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>27 N. CENTRAL AVE</value>
+ </Data>
+ <Data name="height">
+   <value>20.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>430.790679</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAY TELEVISION LICENSEE, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0734,38.1504</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>.5 MI N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1832</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.089499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.5 MI N OF</value>
+ </Data>
+ <Data name="height">
+   <value>78.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>519.416931</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WWC License L.L.C.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.089499,38.1832</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>291 Woodlee Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1757</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0697</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>291 Woodlee Road</value>
+ </Data>
+ <Data name="height">
+   <value>78.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>491.850463</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CC LICENSES, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0697,38.1757</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>ON MARY GRAY KNOB 1.5 MI SE OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1323</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0534</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON MARY GRAY KNOB 1.5 MI SE OF</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>534.867919</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Columbia Gas Transmission Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0534,38.1323</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>JEFFERSON ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1539</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JEFFERSON ST.</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.119567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AUGUSTA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0786,38.1539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>839 GREENVILLE AVENUE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1358</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.065799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>839 GREENVILLE AVENUE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>446.145507</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MSAA PARTNERS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.065799,38.1358</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>300 CHURCHVILLE AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1569</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.077799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 CHURCHVILLE AVE</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>448.468414</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GYPSY HILL COMMERCIAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.077799,38.1569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1419</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.029399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>414.97882</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BALFOUR BEATTY CONSTRUCTION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.029399,38.1419</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>RESERVOIR HILL AT JEFFERSON ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1539</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RESERVOIR HILL AT JEFFERSON ST.</value>
+ </Data>
+ <Data name="height">
+   <value>16.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.119567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON CITY SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0786,38.1539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>RESERVOIR HILL AT JEFFERSON ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1539</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RESERVOIR HILL AT JEFFERSON ST.</value>
+ </Data>
+ <Data name="height">
+   <value>10.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.119567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STAUNTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0786,38.1539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>1.7 MILES N 18 DEG. E FROM</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1758</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0589</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.7 MILES N 18 DEG. E FROM</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>515.374877</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NTELOS Telephone, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0589,38.1758</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>RESERVOIR HILL &amp; JEFFERSON STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1539</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RESERVOIR HILL &amp; JEFFERSON STREET</value>
+ </Data>
+ <Data name="height">
+   <value>60</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.119567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NTELOS Telephone, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.0786,38.1539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>28 SOUTH MARKET STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Staunton city</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1489</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.070299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>28 SOUTH MARKET STREET</value>
+ </Data>
+ <Data name="height">
+   <value>39</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>427.624298</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.070299,38.1489</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>
