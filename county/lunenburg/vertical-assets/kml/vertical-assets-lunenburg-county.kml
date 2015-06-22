@@ -1,0 +1,2369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>HWY 49  COURTHOUSE SQ</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9872</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2103</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 49  COURTHOUSE SQ</value>
+ </Data>
+ <Data name="height">
+   <value>82.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.402786</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2103,36.9872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>199 Jansch Farm Road  (196401463 Kenbridge)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9588</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.101</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>199 Jansch Farm Road  (196401463 Kenbridge)</value>
+ </Data>
+ <Data name="height">
+   <value>76.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.458908</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.101,36.9588</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>State Rt. 49  Plymouth District  Lunenburg County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0163</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2149</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Rt. 49  Plymouth District  Lunenburg County</value>
+ </Data>
+ <Data name="height">
+   <value>67</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>161.995147</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of    Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2149,37.0163</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>Elm St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.95573114</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.12723762</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Elm St.</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>476.6517452</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Kenbridge, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.12723762,36.95573114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Hickory Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.96655336</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.13682199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Hickory Rd</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>472.9615509</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Kenbridge, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.13682199,36.96655336</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Hight St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.961433</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.124961</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Hight St.</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>483.562605</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Kenbridge, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.124961,36.961433</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>SR626, Kings Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0445</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.281799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR626, Kings Road</value>
+ </Data>
+ <Data name="height">
+   <value>43</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.006774</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Global Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.281799,37.0445</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>ST RT 40</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9656</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1428</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 40</value>
+ </Data>
+ <Data name="height">
+   <value>61.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.687225</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shentel Cable Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1428,36.9656</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>388 Hightower Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0396</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2785</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>388 Hightower Road</value>
+ </Data>
+ <Data name="height">
+   <value>85.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>184.149551</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tower Assets Newco X, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2785,37.0396</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>Map 85 Lot 5, +/-162, 17AC</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7879</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0457</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Map 85 Lot 5, +/-162, 17AC</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.198867</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0457,36.7879</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>1802 MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.975</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2328</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1802 MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>155.123397</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VICTORIA, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2328,36.975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>11453 COURTHOUSE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.95</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2708</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11453 COURTHOUSE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.419281</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUNENBURG, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2708,36.95</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>117 HICKORY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9664</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.136399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>117 HICKORY RD</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.087051</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUNENBURG, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.136399,36.9664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0131</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2472</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>167.699218</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Bishop, Ronald E</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2472,37.0131</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>964 Nut Bush Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0131</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2472</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>964 Nut Bush Rd</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>167.699218</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Bishop, Ronald E</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2472,37.0131</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>690 FALLS ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0169</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.209999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>690 FALLS ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>156.457092</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VICTORIA FIRE &amp; RESCUE SQUAD, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.209999,37.0169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>MECKLENBURG AVE AT W 1ST ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.990799</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MECKLENBURG AVE AT W 1ST ST</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>170.929428</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VICTORIA FIRE &amp; RESCUE SQUAD INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2308,36.990799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>1610 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9967</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2281</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1610 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>172.820983</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CRENSHAW, TERRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2281,36.9967</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>508 E FERRELL ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.815</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1119</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>508 E FERRELL ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.047683</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1119,36.815</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>VA RT 40 5 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9889</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2186</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA RT 40 5 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>165.920516</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PARKER OIL CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2186,36.9889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>210 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9619</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1286</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>210 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.041641</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AmeriGas Propane, L.P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1286,36.9619</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>100 OAK AND BRUNSWICK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9478</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0953</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 OAK AND BRUNSWICK</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.288925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA MARBLE MANUFACTURERS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0953,36.9478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9669</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>166.420974</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUNENBURG CO SCHOOL BOARD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1997,36.9669</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>1 MI W TOWN LIMIT ON RT 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0528</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2269</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI W TOWN LIMIT ON RT 360</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.03366</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JAMES R THARPE TRUCKING CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2269,37.0528</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>718 S BROAD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9653</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1317</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>718 S BROAD ST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.243957</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GARY JR, WILLIAM H</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1317,36.9653</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>1009 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9664</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1589</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1009 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.133789</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUNENBURG, county of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1589,36.9664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>LUNENBURG COURT HOUSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.95</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2705</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LUNENBURG COURT HOUSE</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>145.42572</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KENBRIDGE EMERGENCY SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2705,36.95</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>1802 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.975</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2325</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1802 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>155.780761</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VICTORIA, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2325,36.975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9497</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2708</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.320617</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KENBRIDGE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2708,36.9497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>LUNENBURG CORRECTIONAL CTR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0167</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2122</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LUNENBURG CORRECTIONAL CTR</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>160.085647</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2122,37.0167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>117 HICKORY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9919</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2139</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>117 HICKORY RD</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>157.050033</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUNENBURG, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2139,36.9919</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>INT OF HWY 40 &amp; 49</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.95</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2705</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT OF HWY 40 &amp; 49</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>145.42572</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUNENBURG, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2705,36.95</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>690 FALLS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0169</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.209999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>690 FALLS RD</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>156.457092</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUNENBURG, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.209999,37.0169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>MUNICIPAL BLDG COR 6TH AVEN &amp; HIGH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9667</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MUNICIPAL BLDG COR 6TH AVEN &amp; HIGH ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>115.843765</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KENBRIDGE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0997,36.9667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>FORESTRY BUILDING</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9983</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.23</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY BUILDING</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>165.1846</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.23,36.9983</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>MUNICIPAL BLDG CORNER 6TH &amp; HIGH STS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9667</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MUNICIPAL BLDG CORNER 6TH &amp; HIGH STS</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>115.843765</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KENBRIDGE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0997,36.9667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>1802 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.975</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2325</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1802 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>155.780761</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VICTORIA, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2325,36.975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>LUNENBURG COR CTR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0167</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2122</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LUNENBURG COR CTR</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>160.085647</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2122,37.0167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>RT 40 .5 MI W OF RT 49</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9647</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.273599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 40 .5 MI W OF RT 49</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>154.723937</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.273599,36.9647</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>RT 601 .4 MI N OF RT 137</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9536</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.092499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 601 .4 MI N OF RT 137</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.164337</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.092499,36.9536</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>433 Tomlinson Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9872</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.209999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>433 Tomlinson Road</value>
+ </Data>
+ <Data name="height">
+   <value>83.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.281158</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.209999,36.9872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9145</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.232</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.903228</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS OF VIRGINIA INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.232,36.9145</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>State Rt. 49  Plymouth District  Lunenburg County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0163</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2149</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Rt. 49  Plymouth District  Lunenburg County</value>
+ </Data>
+ <Data name="height">
+   <value>73.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>161.995147</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2149,37.0163</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.862399</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>109.20333</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1275,36.862399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>117 HICKORY ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9672</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.136399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>117 HICKORY ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.590713</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KENBRIDGE  TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.136399,36.9672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>11453 COURTHOUSE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9614</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2644</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11453 COURTHOUSE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>156.135574</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KENBRIDGE  TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2644,36.9614</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9608</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.125</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.668334</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KENBRIDGE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.125,36.9608</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>MECKLENBURG AVE @ W. 1ST STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.990799</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MECKLENBURG AVE @ W. 1ST STREET</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>170.929428</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VICTORIA, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2308,36.990799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>1802 MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9942</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2264</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1802 MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>171.832534</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VICTORIA, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2264,36.9942</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>117 HICKORY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9631</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1383</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>117 HICKORY RD</value>
+ </Data>
+ <Data name="height">
+   <value>48</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.143798</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VICTORIA FIRE &amp; RESCUE SQUAD INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1383,36.9631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>690 FALLS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0222</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2047</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>690 FALLS RD</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>160.476806</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VICTORIA FIRE &amp; RESCUE SQUAD INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2047,37.0222</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>117 HICKORY ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9919</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2139</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>117 HICKORY ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>157.050033</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KENBRIDGE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2139,36.9919</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>511 E. FIFTH STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9597</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1178</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>511 E. FIFTH STREET</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.503616</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KENBRIDGE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1178,36.9597</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.95</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2705</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>145.42572</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KENBRIDGE EMERGENCY SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2705,36.95</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>106 HIGH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9608</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.125</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>106 HIGH ST</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>146.668334</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUNENBURG COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.125,36.9608</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>580 REDFIELD ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lunenburg County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.058899</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2286</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>580 REDFIELD ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>148.834991</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>IVY BLUFF HUNTING CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2286,37.058899</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

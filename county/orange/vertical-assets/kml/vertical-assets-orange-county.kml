@@ -1,0 +1,4721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>7422 EMBY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.301</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.785599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7422 EMBY RD</value>
+ </Data>
+ <Data name="height">
+   <value>122.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.304428</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.785599,38.301</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>207 SPICERS MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2539</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1205</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>207 SPICERS MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>103.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.090042</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Piedmont Communications, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1205,38.2539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>12528 LAKEVIEW LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2297</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.019999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>12528 LAKEVIEW LN</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.580444</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBC TOWER HOLDINGS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.019999,38.2297</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>704 RICHMOND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1406</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0558</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>704 RICHMOND RD</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>93.986511</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Clear Channel Broadcasting, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0558,38.1406</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>656 Union Avenue Extended</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1323</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1779</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>656 Union Avenue Extended</value>
+ </Data>
+ <Data name="height">
+   <value>59.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.805633</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Community Wireless Structures III, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1779,38.1323</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Main St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.13482356</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1847774</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Main St.</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>492.7426595</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Gordonsville, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1847774,38.13482356</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>6507 Mooremont Rd. (088290)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3108</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0034</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6507 Mooremont Rd. (088290)</value>
+ </Data>
+ <Data name="height">
+   <value>110.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>323.281005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0034,38.3108</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>10085 Tower Road   (088325)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2674</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.915499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10085 Tower Road   (088325)</value>
+ </Data>
+ <Data name="height">
+   <value>87.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>159.202606</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.915499,38.2674</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>17169 Zachary Taylor Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1696</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.934899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>17169 Zachary Taylor Highway</value>
+ </Data>
+ <Data name="height">
+   <value>76.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>113.196769</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.934899,38.1696</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>4.0 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3161</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9805</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4.0 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>106.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>212.944305</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9805,38.3161</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>13022 James Madison Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2311</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1205</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13022 James Madison Highway</value>
+ </Data>
+ <Data name="height">
+   <value>86.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>171.625717</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1205,38.2311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>2130 GERMANNA HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3756</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.781099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2130 GERMANNA HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>10.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>89.620048</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GERMANNA COMMUNITY COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.781099,38.3756</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3128</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0072</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>270.181274</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0072,38.3128</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>103 Comerce Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1353</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1825</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>103 Comerce Street</value>
+ </Data>
+ <Data name="height">
+   <value>17</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.221588</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buckingham Branch Railroad Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1825,38.1353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>1 CLEVELAND ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1406</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1972</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 CLEVELAND ST</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>158.885025</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MacMillan dba MPS Virginia</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1972,38.1406</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>153 MADISON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2456</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1111</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>153 MADISON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>157.222351</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HEW, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1111,38.2456</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>110 NORTH MADISON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2453</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1117</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>110 NORTH MADISON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>14.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>162.155227</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Orange</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1117,38.2453</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>110 NORTH MADISON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2453</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1117</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>110 NORTH MADISON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>14.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>162.155227</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE COUNTY SHERIFF'S DEPT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1117,38.2453</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>500 TORAY DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.15</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1667</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 TORAY DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.037185</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TORAY PLASTICS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1667,38.15</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Church St RR crossing @ MP 84.82</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2433</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1117</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Church St RR crossing @ MP 84.82</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>163.08847</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1117,38.2433</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1353</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1825</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.221588</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buckingham Branch Railroad</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1825,38.1353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1878</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1575</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>294.753906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1575,38.1878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3217</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.773599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.051757</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Lake of the Woods</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.773599,38.3217</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3003</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8317</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>122.389167</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Orange County Public Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8317,38.3003</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2397</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0303</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.824264</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE COUNTY LANDFILL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0303,38.2397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>5480 GERMANNA HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3631</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7647</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5480 GERMANNA HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>106.544784</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HEW INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7647,38.3631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>SR-678 (714744F) crossing at MP 95.81</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1711</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2814</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-678 (714744F) crossing at MP 95.81</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>153.746383</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2814,38.1711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>Twyman Street (714720S) crossing at MP 85.45</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2425</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1178</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Twyman Street (714720S) crossing at MP 85.45</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>166.147933</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1178,38.2425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>RT-700 (714710L) crossing at MP 81.30</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2886</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT-700 (714710L) crossing at MP 81.30</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>127.584869</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0875,38.2886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>SR-673 (714709S) crossing at MP 79.92</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3056</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0736</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-673 (714709S) crossing at MP 79.92</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>105.704673</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0736,38.3056</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>14301 LITCHFIELD ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2089</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.132199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14301 LITCHFIELD ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.156753</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MacMillan dba MPS Virginia</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.132199,38.2089</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>16365 JAMES MADISON HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.177799</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.145</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>16365 JAMES MADISON HWY</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.736755</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MacMillan dba MPS Virginia</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.145,38.177799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Somerset Detector,  RR MP 91.5 at Hwy 231</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2075</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2181</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Somerset Detector,  RR MP 91.5 at Hwy 231</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>130.896163</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2181,38.2075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>RR G SIGNAL TWR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1353</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1825</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR G SIGNAL TWR</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.221588</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1825,38.1353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>ON CLARK MOUNTAIN 7 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3128</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0072</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON CLARK MOUNTAIN 7 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>270.181274</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0072,38.3128</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>RT 621</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3028</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9303</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 621</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.491073</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ATLANTIC RESEARCH CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9303,38.3028</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>VA POWER DIST OFC US RT 15 3800 S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2297</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1175</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA POWER DIST OFC US RT 15 3800 S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>157.271591</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1175,38.2297</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>INT OF ST RTS 661 &amp; 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.13</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9433</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT OF ST RTS 661 &amp; 522</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>96.424118</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9433,38.13</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>CLARKE MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3114</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0036</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CLARKE MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>324.29364</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0036,38.3114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>RT 3 9/10 MI SE OF JCT OF RT 3 &amp; 603</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3547</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7558</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 3 9/10 MI SE OF JCT OF RT 3 &amp; 603</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>95.708084</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPIDAN SERVICE AUTHORITY EAST</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7558,38.3547</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>ORANGE DISTRICT OFC 3800S ON US 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2297</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1175</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ORANGE DISTRICT OFC 3800S ON US 15</value>
+ </Data>
+ <Data name="height">
+   <value>47</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>157.271591</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1175,38.2297</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>CO COMPRESSOR STA 180 HWY 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3161</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9805</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CO COMPRESSOR STA 180 HWY 522</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>212.944305</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Transcontinental Gas Pipe Line Co., LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9805,38.3161</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3161</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9805</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>212.944305</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Transcontinental Gas Pipe Line Co., LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9805,38.3161</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>END OF CO RT 697 CLARK MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3114</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0036</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF CO RT 697 CLARK MTN</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>324.29364</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CLARK, JOHN SHELDON</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0036,38.3114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3108</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.003299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>323.281005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BROOKS, DANNY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.003299,38.3108</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>RT 697 1.9 MI FROM RT 627</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3108</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.003299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 697 1.9 MI FROM RT 627</value>
+ </Data>
+ <Data name="height">
+   <value>117.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>323.281005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BROOKS, DANNY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.003299,38.3108</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>405 COLONIAL AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2547</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9342</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>405 COLONIAL AVE</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>136.912887</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PEARSON OIL COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9342,38.2547</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3367</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7497</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.503509</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LAKE OF THE WOODS ASSOCIATION INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7497,38.3367</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>CLUB HOUSE BUILDING</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3583</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7678</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CLUB HOUSE BUILDING</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>105.565986</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LAKE OF THE WOODS ASSOCIATION INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7678,38.3583</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>CITY WATER TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2433</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0958</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CITY WATER TANK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>150.979049</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>C R BUTLER INC DBA C.R.BUTLER INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0958,38.2433</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3547</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7558</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>95.708084</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPIDAN SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7558,38.3547</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>1 MI S INT RT 493 &amp; 20</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2272</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1767</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI S INT RT 493 &amp; 20</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>150.815887</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL TRUST FOR HISTORIC PRESERVATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1767,38.2272</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>BOX 1 LOW - 102 LAKEVIEW PARKWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3367</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7497</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BOX 1 LOW - 102 LAKEVIEW PARKWAY</value>
+ </Data>
+ <Data name="height">
+   <value>22.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.503509</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LAKE OF THE WOODS ASSOCIATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7497,38.3367</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>SR 20 .4 KM E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2428</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0922</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 20 .4 KM E</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>150.29393</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0922,38.2428</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2481</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.047199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.505722</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.047199,38.2481</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>US RT 15 3 KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1564</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1711</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 15 3 KM N</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>145.652114</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1711,38.1564</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>SR692 .8 KM N OF SR 20 5 KM E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.295</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8692</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR692 .8 KM N OF SR 20 5 KM E</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>137.4682</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8692,38.295</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>US RT 15 4KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1878</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1575</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 15 4KM N</value>
+ </Data>
+ <Data name="height">
+   <value>47</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>294.753906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1575,38.1878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>CLARK MTN END ST RT 697</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3114</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0036</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CLARK MTN END ST RT 697</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>324.29364</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>UNIVERSITY OF VIRGINIA MEDICAL CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0036,38.3114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>RT 625 .2 MI S INT RT 625 &amp; RT 20</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2469</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0364</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 625 .2 MI S INT RT 625 &amp; RT 20</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>145.933853</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0364,38.2469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>S MADISON ST AND BLUE RIDGE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2464</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1055</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S MADISON ST AND BLUE RIDGE DR</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.331878</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1055,38.2464</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>11350 PORTER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2469</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0358</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11350 PORTER RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.581802</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0358,38.2469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>RT 625 .2 MI S INT 625 &amp; RT 20</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2469</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0358</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 625 .2 MI S INT 625 &amp; RT 20</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.581802</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE COUNTY  SHERIFFS OFFICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0358,38.2469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>ON RT 3 5 MI N INT RT 20 &amp; 3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.345</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7739</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON RT 3 5 MI N INT RT 20 &amp; 3</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.053489</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE COUNTY  SHERIFFS OFFICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7739,38.345</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>GIBSON MOUNTAIN .5 MI SW INT RT 639 &amp; RT 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1875</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1575</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GIBSON MOUNTAIN .5 MI SW INT RT 639 &amp; RT 15</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>299.765319</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE COUNTY  SHERIFFS OFFICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1575,38.1875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>6507 MOOREMONT RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3108</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.003299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6507 MOOREMONT RD</value>
+ </Data>
+ <Data name="height">
+   <value>117.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>323.281005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE COUNTY  SHERIFFS OFFICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.003299,38.3108</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2453</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.110799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>158.957748</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.110799,38.2453</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>VA FORRESTRY TOWER GIBSON MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1875</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1575</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA FORRESTRY TOWER GIBSON MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>299.765319</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1575,38.1875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>13438 JAMES MADISON HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2203</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1272</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13438 JAMES MADISON HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>6.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>162.876403</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1272,38.2203</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>END OF RT 697 ON TOP OF CLARK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3114</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0036</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF RT 697 ON TOP OF CLARK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>324.29364</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY OF ORANGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0036,38.3114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>112 S MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1353</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1825</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>112 S MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.221588</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GORDONSVILLE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1825,38.1353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>11350 PORTER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2469</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0358</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11350 PORTER RD</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.581802</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0358,38.2469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>RT 625 .2 MI S INT RT 625 &amp; RT 20</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2469</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0358</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 625 .2 MI S INT RT 625 &amp; RT 20</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.581802</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0358,38.2469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>ON RT 3 5 MI N INT RT 20 RT 3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.345</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7739</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON RT 3 5 MI N INT RT 20 RT 3</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.053489</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7739,38.345</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>GIBSON MOUNTAIN .5 MI SW INT RT 639 RT 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1875</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1575</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GIBSON MOUNTAIN .5 MI SW INT RT 639 RT 15</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>299.765319</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1575,38.1875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>6507 MOOREMONT ROAD (088290)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3108</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.003299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6507 MOOREMONT ROAD (088290)</value>
+ </Data>
+ <Data name="height">
+   <value>117.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>323.281005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.003299,38.3108</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>INT LEE AVE &amp; BLUE RIDGE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2464</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1055</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT LEE AVE &amp; BLUE RIDGE DR</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.331878</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1055,38.2464</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>CLARK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3114</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0036</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CLARK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>324.29364</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0036,38.3114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>CLARK MOUNTAIN END OF ST RT 697</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3114</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0036</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CLARK MOUNTAIN END OF ST RT 697</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>324.29364</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0036,38.3114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>1.25 MI NE OF RT 697 AND RT 627</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3111</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0036</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.25 MI NE OF RT 697 AND RT 627</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>322.959625</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0036,38.3111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>CLARK MTN END OF SR 697</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3114</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0036</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CLARK MTN END OF SR 697</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>324.29364</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0036,38.3114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>431 Charles Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.135</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1769</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>431 Charles Street</value>
+ </Data>
+ <Data name="height">
+   <value>45.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.205932</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1769,38.135</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>13022 James Madison Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2311</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1205</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13022 James Madison Highway</value>
+ </Data>
+ <Data name="height">
+   <value>90.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>171.625717</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1205,38.2311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>7422 EMBY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3008</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7855</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7422 EMBY RD</value>
+ </Data>
+ <Data name="height">
+   <value>126.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.895919</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7855,38.3008</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>INTER.  HWYS 15 &amp; 20</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2311</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1205</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INTER.  HWYS 15 &amp; 20</value>
+ </Data>
+ <Data name="height">
+   <value>90.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>171.625717</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1205,38.2311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>RT 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1876</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1574</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 15</value>
+ </Data>
+ <Data name="height">
+   <value>42.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>298.786529</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH OF VIRGINIA, DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1574,38.1876</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>207 SPICERS MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2539</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1205</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>207 SPICERS MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>104.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.090042</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT COMMUNICATIONS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1205,38.2539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>207 SPICERS MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2539</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1205</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>207 SPICERS MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>104.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.090042</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT COMMUNICATIONS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1205,38.2539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>207 SPICERS MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2539</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1205</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>207 SPICERS MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>104.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.090042</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT COMMUNICATIONS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1205,38.2539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>(CLARK MTN # 1)  5.3 KM EAST OF    (088290)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3108</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0034</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>(CLARK MTN # 1)  5.3 KM EAST OF    (088290)</value>
+ </Data>
+ <Data name="height">
+   <value>117.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>323.281005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT COMMUNICATIONS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0034,38.3108</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>(CLARK MTN # 1)  5.3 KM EAST OF    (088290)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3108</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0034</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>(CLARK MTN # 1)  5.3 KM EAST OF    (088290)</value>
+ </Data>
+ <Data name="height">
+   <value>117.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>323.281005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT COMMUNICATIONS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0034,38.3108</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>CO COMPRESSOR STA 180</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3007</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9647</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CO COMPRESSOR STA 180</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.482597</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Transcontinental Gas Pipe Line Co., LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9647,38.3007</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>16214 JAMES MADISON FWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1879</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1575</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>16214 JAMES MADISON FWY</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>294.753906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1575,38.1879</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>ORANGE DIST OFC 3800' S OF CITY LIMITS ON US RT 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2298</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1175</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ORANGE DIST OFC 3800' S OF CITY LIMITS ON US RT 15</value>
+ </Data>
+ <Data name="height">
+   <value>47.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>157.06015</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1175,38.2298</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>4 MI N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3162</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9805</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4 MI N OF</value>
+ </Data>
+ <Data name="height">
+   <value>107.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>214.678665</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CELLCO PARTNERSHIP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9805,38.3162</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>Rt 15  2 Miles N. of Gordonsville, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1879</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1575</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt 15  2 Miles N. of Gordonsville, VA</value>
+ </Data>
+ <Data name="height">
+   <value>47.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>294.753906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1575,38.1879</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>CO COMPRESSOR STATION 200 NEAR WESTCHESTER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3162</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9805</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CO COMPRESSOR STATION 200 NEAR WESTCHESTER</value>
+ </Data>
+ <Data name="height">
+   <value>107.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>214.678665</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Transcontinental Gas Pipe Line Co., LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9805,38.3162</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>1 MI N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2617</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1089</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI N OF</value>
+ </Data>
+ <Data name="height">
+   <value>37.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>158.861755</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1089,38.2617</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>CLARK MTN 7 MI NE OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.314</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0034</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CLARK MTN 7 MI NE OF</value>
+ </Data>
+ <Data name="height">
+   <value>31.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>290.897338</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0034,38.314</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>1 MILE SOUTH OF INTERSECTION OF RT. 493 AND RT. 20</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2272</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1767</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MILE SOUTH OF INTERSECTION OF RT. 493 AND RT. 20</value>
+ </Data>
+ <Data name="height">
+   <value>11.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>150.815887</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE MONTPELIER FOUNDATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1767,38.2272</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>8353 Burr Hill Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2903</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.865</value>
+ </Data>
+ <Data name="structure_type">
+   <value>SILO</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8353 Burr Hill Rd</value>
+ </Data>
+ <Data name="height">
+   <value>19.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>130.906768</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Rowe Materials LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.865,38.2903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>112 WEST MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2447</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>112 WEST MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>165.325057</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1114,38.2447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1381</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1917</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>153.02687</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GORDON BARBOUR ELEMENTARY SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1917,38.1381</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>112 WEST MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2447</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>112 WEST MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>165.325057</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1114,38.2447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>112 WEST MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2447</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>112 WEST MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>165.325057</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1114,38.2447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>2130 GERMANNA HIGHWAY/ FACILITIES BUILDING</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3733</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7789</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2130 GERMANNA HIGHWAY/ FACILITIES BUILDING</value>
+ </Data>
+ <Data name="height">
+   <value>25.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>87.294166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GERMANNA COMMUNITY COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7789,38.3733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2394</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.116699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>185.333312</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Orange County Public Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.116699,38.2394</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2536</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1155</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>149.309387</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DOGWOOD VILLAGE OF  ORANGE COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1155,38.2536</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>6507 MOOREMONT RD. (088290)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3108</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.003299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6507 MOOREMONT RD. (088290)</value>
+ </Data>
+ <Data name="height">
+   <value>117.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>323.281005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.003299,38.3108</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>2130 GERMANNA HIGHWAY/ FACILITIES BUILDING</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3733</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7789</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2130 GERMANNA HIGHWAY/ FACILITIES BUILDING</value>
+ </Data>
+ <Data name="height">
+   <value>25.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>87.294166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7789,38.3733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3031</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.963899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>95.744728</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TRANSCONTINENTAL GAS PIPELINE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.963899,38.3031</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>MOOREMONT RD., CLARK MTN.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Orange County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3114</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.003299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MOOREMONT RD., CLARK MTN.</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>328.184265</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.003299,38.3114</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

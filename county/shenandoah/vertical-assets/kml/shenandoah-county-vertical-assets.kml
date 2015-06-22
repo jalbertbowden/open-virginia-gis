@@ -1,0 +1,7493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>1000 LANDFILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8397</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5589</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1000 LANDFILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>99</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>288.393707</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RUARCH ASSOCIATES LIMITED PARTNERSHIP  DBA =  RADIO STATION WAZR</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5589,38.8397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>15629 BACK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.0183</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4262</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>15629 BACK RD</value>
+ </Data>
+ <Data name="height">
+   <value>61.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>346.932067</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CENTENNIAL BROADCASTING II, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4262,39.0183</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>RT 11 &amp; INT 81</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8421</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5555</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 11 &amp; INT 81</value>
+ </Data>
+ <Data name="height">
+   <value>122.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>277.011444</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5555,38.8421</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>168 QUARRY LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.0106</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3294</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>168 QUARRY LN</value>
+ </Data>
+ <Data name="height">
+   <value>67.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>202.868896</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shenandoah Mobile, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3294,39.0106</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>192 SHORT RUN LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7711</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6308</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>192 SHORT RUN LN</value>
+ </Data>
+ <Data name="height">
+   <value>92.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>292.915893</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shenandoah Mobile, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6308,38.7711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>3075 S OX RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8417</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5678</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3075 S OX RD</value>
+ </Data>
+ <Data name="height">
+   <value>47</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>301.327941</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shenandoah Mobile, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5678,38.8417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>1181 MOUNT OLIVE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9661</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.442</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1181 MOUNT OLIVE RD</value>
+ </Data>
+ <Data name="height">
+   <value>92.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>274.910644</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shenandoah Mobile, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.442,38.9661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>18 HOOVER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8658</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5475</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>18 HOOVER RD</value>
+ </Data>
+ <Data name="height">
+   <value>93.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>280.598663</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shenandoah Mobile, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5475,38.8658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>543 HAWKINS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7708</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6211</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>543 HAWKINS RD</value>
+ </Data>
+ <Data name="height">
+   <value>87</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>272.369079</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH COUNTY BROADCASTING CORP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6211,38.7708</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>1 mile west of US Route 11 on State Route 703</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7647</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6456</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 mile west of US Route 11 on State Route 703</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>312.953643</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shenandoah Valley Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6456,38.7647</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>206 Wiers Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.82845914</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.56110565</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank Elevated Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>206 Wiers Lane</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>942.7895436</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Edinburg, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.56110565,38.82845914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>314 Red Banks Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.73141299</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.61543654</value>
+ </Data>
+ <Data name="structure_type">
+   <value>500,000 gallon water tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>314 Red Banks Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1076.022706</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mount Jackson, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.61543654,38.73141299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>316 West Old Cross Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.64953243</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.68172317</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Raw Water Tank # 1</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>316 West Old Cross Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>985.2519315</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Market, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.68172317,38.64953243</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>316 West Old Cross Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.64960381</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.68190163</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Raw Water Tank # 2</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>316 West Old Cross Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>984.9889075</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Market, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.68190163,38.64960381</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>400 Dutch Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.75389073</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6434464</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Elevated Water Tank - 500,000 gallon</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>400 Dutch Lane</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>960.7871055</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mount Jackson, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6434464,38.75389073</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>801 West North Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.89419073</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.51465917</value>
+ </Data>
+ <Data name="structure_type">
+   <value>2,000,000 gallon water tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>801 West North Street</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>934.6056661</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Woodstock, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.51465917,38.89419073</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>982 Edinburg Reservoir Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.79509045</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5646609</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>982 Edinburg Reservoir Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1062.192075</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Edinburg, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5646609,38.79509045</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Breckenridge Court</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.00331178</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.37769516</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Meadows Subdivision Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Breckenridge Court</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>780.567084</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Strasburg, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.37769516,39.00331178</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Caverns Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.716995</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.667916</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Smith Aqua water storage tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Caverns Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1067.460562</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mount Jackson, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.667916,38.716995</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Miller Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.64362416</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.68328275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Miller Lane Water Storage Tank 500,000 gallons</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Miller Lane</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1178.562172</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Market, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.68328275,38.64362416</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>North &amp; Banks Fort Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.99193689</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.36061733</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tower</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>North &amp; Banks Fort Street</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>665.5930561</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Strasburg, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.36061733,38.99193689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>Weirs Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.82834645</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.56112236</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Ground Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Weirs Lane</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>942.7639121</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Edinburg, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.56112236,38.82834645</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>3557 Old Valley Pike</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.658099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3557 Old Valley Pike</value>
+ </Data>
+ <Data name="height">
+   <value>60.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>298.964874</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.658099,38.6789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>1000 LANDFILL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.84</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5547</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1000 LANDFILL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>100.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>273.66925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5547,38.84</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>2.7 miles South of Woodstock</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8532</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5248</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.7 miles South of Woodstock</value>
+ </Data>
+ <Data name="height">
+   <value>92</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>250.973937</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hometown Broadcasting, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5248,38.8532</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>6827 Orkney Grade</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7723</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7331</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6827 Orkney Grade</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>365.645507</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shenandoah Mobile Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7331,38.7723</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>Atop Bryce Mtn. 0.56 km North of SR-263</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8098</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7684</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Atop Bryce Mtn. 0.56 km North of SR-263</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>511.047546</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shenandoah Mobile Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7684,38.8098</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8711</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5122</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>247.638702</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shenandoah Memorial Hospital</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5122,38.8711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7314</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6558</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>280.976654</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Merillat Industries LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6558,38.7314</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>1325 Industrial Park Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7314</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6558</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1325 Industrial Park Rd</value>
+ </Data>
+ <Data name="height">
+   <value>14.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>280.976654</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Merillat Industries LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6558,38.7314</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9886</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3586</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>174.534622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHEMSTONE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3586,38.9886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9828</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3564</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>170.800048</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>International  Automotive Components</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3564,38.9828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>806 east queen street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9828</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3564</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>806 east queen street</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>170.800048</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>International  Automotive Components</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3564,38.9828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>2525 ZEPP RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9683</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5094</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2525 ZEPP RD</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>602.375976</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5094,38.9683</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>SR-1314 RR CROSSING AT RR MP85.25</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.755299</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6342</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-1314 RR CROSSING AT RR MP85.25</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>273.571533</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6342,38.755299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>RT728 RR crossing at MP CW92.09</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6553</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT728 RR crossing at MP CW92.09</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>297.53366</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7114,38.6553</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>RT617 RR crossing at MP CW92.09</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6636</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6944</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT617 RR crossing at MP CW92.09</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>294.330566</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6944,38.6636</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>RT767 RR crossing at MP CW90.27</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6878</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6806</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT767 RR crossing at MP CW90.27</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>289.374969</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6806,38.6878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>SR 703 RR crossing at MP CW87.84</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7211</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6633</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 703 RR crossing at MP CW87.84</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>283.703338</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6633,38.7211</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>SR703 RR crossing at MP CW84.84</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7581</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.631399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR703 RR crossing at MP CW84.84</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>272.151733</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.631399,38.7581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>Junction Rd RR crossing at MP B62.64</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9964</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.378</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Junction Rd RR crossing at MP B62.64</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>200.836471</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.378,38.9964</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>810 WEST NORTH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8939</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5142</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>810 WEST NORTH ST</value>
+ </Data>
+ <Data name="height">
+   <value>48.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>281.024383</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WOODSTOCK, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5142,38.8939</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>330 W. RESERVOIR ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8692</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5219</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>330 W. RESERVOIR ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>269.319061</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5219,38.8692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>759 S MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.87</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.512499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>759 S MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>31.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>250.468582</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH MEMORIAL HOSPITAL INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.512499,38.87</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>SR-728 RR CROSSING @ M.P. CW093.12</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6597</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7044</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-728 RR CROSSING @ M.P. CW093.12</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>298.070678</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7044,38.6597</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>SR-617 RR CROSSING @ M.P. CW092.09</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6678</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.689999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-617 RR CROSSING @ M.P. CW092.09</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>295.898956</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.689999,38.6678</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>WISSLER RD. RR CROSSING @ M.P. CW087.84</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7253</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6617</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WISSLER RD. RR CROSSING @ M.P. CW087.84</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>284.341857</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6617,38.7253</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>8895 Collins Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.662</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.670299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8895 Collins Drive</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>328.036376</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.670299,38.662</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>810 WEST NORTH STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8939</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5142</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>810 WEST NORTH STREET</value>
+ </Data>
+ <Data name="height">
+   <value>46.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>281.024383</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WOODSTOCK, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5142,38.8939</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>RT 55 7/10 mi SE of Int Rt 55 and Rt 11</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9808</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.351099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 55 7/10 mi SE of Int Rt 55 and Rt 11</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.421401</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PERRY JUDDS INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.351099,38.9808</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>34646 OLD VALLEY PIKE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.0081</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3264</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>34646 OLD VALLEY PIKE</value>
+ </Data>
+ <Data name="height">
+   <value>39.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>187.426284</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WASHINGTON GAS LIGHT COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3264,39.0081</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.975</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4986</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>508.094482</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VALLEY TWO WAY, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4986,38.975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>3 MI W ON RT 638 FROM RT 600 ON RIGHT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.975</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4986</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 MI W ON RT 638 FROM RT 600 ON RIGHT</value>
+ </Data>
+ <Data name="height">
+   <value>58</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>508.094482</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VALLEY TWO WAY, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4986,38.975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>Dispatcher Base, W COURT ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8833</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5081</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dispatcher Base, W COURT ST</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>250.37265</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5081,38.8833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>1 MI W OF US 11 ON SR 703</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7469</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6725</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI W OF US 11 ON SR 703</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>304.63977</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6725,38.7469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>1133 S HISEY AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8708</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5339</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1133 S HISEY AVE</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>285.442596</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5339,38.8708</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>6191 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7386</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6433</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6191 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>264.22702</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AmeriGas Propane, L.P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6433,38.7386</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>.7 MI S OF INT RT 260 &amp; RT 11 ON RT 11</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6389</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6894</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.7 MI S OF INT RT 260 &amp; RT 11 ON RT 11</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>331.347351</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FRANWOOD FARMS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6894,38.6389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>RT 717</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8119</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7919</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 717</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>427.590332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BRYCE RESORT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7919,38.8119</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>614 S MAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8758</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.509999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>614 S MAIN</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>245.495925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MASSANUTTEN MILITARY ACADEMY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.509999,38.8758</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>545 RADIO STATION RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.0111</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.353099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>545 RADIO STATION RD</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>206.734497</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMERICOLD LOGISTICS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.353099,39.0111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8817</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5058</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>238.987152</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>APB III ENTERPRISES INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5058,38.8817</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>3 MI W OF RT 600 ON RT 638</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.975</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4986</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 MI W OF RT 600 ON RT 638</value>
+ </Data>
+ <Data name="height">
+   <value>54</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>508.094482</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHAWNEE SYSTEMS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4986,38.975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>3 MI W OF RT 600 ON RT 638</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.975</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4986</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 MI W OF RT 600 ON RT 638</value>
+ </Data>
+ <Data name="height">
+   <value>54</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>508.094482</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHAWNEE SYSTEMS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4986,38.975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>160 E KING ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9889</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.360599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>160 E KING ST</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>172.415267</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VALLEY TWO WAY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.360599,38.9889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>ZEPP MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.975</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4986</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ZEPP MTN</value>
+ </Data>
+ <Data name="height">
+   <value>58</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>508.094482</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VALLEY TWO WAY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4986,38.975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>ST RT 611 AT STRATON WAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8117</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7594</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 611 AT STRATON WAY</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>478.038146</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SKY BRYCE ASSOCIATION INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7594,38.8117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>RT 55 7/10 MI SE OF INT RT 55 AND RT 11</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9808</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.351099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 55 7/10 MI SE OF INT RT 55 AND RT 11</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.421401</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Perry Judds Inc dba RR Donnelley</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.351099,38.9808</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>5824 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.755299</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6331</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5824 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>272.531616</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KELLER, NELSON F</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6331,38.755299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>RT 703 1 MI W OF INT OF RT 703 &amp; RT 614</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7889</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6569</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 703 1 MI W OF INT OF RT 703 &amp; RT 614</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>322.859832</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KELLER, NELSON F</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6569,38.7889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>SIGNAL KNOB MTN 3 MI SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9606</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.333</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SIGNAL KNOB MTN 3 MI SE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>611.422851</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.333,38.9606</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8228</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.565799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>254.406097</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EDINBURG, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.565799,38.8228</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>400 DUTCH LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7536</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6431</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>400 DUTCH LANE</value>
+ </Data>
+ <Data name="height">
+   <value>48.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>291.059204</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MOUNT JACKSON, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6431,38.7536</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>US 11 .2 KM N OF SR 620</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6958</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.648899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 11 .2 KM N OF SR 620</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>297.639648</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.648899,38.6958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>SR 651 AT INT OF SR 642</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.97</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.443</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 651 AT INT OF SR 642</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>288.471191</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.443,38.97</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>326 BANKSFORT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9919</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.360599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>326 BANKSFORT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>43</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>202.902099</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STRASBURG, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.360599,38.9919</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>US 11 1.6 KM S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8122</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5881</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 11 1.6 KM S</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>288.704467</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5881,38.8122</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>US RT 11 S .2 N OF INT RT 42</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8703</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5128</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 11 S .2 N OF INT RT 42</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>249.224517</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LORD FAIRFAX EMS COUNCIL INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5128,38.8703</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>2 MI NW ON W RT 600</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9683</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5094</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 MI NW ON W RT 600</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>602.375976</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LORD FAIRFAX EMS COUNCIL INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5094,38.9683</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>BRYCE RESORT VA RT 263</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8156</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7692</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRYCE RESORT VA RT 263</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>384.231506</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL SKI PATROL SYSTEM INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7692,38.8156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>SHENANDOAH COUNTY MEMORIAL HOSPITAL US RT 11</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8703</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5128</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SHENANDOAH COUNTY MEMORIAL HOSPITAL US RT 11</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>249.224517</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LORD FAIRFAX EMERGENCY MEDICAL SERVICES COUNCIL INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5128,38.8703</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>SHENANDOAH CTY MEM HOSP RT 11</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8703</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5128</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SHENANDOAH CTY MEM HOSP RT 11</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>249.224517</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LORD FAIRFAX EMERG MED SVCS COUNCIL INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5128,38.8703</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>2525 ZEPP RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9683</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5094</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2525 ZEPP RD</value>
+ </Data>
+ <Data name="height">
+   <value>22</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>602.375976</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5094,38.9683</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9464</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4392</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>213.607894</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Shenandoah</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4392,38.9464</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6478</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6714</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>320.669219</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW MARKET, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6714,38.6478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>135 N MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.882499</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5064</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>135 N MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>241.853164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WOODSTOCK, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5064,38.882499</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7475</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6425</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>278.695678</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MOUNT JACKSON, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6425,38.7475</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>TOWNHALL CONGRESS ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6431</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6714</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOWNHALL CONGRESS ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>322.75354</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW MARKET, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6714,38.6431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>600 N MAIN #109</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8886</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4989</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>600 N MAIN #109</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>246.451309</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4989,38.8886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6431</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6714</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>322.75354</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW MARKET, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6714,38.6431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>FORESTRY OFC LAKE VIEW RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.862799</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5169</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY OFC LAKE VIEW RD</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>261.955963</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5169,38.862799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>WATER TWR N FORT ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9919</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.360599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TWR N FORT ST</value>
+ </Data>
+ <Data name="height">
+   <value>43</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>202.902099</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STRASBURG, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.360599,38.9919</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>1150 FT SW OF END OF FR 305</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6639</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6692</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1150 FT SW OF END OF FR 305</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>328.931671</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6692,38.6639</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>651 TOWER MOUNTAIN LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8097</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.717199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>651 TOWER MOUNTAIN LANE</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>549.890747</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.717199,38.8097</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>9418 JOHN SEVIER RD TOWN HALL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6464</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6711</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9418 JOHN SEVIER RD TOWN HALL</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>320.874633</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW MARKET, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6711,38.6464</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>1 MI SE RT 758 ON 678</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8439</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI SE RT 758 ON 678</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>280.428802</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.8439</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>600 N. MAIN ST #109</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8886</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4989</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>600 N. MAIN ST #109</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>246.451309</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4989,38.8886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>651 TOWER MOUNTAIN LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8097</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.717199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>651 TOWER MOUNTAIN LANE</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>549.890747</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.717199,38.8097</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>624 ALABAMA AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9733</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6111</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>624 ALABAMA AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>935.898498</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HERNDON, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6111,38.9733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>135 N MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.882499</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5064</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>135 N MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>241.853164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WOODSTOCK, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5064,38.882499</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>WATER TWR N FORT ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9833</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3497</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TWR N FORT ST</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>177.465301</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STRASBURG, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3497,38.9833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>1/3 MI N OF CITY LIMITS ON RT 11</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7711</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6211</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/3 MI N OF CITY LIMITS ON RT 11</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>272.707946</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MOUNT JACKSON VOL FIRE DEPT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6211,38.7711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>600 NORTH MAIN STREET #109</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8886</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4989</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>600 NORTH MAIN STREET #109</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>246.451309</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4989,38.8886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>326 BANKS FORT RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9919</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.360599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>326 BANKS FORT RD</value>
+ </Data>
+ <Data name="height">
+   <value>43.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>202.902099</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.360599,38.9919</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>192 SHORT RUN LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7711</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>192 SHORT RUN LN</value>
+ </Data>
+ <Data name="height">
+   <value>94.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>292.915893</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6308,38.7711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>BUCK HILL NEAR INT LUTZ HOLLOW ROAD &amp; WINDFIELD RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8033</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUCK HILL NEAR INT LUTZ HOLLOW ROAD &amp; WINDFIELD RD</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>525.672912</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES C</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6894,38.8033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>288 FAIRVIEW RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9028</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5094</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>288 FAIRVIEW RD</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>281.156372</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5094,38.9028</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>192 SHORT RUN LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7711</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>192 SHORT RUN LN</value>
+ </Data>
+ <Data name="height">
+   <value>94.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>292.915893</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6308,38.7711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>168 QUARRY LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.0106</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3294</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>168 QUARRY LN</value>
+ </Data>
+ <Data name="height">
+   <value>70</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>202.868896</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3294,39.0106</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>288 FAIRVIEW RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9019</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5092</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>288 FAIRVIEW RD</value>
+ </Data>
+ <Data name="height">
+   <value>51.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>278.57019</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5092,38.9019</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>3 MI W ON RT 638 FROM RT 600 ON RIGHT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.975</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4986</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 MI W ON RT 638 FROM RT 600 ON RIGHT</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>508.094482</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Two Way</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4986,38.975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>8.1 MI NE OF US 11 &amp; US 211</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7447</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5864</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8.1 MI NE OF US 11 &amp; US 211</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>485.245452</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5864,38.7447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>BUCK HILL 4 MI NNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8033</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUCK HILL 4 MI NNW</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>525.672912</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6894,38.8033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>SIGNAL KNOB</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.96</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3308</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SIGNAL KNOB</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>641.487304</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3308,38.96</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>SIGNAL KNOB 2.5 MI SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9606</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.333</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SIGNAL KNOB 2.5 MI SE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>611.422851</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.333,38.9606</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7708</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6211</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>272.369079</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COFFEE COUNTY BROADCASTING, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6211,38.7708</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>Leigh Lane Within Shenandoah</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.81</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7683</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Leigh Lane Within Shenandoah</value>
+ </Data>
+ <Data name="height">
+   <value>16.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>513.430236</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7683,38.81</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>6815 Orkney Grade Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7722</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7331</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6815 Orkney Grade Road</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>359.236236</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7331,38.7722</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>3557 Old Valley Pike</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.658099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3557 Old Valley Pike</value>
+ </Data>
+ <Data name="height">
+   <value>62.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>298.964874</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.658099,38.6789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>Leigh Lane Within Shenandoah</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.81</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7683</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Leigh Lane Within Shenandoah</value>
+ </Data>
+ <Data name="height">
+   <value>14.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>513.430236</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7683,38.81</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>Quicksburg Site 3557 Old Valley Pike</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.658099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Quicksburg Site 3557 Old Valley Pike</value>
+ </Data>
+ <Data name="height">
+   <value>62.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>298.964874</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia 10 RSA  Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.658099,38.6789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>288 Fairview Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9019</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5092</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>288 Fairview Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>278.57019</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia 10 RSA  Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5092,38.9019</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>192 SHORT RUN LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7711</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>192 SHORT RUN LN</value>
+ </Data>
+ <Data name="height">
+   <value>94.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>292.915893</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia 10 RSA  Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6308,38.7711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>1181 MOUNT OLIVE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9661</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4419</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1181 MOUNT OLIVE RD</value>
+ </Data>
+ <Data name="height">
+   <value>94.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>274.773162</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia 10 RSA  Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4419,38.9661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>Atop Bryce Mtn. 0.56 km North of SR-263</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8097</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7683</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Atop Bryce Mtn. 0.56 km North of SR-263</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>506.134185</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia 10 RSA  Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7683,38.8097</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>3075 S OX RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8417</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5678</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3075 S OX RD</value>
+ </Data>
+ <Data name="height">
+   <value>52.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>301.327941</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia 10 RSA  Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5678,38.8417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark126">
+ <name>SR11 Old Valley Pike</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.0081</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3265</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR11 Old Valley Pike</value>
+ </Data>
+ <Data name="height">
+   <value>42.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>187.553512</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Washington Gas Light Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3265,39.0081</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark127">
+ <name>4.9 miles west of intersection Interstate 81 and SR 614</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.804</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6886</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4.9 miles west of intersection Interstate 81 and SR 614</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>505.976562</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Washington Gas Light Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6886,38.804</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark128">
+ <name>123 East Court Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8819</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5044</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>123 East Court Street</value>
+ </Data>
+ <Data name="height">
+   <value>46.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>237.815368</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JONES BROADCASTING, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5044,38.8819</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark129">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9764</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4705</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>286.229248</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS OF VIRGINIA INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4705,38.9764</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark130">
+ <name>Signal Knob</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9601</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Signal Knob</value>
+ </Data>
+ <Data name="height">
+   <value>22.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>641.759399</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3308,38.9601</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark131">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8233</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5654</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>255.10556</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Aqua Utilities, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5654,38.8233</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark132">
+ <name>1000 LANDFILL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8399</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5547</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1000 LANDFILL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>113.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>274.04074</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia PCS Alliance, L.C.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5547,38.8399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark133">
+ <name>1133 S HISEY AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8709</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5339</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1133 S HISEY AVE</value>
+ </Data>
+ <Data name="height">
+   <value>23.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>285.535888</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5339,38.8709</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark134">
+ <name>1.1 MI NW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8334</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5789</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.1 MI NW OF</value>
+ </Data>
+ <Data name="height">
+   <value>9.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>270.061309</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VALLEY BAPTIST CHURCH - CHRISTIAN SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5789,38.8334</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark135">
+ <name>LITTLE N. MTN.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9751</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4986</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LITTLE N. MTN.</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>508.094482</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JONES BROADCASTING, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4986,38.9751</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark136">
+ <name>123 E. COURT ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8815</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5044</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>123 E. COURT ST.</value>
+ </Data>
+ <Data name="height">
+   <value>47.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>236.544311</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JONES BROADCASTING, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5044,38.8815</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark137">
+ <name>467 Mt. Hebron Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9639</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.429399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>NNTANN</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>467 Mt. Hebron Road</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>342.394775</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JONES BROADCASTING, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.429399,38.9639</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark138">
+ <name>123 E COURT ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8815</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5044</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>123 E COURT ST</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>236.544311</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CC LICENSES, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5044,38.8815</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark139">
+ <name>WFFV FM STUDIO RT 11 S OF INTRCHNG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.0031</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3408</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WFFV FM STUDIO RT 11 S OF INTRCHNG</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>210.828018</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAPSTAR TX LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3408,39.0031</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark140">
+ <name>2 MI NE ON US ROUTE 11</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.0079</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3267</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 MI NE ON US ROUTE 11</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>187.044021</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Columbia Gas Transmission Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3267,39.0079</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark141">
+ <name>RT. 2 BOX</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8039</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.688299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT. 2 BOX</value>
+ </Data>
+ <Data name="height">
+   <value>50</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>499.489837</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WASHINGTON GAS LIGHT COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.688299,38.8039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark142">
+ <name>Caroline Furnace  7.01 E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7439</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.512499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Caroline Furnace  7.01 E</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>342.812622</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.512499,38.7439</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark143">
+ <name>New Market WTP0.54 mi  W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6492</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.680799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>New Market WTP0.54 mi  W</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>302.891784</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.680799,38.6492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark144">
+ <name>Bryce Mtn  8.18 mi  WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8061</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7728</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Bryce Mtn  8.18 mi  WNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>518.115844</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7728,38.8061</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark145">
+ <name>Jerome Gap  10.5 mi  WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.875</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7486</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Jerome Gap  10.5 mi  WNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>404.239227</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7486,38.875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark146">
+ <name>Strasburg Reservoir  3.05 mi  S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9444</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3544</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Strasburg Reservoir  3.05 mi  S</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>443.901397</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3544,38.9444</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark147">
+ <name>Burnshire Dam  2.07 mi  E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8772</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4669</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Burnshire Dam  2.07 mi  E</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>198.988037</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4669,38.8772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark148">
+ <name>Fetzer Gap  3.94 mi  WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9708</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5061</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fetzer Gap  3.94 mi  WNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>573.773986</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5061,38.9708</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark149">
+ <name>1/4 mi E of VA Rt. 11 on Mill Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8892</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4967</value>
+ </Data>
+ <Data name="structure_type">
+   <value>b</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/4 mi E of VA Rt. 11 on Mill Road</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>247.336654</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Shenandoah</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4967,38.8892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark150">
+ <name>Zepp (NW)  6.21 mi  NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.0172</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Zepp (NW)  6.21 mi  NW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>404.698669</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5114,39.0172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark151">
+ <name>Woodstock Reservoir  8.40 mi  W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9011</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.655</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Woodstock Reservoir  8.40 mi  W</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>389.193939</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.655,38.9011</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark152">
+ <name>Mt Jackson  0.02 mi  ESE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.745</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6386</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Mt Jackson  0.02 mi  ESE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>257.784393</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6386,38.745</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark153">
+ <name>Detrick  5.56 mi  ESE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8444</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4136</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detrick  5.56 mi  ESE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>277.692321</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4136,38.8444</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark154">
+ <name>Mt Olive  2.83 mi  NNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9847</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4592</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Mt Olive  2.83 mi  NNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>305.051239</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4592,38.9847</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark155">
+ <name>Tumbling Run  4.13 mi  N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.006899</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4403</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Tumbling Run  4.13 mi  N</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>342.305908</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4403,39.006899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark156">
+ <name>FEHR LANE RAILROAD CROSSING AT RR MP B69.50</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9272</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.466099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FEHR LANE RAILROAD CROSSING AT RR MP B69.50</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>241.851669</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.466099,38.9272</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark157">
+ <name>Shenandoah County 911 Center, 600 N Main St, Woodstock</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8906</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4972</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Shenandoah County 911 Center, 600 N Main St, Woodstock</value>
+ </Data>
+ <Data name="height">
+   <value>13.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>251.091873</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4972,38.8906</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark158">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7189</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7206</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>328.805358</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EchoStar Broadcasting Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7206,38.7189</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark159">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6458</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6717</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>321.46759</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW MARKET, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6717,38.6458</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark160">
+ <name>Aileen Booster Pump Station</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9797</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3503</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Aileen Booster Pump Station</value>
+ </Data>
+ <Data name="height">
+   <value>4.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>172.469299</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Town of Strasburg, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3503,38.9797</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark161">
+ <name>Strasburg Reservoir</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9664</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3486</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Strasburg Reservoir</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>285.936157</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Town of Strasburg, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3486,38.9664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark162">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9133</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.37</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>344.43927</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.37,38.9133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark163">
+ <name>2198 John Marshall Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.0181</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.36</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2198 John Marshall Highway</value>
+ </Data>
+ <Data name="height">
+   <value>4.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>240.663772</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Town of Strasburg, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.36,39.0181</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark164">
+ <name>1094 Colley Block Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.005</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3586</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1094 Colley Block Road</value>
+ </Data>
+ <Data name="height">
+   <value>4.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>206.433914</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Town of Strasburg, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3586,39.005</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark165">
+ <name>298 Breckenridge Court</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.0033</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3775</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>298 Breckenridge Court</value>
+ </Data>
+ <Data name="height">
+   <value>4.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>237.784744</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Town of Strasburg, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3775,39.0033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark166">
+ <name>372 Junction Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9972</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3792</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>372 Junction Road</value>
+ </Data>
+ <Data name="height">
+   <value>4.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>203.599609</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Town of Strasburg, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3792,38.9972</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark167">
+ <name>323 Banks Fort Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9919</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.360599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>323 Banks Fort Road</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>202.902099</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Town of Strasburg, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.360599,38.9919</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark168">
+ <name>422 S. Holliday Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9817</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3608</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>422 S. Holliday Street</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>162.313827</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Town of Strasburg, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3608,38.9817</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark169">
+ <name>1974 FAIRWAY DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8169</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7658</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1974 FAIRWAY DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>386.627563</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BRYCE RESORT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7658,38.8169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark170">
+ <name>.4 MI W OF INT OF RTS 42 &amp; 733 ON RT 733</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7008</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.7425</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.4 MI W OF INT OF RTS 42 &amp; 733 ON RT 733</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>350.853057</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mundy Stone Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.7425,38.7008</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark171">
+ <name>BUCK HILL, 4 MILES NNW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8033</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6894</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUCK HILL, 4 MILES NNW OF</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>525.672912</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6894,38.8033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark172">
+ <name>Telco Headquarters</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8208</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.565799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Telco Headquarters</value>
+ </Data>
+ <Data name="height">
+   <value>864</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>244.681228</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.565799,38.8208</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark173">
+ <name>Rooftop of Telephone Company Headquarters</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8208</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.565799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rooftop of Telephone Company Headquarters</value>
+ </Data>
+ <Data name="height">
+   <value>16.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>244.681228</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.565799,38.8208</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark174">
+ <name>168 QUARRY LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.0106</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3294</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>168 QUARRY LN</value>
+ </Data>
+ <Data name="height">
+   <value>70</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>202.868896</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Afton Communications Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3294,39.0106</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark175">
+ <name>1.8 Miles West of I-81</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8658</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5475</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.8 Miles West of I-81</value>
+ </Data>
+ <Data name="height">
+   <value>94.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>280.598663</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Afton Communications Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5475,38.8658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark176">
+ <name>1.4 MI N 335 DEGREES EAST FROM EDINBURG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8417</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.568</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.4 MI N 335 DEGREES EAST FROM EDINBURG</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>301.124389</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Afton Communications Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.568,38.8417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark177">
+ <name>ROOFTOP OF TELEPHONE COMPANY HEADQUARTERS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Shenandoah County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8208</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.565799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROOFTOP OF TELEPHONE COMPANY HEADQUARTERS</value>
+ </Data>
+ <Data name="height">
+   <value>16.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>244.681228</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Afton Communications Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.565799,38.8208</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

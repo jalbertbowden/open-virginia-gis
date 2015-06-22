@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>Potts Mntn Rd (088321)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5425</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2173</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Potts Mntn Rd (088321)</value>
+ </Data>
+ <Data name="height">
+   <value>76.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1089.329467</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2173,37.5425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>Upper Johns Creek  3.07mi  SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4564</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3197</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Upper Johns Creek  3.07mi  SW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>522.969238</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3197,37.4564</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>Simmonsville  8.94mi   NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3811</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3747</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Simmonsville  8.94mi   NE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>745.970886</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3747,37.3811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>Abbott  5.0mi  SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4303</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.138</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Abbott  5.0mi  SSW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>414.90335</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.138,37.4303</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>5783 CUMBERLAND GAP ROAD NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3808</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3744</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5783 CUMBERLAND GAP ROAD NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>743.832214</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CRAIG, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3744,37.3808</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>FORESTRY ROAD 177-1 ON POTTS MOUNTAIN RIDGE NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5361</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.23</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY ROAD 177-1 ON POTTS MOUNTAIN RIDGE NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>41.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1045.214721</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CRAIG, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.23,37.5361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>FORESTRY  ROAD 177</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5361</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.23</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY  ROAD 177</value>
+ </Data>
+ <Data name="height">
+   <value>41.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1045.214721</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CRAIG, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.23,37.5361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>STATE ROUTE 311 ATOP POTTS MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5358</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2325</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATE ROUTE 311 ATOP POTTS MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>49.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1051.208862</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALLEGHANY, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2325,37.5358</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>HUFFMAN FARMS RD NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3642</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3892</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HUFFMAN FARMS RD NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>660.500183</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HUFFMAN, GREG</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3892,37.3642</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>STATE RTE 311 AT THE TOP OF POTTS MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5194</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.232799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATE RTE 311 AT THE TOP OF POTTS MTN</value>
+ </Data>
+ <Data name="height">
+   <value>39.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>649.648315</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALLEGHANY, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.232799,37.5194</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>STATE RT 311, AT THE TOP OF POTTS MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5358</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2325</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATE RT 311, AT THE TOP OF POTTS MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>32.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1051.208862</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CRAIG, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2325,37.5358</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5508</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3067</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>617.550537</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hollow Hill Farm Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3067,37.5508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Rt 1 Box 64 Horse Barn</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5508</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3067</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt 1 Box 64 Horse Barn</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>617.550537</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hollow Hill Farm Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3067,37.5508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>POTTS MOUNTAIN 1/2 MI N OF RT 311 7 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5203</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2181</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POTTS MOUNTAIN 1/2 MI N OF RT 311 7 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>580.802062</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CRAIG BOTETOURT ELECTRIC COOP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2181,37.5203</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>CRAIG SPRINGS CAMP 100 YDS N OF SR RT 658</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4844</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.291899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CRAIG SPRINGS CAMP 100 YDS N OF SR RT 658</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>578.279052</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA CHRISTIAN MISSIONARY SOCIETY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.291899,37.4844</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>FR 177-1 1.6 KM E OF SR 311</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5428</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2169</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FR 177-1 1.6 KM E OF SR 311</value>
+ </Data>
+ <Data name="height">
+   <value>81.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1086.166625</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2169,37.5428</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>SR 659 1 KM N OF SR 311</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5064</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.105</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 659 1 KM N OF SR 311</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>387.363677</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.105,37.5064</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Lot 6 Market St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5056</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.106099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Lot 6 Market St.</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>382.118804</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.106099,37.5056</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>NEWCASTLE Cell Site pps Knob on SR-42</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4906</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.125299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEWCASTLE Cell Site pps Knob on SR-42</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>582.225524</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.125299,37.4906</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>POTTS MOUNTAIN 4.1 MILES ESE OF PAINT BANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5425</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2219</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POTTS MOUNTAIN 4.1 MILES ESE OF PAINT BANK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>989.746887</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2219,37.5425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>New Castle  0.86 mi  NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5089</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.0975</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>New Castle  0.86 mi  NE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>381.892333</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.0975,37.5089</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>Potts Mtn  7.13 mi WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5361</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.23</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Potts Mtn  7.13 mi WNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1045.214721</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.23,37.5361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Johns C/RT 311  4.15 mi  W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5072</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.1833</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Johns C/RT 311  4.15 mi  W</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>472.637115</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.1833,37.5072</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>Craig C/Rt614  4.83 mi  ENE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5358</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.0342</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Craig C/Rt614  4.83 mi  ENE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>362.273193</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.0342,37.5358</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5361</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.23</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1045.214721</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SIMMONSVILLE VOLUNTEER FIRE DEPT., INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.23,37.5361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>Craig County EOC - 301 Salem Ave, New Castle</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4947</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.1069</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Craig County EOC - 301 Salem Ave, New Castle</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>402.791381</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.1069,37.4947</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>FD BLDG ON SR 42</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3811</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3747</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FD BLDG ON SR 42</value>
+ </Data>
+ <Data name="height">
+   <value>17</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>745.970886</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SIMMONSVILLE VOLUNTEER FIRE DEPT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3747,37.3811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>SINKING CREEK MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4419</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.1794</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SINKING CREEK MTN</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1086.787719</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CRAIG, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.1794,37.4419</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>FORESTRY  ROAD 177</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5361</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.23</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY  ROAD 177</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1045.214721</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CRAIG, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.23,37.5361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5686</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2619</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>564.823913</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Aclara Technologies LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2619,37.5686</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>WATER TANK ON AWAH LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.1136</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TANK ON AWAH LANE</value>
+ </Data>
+ <Data name="height">
+   <value>16.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>438.5401</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CASTLE VOLUNTEER FIRE DEPARTMENT, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.1136,37.5</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Craig County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5686</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2619</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>564.823913</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ACLARA TECHNOLOGIES LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2619,37.5686</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

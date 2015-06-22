@@ -1,0 +1,6065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>402 Circle Drive   (VA11254-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3253</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6463</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>402 Circle Drive   (VA11254-A)</value>
+ </Data>
+ <Data name="height">
+   <value>76.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>629.702575</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers II LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6463,37.3253</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>202 Hobson Avenue</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3258</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7464</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>202 Hobson Avenue</value>
+ </Data>
+ <Data name="height">
+   <value>48.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>665.420288</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cebridge Acquisition, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7464,37.3258</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>10 miles Northwest of SR-606 on SR-671 in Giles County, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.247399</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8563</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10 miles Northwest of SR-606 on SR-671 in Giles County, VA</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1246.333251</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8563,37.247399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>ST HWY 100 2.1 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3442</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.776399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST HWY 100 2.1 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>0.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>474.565948</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New River Interactive Media, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.776399,37.3442</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>542 Spruce Run</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2939</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5219</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>542 Spruce Run</value>
+ </Data>
+ <Data name="height">
+   <value>48.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>955.449157</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5219,37.2939</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>1400 College Street (Purdue Site)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3282</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7963</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1400 College Street (Purdue Site)</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>640.39093</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Communications Infrastructure Group, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7963,37.3282</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>4427 Rte 100</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2283</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7316</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4427 Rte 100</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>614.474914</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SpectraSite Communications, LLC. through American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7316,37.2283</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>.6 MI N. OF 663, 4.4 MI S. OF INT. OF CR663 &amp; CR665</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8555</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.6 MI N. OF 663, 4.4 MI S. OF INT. OF CR663 &amp; CR665</value>
+ </Data>
+ <Data name="height">
+   <value>73.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.65332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8555,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>218 Camp Meeting Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.294</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7339</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>218 Camp Meeting Rd</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>624.060546</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Central States Tower II, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7339,37.294</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>434 Robertson Mtn Tower Rd.      (VA10747-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3691</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.828299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>434 Robertson Mtn Tower Rd.      (VA10747-A)</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>662.324584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers II LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.828299,37.3691</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Lindsey Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3479</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7076</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Lindsey Drive</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>649.717224</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Global Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7076,37.3479</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Butt Mtn  6.88 mi  ENE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3692</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.622799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Butt Mtn  6.88 mi  ENE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1282.312988</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.622799,37.3692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Spruce Run  11.15 mi ESE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.276099</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5439</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Spruce Run  11.15 mi ESE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>652.932067</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5439,37.276099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>North Fork  14.35mi  NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4619</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.528599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>North Fork  14.35mi  NE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>938.414001</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.528599,37.4619</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>Mtn Lake Bio Sta  12.04 mi  ENE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3753</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Mtn Lake Bio Sta  12.04 mi  ENE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1167.097534</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5247,37.3753</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Wolf Creek 10.37mi  WSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2642</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.979199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Wolf Creek 10.37mi  WSW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>564.990112</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.979199,37.2642</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>Dismal Mtn  6.09 mi  SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8564</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dismal Mtn  6.09 mi  SSW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.877075</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8564,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>ATOP FLAT TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8539</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FLAT TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.814819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8539,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3236</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7217</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>559.711425</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Carilion Giles Memorial Hospital</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7217,37.3236</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>ATOP FLAT TOP MOUNTAIN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8536</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FLAT TOP MOUNTAIN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.049804</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLAND, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8536,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>FORD XING ST RR CROSSING @ RR MP N337.2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3786</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8278</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORD XING ST RR CROSSING @ RR MP N337.2</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>467.001556</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8278,37.3786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>SR-365 RR CROSSING @ RR MP PV3.94</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3783</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6675</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-365 RR CROSSING @ RR MP PV3.94</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>537.914733</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6675,37.3783</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.325</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7305</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>545.818908</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7305,37.325</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>ATOP BUTTS MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3695</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6236</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP BUTTS MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1274.791992</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6236,37.3695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>ATOP ANGELS REST MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2983</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.81</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP ANGELS REST MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1042.811279</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.81,37.2983</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>ATOP FLAT TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8539</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FLAT TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.814819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8539,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>ATOP POWELL MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3969</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8322</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POWELL MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>647.160278</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8322,37.3969</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>ATOP BALD KNOB</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.35</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5375</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP BALD KNOB</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1326.627807</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5375,37.35</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>ATOP POWELL MOUNTAIN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3969</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8322</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POWELL MOUNTAIN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>647.160278</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES COUNTY SCHOOL BOARD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8322,37.3969</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>ATOP BALD KNOB MOUNTAIN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.35</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5375</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP BALD KNOB MOUNTAIN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1326.627807</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES COUNTY SCHOOL BOARD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5375,37.35</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2478</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8539</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1226.583251</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8539,37.2478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>River Rd RR crossing at MP N323.25</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3328</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>River Rd RR crossing at MP N323.25</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>489.850433</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6786,37.3328</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>ATOP PETERS MOUNTAIN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3786</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.75</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP PETERS MOUNTAIN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>27.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1029.910034</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CARILION PATIENT TRANSPORTATION SERVICES, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.75,37.3786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>145 KINTER WAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2967</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7078</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>145 KINTER WAY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>505.870452</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WENDBECK CORP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7078,37.2967</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>ORCHARD HILLS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.33</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8244</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ORCHARD HILLS</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>564.548889</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NARROWS, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8244,37.33</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>Cascade Rd RR crossing at MP V303.34</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3164</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6406</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Cascade Rd RR crossing at MP V303.34</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>515.345153</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6406,37.3164</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>Rt 625 RR crossing at MP V295.85</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2633</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6033</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt 625 RR crossing at MP V295.85</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>517.926818</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6033,37.2633</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>ATOP FLAT TOP MTN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8539</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FLAT TOP MTN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.814819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8539,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>NEAR DISMAL PK FIRE TWR 4 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2467</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8553</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR DISMAL PK FIRE TWR 4 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>50</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1243.686035</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMERICAN ELECTRIC POWER SERVICE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8553,37.2467</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>CURVE SAD, MP N 327.6 NEAR POTTS VALLEY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3514</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7167</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CURVE SAD, MP N 327.6 NEAR POTTS VALLEY</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>495.441741</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7167,37.3514</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>Detector  RR MP V315.95</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3439</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7864</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detector  RR MP V315.95</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>470.743652</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7864,37.3439</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Detector, RR MP N 342</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3661</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8661</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detector, RR MP N 342</value>
+ </Data>
+ <Data name="height">
+   <value>4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>465.701293</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8661,37.3661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Dispatch  MP 323.5</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3342</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6783</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dispatch  MP 323.5</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.867828</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6783,37.3342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>Dispatch   127 Depot St   MP N333.8</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3328</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.809399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dispatch   127 Depot St   MP N333.8</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>473.833129</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.809399,37.3328</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>SNIDOW ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3197</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.638299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SNIDOW ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>505.203216</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PEMBROKE TELEPHONE COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.638299,37.3197</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>TOP DISMAL MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8555</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOP DISMAL MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.65332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PEMBROKE TELEPHONE COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8555,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3175</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5928</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>643.237548</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EASTERN ELEMENTARY SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5928,37.3175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>POWER PLANT ON VA RT 649</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.37</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8633</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POWER PLANT ON VA RT 649</value>
+ </Data>
+ <Data name="height">
+   <value>36</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>471.059265</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Appalachian Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8633,37.37</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3417</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7972</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>517.360351</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CELANESE ACETATE INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7972,37.3417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>COMMUNICATIONS CENTER IN PLANT NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3436</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.761899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COMMUNICATIONS CENTER IN PLANT NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>482.400787</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CELANESE ACETATE INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.761899,37.3436</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>.6 MI N OF 663, 4.4 MI S of INT  CR663 &amp; CR665</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8555</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.6 MI N OF 663, 4.4 MI S of INT  CR663 &amp; CR665</value>
+ </Data>
+ <Data name="height">
+   <value>75.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.65332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8555,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>ATOP FLAT TOP MOUNTAIN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8539</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FLAT TOP MOUNTAIN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.814819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TWO WAY RADIO INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8539,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2833</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.733299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>596.821716</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Lhoist North America of Virginia, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.733299,37.2833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>MINE OFFICE ON ST RT 635</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3853</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.662199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MINE OFFICE ON ST RT 635</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>554.807189</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Lhoist North America of Virginia, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.662199,37.3853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>ST RT 635</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3833</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6581</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 635</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>659.243347</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Lhoist North America of Virginia, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6581,37.3833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>TOP DISMAL PEAK FLAT TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8558</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOP DISMAL PEAK FLAT TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.205688</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HENDERSON JR, HENRY B</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8558,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.365</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8603</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>515.597717</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GLEN LYN FIRE DEPT INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8603,37.365</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>ATOP FLAT TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8536</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FLAT TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.049804</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RED SULPHUR PUBLIC SERVICE DISTRICT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8536,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>ST RT 700 BALD KNOB</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3497</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5372</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 700 BALD KNOB</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1323.87268</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DAVID C HEAVENER INC DBA HEAVENER HARDWARE AND LUMBER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5372,37.3497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>ATOP FLAT TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8539</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FLAT TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.814819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TWO WAY RADIO INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8539,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>FLAT TOP MOUNTAIN ELECTRONICS SITE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8536</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FLAT TOP MOUNTAIN ELECTRONICS SITE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.049804</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS OF VIRGINIA INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8536,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>TOP OF DISMAL PEAK ON FLAT TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8555</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOP OF DISMAL PEAK ON FLAT TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.65332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STRONGS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8555,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>ATOP FLAT TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8555</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FLAT TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.65332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>C L DRAUGHN DITCHING CONTRACTOR</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8555,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>ATOP DISMAL MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8555</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP DISMAL MTN</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.65332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW RIVER VALLEY REGIONAL JAIL AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8555,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>END OF SR 663 10 KM S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2478</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8539</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF SR 663 10 KM S</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1226.583251</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8539,37.2478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3297</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7342</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>536.991882</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7342,37.3297</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>MOUNTAIN LAKE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3297</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7342</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MOUNTAIN LAKE RD</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>536.991882</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7342,37.3297</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>.33 MI S OF ST RTS 700 &amp; 613</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.35</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5375</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.33 MI S OF ST RTS 700 &amp; 613</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1326.627807</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY SCHOOL BOARD OF GILES COUNTY VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5375,37.35</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>.2 MI NW OF US 460 AND ST RT 640</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3353</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7511</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.2 MI NW OF US 460 AND ST RT 640</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>493.283843</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY SCHOOL BOARD OF GILES COUNTY VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7511,37.3353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>HOSPITAL EMERGENCY ROOM</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3247</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.703899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HOSPITAL EMERGENCY ROOM</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>599.316223</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES MEMORIAL HOSPITAL INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.703899,37.3247</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>HOSPITAL EMERGENCY ROOM</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3247</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.703899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HOSPITAL EMERGENCY ROOM</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>599.316223</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES MEMORIAL HOSPITAL INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.703899,37.3247</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>TOP OF DISMAL PEAK ON FLAT TOP MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8555</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOP OF DISMAL PEAK ON FLAT TOP MTN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.65332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES MEMORIAL HOSPITAL INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8555,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>137M OF INT OF HUCKLEBERRY LN &amp; HOPKINS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3453</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.801899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>137M OF INT OF HUCKLEBERRY LN &amp; HOPKINS RD</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>569.511535</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NARROWS, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.801899,37.3453</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3695</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6236</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1274.791992</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6236,37.3695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>502 WENONAH AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3267</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.735</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>502 WENONAH AVE</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>549.914855</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.735,37.3267</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>ATOP BUTTS MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3695</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6236</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP BUTTS MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1274.791992</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6236,37.3695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>ATOP FLAT TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8539</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FLAT TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.814819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8539,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>ATOP FLAT TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8536</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FLAT TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.049804</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLAND, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8536,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>FD BLDG ON CASCADE DR IN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3175</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.596099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FD BLDG ON CASCADE DR IN</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>614.095703</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.596099,37.3175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>502 WENONAH AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3267</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.735</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>502 WENONAH AVE</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>549.914855</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.735,37.3267</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>ATOP POWELL MTN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3969</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8322</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POWELL MTN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>647.160278</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8322,37.3969</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>ATOP BUTT MTN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3695</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6236</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP BUTT MTN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1274.791992</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6236,37.3695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>ATOP BALD KNOB MTN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.35</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5378</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP BALD KNOB MTN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1325.154785</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5378,37.35</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>4 MI SW OF NARMUS VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8536</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4 MI SW OF NARMUS VA</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.049804</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of    Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8536,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>WATER TANK HORSLEY DR EXT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3356</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7183</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TANK HORSLEY DR EXT</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>605.31903</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PEARISBURG, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7183,37.3356</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>TACTICAL COMMAND CTR IN PLANT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3414</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7606</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TACTICAL COMMAND CTR IN PLANT</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>481.395843</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7606,37.3414</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>COMMUNICATIONS BLDG IN PLANT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3436</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7617</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COMMUNICATIONS BLDG IN PLANT</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>483.018859</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7617,37.3436</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>RT 42 FIREHOUSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2972</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.4933</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 42 FIREHOUSE</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>579.958984</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEWPORT, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.4933,37.2972</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>ATOP FLAT TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8536</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FLAT TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.049804</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLAND, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8536,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>ATOP FIRE STA MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3181</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6386</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FIRE STA MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>559.585144</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PEMBROKE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6386,37.3181</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>WOLF CREEK 5.4 MI SSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2642</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9789</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WOLF CREEK 5.4 MI SSE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>555.124816</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9789,37.2642</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>SPRUCE RUN 4.3 MI ESE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2733</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.543299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SPRUCE RUN 4.3 MI ESE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>632.893554</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.543299,37.2733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>N FORK 4.3 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4547</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.528299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N FORK 4.3 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>989.80371</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.528299,37.4547</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>MOUNTAIN LAKE 6.5 MI NNE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.359399</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.555299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MOUNTAIN LAKE 6.5 MI NNE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1248.984252</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.555299,37.359399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>MINIE BALL HILL 4.55 MI ESE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.375</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5247</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MINIE BALL HILL 4.55 MI ESE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1166.038085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5247,37.375</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>DISMAL 3.9 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8544</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DISMAL 3.9 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.94873</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8544,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>BUTT MOUNTAIN 5.7 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3692</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.622799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUTT MOUNTAIN 5.7 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1282.312988</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.622799,37.3692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>GILES EOC SHERIFFS OFC MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3261</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7347</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GILES EOC SHERIFFS OFC MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>552.459899</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7347,37.3261</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>BALD KNOB</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3497</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5372</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BALD KNOB</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1323.87268</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HENRY B. HENDERSON D/B/A PROFESSIONAL COMMUNICATIONS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5372,37.3497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>ATOP DISMAL PEAK 5 MILES SW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8558</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP DISMAL PEAK 5 MILES SW OF</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.205688</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Nextel Communications of the Mid-Atlantic, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8558,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>CELCO SCALES AEI near RR MP V 315.98</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3439</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7867</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CELCO SCALES AEI near RR MP V 315.98</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>470.838623</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7867,37.3439</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>ATOP DISMAL PEAK 5 MILES SW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8558</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP DISMAL PEAK 5 MILES SW OF</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.205688</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Sibley Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8558,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>NS RoW @ MP V316.1</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3439</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NS RoW @ MP V316.1</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>470.989257</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7875,37.3439</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>NS RoW @ MP V298.0</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2872</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.617799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NS RoW @ MP V298.0</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>503.378265</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.617799,37.2872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>ATOP DISMAL PEAK 5 MILES SW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8558</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP DISMAL PEAK 5 MILES SW OF</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.205688</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8558,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>RAILROAD MP V315.9</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3447</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7853</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RAILROAD MP V315.9</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>471.307769</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7853,37.3447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>RESERVOIR HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.325</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.74</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RESERVOIR HILL</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>615.594421</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.74,37.325</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>ST RT 700 BALD KNOB</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3497</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5372</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 700 BALD KNOB</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1323.87268</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HENDERSON, HENRY B</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5372,37.3497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>SPRUCE RUN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2936</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5219</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SPRUCE RUN</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>952.875366</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5219,37.2936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>ANGELS REST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.316699</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.762499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ANGELS REST</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1103.711303</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.762499,37.316699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>ANGEL'S REST OFF OF RTE 634</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.316699</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.762499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ANGEL'S REST OFF OF RTE 634</value>
+ </Data>
+ <Data name="height">
+   <value>47.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1103.711303</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.762499,37.316699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>ATOP SALT POND MOUNTAIN .5 MI. E OF RT 700 ON ACCESS ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3497</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5372</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP SALT POND MOUNTAIN .5 MI. E OF RT 700 ON ACCESS ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>24.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1323.87268</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5372,37.3497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>BALD KNOB COMM SITE, BALD KNOB TOWER SITE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.35</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5372</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BALD KNOB COMM SITE, BALD KNOB TOWER SITE</value>
+ </Data>
+ <Data name="height">
+   <value>25</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1326.542358</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NRCC EDUCATIONAL FOUNDATION INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5372,37.35</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>10 miles Northwest of SR-606 on SR-671 in Giles County, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.247399</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8563</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10 miles Northwest of SR-606 on SR-671 in Giles County, VA</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1246.333251</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Commonwealth of Virginia, Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8563,37.247399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>MOUNTAIN LAKE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3498</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.537299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MOUNTAIN LAKE</value>
+ </Data>
+ <Data name="height">
+   <value>10.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1324.661865</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ComSoft Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.537299,37.3498</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>1.5 MI W OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3168</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7626</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI W OF</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1102.430541</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7626,37.3168</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>542 Spruce Run</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2939</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5219</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>542 Spruce Run</value>
+ </Data>
+ <Data name="height">
+   <value>50.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>955.449157</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5219,37.2939</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>APPROX. 3 KM EAST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3443</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.776399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>APPROX. 3 KM EAST</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>474.438964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WZFM, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.776399,37.3443</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>3.91 MI FROM INT OF RTS 42 &amp; 670</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2471</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8556</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3.91 MI FROM INT OF RTS 42 &amp; 670</value>
+ </Data>
+ <Data name="height">
+   <value>73.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1246.261108</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8556,37.2471</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>ON BALD KNOB .25 MI S OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.350399</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.537299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON BALD KNOB .25 MI S OF</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1324.240112</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Appalachian Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.537299,37.350399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>ON DISMAL PEAK 1 MI S OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2468</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8553</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON DISMAL PEAK 1 MI S OF</value>
+ </Data>
+ <Data name="height">
+   <value>49.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1244.343139</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Appalachian Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8553,37.2468</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>1 MI W OF RT 460 &amp; 219</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3723</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8626</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI W OF RT 460 &amp; 219</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>461.082489</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Appalachian Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8626,37.3723</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>HILL ST TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3081</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.740499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HILL ST TANK</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>664.164672</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.740499,37.3081</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>NARROWS RD &amp; THOMAS DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3353</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7311</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NARROWS RD &amp; THOMAS DR</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>543.253051</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7311,37.3353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>INDUSTRIAL PARK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3172</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7311</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INDUSTRIAL PARK RD</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>560.874023</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7311,37.3172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>HORSLEY DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3358</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7183</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HORSLEY DR</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>604.744445</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7183,37.3358</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark126">
+ <name>MUTTER LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2997</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7539</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MUTTER LN</value>
+ </Data>
+ <Data name="height">
+   <value>12.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>738.141601</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7539,37.2997</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark127">
+ <name>PULASKI GILES TRAILER PARK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3058</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.7372</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PULASKI GILES TRAILER PARK</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>611.208068</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.7372,37.3058</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark128">
+ <name>LUCKY LN. &amp; VIRGINIA AVE.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2919</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LUCKY LN. &amp; VIRGINIA AVE.</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>642.201904</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5,37.2919</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark129">
+ <name>Giles County  911 Center, 701 Mountain Lake Ave, Pearisburg</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3306</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.73</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Giles County  911 Center, 701 Mountain Lake Ave, Pearisburg</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>535.364807</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.73,37.3306</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark130">
+ <name>BALD MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3497</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5372</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BALD MTN</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1323.87268</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THIRD SECURITY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5372,37.3497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark131">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3328</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.809399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>473.833129</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.809399,37.3328</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark132">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3342</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6783</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.867828</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6783,37.3342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark133">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8555</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.65332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8555,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark134">
+ <name>Glyn Lyn VHF Base at RR MP N340.1</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3708</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8655</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Glyn Lyn VHF Base at RR MP N340.1</value>
+ </Data>
+ <Data name="height">
+   <value>24.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>479.013946</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8655,37.3708</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark135">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3708</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8655</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>479.013946</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8655,37.3708</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark136">
+ <name>FLAT TOP MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8558</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FLAT TOP MTN</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.205688</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES COUNTY SCHOOL BOARD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8558,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark137">
+ <name>STATE ROUTE 671 IN NEW RIVER VALLEY RANGER DISTRICT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8561</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATE ROUTE 671 IN NEW RIVER VALLEY RANGER DISTRICT</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1246.142333</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8561,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark138">
+ <name>FLAT TOP MTNBALD KNOB MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.246899</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8558</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FLAT TOP MTNBALD KNOB MTN</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1245.205688</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8558,37.246899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark139">
+ <name>BALD KNOB MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.35</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5375</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BALD KNOB MTN</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1326.627807</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5375,37.35</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark140">
+ <name>PETERS MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3786</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.75</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PETERS MTN</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1029.910034</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.75,37.3786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark141">
+ <name>St .Rte 671 New River Valley Ranger Dist.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8561</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>St .Rte 671 New River Valley Ranger Dist.</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1246.142333</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8561,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark142">
+ <name>10 MILES NORTHWEST OF SR-606 ON SR-671 IN GILES COUNTY, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2472</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.8561</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10 MILES NORTHWEST OF SR-606 ON SR-671 IN GILES COUNTY, VA</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1246.142333</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.8561,37.2472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark143">
+ <name>SR 613 &amp; BRACKET LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Giles County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3253</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5928</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 613 &amp; BRACKET LN</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>653.564941</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GILES COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5928,37.3253</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

@@ -1,0 +1,1907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>ROUTE 675</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7122</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.400899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 675</value>
+ </Data>
+ <Data name="height">
+   <value>85.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.952854</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN ATLANTIC COMPANY, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.400899,37.7122</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>101 RADIO RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7239</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3906</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>101 RADIO RD</value>
+ </Data>
+ <Data name="height">
+   <value>84</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.545232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Two Rivers Properties, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3906,37.7239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>348 Ocean Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6523</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3808</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>348 Ocean Road</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.760581</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Washington, DC SMSA Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3808,37.6523</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>RT 354</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8208</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5681</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 354</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.083692</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBC TOWER HOLDINGS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5681,37.8208</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>RT 607 &amp; RT 3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7391</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3838</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 607 &amp; RT 3</value>
+ </Data>
+ <Data name="height">
+   <value>91.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.619255</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBC TOWER HOLDINGS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3838,37.7391</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>INT ST RTS 200 &amp; 687</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6867</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4128</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RTS 200 &amp; 687</value>
+ </Data>
+ <Data name="height">
+   <value>60.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.680105</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Gans Communications, L.P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4128,37.6867</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>8315 Mary Ball Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.772</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4654</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8315 Mary Ball Road</value>
+ </Data>
+ <Data name="height">
+   <value>79.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>18.229019</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers II LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4654,37.772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>822A Rappahannock Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6469</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3947</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>822A Rappahannock Drive</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.05972</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Kaballero.com L.L.C.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3947,37.6469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>Kilmarnock</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7238</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.391</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Kilmarnock</value>
+ </Data>
+ <Data name="height">
+   <value>106.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.931154</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Two Rivers Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.391,37.7238</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>Hawthorne Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.72495467</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.39203529</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Radio Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Hawthorne Lane</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>73.31155651</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Kilmarnock, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.39203529,37.72495467</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Hospital Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.702</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.386</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Hospital Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Hospital Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>80.772012</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Kilmarnock, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.386,37.702</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>EAST SIDE OF ROUTE 354 NEAR SLABTOWN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6956</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.514</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>EAST SIDE OF ROUTE 354 NEAR SLABTOWN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.599109</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>National Communication Towers, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.514,37.6956</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6469</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3947</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.05972</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LANKFORD JR, DAVID B</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3947,37.6469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>822A Rappahannock Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6469</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3947</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>822A Rappahannock Drive</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.05972</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LANKFORD JR, DAVID B</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3947,37.6469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6933</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4872</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.796999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YANKEE POINT SAILBOAT MARINA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4872,37.6933</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7006</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3528</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.810924</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PERDUE FARMS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3528,37.7006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>101 RADIO ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7239</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3906</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>101 RADIO ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>93</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.545232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LANCASTER, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3906,37.7239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>8923 MARY BALL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.77</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4647</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8923 MARY BALL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>53</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.264471</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LANCASTER, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4647,37.77</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.743899</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4214</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.108194</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LANCASTER COUNTY SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4214,37.743899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>INT RT 3 &amp; SCHOOL ST 150 FT W ON SCHOOL ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7103</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3836</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT RT 3 &amp; SCHOOL ST 150 FT W ON SCHOOL ST</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.383327</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LANCASTER COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3836,37.7103</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>INT RTS 3 &amp; 201 200 FT N ON 201</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7772</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5228</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT RTS 3 &amp; 201 200 FT N ON 201</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.824295</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LANCASTER COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5228,37.7772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>INT RT 3 200 &amp; 695 300 YDS E ON 695</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6489</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.39</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT RT 3 200 &amp; 695 300 YDS E ON 695</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.031481</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LANCASTER COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.39,37.6489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>71 CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7114</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.378899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>71 CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>45</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.361385</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LANCASTER COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.378899,37.7114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>164 CHESAPEAKE DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6508</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3931</value>
+ </Data>
+ <Data name="structure_type">
+   <value>SILO</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>164 CHESAPEAKE DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.037751</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FINNEY, JOHN L</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3931,37.6508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6686</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4428</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.760115</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>OCEAN BAIT INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4428,37.6686</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>HOUSTON ST VAULT 0.2 MI SW OF JUNCTION SR671</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7717</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4428</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HOUSTON ST VAULT 0.2 MI SW OF JUNCTION SR671</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.595146</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4428,37.7717</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>101 RADIO RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7239</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3908</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>101 RADIO RD</value>
+ </Data>
+ <Data name="height">
+   <value>93</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.79391</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LANCASTER, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3908,37.7239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>WKWI TWR RT 3 .8 KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7239</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3903</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WKWI TWR RT 3 .8 KM N</value>
+ </Data>
+ <Data name="height">
+   <value>70</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.703491</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3903,37.7239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>RT 635 .1 MI FROM RT 776</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6542</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4189</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 635 .1 MI FROM RT 776</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>4.221288</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>T C TREAKLE &amp; JOHN A CHRISTOPHER INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4189,37.6542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>8406 NEW ASHCAKE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.661099</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.359199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8406 NEW ASHCAKE RD</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.810999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICK MARTIN PRESS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.359199,37.661099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>300 M NE INT VA 200 &amp; CO 687</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6867</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4125</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 M NE INT VA 200 &amp; CO 687</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>21.218515</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FULLER, HENRY P</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4125,37.6867</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>10 LANCASTER DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6778</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3439</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10 LANCASTER DR</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.876964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK WESTMINSTER CANTERBURY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3439,37.6778</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>BELLE ISLE STATE PARK 1632 BELLE ISLE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.78</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.592199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BELLE ISLE STATE PARK 1632 BELLE ISLE RD</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.854784</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.592199,37.78</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>8923 MARY BALL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.77</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4647</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8923 MARY BALL RD</value>
+ </Data>
+ <Data name="height">
+   <value>53</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.264471</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LANCASTER, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4647,37.77</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>CTY COURTHOUSE 100 YDS N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.77</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4647</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CTY COURTHOUSE 100 YDS N</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.264471</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LANCASTER, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4647,37.77</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>400 YDS S OF RT 3 1 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7014</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3953</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>400 YDS S OF RT 3 1 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.117763</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK GENERAL HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3953,37.7014</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>INT OF RTS 605 &amp; 3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7653</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4286</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT OF RTS 605 &amp; 3</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.695392</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4286,37.7653</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>INT RTS 3 200 &amp; 695 300 YD E ON 695</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6489</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT RTS 3 200 &amp; 695 300 YD E ON 695</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>15.003746</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LANCASTER, COUNTY OF SHERIFF'S DEPARTMENT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3894,37.6489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>NR RT 3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6542</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3831</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NR RT 3</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>12.855993</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3831,37.6542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>ROUTE 607 AND ROUTE 3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7389</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3836</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 607 AND ROUTE 3</value>
+ </Data>
+ <Data name="height">
+   <value>95.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.493619</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3836,37.7389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>NORTH OF ROUTE 675 @ JCT. OF ROUTES 675 &amp; 688</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7122</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.4008</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NORTH OF ROUTE 675 @ JCT. OF ROUTES 675 &amp; 688</value>
+ </Data>
+ <Data name="height">
+   <value>90.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.952854</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.4008,37.7122</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>101 RADIO RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7239</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3906</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>101 RADIO RD</value>
+ </Data>
+ <Data name="height">
+   <value>93</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.545232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TWO RIVERS COMMUNICATIONS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3906,37.7239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>RT 607 &amp; RT 3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7391</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3838</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 607 &amp; RT 3</value>
+ </Data>
+ <Data name="height">
+   <value>95.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.619255</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3838,37.7391</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>RT 354</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8208</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5681</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 354</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.083692</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5681,37.8208</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>WATER TANK, 300 YARDS S OF INTERSECTION OF 101 HARRIS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lancaster County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7022</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.3858</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TANK, 300 YARDS S OF INTERSECTION OF 101 HARRIS RD</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.484783</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.3858,37.7022</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

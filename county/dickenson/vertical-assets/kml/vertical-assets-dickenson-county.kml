@@ -1,0 +1,6023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>ST RT 637 BIG RIDGE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.145</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3894</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 637 BIG RIDGE RD</value>
+ </Data>
+ <Data name="height">
+   <value>62</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>659.64923</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY BROADCASTING CORPORATION  DBA =  WDIC AM &amp; WDIC FM</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3894,37.145</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>Haysi, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1811</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2783</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Haysi, VA</value>
+ </Data>
+ <Data name="height">
+   <value>42.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>418.527282</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Dickenson County Wireless Integrated Network Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2783,37.1811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>1.5 km East of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1486</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.436699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 km East of</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>636.584045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>East Kentucky Network, LLC d/b/a Appalachian Wireless</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.436699,37.1486</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>1.4 km North of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2176</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2887</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.4 km North of</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>600.0708</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>East Kentucky Network, LLC d/b/a Appalachian Wireless</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2887,37.2176</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Off CR652, 1.30 mi S of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1902</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.307199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off CR652, 1.30 mi S of</value>
+ </Data>
+ <Data name="height">
+   <value>100.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>602.237731</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Appalachian Power Company dba American Electric Power</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.307199,37.1902</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>SR 652 NEAR INTERSECTION OF SR 722 PUMP STATION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.19</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3042</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 652 NEAR INTERSECTION OF SR 722 PUMP STATION</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>561.474365</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3042,37.19</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>SR 652 PUMP STATION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1967</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3011</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 652 PUMP STATION</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>470.854675</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3011,37.1967</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>SR 669 GAP TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.162</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3042</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 669 GAP TANK</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>644.868591</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3042,37.162</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>HWY 63 &amp; SR 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1864</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.351099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 63 &amp; SR 607</value>
+ </Data>
+ <Data name="height">
+   <value>12.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>622.362854</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.351099,37.1864</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>500 FT NORTH OF SR 611</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2506</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3775</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 FT NORTH OF SR 611</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>624.147888</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3775,37.2506</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Birchleaf 5.9 MI SSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1803</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Birchleaf 5.9 MI SSE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>389.935852</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.275,37.1803</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Clinchco 0.5 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.168099</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3608</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Clinchco 0.5 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>420.22998</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3608,37.168099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Red Onion Mtn 3.41 MI SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.125</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5403</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Red Onion Mtn 3.41 MI SW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>718.054138</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergrncy Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5403,37.125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Birch Gap 5.93 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2361</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.463599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Birch Gap 5.93 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>790.779418</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergrncy Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.463599,37.2361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>Breaks Park 5.9 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2903</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.295799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Breaks Park 5.9 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>546.452758</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergrncy Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.295799,37.2903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Nealy Ridge 1.7 MI SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1436</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3383</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Nealy Ridge 1.7 MI SE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.254394</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergrncy Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3383,37.1436</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>Herald 2.24 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.019999</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4067</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Herald 2.24 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>829.788085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergrncy Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4067,37.019999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Flat Spur 8.64 MI SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0164</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4067</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Flat Spur 8.64 MI SE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>759.123413</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergrncy Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4067,37.0164</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>HWY 83 WEST OF HWY 63 NEAR THE RAIL ROAD TRACKS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1264</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3853</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 83 WEST OF HWY 63 NEAR THE RAIL ROAD TRACKS</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>449.010284</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3853,37.1264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>REEDY RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1039</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.387799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>REEDY RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>5.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>662.997131</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.387799,37.1039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>SR 649 &amp; SR 708</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0778</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.441399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 649 &amp; SR 708</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>763.281372</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.441399,37.0778</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>4,140 FEET SR 651</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9831</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.353099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4,140 FEET SR 651</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>866.520446</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.353099,36.9831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Off CR652 1.3 mi S of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.19</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3069</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off CR652 1.3 mi S of</value>
+ </Data>
+ <Data name="height">
+   <value>106.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>594.384826</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Electric Power Service Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3069,37.19</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>991 ROSE RIDGE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1311</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3897</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>991 ROSE RIDGE RD</value>
+ </Data>
+ <Data name="height">
+   <value>27.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>662.975036</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JWT  WELL SERVICES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3897,37.1311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2578</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2717</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>545.778442</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUCHANAN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2717,37.2578</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>100 S SR 83 CROSSING DD MP21.6</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.125</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3847</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 S SR 83 CROSSING DD MP21.6</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>435.957214</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3847,37.125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>3 MI N ON HWY. 63 &amp; 1 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1325</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3883</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 MI N ON HWY. 63 &amp; 1 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>657.762634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON-RUSSELL COAL CO. OF VA, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3883,37.1325</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>OFF BISE RIDGE RD, 3.3 MILES SOUTHEAST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1161</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4144</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF BISE RIDGE RD, 3.3 MILES SOUTHEAST</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>687.915405</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Electric Power Service Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4144,37.1161</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>1550 KIWANAS PARK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.215</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2922</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1550 KIWANAS PARK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>538.299133</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHWEST VIRGINIA REGIONAL JAIL AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2922,37.215</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>3 MI N ON HWY. 63 &amp; 1 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1325</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3883</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 MI N ON HWY. 63 &amp; 1 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>657.762634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON-RUSSELL COAL CO. OF VA, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3883,37.1325</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>PINE MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1569</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5244</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PINE MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>45</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>462.373474</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECLER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5244,37.1569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>NEAR TOWN OF HAYSI</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2169</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.284999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR TOWN OF HAYSI</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>488.196624</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECLER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.284999,37.2169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>OFF BISE RIDGE RD 3.3 MI SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1161</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4144</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF BISE RIDGE RD 3.3 MI SE</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>687.915405</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMERICAN ELECTRIC POWER SERVICE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4144,37.1161</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>RR MP 9 MULLINS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0989</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4736</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MP 9 MULLINS</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>456.574676</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4736,37.0989</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>RR MP 30.2 HONEY BRANCH</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0356</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.312799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MP 30.2 HONEY BRANCH</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>509.17218</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.312799,37.0356</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>RR MP 14.8 DELANO</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1833</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3367</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MP 14.8 DELANO</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>408.141601</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3367,37.1833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>RR MILEPOST 29.3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0439</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.324399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST 29.3</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>581.093261</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.324399,37.0439</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>RR MILEPOST 19.5 HAYSI</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1411</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.373899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST 19.5 HAYSI</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>440.162872</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.373899,37.1411</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>RR MILEPOST 16.5 HAYSI</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1725</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.355</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST 16.5 HAYSI</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>421.601226</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.355,37.1725</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>RR MILEPOST 7.5</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2528</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.329999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST 7.5</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>350.039123</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.329999,37.2528</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>RR AT SR 638</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1333</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR AT SR 638</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>654.035217</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3964,37.1333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>RR MILEPOST 7.5</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2528</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.329999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST 7.5</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>350.039123</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.329999,37.2528</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>RR MP 11.6</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.205</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2992</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MP 11.6</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>401.506896</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2992,37.205</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>INT OF US HWY 63 AND VA ST RT HWY 652 1.3 MI SWS ON VA ST RT 654</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0661</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3675</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT OF US HWY 63 AND VA ST RT HWY 652 1.3 MI SWS ON VA ST RT 654</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>733.068908</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TEXAS EASTERN COMMUNICATIONS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3675,37.0661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.125</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3747</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>444.330047</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Dickenson-Russell Coal Company, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3747,37.125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>ATOP PINE MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1569</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5244</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP PINE MTN</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>462.373474</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECKLER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5244,37.1569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>ATOP DANTE MOUNTAIN RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.025</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2567</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP DANTE MOUNTAIN RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>19</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>917.036071</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LAMBERT COAL COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2567,37.025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>RT 63 INT 63 &amp; TOMS CREEK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0694</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3456</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 63 INT 63 &amp; TOMS CREEK</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>460.67984</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LAMBERT COAL COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3456,37.0694</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>1 MI S INT SR 63 &amp; TOMS CREEK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0464</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.328899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI S INT SR 63 &amp; TOMS CREEK</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>582.049194</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LAMBERT COAL COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.328899,37.0464</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>ATOP BIG RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.08</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4481</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP BIG RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>747.229125</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MARTY CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4481,37.08</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>ATOP PINE MOUNTAIN AT POUND GAP</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1569</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5244</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP PINE MOUNTAIN AT POUND GAP</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>462.373474</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VA KY COMMUNICATIONS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5244,37.1569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>ATOP PINE MOUNTAIN AT POUND GAP</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1569</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5244</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP PINE MOUNTAIN AT POUND GAP</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>462.373474</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VA KY COMMUNICATIONS CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5244,37.1569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>1/2 MI OFF RT 83 TECHNOLOGY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.15</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.437199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MI OFF RT 83 TECHNOLOGY</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>608.091125</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.437199,37.15</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>NEALY RIDGE 1.7 SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1444</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3383</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEALY RIDGE 1.7 SE</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.802062</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3383,37.1444</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>SHERIFFS OFFICE ON MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.15</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.437199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SHERIFFS OFFICE ON MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>608.091125</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.437199,37.15</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>NEARLY RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1478</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.332499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEARLY RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>623.606323</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.332499,37.1478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>NEELY RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1789</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.34</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEELY RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>487.150756</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CLINTWOOD, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.34,37.1789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>INT SR 63 &amp; 661 .4 KM S OF SR 83</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1222</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3856</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT SR 63 &amp; 661 .4 KM S OF SR 83</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>442.876922</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3856,37.1222</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>ST RT 637 BIG RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1483</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.392499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 637 BIG RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>659.396667</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.392499,37.1483</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>1.5 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1828</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3636</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>597.991333</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3636,37.1828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>1.5 MI N OF INTER RT 63 &amp; 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1789</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.34</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI N OF INTER RT 63 &amp; 607</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>487.150756</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.34,37.1789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>RT 607 1/10 MI N OF RT 83</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1508</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4575</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 607 1/10 MI N OF RT 83</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>554.23352</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4575,37.1508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>1.5 MI N INT RT 63 &amp; 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1789</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.34</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI N INT RT 63 &amp; 607</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>487.150756</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.34,37.1789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>NEALY RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1789</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.34</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEALY RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>487.150756</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.34,37.1789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>GEORGES FORK GAP 3.43 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.125</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.542199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GEORGES FORK GAP 3.43 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>714.173889</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.542199,37.125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>FLAT SPUR 8.64 MI SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0153</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2572</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FLAT SPUR 8.64 MI SE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>927.223266</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2572,37.0153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>DUTY KNOB 10.34 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0814</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.1869</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DUTY KNOB 10.34 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>768.192687</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.1869,37.0814</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>BREAKS PARK 3.2 MI ESE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2917</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.293</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BREAKS PARK 3.2 MI ESE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>575.30426</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.293,37.2917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>BIRCH GAP 5.93 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2358</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4633</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BIRCH GAP 5.93 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>794.025451</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4633,37.2358</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>DICKENSON EOC SHERIFFS OFC MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.15</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.437199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DICKENSON EOC SHERIFFS OFC MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>608.091125</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.437199,37.15</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>WATER TANK BREAKS INTERSTATE PARK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2872</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2917</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TANK BREAKS INTERSTATE PARK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>567.412475</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, STATE OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2917,37.2872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>RT 83 1 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1458</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.445</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 83 1 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>581.828979</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.445,37.1458</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>SANDY RIDGE 6.15 MI SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0192</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4058</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SANDY RIDGE 6.15 MI SSW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>794.188354</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4058,37.0192</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>NEALY RIDGE 1.7 SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1444</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3383</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEALY RIDGE 1.7 SE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>675.802062</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3383,37.1444</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>HILL 1 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1458</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4456</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HILL 1 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>589.39508</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4456,37.1458</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>Atop Pine Mountain at Pound Gap</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1569</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Atop Pine Mountain at Pound Gap</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>464.356567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECKER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5247,37.1569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>Atop Neeley Ridge</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1789</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3403</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Atop Neeley Ridge</value>
+ </Data>
+ <Data name="height">
+   <value>33.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>474.941223</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECKLER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3403,37.1789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>Near city of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1358</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4336</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Near city of</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>585.754821</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>East Kentucky Network, LLC d/b/a Appalachian Wireless</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4336,37.1358</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>Near city of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2169</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.284999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Near city of</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>488.196624</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>East Kentucky Network, LLC d/b/a Appalachian Wireless</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.284999,37.2169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>Neeley Ridge</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1239</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3403</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Neeley Ridge</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>712.346191</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>East Kentucky Network, LLC d/b/a Appalachian Wireless</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3403,37.1239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>Atop Neeley Ridge</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1789</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3403</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Atop Neeley Ridge</value>
+ </Data>
+ <Data name="height">
+   <value>33.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>474.941223</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3403,37.1789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>ATOP PINE MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1569</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5244</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP PINE MTN</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>462.373474</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>East Kentucky Network, LLC d/b/a Appalachian Wireless</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5244,37.1569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>NEELEY RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1239</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3403</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEELEY RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>712.346191</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECLER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3403,37.1239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>NEEDLES RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1239</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3403</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEEDLES RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>712.346191</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PHONE COMMUNICATIONS CORP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3403,37.1239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>ATOP PINE MOUNTAIN AT POUND GAP</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1569</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5244</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP PINE MOUNTAIN AT POUND GAP</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>462.373474</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECLER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5244,37.1569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>1.5 km East of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1483</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.436699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 km East of</value>
+ </Data>
+ <Data name="height">
+   <value>99.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>635.304321</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>East Kentucky Network, LLC d/b/a Appalachian Wireless</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.436699,37.1483</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>1.4 km North of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2175</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.288599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.4 km North of</value>
+ </Data>
+ <Data name="height">
+   <value>99.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>600.41571</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>East Kentucky Network, LLC d/b/a Appalachian Wireless</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.288599,37.2175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>1.4 km North of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2176</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2887</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.4 km North of</value>
+ </Data>
+ <Data name="height">
+   <value>99.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>600.0708</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>East Kentucky Network, LLC d/b/a Appalachian Wireless</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2887,37.2176</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>Rt. 731 off of Rt.637 Bise Ridge</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1162</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4146</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt. 731 off of Rt.637 Bise Ridge</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>686.951599</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Appalachian Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4146,37.1162</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>Off CR652, 1.30 mi S of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1902</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.307199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off CR652, 1.30 mi S of</value>
+ </Data>
+ <Data name="height">
+   <value>106.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>602.237731</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Appalachian Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.307199,37.1902</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1505</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4579</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>548.116638</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF CLINTWOOD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4579,37.1505</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0819</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3829</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>516.965454</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Dickenson County PSA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3829,37.0819</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>VA63 &amp; VA652</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0878</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.360599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA63 &amp; VA652</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>459.709045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.360599,37.0878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>SR 652</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1544</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.312799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 652</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>601.214843</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.312799,37.1544</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>1000 FT S OF SR 661</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.124199</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3403</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1000 FT S OF SR 661</value>
+ </Data>
+ <Data name="height">
+   <value>10.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>718.72821</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3403,37.124199</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>OLD VA 83 TANK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.11</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3811</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OLD VA 83 TANK</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>521.85028</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3811,37.11</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>COUNTS RIDGE-9.9KM  SE OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.039199</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.239199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COUNTS RIDGE-9.9KM  SE OF</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>904.454528</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EQT Production Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.239199,37.039199</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>6.7KM  W OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0581</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.417499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6.7KM  W OF</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>737.320922</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EQT Production Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.417499,37.0581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>7.5KM N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1356</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3381</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7.5KM N OF</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>695.189697</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EQT Production Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3381,37.1356</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0581</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.417499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>737.320922</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EQT Production Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.417499,37.0581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>OFF OF SR658</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0167</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2547</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF OF SR658</value>
+ </Data>
+ <Data name="height">
+   <value>41.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>926.994689</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2547,37.0167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>HWY 63 NEAR MCCLURE RIVER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0142</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.286099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 63 NEAR MCCLURE RIVER</value>
+ </Data>
+ <Data name="height">
+   <value>9.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>610.375915</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.286099,37.0142</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>Town of Haysi - 322 Main St</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2072</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2947</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Town of Haysi - 322 Main St</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>419.685241</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2947,37.2072</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>Dickenson 911 Dickenson County 911. 5444 Dickenson Hwy, Clintwood</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1497</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4633</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dickenson 911 Dickenson County 911. 5444 Dickenson Hwy, Clintwood</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>545.54779</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4633,37.1497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>OFF OF SR 615</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2194</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3367</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF OF SR 615</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>525.695434</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3367,37.2194</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>SR 63</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1939</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3489</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 63</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>579.874328</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3489,37.1939</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>OFF OF SR 637 &amp; SR 748</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1575</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3856</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF OF SR 637 &amp; SR 748</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>635.446166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3856,37.1575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>SR 637 &amp; 83 950 FT SOUTH OF THE BEARPEN GAP TUNNEL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1214</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3997</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 637 &amp; 83 950 FT SOUTH OF THE BEARPEN GAP TUNNEL</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>605.190856</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3997,37.1214</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>SR 637</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0883</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.439399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 637</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>686.114074</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.439399,37.0883</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>SR 649 BEFORE THE SR 648 TURN OFF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0681</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4436</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 649 BEFORE THE SR 648 TURN OFF</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>711.004699</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4436,37.0681</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>SR 649</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0333</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.458599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 649</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>710.746337</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.458599,37.0333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>SR 637 WEST OF RAILROAD TRACKS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.173099</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3703</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 637 WEST OF RAILROAD TRACKS</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>571.028686</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3703,37.173099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>SR 63 NORTH OF RAILROAD TRACKS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1778</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.363</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 63 NORTH OF RAILROAD TRACKS</value>
+ </Data>
+ <Data name="height">
+   <value>10.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>494.522003</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.363,37.1778</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>SR 637 750 FT SOUTH OF CONCRETE DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1358</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3872</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 637 750 FT SOUTH OF CONCRETE DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>28</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>671.721069</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3872,37.1358</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>SR 83 RUSSEL PRATER CREEK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2136</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2528</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 83 RUSSEL PRATER CREEK</value>
+ </Data>
+ <Data name="height">
+   <value>6.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>424.020324</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUCHANAN COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2528,37.2136</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>OFF OF SANDY RIDGE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.97</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3633</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF OF SANDY RIDGE RD</value>
+ </Data>
+ <Data name="height">
+   <value>14.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>890.620666</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WISE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3633,36.97</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>DSR 637 2000 FEET WEST OF RAILROAD SPUR TRACK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.173099</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.37</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DSR 637 2000 FEET WEST OF RAILROAD SPUR TRACK</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>569.854309</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.37,37.173099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>ON SR 671</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1411</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.261399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON SR 671</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>572.638793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.261399,37.1411</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>ON SR 652 NEAR SR 662 CUT OFF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1008</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3436</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON SR 652 NEAR SR 662 CUT OFF</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>627.295288</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3436,37.1008</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>OFF OF SR 626</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0081</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2964</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF OF SR 626</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>578.642028</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2964,37.0081</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>ON SR 626 NW OF SR 694</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9997</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON SR 626 NW OF SR 694</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>708.821105</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2894,36.9997</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>EAST OF HWY 80</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1622</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.248</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>EAST OF HWY 80</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>435.343383</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.248,37.1622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>ON RURAL ROAD JUST SOUTH OF SR 605</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1667</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2389</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON RURAL ROAD JUST SOUTH OF SR 605</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>597.115295</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2389,37.1667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>ON SR 671 EAST OF SR 712</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1475</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2497</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON SR 671 EAST OF SR 712</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>434.065124</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2497,37.1475</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>END OF SR 712 SOUTH</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1345</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.251899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF SR 712 SOUTH</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>573.247009</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.251899,37.1345</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>OFF OF SR 603</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.124199</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.187799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF OF SR 603</value>
+ </Data>
+ <Data name="height">
+   <value>12.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>572.569641</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUCHANAN COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.187799,37.124199</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark126">
+ <name>SHOP ON HOLLY BROOK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1525</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4478</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SHOP ON HOLLY BROOK</value>
+ </Data>
+ <Data name="height">
+   <value>6.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>515.4328</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF CLINTWOOD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4478,37.1525</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark127">
+ <name>700 FT NORTH OF HAPPY VALLEY DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1478</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4361</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>700 FT NORTH OF HAPPY VALLEY DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>16.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>621.284179</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF CLINTWOOD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4361,37.1478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark128">
+ <name>HWY 83 LIFT STATION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1497</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.480299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 83 LIFT STATION</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>504.840637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF CLINTWOOD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.480299,37.1497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark129">
+ <name>ROUT 621 LIFT STATION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1494</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4897</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUT 621 LIFT STATION</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>469.325012</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF CLINTWOOD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4897,37.1494</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark130">
+ <name>RED LION PUMP NORTH OF SR 83</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1331</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.537199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RED LION PUMP NORTH OF SR 83</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>542.371032</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF CLINTWOOD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.537199,37.1331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark131">
+ <name>OFF OF HWY 80</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2833</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2855</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF OF HWY 80</value>
+ </Data>
+ <Data name="height">
+   <value>13.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>547.83142</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2855,37.2833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark132">
+ <name>ON HELEN HENDERSON HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2169</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2767</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON HELEN HENDERSON HWY</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>471.864898</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2767,37.2169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark133">
+ <name>EAST OF SR 764</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1967</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.234199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>EAST OF SR 764</value>
+ </Data>
+ <Data name="height">
+   <value>13.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>621.121887</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.234199,37.1967</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark134">
+ <name>SOUTH OF SR 678</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1781</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2658</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SOUTH OF SR 678</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>488.032043</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2658,37.1781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark135">
+ <name>TANK OFF OF SR 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.187799</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.412199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TANK OFF OF SR 607</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>604.101989</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF CLINTWOOD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.412199,37.187799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark136">
+ <name>1200 FT NORTH OF SR 614</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2144</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3861</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1200 FT NORTH OF SR 614</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>528.503723</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF CLINTWOOD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3861,37.2144</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark137">
+ <name>SOUTH ON SR 707</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1439</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.438899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SOUTH ON SR 707</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>563.512451</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF CLINTWOOD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.438899,37.1439</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark138">
+ <name>172 OMAHA SUNSET ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0975</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4381</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>172 OMAHA SUNSET ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>18.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>696.031494</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AJS GAS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4381,37.0975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark139">
+ <name>125 HARMIN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.295799</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.2808</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>125 HARMIN RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>451.454681</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CJ MAHAN CONSTRUCTION COMPANY, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.2808,37.295799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark140">
+ <name>MULLINS RD &amp; SR611</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2161</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.478599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MULLINS RD &amp; SR611</value>
+ </Data>
+ <Data name="height">
+   <value>12.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>621.579162</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.478599,37.2161</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark141">
+ <name>PUMP OFF OF VIRGINIA 63, EAST OF STATE ROUTE 763</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.22</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3222</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PUMP OFF OF VIRGINIA 63, EAST OF STATE ROUTE 763</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>562.178039</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DICKENSON COUNTY, VA PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3222,37.22</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark142">
+ <name>ON NEALY RIDGE APPROXIMATELY 1.8 MILES SE OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dickenson County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1478</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.332499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON NEALY RIDGE APPROXIMATELY 1.8 MILES SE OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>623.606323</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.332499,37.1478</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

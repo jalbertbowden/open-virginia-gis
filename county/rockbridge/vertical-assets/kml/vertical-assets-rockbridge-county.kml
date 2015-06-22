@@ -1,0 +1,7745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>RT 743</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6518</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5298</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 743</value>
+ </Data>
+ <Data name="height">
+   <value>55.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>447.872558</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5298,37.6518</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>OFF VA SECONDARY ROUTE 634 4.43 KM NE OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.796</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.18</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF VA SECONDARY ROUTE 634 4.43 KM NE OF</value>
+ </Data>
+ <Data name="height">
+   <value>60.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1220.742065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CENTRAL VIRGINIA PLANNING DISTRICT COMMISSION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.18,37.796</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>ROCKY MOUNTAIN ELECTRONIC SITE PEDLAR RANGER DIST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7953</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1811</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROCKY MOUNTAIN ELECTRONIC SITE PEDLAR RANGER DIST</value>
+ </Data>
+ <Data name="height">
+   <value>76.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1233.546508</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Rockbridge Regional Public Safety Communications Center</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1811,37.7953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>North Mtn. in George Washington National Forest, Alleghany/Rockbridge County, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8203</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6335</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>North Mtn. in George Washington National Forest, Alleghany/Rockbridge County, VA</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>918.205749</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6335,37.8203</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>0.7 Mi S Davis</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9024</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.271999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.7 Mi S Davis</value>
+ </Data>
+ <Data name="height">
+   <value>36.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>601.795898</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.271999,37.9024</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>516 Ninth Street (Glasgow)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6279</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4494</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>516 Ninth Street (Glasgow)</value>
+ </Data>
+ <Data name="height">
+   <value>76.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>219.309005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4494,37.6279</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>Near Rt. 627 (Vest)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8659</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4939</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Near Rt. 627 (Vest)</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>395.315368</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4939,37.8659</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>SR 629 - White Rock Road (Kelso Site)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8851</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5514</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 629 - White Rock Road (Kelso Site)</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>590.260864</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5514,37.8851</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>Big Bend Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8947</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5692</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Big Bend Road</value>
+ </Data>
+ <Data name="height">
+   <value>57.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>643.506408</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5692,37.8947</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>2 MI NW OF BUENA VISTA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7699</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3606</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 MI NW OF BUENA VISTA</value>
+ </Data>
+ <Data name="height">
+   <value>130</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>373.34909</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3606,37.7699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Big River Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.00142746</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.51848806</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tank (127000 gallons)</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Big River Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1573.802067</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Goshen, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.51848806,38.00142746</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Rockbridge Way Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.98204626</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.50704291</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tank (127000 gallons)</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rockbridge Way Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1563.983877</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Goshen, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.50704291,37.98204626</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Route 684</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.642</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.459</value>
+ </Data>
+ <Data name="structure_type">
+   <value>500,000 Gallon Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 684</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>868.9347995</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Glasgow, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.459,37.642</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>White Rock Road (Brogan Site)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8828</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5485</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>White Rock Road (Brogan Site)</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>548.749023</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pegasus Tower Company, LTD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5485,37.8828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>LIME KILN RD 1.5 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7914</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4617</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LIME KILN RD 1.5 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>109.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>347.923431</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA NETWORK SERVICES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4617,37.7914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>11 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8208</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6333</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>918.358093</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA NETWORK SERVICES CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6333,37.8208</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>702 THE KNOB ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9942</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4647</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>702 THE KNOB ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>59.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>573.310241</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4647,37.9942</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>275 Alphin Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8061</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4214</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>275 Alphin Lane</value>
+ </Data>
+ <Data name="height">
+   <value>8.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>323.289611</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF, DEPT OF TRANSPORTATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4214,37.8061</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6403</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4428</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>223.149551</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MOHAWK CARPET DISTRIBUTION LP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4428,37.6403</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>55 Little River Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0286</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4486</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>55 Little River Rd</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>463.119659</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buckingham Branch Railroad Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4486,38.0286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>RED HILL RD RR CROSSING @ RR MP H173.7</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.848599</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2736</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RED HILL RD RR CROSSING @ RR MP H173.7</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>347.30075</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2736,37.848599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>SR 608 RR CROSSING @ RR MP H169.4</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8875</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2206</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 608 RR CROSSING @ RR MP H169.4</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>399.800292</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2206,37.8875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Lower Fairfield LS- 235 Sales Mill Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8792</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.274999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Lower Fairfield LS- 235 Sales Mill Rd</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>489.678161</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Rockbridge County Public Service Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.274999,37.8792</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>Upper Fairfield LS- 5818 N Lee Hwy (US 11)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8839</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2792</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Upper Fairfield LS- 5818 N Lee Hwy (US 11)</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>490.097351</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Rockbridge County Public Service Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2792,37.8839</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Raphine LS- 7358 N Lee Hwy (US 11)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9072</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2328</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Raphine LS- 7358 N Lee Hwy (US 11)</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>513.15924</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Rockbridge County Public Service Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2328,37.9072</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.858099</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.546099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>427.208343</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HIGH COUNTRY FOREST PRODUCTS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.546099,37.858099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9778</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4975</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>422.559875</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YOUNGLIFE ROCKBRIDGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4975,37.9778</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>RR MILEPOST 179.9</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.605</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5222</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST 179.9</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>229.218353</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5222,37.605</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>MW 0.4mi  at 13 degrees frm int of Hwy11 &amp; VA-707</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8944</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2653</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MW 0.4mi  at 13 degrees frm int of Hwy11 &amp; VA-707</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>599.722106</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2653,37.8944</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Buck Hill BPS- 741 Wert Faulkner Hwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.63</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5222</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Buck Hill BPS- 741 Wert Faulkner Hwy</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>312.808227</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Rockbridge County Public Service Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5222,37.63</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>CAMP POST 2.6 MI SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9614</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4617</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CAMP POST 2.6 MI SE</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>427.157531</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL CAPITAL AREA COUNCIL BSA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4617,37.9614</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>CAMP BAIRD 3.3 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.987</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4342</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CAMP BAIRD 3.3 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>443.040496</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL CAPITAL AREA COUNCIL BSA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4342,37.987</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Buck Hill Tank- 100 Buck Hill Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6403</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.53</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Buck Hill Tank- 100 Buck Hill Rd</value>
+ </Data>
+ <Data name="height">
+   <value>48.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>378.118774</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.53,37.6403</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>SALLINGS MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6428</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4756</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SALLINGS MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>39</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>548.450439</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4756,37.6428</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>49 E. MIDLAND TRAIL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7683</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4278</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>49 E. MIDLAND TRAIL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>381.907958</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4278,37.7683</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6294</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5444</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>333.096069</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATURAL BRIDGE OF VA INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5444,37.6294</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7483</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3767</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>270.061401</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUENA VISTA, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3767,37.7483</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4878</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>591.405029</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RADIO COMMUNICATIONS CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4878,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>LITTLE BRUSHY MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4878</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LITTLE BRUSHY MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>591.405029</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RADIO COMMUNICATIONS CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4878,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>Natural Bridge Well-SR685, 0.25mi E of Douglas Way (SR680)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6211</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4833</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Natural Bridge Well-SR685, 0.25mi E of Douglas Way (SR680)</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>258.155364</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4833,37.6211</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>Natural Bridge Tank- Just N of SR130 &amp; Clay Brick Ln</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6314</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5183</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Natural Bridge Tank- Just N of SR130 &amp; Clay Brick Ln</value>
+ </Data>
+ <Data name="height">
+   <value>19.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>329.124053</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5183,37.6314</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Arnold Valley Tank-Yosemite Ln, 0.1mi E of Cedar Bottom Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5883</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4975</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Arnold Valley Tank-Yosemite Ln, 0.1mi E of Cedar Bottom Rd</value>
+ </Data>
+ <Data name="height">
+   <value>12.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>318.175994</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4975,37.5883</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Arnold Valley Well-Arnold Valley Rd &amp; SR782</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6128</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5006</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Arnold Valley Well-Arnold Valley Rd &amp; SR782</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>239.714431</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5006,37.6128</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7356</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5978</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>377.107391</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLACK, RICHARD B</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5978,37.7356</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>SHOP 282 GREENHOUSE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8058</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.428</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SHOP 282 GREENHOUSE RD</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>335.553344</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.428,37.8058</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>200' S of int 5th St &amp; Shenandoah Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6378</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4478</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200' S of int 5th St &amp; Shenandoah Rd</value>
+ </Data>
+ <Data name="height">
+   <value>17</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>225.173599</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4478,37.6378</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8869</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2875</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>499.392395</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TCR ENTERPRISES, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2875,37.8869</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>PS#2 HWY 11 &amp; STATE HWY 195</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8475</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.35</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PS#2 HWY 11 &amp; STATE HWY 195</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>450.641693</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.35,37.8475</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>PS#1 HWY 11 &amp; I-64</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8397</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3714</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PS#1 HWY 11 &amp; I-64</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>360.754119</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3714,37.8397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>RR FREIGHT DEPOT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6267</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4567</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR FREIGHT DEPOT</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>219.347381</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4567,37.6267</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>SAD at RR MP H 197.8</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6244</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4953</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SAD at RR MP H 197.8</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>242.846496</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4953,37.6244</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>SAD at RR MP H 180.9</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7789</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3578</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SAD at RR MP H 180.9</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>291.428894</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3578,37.7789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>RR &amp; SR 614</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0286</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4486</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR &amp; SR 614</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>463.119659</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4486,38.0286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>2.4 KM NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7914</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4617</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.4 KM NW</value>
+ </Data>
+ <Data name="height">
+   <value>110</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>347.923431</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS OF VIRGINIA INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4617,37.7914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>LITTLE BRUSHY MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LITTLE BRUSHY MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>17</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>595.530639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BARC ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>RT 11 2/10 MI N INT RT 11 &amp; I64</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8025</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4114</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 11 2/10 MI N INT RT 11 &amp; I64</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>316.549346</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WHITING OIL COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4114,37.8025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>11 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8208</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6333</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>918.358093</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS TRANSMISSION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6333,37.8208</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>BORDEN RD 1.5 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7914</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4617</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BORDEN RD 1.5 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>347.923431</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS TRANSMISSION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4617,37.7914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>BORDEN RD 11 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8208</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6333</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BORDEN RD 11 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>918.358093</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS TRANSMISSION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6333,37.8208</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>TWO SONS LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8206</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3872</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TWO SONS LN</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>399.968292</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3872,37.8206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>N LEE HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8214</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3903</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N LEE HWY</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>353.568267</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3903,37.8214</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>BOUNTY LINE LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8422</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3769</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BOUNTY LINE LN</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>408.251342</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3769,37.8422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>595.530639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STATON, LLOYD R</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>LIME KLIN RD 1.5 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7914</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4617</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LIME KLIN RD 1.5 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>110</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>347.923431</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS OF VIRGINIA INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4617,37.7914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>595.530639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA RURAL WATER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7928</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4253</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>286.276611</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KFC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4253,37.7928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>YOUNG LIFE ROCKBRIDGE CAMP</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9094</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.611899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>YOUNG LIFE ROCKBRIDGE CAMP</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>548.401733</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YOUNG LIFE OF AMERICA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.611899,37.9094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>404 ANDERSON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6403</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4428</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>404 ANDERSON ST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>223.149551</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MOHAWK CARPET DISTRIBUTION LP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4428,37.6403</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>RT 251 PUMPING STA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7658</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4578</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 251 PUMPING STA</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>333.586273</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4578,37.7658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>RT 251 WATER TWR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7592</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.462499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 251 WATER TWR</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>352.383972</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.462499,37.7592</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>TP3 RT 715 &amp; US 11</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.853099</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3314</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TP3 RT 715 &amp; US 11</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>499.172637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3314,37.853099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>F2 JONESTOWN &amp; US 11</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.877</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2647</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>F2 JONESTOWN &amp; US 11</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>479.725677</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2647,37.877</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>RP1 RT 706&amp; US 11</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9075</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2342</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RP1 RT 706&amp; US 11</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>513.685058</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2342,37.9075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>R1 RT 60 &amp; 181</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.936899</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.228099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>R1 RT 60 &amp; 181</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>583.789367</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.228099,37.936899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8003</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4417</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>294.974456</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LIME KILN ARTS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4417,37.8003</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>BRUSHY HILL SR672 2 KM S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7875</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4861</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRUSHY HILL SR672 2 KM S</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>576.740112</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4861,37.7875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9722</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.506899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>420.711578</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURKE PARSONS BOWLBY CORP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.506899,37.9722</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9483</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5789</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>575.976379</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRACE BIBLE CAMP INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5789,37.9483</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7245</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4361</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>363.93811</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MCDONALDS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4361,37.7245</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>1/2 MI N OF I64 ON SR623</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8672</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4739</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MI N OF I64 ON SR623</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>376.238342</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GEORGE SHUMATE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4739,37.8672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>BRUSHY HILL SR672 2 KM S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7875</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4861</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRUSHY HILL SR672 2 KM S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>576.740112</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WELSH, DANIEL M DBA ROCKBRIDGE MOBILE RADIO, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4861,37.7875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>BRUSH HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7889</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4878</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRUSH HILL</value>
+ </Data>
+ <Data name="height">
+   <value>56</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>591.044128</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY EMERGENCY SERVICES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4878,37.7889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>595.530639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>SALLINGS MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6428</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4756</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SALLINGS MTN</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>548.450439</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4756,37.6428</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>SR 623 1.4 KM NE OF I64 NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8828</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4664</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 623 1.4 KM NE OF I64 NE</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>487.920684</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4664,37.8828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>US 11 7 KM N OF NATURAL BRIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6764</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5011</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 11 7 KM N OF NATURAL BRIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>377.206848</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5011,37.6764</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>SR 710 AT INT 717</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8889</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3005</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 710 AT INT 717</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>530.944091</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3005,37.8889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>ROCKBRIDGE CO LANDFILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7722</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3561</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROCKBRIDGE CO LANDFILL</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>362.340545</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE REGIONAL PUBLIC SAFETY COMMUNICATIONS CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3561,37.7722</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>ROCKBRIDGE CO REGIONAL JAIL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8042</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.424399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROCKBRIDGE CO REGIONAL JAIL</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>336.2182</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE REGIONAL PUBLIC SAFETY COMMUNICATIONS CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.424399,37.8042</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>KNOB MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9945</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.465</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>KNOB MTN</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>573.792358</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE REGIONAL PUBLIC SAFETY COMMUNICATIONS CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.465,37.9945</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>SALLINGS MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6428</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4756</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SALLINGS MTN</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>548.450439</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE REGIONAL PUBLIC SAFETY COMMUNICATIONS CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4756,37.6428</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>BRUSHY HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRUSHY HILL</value>
+ </Data>
+ <Data name="height">
+   <value>54</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>595.530639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE REGIONAL PUBLIC SAFETY COMMUNICATIONS CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>LITTLE BRUSHY MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LITTLE BRUSHY MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>58</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>595.530639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CITY OF LEXINGTON</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>NATURAL BRIDGE LC RT 759 3.5 MI S RT 130</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5861</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.506399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NATURAL BRIDGE LC RT 759 3.5 MI S RT 130</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>267.08142</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.506399,37.5861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>ROCKBRIDGE CTY SHERIFFS DEPT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8042</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.424399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROCKBRIDGE CTY SHERIFFS DEPT</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>336.2182</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.424399,37.8042</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>BRUSHY HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRUSHY HILL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>595.530639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>BRUSHY HILL OFF SR 672</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7867</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4861</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRUSHY HILL OFF SR 672</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>550.910461</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEXINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4861,37.7867</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>BRUSHY HILL OFF SR 672</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRUSHY HILL OFF SR 672</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>595.530639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEXINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>BRUSH HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7889</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4878</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRUSH HILL</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>591.044128</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUENA VISTA, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4878,37.7889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>BRUSH HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7889</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4878</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRUSH HILL</value>
+ </Data>
+ <Data name="height">
+   <value>56</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>591.044128</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEXINGTON, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4878,37.7889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>LEE ST AT JEFFERSON PARK AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0286</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.499199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LEE ST AT JEFFERSON PARK AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>457.696441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.499199,38.0286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>NATURAL BRIDGE LRN CTR RT 759 3.5 MI S RT 130</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5861</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.506399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NATURAL BRIDGE LRN CTR RT 759 3.5 MI S RT 130</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>267.08142</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.506399,37.5861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>SR 784 .25 MI N OF INT RT 60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.752</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4608</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 784 .25 MI N OF INT RT 60</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>382.869293</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4608,37.752</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6303</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4544</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>225.390747</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GLASGOW VOLUNTEER FIRE DEPARTMENT, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4544,37.6303</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>BRUSH HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7889</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4878</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRUSH HILL</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>591.044128</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BUENA VISTA, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4878,37.7889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>LITTLE BRUSHY MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LITTLE BRUSHY MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>56</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>595.530639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE REGIONAL PUBLIC SAFETY COMMUNICATIONS CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>BOUNDARY LINE LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8431</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.377999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BOUNDARY LINE LANE</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>403.333465</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.377999,37.8431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>437 HIGH BRIDGE CHURCH ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6206</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.591699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>437 HIGH BRIDGE CHURCH ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>452.009185</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.591699,37.6206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>217 TWIN SPRINGS ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8969</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2667</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>217 TWIN SPRINGS ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>606.948791</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2667,37.8969</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>BOUNDARY LINE LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8431</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.377999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BOUNDARY LINE LANE</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>403.333465</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.377999,37.8431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>RT 7 BOX 7177</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9039</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3958</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 7 BOX 7177</value>
+ </Data>
+ <Data name="height">
+   <value>38.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>332.919433</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3958,37.9039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>RFD 4, BOX 157</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7531</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4058</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RFD 4, BOX 157</value>
+ </Data>
+ <Data name="height">
+   <value>60</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>362.439208</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4058,37.7531</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>217 TWIN SPRINGS ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8967</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2664</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>217 TWIN SPRINGS ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>611.224548</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2664,37.8967</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>BOUNDARY LINE LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8414</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.379199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BOUNDARY LINE LANE</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>403.587799</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.379199,37.8414</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>1305 ENFIELD ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7875</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4861</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1305 ENFIELD ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>576.740112</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4861,37.7875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>130 DOZER TRACK LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6514</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5292</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>130 DOZER TRACK LANE</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>451.930053</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5292,37.6514</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>974 BUNKER HILL MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7139</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4444</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>974 BUNKER HILL MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>34.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>328.765686</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4444,37.7139</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>4.24 N OF US 60 &amp; BLUE RDG PKY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8036</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.293</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4.24 N OF US 60 &amp; BLUE RDG PKY</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>372.777679</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.293,37.8036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.77</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4428</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>373.973358</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL LICENSE HOLDINGS 3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4428,37.77</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>672 W FROM CITY LIMITS 1.8 MI</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.788299</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>672 W FROM CITY LIMITS 1.8 MI</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>586.427856</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.788299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>LIME KILN RD 1.25 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7914</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4617</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LIME KILN RD 1.25 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>347.923431</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4617,37.7914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>LIME KILN RD 1.25 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7914</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4617</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LIME KILN RD 1.25 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>347.923431</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4617,37.7914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>LIME KILN RD 1.25 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7914</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4617</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LIME KILN RD 1.25 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>347.923431</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4617,37.7914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>LIME KILN RD 1.25 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7914</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4617</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LIME KILN RD 1.25 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>347.923431</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4617,37.7914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.77</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4425</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>374.557128</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4425,37.77</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>2250 Old Ivy Road, #2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.045599</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5169</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2250 Old Ivy Road, #2</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>743.082458</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STU-COMM, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5169,38.045599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark126">
+ <name>Lexington 2 Miles NW of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7692</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3594</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Lexington 2 Miles NW of</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>371.734771</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3594,37.7692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark127">
+ <name>1360 Midland Trail</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7531</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4058</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1360 Midland Trail</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>362.439208</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4058,37.7531</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark128">
+ <name>534 The Knob Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9942</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4647</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>534 The Knob Road</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>573.310241</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4647,37.9942</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark129">
+ <name>532 Sycamore Valley Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8658</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4939</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>532 Sycamore Valley Road</value>
+ </Data>
+ <Data name="height">
+   <value>46.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>393.489471</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4939,37.8658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark130">
+ <name>410 Mount Atlas Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8544</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.360799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>410 Mount Atlas Road</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>449.551269</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.360799,37.8544</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark131">
+ <name>South 9th Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6278</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4492</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>South 9th Street</value>
+ </Data>
+ <Data name="height">
+   <value>77.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>219.309005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4492,37.6278</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark132">
+ <name>Greenhouse Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8056</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4272</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Greenhouse Road</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>334.31958</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4272,37.8056</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark133">
+ <name>RT 743</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6517</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5297</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 743</value>
+ </Data>
+ <Data name="height">
+   <value>58.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>447.565704</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5297,37.6517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark134">
+ <name>4248 S. LEE HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6142</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5933</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4248 S. LEE HWY</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>428.621368</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5933,37.6142</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark135">
+ <name>I-64 S ON FIRE ROAD # 447</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8444</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6186</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>I-64 S ON FIRE ROAD # 447</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>958.70465</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6186,37.8444</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark136">
+ <name>Between US Rts 81 &amp; 64 1.6 MILES NORTHEAST OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8967</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2664</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Between US Rts 81 &amp; 64 1.6 MILES NORTHEAST OF</value>
+ </Data>
+ <Data name="height">
+   <value>60.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>611.224548</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2664,37.8967</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark137">
+ <name>(Lexington Site) State Rd 672, Atop Graffy Hill</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>(Lexington Site) State Rd 672, Atop Graffy Hill</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>595.530639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark138">
+ <name>LEXINGTON CITY CELL SITE ON BRUSHY HILL, 2 MILES WEST OF THE CITY OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LEXINGTON CITY CELL SITE ON BRUSHY HILL, 2 MILES WEST OF THE CITY OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>595.530639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark139">
+ <name>GLASGOW CELL SITE ROUTE 743</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6514</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5292</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GLASGOW CELL SITE ROUTE 743</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>451.930053</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5292,37.6514</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark140">
+ <name>.7 miles South of Davis</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9025</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2717</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.7 miles South of Davis</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>603.62268</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2717,37.9025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark141">
+ <name>California Cell Site Route #850 Near Exit 11, on Route I-64</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8947</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5683</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>California Cell Site Route #850 Near Exit 11, on Route I-64</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>642.811157</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5683,37.8947</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark142">
+ <name>LEXINGTON 2 MI NW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7692</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3594</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LEXINGTON 2 MI NW OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>371.734771</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3594,37.7692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark143">
+ <name>ROCKY MOUNTAIN ELECTRONIC SITE PEDLAR RANGER DIST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7953</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1811</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROCKY MOUNTAIN ELECTRONIC SITE PEDLAR RANGER DIST</value>
+ </Data>
+ <Data name="height">
+   <value>77.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1233.546508</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Tech Foundation , Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1811,37.7953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark144">
+ <name>131 Huffman Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8881</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.297199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>131 Huffman Lane</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>579.93103</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Tech Foundation , Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.297199,37.8881</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark145">
+ <name>ROCKY MOUNTAIN ELECTRONIC SITE PEDLAR RANGER DIST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7953</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1811</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROCKY MOUNTAIN ELECTRONIC SITE PEDLAR RANGER DIST</value>
+ </Data>
+ <Data name="height">
+   <value>77.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1233.546508</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Tech Foundation , Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1811,37.7953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark146">
+ <name>131 Huffman Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8881</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.297199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>131 Huffman Lane</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>579.93103</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Tech Foundation , Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.297199,37.8881</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark147">
+ <name>North Mtn. in George Washington National Forest, Alleghany/Rockbridge</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8203</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6335</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>North Mtn. in George Washington National Forest, Alleghany/Rockbridge</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>918.205749</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Commonwealth of Virginia, Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6335,37.8203</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark148">
+ <name>1950 Turkey Hill Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8679</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.420599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1950 Turkey Hill Road</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>420.845001</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.420599,37.8679</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark149">
+ <name>0.7 Mi S Davis</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9024</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.271999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.7 Mi S Davis</value>
+ </Data>
+ <Data name="height">
+   <value>39.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>601.795898</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.271999,37.9024</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark150">
+ <name>UPON ROCKY MTN PEAK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7955</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1802</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>UPON ROCKY MTN PEAK</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1233.40979</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CENTRAL VIRGINIA RADIO COMMUNICATION SYSTEMS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1802,37.7955</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark151">
+ <name>.4 MI AT 13 DEGREES FM X OF HWY 11 &amp; VA 707</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8947</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2653</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.4 MI AT 13 DEGREES FM X OF HWY 11 &amp; VA 707</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>611.040466</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2653,37.8947</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark152">
+ <name>1.2 MI FROM INT OF RT 501 &amp; 663 AT 0.0 DEGREES NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6668</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4309</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.2 MI FROM INT OF RT 501 &amp; 663 AT 0.0 DEGREES NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>389.14273</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4309,37.6668</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark153">
+ <name>2 MI NW OF BUENA VISTA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7699</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3606</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 MI NW OF BUENA VISTA</value>
+ </Data>
+ <Data name="height">
+   <value>134.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>373.34909</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3606,37.7699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark154">
+ <name>RT 743</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6518</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5298</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 743</value>
+ </Data>
+ <Data name="height">
+   <value>58.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>447.872558</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5298,37.6518</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark155">
+ <name>SR 673 TOP OF GRAFFY 2 MILES W OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7887</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 673 TOP OF GRAFFY 2 MILES W OF</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>592.644042</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7887</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark156">
+ <name>BETWEEN US RTES 81 &amp; 64 1.6 MI NE OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8968</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2664</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BETWEEN US RTES 81 &amp; 64 1.6 MI NE OF</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>611.89978</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 5 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2664,37.8968</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark157">
+ <name>ROCKY MTN TOP END OF FDR 1176 .75 MI SW THREE CNTY LINES</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7957</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1814</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROCKY MTN TOP END OF FDR 1176 .75 MI SW THREE CNTY LINES</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1219.076049</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1814,37.7957</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark158">
+ <name>LIME KILN RD 1.5 MI NW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7915</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4617</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LIME KILN RD 1.5 MI NW OF</value>
+ </Data>
+ <Data name="height">
+   <value>109.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>348.151489</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Columbia Gas Transmission Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4617,37.7915</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark159">
+ <name>16 RECREATION LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6133</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4883</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>16 RECREATION LANE</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>218.699401</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>YOGI BEARS JELLY STONE PARK</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4883,37.6133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark160">
+ <name>Vesuvius 0.66 mi  NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.915</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.1942</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Vesuvius 0.66 mi  NE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>438.648986</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.1942,37.915</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark161">
+ <name>Glasgow  0.85 MI  NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6422</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4394</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Glasgow  0.85 MI  NE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>219.718124</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4394,37.6422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark162">
+ <name>Irish Gap  10.39 mi  ENE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7956</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.180299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Irish Gap  10.39 mi  ENE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1232.561035</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.180299,37.7956</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark163">
+ <name>Buena Vista  2.79 mi  NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7619</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.3919</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Buena Vista  2.79 mi  NW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>259.651428</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.3919,37.7619</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark164">
+ <name>Cornwall  0.37 mi  W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8047</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.324399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Cornwall  0.37 mi  W</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>303.147033</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.324399,37.8047</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark165">
+ <name>Lexington WP  1.39 mi  NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8019</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.45</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Lexington WP  1.39 mi  NW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>274.157409</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.45,37.8019</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark166">
+ <name>North Mtn  11.02 mi  WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8194</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6342</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>North Mtn  11.02 mi  WNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>896.429138</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6342,37.8194</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark167">
+ <name>North Buffalo Crk  11.78 mi WSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7131</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6394</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>North Buffalo Crk  11.78 mi WSW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>447.799743</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6394,37.7131</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark168">
+ <name>Rockbridge Baths  00.85  mi  WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9072</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4222</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rockbridge Baths  00.85  mi  WNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>335.126739</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4222,37.9072</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark169">
+ <name>Goshen  0.23 mi  ENE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9881</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4939</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Goshen  0.23 mi  ENE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>421.702301</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4939,37.9881</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark170">
+ <name>Buffalo Crk Murat  5.28 mi  WSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7453</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5267</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Buffalo Crk Murat  5.28 mi  WSW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>305.794616</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5267,37.7453</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark171">
+ <name>1 NORTH MOUNTAIN SCENIC DRIVE TOWER ROAD, GEORGE WASHINGTON NATIONAL F</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8203</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6333</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 NORTH MOUNTAIN SCENIC DRIVE TOWER ROAD, GEORGE WASHINGTON NATIONAL F</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>916.671691</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6333,37.8203</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark172">
+ <name>BRUSHY HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRUSHY HILL</value>
+ </Data>
+ <Data name="height">
+   <value>54</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>595.530639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark173">
+ <name>Rt. 672, Graffy Hill</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7886</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>NNTANN</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt. 672, Graffy Hill</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>595.530639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Rockbridge County, VA.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4875,37.7886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark174">
+ <name>1 NORTH MOUNTAIN SCENIC DRIVE TOWER ROAD, GEROGE WASHINGTON NATIONAL F</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8203</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6333</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 NORTH MOUNTAIN SCENIC DRIVE TOWER ROAD, GEROGE WASHINGTON NATIONAL F</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>916.671691</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6333,37.8203</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark175">
+ <name>100 BUCK HILL RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6397</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5317</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 BUCK HILL RD.</value>
+ </Data>
+ <Data name="height">
+   <value>18.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>405.439666</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5317,37.6397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark176">
+ <name>516 NINTH STREET (GLASGOW)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6278</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4492</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>516 NINTH STREET (GLASGOW)</value>
+ </Data>
+ <Data name="height">
+   <value>77.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>219.309005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4492,37.6278</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark177">
+ <name>10.7 miles W/NW of Lexington (VSP Backbone)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8203</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.6336</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10.7 miles W/NW of Lexington (VSP Backbone)</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>917.894958</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management/VITA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.6336,37.8203</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark178">
+ <name>282 GREENHOUSE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8058</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.428</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>282 GREENHOUSE RD</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>335.553344</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.428,37.8058</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark179">
+ <name>100 BUCK HILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.64</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.5325</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 BUCK HILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>414.312957</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.5325,37.64</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark180">
+ <name>JONESTOWN RD AND US11</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8942</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.2653</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JONESTOWN RD AND US11</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>593.706115</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKBRIDGE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.2653,37.8942</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark181">
+ <name>2.7 MILES, N 277 E FROM</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7875</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4861</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.7 MILES, N 277 E FROM</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>576.740112</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NTELOS Telephone, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4861,37.7875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark182">
+ <name>BRUSHY HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7875</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4861</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRUSHY HILL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>576.740112</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4861,37.7875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark183">
+ <name>Brushy Hill</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rockbridge County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7875</value>
+ </Data>
+ <Data name="lng">
+   <value>-79.4864</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Brushy Hill</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>577.8255</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-79.4864,37.7875</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

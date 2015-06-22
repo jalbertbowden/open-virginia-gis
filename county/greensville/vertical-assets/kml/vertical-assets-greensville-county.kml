@@ -1,0 +1,5309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>429 WILLIAMS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6182</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5621</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>429 WILLIAMS RD</value>
+ </Data>
+ <Data name="height">
+   <value>100.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.555114</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mid Atlantic Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5621,36.6182</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>45 James River Junction Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6843</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.498</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>45 James River Junction Rd</value>
+ </Data>
+ <Data name="height">
+   <value>48.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.428499</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mid Atlantic Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.498,36.6843</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>43.3175 Fairground Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.684599</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.561</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>43.3175 Fairground Road</value>
+ </Data>
+ <Data name="height">
+   <value>137.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.438232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mid Atlantic Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.561,36.684599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>109 HICKSFORD AVE.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.616499</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5616</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>109 HICKSFORD AVE.</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.572597</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pinnacle Towers LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5616,36.616499</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>US RT 301 3 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7408</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5081</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 301 3 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>69</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.212654</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5081,36.7408</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>PURDY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7298</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5616</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PURDY RD</value>
+ </Data>
+ <Data name="height">
+   <value>86.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.043258</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5616,36.7298</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>1413 PLEASANT SHADE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7172</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5792</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1413 PLEASANT SHADE DR</value>
+ </Data>
+ <Data name="height">
+   <value>79.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.360164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MECKLENBURG ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5792,36.7172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>US Rt. 301  Greensville County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7408</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5074</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US Rt. 301  Greensville County</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.304882</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of    Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5074,36.7408</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>URIAH BRANCH WAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7404</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.515299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>URIAH BRANCH WAY</value>
+ </Data>
+ <Data name="height">
+   <value>69.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.665889</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY OF GREENSVILLE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.515299,36.7404</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>2500' east of Brink Road on Ferguson farm</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6557</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5725</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2500' east of Brink Road on Ferguson farm</value>
+ </Data>
+ <Data name="height">
+   <value>146.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>49.562503</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mid Atlantic Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5725,36.6557</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>APPROX 2.5 MI W OF SKIPPERS VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6168</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5955</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>APPROX 2.5 MI W OF SKIPPERS VA</value>
+ </Data>
+ <Data name="height">
+   <value>99</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>47.872703</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5955,36.6168</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>.5 miles southeast of the intersection of 627 and 650</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6557</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5722</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.5 miles southeast of the intersection of 627 and 650</value>
+ </Data>
+ <Data name="height">
+   <value>105.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>49.418243</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MainQuad Broadcasting, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5722,36.6557</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>1393 HWY. 614</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7434</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5207</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1393 HWY. 614</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.674499</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5207,36.7434</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>139 AIRPORT DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6859</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.484899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>139 AIRPORT DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.518741</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Emporia-Greensville Regional Airport Commission</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.484899,36.6859</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>93 Lee Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7725</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.481</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>93 Lee Lane</value>
+ </Data>
+ <Data name="height">
+   <value>73.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.087268</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>T-Mobile Northeast LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.481,36.7725</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>SR F128 Holly Hock Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5646</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5677</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR F128 Holly Hock Drive</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.514326</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Properties</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5677,36.5646</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>2500' east of Brink Road on Ferguson farm</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6556</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5722</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2500' east of Brink Road on Ferguson farm</value>
+ </Data>
+ <Data name="height">
+   <value>152.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>49.438152</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5722,36.6556</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>234 Forest Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5495</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5261</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>234 Forest Road</value>
+ </Data>
+ <Data name="height">
+   <value>27.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.649232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GEORGIA-PACIFIC LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5261,36.5495</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6053</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5781</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.008678</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VULCAN MATERIALS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5781,36.6053</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>2471 Creek Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5739</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.433</value>
+ </Data>
+ <Data name="structure_type">
+   <value>SILO</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2471 Creek Rd</value>
+ </Data>
+ <Data name="height">
+   <value>39.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>24.397172</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Weavers Low Ground LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.433,36.5739</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>43.3175 Fairground Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6844</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5608</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>43.3175 Fairground Rd</value>
+ </Data>
+ <Data name="height">
+   <value>149.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.556907</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Weavers Low Ground LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5608,36.6844</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7011</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4786</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.503089</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Doyle, Joey G</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4786,36.7011</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.67</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.670599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>81.699188</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Phillips, David W</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.670599,36.67</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>43.3175 Fairground Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6844</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5608</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>43.3175 Fairground Rd</value>
+ </Data>
+ <Data name="height">
+   <value>149.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.556907</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5608,36.6844</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>US Rt. 301  Greensville County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7406</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5072</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US Rt. 301  Greensville County</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.846015</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF, DEPT OF TRANSPORTATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5072,36.7406</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>1459 QUARRY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6053</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5781</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1459 QUARRY RD</value>
+ </Data>
+ <Data name="height">
+   <value>20.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.008678</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VULCAN MATERIALS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5781,36.6053</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>RT 301 1.8 KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7406</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.507799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 301 1.8 KM N</value>
+ </Data>
+ <Data name="height">
+   <value>73</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.315128</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.507799,36.7406</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5483</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5258</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.960916</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GEORGIA-PACIFIC LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5258,36.5483</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>234 FOREST RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5483</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5258</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>234 FOREST RD</value>
+ </Data>
+ <Data name="height">
+   <value>12.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>29.960916</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GEORGIA-PACIFIC LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5258,36.5483</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>APPROX 2.5 MI W OF SKIPPERS VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6169</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.595599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>APPROX 2.5 MI W OF SKIPPERS VA</value>
+ </Data>
+ <Data name="height">
+   <value>99.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>47.761959</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.595599,36.6169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>43.3175 FAIRGROUND ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6844</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5608</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>43.3175 FAIRGROUND ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>149.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.556907</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GREENSVILLE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5608,36.6844</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>1650 GRASSY POND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7669</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5997</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1650 GRASSY POND RD</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>62.592563</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROACH, MICHAEL W</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5997,36.7669</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>116 SOUTH ALLEN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8181</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4775</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>116 SOUTH ALLEN RD</value>
+ </Data>
+ <Data name="height">
+   <value>5.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.096496</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GEORGIA-PACIFIC LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4775,36.8181</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>LITTLETON RADIO SITE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5461</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7358</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LITTLETON RADIO SITE</value>
+ </Data>
+ <Data name="height">
+   <value>151.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>88.687355</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Progress Energy Service Company, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7358,36.5461</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8153</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4808</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.13441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Velikys Service Station Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4808,36.8153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>218 Allen Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8153</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4808</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>218 Allen Rd</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.13441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Velikys Service Station Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4808,36.8153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>2230 WYATTS MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8278</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5228</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2230 WYATTS MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>50.495944</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOAR'S HEAD PROVISION, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5228,36.8278</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7664</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6525</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>81.892562</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6525,36.7664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>218 ALLEN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8153</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4808</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>218 ALLEN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>21.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.13441</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VELIKY'S SERVICE STATION, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4808,36.8153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.835</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.554199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.44207</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MAITLAND JR, STEVE M</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.554199,36.835</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>300 INDUSTRIAL PKY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5839</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5039</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300 INDUSTRIAL PKY</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.223552</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BEACH MOLD &amp; TOOL VIRGINIA INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5039,36.5839</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>SR-607 RR crossing at MP FD78.65</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7264</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.620299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-607 RR crossing at MP FD78.65</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>62.839672</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.620299,36.7264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>SR-623 RR crossing at MP FD70.0</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7036</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4775</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-623 RR crossing at MP FD70.0</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.917442</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4775,36.7036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5753</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4461</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.426492</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Rawlings, Warren C</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4461,36.5753</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>URIAH BRANCH WAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7403</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.515299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>URIAH BRANCH WAY</value>
+ </Data>
+ <Data name="height">
+   <value>69.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.727813</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE REGIONAL JAIL AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.515299,36.7403</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>EMPORIA GREENSVILLE REG ARPRT 139 ARPRT DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6856</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4847</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>EMPORIA GREENSVILLE REG ARPRT 139 ARPRT DR</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.346157</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EMPORIA-GREENSVILLE ARPRT COMMISSION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4847,36.6856</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>183 M N OF TREGO SPUR OF WILLIAMS RD HOUSE ON W SIDE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6219</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5539</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>183 M N OF TREGO SPUR OF WILLIAMS RD HOUSE ON W SIDE</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.349445</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5539,36.6219</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>227 M S OF SR 609 SIDE OF THE TRACKS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7531</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.49</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>227 M S OF SR 609 SIDE OF THE TRACKS</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.620758</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.49,36.7531</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>655 M S ADAMS ST WEST SIDE OF THE TRACKS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6692</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5486</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>655 M S ADAMS ST WEST SIDE OF THE TRACKS</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.053504</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5486,36.6692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>APPROX 2.5 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6167</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5953</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>APPROX 2.5 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>98</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.212341</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5953,36.6167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>US HWY 301 1.5 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6689</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5667</value>
+ </Data>
+ <Data name="structure_type">
+   <value>b</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US HWY 301 1.5 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.623043</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PARKER OIL CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5667,36.6689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>S SIDE OF SR639 I95 AND 301 3 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6356</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.559399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S SIDE OF SR639 I95 AND 301 3 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.932434</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS TRANSMISSION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.559399,36.6356</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>1459 QUARRY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6317</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5933</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1459 QUARRY RD</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.87944</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VULCAN MATERIALS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5933,36.6317</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8283</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5231</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>49.352237</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BOARS HEAD PROVISIONS COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5231,36.8283</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7467</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4994</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.820144</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Wheeling Pittsburgh Steel Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4994,36.7467</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>1413 PLEASANT SHADE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7169</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.578899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1413 PLEASANT SHADE DR</value>
+ </Data>
+ <Data name="height">
+   <value>79</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>52.035144</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MECKLENBURG ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.578899,36.7169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>HWY 58 9/10 MI W RT 623</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6861</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.505</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 58 9/10 MI W RT 623</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.87047</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>J H LEE &amp; SONS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.505,36.6861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>RR 602 10 MI SW EMPORIA 1.4 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6383</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6855</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR 602 10 MI SW EMPORIA 1.4 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>91</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>84.676147</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>J A BARKER CONSTRUCTION CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6855,36.6383</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>1/4 MI W OF JUNCTION HWY 608 &amp; 651</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8325</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5505</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/4 MI W OF JUNCTION HWY 608 &amp; 651</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.534805</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HOLLOWAY JR, GEORGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5505,36.8325</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>RT 301 1.8 KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7406</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.507799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 301 1.8 KM N</value>
+ </Data>
+ <Data name="height">
+   <value>73</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.315128</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.507799,36.7406</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>VA WELCOME CENTER PUMP STATION I95 NORTHBOUND</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5458</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.58</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA WELCOME CENTER PUMP STATION I95 NORTHBOUND</value>
+ </Data>
+ <Data name="height">
+   <value>7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.086624</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTHAMPTON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.58,36.5458</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>RT 301 9KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7406</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.507799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 301 9KM N</value>
+ </Data>
+ <Data name="height">
+   <value>73</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.315128</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of       Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.507799,36.7406</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>BRUNSWICK FIRE TOWER RT 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7664</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6525</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BRUNSWICK FIRE TOWER RT 607</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>81.892562</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6525,36.7664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>RT 301 5KM N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7406</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.507799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 301 5KM N OF</value>
+ </Data>
+ <Data name="height">
+   <value>73</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.315128</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of    Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.507799,36.7406</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>I95 1.6 KM N OF US 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6717</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5411</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>I95 1.6 KM N OF US 58</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.236099</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5411,36.6717</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>GREENSVILLE CC 1 MI S RT 139 646</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7958</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4828</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GREENSVILLE CC 1 MI S RT 139 646</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.659702</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4828,36.7958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>URIAH BRANCH WAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7403</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.515299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>URIAH BRANCH WAY</value>
+ </Data>
+ <Data name="height">
+   <value>69.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.727813</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GREENSVILLE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.515299,36.7403</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7958</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4828</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.659702</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4828,36.7958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>US Rt. 301  Greensville County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7406</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5072</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US Rt. 301  Greensville County</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.846015</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5072,36.7406</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7958</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4828</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.659702</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4828,36.7958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>GREENSVILLE CC 1 MI S RT 139 646</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7992</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4828</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GREENSVILLE CC 1 MI S RT 139 646</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.310997</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4828,36.7992</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>GREENSVILLE CC 1 MI S RT 139 646</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7958</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4828</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GREENSVILLE CC 1 MI S RT 139 646</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.659702</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4828,36.7958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>RT 602 10 MI SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6383</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6855</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 602 10 MI SW</value>
+ </Data>
+ <Data name="height">
+   <value>124</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>84.676147</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6855,36.6383</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>RT 602 10 MI SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6383</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6855</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 602 10 MI SW</value>
+ </Data>
+ <Data name="height">
+   <value>124</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>84.676147</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6855,36.6383</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>RT 602 10 MI SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6383</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6855</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 602 10 MI SW</value>
+ </Data>
+ <Data name="height">
+   <value>124</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>84.676147</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6855,36.6383</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>242 ROLLING ACRES RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6117</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5456</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>242 ROLLING ACRES RD</value>
+ </Data>
+ <Data name="height">
+   <value>56.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.055034</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5456,36.6117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>619 PURDY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7297</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.561399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>619 PURDY RD</value>
+ </Data>
+ <Data name="height">
+   <value>89</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.992439</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.561399,36.7297</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>Emporia (VZW) Site PURDY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7297</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.561399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Emporia (VZW) Site PURDY RD</value>
+ </Data>
+ <Data name="height">
+   <value>89</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.992439</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.561399,36.7297</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>SKIPPER REPEATER CELL SITE 242 ROLLING ACRES ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.612</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5456</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SKIPPER REPEATER CELL SITE 242 ROLLING ACRES ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>56.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.086074</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5456,36.612</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>429 WILLIAMS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6182</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5621</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>429 WILLIAMS RD</value>
+ </Data>
+ <Data name="height">
+   <value>106.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.555114</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buggs Island Telephone Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5621,36.6182</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>URIAH BRANCH WAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7404</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.515299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>URIAH BRANCH WAY</value>
+ </Data>
+ <Data name="height">
+   <value>69.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.665889</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buggs Island Telephone Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.515299,36.7404</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>SR 1211/1212 NORTHAMPTON CTY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5461</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7358</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 1211/1212 NORTHAMPTON CTY</value>
+ </Data>
+ <Data name="height">
+   <value>151.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>88.687355</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Northampton, County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7358,36.5461</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6875</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.566399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>4.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.377593</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.566399,36.6875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7214</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.561899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.817119</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.561899,36.7214</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6881</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5697</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>4.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.133655</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5697,36.6881</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6692</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.552199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.515205</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.552199,36.6692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6886</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.565</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>4.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.46276</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.565,36.6886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6844</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.561399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.017601</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.561399,36.6844</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7039</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5747</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.81142</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5747,36.7039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6831</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6378</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.246002</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6378,36.6831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6978</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5733</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>4.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.988296</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5733,36.6978</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6883</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5658</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>4.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.437133</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5658,36.6883</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6625</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.555</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>15.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.714214</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.555,36.6625</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.684599</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.561</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>149.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.438232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.561,36.684599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.684599</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.561</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>149.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.438232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.561,36.684599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6828</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6328</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>9.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>63.441349</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6328,36.6828</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6861</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5642</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>1.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.892375</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5642,36.6861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6825</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6378</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>9.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>69.713676</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6378,36.6825</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7311</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5553</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>11.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.878208</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5553,36.7311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.71</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5611</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>2.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.918952</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5611,36.71</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6628</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5525</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>8.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.710456</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5525,36.6628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7039</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5686</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>6.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.736465</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5686,36.7039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7134</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5724</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>7.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.833759</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5724,36.7134</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.684599</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.561</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>149.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.438232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.561,36.684599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6836</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4844</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.134937</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4844,36.6836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5622</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>6.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.861656</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5622,36.7</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6678</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5617</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.867435</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5617,36.6678</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7222</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5647</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.650203</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5647,36.7222</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6872</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.615</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>4.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>57.593235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.615,36.6872</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7006</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5672</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>9.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.82212</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telpage</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5672,36.7006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>1413 Pleasant Shade Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7172</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5792</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1413 Pleasant Shade Drive</value>
+ </Data>
+ <Data name="height">
+   <value>79.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.360164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mecklenburg Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5792,36.7172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>US Rt. 301  Greensville County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7408</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5074</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US Rt. 301  Greensville County</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.304882</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH OF VIRGINIA, DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5074,36.7408</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5496</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4705</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.069744</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4705,36.5496</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>HWY 58 2 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7171</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.579099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 58 2 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>79.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.517871</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MECKLENBURG ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.579099,36.7171</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>.4 MI W OF RT 619 2 MI N RT 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7297</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5616</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.4 MI W OF RT 619 2 MI N RT 58</value>
+ </Data>
+ <Data name="height">
+   <value>89</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.467418</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5616,36.7297</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>1413 PLEASANT SHADE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7172</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5792</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1413 PLEASANT SHADE DR</value>
+ </Data>
+ <Data name="height">
+   <value>79.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.360164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mecklenburg Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5792,36.7172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>1413 PLEASANT SHADE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7172</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5792</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1413 PLEASANT SHADE DR</value>
+ </Data>
+ <Data name="height">
+   <value>79.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.360164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mecklenburg Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5792,36.7172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7153</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5333</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.627719</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Greensville County Public School</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5333,36.7153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>URIAH BRANCH WAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7403</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.515299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>URIAH BRANCH WAY</value>
+ </Data>
+ <Data name="height">
+   <value>69.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.727813</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GREENSVILLE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.515299,36.7403</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>VA HWY 608</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8331</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5456</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA HWY 608</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.797256</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WRAY, A E:WRAY, A S DBA SHADY OAKS FARM</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5456,36.8331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>116 SOUTH ALLEN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8181</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4775</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>116 SOUTH ALLEN RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.096496</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GEORGIA-PACIFIC LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4775,36.8181</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>5945 BRINK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6219</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6319</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5945 BRINK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>69.873001</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ILUKA RESOURCES, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6319,36.6219</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>MASTER, 5945 BRINK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6219</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6319</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BTWR</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MASTER, 5945 BRINK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>69.873001</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ILUKA RESOURCES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6319,36.6219</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>FIELD UNIT, WITHIN 5 MI OF 5945 BRINK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6522</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6194</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIELD UNIT, WITHIN 5 MI OF 5945 BRINK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.663871</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ILUKA RESOURCES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6194,36.6522</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7172</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5792</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.360164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mecklenburg Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5792,36.7172</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>APPROX. 2.5 MI W OF SKIPPERS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Greensville County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6161</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5942</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>APPROX. 2.5 MI W OF SKIPPERS</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.865985</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5942,36.6161</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

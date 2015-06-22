@@ -1,0 +1,4385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>120 First Rock Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3063</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.531</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>120 First Rock Road</value>
+ </Data>
+ <Data name="height">
+   <value>86.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>167.034561</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.531,37.3063</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>5 MI SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2047</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3578</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5 MI SW</value>
+ </Data>
+ <Data name="height">
+   <value>57.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>207.584411</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Spire Telecom, LP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3578,37.2047</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>OFF OF STATE HWY 72, APPROX. 1 MILE N OF STATE HWY 19</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2533</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6789</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF OF STATE HWY 72, APPROX. 1 MILE N OF STATE HWY 19</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>211.621597</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6789,37.2533</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>0.07 mi SW of US Route 15 Bus</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2973</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3835</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.07 mi SW of US Route 15 Bus</value>
+ </Data>
+ <Data name="height">
+   <value>57.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>129.77304</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers II LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3835,37.2973</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>RT. 638/PERSIMMON TREE FORK RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2879</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3558</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT. 638/PERSIMMON TREE FORK RD.</value>
+ </Data>
+ <Data name="height">
+   <value>86.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>110.026687</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3558,37.2879</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>W SIDE OF ST RT 648 .3 KM S OF ST RT 649 9.2 KM WSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2853</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4939</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>W SIDE OF ST RT 648 .3 KM S OF ST RT 649 9.2 KM WSW</value>
+ </Data>
+ <Data name="height">
+   <value>100</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>145.754089</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FARMVILLE HERALD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4939,37.2853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>15763 Farmville Rd (Agee)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1058</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.467</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>15763 Farmville Rd (Agee)</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>182.632797</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.467,37.1058</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>5256 Prince Edward Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2951</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5879</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5256 Prince Edward Highway</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>192.480224</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers II LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5879,37.2951</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>Andrews Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.28773691</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.39526615</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank (2)</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Andrews Drive</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>435.4321376</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Farmville, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.39526615,37.28773691</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>Industrial Park</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.32359936</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.43692942</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Industrial Park</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>380.0474124</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Farmville, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.43692942,37.32359936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Layne Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3144685</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.43168352</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Layne Street</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>423.6161874</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Farmville, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.43168352,37.3144685</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Route 460 West</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.31084175</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.41823297</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 460 West</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>352.6593367</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Farmville, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.41823297,37.31084175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Town Shop</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.297097</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.383345</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Town Shop</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>431.8182376</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Farmville, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.383345,37.297097</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>int. of Persimmon Tree Fork Road and U.S. Rt. 460</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2912</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.376</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>int. of Persimmon Tree Fork Road and U.S. Rt. 460</value>
+ </Data>
+ <Data name="height">
+   <value>100.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>135.463806</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.376,37.2912</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>Leigh Mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.204</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3575</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Leigh Mountain</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>198.870178</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3575,37.204</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>ST RT 644</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2892</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4372</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 644</value>
+ </Data>
+ <Data name="height">
+   <value>61.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>122.153266</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shentel Cable Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4372,37.2892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>State Route 616  (029537  /  Eppes)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2346</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.237399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Route 616  (029537  /  Eppes)</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>159.90866</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.237399,37.2346</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>RT 696 P.O.A.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2754</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3392</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 696 P.O.A.</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>125.143722</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3392,37.2754</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>29 Creek House Lane (029512)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3161</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4775</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>29 Creek House Lane (029512)</value>
+ </Data>
+ <Data name="height">
+   <value>61.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>142.828872</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4775,37.3161</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>1775 Zion Hill Rd. (029510)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2652</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4059</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1775 Zion Hill Rd. (029510)</value>
+ </Data>
+ <Data name="height">
+   <value>69.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.035644</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4059,37.2652</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>County 666 at County 604    (90217)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.172599</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>County 666 at County 604    (90217)</value>
+ </Data>
+ <Data name="height">
+   <value>108.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>182.758834</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5099,37.172599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>282 Burley Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1186</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3313</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>282 Burley Drive</value>
+ </Data>
+ <Data name="height">
+   <value>86.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.731048</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3313,37.1186</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>5192 Back Hampden-Sydney Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2634</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4556</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5192 Back Hampden-Sydney Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>88.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.094085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4556,37.2634</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>SR 731 &amp; SR 307</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2771</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2562</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 731 &amp; SR 307</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>147.877548</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Properties</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2562,37.2771</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3025</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.559399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>174.096023</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PROSPECT VOLUNTEER FIRE DEPT.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.559399,37.3025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>45 CAMPBELLS HILL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3025</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.559399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>45 CAMPBELLS HILL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>27.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>174.096023</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PROSPECT VOLUNTEER FIRE DEPT.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.559399,37.3025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2408</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4583</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>157.727569</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hampden Sydney College</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4583,37.2408</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>801 INDUSTRIAL PARK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3222</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4278</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>801 INDUSTRIAL PARK RD</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>115.48703</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT REGIONAL JAIL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4278,37.3222</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>LEIGH MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2039</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3572</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LEIGH MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>194.631637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3572,37.2039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2714</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3836</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>105.125297</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POPLAR HILL GOLF CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3836,37.2714</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>Appomattox St RR crossing at MP N150.20</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3047</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3972</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Appomattox St RR crossing at MP N150.20</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>99.697326</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3972,37.3047</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2722</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2892</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>145.54277</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RICE VOL FIRE DEPT, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2892,37.2722</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>948 RICE DEPOT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2722</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2892</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>948 RICE DEPOT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>19.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>145.54277</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RICE VOL FIRE DEPT, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2892,37.2722</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3006</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.395499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>105.301483</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.395499,37.3006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>RT.719 RR CROSSING @ M.P. B035.50</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.24</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6817</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT.719 RR CROSSING @ M.P. B035.50</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>203.538208</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6817,37.24</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>RT. 671 RR CROSSING @ M.P. B28.90</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1695</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.631899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT. 671 RR CROSSING @ M.P. B28.90</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>183.063308</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.631899,37.1695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>RT.670 RR CROSSING @ M.P. B027.80</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1581</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6178</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT.670 RR CROSSING @ M.P. B027.80</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.054046</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6178,37.1581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>800 OAK STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2939</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3867</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>800 OAK STREET</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>125.011581</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE COMMUNITY HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3867,37.2939</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2042</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3589</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>215.246994</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3589,37.2042</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>SR 649 RR crossing @ MP N158.60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3033</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.521699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 649 RR crossing @ MP N158.60</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.480468</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.521699,37.3033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>Route 601 RR crossing @ MPN142.90</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2864</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3025</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 601 RR crossing @ MPN142.90</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.369323</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3025,37.2864</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>RT 600 RR crossing @ MP N141.70</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.27</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2942</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 600 RR crossing @ MP N141.70</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>135.808547</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2942,37.27</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3222</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4278</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>115.48703</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT REGIONAL JUVENILE DETENTION CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4278,37.3222</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>1.3 MI W INT RT 696 612</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2039</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3589</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.3 MI W INT RT 696 612</value>
+ </Data>
+ <Data name="height">
+   <value>46.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>216.140228</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VICTORIA FIRE &amp; RESCUE SQUAD INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3589,37.2039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>int. of Persimmon Tree Fork Road and U.S. Rt. 460</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2911</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3758</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>int. of Persimmon Tree Fork Road and U.S. Rt. 460</value>
+ </Data>
+ <Data name="height">
+   <value>106.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>134.707427</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FARMVILLE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3758,37.2911</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>FIRE TWR RT 612</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2042</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3586</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIRE TWR RT 612</value>
+ </Data>
+ <Data name="height">
+   <value>38</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>214.291213</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3586,37.2042</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>2000 W 3RD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3156</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2000 W 3RD ST</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.79602</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROY C JENKINS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4275,37.3156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>Detector, RR MP B 4.5</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1544</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2764</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detector, RR MP B 4.5</value>
+ </Data>
+ <Data name="height">
+   <value>4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>170.281982</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2764,37.1544</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>Detector, RR MP B 16.8</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0919</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.458599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detector, RR MP B 16.8</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>172.051254</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.458599,37.0919</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>DISP BASE   5.3 MI AT 332.5 FROM RT 623 and US 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.205</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3575</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DISP BASE   5.3 MI AT 332.5 FROM RT 623 and US 360</value>
+ </Data>
+ <Data name="height">
+   <value>56</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>203.8208</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3575,37.205</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>ARN Repeater, Mtn Top, Intersection SR 623 &amp; SR 620</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.205</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3575</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ARN Repeater, Mtn Top, Intersection SR 623 &amp; SR 620</value>
+ </Data>
+ <Data name="height">
+   <value>56.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>203.8208</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3575,37.205</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>412 JACKSON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.334699</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.519999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>412 JACKSON ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>111.257858</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FRANK CHERVAN INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.519999,37.334699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>200 YDS E END RT 681</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2028</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6356</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 YDS E END RT 681</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>166.231765</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KYANITE MINING CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6356,37.2028</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>1.3 MI W INT SR 696 &amp; 612</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2039</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3589</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.3 MI W INT SR 696 &amp; 612</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>216.140228</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Henderson Jr, Henry B</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3589,37.2039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>LEE S MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2083</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3664</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LEE S MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.038833</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HENDERSON, HENRY B JR</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3664,37.2083</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2939</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3817</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.072906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FUQUA SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3817,37.2939</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>LEIGH MOUNTAIN RT 612 1 MI</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2039</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3589</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LEIGH MOUNTAIN RT 612 1 MI</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>216.140228</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMTRONICS OF VA INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3589,37.2039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>INT OF PERSIMMON TREE FORK RD &amp; US RT 460</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.290799</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3761</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT OF PERSIMMON TREE FORK RD &amp; US RT 460</value>
+ </Data>
+ <Data name="height">
+   <value>107</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>132.969863</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3761,37.290799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>Frazer Residence Hall - at Spruce &amp; Franklin Streets</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2972</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3947</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Frazer Residence Hall - at Spruce &amp; Franklin Streets</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.632377</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3947,37.2972</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>HWY 692 2 MI W HWY 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2389</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4622</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 692 2 MI W HWY 15</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>156.309341</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HAMPDEN SYDNEY COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4622,37.2389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>406 W 3RD ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3031</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.395499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>406 W 3RD ST</value>
+ </Data>
+ <Data name="height">
+   <value>53</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.540367</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>W C NEWMAN CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.395499,37.3031</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>US 15 .5 KM S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2867</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.394999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 15 .5 KM S</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>130.483886</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.394999,37.2867</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3136</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3014</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.720283</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURKEVILLE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3014,37.3136</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>SR 133 1 KM S OF INT US 15 &amp; SR 692</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2342</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4597</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 133 1 KM S OF INT US 15 &amp; SR 692</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.462997</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4597,37.2342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>SR 696 1.6 KM N OF INT SR 612 11 KM</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2186</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3436</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 696 1.6 KM N OF INT SR 612 11 KM</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.86502</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3436,37.2186</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>1329 ZION HILL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2639</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3978</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1329 ZION HILL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.102951</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PRINCE EDWARD, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3978,37.2639</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>RT 2 BOX 105</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1417</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5247</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 2 BOX 105</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>179.780548</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DAVIS AMBULANCE ENTERPRISES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5247,37.1417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>ROOF CURRY DORM SPRUCE ST LONGWOOD COLL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2983</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.395499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROOF CURRY DORM SPRUCE ST LONGWOOD COLL</value>
+ </Data>
+ <Data name="height">
+   <value>53</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.473167</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PRINCE EDWARD, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.395499,37.2983</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>TOWN SHOP LONGWOOD AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2969</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3833</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOWN SHOP LONGWOOD AVE</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>132.339706</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FARMVILLE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3833,37.2969</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>TWIN LAKES STAKE PARK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1756</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.278599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TWIN LAKES STAKE PARK</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>147.678222</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.278599,37.1756</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>FIRE TWR RT 612</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2042</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3589</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIRE TWR RT 612</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>215.246994</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3589,37.2042</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>FORESTRY OFC 3RD ST RT 460 E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.295799</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3858</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY OFC 3RD ST RT 460 E</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.235298</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3858,37.295799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>1.1 MI FROM RT 15 AT END OF RT 676</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3222</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4278</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.1 MI FROM RT 15 AT END OF RT 676</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>115.48703</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PIEDMONT REGIONAL JAIL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4278,37.3222</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>FRAZER RESIDENCE HALL---AT SPRUCE &amp; FRANKLIN STREETS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2972</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3947</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FRAZER RESIDENCE HALL---AT SPRUCE &amp; FRANKLIN STREETS</value>
+ </Data>
+ <Data name="height">
+   <value>53</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.632377</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3947,37.2972</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>FIRE DEPARTMENT BLDG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2917</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5622</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIRE DEPARTMENT BLDG</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>165.600921</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PRINCE EDWARD, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5622,37.2917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>TOWN SHOP LONGWOOD RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2917</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3872</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOWN SHOP LONGWOOD RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>123.906066</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FARMVILLE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3872,37.2917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>ON RT 728 1/2 MI N OF INT RT 360E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1014</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3789</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON RT 728 1/2 MI N OF INT RT 360E</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>171.594589</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MEHERRIN, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3789,37.1014</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>LEIGH MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2039</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3572</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LEIGH MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>194.631637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FARMVILLE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3572,37.2039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>INT MADISON ST GRIFFIN BLVD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2995</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3989</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT MADISON ST GRIFFIN BLVD</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>110.932571</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3989,37.2995</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>RAILROAD MP B 16.8</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0906</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4572</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RAILROAD MP B 16.8</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>174.216445</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4572,37.0906</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>.9 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2878</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3558</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.9 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>110.26564</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Nextel License Holdings 3, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3558,37.2878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>TOP OF LEES MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2083</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3664</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOP OF LEES MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.038833</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3664,37.2083</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>TOP OF LEES MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2083</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3664</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOP OF LEES MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.038833</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3664,37.2083</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3019</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>101.008201</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE FARMVILLE HERALD, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3936,37.3019</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>PAMPLIN CITY CELL SITE: OFF OF STATE HWY 72, APPROX ONE MILE NORTH OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2533</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.6789</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PAMPLIN CITY CELL SITE: OFF OF STATE HWY 72, APPROX ONE MILE NORTH OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>211.621597</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.6789,37.2533</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>5256 Prince Edward Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.295</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5878</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5256 Prince Edward Highway</value>
+ </Data>
+ <Data name="height">
+   <value>93</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>192.496551</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5878,37.295</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>120 First Rock Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3061</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>120 First Rock Road</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>167.726348</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5308,37.3061</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>Rt 638, Persimmon Tree Fork Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2878</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3555</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt 638, Persimmon Tree Fork Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>90.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>111.628135</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3555,37.2878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>120 First Rock Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3063</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.531</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>120 First Rock Road</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>167.034561</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.531,37.3063</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>Leigh Mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.204</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3575</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Leigh Mountain</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>198.870178</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF  Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3575,37.204</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>116 NORTH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3021</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>116 NORTH ST</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.003921</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THE FARMVILLE HERALD, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3936,37.3021</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>INT OF PERSIMMON TREE FORK RD AND US RT 460 NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2912</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.376</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT OF PERSIMMON TREE FORK RD AND US RT 460 NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>106.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>135.463806</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.376,37.2912</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>5.3 MI AT 332.5 DEG FROM INT RT 623 &amp; US 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2054</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3577</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5.3 MI AT 332.5 DEG FROM INT RT 623 &amp; US 360</value>
+ </Data>
+ <Data name="height">
+   <value>56.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>202.876892</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3577,37.2054</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3017</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3969</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>106.620254</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LONGWOOD UNIVERSITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3969,37.3017</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.205</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3575</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>203.8208</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3575,37.205</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.205</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3575</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>203.8208</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3575,37.205</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>508 Waterworks Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.3211</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.441399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>508 Waterworks Road</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>121.218238</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Immigration Centers of America - Farmville</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.441399,37.3211</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>508 Waterworks Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.319999</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.438899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>508 Waterworks Road</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>132.409194</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Immigration Centers of America - Farmville</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.438899,37.319999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.319999</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.438899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>132.409194</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Immigration Centers of America - Farmville</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.438899,37.319999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>LEIGH MOUNTAIN STATE POLICE TOWER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2039</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3572</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LEIGH MOUNTAIN STATE POLICE TOWER</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>194.631637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF, DEPT OF TRANSPORTATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3572,37.2039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>1.5 MI E OF INTERSECTION OF COUNTY ROADS 625 &amp; 716</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2042</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.358099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI E OF INTERSECTION OF COUNTY ROADS 625 &amp; 716</value>
+ </Data>
+ <Data name="height">
+   <value>49</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>205.886169</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.358099,37.2042</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>RT 666, NEAR CR 604 INTERSECTION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1725</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5097</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 666, NEAR CR 604 INTERSECTION</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>182.132385</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ComSoft Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5097,37.1725</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>OFF ROUTE 666, APPX 8 K SW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1725</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.5097</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ROUTE 666, APPX 8 K SW OF</value>
+ </Data>
+ <Data name="height">
+   <value>120</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>182.132385</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HELLO PAGER COMPANY, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.5097,37.1725</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>LEE'S MOUNTAIN STATE RT. 612</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Prince Edward County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2083</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3661</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LEE'S MOUNTAIN STATE RT. 612</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>135.040908</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3661,37.2083</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

@@ -1,0 +1,4091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>OFF ROUTE 652</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3953</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2966</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ROUTE 652</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>325.641937</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2966,38.3953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>ROUTE 29</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3053</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3208</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 29</value>
+ </Data>
+ <Data name="height">
+   <value>58.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>186.777999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pinnacle Towers Acquisition LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3208,38.3053</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>ATOP FORK MOUNTAIN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FORK MOUNTAIN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.306518</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF, DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>FORK MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MTN</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.306518</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>End of St. Rt. 651</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4278</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3375</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>End of St. Rt. 651</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>652.957336</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Rosson &amp; Troilo Motor Co., Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3375,38.4278</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4156</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.091552</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of, Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4156,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3767</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.251399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>171.474639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON WOOD PRESERVERS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.251399,38.3767</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>NR INT SR 640 &amp; 639</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4156</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.236699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NR INT SR 640 &amp; 639</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>127.556823</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Duck Farm Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.236699,38.4156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>RT 648 FORK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4161</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 648 FORK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>30.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.649169</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMUNICATION SPECIALISTS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4161,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>Fort Mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fort Mountain</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4161</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.649169</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Brooks, Danny</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4161,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>6 mi. w of Rt. 649</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4161</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6 mi. w of Rt. 649</value>
+ </Data>
+ <Data name="height">
+   <value>33.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.649169</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Brooks, Danny</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4161,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4156</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.091552</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4156,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>125 BRAMPTON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2953</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1175</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>125 BRAMPTON RD</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.325256</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1175,38.2953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>125 BRAMPTON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2953</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1175</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>125 BRAMPTON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.325256</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON COUNTY RESCUE SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1175,38.2953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>125 BRAMPTON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2953</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1175</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>125 BRAMPTON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.325256</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON COUNTY VOLUNTEER FIRE COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1175,38.2953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4281</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3375</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>645.221435</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Blakey Mountain Ridge Runners Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3375,38.4281</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4281</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3375</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>645.221435</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Blakey Mountain Ridge Runners Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3375,38.4281</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>BLAKEY'S RIDGE FIRE LOOKOUT TOWER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4275</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3375</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLAKEY'S RIDGE FIRE LOOKOUT TOWER</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>656.45166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3375,38.4275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>BLAKEYS RIDGE FIRE LOOKOUT TOWER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4275</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3375</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLAKEYS RIDGE FIRE LOOKOUT TOWER</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>656.45166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON COUNTY RESCUE SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3375,38.4275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4156</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.091552</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4156,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3847</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2597</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>175.257812</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Yum Restaurant Service Group, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2597,38.3847</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>BLAKEYS RIDGE FIRE LOOKOUT TOWER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4275</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3375</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLAKEYS RIDGE FIRE LOOKOUT TOWER</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>656.45166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON COUNTY VOLUNTEER FIRE COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3375,38.4275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>10 WOODBERRY STATION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2903</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1222</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10 WOODBERRY STATION</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.25473</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WOODBERRY FOREST SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1222,38.2903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>FORK MOUNTAIN OFF HOOVER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN OFF HOOVER RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FELHC, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4275</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3375</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>656.45166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3375,38.4275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>BLAKEY RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4275</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3375</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLAKEY RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>656.45166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3375,38.4275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>INT US 29 AND VA 634</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3814</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.255</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT US 29 AND VA 634</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>178.789169</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FELHC, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.255,38.3814</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>FORK MOUNTAIN 6.9 W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4156</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN 6.9 W</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.091552</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS OF VIRGINIA INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4156,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>CR 649 TO FORK MT RD 6.9 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4156</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CR 649 TO FORK MT RD 6.9 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.091552</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS TRANSMISSION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4156,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>FORK MOUNTAIN 6.9 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN 6.9 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.306518</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS OF VIRGINIA INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4275</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3375</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>656.45166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FULLER, HENRY P</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3375,38.4275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>BLAKEY RIDGE F T</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4275</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3375</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLAKEY RIDGE F T</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>656.45166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FULLER, HENRY P</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3375,38.4275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>FORK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMTRONICS OF VA INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>FORK MOUNTAIN ELECTRONIC SITE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN ELECTRONIC SITE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MIKES GLASS &amp; MIRROR CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3803</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2575</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>184.264587</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HEW INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2575,38.3803</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>BLAKEY RIDGE 9 KM N W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4278</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3358</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLAKEY RIDGE 9 KM N W</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>593.350646</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHERMAN JR, JOHN M: SHOWALTER, MIKE D DBA EASTERN COMMUNICATIONS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3358,38.4278</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2903</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1222</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.25473</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WOODBERRY FOREST SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1222,38.2903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>RFD 5 BOX 123 4.2 MI S LURAY US 340 S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6125</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3442</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RFD 5 BOX 123 4.2 MI S LURAY US 340 S</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>815.480895</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HITE JR, DANIEL K</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3442,38.6125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>FORK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PERMA TREAT EXTERMINATING CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>FORK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>EARLY, RICHARD C</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>FORK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Orange Madison Cooperative Farm Service, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>FORK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMPTON, PAUL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>7.5 MI N SHENANDOAH</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7.5 MI N SHENANDOAH</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.306518</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>FORK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON COUNTY SCHOOL BOARD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>FORK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHERRY STREET BUILDING SUPPLY CORP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>INT RT 230 &amp; RT 231</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3519</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.278599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT RT 230 &amp; RT 231</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>190.675048</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.278599,38.3519</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>FORK MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4156</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MTN</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.091552</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4156,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>37M E OF MAIN ST ON CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3772</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2583</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>37M E OF MAIN ST ON CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.937713</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2583,38.3772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>FORK MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4156</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MTN</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.091552</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4156,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>FORK MOUNTAIN 7 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4156</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN 7 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.091552</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4156,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>FORK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4156</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.091552</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4156,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>FORESTRY BUILDING</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3808</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2583</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORESTRY BUILDING</value>
+ </Data>
+ <Data name="height">
+   <value>5.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.31253</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2583,38.3808</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>BUS 29 1/3 MI W OF NORTHERN INT OF US 29 &amp; BUS 29</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3878</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2486</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUS 29 1/3 MI W OF NORTHERN INT OF US 29 &amp; BUS 29</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>160.446731</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON COUNTY RESCUE SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2486,38.3878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>122  E OF MAIN ST ON CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3772</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2583</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>122  E OF MAIN ST ON CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.937713</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON COUNTY RESCUE SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2583,38.3772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>122  E OF MAIN ST ON CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3772</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2583</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>122  E OF MAIN ST ON CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.937713</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON COUNTY VOLUNTEER FIRE COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2583,38.3772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>5246 SEMINOLE TRAIL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4225</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.18</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5246 SEMINOLE TRAIL</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>178.508132</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.18,38.4225</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>FORK MOUNTAIN OFF HOOVER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN OFF HOOVER RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>1.7 MI E OF RT 662 AND RT 615</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4267</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3378</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.7 MI E OF RT 662 AND RT 615</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>636.529785</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3378,38.4267</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>FORK MOUNTAIN OFF HOOVER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4783</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN OFF HOOVER RD</value>
+ </Data>
+ <Data name="height">
+   <value>36</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1148.493774</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4783</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>FORK MOUNTAIN 16 KM NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4786</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN 16 KM NW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1160.937011</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>3.5 Northwest of Madison off Route 652</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.395</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2967</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3.5 Northwest of Madison off Route 652</value>
+ </Data>
+ <Data name="height">
+   <value>57.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>320.05429</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2967,38.395</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>3.5 Northwest of Madison off Route 652</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.395</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2967</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3.5 Northwest of Madison off Route 652</value>
+ </Data>
+ <Data name="height">
+   <value>57.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>320.05429</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2967,38.395</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>2900' EAST NORTHEAST FROM THE INTERSECTION OF STATE ROUTES 652 AND 656</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3953</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2967</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2900' EAST NORTHEAST FROM THE INTERSECTION OF STATE ROUTES 652 AND 656</value>
+ </Data>
+ <Data name="height">
+   <value>59.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>325.641937</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2967,38.3953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>ATOP FORK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4791</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4162</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP FORK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>54.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1165.735107</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF  Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4162,38.4791</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3866</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>207.03984</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS OF VIRGINIA INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2936,38.3866</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>TOP OF FORK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4791</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4162</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOP OF FORK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>60.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1165.735107</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4162,38.4791</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>FORK MTN 10 MILES NW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.478999</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MTN 10 MILES NW OF</value>
+ </Data>
+ <Data name="height">
+   <value>17.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.306518</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.478999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>BLAKEY RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4276</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3375</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLAKEY RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>656.45166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3375,38.4276</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>OFF ROUTE 652</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3953</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2966</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ROUTE 652</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>325.641937</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications of Petersburg, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2966,38.3953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>FORK MTN 10 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4801</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MTN 10 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.573974</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY EDUCATIONAL TELEVISION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4801</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>6 MI NW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4787</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6 MI NW OF</value>
+ </Data>
+ <Data name="height">
+   <value>44.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1166.475341</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MCI Communications Services, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4787</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>BLAKEY RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4262</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3375</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLAKEY RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>614.005737</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3375,38.4262</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>FORK MOUNTAIN 6.9 MI W OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.478999</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN 6.9 MI W OF</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.306518</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Columbia Gas Transmission Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.478999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>RT 651 WEST OF RT 652</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4275</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3372</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 651 WEST OF RT 652</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>654.455932</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3372,38.4275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>Rapidan Rvr/RT29  8.3 mi S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2803</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3408</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rapidan Rvr/RT29  8.3 mi S</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.102676</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3408,38.2803</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>Robinson Rvr/RT29  1.89mi  NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2267</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Robinson Rvr/RT29  1.89mi  NE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>121.163482</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2267,38.4</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>Graves Mill  6.45 mi WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4283</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3592</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Graves Mill  6.45 mi WNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>295.674377</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3592,38.4283</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>Syria  0.26 mi  WSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4861</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Syria  0.26 mi  WSW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>248.667785</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3308,38.4861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>Nethers  0.99 mi  SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.5589</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2664</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Nethers  0.99 mi  SE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>239.430603</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2664,38.5589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>Hood  7.09 mi  WSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3536</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3842</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Hood  7.09 mi  WSW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>209.743194</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3842,38.3536</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>Fork Mtn  4.84 mi   W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4789</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4156</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fork Mtn  4.84 mi   W</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1172.091552</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4156,38.4789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>Skyland  6.74 mi  SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.5911</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Skyland  6.74 mi  SE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1159.761352</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3786,38.5911</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>Big Meadows  10.39 mi  ENE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.5231</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.435</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Big Meadows  10.39 mi  ENE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1070.40393</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.435,38.5231</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>41-42 Skyline Dr</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.5897</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3805</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>41-42 Skyline Dr</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1120.928833</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ARAMARK Sports and Entertainment Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3805,38.5897</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>37 M EAST OF MAIN ST ON CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3772</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2583</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>37 M EAST OF MAIN ST ON CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.937713</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ORANGE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2583,38.3772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>FORK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CONTAINER RENTALS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>Madison County 911 Center,  115 Church St, Madison</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.38</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2567</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Madison County 911 Center,  115 Church St, Madison</value>
+ </Data>
+ <Data name="height">
+   <value>12.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>183.966995</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2567,38.38</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>BLAKEY'S RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4275</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3375</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLAKEY'S RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>656.45166</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3375,38.4275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>125 BRAMPTON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.2953</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1175</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>125 BRAMPTON RD</value>
+ </Data>
+ <Data name="height">
+   <value>25.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.325256</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1175,38.2953</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>3617 BEAUTIFUL RUN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3119</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2136</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3617 BEAUTIFUL RUN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>42.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.622756</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2136,38.3119</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>37M E OF MAIN ST ON CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3772</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2583</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>37M E OF MAIN ST ON CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.937713</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2583,38.3772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>3617 BEAUTIFUL RUN  ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3119</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2136</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3617 BEAUTIFUL RUN  ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>42.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.622756</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2136,38.3119</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>3617 BEAUTIFUL RUN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3119</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2136</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3617 BEAUTIFUL RUN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>42.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.622756</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON COUNTY VOLUNTEER FIRE COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2136,38.3119</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>3617 BEAUTIFUL RUN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.3119</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2136</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3617 BEAUTIFUL RUN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>42.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.622756</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MADISON COUNTY RESCUE SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2136,38.3119</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>FORK MOUNTAIN OFF HOOVER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK MOUNTAIN OFF HOOVER RD</value>
+ </Data>
+ <Data name="height">
+   <value>31.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FELHC INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>Fork Mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Madison County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.4781</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4158</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fork Mountain</value>
+ </Data>
+ <Data name="height">
+   <value>31.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1136.074584</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VALLEY TWO-WAY, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4158,38.4781</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

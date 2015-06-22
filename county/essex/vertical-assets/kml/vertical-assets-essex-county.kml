@@ -1,0 +1,3125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>912 Marsh St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9251</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.866699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>912 Marsh St.</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.631648</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.866699,37.9251</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>833 High School Circle</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9247</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8761</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>833 High School Circle</value>
+ </Data>
+ <Data name="height">
+   <value>27.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.978101</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8761,37.9247</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>0.5 MI FROM INT OF RT 360 &amp; 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8917</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8772</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.5 MI FROM INT OF RT 360 &amp; 17</value>
+ </Data>
+ <Data name="height">
+   <value>85</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.406143</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8772,37.8917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>OFF RT 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9708</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.932799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF RT 17</value>
+ </Data>
+ <Data name="height">
+   <value>70.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.588954</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COX COMMUNICATIONS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.932799,37.9708</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>ROUTE 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8894</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.878899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 360</value>
+ </Data>
+ <Data name="height">
+   <value>88.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.828746</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.878899,37.8894</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>ROUTE 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8905</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.878</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 360</value>
+ </Data>
+ <Data name="height">
+   <value>108.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.275226</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBC TOWER HOLDINGS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.878,37.8905</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>833 High School Circle</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9252</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8765</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>833 High School Circle</value>
+ </Data>
+ <Data name="height">
+   <value>27.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.851548</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8765,37.9252</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>205 Elementary School Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9311</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8609</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>205 Elementary School Road</value>
+ </Data>
+ <Data name="height">
+   <value>27.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.058779</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8609,37.9311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>746 Supply Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1089</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1222</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>746 Supply Road</value>
+ </Data>
+ <Data name="height">
+   <value>109.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.339389</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TowerCo Assets LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1222,38.1089</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>RT. 17 NORTH</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0682</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0188</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT. 17 NORTH</value>
+ </Data>
+ <Data name="height">
+   <value>85.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.121944</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0188,38.0682</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>NEAR 383 DUNNSVILLE ROAD (029491)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8483</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.81</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR 383 DUNNSVILLE ROAD (029491)</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.187316</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.81,37.8483</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Richmond Highway (029489)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8385</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9255</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Richmond Highway (029489)</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.400024</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9255,37.8385</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>402 Airport Road (029490)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9382</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8813</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>402 Airport Road (029490)</value>
+ </Data>
+ <Data name="height">
+   <value>45.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.255734</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8813,37.9382</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>29809 Tidewater Trail</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8285</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7968</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>29809 Tidewater Trail</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.683959</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7968,37.8285</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>RTE 679</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9748</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9655</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RTE 679</value>
+ </Data>
+ <Data name="height">
+   <value>85.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.39151</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STC Two LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9655,37.9748</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>10353 Tidewater Trail</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0246</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9958</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10353 Tidewater Trail</value>
+ </Data>
+ <Data name="height">
+   <value>79.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.10036</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TowerCo Assets LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9958,38.0246</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>109 N. Cross St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9308</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8606</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>109 N. Cross St.</value>
+ </Data>
+ <Data name="height">
+   <value>27.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.653514</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8606,37.9308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>9334 Howerton Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7933</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7919</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9334 Howerton Road</value>
+ </Data>
+ <Data name="height">
+   <value>78.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.215591</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TowerCo Assets LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7919,37.7933</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>VA ST SECONDARY RT 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8036</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9064</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA ST SECONDARY RT 607</value>
+ </Data>
+ <Data name="height">
+   <value>123</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.309333</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pinnacle Towers LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9064,37.8036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>TAPPAHANNOCK ESSEX COUNTY AIRPORT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8614</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8992</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TAPPAHANNOCK ESSEX COUNTY AIRPORT</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.035083</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TAPPAHANNOCK-ESSEX COUNTY AIRPORT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8992,37.8614</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>TAPPANHANNOCK ESSEX COUNTY AIRPORT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8606</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9014</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TAPPANHANNOCK ESSEX COUNTY AIRPORT</value>
+ </Data>
+ <Data name="height">
+   <value>3.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.153728</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TAPPAHANNOCK-ESSEX COUNTY AIRPORT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9014,37.8606</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9067</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8967</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.551904</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PERDUE FARMS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8967,37.9067</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>9334 HOWERTONS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7931</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7917</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9334 HOWERTONS RD</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.231395</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7917,37.7931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>RT. 17 NORTH</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0681</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0189</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT. 17 NORTH</value>
+ </Data>
+ <Data name="height">
+   <value>91.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.680856</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0189,38.0681</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>9334 HOWERTONS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7931</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7917</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9334 HOWERTONS RD</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.231395</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7917,37.7931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>RT. 17 NORTH</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0681</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0189</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT. 17 NORTH</value>
+ </Data>
+ <Data name="height">
+   <value>91.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.680856</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0189,38.0681</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>1005 MARSH STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9231</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.871399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1005 MARSH STREET</value>
+ </Data>
+ <Data name="height">
+   <value>41.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.913884</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TAPPAHANNOCK, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.871399,37.9231</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>618 HOSPITAL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9006</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8775</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>618 HOSPITAL RD</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>20.745626</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RIVERSIDE TAPPAHANNOCK HOSPITAL INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8775,37.9006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9936</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0403</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.956113</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0403,37.9936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9311</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.866699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.435265</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Essex County Public Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.866699,37.9311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8036</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9064</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.309333</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buttner Holdings LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9064,37.8036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>VA ST SECONDARY RT 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8036</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9064</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA ST SECONDARY RT 607</value>
+ </Data>
+ <Data name="height">
+   <value>129.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.309333</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buttner Holdings LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9064,37.8036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>VA ST SECONDARY RT 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8036</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9064</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA ST SECONDARY RT 607</value>
+ </Data>
+ <Data name="height">
+   <value>129.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.309333</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buttner Holdings LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9064,37.8036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>RT 627 AIRPORT DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9225</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8828</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 627 AIRPORT DR</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.043028</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHTECH INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8828,37.9225</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>INT SR 619 &amp; 620</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8919</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9644</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT SR 619 &amp; 620</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.540073</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9644,37.8919</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>INT ST RTS 607 &amp; 612 1 MI TO DIRT RD N 7/10 MI TO TOWER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.805</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9078</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RTS 607 &amp; 612 1 MI TO DIRT RD N 7/10 MI TO TOWER</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.578697</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX CONCRETE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9078,37.805</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>VA ST SECONDARY RT 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8036</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9064</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA ST SECONDARY RT 607</value>
+ </Data>
+ <Data name="height">
+   <value>129.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.309333</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE HY PAVING CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9064,37.8036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>INT OF SR 607 &amp; 612 W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.805</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9078</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT OF SR 607 &amp; 612 W</value>
+ </Data>
+ <Data name="height">
+   <value>137</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.578697</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMTRONICS OF VA INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9078,37.805</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>INT ST RTS 607 &amp; 612 THEN W ON 607 1 MI TO INT 607 &amp; PRIVATE OUT RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.805</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9078</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RTS 607 &amp; 612 THEN W ON 607 1 MI TO INT 607 &amp; PRIVATE OUT RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.578697</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA SUBURBAN WATER SUPPLY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9078,37.805</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>ROUTE 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8903</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8778</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 360</value>
+ </Data>
+ <Data name="height">
+   <value>110</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.524734</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8778,37.8903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>2 MI N RT 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8978</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.874399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 MI N RT 360</value>
+ </Data>
+ <Data name="height">
+   <value>33</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.674647</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RIVERSIDE TAPPAHANNOCK HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.874399,37.8978</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>FIRE TOWER 10 MI NW ON RT 631</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9936</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0403</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIRE TOWER 10 MI NW ON RT 631</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.956113</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0403,37.9936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>1/2 MI N OF RT 360 AT BRAYS FORK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8917</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8775</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MI N OF RT 360 AT BRAYS FORK</value>
+ </Data>
+ <Data name="height">
+   <value>26</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.395481</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8775,37.8917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>.5 MI FROM INT OF RT 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8917</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.876899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.5 MI FROM INT OF RT 360</value>
+ </Data>
+ <Data name="height">
+   <value>111</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.207729</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RIVERSIDE TAPPAHANNOCK HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.876899,37.8917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>2500 FT W INT RT 360 &amp; RT 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8958</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.881399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2500 FT W INT RT 360 &amp; RT 17</value>
+ </Data>
+ <Data name="height">
+   <value>76</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.836853</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RIVERSIDE TAPPAHANNOCK HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.881399,37.8958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>ROUTE 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8903</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8778</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 360</value>
+ </Data>
+ <Data name="height">
+   <value>110</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.524734</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8778,37.8903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>US RT 17 S CITY LIMITS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9156</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.859199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 17 S CITY LIMITS</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.051754</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.859199,37.9156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>VA ST SECONDARY RT 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8036</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9064</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA ST SECONDARY RT 607</value>
+ </Data>
+ <Data name="height">
+   <value>129.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.309333</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9064,37.8036</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>3 MI S OF I17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0656</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1025</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 MI S OF I17</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>54.00386</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1025,38.0656</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>1 MI SE OF INTERSTATE US 360 &amp; US 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9275</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.859699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI SE OF INTERSTATE US 360 &amp; US 17</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.705143</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.859699,37.9275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>1 MI SE OF INTERSTATE US 360 AND US 17</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9275</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.859699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI SE OF INTERSTATE US 360 AND US 17</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.705143</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.859699,37.9275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>700 N OF ST RT 607 &amp; .5 MI W OF INT RT 612 &amp; 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.805</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9078</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>700 N OF ST RT 607 &amp; .5 MI W OF INT RT 612 &amp; 607</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.578697</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9078,37.805</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>ROUTE 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8894</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.878899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 360</value>
+ </Data>
+ <Data name="height">
+   <value>90.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.828746</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.878899,37.8894</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>RT. 17 NORTH</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0681</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0186</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT. 17 NORTH</value>
+ </Data>
+ <Data name="height">
+   <value>91.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.199197</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0186,38.0681</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>156 Prince Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9286</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8583</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>156 Prince Street</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.240332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>REAL MEDIA, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8583,37.9286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>5079 DUNBROOKE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8921</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9642</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5079 DUNBROOKE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>56.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.516395</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9642,37.8921</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>10353 Tidewater Trail</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0246</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9958</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10353 Tidewater Trail</value>
+ </Data>
+ <Data name="height">
+   <value>79.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.10036</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9958,38.0246</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>ROUTE 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8905</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.878</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 360</value>
+ </Data>
+ <Data name="height">
+   <value>114.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.275226</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.878,37.8905</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>9334 Howertons Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7933</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7919</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9334 Howertons Road</value>
+ </Data>
+ <Data name="height">
+   <value>78.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>28.215591</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7919,37.7933</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>304 PRINCE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9281</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8594</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>304 PRINCE ST</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.560535</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8594,37.9281</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>912 Marsh St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9253</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8673</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>912 Marsh St.</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.555653</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8673,37.9253</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>833 High School Circle</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9252</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8765</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>833 High School Circle</value>
+ </Data>
+ <Data name="height">
+   <value>27.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>7.851548</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8765,37.9252</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>205 Elementary School Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9311</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8609</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>205 Elementary School Road</value>
+ </Data>
+ <Data name="height">
+   <value>28.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.058779</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8609,37.9311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>Poplar Spring Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8905</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.878</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Poplar Spring Road</value>
+ </Data>
+ <Data name="height">
+   <value>110</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.275226</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.878,37.8905</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>E ON 360 1.38 MI FROM INT OF 619 &amp; 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8894</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.878899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>E ON 360 1.38 MI FROM INT OF 619 &amp; 360</value>
+ </Data>
+ <Data name="height">
+   <value>90.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.828746</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.878899,37.8894</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>109 Melody Court</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9003</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>109 Melody Court</value>
+ </Data>
+ <Data name="height">
+   <value>25</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>13.799386</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>A.C.T.I.O.N., INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.875,37.9003</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>156 PRINCE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9287</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8583</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>156 PRINCE ST</value>
+ </Data>
+ <Data name="height">
+   <value>19.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.271341</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>REAL MEDIA, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8583,37.9287</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>10353 TIDEWATER TRAIL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0244</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9955</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10353 TIDEWATER TRAIL</value>
+ </Data>
+ <Data name="height">
+   <value>79.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.179374</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9955,38.0244</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>10353 TIDEWATER TRAIL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0244</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9955</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10353 TIDEWATER TRAIL</value>
+ </Data>
+ <Data name="height">
+   <value>79.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.179374</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ESSEX, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9955,38.0244</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>RT 627 AIRPORT DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9225</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8828</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 627 AIRPORT DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.043028</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CANON VIRGINIA INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8828,37.9225</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>618 HOSPITAL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9011</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BTWR</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>618 HOSPITAL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.160713</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8786,37.9011</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>OFF ROUTE 360 APPROX. 2 MILES SW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8917</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.876899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ROUTE 360 APPROX. 2 MILES SW OF</value>
+ </Data>
+ <Data name="height">
+   <value>149</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.207729</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.876899,37.8917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>O.5. MILES W OF SR 521 &amp; 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.805</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9078</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>O.5. MILES W OF SR 521 &amp; 607</value>
+ </Data>
+ <Data name="height">
+   <value>137.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.578697</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buttner Holdings LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9078,37.805</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>MONTAGUE FARMS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Essex County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.805</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.9078</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MONTAGUE FARMS</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.578697</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.9078,37.805</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

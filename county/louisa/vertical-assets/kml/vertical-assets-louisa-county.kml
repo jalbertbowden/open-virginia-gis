@@ -1,0 +1,6821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>9661 Jefferson Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9221</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8601</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9661 Jefferson Highway</value>
+ </Data>
+ <Data name="height">
+   <value>92.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>121.560745</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Rappahannock Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8601,37.9221</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>346 Horsepen Branch</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9629</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.798999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>346 Horsepen Branch</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>98.68666</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.798999,37.9629</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>State Routes 22/33 at West Town Limit of Louisa, Va</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0271</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0178</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Routes 22/33 at West Town Limit of Louisa, Va</value>
+ </Data>
+ <Data name="height">
+   <value>86.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.263916</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Piedmont Communications, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0178,38.0271</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>W SIDE RT 263</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0372</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.923999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>W SIDE RT 263</value>
+ </Data>
+ <Data name="height">
+   <value>103.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>136.669616</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBC TOWER HOLDINGS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.923999,38.0372</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>5893 PARRISH RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8981</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0345</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5893 PARRISH RD.</value>
+ </Data>
+ <Data name="height">
+   <value>90.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.092864</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Richmond 20MHz, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0345,37.8981</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>14429 West Jack Jouett</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0424</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2365</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14429 West Jack Jouett</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.53717</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Community Wireless Structures III, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2365,38.0424</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>Louisa Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9899</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9497</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Louisa Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>130.173904</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Community Wireless Structures III, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9497,37.9899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>1101 Chopping Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0386</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9236</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1101 Chopping Road</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>138.99443</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMUNITY WIRELESS STRUCTURES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9236,38.0386</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>ROUTE  700</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0474</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.819799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE  700</value>
+ </Data>
+ <Data name="height">
+   <value>86.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.583496</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.819799,38.0474</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>3380 Jefferson Hwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9785733</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9422346</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Treatment Plant Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3380 Jefferson Hwy</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>318.2743455</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Louisa County Water Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9422346,37.9785733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Hollyhurst Ave</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.01529266</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.983677</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Holly Hurst Elevated water tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Hollyhurst Ave</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>438.9709953</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Louisa, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.983677,38.01529266</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Route 22</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.025381</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.002784</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 22</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>461.0092831</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Louisa County Water Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.002784,38.025381</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Undetermined</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.010178</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.906706</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tower</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Undetermined</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>470.7920797</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mineral, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.906706,38.010178</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>ROUTE 750</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.95</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1114</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 750</value>
+ </Data>
+ <Data name="height">
+   <value>87.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>163.271392</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1114,37.95</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>1022 Haley Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0561</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7871</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1022 Haley Drive</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>88.446022</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7871,38.0561</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>END OF ST RT 700 1.5 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF ST RT 700 1.5 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>67.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.00888</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7964,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>ON N SIDE OF ST RT 700 .9 MI FROM END .9 MI</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0547</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.802799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON N SIDE OF ST RT 700 .9 MI FROM END .9 MI</value>
+ </Data>
+ <Data name="height">
+   <value>111.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>104.786346</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.802799,38.0547</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Route 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7771</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.885</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 522</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>94.152885</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.885,37.7771</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Louisa, VA (010092)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0217</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0041</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Louisa, VA (010092)</value>
+ </Data>
+ <Data name="height">
+   <value>111.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>132.884811</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0041,38.0217</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>3.5 MI SE OF POINDEXTER         ( 272631 )</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9482</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1122</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3.5 MI SE OF POINDEXTER         ( 272631 )</value>
+ </Data>
+ <Data name="height">
+   <value>60.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>167.728607</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1122,37.9482</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>3921 Indian Creek Rd (090216)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9339</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9162</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3921 Indian Creek Rd (090216)</value>
+ </Data>
+ <Data name="height">
+   <value>120.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.844818</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9162,37.9339</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>STATE ROUTE 522 &amp; 663</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8078</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8642</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATE ROUTE 522 &amp; 663</value>
+ </Data>
+ <Data name="height">
+   <value>109.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.779945</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF  DBA =  DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8642,37.8078</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>9457 Route 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8712</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8995</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9457 Route 522</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>85.558067</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>National Communication Towers, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8995,37.8712</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>7300 Block of Zachary Taylor Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1007</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9077</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7300 Block of Zachary Taylor Highway</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>99.41436</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>National Communication Towers, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9077,38.1007</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>1022 Zion Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9847</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.228399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1022 Zion Road</value>
+ </Data>
+ <Data name="height">
+   <value>58.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.858322</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.228399,37.9847</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>SR 655</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8799</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7879</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 655</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>111.036346</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7879,37.8799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>9661 JEFFERSON HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9219</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.86</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9661 JEFFERSON HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>99.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>121.580795</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.86,37.9219</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>END OF ST RT 700 1.5 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7964</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF ST RT 700 1.5 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>73.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.00888</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7964,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>104 E First St , MP140.7</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0111</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9089</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>104 E First St , MP140.7</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>137.589477</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Buckingham Branch Railroad Compan</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9089,38.0111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>10411 JAMES MADISON HWY, N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9994</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1969</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10411 JAMES MADISON HWY, N OF</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.835723</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA COUNTY WATER AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1969,37.9994</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>955 POINDEXTER ROAD, NE OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9731</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1989</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>955 POINDEXTER ROAD, NE OF</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>134.492248</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA COUNTY WATER AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1989,37.9731</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>531 EAST GREEN SPRING, N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0103</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1819</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>531 EAST GREEN SPRING, N OF</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>125.232856</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA COUNTY WATER AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1819,38.0103</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>8627 JAMES MADISON HWY, N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0089</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.19</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8627 JAMES MADISON HWY, N OF</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>134.330398</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA COUNTY WATER AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.19,38.0089</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>10923 JAMES MADISON HWY, N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9775</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2067</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10923 JAMES MADISON HWY, N OF</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>155.179534</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA COUNTY WATER AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2067,37.9775</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>406 E MAIN STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.02</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9942</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>406 E MAIN STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>131.554656</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HEW, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9942,38.02</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>LOUISA AVE BETWEEN 1ST &amp; EAST 2ND ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.01</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9067</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LOUISA AVE BETWEEN 1ST &amp; EAST 2ND ST</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.497421</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MINERAL, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9067,38.01</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>HWY 618 PAST 1ST STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0114</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9086</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 618 PAST 1ST STREET</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>137.785552</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MINERAL, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9086,38.0114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>SPRING RD .5 MI FROM RT 618</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0128</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.887799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SPRING RD .5 MI FROM RT 618</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>132.374389</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MINERAL, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.887799,38.0128</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>102 E FIRST ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.01</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9064</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>102 E FIRST ST</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.052749</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MINERAL, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9064,38.01</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>.2 MI OF RT 1107 &amp; 1120</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0044</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9044</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.2 MI OF RT 1107 &amp; 1120</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>136.151947</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MINERAL, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9044,38.0044</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0892</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1486</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>129.955322</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shenandoah Golf Club LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1486,38.0892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8075</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8642</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.295906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8642,37.8075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0972</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1819</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>145.118072</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Spring Creek Land Development</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1819,38.0972</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>3585 Klockner Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1197</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2108</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3585 Klockner Rd</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.27182</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Old Dominion Electric Cooperative</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2108,38.1197</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.00888</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7964,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>END OF ST RT 700 1.5 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7964</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF ST RT 700 1.5 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>73.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.00888</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7964,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>384 PENDLETON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.965599</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9008</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>384 PENDLETON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>133.877578</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ENNSTONE, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9008,37.965599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>10695 JAMES MADISON AVENUE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9825</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2039</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10695 JAMES MADISON AVENUE</value>
+ </Data>
+ <Data name="height">
+   <value>12.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>148.603317</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Wal-Mart Stores East, LP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2039,37.9825</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>RT 33, LOUISA, FORESTRY OFFICE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0264</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.012499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 33, LOUISA, FORESTRY OFFICE</value>
+ </Data>
+ <Data name="height">
+   <value>23.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.04692</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.012499,38.0264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>Off Elnor Road in Cuckoos Nest Subdivision</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0039</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7897</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off Elnor Road in Cuckoos Nest Subdivision</value>
+ </Data>
+ <Data name="height">
+   <value>20.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.499389</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7897,38.0039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>OFF ROUTE 699 4.3 MILES SOUTH</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9339</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9161</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ROUTE 699 4.3 MILES SOUTH</value>
+ </Data>
+ <Data name="height">
+   <value>125.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.874137</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9161,37.9339</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>RAMADA INN SEWER TREATMENT PLANT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9481</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7497</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RAMADA INN SEWER TREATMENT PLANT</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>96.186767</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAROLINE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7497,37.9481</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>NAPS TWR END OF SR 700 .9 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0547</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.802799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NAPS TWR END OF SR 700 .9 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>113</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>104.786346</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.802799,38.0547</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>RR &amp; SR 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0111</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9089</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR &amp; SR 522</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>137.589477</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9089,38.0111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>END OF ST RT 700 1.5 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7964</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF ST RT 700 1.5 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>73.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.00888</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7964,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>1.5 MI NE CENTERVILLE AT END OF SR 700</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7917</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI NE CENTERVILLE AT END OF SR 700</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>84.781494</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7917,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>115 RED HILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1264</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2111</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>115 RED HILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>147.051422</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2111,38.1264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>1.7 MI N OF INT ST RT 618 AND 700</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0253</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8531</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.7 MI N OF INT ST RT 618 AND 700</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>125.240493</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8531,38.0253</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>.2 MI S OF INT ST RT 645 AND 22</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0122</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9136</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.2 MI S OF INT ST RT 645 AND 22</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>123.881225</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9136,38.0122</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>.2 MI E OF INT ST RT 690 AND 614</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0381</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.77</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.2 MI E OF INT ST RT 690 AND 614</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>85.128349</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.77,38.0381</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>1.4 MI N INT ST RT 601 AND 715</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9933</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.707499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.4 MI N INT ST RT 601 AND 715</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.540428</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.707499,37.9933</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>.55 MI N INT ST RT 622 AND 652</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9925</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7586</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.55 MI N INT ST RT 622 AND 652</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>75.941993</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7586,37.9925</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>.7 MI S INT ST RT 700 AND 689</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9861</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.7 MI S INT ST RT 700 AND 689</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.382781</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8964,37.9861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>1.6 MI N INT ST RT 614 AND 618</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0081</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.805</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.6 MI N INT ST RT 614 AND 618</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>101.203208</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.805,38.0081</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>INT ST RT 33 AND 644</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.965599</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9675</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RT 33 AND 644</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>114.384414</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9675,37.965599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>.2 MI SE OF INT ST RT 652 AND 208</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.08</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8525</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.2 MI SE OF INT ST RT 652 AND 208</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.234397</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8525,38.08</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>.25 MI S OF INT ST RT 628 AND 613</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0892</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9536</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.25 MI S OF INT ST RT 628 AND 613</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>111.271232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9536,38.0892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>INT ST RT 33 AND 656</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9422</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8853</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RT 33 AND 656</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>122.385444</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8853,37.9422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>.5 MI E INT 701 AND ST RT 601</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9603</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7286</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.5 MI E INT 701 AND ST RT 601</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>90.389472</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7286,37.9603</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>INT ST RT 609 AND 618</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9567</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7894</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RT 609 AND 618</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>101.407157</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7894,37.9567</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>.7 MI E INT ST RT 656 AND 689</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9683</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8439</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.7 MI E INT ST RT 656 AND 689</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>109.769309</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8439,37.9683</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>INT ST RT 33 AND 605</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9725</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.924199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RT 33 AND 605</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>130.842849</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.924199,37.9725</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>.25 MI SW OF INT ST RT 652 AND 685</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.05</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8253</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.25 MI SW OF INT ST RT 652 AND 685</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.310287</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8253,38.05</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>.2 MI NW OF INT ST RT 733 AND 623</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0622</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9056</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.2 MI NW OF INT ST RT 733 AND 623</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>125.196235</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9056,38.0622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>.1 MI N OF INT RT 719 AND 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0969</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8875</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.1 MI N OF INT RT 719 AND 522</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>101.692596</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8875,38.0969</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>INT ST RT 609 AND 612</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9303</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8208</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RT 609 AND 612</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>90.569007</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8208,37.9303</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>INT ST RT 643 522 AND 33</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9533</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9019</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RT 643 522 AND 33</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>125.047676</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9019,37.9533</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>.75 MI E INT ST RT 618 AND 703</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0083</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8892</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.75 MI E INT ST RT 618 AND 703</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>127.518203</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8892,38.0083</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>.5 MI N ST RT 665</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0742</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.81</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.5 MI N ST RT 665</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>97.254768</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.81,38.0742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>.2 MI W OF INT ST RT 656 AND 618</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9756</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8239</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.2 MI W OF INT ST RT 656 AND 618</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>78.9244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8239,37.9756</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>.3 MI NW OF INT ST RT 614 AND 652</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0411</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7903</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.3 MI NW OF INT ST RT 614 AND 652</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>95.186187</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7903,38.0411</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>.2 MI NE OF INT ST RT 720 AND 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0467</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8786</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.2 MI NE OF INT ST RT 720 AND 522</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.518478</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8786,38.0467</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>INT OF ST RT 701 &amp; 608</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9169</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7636</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT OF ST RT 701 &amp; 608</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>96.536148</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7636,37.9169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>ST RT 625 2 MI N OF ST RT 22</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0411</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9592</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 625 2 MI N OF ST RT 22</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.190277</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9592,38.0411</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>1 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.00888</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7964,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>N ANNA PLANT AT END OF SR 700 1.7 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7917</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N ANNA PLANT AT END OF SR 700 1.7 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>84.781494</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7917,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>N ANNA TWR AT END OF SR 700 1.4 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N ANNA TWR AT END OF SR 700 1.4 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.00888</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7964,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7917</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>84.781494</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7917,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>1/2 MI W OF INT HWY 522 &amp; SR 613</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0792</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8908</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MI W OF INT HWY 522 &amp; SR 613</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.825942</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUCK STONE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8908,38.0792</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>1/2 MI W OF INT 22 &amp; 15 3 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0733</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MI W OF INT 22 &amp; 15 3 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.437683</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS TRANSMISSION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1997,38.0733</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>2983 NEWBRIDGE RD RT 208</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0889</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8267</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2983 NEWBRIDGE RD RT 208</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>75.941993</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8267,38.0889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>3758 KLOCKNER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1297</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1964</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3758 KLOCKNER RD</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.950973</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KLOCKNER PENTAPLAST OF AMERICA INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1964,38.1297</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>INT OF ZACHARY TAYLOR HWY &amp; RT 523</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0811</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8931</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT OF ZACHARY TAYLOR HWY &amp; RT 523</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.196723</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8931,38.0811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>KENNEDY SPRINGS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.070299</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.84</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>KENNEDY SPRINGS RD</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>87.133399</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.84,38.070299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>FOREST SERVICE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0328</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.856099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FOREST SERVICE RD</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>96.274162</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.856099,38.0328</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>3031 MOODY TOWN RD RT 622</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0142</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7322</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3031 MOODY TOWN RD RT 622</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>78.548126</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7322,38.0142</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>LEFT AT NORTH ANNA POWER STA 1 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0622</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7825</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LEFT AT NORTH ANNA POWER STA 1 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>76.509475</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7825,38.0622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>4.5 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1322</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0989</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4.5 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>142.555389</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH CROSSING FARM &amp; CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0989,38.1322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>ST 522 &amp; 663</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8075</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8642</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST 522 &amp; 663</value>
+ </Data>
+ <Data name="height">
+   <value>113</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.295906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8642,37.8075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.95</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7414</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>91.010559</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7414,37.95</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>INT F191 SR750 1 KM N OF I64 SR208</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9428</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1103</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT F191 SR750 1 KM N OF I64 SR208</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>167.210571</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1103,37.9428</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>US 33 1.5 KM S OF SR 657 8 KM S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9075</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8528</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 33 1.5 KM S OF SR 657 8 KM S</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.938827</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8528,37.9075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>5839 PARRISH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8075</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8642</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5839 PARRISH RD</value>
+ </Data>
+ <Data name="height">
+   <value>91</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.295906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8642,37.8075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>4429 JOHNSON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0475</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8197</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4429 JOHNSON RD</value>
+ </Data>
+ <Data name="height">
+   <value>70</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.610542</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8197,38.0475</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>1 WOOLFOLK AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.021399</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0039</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 WOOLFOLK AVE</value>
+ </Data>
+ <Data name="height">
+   <value>98</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>131.893524</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0039,38.021399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>5839 PARISH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8075</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8642</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5839 PARISH RD</value>
+ </Data>
+ <Data name="height">
+   <value>91</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.295906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8642,37.8075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>4429 JOHNSON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0475</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8197</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4429 JOHNSON RD</value>
+ </Data>
+ <Data name="height">
+   <value>70</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.610542</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8197,38.0475</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>1 WOLFOLK AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.021399</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0039</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 WOLFOLK AVE</value>
+ </Data>
+ <Data name="height">
+   <value>98</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>131.893524</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0039,38.021399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>US 15 .5 KM S OF I64 .5 KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9747</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2189</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 15 .5 KM S OF I64 .5 KM N</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>161.866226</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2189,37.9747</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>SR 522 &amp; 663</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8075</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8642</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 522 &amp; 663</value>
+ </Data>
+ <Data name="height">
+   <value>113</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.295906</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of  Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8642,37.8075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>SR 22 2 KM E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0153</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9792</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 22 2 KM E</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>138.277832</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9792,38.0153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>WLSA TOWER US RT 33 W CITY LIMIT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0269</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0178</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WLSA TOWER US RT 33 W CITY LIMIT</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.292968</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>UNIVERSITY OF VIRGINIA MEDICAL CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0178,38.0269</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>N ANNA POWER STATION 1.5 MI NE AT END OF SR 700</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N ANNA POWER STATION 1.5 MI NE AT END OF SR 700</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.00888</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7964,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>DIV OF FORESTRY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0264</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0122</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DIV OF FORESTRY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.244735</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0122,38.0264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7917</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>84.781494</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7917,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>SCHOOL BOARD OFC RT 22</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0197</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9208</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SCHOOL BOARD OFC RT 22</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>142.776382</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9208,38.0197</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>SCHOOL BUS GARAGE RT 22</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0208</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9206</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SCHOOL BUS GARAGE RT 22</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.373184</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9206,38.0208</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.01</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.955</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>120.634262</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA INDUSTRIAL DEVELOPMENT AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.955,38.01</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>488 LANDS END ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.95</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>488 LANDS END ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>89</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>163.271392</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1114,37.95</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>488 LANDS END ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.95</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>488 LANDS END ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>92.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>163.271392</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1114,37.95</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>CEDAR RIDGE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9956</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2817</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CEDAR RIDGE RD</value>
+ </Data>
+ <Data name="height">
+   <value>57</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>129.193328</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2817,37.9956</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>RTE 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7769</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.885</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RTE 522</value>
+ </Data>
+ <Data name="height">
+   <value>57</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>94.286773</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.885,37.7769</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>1.86 MI NE OF US 522 &amp; I64</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8033</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8797</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.86 MI NE OF US 522 &amp; I64</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>84.665992</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8797,37.8033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>5.8 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0292</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.110799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5.8 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>119.719337</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Nextel License Holdings 3, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.110799,38.0292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>RT 699 NEAR INT RT 522 &amp; US 33</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9336</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9161</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 699 NEAR INT RT 522 &amp; US 33</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.724334</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9161,37.9336</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>3921 Indian Creek Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9336</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9161</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3921 Indian Creek Road</value>
+ </Data>
+ <Data name="height">
+   <value>126.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.724334</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9161,37.9336</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark126">
+ <name>4448 Courthouse Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9728</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0542</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4448 Courthouse Road</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>125.489631</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0542,37.9728</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark127">
+ <name>ROUTE 623 3.1 MILES NORTH OF ROUTE 22/23</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.037</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9239</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 623 3.1 MILES NORTH OF ROUTE 22/23</value>
+ </Data>
+ <Data name="height">
+   <value>105.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>138.2294</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW CINGULAR WIRELESS PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9239,38.037</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark128">
+ <name>Route 615</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9842</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2256</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 615</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>156.444717</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2256,37.9842</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark129">
+ <name>Route 750</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.95</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1114</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 750</value>
+ </Data>
+ <Data name="height">
+   <value>89</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>163.271392</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1114,37.95</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark130">
+ <name>ROUTE  700</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0472</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8197</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE  700</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.186073</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8197,38.0472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark131">
+ <name>ROUTE  700</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0472</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8197</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE  700</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.186073</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8197,38.0472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark132">
+ <name>Bus Garage Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0159</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.924499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Bus Garage Road</value>
+ </Data>
+ <Data name="height">
+   <value>4.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>134.828109</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Louisa, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.924499,38.0159</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark133">
+ <name>1009 Davis Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0198</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9255</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1009 Davis Highway</value>
+ </Data>
+ <Data name="height">
+   <value>27.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>141.756088</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Louisa, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9255,38.0198</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark134">
+ <name>9661 Jefferson Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9221</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8601</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9661 Jefferson Highway</value>
+ </Data>
+ <Data name="height">
+   <value>99.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>121.560745</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8601,37.9221</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark135">
+ <name>STATE ROUTE 522 &amp; 663</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8078</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8642</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATE ROUTE 522 &amp; 663</value>
+ </Data>
+ <Data name="height">
+   <value>112.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.779945</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8642,37.8078</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark136">
+ <name>5893 PARRISH RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8981</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0344</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5893 PARRISH RD.</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.29515</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH PUBLIC BROADCASTING CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0344,37.8981</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark137">
+ <name>5893 Parrish Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8981</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0344</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5893 Parrish Road</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.29515</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH PUBLIC BROADCASTING CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0344,37.8981</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark138">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0474</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8197</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.546165</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8197,38.0474</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark139">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8981</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0344</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.29515</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0344,37.8981</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark140">
+ <name>Louisa, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.022</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.002999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Louisa, VA</value>
+ </Data>
+ <Data name="height">
+   <value>118.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>134.83908</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.002999,38.022</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark141">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0219</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.002999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>134.665328</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.002999,38.0219</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark142">
+ <name>5893 PARRISH RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8981</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0344</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5893 PARRISH RD.</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.29515</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LOUISA COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0344,37.8981</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark143">
+ <name>.15 MI W ON RT 700 250 FT N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0472</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8197</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.15 MI W ON RT 700 250 FT N</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.186073</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8197,38.0472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark144">
+ <name>END OF ST RT 700 1.5 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0589</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7964</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF ST RT 700 1.5 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>73.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.00888</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7964,38.0589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark145">
+ <name>5893 PARRISH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8979</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0344</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5893 PARRISH RD</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.382644</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH PUBLIC BROADCASTING CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0344,37.8979</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark146">
+ <name>5893 PARRISH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8979</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0344</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5893 PARRISH RD</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.382644</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH PUBLIC BROADCASTING CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0344,37.8979</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark147">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.1143</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.671234</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1275,38.1143</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark148">
+ <name>9661 Jefferson Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9221</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8601</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9661 Jefferson Highway</value>
+ </Data>
+ <Data name="height">
+   <value>99.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>121.560745</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8601,37.9221</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark149">
+ <name>ON N SIDE OF ST RT 700 .9 MI FROM END .9 MI</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0547</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.802799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON N SIDE OF ST RT 700 .9 MI FROM END .9 MI</value>
+ </Data>
+ <Data name="height">
+   <value>117.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>104.786346</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.802799,38.0547</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark150">
+ <name>.15 MI W ON RT 700 250 FT N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0474</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.819799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.15 MI W ON RT 700 250 FT N</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.583496</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.819799,38.0474</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark151">
+ <name>2 MI SW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8026</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7916</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 MI SW OF</value>
+ </Data>
+ <Data name="height">
+   <value>57.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>96.262916</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MCI Communications Services, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7916,37.8026</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark152">
+ <name>3.5 MI SSE OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9482</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1122</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3.5 MI SSE OF</value>
+ </Data>
+ <Data name="height">
+   <value>63.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>167.728607</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MCI Communications Services, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1122,37.9482</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark153">
+ <name>5.7 MILES SE OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0654</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.239699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5.7 MILES SE OF</value>
+ </Data>
+ <Data name="height">
+   <value>44.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>158.534774</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CELLCO PARTNERSHIP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.239699,38.0654</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark154">
+ <name>INT OF STATE RTES 522 AND 663</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8076</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8641</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT OF STATE RTES 522 AND 663</value>
+ </Data>
+ <Data name="height">
+   <value>109.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.318832</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8641,37.8076</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark155">
+ <name>ON N SIDE OF ST RT 700 .9 MI FROM END .9 MI</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0547</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.802799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON N SIDE OF ST RT 700 .9 MI FROM END .9 MI</value>
+ </Data>
+ <Data name="height">
+   <value>117.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>104.786346</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.802799,38.0547</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark156">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0142</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9681</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>149.044799</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TRI DIM FILTER CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9681,38.0142</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark157">
+ <name>STATE ROUTE 522 &amp; 663</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8078</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8642</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATE ROUTE 522 &amp; 663</value>
+ </Data>
+ <Data name="height">
+   <value>112.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.779945</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8642,37.8078</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark158">
+ <name>RT 699, 1.2 MI WEST OF US RT 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9336</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.915799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 699, 1.2 MI WEST OF US RT 522</value>
+ </Data>
+ <Data name="height">
+   <value>125.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.445487</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ComSoft Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.915799,37.9336</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark159">
+ <name>OFF ROUTE 699 APPX 2 KM SW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9336</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.915799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ROUTE 699 APPX 2 KM SW OF</value>
+ </Data>
+ <Data name="height">
+   <value>122</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.445487</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HELLO PAGER COMPANY, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.915799,37.9336</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark160">
+ <name>ROUTE 699</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9336</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.915799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 699</value>
+ </Data>
+ <Data name="height">
+   <value>125</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.445487</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.915799,37.9336</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark161">
+ <name>1.5 MILES SW OF CUCKOO CITY CENTER ON ROUTE 699</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Louisa County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9339</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.915799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MILES SW OF CUCKOO CITY CENTER ON ROUTE 699</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.702537</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.915799,37.9339</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

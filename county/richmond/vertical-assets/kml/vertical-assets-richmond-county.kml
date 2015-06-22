@@ -1,0 +1,2705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>.25 KM S OF ST RT 615</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8742</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7267</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.25 KM S OF ST RT 615</value>
+ </Data>
+ <Data name="height">
+   <value>118</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.569563</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK COMMUNICATIONS INC  DBA =  WRAR FM</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7267,37.8742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>85 St. Johns St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9589</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7556</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>85 St. Johns St.</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.672901</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Northern Neck Electric Cooperative, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7556,37.9589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>NORTH HIGHWAY 360 &amp; RT. 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9534</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6237</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NORTH HIGHWAY 360 &amp; RT. 607</value>
+ </Data>
+ <Data name="height">
+   <value>91.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.556488</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBC TOWER HOLDINGS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6237,37.9534</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>S OF RT 360 2.7 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9522</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8156</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S OF RT 360 2.7 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>104</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.031663</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK COMMUNICATIONS INC  DBA =  WRAR AM</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8156,37.9522</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>365 RTE 3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8875</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.633299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>365 RTE 3</value>
+ </Data>
+ <Data name="height">
+   <value>85.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.883525</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN ATLANTIC COMPANY, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.633299,37.8875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>State Rt.3  Richmond County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9807</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7381</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Rt.3  Richmond County</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.522205</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of    Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7381,37.9807</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>1.15 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9442</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7511</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.15 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>86.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.516197</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTHERN NECK &amp; TIDEWATER COMMUNICATIONS  DBA =  WNNT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7511,37.9442</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>1257 Totuskey Church Road  (VA02586-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9554</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.639999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1257 Totuskey Church Road  (VA02586-A)</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.137027</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Properties, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.639999,37.9554</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>Off SR 620</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9336</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7036</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off SR 620</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.635887</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>National Communication Towers, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7036,37.9336</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>4274 Richmond Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9607</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7861</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4274 Richmond Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.581981</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>National Communication Towers, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7861,37.9607</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>STATE HIGHWAY #3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9832</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7311</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATE HIGHWAY #3</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.762035</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN ATLANTIC COMPANY, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7311,37.9832</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>ST RT 3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9806</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.737999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 3</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.511966</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.737999,37.9806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>85 ST JOHNS STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9589</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.755499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>85 ST JOHNS STREET</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.302574</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Bay Aging</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.755499,37.9589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9575</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7569</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.17377</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RICHMOND, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7569,37.9575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9811</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7369</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.567317</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7369,37.9811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>1257 Totuskey Church Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9542</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6403</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1257 Totuskey Church Road</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.452564</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6403,37.9542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>HAYNESVILLE CORRECTIONAL CENTER POB 39</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9614</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.674399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HAYNESVILLE CORRECTIONAL CENTER POB 39</value>
+ </Data>
+ <Data name="height">
+   <value>50</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>35.116493</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.674399,37.9614</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>HAYNESVILLE CORRECTIONAL CENTER POB 39</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9547</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6719</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HAYNESVILLE CORRECTIONAL CENTER POB 39</value>
+ </Data>
+ <Data name="height">
+   <value>50</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>23.529687</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6719,37.9547</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>HAYNESVILLE CORRECTIONAL CENTER, POB 39</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.955</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6728</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HAYNESVILLE CORRECTIONAL CENTER, POB 39</value>
+ </Data>
+ <Data name="height">
+   <value>50</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>26.492704</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6728,37.955</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>.5 MI SOUTH OF US 360 ON RT 619</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9464</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6661</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.5 MI SOUTH OF US 360 ON RT 619</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>36.523941</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FRANKLIN, KEITH</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6661,37.9464</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>.1 MI N OF INT RT 601 &amp; RT 602</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8642</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.5628</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.1 MI N OF INT RT 601 &amp; RT 602</value>
+ </Data>
+ <Data name="height">
+   <value>43</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.799831</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTHERN NECK ELECTRIC COOPERATIVE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.5628,37.8642</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>85 St. Johns St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9589</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.755499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>85 St. Johns St.</value>
+ </Data>
+ <Data name="height">
+   <value>82.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.302574</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTHERN NECK ELECTRIC COOPERATIVE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.755499,37.9589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>3 KM NE US 360 INT RT 661 &amp; 618</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9542</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.639999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 KM NE US 360 INT RT 661 &amp; 618</value>
+ </Data>
+ <Data name="height">
+   <value>122</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.53115</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.639999,37.9542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>85 St. Johns St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9589</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.755499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>85 St. Johns St.</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.302574</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTHERN NECK ELECTRIC COOPERATIVE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.755499,37.9589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>RT 3 TOTUSKY BRIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9214</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.745</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 3 TOTUSKY BRIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>25.032346</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTHERN NECK OIL CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.745,37.9214</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>17 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9647</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7544</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>17 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.599216</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AmeriGas Propane, L.P.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7544,37.9647</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>3622 RICHMOND ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9664</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7978</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3622 RICHMOND ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>7.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>10.502161</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MIDDLESEX BOTTLED GAS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7978,37.9664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>RT 3 .5 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9633</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7575</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 3 .5 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.580001</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WOOD PRESERVERS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7575,37.9633</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>1257 Totuskey Church Road  (VA02586-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9553</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.639999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1257 Totuskey Church Road  (VA02586-A)</value>
+ </Data>
+ <Data name="height">
+   <value>128.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.391716</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMUNICATIONS SPECIALISTS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.639999,37.9553</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>1 MI NW OF INT OF RT 624 &amp; 693</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.0853</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.886899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI NW OF INT OF RT 624 &amp; 693</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.779998</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HISTORYLAND NURSERY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.886899,38.0853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>SR 3 1.6 KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9811</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7369</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 3 1.6 KM N</value>
+ </Data>
+ <Data name="height">
+   <value>96</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.567317</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7369,37.9811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>RT 360</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9564</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7594</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 360</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.875434</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEATLH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7594,37.9564</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>HAYNESVILLE CC RT 360 8KM E OF WARSAW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9569</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6731</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HAYNESVILLE CC RT 360 8KM E OF WARSAW</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.412961</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6731,37.9569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>HAYNESVILLE CU RT 360 8KM E WARSAW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9569</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6731</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HAYNESVILLE CU RT 360 8KM E WARSAW</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.412961</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6731,37.9569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>ST RT 3 2KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9811</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7369</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 3 2KM N</value>
+ </Data>
+ <Data name="height">
+   <value>96</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.567317</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of  Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7369,37.9811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9569</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7731</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.696544</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7731,37.9569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9569</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6731</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.412961</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6731,37.9569</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>3908 W RICHMOND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9639</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7919</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3908 W RICHMOND RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>22.539518</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTHERN NECK REGIONAL JAIL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7919,37.9639</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>106 WALLACE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9575</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7569</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>106 WALLACE ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.17377</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RICHMOND, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7569,37.9575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>WATER TOWER 414 QUEEN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9317</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8328</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TOWER 414 QUEEN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>0.078585</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TAPPAHANNOCK, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8328,37.9317</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>RT 3 1 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9811</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7369</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 3 1 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>91</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.567317</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7369,37.9811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>106 WALLACE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9575</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7569</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>106 WALLACE ST</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.17377</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RICHMOND, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7569,37.9575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>RT 692 .2 MI E RT 3</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8861</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6244</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 692 .2 MI E RT 3</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.650959</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RICHMOND, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6244,37.8861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>ST RT 3 1.6 KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9811</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7369</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 3 1.6 KM N</value>
+ </Data>
+ <Data name="height">
+   <value>98</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.567317</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7369,37.9811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>406 MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.965599</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7547</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>406 MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.771808</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7547,37.965599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>1 MI N OF RT 360 ON RT 661</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9542</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.639999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI N OF RT 360 ON RT 661</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.53115</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.639999,37.9542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>1 MI N OF RT 360 ON RT 661</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9542</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.639999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MI N OF RT 360 ON RT 661</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.53115</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.639999,37.9542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>SOUTH SIDE OF ROUTE 3 AND EAST OF ROUTE 611</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8875</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.633299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SOUTH SIDE OF ROUTE 3 AND EAST OF ROUTE 611</value>
+ </Data>
+ <Data name="height">
+   <value>90.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>30.883525</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.633299,37.8875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>Northside of State Road #3 1 Mile South of Lyells, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9831</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.730799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Northside of State Road #3 1 Mile South of Lyells, VA</value>
+ </Data>
+ <Data name="height">
+   <value>94.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.042926</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.730799,37.9831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>85 St. Johns St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9589</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.755499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>85 St. Johns St.</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.302574</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.755499,37.9589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>State Rt.3  Richmond County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9807</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7381</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Rt.3  Richmond County</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.522205</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF  Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7381,37.9807</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>State Rt.3  Richmond County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9807</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7381</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Rt.3  Richmond County</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.522205</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH OF VIRGINIA, DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7381,37.9807</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8151</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6077</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>9.4383</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Aqua Utilities, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6077,37.8151</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>N SIDE OF ST HWY 360 &amp; RT 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9534</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6237</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N SIDE OF ST HWY 360 &amp; RT 607</value>
+ </Data>
+ <Data name="height">
+   <value>95.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.556488</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6237,37.9534</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>85 St. Johns St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9589</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.755499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>85 St. Johns St.</value>
+ </Data>
+ <Data name="height">
+   <value>82.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.302574</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTHERN NECK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.755499,37.9589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>.1 MI N OF INT OF RT 601 &amp; 602</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8643</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.562999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.1 MI N OF INT OF RT 601 &amp; 602</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.62091</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTHERN NECK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.562999,37.8643</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>RT 3 BOX 245</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9832</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7311</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 3 BOX 245</value>
+ </Data>
+ <Data name="height">
+   <value>94.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.762035</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7311,37.9832</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>State Rt.3 Richmond County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9806</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.737999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Rt.3 Richmond County</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.511966</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF, DEPT OF TRANSPORTATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.737999,37.9806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>85 ST. JOHNS ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9589</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.755499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>85 ST. JOHNS ST.</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.302574</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RICHMOND COUNTY SHERIFFS OFFICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.755499,37.9589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>85 ST. JOHNS ST.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9589</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.755499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>85 ST. JOHNS ST.</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.302574</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RICHMOND CO. BOARD OF SUPERVISORS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.755499,37.9589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8853</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.6247</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.777111</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ALFONSO HUNT CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.6247,37.8853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9567</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.762199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.619514</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Rappahannock Community College</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.762199,37.9567</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>INT SR 202 &amp; 621 NW ON RT 202 50 YDS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9503</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.679199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT SR 202 &amp; 621 NW ON RT 202 50 YDS</value>
+ </Data>
+ <Data name="height">
+   <value>17</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.368659</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROP PRODUCTION SERVICES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.679199,37.9503</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>OFF ROUTE 661, 2KM NE OF HAYNESVILLE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Richmond County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9542</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.639999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ROUTE 661, 2KM NE OF HAYNESVILLE</value>
+ </Data>
+ <Data name="height">
+   <value>122</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.53115</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HELLO PAGER COMPANY, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.639999,37.9542</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

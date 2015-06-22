@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>241 Chester Gap Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8511</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1445</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>241 Chester Gap Road</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>593.538085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CTI Towers, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1445,38.8511</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>14711 LEE HIGHWAY, NA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6782</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9998</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14711 LEE HIGHWAY, NA</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>162.6557</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TowerCo Assets LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9998,38.6782</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>38 Ben Venue Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7289</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0674</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>38 Ben Venue Road</value>
+ </Data>
+ <Data name="height">
+   <value>44.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>246.383956</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TowerCo Assets LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0674,38.7289</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>14239 Lee Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6994</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0389</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14239 Lee Highway</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>212.58081</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TowerCo Assets LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0389,38.6994</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>9 LITTLE LONG MOUNTAIN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8173</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1056</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9 LITTLE LONG MOUNTAIN RD</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>218.940872</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TowerCo Assets LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1056,38.8173</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>312 Piedmont Ave.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7166711</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.17460308</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>312 Piedmont Ave.</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>809.6105479</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Washington, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.17460308,38.7166711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>V-4-H Center</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.858085</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.131312</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>V-4-H Center</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1380.621787</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Front Royal, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.131312,38.858085</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>13320A Lee Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7176</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.122</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13320A Lee Highway</value>
+ </Data>
+ <Data name="height">
+   <value>32.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>196.960449</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TowerCo Assets LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.122,38.7176</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>444 ZACHARY TAYLOR HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7496</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0986</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>444 ZACHARY TAYLOR HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>42.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>234.436264</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TowerCo Assets LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0986,38.7496</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7619</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2747</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1056.879638</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2747,38.7619</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7314</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1667</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>222.599411</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Sunny Side Farms LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1667,38.7314</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>27 Sweetwater Ln</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7314</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1667</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>27 Sweetwater Ln</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>222.599411</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Sunny Side Farms LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1667,38.7314</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>12 FLATWOOD LAND</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6842</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.183</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>12 FLATWOOD LAND</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>211.071472</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF, DEPT OF TRANSPORTATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.183,38.6842</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7611</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2747</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1045.685668</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2747,38.7611</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7133</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1594</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>208.565704</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PENDERGAST, T S</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1594,38.7133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>RAPPAHANNOCK FARMERS COOP BX 277</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.691699</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.207999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RAPPAHANNOCK FARMERS COOP BX 277</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>218.156616</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CULPEPER FARMERS COOPERATIVE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.207999,38.691699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>HOGBACK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7619</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2747</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HOGBACK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1056.879638</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2747,38.7619</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>12 FLATWOOD LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6842</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.183</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>12 FLATWOOD LANE</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>211.071472</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF, DEPT OF TRANSPORTATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.183,38.6842</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>SR 641 200 FT W OF US 211</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7628</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1036</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 641 200 FT W OF US 211</value>
+ </Data>
+ <Data name="height">
+   <value>22</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>194.865936</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FLINT HILL VOLUNTEER FIRE CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1036,38.7628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>HOGBACK MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7619</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2747</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HOGBACK MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1056.879638</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2747,38.7619</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>SKYLINE DR 11.5 KM NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7619</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2747</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SKYLINE DR 11.5 KM NW</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1056.879638</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2747,38.7619</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>HOGBACK MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7619</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2747</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HOGBACK MTN</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1056.879638</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2747,38.7619</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>RT 626 MOUNT SALEN AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7086</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1597</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 626 MOUNT SALEN AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>199.570617</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1597,38.7086</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>JAILHOUSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7086</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1597</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JAILHOUSE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>199.570617</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1597,38.7086</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7086</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1597</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>199.570617</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1597,38.7086</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>HOGBACK FOREST LOOKOUT TOWER COR OF PAGE WARREN &amp; RAPPAHANNOCK CTYS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7611</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2747</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HOGBACK FOREST LOOKOUT TOWER COR OF PAGE WARREN &amp; RAPPAHANNOCK CTYS</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1045.685668</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2747,38.7611</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>HOGBACK MOUNTAIN 12.5 MI SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7619</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2747</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HOGBACK MOUNTAIN 12.5 MI SSW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1056.879638</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2747,38.7619</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>FRONT ROYAL RG 1.5 MI SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6972</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2108</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FRONT ROYAL RG 1.5 MI SW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>230.774475</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2108,38.6972</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>CHESTER GAP 6 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.85</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1481</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CHESTER GAP 6 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>616.176269</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1481,38.85</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>JCT OF SR 660 &amp; 670</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8506</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1375</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JCT OF SR 660 &amp; 670</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>511.805938</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHESTER GAP VOLUNTEER FIRE DEPT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1375,38.8506</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>N SIDE US 211 .15 MI W OF SR 600</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6539</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2455</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N SIDE US 211 .15 MI W OF SR 600</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>234.902938</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SPERRYVILLE VOLUNTEER FIRE CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2455,38.6539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>NW COR PORTER &amp; MOUNT SALEM AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7086</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1622</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NW COR PORTER &amp; MOUNT SALEM AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>201.52098</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK COUNTY FIRE &amp; RESCUE ASSN</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1622,38.7086</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>500 FT N OF US 211 .5 MI W OF SR 642</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.6739</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.988299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 FT N OF US 211 .5 MI W OF SR 642</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.827423</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMISSVILLE VOLUNTEER FIRE DEPT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.988299,38.6739</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>243B CHESTER GAP ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8511</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1444</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>243B CHESTER GAP ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>56.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>593.560852</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia 10 RSA  Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1444,38.8511</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7404</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>298.098999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1275,38.7404</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>2 MI OFF RT 610</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8513</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1445</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 MI OFF RT 610</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>591.496032</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1445,38.8513</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>Hogback Mtn  7.04 mi  WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7617</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2747</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Hogback Mtn  7.04 mi  WNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1054.606323</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2747,38.7617</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>Chester Gap  0.52 mi  WSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8514</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1439</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Chester Gap  0.52 mi  WSW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>588.333251</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1439,38.8514</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>Hogback Mountain, 11.9 miles NE of Luray (VSP Backbone)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Rappahannock County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7617</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2744</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Hogback Mountain, 11.9 miles NE of Luray (VSP Backbone)</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1056.017211</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management/VITA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2744,38.7617</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

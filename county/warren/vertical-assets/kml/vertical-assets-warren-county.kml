@@ -1,0 +1,4427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>871 RITENOUR HOLLOW RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9753</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2014</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>871 RITENOUR HOLLOW RD</value>
+ </Data>
+ <Data name="height">
+   <value>147.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.353347</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STRAUS COMMUNICATIONS IN VIRGINIA INC  DBA =  WFTR RADIO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2014,38.9753</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>227 Kendrick Ford Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9478</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2548</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>227 Kendrick Ford Road</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>212.672653</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Diamond Communications LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2548,38.9478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>627 MASSANUTTEN MOUNTAIN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9062</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1208</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>627 MASSANUTTEN MOUNTAIN RD</value>
+ </Data>
+ <Data name="height">
+   <value>78</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>378.596038</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shenandoah Mobile, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1208,38.9062</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>5438 LONG MEADOW RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9945</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2586</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5438 LONG MEADOW RD</value>
+ </Data>
+ <Data name="height">
+   <value>59.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>201.145095</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Shenandoah Mobile, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2586,38.9945</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Fairgrounds Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.00549105</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.16216492</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fairgrounds Road</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>626.7589859</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Front Royal, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.16216492,39.00549105</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>John Marshall Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.905724</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.150901</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Storage Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>John Marshall Highway</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>986.0765466</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Front Royal, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.150901,38.905724</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>Route 4 in Luray, Virginia   Shenandoah National Park</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7622</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2745</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 4 in Luray, Virginia   Shenandoah National Park</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1055.969116</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2745,38.7622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>.8mi W of int SR637 &amp; US340 then .25mi S of SR637</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9608</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2111</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.8mi W of int SR637 &amp; US340 then .25mi S of SR637</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>216.459854</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Co.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2111,38.9608</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>1360 Mary's Shady Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9469</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1622</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1360 Mary's Shady Lane</value>
+ </Data>
+ <Data name="height">
+   <value>57.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>169.126983</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Diamond Communications LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1622,38.9469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>North of Cooley Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.975</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.212499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>North of Cooley Drive</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>189.340972</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.212499,38.975</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Spangler Ln. RR Crossing @ RR MP H070.65</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8472</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2819</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Spangler Ln. RR Crossing @ RR MP H070.65</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>199.04634</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2819,38.8472</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Richardson Rd. RR Crossing @ RR MP B056.77</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9697</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Richardson Rd. RR Crossing @ RR MP B056.77</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>168.129852</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2875,38.9697</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>4.52 MI NE ADJ TO TRI CO FIRETOWER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9567</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0269</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4.52 MI NE ADJ TO TRI CO FIRETOWER</value>
+ </Data>
+ <Data name="height">
+   <value>43</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>646.552368</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WASHINGTON GAS LIGHT COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0269,38.9567</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9567</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0269</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>646.552368</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WASHINGTON GAS LIGHT COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0269,38.9567</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>1000 BAUGH DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9894</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1811</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1000 BAUGH DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.432968</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BAUGH NORTHEAST CO-OP, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1811,38.9894</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Rt. 638  5 Miles North</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9561</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.024999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt. 638  5 Miles North</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>666.701843</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.024999,38.9561</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>Rt. 638  5 Miles North of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9561</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.024999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt. 638  5 Miles North of</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>666.701843</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.024999,38.9561</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>7685 WINCHESTER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9314</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1694</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7685 WINCHESTER RD</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>191.137115</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia International Terminals Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1694,38.9314</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>884 INDIAN HOLLOW ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8389</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3294</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>884 INDIAN HOLLOW ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>171.102096</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DOWNRIVER CANOE COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3294,38.8389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9886</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.18</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.287017</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLUE RIDGE SHADOWS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.18,38.9886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9947</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.130499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>189.118225</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH VALLEY GOLF COURSE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.130499,38.9947</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>Yard office, 500 Kendrick Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9325</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2072</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Yard office, 500 Kendrick Lane</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>165.728302</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2072,38.9325</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Main St RR crossing at MP H70.25</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8514</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2778</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Main St RR crossing at MP H70.25</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>192.217315</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2778,38.8514</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>620 N. ROYAL AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9264</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1942</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>620 N. ROYAL AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>159.185119</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BURGER BUSTERS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1942,38.9264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9511</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1475</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>168.527282</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHRISTENDOM EDUCATION CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1475,38.9511</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>Rockland RD RR crossing @ MP H056.25</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9764</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1714</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rockland RD RR crossing @ MP H056.25</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>174.700576</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1714,38.9764</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>RT 661 RR crossing @ MP H054.40</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9967</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.151899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 661 RR crossing @ MP H054.40</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>181.751403</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.151899,38.9967</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>408 SOUTH STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9114</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1889</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>408 SOUTH STREET</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>182.18367</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NERANGIS ENTERPRISES, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1889,38.9114</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>9846 WINCHESTER ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9583</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1956</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9846 WINCHESTER ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>157.719512</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NERANGIS ENTERPRISES, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1956,38.9583</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9903</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1261</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>175.590362</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Bowling Green Country Club</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1261,38.9903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9314</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1694</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>191.137115</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA INTERNATIONAL TERMINALS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1694,38.9314</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>DETECTOR, RR RoW MP H 56.4</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9747</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1722</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DETECTOR, RR RoW MP H 56.4</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.718048</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1722,38.9747</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Detector, RR MP 42.9</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9075</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0794</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detector, RR MP 42.9</value>
+ </Data>
+ <Data name="height">
+   <value>4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>275.241912</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0794,38.9075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>KARO SAD, RR RoW, MP H65 NEAR 100 OAK BLUFF ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.862</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2617</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>KARO SAD, RR RoW, MP H65 NEAR 100 OAK BLUFF ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.790588</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2617,38.862</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>Dispatch Base, 365 Station Lane  MP B42.9 (9-1-1)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9078</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0783</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dispatch Base, 365 Station Lane  MP B42.9 (9-1-1)</value>
+ </Data>
+ <Data name="height">
+   <value>48.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>277.820922</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0783,38.9078</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>microwave site 0.8mi W of int SR637 &amp; US340 then .25mi S of SR637</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9608</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2111</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>microwave site 0.8mi W of int SR637 &amp; US340 then .25mi S of SR637</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>216.459854</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2111,38.9608</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>RT 638 5 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9561</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.024999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 638 5 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>666.701843</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.024999,38.9561</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>RT. 638 5 MILES NORTH</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9561</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.024999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT. 638 5 MILES NORTH</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>666.701843</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.024999,38.9561</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>4.52 MI NE ADJ TO TRI CO FIRETOWER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9567</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0269</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4.52 MI NE ADJ TO TRI CO FIRETOWER</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>646.552368</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHENANDOAH GAS COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0269,38.9567</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>BLUE MOUNTAIN 3.8 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9567</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.024699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLUE MOUNTAIN 3.8 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>665.656555</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COLUMBIA GAS TRANSMISSION CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.024699,38.9567</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>Dispatch Base   .2 MI NE FRM END OF SR 684 ON PINE HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.835</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.32</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dispatch Base   .2 MI NE FRM END OF SR 684 ON PINE HILL</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>296.956878</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.32,38.835</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9608</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2111</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>216.459854</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2111,38.9608</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>.8mi W of int SR637 &amp; US340 then .25mi S of SR637</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9608</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2111</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.8mi W of int SR637 &amp; US340 then .25mi S of SR637</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>216.459854</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2111,38.9608</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>7961 WINCHESTER RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9886</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1797</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7961 WINCHESTER RD</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>175.458358</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>E I DUPONT DE NEMOURS &amp; COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1797,38.9886</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>155 FAIRGROUND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9542</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.156099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>155 FAIRGROUND RD</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>142.688339</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FAMILY DOLLAR DISTRIBUTION CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.156099,38.9542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9344</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1936</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>174.15187</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA INTERNATIONAL TERMINALS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1936,38.9344</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>BLUE RIDGE MOUNTAIN 10 KM E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9269</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0761</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLUE RIDGE MOUNTAIN 10 KM E</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>531.230163</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SHERMAN JR, JOHN M: SHOWALTER, MIKE D DBA EASTERN COMMUNICATIONS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0761,38.9269</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>600 4H CENTER DR 1 MI SW OF RT 522 S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9561</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2128</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>600 4H CENTER DR 1 MI SW OF RT 522 S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>151.032852</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORTHERN VA 4 H EDUCATIONAL CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2128,38.9561</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>200 YDS E BROWNTOWN RD 649 4.5 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.858299</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2206</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 YDS E BROWNTOWN RD 649 4.5 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>329.368621</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JESSE W POE CONTRACTOR</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2206,38.858299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9333</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2164</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>154.324386</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA INTERNATIONAL TERMINALS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2164,38.9333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>200 BLOCK FIRE TRAIL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9564</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0269</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 BLOCK FIRE TRAIL RD</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>649.566162</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FAUQUIER, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0269,38.9564</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>SHENANDOAH RIVER ST PARK DAUGHTER OF STARS DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8444</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.302799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SHENANDOAH RIVER ST PARK DAUGHTER OF STARS DR</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>269.063781</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.302799,38.8444</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>1000 SHENANDOAH AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9006</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1833</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1000 SHENANDOAH AVE</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>212.056198</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VALLEY HEALTH SYSTEM</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1833,38.9006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8367</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3058</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>225.436752</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTH WARREN VOLUNTEER FIRE DEPT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3058,38.8367</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>DUCK ST .8 KM W OF SR 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.95</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2108</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DUCK ST .8 KM W OF SR 522</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.953842</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2108,38.95</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>WARREN MEMORIAL HOSPITAL 1000 SHENANDOAH AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9308</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1983</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WARREN MEMORIAL HOSPITAL 1000 SHENANDOAH AVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>184.646972</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LORD FAIRFAX EMERGENCY MEDICAL SERVICES COUNCIL INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1983,38.9308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>1000 SHENANDOAH AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9308</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1983</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1000 SHENANDOAH AVE</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>184.646972</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN MEMORIAL HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1983,38.9308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>23 E JACKSON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9292</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.207999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23 E JACKSON ST</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>166.012252</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.207999,38.9292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>800 YDS S OF INT RT 55 AND 522S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9006</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.183</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>800 YDS S OF INT RT 55 AND 522S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>207.490463</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FRONT ROYAL, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.183,38.9006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>NFSR STRASBURG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9767</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3361</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NFSR STRASBURG</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>150.539993</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3361,38.9767</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>MANASSAS GAP 6.2 MI ESE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9094</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0761</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MANASSAS GAP 6.2 MI ESE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>287.816558</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0761,38.9094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>BROWNTOWN GAP 6 MI SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8122</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2333</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BROWNTOWN GAP 6 MI SSW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>279.839965</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2333,38.8122</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>BROAD RUN 7 MI SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7914</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.215</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BROAD RUN 7 MI SW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>407.613159</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.215,38.7914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>WARREN CTY SHERIFFS OFC MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9175</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1933</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WARREN CTY SHERIFFS OFC MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>172.51625</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1933,38.9175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>800 YDS S OF INT RT 55E AND 522 S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9006</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.183</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>800 YDS S OF INT RT 55E AND 522 S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>207.490463</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FRONT ROYAL, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.183,38.9006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>23 E JACKSON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9161</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1928</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23 E JACKSON ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.939346</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1928,38.9161</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>8 E JACKSON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9125</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1942</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8 E JACKSON ST</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>184.094436</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FRONT ROYAL VOLUNTEER FIRE DEPT INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1942,38.9125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>.8KM AT 330 DEGREES OF INT US HWY 340 &amp; ST RT 613</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.835</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.32</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.8KM AT 330 DEGREES OF INT US HWY 340 &amp; ST RT 613</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>296.956878</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.32,38.835</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>MASSANUTTEN MOUNTAIN DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9061</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1208</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MASSANUTTEN MOUNTAIN DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>379.10968</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1208,38.9061</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9086</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1767</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>201.774078</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROYAL BROADCASTING, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1767,38.9086</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>(Rockland site) 871 RITENOUR HOLLOW RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9753</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2014</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>(Rockland site) 871 RITENOUR HOLLOW RD</value>
+ </Data>
+ <Data name="height">
+   <value>153.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.353347</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia 10 RSA  Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2014,38.9753</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>627 MASSANUTTEN MOUNTAIN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9061</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1208</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>627 MASSANUTTEN MOUNTAIN RD</value>
+ </Data>
+ <Data name="height">
+   <value>60.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>379.10968</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia 10 RSA  Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1208,38.9061</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>151 Skyline Vista</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9081</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2039</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>151 Skyline Vista</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>181.841964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Warren County, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2039,38.9081</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>Kelly Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.971999</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1796</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Kelly Drive</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>176.66864</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1796,38.971999</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>4960 Freezeland Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9522</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0286</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4960 Freezeland Rd</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>635.92987</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RAPPAHANNOCK ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0286,38.9522</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>10 MI ACCESS SKYLINE DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7622</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2745</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10 MI ACCESS SKYLINE DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>24.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1055.969116</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH OF VIRGINIA, DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2745,38.7622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>.8mi W of int SR637 &amp; US340 then .25mi S of SR637</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9608</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2111</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.8mi W of int SR637 &amp; US340 then .25mi S of SR637</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>216.459854</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Warren County, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2111,38.9608</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>23 EAST JACKSON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9164</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1927</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23 EAST JACKSON ST</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.5027</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Warren County, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1927,38.9164</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>DOGWOOD LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8354</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3198</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DOGWOOD LANE</value>
+ </Data>
+ <Data name="height">
+   <value>33.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>297.259826</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Warren County, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3198,38.8354</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>Howellsville Rd ( State Rd 638 ), 4.5 Miles N.E. of front Royal</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.956799</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0269</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Howellsville Rd ( State Rd 638 ), 4.5 Miles N.E. of front Royal</value>
+ </Data>
+ <Data name="height">
+   <value>38</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>645.165466</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Washington Gas</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0269,38.956799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>1/2 MI AT 330 DEGREES OF INT US HWY 340 &amp; ST RT 613</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8351</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.32</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MI AT 330 DEGREES OF INT US HWY 340 &amp; ST RT 613</value>
+ </Data>
+ <Data name="height">
+   <value>33.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>297.128356</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.32,38.8351</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>1.9 MI DUE W OF INT I 66 &amp; US 340</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9609</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2108</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.9 MI DUE W OF INT I 66 &amp; US 340</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>214.340759</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2108,38.9609</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>ON ROUTE 638 5 MI N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9562</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.024999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON ROUTE 638 5 MI N OF</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>666.701843</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.024999,38.9562</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>RT 609 RITHAIR HOLLOW RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9755</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2011</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 609 RITHAIR HOLLOW RD</value>
+ </Data>
+ <Data name="height">
+   <value>153</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.062332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2011,38.9755</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>3 MI NW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.952</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0291</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 MI NW OF</value>
+ </Data>
+ <Data name="height">
+   <value>48.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>632.327026</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MCI Communications Services, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0291,38.952</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>JOHN MARSHALL HWY RT 55</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9087</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1766</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JOHN MARSHALL HWY RT 55</value>
+ </Data>
+ <Data name="height">
+   <value>47.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>202.332733</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROYAL BROADCASTING, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1766,38.9087</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>Manassas Gap  0.38 mi  WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.912</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0817</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Manassas Gap  0.38 mi  WNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>327.727691</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0817,38.912</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>NFSR near Strasburg  1.46 mi  SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9764</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3361</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NFSR near Strasburg  1.46 mi  SE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>148.301681</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3361,38.9764</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>Nineveh  6.5 mi  NNE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>39.006899</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1689</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Nineveh  6.5 mi  NNE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>184.552825</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1689,39.006899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>Browntown  0.36 mi  S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8058</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2333</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Browntown  0.36 mi  S</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>297.714416</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2333,38.8058</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>HOGBACK MOUNTAIN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.7622</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2744</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HOGBACK MOUNTAIN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>30.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1054.490844</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2744,38.7622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>Limeton  2.19 mi  NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.877</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2483</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Limeton  2.19 mi  NE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>200.095138</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2483,38.877</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>807 JOHN MARSHALL HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9106</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1844</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>807 JOHN MARSHALL HWY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>180.593887</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KFC OF FRONT ROYAL, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1844,38.9106</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.835</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.32</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>296.956878</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.32,38.835</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>Warren County 911 Center, 23 East Jackson St, Front Royal</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9167</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1925</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Warren County 911 Center, 23 East Jackson St, Front Royal</value>
+ </Data>
+ <Data name="height">
+   <value>16.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>173.003402</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1925,38.9167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>8567 Stonewall Jackson Hwy.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8936</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.248899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8567 Stonewall Jackson Hwy.</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.235565</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Front Royal Canoe Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.248899,38.8936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>209 WEST CRISER ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9103</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2033</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>209 WEST CRISER ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>166.870742</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2033,38.9103</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>Detector, RR MP 42.9</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9078</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detector, RR MP 42.9</value>
+ </Data>
+ <Data name="height">
+   <value>4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>277.753692</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0786,38.9078</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>1000 Shenandoah Ave.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9308</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1981</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1000 Shenandoah Ave.</value>
+ </Data>
+ <Data name="height">
+   <value>16.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>184.318283</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Valley Health</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1981,38.9308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>122 CAVALRY DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.8758</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1703</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>122 CAVALRY DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>390.276245</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WARREN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1703,38.8758</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>1000 SHENANDOAH AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9306</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1981</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1000 SHENANDOAH AVE</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>183.307708</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1981,38.9306</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>800 YDS S OF INT RT 55E AND 522 S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9006</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.183</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>800 YDS S OF INT RT 55E AND 522 S</value>
+ </Data>
+ <Data name="height">
+   <value>29</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>207.490463</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FRONT ROYAL, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.183,38.9006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>300' WEST OF US-340 / SR-55</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.923099</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1947</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>300' WEST OF US-340 / SR-55</value>
+ </Data>
+ <Data name="height">
+   <value>53.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>164.208053</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Afton Communications Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1947,38.923099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>WFTR (FM) TOWER, ON VA. STATE 627</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9747</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2022</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WFTR (FM) TOWER, ON VA. STATE 627</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>177.595733</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2022,38.9747</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>WFTR-FM RADIO SITE, STATE ROUTE 627</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Warren County</value>
+ </Data>
+ <Data name="lat">
+   <value>38.9747</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2022</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WFTR-FM RADIO SITE, STATE ROUTE 627</value>
+ </Data>
+ <Data name="height">
+   <value>153.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>177.595733</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2022,38.9747</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

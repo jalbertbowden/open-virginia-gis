@@ -1,0 +1,3461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>5 MI NNE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6161</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.856699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5 MI NNE</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.786109</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Spire Telecom, LP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.856699,37.6161</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>2 MI SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4675</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.075299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 MI SSW</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.191246</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Spire Telecom, LP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.075299,37.4675</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>1.2 ME NNE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4758</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8083</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.2 ME NNE</value>
+ </Data>
+ <Data name="height">
+   <value>115.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.264984</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN ATLANTIC COMPANY, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8083,37.4758</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>6351 Anderson Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5459</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6351 Anderson Highway</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>106.988639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0964,37.5459</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Palmore Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5026</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8969</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Palmore Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>89.525344</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8969,37.5026</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>US RT 60 .8 MI E OF RT 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5381</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9133</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 60 .8 MI E OF RT 522</value>
+ </Data>
+ <Data name="height">
+   <value>87</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.009819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9133,37.5381</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>2407 MITCHELL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.551899</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.923499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2407 MITCHELL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.999519</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Powhatan County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.923499,37.551899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>5231 Anderson Hwy (VA14109-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5669</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.014299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5231 Anderson Hwy (VA14109-A)</value>
+ </Data>
+ <Data name="height">
+   <value>67.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>82.681053</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.014299,37.5669</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>1.5 MI NW OF SR 13 &amp; HS 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5489</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.944199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI NW OF SR 13 &amp; HS 522</value>
+ </Data>
+ <Data name="height">
+   <value>68.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>112.644599</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.944199,37.5489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>2561 Judes Ferry Road  (VA10089-S)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5634</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7989</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2561 Judes Ferry Road  (VA10089-S)</value>
+ </Data>
+ <Data name="height">
+   <value>59.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>99.050964</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers II LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7989,37.5634</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>1916 ANDERSON HIGHWAY - DETOY CREEK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5149</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.770899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1916 ANDERSON HIGHWAY - DETOY CREEK</value>
+ </Data>
+ <Data name="height">
+   <value>29</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.748008</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL COMMUNICATION TOWERS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.770899,37.5149</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Highway 603 near Butterwood Creek</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.439</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.851899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Highway 603 near Butterwood Creek</value>
+ </Data>
+ <Data name="height">
+   <value>149.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.173545</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MainQuad, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.851899,37.439</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>ROUTE 628  TOWER HILL ROAD    ( 088324 )</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5369</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8476</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 628  TOWER HILL ROAD    ( 088324 )</value>
+ </Data>
+ <Data name="height">
+   <value>87.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>147.859008</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8476,37.5369</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>1910 Judes Ferry Rd.    ( 090218 )</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5266</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8016</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1910 Judes Ferry Rd.    ( 090218 )</value>
+ </Data>
+ <Data name="height">
+   <value>61.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>130.795028</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8016,37.5266</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>655 HUGUENOT TRAIL  (RI03XC045)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5558</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6894</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>655 HUGUENOT TRAIL  (RI03XC045)</value>
+ </Data>
+ <Data name="height">
+   <value>76.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.607059</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STC Two LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6894,37.5558</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>JUDES FERRY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5258</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8036</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JUDES FERRY RD</value>
+ </Data>
+ <Data name="height">
+   <value>80.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>127.376281</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Subcarrier Communications, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8036,37.5258</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>Highway 603 near Butterwood Creek</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.439</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.851899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Highway 603 near Butterwood Creek</value>
+ </Data>
+ <Data name="height">
+   <value>125</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.173545</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MainQuad, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.851899,37.439</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Route 647</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.638</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9056</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 647</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>88.793388</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9056,37.638</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>3159 HUGUENOT TRAIL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6163</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8645</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3159 HUGUENOT TRAIL</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>91.273262</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8645,37.6163</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5933</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8236</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>56.694698</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FOUNDRY GOLF CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8236,37.5933</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>1.5 MI NW OF SR 13 &amp; HS 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5489</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.944199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI NW OF SR 13 &amp; HS 522</value>
+ </Data>
+ <Data name="height">
+   <value>68.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>112.644599</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.944199,37.5489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>2370 Emmanuel Church Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5497</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9436</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2370 Emmanuel Church Rd</value>
+ </Data>
+ <Data name="height">
+   <value>10.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>115.410133</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9436,37.5497</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>1.5 MI NW OF SR 13 &amp; HS 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5489</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.944199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI NW OF SR 13 &amp; HS 522</value>
+ </Data>
+ <Data name="height">
+   <value>68.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>112.644599</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.944199,37.5489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>24007 MITCHELL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5517</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9233</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>24007 MITCHELL RD</value>
+ </Data>
+ <Data name="height">
+   <value>80.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.271736</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Powhatan,County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9233,37.5517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>2407 MITCHELL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5517</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9233</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2407 MITCHELL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>80.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.271736</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Powhatan,County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9233,37.5517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>6391 ANDERSON HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5458</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0961</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6391 ANDERSON HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>81</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>105.482521</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POWHATAN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0961,37.5458</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>1901 JUDES FERRY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5258</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8036</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1901 JUDES FERRY RD</value>
+ </Data>
+ <Data name="height">
+   <value>81</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>127.376281</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POWHATAN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8036,37.5258</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>2407 MITCHELL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5517</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9233</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2407 MITCHELL RD</value>
+ </Data>
+ <Data name="height">
+   <value>80.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.271736</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POWHATAN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9233,37.5517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>INT SR 622 &amp; RT 60 1/4 MI W DIRT RD OFF 622</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5239</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8253</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT SR 622 &amp; RT 60 1/4 MI W DIRT RD OFF 622</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>125.856185</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUCK STONE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8253,37.5239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>.5 MI N OF RT 60 2.6 MI POWHATAN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5208</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7775</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.5 MI N OF RT 60 2.6 MI POWHATAN</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>78.676177</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MEGA CONTRACTORS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7775,37.5208</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5833</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.33403</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RICHMOND COUNTRY CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6997,37.5833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>POWHATAN CORR CTR - 8KM W OF RT 711</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6253</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8369</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POWHATAN CORR CTR - 8KM W OF RT 711</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>88.373512</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8369,37.6253</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>1922 URBINE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5133</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.778</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1922 URBINE RD</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>88.614196</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Powhatan,County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.778,37.5133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>3971 OLD BUCKINGHAM RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5517</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9258</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3971 OLD BUCKINGHAM RD</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>106.542961</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Powhatan,County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9258,37.5517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>2407 MITCHELL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.551899</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9233</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2407 MITCHELL RD</value>
+ </Data>
+ <Data name="height">
+   <value>81</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>109.457038</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Powhatan,County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9233,37.551899</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>DEEP MEADOW CC RTS 711 &amp;616</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6195</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8469</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DEEP MEADOW CC RTS 711 &amp;616</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>85.654579</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8469,37.6195</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>POWHATAN CC 2KM N RTS 711 &amp; 615</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6236</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8358</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POWHATAN CC 2KM N RTS 711 &amp; 615</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>90.165565</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8358,37.6236</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>3975 OLD BUCKINGHAM RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5467</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.922199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3975 OLD BUCKINGHAM RD</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>112.158927</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POWHATAN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.922199,37.5467</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>US 60 1.4 KM E OF SR 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5492</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 60 1.4 KM E OF SR 522</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>111.9094</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9247,37.5492</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6236</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8358</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>90.165565</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8358,37.6236</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6236</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8358</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>90.165565</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8358,37.6236</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>BEAUMONT LC RT 522 S OF JAMES RIVER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6639</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9067</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BEAUMONT LC RT 522 S OF JAMES RIVER</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>75.31314</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9067,37.6639</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>DEEP MEADOW CC RTS 711 616</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6195</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8469</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DEEP MEADOW CC RTS 711 616</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>85.654579</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8469,37.6195</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>POWHATAN CC 1.5 MI N RTS 711 615</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6236</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8358</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POWHATAN CC 1.5 MI N RTS 711 615</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>90.165565</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8358,37.6236</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>3908 OLD BUCKINGHAM ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5442</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9189</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3908 OLD BUCKINGHAM ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>7.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>114.199142</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9189,37.5442</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>6377 OLD BUCKINGHAM RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4853</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1011</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6377 OLD BUCKINGHAM RD</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>117.802513</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Powhatan,County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1011,37.4853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>5631 ANDERSON HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.565</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.046699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5631 ANDERSON HWY</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>91.39672</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Powhatan,County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.046699,37.565</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>1825 HUGUENOT TRL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5936</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7703</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1825 HUGUENOT TRL</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>81.249931</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Powhatan,County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7703,37.5936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>3940 MARION HARLAND DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5422</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9214</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3940 MARION HARLAND DR</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>109.805786</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Powhatan,County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9214,37.5422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>BEAUMONT LRN CTR; 3500 BEAUMONT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6661</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9075</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BEAUMONT LRN CTR; 3500 BEAUMONT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>26</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.712585</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9075,37.6661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>1900 BLOCK JUDES FERRY ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5258</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8036</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1900 BLOCK JUDES FERRY ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>127.376281</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8036,37.5258</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>2430 BATTERSON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5258</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8036</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2430 BATTERSON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>80.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>127.376281</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8036,37.5258</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>5 MI ENE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5536</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8261</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5 MI ENE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.672592</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Nextel License Holdings 3, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8261,37.5536</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>1.5 MI NW OF SR 13 &amp; HS 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5489</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.944199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI NW OF SR 13 &amp; HS 522</value>
+ </Data>
+ <Data name="height">
+   <value>68.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>112.644599</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.944199,37.5489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>2407 MITCHELL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5517</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9233</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2407 MITCHELL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>80.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.271736</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RCTC Wholesale Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9233,37.5517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>US RT 60 .8 MI E OF RT 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5381</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9133</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 60 .8 MI E OF RT 522</value>
+ </Data>
+ <Data name="height">
+   <value>87</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.009819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Powhatan, County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9133,37.5381</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>SR 13 - Old Buckingham Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5418</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.918299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 13 - Old Buckingham Road</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>113.493339</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Powhatan,County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.918299,37.5418</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>SR 13 - Old Buckingham Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.538</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9162</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 13 - Old Buckingham Road</value>
+ </Data>
+ <Data name="height">
+   <value>7.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>112.639343</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Powhatan, County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9162,37.538</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>4111 Old Buckingham Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5505</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9345</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4111 Old Buckingham Rd</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>110.033065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9345,37.5505</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>Water Tank</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5212</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8052</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Water Tank</value>
+ </Data>
+ <Data name="height">
+   <value>44.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>130.786483</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8052,37.5212</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>1800 Judes Ferry Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5217</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.801299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1800 Judes Ferry Rd</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>126.552703</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.801299,37.5217</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>4294 Anderson Hwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5595</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9465</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4294 Anderson Hwy</value>
+ </Data>
+ <Data name="height">
+   <value>33.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>113.623565</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9465,37.5595</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>2320 Skaggs Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5461</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9191</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2320 Skaggs Rd</value>
+ </Data>
+ <Data name="height">
+   <value>22.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>111.883956</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9191,37.5461</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>Flat Rock ES</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5196</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7985</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Flat Rock ES</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>117.743118</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7985,37.5196</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>655 HUGUENOT TRAIL  (RI03XC045)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5558</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6894</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>655 HUGUENOT TRAIL  (RI03XC045)</value>
+ </Data>
+ <Data name="height">
+   <value>78.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.607059</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6894,37.5558</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>US RT 60 .8 MI E OF RT 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5381</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9133</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 60 .8 MI E OF RT 522</value>
+ </Data>
+ <Data name="height">
+   <value>87</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.009819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9133,37.5381</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>ST HWY 13 16 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5381</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9133</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST HWY 13 16 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>86.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.009819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9133,37.5381</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>1910 JUDES FERRY RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5268</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8014</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1910 JUDES FERRY RD</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.935317</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RCTC Wholesale Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8014,37.5268</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>1.5 MI NW OF SR 13 AND HS 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5488</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9441</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MI NW OF SR 13 AND HS 522</value>
+ </Data>
+ <Data name="height">
+   <value>68.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>113.83715</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9441,37.5488</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>1800 JUDES FERRY RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5203</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8047</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1800 JUDES FERRY RD.</value>
+ </Data>
+ <Data name="height">
+   <value>7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>123.749053</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POWHATAN HIGH SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8047,37.5203</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>ROUTE 647</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6378</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9056</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 647</value>
+ </Data>
+ <Data name="height">
+   <value>96</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>89.1352</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POWHATAN, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9056,37.6378</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>SR 608 RR CROSSING AT RR MP F116.87</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4594</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.815</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 608 RR CROSSING AT RR MP F116.87</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>93.974792</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.815,37.4594</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.4594</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.815</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>93.974792</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.815,37.4594</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>OFF CR 613, NEAR CR 677</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5267</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8011</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF CR 613, NEAR CR 677</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.402069</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ComSoft Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8011,37.5267</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>RT 613, 200 YARDS E OF RT 677</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5267</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8011</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 613, 200 YARDS E OF RT 677</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.402069</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NTELOS Communications Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8011,37.5267</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>1 MILE NE OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5267</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8011</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MILE NE OF</value>
+ </Data>
+ <Data name="height">
+   <value>218</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.402069</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USA Mobility Wireless, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8011,37.5267</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>1060 Thompson Avenue</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.55916667</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.79611111</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Tower</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1060 Thompson Avenue</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.3</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hampton Roads Eductional</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value>Keith Massie</value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC.Gov</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.79611111,37.55916667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>24351 W Rose Garden Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.65583333</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.94388889</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Tower</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>24351 W Rose Garden Road</value>
+ </Data>
+ <Data name="height">
+   <value>94.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.8</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value>SBA Towers, LLC</value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC.Gov</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.94388889,37.65583333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>West Point</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.57230556</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.84277778</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Tower</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>West Point</value>
+ </Data>
+ <Data name="height">
+   <value>94.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>11.3</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STC Two LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value>Christine A. Verre</value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC.Gov</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.84277778,37.57230556</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>32303 King William Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.58363889</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.85027778</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Tower</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>32303 King William Road</value>
+ </Data>
+ <Data name="height">
+   <value>112.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>31.7</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Commonweath of Virginia</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value>Richard B. Archer</value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC.Gov</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.85027778,37.58363889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>12th Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.53444444</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.80086111</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Pole</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>12th Street</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.9</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Global Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value>FCC Contace</value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC.Gov</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.80086111,37.53444444</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>Mt. Olive Cohoke</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Powhatan County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.59833333</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.91194444</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Tower</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Mt. Olive Cohoke</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>34.1</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>National Communication Towers, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value>National Communication Towers, LLC</value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC.Gov</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.91194444,37.59833333</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

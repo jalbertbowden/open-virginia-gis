@@ -1,0 +1,4805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>Stella Loop Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6066</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.075699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Stella Loop Road</value>
+ </Data>
+ <Data name="height">
+   <value>57.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>322.228576</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Beacon Towers</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.075699,36.6066</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>255 Vernon Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6285</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.1978</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>255 Vernon Drive</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>384.88565</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Beacon Towers</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.1978,36.6285</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>South Fork Loop</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.602</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.1731</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>South Fork Loop</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>340.889739</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Beacon Towers</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.1731,36.602</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>Bull Mountain, Fire Trail Ln. 3.3 miles N of Tudor Orchard Ln., Patrick County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.693</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Bull Mountain, Fire Trail Ln. 3.3 miles N of Tudor Orchard Ln., Patrick County</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>978.803283</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.693</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>VA HWY 631, 0.1 MI NW OF JCT W/ VA HWY 682</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6236</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2633</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA HWY 631, 0.1 MI NW OF JCT W/ VA HWY 682</value>
+ </Data>
+ <Data name="height">
+   <value>61.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>438.491882</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MOUNTAIN VIEW COMMUNICATIONS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2633,36.6236</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>State Route 629</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5949</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.0545</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Route 629</value>
+ </Data>
+ <Data name="height">
+   <value>50.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>298.806762</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.0545,36.5949</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>Adjacent to 576 Ike Slate Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6137</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.4331</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Adjacent to 576 Ike Slate Lane</value>
+ </Data>
+ <Data name="height">
+   <value>85.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>494.664031</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Appalachian Power Company dba American Electric Power</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.4331,36.6137</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>1532 Widow Drive</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7284</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.452299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1532 Widow Drive</value>
+ </Data>
+ <Data name="height">
+   <value>82.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>963.501098</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.452299,36.7284</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>0.07 mi South of US Hwy 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.586099</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.1353</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.07 mi South of US Hwy 58</value>
+ </Data>
+ <Data name="height">
+   <value>83.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>335.636322</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.1353,36.586099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>MEADOWS OF DAN SCHOOL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7367</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.4006</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MEADOWS OF DAN SCHOOL</value>
+ </Data>
+ <Data name="height">
+   <value>51</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>902.667419</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.4006,36.7367</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Ravens Rock Church  1.7 mi  NNE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6217</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5003</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Ravens Rock Church  1.7 mi  NNE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>457.184875</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5003,36.6217</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Willow Hill Church  5.9 mi  WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6422</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.6019</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Willow Hill Church  5.9 mi  WNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>488.643249</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.6019,36.6422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Doe Run Church  2.4 mi  NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6183</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5472</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Doe Run Church  2.4 mi  NW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>460.793762</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5472,36.6183</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Samuels Grove Chuch  4.7 mi WSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.566399</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5844</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Samuels Grove Chuch  4.7 mi WSW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>397.005432</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5844,36.566399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>Dry Pond  5.8 mi  SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5833</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3442</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dry Pond  5.8 mi  SW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>404.727142</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3442,36.5833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Critz  6.9 mi  E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6314</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.1467</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Critz  6.9 mi  E</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>348.217102</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.1467,36.6314</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>Trot Valley  4.2 mi  NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7111</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.309399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Trot Valley  4.2 mi  NW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>817.318481</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.309399,36.7111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Central Academy  4.0 mi  NNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6997</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2886</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Central Academy  4.0 mi  NNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>487.967529</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2886,36.6997</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Circle M  6.1 mi  NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7136</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3339</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Circle M  6.1 mi  NW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>920.04663</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3339,36.7136</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Busted Rock #2  5.7 mi  NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6939</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3503</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Busted Rock #2  5.7 mi  NW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>838.776672</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3503,36.6939</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>Busted Rock #1  6.5 mi  WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6717</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3794</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Busted Rock #1  6.5 mi  WNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>825.347351</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3794,36.6717</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>adjacent to 576 Ike Slate Lane 1.8mi North of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6136</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.433</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>adjacent to 576 Ike Slate Lane 1.8mi North of</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>494.762786</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Electric Power Service Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.433,36.6136</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>PRIMLAND END OF BUSTED ROCK RD OFF RTE 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6664</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.384999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PRIMLAND END OF BUSTED ROCK RD OFF RTE 58</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>873.896789</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.384999,36.6664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>RT 58 BEHIND COUNTY COURT HOUSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6408</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2681</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 58 BEHIND COUNTY COURT HOUSE</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>397.69403</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2681,36.6408</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>RT 1 S WOOLWINE ELEMENTARY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7892</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.274999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 1 S WOOLWINE ELEMENTARY</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>445.121459</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.274999,36.7892</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>SR 8 S PATRICK CO HIGH SCHOOL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6347</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3236</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 8 S PATRICK CO HIGH SCHOOL</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>521.130432</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3236,36.6347</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>US RT 58 W MEADOWS OF DAN ELEM</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5742</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3833</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 58 W MEADOWS OF DAN ELEM</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>380.361846</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3833,36.5742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>SR 733 BLUE RIDGE ELEMENTARY SCHOOL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5986</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.5078</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 733 BLUE RIDGE ELEMENTARY SCHOOL</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>439.770751</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.5078,36.5986</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>BULL MTN 5 KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BULL MTN 5 KM N</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>977.075378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>346 STATE SHED ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7231</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.358299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>346 STATE SHED ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>14.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>903.82611</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOAD, GARRETT G</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.358299,36.7231</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>RICHWOOD KNOB FIRE TWR, 3 MILES N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6931</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RICHWOOD KNOB FIRE TWR, 3 MILES N OF</value>
+ </Data>
+ <Data name="height">
+   <value>50</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>978.682373</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Electric Power Service Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>GRASSY KNOLL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8025</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.358299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GRASSY KNOLL</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>917.910278</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FLOYD, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.358299,36.8025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.735</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.4108</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>901.01007</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Primland</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.4108,36.735</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>RAW WATER INTAKE PS, RTU 1 STATE ROUTHE 631</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6353</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2828</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RAW WATER INTAKE PS, RTU 1 STATE ROUTHE 631</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>377.720092</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF STUART</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2828,36.6353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>WPT MASTER &amp; PLANT CONTROL PANEL 1.45 KM WEST OF ROUTE 8</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.627</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2892</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WPT MASTER &amp; PLANT CONTROL PANEL 1.45 KM WEST OF ROUTE 8</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>444.264526</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF STUART</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2892,36.627</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>977.075378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7178</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3581</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>872.813049</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Campbell, Wilma P</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3581,36.7178</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>7958 Jeb Stuart</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7178</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3581</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7958 Jeb Stuart</value>
+ </Data>
+ <Data name="height">
+   <value>17</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>872.813049</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Campbell, Wilma P</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3581,36.7178</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>7958 JEB Stuart Hwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7178</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3581</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7958 JEB Stuart Hwy</value>
+ </Data>
+ <Data name="height">
+   <value>17</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>872.813049</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Campbell, Wilma P</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3581,36.7178</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>RICHWOOD KNOB FIRE TWR 3 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6931</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RICHWOOD KNOB FIRE TWR 3 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>50</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>978.682373</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMERICAN ELECTRIC POWER SERVICE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>225 JEB STUART HWY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7336</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.450299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>225 JEB STUART HWY</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>896.244262</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROTO DIE COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.450299,36.7336</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>RT 58 E APPROX 2 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6244</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2003</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 58 E APPROX 2 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>364.574768</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>J C JOYCE TRUCKING &amp; PAVING CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2003,36.6244</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>SR 610 7 MI S US 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7136</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3356</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 610 7 MI S US 58</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>921.390197</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DAVENPORT ENERGY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3356,36.7136</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>1048 LOWER DAM LN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6853</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.4411</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1048 LOWER DAM LN</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>841.024658</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.4411,36.6853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>RT 1 BOX 100</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6628</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3989</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 1 BOX 100</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>860.066833</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PRIMLAND, LTD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3989,36.6628</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>EXT OF CR 610 3 MI SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6661</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3847</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>EXT OF CR 610 3 MI SW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>872.006164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PRIMLAND, LTD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3847,36.6661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7336</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.450299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>896.244262</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROTO DIE CO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.450299,36.7336</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>HWY 58 2 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7133</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3342</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 58 2 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>919.178039</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STEP INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3342,36.7133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>EXT OF SR 610 3 MI SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6661</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3847</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>EXT OF SR 610 3 MI SW</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>872.006164</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PRIMLAND LTD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3847,36.6661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>ST RT 600 .6 MI S OF US RT 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7256</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.433</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ST RT 600 .6 MI S OF US RT 58</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>894.478393</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HARRELL, DAVID L</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.433,36.7256</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>RT 8 &amp; 58 W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6439</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.277499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 8 &amp; 58 W</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>412.728302</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STANLEY CHEVROLET INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.277499,36.6439</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>HWY 58 2 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7133</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3342</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 58 2 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>919.178039</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Henderson Jr, Henry B</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3342,36.7133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>BULL MTN 4.8 KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BULL MTN 4.8 KM N</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>977.075378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>US 58 .2 KM E OF SR 625</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6122</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.1864</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 58 .2 KM E OF SR 625</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>372.023284</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.1864,36.6122</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>SR 636 .5 KM N OF US 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7211</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3589</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 636 .5 KM N OF US 58</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>893.326416</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3589,36.7211</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>SR 664 &amp; 225 W OF SR 103</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5983</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3092</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 664 &amp; 225 W OF SR 103</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>419.896545</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3092,36.5983</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>COUNTY COURTHOUSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6419</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2697</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COUNTY COURTHOUSE</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>420.6893</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2697,36.6419</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>BULL MOUNTAIN 5KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BULL MOUNTAIN 5KM N</value>
+ </Data>
+ <Data name="height">
+   <value>25</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>977.075378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>SR 57 .2 KM E OF SR 8 14 KM N OF ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7247</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2322</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 57 .2 KM E OF SR 8 14 KM N OF ST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>460.863586</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2322,36.7247</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>BULL MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BULL MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>977.075378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of       Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>FAIRY STONE STATE PARK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.802799</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.1186</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FAIRY STONE STATE PARK</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>314.953216</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.1186,36.802799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>BULL MT FIRE TOWER 4 KM N RT 607</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BULL MT FIRE TOWER 4 KM N RT 607</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>977.075378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>RJ REYNOLDS PATRICK CTY MEMORIAL HOSPITAL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6417</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2703</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RJ REYNOLDS PATRICK CTY MEMORIAL HOSPITAL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>417.09027</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2703,36.6417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>BULL MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BULL MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>977.075378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>INT RT 8 &amp; 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.645</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2658</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT RT 8 &amp; 58</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>394.170562</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STUART, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2658,36.645</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>DRY POND 5.9 MI SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5836</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3442</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DRY POND 5.9 MI SW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>404.835327</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3442,36.5836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>CRITZ 7.7 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6311</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.145799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CRITZ 7.7 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>353.803039</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.145799,36.6311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>TROT VALLEY 4 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.305</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TROT VALLEY 4 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>504.726989</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.305,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>CENTRAL ACADEMY 4 MI NNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7039</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2842</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CENTRAL ACADEMY 4 MI NNW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>484.138488</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2842,36.7039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>CIRCLE M 6.1 MI NNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7156</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3347</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CIRCLE M 6.1 MI NNW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>911.744262</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3347,36.7156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>BUSTED ROCK 2 5.7 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6889</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3539</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUSTED ROCK 2 5.7 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>819.507812</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3539,36.6889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>BUSTED ROCK 1 6.1 MI WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6769</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.374199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUSTED ROCK 1 6.1 MI WNW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>844.154113</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.374199,36.6769</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>PATRICK EOC CTY COURTHOUSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6422</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.269999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PATRICK EOC CTY COURTHOUSE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>421.039215</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.269999,36.6422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6389</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.254999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>389.01007</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STUART, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.254999,36.6389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>COUNTY COURTHOUSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6419</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2697</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COUNTY COURTHOUSE</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>420.6893</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2697,36.6419</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>BULL MOUNTAIN 5KM N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BULL MOUNTAIN 5KM N</value>
+ </Data>
+ <Data name="height">
+   <value>25</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>977.075378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>INT RT 8 &amp; 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.645</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2658</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT RT 8 &amp; 58</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>394.170562</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2658,36.645</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>NR RTS 103 &amp; 662</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5831</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3369</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NR RTS 103 &amp; 662</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>380.515777</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3369,36.5831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>NR RTS 627 &amp; 692</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6883</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.0853</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NR RTS 627 &amp; 692</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>329.657653</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.0853,36.6883</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>RT 58 NEAR PARKWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7417</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.403</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 58 NEAR PARKWAY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>918.718078</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.403,36.7417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>RTS 675 &amp; 773 ARRAT VOL FD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6014</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.511099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RTS 675 &amp; 773 ARRAT VOL FD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>435.530364</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.511099,36.6014</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>RTS 636 &amp; 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.73</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3578</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RTS 636 &amp; 58</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>899.943908</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3578,36.73</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>NR WOOLWINE SCHOOL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7861</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2744</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NR WOOLWINE SCHOOL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>455.941986</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2744,36.7861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>NEAR INTS 680 &amp; 625</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6383</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.198899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR INTS 680 &amp; 625</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>390.836303</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.198899,36.6383</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>ROUTE 58 AT LOVERS LEAP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7167</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.316899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 58 AT LOVERS LEAP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>51</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>939.926025</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMITH, GILES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.316899,36.7167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>ROUTE 58 AT LOVERS LEAP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7167</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.316899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 58 AT LOVERS LEAP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>51</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>939.926025</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMC INVESTORS, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.316899,36.7167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>977.075378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RA TECH SERVICES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>BULL MT 5 KM N OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BULL MT 5 KM N OF</value>
+ </Data>
+ <Data name="height">
+   <value>49</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>977.075378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RA TECH SERVICES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>ATOP BULL MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6931</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP BULL MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>978.682373</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Vanguard Communication Services, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>LOVERS LEAP MOUNTAIN OFF US 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7133</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3342</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LOVERS LEAP MOUNTAIN OFF US 58</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>919.178039</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VANGUARD COMMUNICATION SERVICES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3342,36.7133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>HWY 58 2 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7133</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3342</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 58 2 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>919.178039</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PROFESSIONAL COMMUNICATIONS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3342,36.7133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>PATRICK COUNTY ROTARY CLUB</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6381</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.252799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PATRICK COUNTY ROTARY CLUB</value>
+ </Data>
+ <Data name="height">
+   <value>22.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>398.256256</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.252799,36.6381</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>8 KM NNW OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7153</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3222</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8 KM NNW OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>904.701782</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3222,36.7153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>650 Mt. Calvary Church Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6622</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2658</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>650 Mt. Calvary Church Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>662.36499</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2658,36.6622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>7750 Jeb Stuart Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7133</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.333599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7750 Jeb Stuart Highway</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>912.701232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.333599,36.7133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>Bull Mtn 4.2 Mi NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6929</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Bull Mtn 4.2 Mi NE</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>977.43872</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Danville, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6929</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>Rock House 1 Mi E of HWY 614 and HWY 602</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6854</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.4412</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rock House 1 Mi E of HWY 614 and HWY 602</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>838.311035</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Danville, City of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.4412,36.6854</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>0.07 mi South of US Hwy 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.586099</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.1353</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.07 mi South of US Hwy 58</value>
+ </Data>
+ <Data name="height">
+   <value>86.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>335.636322</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.1353,36.586099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>Bull Mountain, Fire Trail Ln. 3.3 miles N of Tudor Orchard Ln., Patric</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.693</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Bull Mountain, Fire Trail Ln. 3.3 miles N of Tudor Orchard Ln., Patric</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>978.803283</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Commonwealth of Virginia, Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.693</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>BULL MOUNTAIN COMMUNICATIONS SITE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6929</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2248</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BULL MOUNTAIN COMMUNICATIONS SITE</value>
+ </Data>
+ <Data name="height">
+   <value>22</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>978.885314</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2248,36.6929</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>END OF BUSTED ROCK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6664</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.384999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF BUSTED ROCK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>873.896789</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.384999,36.6664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>Adjacent to 576 Ike Slate Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6137</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.4331</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Adjacent to 576 Ike Slate Lane</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>494.664031</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Appalachian Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.4331,36.6137</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>3 mi N or Patrick Springs</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6932</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2248</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 mi N or Patrick Springs</value>
+ </Data>
+ <Data name="height">
+   <value>50</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>978.698242</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Appalachian Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2248,36.6932</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>8 KM NNW OF STUART</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7159</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.322299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8 KM NNW OF STUART</value>
+ </Data>
+ <Data name="height">
+   <value>58.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>903.698242</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.322299,36.7159</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>END OF BUSTED ROCK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6664</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.384999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF BUSTED ROCK RD</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>873.896789</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.384999,36.6664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>RT 58W AT MEADOWS OF DAN SCHOOL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6853</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.4414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 58W AT MEADOWS OF DAN SCHOOL</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>830.868408</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.4414,36.6853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>2884 TUDOR ORCHARD RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2884 TUDOR ORCHARD RD</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>977.075378</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DANVILLE, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2247,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>Patrick County 911/Sheriff'sOffice-105 Orchard St.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6422</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.269999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Patrick County 911/Sheriff'sOffice-105 Orchard St.</value>
+ </Data>
+ <Data name="height">
+   <value>16.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>421.039215</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.269999,36.6422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>215 Cougar Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6256</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.270499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>215 Cougar Lane</value>
+ </Data>
+ <Data name="height">
+   <value>10.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>410.033752</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Patrick County Public School System</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.270499,36.6256</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>1 Bull Mountain road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2244</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 Bull Mountain road</value>
+ </Data>
+ <Data name="height">
+   <value>61</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>973.618469</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2244,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>724 COMMERCE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6331</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2581</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>724 COMMERCE ST</value>
+ </Data>
+ <Data name="height">
+   <value>47.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>367.8143</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2581,36.6331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>724 COMMERCE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6331</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2581</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>724 COMMERCE ST</value>
+ </Data>
+ <Data name="height">
+   <value>47.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>367.8143</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PATRICK, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2581,36.6331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>BULL MOUNTAIN VSP TOWER SITE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.2244</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BULL MOUNTAIN VSP TOWER SITE</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>973.618469</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF, DEPT OF TRANSPORTATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.2244,36.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>INTERSECTION SR 610, US HIGHWAY 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Patrick County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7106</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.3461</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INTERSECTION SR 610, US HIGHWAY 58</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>877.136291</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.3461,36.7106</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

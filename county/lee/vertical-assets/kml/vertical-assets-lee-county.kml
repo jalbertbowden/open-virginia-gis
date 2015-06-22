@@ -1,0 +1,5309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>Lee County Airport AWOS is located east of existing apron</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6576</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.2146</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Lee County Airport AWOS is located east of existing apron</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>427.637145</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Lee County Board of Supervisors</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.2146,36.6576</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>AIRPORT RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7465</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0393</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>AIRPORT RD.</value>
+ </Data>
+ <Data name="height">
+   <value>17.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>555.608154</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE CO. RESCUE SQUAD - P.G.U.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0393,36.7465</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>RT. 3 BOX 229</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6646</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.127399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT. 3 BOX 229</value>
+ </Data>
+ <Data name="height">
+   <value>49.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>525.326721</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.127399,36.6646</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>473 Jehovah Dr</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6004</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.6115</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>473 Jehovah Dr</value>
+ </Data>
+ <Data name="height">
+   <value>59.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>424.010894</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.6115,36.6004</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>NR ST RT 641 2 MI SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7339</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0428</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NR ST RT 641 2 MI SE</value>
+ </Data>
+ <Data name="height">
+   <value>92.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>570.363281</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE BROADCASTING CORPORATION  DBA =  WSWV WSWV FM</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0428,36.7339</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Highway 58 Route 2 (Jasper 196274171)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7814</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8442</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Highway 58 Route 2 (Jasper 196274171)</value>
+ </Data>
+ <Data name="height">
+   <value>76.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>838.343994</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8442,36.7814</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>RR 2, Box 3170</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7157</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.1218</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR 2, Box 3170</value>
+ </Data>
+ <Data name="height">
+   <value>59.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>574.447387</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.1218,36.7157</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>US-421 next left past SR 630</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7756</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.9614</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US-421 next left past SR 630</value>
+ </Data>
+ <Data name="height">
+   <value>77.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>559.832336</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.9614,36.7756</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>Opposite RR 4, Box 4406</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7025</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0539</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Opposite RR 4, Box 4406</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>514.01062</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0539,36.7025</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>RR 2, Box 327 (off Hwy 421N)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7145</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.983</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR 2, Box 327 (off Hwy 421N)</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>519.396118</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.983,36.7145</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>Powell Mountain, Lee County, Virginia</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6289</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.087999</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Powell Mountain, Lee County, Virginia</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>767.41217</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.087999,36.6289</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>VA RT 662 10.172 KM AT 241.2 DEG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6442</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.2097</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA RT 662 10.172 KM AT 241.2 DEG</value>
+ </Data>
+ <Data name="height">
+   <value>150</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>409.267272</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MOORE, REGINA KAY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.2097,36.6442</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Off Herndon Ave</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.756245</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.046932</value>
+ </Data>
+ <Data name="structure_type">
+   <value>WaterTank JC Peters Property</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off Herndon Ave</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1689.788592</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pennington Gap, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.046932,36.756245</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Skaggs Hill</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.750039</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.027825</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Water Tank</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Skaggs Hill</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1846.64975</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Pennington Gap, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.027825,36.750039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>SR-637 RR Crossing @ RR MP M000.05</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8117</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0622</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-637 RR Crossing @ RR MP M000.05</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>476.871002</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0622,36.8117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>StickleyVille  5.89mi  NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.755</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8872</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>StickleyVille  5.89mi  NW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>734.320739</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8872,36.755</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>Ben Hur 4.69mi SW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7206</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0969</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Ben Hur 4.69mi SW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>544.962097</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0969,36.7206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Bonny Blue  6.48 mi NNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8342</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0722</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Bonny Blue  6.48 mi NNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>740.897644</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0722,36.8342</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Robbins Chapel 8.2 mi NNE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8589</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.9461</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Robbins Chapel 8.2 mi NNE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>717.60382</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.9461,36.8589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Stone 1.1 MI NNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7736</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0325</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Stone 1.1 MI NNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>418.13153</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0325,36.7736</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>1.5 MILES NW OF JCT VA-634 &amp; VA-717</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8369</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0883</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.5 MILES NW OF JCT VA-634 &amp; VA-717</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>929.09143</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KENTUCKY UTILITIES COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0883,36.8369</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>1.6 Km West of Rt. 70, at Hunter's Gap, on Powell Mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6286</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0881</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.6 Km West of Rt. 70, at Hunter's Gap, on Powell Mountain</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>766.035705</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of, Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0881,36.6286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>SR636 RR CROSSING AT RR MP TB23.35</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8192</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.055</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR636 RR CROSSING AT RR MP TB23.35</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>605.677185</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.055,36.8192</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>SR 624 RR CROSSING AT RR MP TB6.55</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8536</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.890299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 624 RR CROSSING AT RR MP TB6.55</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>632.078613</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.890299,36.8536</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>RR MILEPOST 246.5 SR 621 1.5 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7167</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.2478</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST 246.5 SR 621 1.5 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>501.204772</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.2478,36.7167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>200 FT N OF US ALT 58 .57 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7797</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.931399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 FT N OF US ALT 58 .57 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>439.067596</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.931399,36.7797</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>.5 Miles SE of Intersection of State Hwy 685 and State Hwy 687</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6197</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.461099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.5 Miles SE of Intersection of State Hwy 685 and State Hwy 687</value>
+ </Data>
+ <Data name="height">
+   <value>18.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>556.835876</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Kentucky Utilities Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.461099,36.6197</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>RT623 RR crossing at MP TB6.13</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8539</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.889999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT623 RR crossing at MP TB6.13</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>632.627014</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.889999,36.8539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>SR 611 RR crossing at MP 14.87T</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7669</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 611 RR crossing at MP 14.87T</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>465.319793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8275,36.7669</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6461</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.4069</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>468.904296</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Lee County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.4069,36.6461</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>ATOP HUNTERS GAP IN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6486</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0881</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP HUNTERS GAP IN</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>529.67987</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0881,36.6486</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Fire Sta SR 606</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8656</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.9006</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fire Sta SR 606</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>652.465026</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Keokee Fire &amp; Rescue Department</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.9006,36.8656</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Atop Love Lady Mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7622</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.878299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Atop Love Lady Mountain</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>836.611999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Kentucky Utilities Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.878299,36.7622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>RT. 352  RR CROSSING @ M.P. TB020.60</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7839</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.055</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT. 352  RR CROSSING @ M.P. TB020.60</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>444.422027</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.055,36.7839</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>SR 606 RR crossing at MP TB19.10</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7825</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.037199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 606 RR crossing at MP TB19.10</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>449.899627</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.037199,36.7825</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>SR 634 RR crossing at MP TB22.4</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8047</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.057799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 634 RR crossing at MP TB22.4</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>466.767547</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.057799,36.8047</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>SR 624 RR crossing at MP TB7.02</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8539</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8897</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 624 RR crossing at MP TB7.02</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>633.955627</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8897,36.8539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>Off Trail of the Lonesome Pines</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6283</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0881</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off Trail of the Lonesome Pines</value>
+ </Data>
+ <Data name="height">
+   <value>30.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>757.979553</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHWEST HEATING, AIR CONDITIONING, ELECTRICAL AND MECHANIC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0881,36.6283</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6286</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0881</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>766.035705</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0881,36.6286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>SR 864, COUNTY LANDFILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6858</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0919</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 864, COUNTY LANDFILL</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>495.338104</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0919,36.6858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>Dispatch Base, MP TB 11.4 NEAR BUNDY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.83</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.931399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dispatch Base, MP TB 11.4 NEAR BUNDY</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>609.295959</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.931399,36.83</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>SR 606 2.2 mi E of INT w/ SR  624</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8786</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.863599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 606 2.2 mi E of INT w/ SR  624</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>674.332031</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.863599,36.8786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Tito Disp, HWY 611 AT RR MP 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7664</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8272</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Tito Disp, HWY 611 AT RR MP 15</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>462.747161</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8272,36.7664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>HARRELL STREET &amp; RR ROW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7581</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.026399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HARRELL STREET &amp; RR ROW</value>
+ </Data>
+ <Data name="height">
+   <value>25</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>423.558563</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.026399,36.7581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>RR MP 243.6</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7056</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.2975</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MP 243.6</value>
+ </Data>
+ <Data name="height">
+   <value>25</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>462.944793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.2975,36.7056</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>Dispatch Base, 369 ft NW of RR MP TB22.42</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8039</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.058</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dispatch Base, 369 ft NW of RR MP TB22.42</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>468.230957</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.058,36.8039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>VIRGINIA &amp; SUMMIT AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7586</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0314</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VIRGINIA &amp; SUMMIT AVE</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>472.965911</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Kentucky Utilities Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0314,36.7586</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>HWY 58 421</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6367</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.4311</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 58 421</value>
+ </Data>
+ <Data name="height">
+   <value>17</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>428.862091</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Kentucky Utilities Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.4311,36.6367</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>ATOP HUNTERS GAP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6486</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0872</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP HUNTERS GAP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>504.919067</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>W L CONSTRUCTION AND PAVING INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0872,36.6486</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>NE JCT US 58 &amp; KY 659 0.6 KM SE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6944</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.231099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NE JCT US 58 &amp; KY 659 0.6 KM SE</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>547.046203</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Kentucky Utilities Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.231099,36.6944</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>OFF ROUTE 930</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7356</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0644</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ROUTE 930</value>
+ </Data>
+ <Data name="height">
+   <value>22</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>466.728637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECLER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0644,36.7356</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6917</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.1108</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>496.84909</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>POWELL VALLEY ELECTRIC COOP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.1108,36.6917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>WILDERNESS ROAD STATE PARK RT 2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6169</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.5167</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WILDERNESS ROAD STATE PARK RT 2</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>459.153259</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.5167,36.6169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>SR 870 1.0 KM FROM US 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7856</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.939399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 870 1.0 KM FROM US 58</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>493.010162</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.939399,36.7856</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>SR 682 0.5 KM S OF US 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6589</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.3869</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 682 0.5 KM S OF US 58</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>476.420867</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.3869,36.6589</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>PENNINGTON GAP AIRPORT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7458</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0369</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PENNINGTON GAP AIRPORT</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>563.617614</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0369,36.7458</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>WATER TANK ON ST RT 674</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6397</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.3936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TANK ON ST RT 674</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>531.647644</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.3936,36.6397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>ATOP LOVE LADY MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7622</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.878299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP LOVE LADY MTN</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>836.611999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.878299,36.7622</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>ATOP HUNTERS GAP MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6289</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0872</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP HUNTERS GAP MTN</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>757.190063</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0872,36.6289</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>HUNTER MOUNTAIN 7 KM S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6167</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0881</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HUNTER MOUNTAIN 7 KM S</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>377.138671</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0881,36.6167</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>KEOKEE FIRE DEPT BLDG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8631</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8953</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>KEOKEE FIRE DEPT BLDG</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>641.77716</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8953,36.8631</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>PENNINGTON GAP ARPRT OFF STATE RD 640</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7464</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0392</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PENNINGTON GAP ARPRT OFF STATE RD 640</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>562.930053</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY RESCUE SQUAD INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0392,36.7464</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>JAIL COMPLEX ON CHURCH ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6897</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.1111</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>JAIL COMPLEX ON CHURCH ST</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>460.496246</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.1111,36.6897</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>ATOP HUNTERS GAP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6289</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0872</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP HUNTERS GAP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>757.190063</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0872,36.6289</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>4 MILES S OF JONESVILLE VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6286</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0881</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4 MILES S OF JONESVILLE VA</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>766.035705</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia, Commonwealth of    Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0881,36.6286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>ATOP PINNACLE MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6106</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.6575</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP PINNACLE MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>26</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>716.882568</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MIDDLESBORO, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.6575,36.6106</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>HUNTERS GAP FOREST LOOKOUT TOWER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6286</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0881</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HUNTERS GAP FOREST LOOKOUT TOWER</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>766.035705</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0881,36.6286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>HUNTERS GAP FIRE TOWER 1 MI W OF RT ON POWELL MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6286</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0881</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HUNTERS GAP FIRE TOWER 1 MI W OF RT ON POWELL MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>29</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>766.035705</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0881,36.6286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>PENNINGTON GAP AIRPORT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7458</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0369</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PENNINGTON GAP AIRPORT</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>563.617614</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0369,36.7458</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>LEE COUNTY JAIL COMPLEX</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6897</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.1111</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LEE COUNTY JAIL COMPLEX</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>460.496246</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.1111,36.6897</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>ATOP WATER TANK HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6925</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.1108</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP WATER TANK HILL</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>502.691406</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.1108,36.6925</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>ATOP CHADWELL HILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6397</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.3936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP CHADWELL HILL</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>531.647644</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.3936,36.6397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>ATOP HUNTERS GAP</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6289</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0872</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP HUNTERS GAP</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>757.190063</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0872,36.6289</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>FIRE STA ST RT 606</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8656</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.9003</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIRE STA ST RT 606</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>653.699401</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.9003,36.8656</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>POWELL MOUNTAIN HUNTERS GAP</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6486</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0872</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POWELL MOUNTAIN HUNTERS GAP</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>504.919067</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JONESVILLE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0872,36.6486</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>HUNTER GAP FOREST LOOKOUT TOWER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6286</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0881</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HUNTER GAP FOREST LOOKOUT TOWER</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>766.035705</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0881,36.6286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>US 23 S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7697</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.824999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 23 S</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>471.560913</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JASPER VOLUNTEER FIRE DEPT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.824999,36.7697</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>OFF ROUTE 930</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7356</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0644</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ROUTE 930</value>
+ </Data>
+ <Data name="height">
+   <value>22</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>466.728637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECLER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0644,36.7356</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>EWING AT RT 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6264</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.4253</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>EWING AT RT 58</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>557.356384</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PHONE COMMUNICATIONS CORP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.4253,36.6264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7339</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0425</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>571.023498</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>B C BROADCASTING COMPANY, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0425,36.7339</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>SOUTH EWING, RT. 1, BOX 237A</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6225</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.412199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SOUTH EWING, RT. 1, BOX 237A</value>
+ </Data>
+ <Data name="height">
+   <value>37.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>560.195007</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.412199,36.6225</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>Jonesville: Route 4, Box 457B</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6914</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.116699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Jonesville: Route 4, Box 457B</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>496.296173</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.116699,36.6914</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>DRYDEN: ROUTE 1, BOX 1756</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7919</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.945</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DRYDEN: ROUTE 1, BOX 1756</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>607.634155</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.945,36.7919</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>RT. 3 BOX 229</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6644</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.1272</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT. 3 BOX 229</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>521.750366</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.1272,36.6644</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6168</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0882</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>30.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>377.323394</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0882,36.6168</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6933</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.2345</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>523.685607</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.2345,36.6933</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>VARIOUS LOCATIONS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7587</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0316</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VARIOUS LOCATIONS</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>469.359008</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KENTUCKY UTILITIES COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0316,36.7587</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>203 W MORGAN AVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7581</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.027699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>203 W MORGAN AVE</value>
+ </Data>
+ <Data name="height">
+   <value>10.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>417.479339</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>B C BROADCASTING COMPANY, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.027699,36.7581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>203 W. MORGAN AVE.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7581</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.027699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>203 W. MORGAN AVE.</value>
+ </Data>
+ <Data name="height">
+   <value>10.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>417.479339</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>B C BROADCASTING COMPANY, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.027699,36.7581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>SR 904</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8375</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.9456</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 904</value>
+ </Data>
+ <Data name="height">
+   <value>13.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>686.605712</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.9456,36.8375</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>SR 606</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8428</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.9622</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 606</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>612.982482</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.9622,36.8428</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>SR 611 RR CROSSING @ RR MP 014.87T</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7669</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 611 RR CROSSING @ RR MP 014.87T</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>465.319793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8275,36.7669</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8786</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.863599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>674.332031</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.863599,36.8786</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7664</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8272</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>462.747161</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8272,36.7664</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>SR624 RAILROAD CROSSING AT RR MP TB7.2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8539</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.889999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR624 RAILROAD CROSSING AT RR MP TB7.2</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>632.627014</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.889999,36.8539</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>Lee County 911 - Hwy 58 and Hill St, Jonesville</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6889</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.11</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Lee County 911 - Hwy 58 and Hill St, Jonesville</value>
+ </Data>
+ <Data name="height">
+   <value>16.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>464.003082</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.11,36.6889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>WATER TOWER</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6333</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.3833</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TOWER</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>434.838714</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.3833,36.6333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>SR58 MORGAN AVE &amp; KENTUCKY ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7581</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0272</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR58 MORGAN AVE &amp; KENTUCKY ST</value>
+ </Data>
+ <Data name="height">
+   <value>4.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>420.216979</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0272,36.7581</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>INT RT 621 AND OTTER DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.732</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.1494</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT RT 621 AND OTTER DR</value>
+ </Data>
+ <Data name="height">
+   <value>3.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>501.045806</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.1494,36.732</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>276MTRS NE OF SR645 AND SR 621 INT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7389</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.095</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>276MTRS NE OF SR645 AND SR 621 INT</value>
+ </Data>
+ <Data name="height">
+   <value>3.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>483.733001</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.095,36.7389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8039</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.058</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>468.230957</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.058,36.8039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>1 Airport Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6575</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.2144</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 Airport Road</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>426.923736</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY AIRPORT, VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.2144,36.6575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>HUNTERS GAP</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6289</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0872</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HUNTERS GAP</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>757.190063</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0872,36.6289</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.83</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.931399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>609.295959</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY CO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.931399,36.83</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>SR 625 RR CROSSING AT RR MP CX1.00</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8431</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.935</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 625 RR CROSSING AT RR MP CX1.00</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>604.950012</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.935,36.8431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8431</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.935</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>604.950012</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.935,36.8431</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>ON PARK ST, NORTH OF CIRCLE DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6931</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.1125</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON PARK ST, NORTH OF CIRCLE DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>479.197174</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.1125,36.6931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>NORTH OF SR 604, SOUTH OF SR612 AND WALLEN CREEK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6286</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0881</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NORTH OF SR 604, SOUTH OF SR612 AND WALLEN CREEK</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>766.035705</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0881,36.6286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>OFF OF SR 606</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8292</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.9692</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF OF SR 606</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>673.119384</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.9692,36.8292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>ON SR 606 EAST OF THE RAILROAD CROSSING</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7911</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.012999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON SR 606 EAST OF THE RAILROAD CROSSING</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>469.170013</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.012999,36.7911</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>ON SR 606 SOUTH OF THE SR 786 INTERCHANGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8231</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.9758</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON SR 606 SOUTH OF THE SR 786 INTERCHANGE</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>558.072753</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.9758,36.8231</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>WATER TANK ON SR 904</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8375</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.9456</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TANK ON SR 904</value>
+ </Data>
+ <Data name="height">
+   <value>10.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>686.605712</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.9456,36.8375</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>ON SR 606 EAST OF SR 627 INTERCHANGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8428</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.9619</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON SR 606 EAST OF SR 627 INTERCHANGE</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>613.87091</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.9619,36.8428</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>US 421 &amp; SR 606</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7775</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0525</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 421 &amp; SR 606</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>439.460479</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0525,36.7775</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>PUMP ON DANIEL BOONE TRAIL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6286</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.5294</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PUMP ON DANIEL BOONE TRAIL</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>409.194427</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.5294,36.6286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>PUMP #2 ON US 421</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7186</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.948899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PUMP #2 ON US 421</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>494.740417</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.948899,36.7186</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>PUMP ON STATE ROUTE 915</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7189</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.925</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PUMP ON STATE ROUTE 915</value>
+ </Data>
+ <Data name="height">
+   <value>11.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>713.654113</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.925,36.7189</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>TANK SOUTH OF STATE RD 673</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6911</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.338599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TANK SOUTH OF STATE RD 673</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>499.701446</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.338599,36.6911</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>PUMP ON US 421</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7181</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.9461</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PUMP ON US 421</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>479.809326</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LEE COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.9461,36.7181</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7489</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0505</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>439.045806</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Lee Regional Medical Center</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0505,36.7489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>1800 COMBS ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7489</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0505</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1800 COMBS ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>439.045806</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0505,36.7489</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>137 SAGE MOUNTAIN ROAD, #101</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7064</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.9061</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>137 SAGE MOUNTAIN ROAD, #101</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>494.165771</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STICKLEYVILLE VOLUNTEER FIRE DEPARTMENT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.9061,36.7064</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>STATE ROUTE 667, 1.3 MILES SOUTH OF US 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6653</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.328899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATE ROUTE 667, 1.3 MILES SOUTH OF US 58</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>512.407714</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.328899,36.6653</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>500' NORTH OF CITY LIMITS OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7564</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.0472</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500' NORTH OF CITY LIMITS OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>525.84497</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.0472,36.7564</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>APPROXIMATELY 1.5 MILES SOUTH OF:</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7353</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.038599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>APPROXIMATELY 1.5 MILES SOUTH OF:</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>530.357849</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.038599,36.7353</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>END OF CHURCH STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Lee County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6933</value>
+ </Data>
+ <Data name="lng">
+   <value>-83.11</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF CHURCH STREET</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>506.164855</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-83.11,36.6933</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

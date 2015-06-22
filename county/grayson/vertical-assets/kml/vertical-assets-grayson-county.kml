@@ -1,0 +1,3713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>END OF STATE ROUTE 684</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.645</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.2081</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF STATE ROUTE 684</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1270.625244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.2081,36.645</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>Bear Branch Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6143</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.388599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Bear Branch Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1021.591125</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.388599,36.6143</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>3 mi W of Independence in Grayson County, Virginia</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6454</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.2087</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 mi W of Independence in Grayson County, Virginia</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1272.270629</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.2087,36.6454</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>0.52 MI SE OF STATE RTE 94</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7111</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.979</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.52 MI SE OF STATE RTE 94</value>
+ </Data>
+ <Data name="height">
+   <value>58.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>778.809204</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.979,36.7111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Atop Point Lookout Mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6679</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1673</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Atop Point Lookout Mountain</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1380.995605</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Grayson, County of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1673,36.6679</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>280 Wolf Hill Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6166</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.144299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>280 Wolf Hill Lane</value>
+ </Data>
+ <Data name="height">
+   <value>59.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>894.151062</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 2 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.144299,36.6166</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>10993 Grayson Parkway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6365</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.976</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10993 Grayson Parkway</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>766.919677</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.976,36.6365</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>827 Fries Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6736</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9363</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>827 Fries Road</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>771.750549</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular  Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9363,36.6736</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>391 Rock Chimney Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6196</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.017799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>391 Rock Chimney Road</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>789.468383</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.017799,36.6196</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6422</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.181899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>988.687011</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BALFOUR BEATTY CONSTRUCTION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.181899,36.6422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>22 KM SW OF MARION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6389</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.605299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>22 KM SW OF MARION</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1684.251342</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMYTH COUNTY BOARD OF SUPERVISORS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.605299,36.6389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>Whitetop Mtn 9.98mi E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6383</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.605</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Whitetop Mtn 9.98mi E</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1679.835571</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department Of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.605,36.6383</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Camp 8.3mi  ESE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7603</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.2658</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Camp 8.3mi  ESE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1148.290771</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.2658,36.7603</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Jones Knob 6.1 mi NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7658</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.0728</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Jones Knob 6.1 mi NW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1163.408325</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.0728,36.7658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>Bethel 8.1 mi NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6897</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.2703</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Bethel 8.1 mi NW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>974.652587</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.2703,36.6897</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Grayson Highland 6.3 mi SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6242</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.4986</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Grayson Highland 6.3 mi SSW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1492.892456</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.4986,36.6242</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>Fairwood 3.3 mi W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6978</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.500299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fairwood 3.3 mi W</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1047.264892</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.500299,36.6978</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6567</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.5353</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1649.568725</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mount Rogers Appalachian Trail Club</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.5353,36.6567</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>22 KM SW OF MARION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6389</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.605299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>22 KM SW OF MARION</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1684.251342</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMYTH COUNTY BOARD OF SUPERVISORS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.605299,36.6389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>ATOP WHITE TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6386</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.605299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP WHITE TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>16.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1683.420654</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAYSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.605299,36.6386</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>CITY WATER TANK LOCATION IN SOUTH</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6345</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9092</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CITY WATER TANK LOCATION IN SOUTH</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>840.178955</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GALAX, CITY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9092,36.6345</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>LOOKOUT MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6792</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1653</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LOOKOUT MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>40</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1022.959594</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECLER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1653,36.6792</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6397</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.4219</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>879.414245</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RUGBY RESCUE SQUAD AND FIRE DEPT. INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.4219,36.6397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>OFF RT 654 3 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6695</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1611</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF RT 654 3 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>50</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1380.318969</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMERICAN ELECTRIC POWER SERVICE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1611,36.6695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Private Rd .6miles off end of Route 755</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5964</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.6594</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Private Rd .6miles off end of Route 755</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1264.278564</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMERICAN ELECTRIC POWER SERVICE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.6594,36.5964</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>OFFICE BUILDING AT QUARRY OFF   RT 58</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5825</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.3092</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFFICE BUILDING AT QUARRY OFF   RT 58</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>778.428894</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>W-L CONSTRUCTION AND PAVING COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.3092,36.5825</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>KENDRICK MOUNTAIN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6347</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.3506</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>KENDRICK MOUNTAIN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1145.826049</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>W-L CONSTRUCTION AND PAVING COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.3506,36.6347</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>ATOP POINT LOOKOUT MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6667</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.166699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POINT LOOKOUT MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1377.568847</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TWO WAY RADIO INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.166699,36.6667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>ATOP POINT LOOKOUNT MOUNTAIN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6678</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.168</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POINT LOOKOUNT MOUNTAIN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1377.56958</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TWO WAY RADIO INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.168,36.6678</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6667</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1664</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1378.44812</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>INDEPENDENCE LUMBER INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1664,36.6667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>ATOP POINT LOOKOUT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6667</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.166699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POINT LOOKOUT</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1377.568847</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>INDEPENDENCE LUMBER INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.166699,36.6667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6667</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.166699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1377.568847</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TWO WAY RADIO INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.166699,36.6667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>ATOP POINT LOOKOUT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6667</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.166699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POINT LOOKOUT</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1377.568847</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TWO WAY RADIO INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.166699,36.6667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>ATOP POINT LOOKOUT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6667</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.166699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POINT LOOKOUT</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1377.568847</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Twin County Regional Healthcare, Inc. d/b/a Twin County Regional Hospital</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.166699,36.6667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>3 1/2 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6033</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.918</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 1/2 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>768.571105</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GALYEAN PLUMBING AND ELECTRIC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.918,36.6033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6667</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.166699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1377.568847</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TWO WAY RADIO INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.166699,36.6667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>ATOP POINT LOOKOUT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6667</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.166699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POINT LOOKOUT</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1377.568847</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TWO WAY RADIO INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.166699,36.6667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>GRAYSON HIGHLAND STATE PARK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.625</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.500599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GRAYSON HIGHLAND STATE PARK</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1511.608398</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.500599,36.625</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>GRAYSON HIGHLAND STATE PARK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6125</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.4789</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GRAYSON HIGHLAND STATE PARK</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1171.071289</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.4789,36.6125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>ATOP POINT LOOKOUT MOUNTAIN 4 KM NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6678</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.168</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POINT LOOKOUT MOUNTAIN 4 KM NE</value>
+ </Data>
+ <Data name="height">
+   <value>25</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1377.56958</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.168,36.6678</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>ATOP LOOKOUT MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6667</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.167199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP LOOKOUT MTN</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1371.136596</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEW RIVER VALLEY REGIONAL JAIL AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.167199,36.6667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>SR 791 1 KM W OF RT 21 &amp; 658</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7308</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.174199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 791 1 KM W OF RT 21 &amp; 658</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>814.103027</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.174199,36.7308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>SR 16 .1 KM S OF SR 734</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6181</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.3775</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 16 .1 KM S OF SR 734</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>785.807189</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.3775,36.6181</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>SR 841 .4 KM NW OF INT US 58 221</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6256</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9947</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 841 .4 KM NW OF INT US 58 221</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>733.528564</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9947,36.6256</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>134 DAVIS ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6236</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.001399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>134 DAVIS ST</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>773.474853</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAYSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.001399,36.6236</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>ATOP POINT LOOKOUT MOUNTAIN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6692</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1614</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POINT LOOKOUT MOUNTAIN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1382.532836</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAYSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1614,36.6692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>SR 702 1.6 KM W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6169</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1625</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 702 1.6 KM W</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>845.792968</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1625,36.6169</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6231</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1519</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>826.518005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>INDEPENDENCE VOLUNTEER RESCUE SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1519,36.6231</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>ATOP POINT LOOKOUT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6667</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.166699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POINT LOOKOUT</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1377.568847</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Twin County Regional Healthcare, Inc. d/b/a Twin County Regional Hospital</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.166699,36.6667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>BUS GARAGE ON ST RT 601</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6125</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.2414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUS GARAGE ON ST RT 601</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>826.185791</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAYSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.2414,36.6125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>ATOP POINT LOOKOUT MOUNTAIN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6692</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1614</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POINT LOOKOUT MOUNTAIN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1382.532836</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAYSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1614,36.6692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>TOWN HALL 136 E MAIN ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6231</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1519</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>TOWN HALL 136 E MAIN ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>826.518005</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>INDEPENDENCE, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1519,36.6231</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>FIRE DEPT BLDG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.72</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9844</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIRE DEPT BLDG</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>690.32257</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAYSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9844,36.72</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>124 DAVIS ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6236</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1511</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>124 DAVIS ST</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>828.755126</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAYSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1511,36.6236</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>YORK RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6397</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.4219</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>YORK RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>879.414245</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAYSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.4219,36.6397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>WHITE TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6386</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.605299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WHITE TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1683.420654</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAYSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.605299,36.6386</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>ATOP POINT LOOKOUT MOUNTAIN NEAR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6692</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1614</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POINT LOOKOUT MOUNTAIN NEAR</value>
+ </Data>
+ <Data name="height">
+   <value>42.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1382.532836</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAYSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1614,36.6692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>WHITE TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6386</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.605299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WHITE TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1683.420654</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RA TECH SERVICES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.605299,36.6386</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>ATOP WHITE TOP MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6386</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.605299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP WHITE TOP MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>16.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1683.420654</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RA-TECH SERVICES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.605299,36.6386</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>ATOP POINT LOOKOUT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6667</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POINT LOOKOUT</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>740.831542</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TWO WAY RADIO INCORPORATED</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9997,36.6667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>2 MI W. OF 675 &amp; 672</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7478</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.3039</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2 MI W. OF 675 &amp; 672</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1312.164916</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA TECH FOUNDATION, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Broadcast (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.3039,36.7478</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>0.52 MI SE OF STATE RTE 94</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7111</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9789</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.52 MI SE OF STATE RTE 94</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>781.416381</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9789,36.7111</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>INDEPENDENCE CELL SITE END OF STATE ROUTE 684</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.645</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.208</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INDEPENDENCE CELL SITE END OF STATE ROUTE 684</value>
+ </Data>
+ <Data name="height">
+   <value>126.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1270.831665</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.208,36.645</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>Independence Cell Site - 280 Wolf Hill Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6164</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1442</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Independence Cell Site - 280 Wolf Hill Lane</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>894.845947</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 2 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1442,36.6164</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>497 Rolling Wood Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6644</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.963899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>497 Rolling Wood Lane</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>775.344055</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia RSA 2 Limited Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.963899,36.6644</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>840 Grange Hall Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6618</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.3984</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>840 Grange Hall Road</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>869.057739</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The Wired Road Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.3984,36.6618</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>1805 York Ridge Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6052</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.408099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1805 York Ridge Road</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1049.681518</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The Wired Road Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.408099,36.6052</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>2635 Oak Hill Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6071</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.336999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2635 Oak Hill Road</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>838.494934</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The Wired Road Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.336999,36.6071</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>END OF STATE ROUTE 684</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.645</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.208</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF STATE ROUTE 684</value>
+ </Data>
+ <Data name="height">
+   <value>126.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1270.831665</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>The Wired Road Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.208,36.645</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>22 KM SW OF MARION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6387</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.6054</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>22 KM SW OF MARION</value>
+ </Data>
+ <Data name="height">
+   <value>18.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1684.276367</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SMYTH COUNTY BOARD OF SUPERVISORS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.6054,36.6387</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>3 mi W of Independence in Grayson County, Virginia</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6454</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.2087</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 mi W of Independence in Grayson County, Virginia</value>
+ </Data>
+ <Data name="height">
+   <value>60.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1272.270629</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Commonwealth of Virginia, Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.2087,36.6454</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>6 Mi North of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6696</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.161199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6 Mi North of</value>
+ </Data>
+ <Data name="height">
+   <value>28.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1379.914184</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Appalachian Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.161199,36.6696</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>Private Road, 0.6 Miles off end of Route 755</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5965</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.6596</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Private Road, 0.6 Miles off end of Route 755</value>
+ </Data>
+ <Data name="height">
+   <value>59</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1265.99121</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Appalachian Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.6596,36.5965</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>END OF STATE ROUTE 684</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.645</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.208</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF STATE ROUTE 684</value>
+ </Data>
+ <Data name="height">
+   <value>126.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1270.831665</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.208,36.645</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>OFF ROUTE 654, 3MI N OF INDEPENDENCE, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6695</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1611</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ROUTE 654, 3MI N OF INDEPENDENCE, VA</value>
+ </Data>
+ <Data name="height">
+   <value>58.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1380.318969</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>APPALACHIAN POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1611,36.6695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>13 RIVERSIDE DR - 2.5 MI W OF GALAX, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6469</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13 RIVERSIDE DR - 2.5 MI W OF GALAX, VA</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>685.177368</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>APPALACHIAN POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9786,36.6469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>OFF ROUTE 654, 3 MI. N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6695</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1611</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ROUTE 654, 3 MI. N</value>
+ </Data>
+ <Data name="height">
+   <value>58.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1380.318969</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>APPALACHIAN POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1611,36.6695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>13 RIVERSIDE DRIVE - 2.5 MI W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6469</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9786</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13 RIVERSIDE DRIVE - 2.5 MI W</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>685.177368</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>APPALACHIAN POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9786,36.6469</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>Whitetop Mtn  9.9 mi E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6386</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.605299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Whitetop Mtn  9.9 mi E</value>
+ </Data>
+ <Data name="height">
+   <value>12.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1683.420654</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.605299,36.6386</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>FIRE DEPT BUILDING</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.72</value>
+ </Data>
+ <Data name="lng">
+   <value>-80.9844</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIRE DEPT BUILDING</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>690.32257</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAYSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-80.9844,36.72</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>YORK RIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6397</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.4219</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>YORK RIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>879.414245</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAYSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.4219,36.6397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>APPROX: 850 METERS SOUTH OF US HWY'S  58 &amp; 221 ON CIMARRON LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6164</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1292</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>APPROX: 850 METERS SOUTH OF US HWY'S  58 &amp; 221 ON CIMARRON LANE</value>
+ </Data>
+ <Data name="height">
+   <value>28</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>800.749511</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1292,36.6164</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>3 MI W OF INDEPENDENCE IN GRAYSON COUNTY, VIRGINIA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6453</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.208599</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 MI W OF INDEPENDENCE IN GRAYSON COUNTY, VIRGINIA</value>
+ </Data>
+ <Data name="height">
+   <value>60.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1272.101196</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.208599,36.6453</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>1630 MOKLEY RIDGE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5769</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.130799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1630 MOKLEY RIDGE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>750.416198</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA/CAROLINA WATER AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.130799,36.5769</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>OFF HIGHWAY 21</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5986</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.154199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF HIGHWAY 21</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>767.028991</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA/CAROLINA WATER AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.154199,36.5986</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>OFF ANVIL ROCK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6264</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.149999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ANVIL ROCK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>901.126831</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA/CAROLINA WATER AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.149999,36.6264</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>6454 TROUTDALE HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6517</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.409999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6454 TROUTDALE HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>855.367736</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GRAYSON, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.409999,36.6517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>POINT LOOKOUT MOUNTAIN, 3 MILES NORTH OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Grayson County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6667</value>
+ </Data>
+ <Data name="lng">
+   <value>-81.1664</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POINT LOOKOUT MOUNTAIN, 3 MILES NORTH OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1378.44812</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-81.1664,36.6667</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

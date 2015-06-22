@@ -1,0 +1,5099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>US Hwy 23</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7446</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7956</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US Hwy 23</value>
+ </Data>
+ <Data name="height">
+   <value>84.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>461.942932</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7956,36.7446</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>STATE ROAD 629</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6419</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.744</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATE ROAD 629</value>
+ </Data>
+ <Data name="height">
+   <value>83.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>481.274658</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.744,36.6419</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>County Road 873</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7054</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7815</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>County Road 873</value>
+ </Data>
+ <Data name="height">
+   <value>85.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>568.673889</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7815,36.7054</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>T839 ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6408</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.595</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>T839 ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>88.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>613.356323</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA TOWERS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.595,36.6408</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>119 Fraley Ave.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7147</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.802</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>119 Fraley Ave.</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>433.838928</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers II LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.802,36.7147</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Poplar Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6418458</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.58330857</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Poplar Street Reservoir Tank - 150,000 Gal</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Poplar Street</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1549.539791</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Gate City, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.58330857,36.6418458</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>Quillen Heights</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.63803775</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.58943639</value>
+ </Data>
+ <Data name="structure_type">
+   <value>Wantan Tank - 50,000 Gallons</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Quillen Heights</value>
+ </Data>
+ <Data name="height">
+   <value></value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1553.586474</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Gate City, Town of</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>Virginia Municipal League</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.58943639,36.63803775</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>FROM BUS US 23 TAKE HORTON ST 1150 FT S OF US 23</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6331</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5822</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FROM BUS US 23 TAKE HORTON ST 1150 FT S OF US 23</value>
+ </Data>
+ <Data name="height">
+   <value>45.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>444.314514</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TRI CITIES BROADCASTING CORPORATION  DBA =  WGAT RADIO</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5822,36.6331</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>120 Texas Street</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5948</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5715</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>120 Texas Street</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>399.912567</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5715,36.5948</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>RR 1, Box 190 Panoramic Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7086</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8817</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR 1, Box 190 Panoramic Lane</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>778.695434</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8817,36.7086</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>13906 E. CARTERS VALLELY ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6088</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.523</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13906 E. CARTERS VALLELY ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>523.59552</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.523,36.6088</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>ROUTE 643</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6426</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6825</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 643</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>556.237121</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6825,36.6426</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Route 1, Box 298-A</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6341</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.44</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 1, Box 298-A</value>
+ </Data>
+ <Data name="height">
+   <value>75.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>468.610687</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.44,36.6341</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>.28 MILES SOUTH OF INTERSECTING HIGHWAYS 59/421 &amp; 23</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7078</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.792</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.28 MILES SOUTH OF INTERSECTING HIGHWAYS 59/421 &amp; 23</value>
+ </Data>
+ <Data name="height">
+   <value>68.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>402.069488</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DUFFIELD BROADCASTING COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.792,36.7078</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>VA 58 @ S.R. 803</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6574</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3659</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>VA 58 @ S.R. 803</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>484.257537</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3659,36.6574</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Puckett Creek 4.21 mi NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7956</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7503</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Puckett Creek 4.21 mi NW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>825.538085</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7503,36.7956</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>Dungannon 0.2 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8306</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.461399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dungannon 0.2 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>394.754119</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.461399,36.8306</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Little Duck 4.5 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7447</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3642</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Little Duck 4.5 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>698.138183</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3642,36.7447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>Purchase Ridge 4.6 MI SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6356</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8094</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Purchase Ridge 4.6 MI SSW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>506.776367</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8094,36.6356</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>Maple Gap 4.4 MI NNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8267</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7305</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Maple Gap 4.4 MI NNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>883.523681</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7305,36.8267</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>Powell Mtn 6.5 MI ESE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8406</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.663099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Powell Mtn 6.5 MI ESE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1062.155517</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.663099,36.8406</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>ATOP CLINCH MTN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6425</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP CLINCH MTN</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>793.464294</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5414,36.6425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>1 CLOVERLEAF SQ</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7595</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.751899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>bant</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 CLOVERLEAF SQ</value>
+ </Data>
+ <Data name="height">
+   <value>7.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>561.373352</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Penn Virginia Operating Co., LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.751899,36.7595</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>SR-949 RR CROSSING AT RR MP 43.65TC</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8536</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.605799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-949 RR CROSSING AT RR MP 43.65TC</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>939.265991</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.605799,36.8536</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>RR MILEPOST 85.5 200 FT N OF SR 632</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.607</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6689</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST 85.5 200 FT N OF SR 632</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>412.816528</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6689,36.607</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>1500 FT E OF SR 66 &amp; SR 619 INT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7744</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.575299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1500 FT E OF SR 66 &amp; SR 619 INT</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>386.864044</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.575299,36.7744</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>1.1 MI NE CLINCHPORT TUNNEL DED MP76.5</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6806</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7269</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.1 MI NE CLINCHPORT TUNNEL DED MP76.5</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>407.178802</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7269,36.6806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>100 NW US 23 UNDERPASS DED MP80</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6414</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.738</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 NW US 23 UNDERPASS DED MP80</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>418.660766</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.738,36.6414</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>5219 BOONE TRAIL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7233</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8039</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5219 BOONE TRAIL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>412.89862</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHWEST VIRGINIA REGIONAL JAIL AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8039,36.7233</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Chapel St RR crossing at MP 41.30T</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6217</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.565299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Chapel St RR crossing at MP 41.30T</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>398.281188</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.565299,36.6217</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>RT1412 RR crossing at MP 36.88T</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6328</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6042</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT1412 RR crossing at MP 36.88T</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>417.159179</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6042,36.6328</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Clinch Mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6692</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5017</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Clinch Mountain</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>981.587341</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Epperson, Jimmy A</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5017,36.6692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6692</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5017</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>981.587341</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Epperson, Jimmy A</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5017,36.6692</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>RT 1 BOX 235</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7811</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.565799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 1 BOX 235</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>392.360748</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.565799,36.7811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>Dunbar Rd RR crossing at MP P1.80</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6094</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.717199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dunbar Rd RR crossing at MP P1.80</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>408.256958</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.717199,36.6094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>BALL PARK RD. RR CROSSING @ M.P. 037.97 T</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6333</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5889</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BALL PARK RD. RR CROSSING @ M.P. 037.97 T</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>401.906463</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5889,36.6333</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>SR-789 RR CROSSING @ M.P. 034.05 T</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6345</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4914</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR-789 RR CROSSING @ M.P. 034.05 T</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>481.394134</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4914,36.6345</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>RT-946 RR CROSSING @ M.P. 032.42 T</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6397</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.685</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT-946 RR CROSSING @ M.P. 032.42 T</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>481.126525</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.685,36.6397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>1 MILE W OF SR 644 XING CSX ROW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6806</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MILE W OF SR 644 XING CSX ROW</value>
+ </Data>
+ <Data name="height">
+   <value>2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>412.057922</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7275,36.6806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>2.5 MILES SOUTH OF SR 609 XING CSX ROW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6925</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6881</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2.5 MILES SOUTH OF SR 609 XING CSX ROW</value>
+ </Data>
+ <Data name="height">
+   <value>2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>397.561035</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6881,36.6925</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>1/2 MILE SOUTH OF SR 609 HILL, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7033</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6503</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1/2 MILE SOUTH OF SR 609 HILL, VA</value>
+ </Data>
+ <Data name="height">
+   <value>2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>389.621337</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6503,36.7033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Dispatcher Base, 173 Ferryview Lane (911)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.649699</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7475</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dispatcher Base, 173 Ferryview Lane (911)</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>382.153594</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7475,36.649699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Detector, RR MP 21.4T</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7247</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7683</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detector, RR MP 21.4T</value>
+ </Data>
+ <Data name="height">
+   <value>4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>462.9216</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7683,36.7247</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>Gate City Disp, 3.4 MI W. Jct US23 at MP35.2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6322</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6386</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Gate City Disp, 3.4 MI W. Jct US23 at MP35.2</value>
+ </Data>
+ <Data name="height">
+   <value>36</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>427.283203</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6386,36.6322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>Duffield Disp Base, Hwy 871 at Foote Miner. MP 21.7</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7311</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.763</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Duffield Disp Base, Hwy 871 at Foote Miner. MP 21.7</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>461.591796</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.763,36.7311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>RR MP 80</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6417</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7383</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MP 80</value>
+ </Data>
+ <Data name="height">
+   <value>23</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>428.859466</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7383,36.6417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>RR MILEPOST 52.2</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8633</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4069</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST 52.2</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>422.365814</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4069,36.8633</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>RR MP 64.4</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7739</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5489</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MP 64.4</value>
+ </Data>
+ <Data name="height">
+   <value>17</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>466.969238</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5489,36.7739</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>105 READING RD BESIDE US HWY 23</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6278</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.553</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>105 READING RD BESIDE US HWY 23</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>394.703491</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MOCCASIN GAP SANITATION DISTRICT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.553,36.6278</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>125 WOODLAND ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6397</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5797</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>125 WOODLAND ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>411.860412</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY TELEPHONE CO OP INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5797,36.6397</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>1306 TOWER DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6425</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1306 TOWER DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>793.464294</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NICKELSVILLE VOL RESCUE SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5414,36.6425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>ATOP POWELL MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.675</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8836</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POWELL MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>455.671447</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VA KY COMMUNICATIONS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8836,36.675</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>NATURAL TUNNEL STATE PARK RT 3 BOX 250</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7064</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.738</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NATURAL TUNNEL STATE PARK RT 3 BOX 250</value>
+ </Data>
+ <Data name="height">
+   <value>8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>553.061279</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.738,36.7064</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>176 E JACKSON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6447</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5775</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>176 E JACKSON ST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>482.10498</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5775,36.6447</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>1306 TOWER DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6425</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1306 TOWER DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>793.464294</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5414,36.6425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>SR 71 &amp; 876</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7542</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4081</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 71 &amp; 876</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>597.038391</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4081,36.7542</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>SR 72 1.5 KM E OF INT SR 619</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7817</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.565299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 72 1.5 KM E OF INT SR 619</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>399.705017</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.565299,36.7817</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>SR 638 1 KM SE OF INT SR 604</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6933</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.844699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 638 1 KM SE OF INT SR 604</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>427.242858</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.844699,36.6933</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>INT US 58 &amp; US 23</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6328</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.551899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT US 58 &amp; US 23</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>386.112731</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.551899,36.6328</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>1306 TOWER DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6425</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1306 TOWER DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>793.464294</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT CO LIFESAVING &amp; FIRST AID CREW INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5414,36.6425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>BLDG 112 WATERS ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6381</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5819</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BLDG 112 WATERS ST</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>419.234375</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5819,36.6381</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>ATOP CLINCH MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6425</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP CLINCH MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>793.464294</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5414,36.6425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>146 ELM ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6386</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5736</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>146 ELM ST</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>405.538635</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GATE CITY, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5736,36.6386</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>176 E JACKSON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6394</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5792</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>176 E JACKSON ST</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>407.008148</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GATE CITY, TOWN OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5792,36.6394</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>LITTLE DUCK 4.5 MI NE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7445</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.3639</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LITTLE DUCK 4.5 MI NE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>697.410095</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.3639,36.7445</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>PURCHASE RIDGE 4.6 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6494</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.815</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PURCHASE RIDGE 4.6 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>600.934082</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.815,36.6494</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>MAPLE GAP 2.8 MI SSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8292</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.724699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MAPLE GAP 2.8 MI SSE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>906.911682</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.724699,36.8292</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>CAMP ROCK 3.8 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8806</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6164</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CAMP ROCK 3.8 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>1185.236938</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6164,36.8806</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>BOWLING KNOB 7.5 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7617</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7906</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BOWLING KNOB 7.5 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>836.249206</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7906,36.7617</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>SCOTT CTY EOC CTY ADMIN BLDG MAI</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6392</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5792</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SCOTT CTY EOC CTY ADMIN BLDG MAI</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>406.371765</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5792,36.6392</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>1306 TOWER DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6425</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1306 TOWER DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>793.464294</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5414,36.6425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6425</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5414</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>793.464294</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY FIREFIGHTERS ASSOC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5414,36.6425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>YUMA SUBSTATION RT 713 AND 614</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.62</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.646399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>YUMA SUBSTATION RT 713 AND 614</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>415.426849</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY FIREFIGHTERS ASSOC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.646399,36.62</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>RYE COVE SUBSTATION RT 650</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.735</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6897</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RYE COVE SUBSTATION RT 650</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>470.024444</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY FIREFIGHTERS ASSOC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6897,36.735</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>FORT BLACKMORE FIRE DEPT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.775</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5781</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORT BLACKMORE FIRE DEPT</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>398.060791</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY FIREFIGHTERS ASSOC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5781,36.775</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>HILTON FIRE DEPT RT 709</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.655</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4647</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HILTON FIRE DEPT RT 709</value>
+ </Data>
+ <Data name="height">
+   <value>24</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>398.253112</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY FIREFIGHTERS ASSOC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4647,36.655</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>11826 NICKELSVILLE HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7517</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.414999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11826 NICKELSVILLE HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>19.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>589.024597</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY FIRE FIGHTERS ASSOC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.414999,36.7517</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>18759 VETERANS HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8286</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4658</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>18759 VETERANS HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>402.56784</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY FIRE FIGHTERS ASSOC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4658,36.8286</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>1326 INDUSTRIAL PARK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7261</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8011</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1326 INDUSTRIAL PARK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>411.920379</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY FIRE FIGHTERS ASSOC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8011,36.7261</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>149 ROLAND STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.627</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5522</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>149 ROLAND STREET</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>399.221862</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY FIRE FIGHTERS ASSOC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5522,36.627</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>140 BISHOP STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6386</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5736</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>140 BISHOP STREET</value>
+ </Data>
+ <Data name="height">
+   <value>11.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>405.538635</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY FIRE FIGHTERS ASSOC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5736,36.6386</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>1306 TOWER DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6425</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1306 TOWER DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>793.464294</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY FIRE FIGHTERS ASSOC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5414,36.6425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>HILTONS NR RT 23</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7556</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5136</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HILTONS NR RT 23</value>
+ </Data>
+ <Data name="height">
+   <value>37</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>643.704345</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECLER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5136,36.7556</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>ATOP POWELL MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.675</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8836</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POWELL MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>455.671447</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BLANKENBECLER, STEVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8836,36.675</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>Clinchport Site STATE ROAD 629</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6417</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7439</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Clinchport Site STATE ROAD 629</value>
+ </Data>
+ <Data name="height">
+   <value>86.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>482.316528</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7439,36.6417</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>Gate City II Site Hwy 58 - Atop Clinch Mountain</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6422</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Gate City II Site Hwy 58 - Atop Clinch Mountain</value>
+ </Data>
+ <Data name="height">
+   <value>47.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>791.813232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5414,36.6422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>Gate City II Site Hwy 58 top of Clinch Mtn</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6422</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5414</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Gate City II Site Hwy 58 top of Clinch Mtn</value>
+ </Data>
+ <Data name="height">
+   <value>47.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>791.813232</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Wireless Tennessee Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5414,36.6422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>County Road 873</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7053</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7814</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>County Road 873</value>
+ </Data>
+ <Data name="height">
+   <value>85.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>569.421875</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Wireless Tennessee Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7814,36.7053</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>ATOP CLINCH MOUNTAIN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6425</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5414</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP CLINCH MOUNTAIN</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>793.464294</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Verizon Wireless Tennessee Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5414,36.6425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>Fort Blackmore  0.68 mi  SSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7658</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5822</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fort Blackmore  0.68 mi  SSE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>381.989929</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5822,36.7658</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>Stoney Creek  1.3 mi WNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7925</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5911</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Stoney Creek  1.3 mi WNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>406.949249</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5911,36.7925</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>Big Moccasin Crk  1.57 mi  ESE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.5983</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5528</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Big Moccasin Crk  1.57 mi  ESE</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>450.209655</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5528,36.5983</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>Natural Tunnel  2.7 mi  E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7125</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7425</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Natural Tunnel  2.7 mi  E</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>562.961669</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7425,36.7125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>Gate City  2.19 mi  NNW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6083</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.568</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Gate City  2.19 mi  NNW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>365.849517</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.568,36.6083</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.649699</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7475</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>382.153594</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7475,36.649699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7311</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.763</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>461.591796</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.763,36.7311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6322</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6386</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>427.283203</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN RAILWAY COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6386,36.6322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>0.46 MI E OF INT OF SR 614 &amp; SR 776</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6253</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7283</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.46 MI E OF INT OF SR 614 &amp; SR 776</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>421.750793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7283,36.6253</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>0.43 MI N OF SR662 XING RR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7436</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6222</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.43 MI N OF SR662 XING RR</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>384.953277</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6222,36.7436</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>0.85 MI W OF SR 636 XING RR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6242</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7019</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.85 MI W OF SR 636 XING RR</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>427.004364</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7019,36.6242</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>25M N OF SR632 XING RR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7436</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6222</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>25M N OF SR632 XING RR</value>
+ </Data>
+ <Data name="height">
+   <value>15.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>384.953277</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6222,36.7436</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>Scott County 911 Center,  239 Nenaa St, Gate City</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6422</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5717</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Scott County 911 Center,  239 Nenaa St, Gate City</value>
+ </Data>
+ <Data name="height">
+   <value>9.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>425.094421</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5717,36.6422</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>178 KANE ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6389</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5769</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>178 KANE ST</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>397.914489</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>O REILLY AUTOMOTIVE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5769,36.6389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>WASTEWATER TREAMENT PLANT SR T-1003</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.8239</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4675</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WASTEWATER TREAMENT PLANT SR T-1003</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>395.342254</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF DUNGANNON</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4675,36.8239</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>SOUTH OF SR 65 NORTH OF THE RAILROAD TRACKS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.815</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4967</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SOUTH OF SR 65 NORTH OF THE RAILROAD TRACKS</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>394.941436</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF DUNGANNON</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4967,36.815</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>INT OF RD 644 @ CSX RR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6739</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7425</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT OF RD 644 @ CSX RR</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>415.685394</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7425,36.6739</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>668 LANDFILL LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7394</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5219</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>668 LANDFILL LANE</value>
+ </Data>
+ <Data name="height">
+   <value>53.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>661.287231</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5219,36.7394</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>185 PANORAMIC LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.71</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8764</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>185 PANORAMIC LANE</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>738.326721</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY VA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8764,36.71</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>668 LANDFILL LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7394</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5219</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>668 LANDFILL LANE</value>
+ </Data>
+ <Data name="height">
+   <value>53.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>661.287231</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT CO LIFESAVING &amp; FIRST AID CREW INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5219,36.7394</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>669 LANDFILL LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7394</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5219</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>669 LANDFILL LANE</value>
+ </Data>
+ <Data name="height">
+   <value>53.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>661.287231</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY FIREFIGHTERS ASSOC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5219,36.7394</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>185 PANORAMIC LANE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.71</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8764</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>185 PANORAMIC LANE</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>738.326721</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY FIREFIGHTERS ASSOC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8764,36.71</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.71</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.7997</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>401.705078</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TEMPUR PRODUCTION USA, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.7997,36.71</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>OFF OF SR 619</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6389</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5572</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF OF SR 619</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>391.749359</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5572,36.6389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>NORTH OF SR 735 &amp; RIDGE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6311</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5558</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NORTH OF SR 735 &amp; RIDGE RD</value>
+ </Data>
+ <Data name="height">
+   <value>12.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>441.890747</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5558,36.6311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>WEST OF THE SR614 &amp; SR896 JUNCTION</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6425</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.497999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WEST OF THE SR614 &amp; SR896 JUNCTION</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>392.549011</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.497999,36.6425</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>NORTH OF SR614</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6708</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.4247</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NORTH OF SR614</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>485.684387</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT COUNTY PUBLIC SERVICE AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.4247,36.6708</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>Detector, RR MP 35.2T</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6322</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6386</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detector, RR MP 35.2T</value>
+ </Data>
+ <Data name="height">
+   <value>3.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>427.283203</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6386,36.6322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>SS 609 &amp; CSX RR TRACKS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7081</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6478</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SS 609 &amp; CSX RR TRACKS</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>389.971771</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6478,36.7081</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>100 MTRS EAST OF SR65@ SR662 XING</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.737</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.6222</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>100 MTRS EAST OF SR65@ SR662 XING</value>
+ </Data>
+ <Data name="height">
+   <value>4.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>384.890686</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.6222,36.737</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.6408</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.5719</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>432.173614</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SCOTT, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.5719,36.6408</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>ATOP POWEL MOUNTAIN, U.S. HIGHWAY 58, 4 MILES WEST OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Scott County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.7103</value>
+ </Data>
+ <Data name="lng">
+   <value>-82.8747</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ATOP POWEL MOUNTAIN, U.S. HIGHWAY 58, 4 MILES WEST OF</value>
+ </Data>
+ <Data name="height">
+   <value>9.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>722.291198</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AFTON COMMUNICATIONS CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-82.8747,36.7103</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

@@ -1,0 +1,2579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>569 North Boston Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9421</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2954</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>569 North Boston Road</value>
+ </Data>
+ <Data name="height">
+   <value>38.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>120.776962</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers II LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2954,37.9421</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>18956 James Madison Highway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9365</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2458</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>18956 James Madison Highway</value>
+ </Data>
+ <Data name="height">
+   <value>38.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>138.652374</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers II LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2458,37.9365</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>7021 James Madison Hwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7836</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2372</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7021 James Madison Hwy</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.030471</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Central States Tower II, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2372,37.7836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>.3 MI S OF SR 656 1.3 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7094</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2733</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.3 MI S OF SR 656 1.3 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>99.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.962013</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2733,37.7094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Off SR 6, 2.4 miles East of</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7921</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4458</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off SR 6, 2.4 miles East of</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>143.431793</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>National Communication Towers, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4458,37.7921</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>ROCKFISH CREEK - OFF SR 6, VIRGINIA BYWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7963</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3761</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROCKFISH CREEK - OFF SR 6, VIRGINIA BYWAY</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>136.593887</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL COMMUNICATION TOWERS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3761,37.7963</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>Thomas Jefferson Parkway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8968</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.329</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Thomas Jefferson Parkway</value>
+ </Data>
+ <Data name="height">
+   <value>36.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.000366</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>United States Cellular Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.329,37.8968</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>11045 Bridgeport Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7911</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3264</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11045 Bridgeport Rd</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>117.789031</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Solite LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3264,37.7911</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>563 Wilmington Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8311</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1867</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>563 Wilmington Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>36.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>118.009819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Fluvanna County Public Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1867,37.8311</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>479 Cunningham Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8008</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3508</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>479 Cunningham Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>41</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>155.145233</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Fluvanna County Public Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3508,37.8008</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>3395 Central Plains Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8236</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2747</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3395 Central Plains Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>48.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>129.09671</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Fluvanna County Public Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2747,37.8236</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>1 MILE W OF INTERSECTION OF SR 652 &amp; 15</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7911</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3264</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MILE W OF INTERSECTION OF SR 652 &amp; 15</value>
+ </Data>
+ <Data name="height">
+   <value>31</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>117.789031</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOLITE, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3264,37.7911</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8678</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3811</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>123.092681</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tenaska Virginia Partners</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3811,37.8678</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>2300 Branch Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8678</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3811</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2300 Branch Rd</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>123.092681</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tenaska Virginia Partners</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3811,37.8678</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>2300 Branch Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8678</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3811</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2300 Branch Rd</value>
+ </Data>
+ <Data name="height">
+   <value>29</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>123.092681</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tenaska Virginia Partners</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3811,37.8678</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9125</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3417</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.85527</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Lake Monticello Owners Association Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3417,37.9125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>397 Jefferson Drive west</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9125</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3417</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>397 Jefferson Drive west</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.85527</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Lake Monticello Owners Association Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3417,37.9125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9125</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3417</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.85527</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Lake Monticello Owners Association Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3417,37.9125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>397 Jefferson Dr W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9125</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3417</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>397 Jefferson Dr W</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.85527</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Lake Monticello Owners Association Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3417,37.9125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>457 JEFFERSON DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8611</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2633</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>457 JEFFERSON DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>91.932128</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LAKE DAIRY QUEEN</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2633,37.8611</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>FLUVANNA CORRECTIONAL CENTER RT 250 5KM W OF ZIONS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9831</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2683</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FLUVANNA CORRECTIONAL CENTER RT 250 5KM W OF ZIONS</value>
+ </Data>
+ <Data name="height">
+   <value>53</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>137.71492</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2683,37.9831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>ROUTE 250 W ZION CROSS ROADS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9831</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2683</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 250 W ZION CROSS ROADS</value>
+ </Data>
+ <Data name="height">
+   <value>53</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>137.71492</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2683,37.9831</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>200 FT E OF JOHN H COCKE MEMORIAL BRIDGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7133</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2956</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>200 FT E OF JOHN H COCKE MEMORIAL BRIDGE</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.52108</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2956,37.7133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>.3 MI S ST RT 656 1.3 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7092</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2733</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.3 MI S ST RT 656 1.3 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>99</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>112.368034</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2733,37.7092</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>.3 MI S OF SR 656 1.3 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7094</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2733</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.3 MI S OF SR 656 1.3 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>99.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.962013</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2733,37.7094</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>.3 MI S OF SR 656 1.3 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7092</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2733</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.3 MI S OF SR 656 1.3 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>100</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>112.368034</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2733,37.7092</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>US RT 15 .65 KM SSW INT RT 616</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9186</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2553</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 15 .65 KM SSW INT RT 616</value>
+ </Data>
+ <Data name="height">
+   <value>33</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.840774</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CENTRAL VIRGINIA ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2553,37.9186</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8367</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4239</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.676757</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Transcontinental Gas Pipe Line Co., LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4239,37.8367</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9253</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.356099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>119.91925</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DAIRY QUEEN #19441</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.356099,37.9253</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>RTS 15 &amp; 615 CARYSBROOK</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8156</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.236699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RTS 15 &amp; 615 CARYSBROOK</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>80.335197</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THOMASVILLE FURNITURE INDUSTRIES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.236699,37.8156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>.3 MI S OF SR 656 1.3 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7092</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2733</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.3 MI S OF SR 656 1.3 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>100</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>112.368034</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2733,37.7092</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>CSXT YD OFC</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7508</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1611</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CSXT YD OFC</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>63.545528</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1611,37.7508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>S LAWN &amp; PROSPECT STS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7508</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1611</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>S LAWN &amp; PROSPECT STS</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>63.545528</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1611,37.7508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>CSXT DEPOT &amp; ST PATRICK ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7508</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1611</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CSXT DEPOT &amp; ST PATRICK ST</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>63.545528</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1611,37.7508</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>RT 15 AND 615</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8156</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.236699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 15 AND 615</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>80.335197</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>THOMASVILLE FURNITURE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.236699,37.8156</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>FIUVANNA CC RT 250 W ZION CROSS RDS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9844</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2692</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FIUVANNA CC RT 250 W ZION CROSS RDS</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.240615</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2692,37.9844</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>FLUVANNACC RT 250 5 KM W ZION CROSSRD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9844</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2692</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FLUVANNACC RT 250 5 KM W ZION CROSSRD</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.240615</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2692,37.9844</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>US 15 3.5 KM S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.83</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2794</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 15 3.5 KM S</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>110.403198</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2794,37.83</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>SCHOOL US RT 15 .9 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8736</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2617</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SCHOOL US RT 15 .9 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>109.560447</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>UNIVERSITY OF VIRGINIA MEDICAL CENTER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2617,37.8736</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8667</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2664</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>81.192169</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LAKE MONTICELLO VOLUNTEER FIRE DEPARTMENT AND RESCUE SQUAD INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2664,37.8667</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>1 MILE NORTH OF PALMYRA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8747</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2619</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MILE NORTH OF PALMYRA</value>
+ </Data>
+ <Data name="height">
+   <value>53.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>109.938591</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FLUVANNA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2619,37.8747</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>FORK UNION SHOPPING CENTER, SUITE 1</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7575</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.267799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORK UNION SHOPPING CENTER, SUITE 1</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>116.020515</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.267799,37.7575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>PALMYRA SCH ON VA RT 15 .9 MI N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8736</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2617</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PALMYRA SCH ON VA RT 15 .9 MI N</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>109.560447</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FLUVANNA, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2617,37.8736</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>LAKE MONTICELLO SITE:3.25 MILES SW OF UNION MILLS, ROUTE 168</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9314</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.3458</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>LAKE MONTICELLO SITE:3.25 MILES SW OF UNION MILLS, ROUTE 168</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>121.996696</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.3458,37.9314</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>1 MILE NORTH OF PALMYRA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8747</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2619</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MILE NORTH OF PALMYRA</value>
+ </Data>
+ <Data name="height">
+   <value>53.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>109.938591</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2619,37.8747</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>PALMYRA II CELL SITE # 30</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8128</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2878</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>PALMYRA II CELL SITE # 30</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>144.462829</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2878,37.8128</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>WILDWOOD CELL SITE: RT 15 &amp; SOUTH OF RT 616</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9186</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2553</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WILDWOOD CELL SITE: RT 15 &amp; SOUTH OF RT 616</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>128.840774</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Alltel Communications, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2553,37.9186</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>COMPRESSOR STATION 175</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8367</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.424199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>COMPRESSOR STATION 175</value>
+ </Data>
+ <Data name="height">
+   <value>47.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>138.615371</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Transcontinental Gas Pipe Line Co., LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.424199,37.8367</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>3717 Central Plains Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8238</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2748</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3717 Central Plains Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>44.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>130.941162</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2748,37.8238</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>3440 Central Plains Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8231</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.278</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3440 Central Plains Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>10.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>130.892959</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.278,37.8231</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>479 Cunningham Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8009</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.351099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>479 Cunningham Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>36.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>153.159347</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.351099,37.8009</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>563 Wilmington Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8312</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1867</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>563 Wilmington Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>118.654144</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1867,37.8312</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>9172 James Madison Hwy.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8139</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.243699</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9172 James Madison Hwy.</value>
+ </Data>
+ <Data name="height">
+   <value>32</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>97.28849</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.243699,37.8139</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>14455 James Madison Hwy.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8741</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2617</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14455 James Madison Hwy.</value>
+ </Data>
+ <Data name="height">
+   <value>44.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>111.183761</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Conterra Ultra Broadband, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2617,37.8741</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9033</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.311199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>123.169639</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Aqua Utilities, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.311199,37.9033</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>1 MILE NORTH OF PALMYRA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8747</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2619</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1 MILE NORTH OF PALMYRA</value>
+ </Data>
+ <Data name="height">
+   <value>53.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>109.938591</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>USCOC OF VIRGINIA RSA #3, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2619,37.8747</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>1.3 MI E OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7093</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2733</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.3 MI E OF</value>
+ </Data>
+ <Data name="height">
+   <value>99.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>110.309761</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2733,37.7093</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>1575 BEALS LANE @ 5.5KM SE OF SR20 XING RR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7614</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.4597</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1575 BEALS LANE @ 5.5KM SE OF SR20 XING RR</value>
+ </Data>
+ <Data name="height">
+   <value>3.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>81.236045</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.4597,37.7614</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>Palmyra  0.25 mi SSW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8575</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.2661</value>
+ </Data>
+ <Data name="structure_type">
+   <value>PIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Palmyra  0.25 mi SSW</value>
+ </Data>
+ <Data name="height">
+   <value>5.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.036117</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.2661,37.8575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>1918 Thomas Jefferson Parkway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8689</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.295</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1918 Thomas Jefferson Parkway</value>
+ </Data>
+ <Data name="height">
+   <value>18.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>119.546066</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Fluvanna County Public Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.295,37.8689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>1918 THOMAS JEFFERSON PARKWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Fluvanna County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8722</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.300499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1918 THOMAS JEFFERSON PARKWAY</value>
+ </Data>
+ <Data name="height">
+   <value>25</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>105.995056</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>FLUVANNA COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.300499,37.8722</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

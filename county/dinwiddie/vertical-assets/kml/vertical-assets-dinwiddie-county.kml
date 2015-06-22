@@ -1,0 +1,6149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>hwy 692, south of I-85</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9613</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7127</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>hwy 692, south of I-85</value>
+ </Data>
+ <Data name="height">
+   <value>100.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>76.01654</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Mid Atlantic Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7127,36.9613</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>6501 COX RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1411</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7922</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6501 COX RD</value>
+ </Data>
+ <Data name="height">
+   <value>86.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.358238</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7922,37.1411</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>4020 Whitmore Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0453</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8264</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4020 Whitmore Road</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>94.182037</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8264,37.0453</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>INT ST RT 604 &amp; 677</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1575</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4144</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RT 604 &amp; 677</value>
+ </Data>
+ <Data name="height">
+   <value>114</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>52.961387</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4144,37.1575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Dinwiddie County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1195</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8689</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="height">
+   <value>48.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>121.871696</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Properties, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8689,37.1195</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>RT 1 BOX 158</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0307</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.620299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 1 BOX 158</value>
+ </Data>
+ <Data name="height">
+   <value>86.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>88.79821</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.620299,37.0307</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>ROUT 628</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1496</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5972</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUT 628</value>
+ </Data>
+ <Data name="height">
+   <value>86.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>75.864509</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5972,37.1496</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>0.15 mi South of Hwy 450</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2153</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4458</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.15 mi South of Hwy 450</value>
+ </Data>
+ <Data name="height">
+   <value>48.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.837841</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Monarch Towers II, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4458,37.2153</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>18407 Boydton Plank Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.016</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6702</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>18407 Boydton Plank Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.709007</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tower Assets Newco VIII, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6702,37.016</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>US HWY 1 .4 MI E INT 85 &amp; HWY 703</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.083599</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5683</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US HWY 1 .4 MI E INT 85 &amp; HWY 703</value>
+ </Data>
+ <Data name="height">
+   <value>70.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.195861</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5683,37.083599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>5100 Cox Rd. (VA14163-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1465</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8164</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5100 Cox Rd. (VA14163-A)</value>
+ </Data>
+ <Data name="height">
+   <value>59.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>104.489372</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8164,37.1465</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>22808 Dabney Mill Road (196418128 Burgess)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1452</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5101</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>22808 Dabney Mill Road (196418128 Burgess)</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>56.057304</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Cellular Partnership d/b/a Alltel</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5101,37.1452</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>RT 627 CHURCH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1931</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.653</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 627 CHURCH RD</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>73.365798</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Cellular Partnership d/b/a Alltel</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.653,37.1931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>25410 WEAKLY ROAD (Airport 100001343)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1927</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4633</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>25410 WEAKLY ROAD (Airport 100001343)</value>
+ </Data>
+ <Data name="height">
+   <value>54.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.806423</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Cellular Partnership d/b/a Alltel</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4633,37.1927</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>20730 Carsonard</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0756</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5441</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>20730 Carsonard</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.277992</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Cellular Partnership d/b/a Alltel</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5441,37.0756</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>ON VA ST RT 605 1.1 MI S OF REAMS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.088</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4079</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON VA ST RT 605 1.1 MI S OF REAMS</value>
+ </Data>
+ <Data name="height">
+   <value>121.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.813896</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4079,37.088</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>ON SR 605 1.2 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0854</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.406099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON SR 605 1.2 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>67.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.353321</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.406099,37.0854</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>10613  QUAKER ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1298</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5271</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10613  QUAKER ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>67.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.912155</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5271,37.1298</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>5923 Boydton Road        (310431)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1893</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4736</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5923 Boydton Road        (310431)</value>
+ </Data>
+ <Data name="height">
+   <value>51.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.513397</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SpectraSite Communications, LLC. through American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4736,37.1893</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>23308 COX ROAD (094330)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1966</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5062</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23308 COX ROAD (094330)</value>
+ </Data>
+ <Data name="height">
+   <value>42.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>58.03757</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5062,37.1966</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>7407 Boydton Plank Rd. (094334)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1678</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.502099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>7407 Boydton Plank Rd. (094334)</value>
+ </Data>
+ <Data name="height">
+   <value>42.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>57.770305</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.502099,37.1678</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>12300 Quaker Road (015843)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1075</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5354</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>12300 Quaker Road (015843)</value>
+ </Data>
+ <Data name="height">
+   <value>76.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>57.502777</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5354,37.1075</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>ROUTE 40    (088294 )</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9444</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6202</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 40    (088294 )</value>
+ </Data>
+ <Data name="height">
+   <value>99</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>102.316535</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6202,36.9444</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>2705' S OF INT RT 664 &amp; RT 40 W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0495</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.810799</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2705' S OF INT RT 664 &amp; RT 40 W</value>
+ </Data>
+ <Data name="height">
+   <value>99</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>113.875747</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Subcarrier Communications, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.810799,37.0495</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>RR RoW @ MP N88.22, west of int of SR-226 and RR crossing</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.196799</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5097</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR RoW @ MP N88.22, west of int of SR-226 and RR crossing</value>
+ </Data>
+ <Data name="height">
+   <value>12.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>55.726497</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5097,37.196799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>ON CR 751, .4 MI E OF INT. OF CR 716 AND CR 751</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1647</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.68</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON CR 751, .4 MI E OF INT. OF CR 716 AND CR 751</value>
+ </Data>
+ <Data name="height">
+   <value>92</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>97.774833</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NORFOLK SOUTHERN CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.68,37.1647</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>18626 Lundy Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0643</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.585099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>18626 Lundy Road</value>
+ </Data>
+ <Data name="height">
+   <value>64.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>59.637748</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STC Two LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.585099,37.0643</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>4904 STATION ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2028</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5856</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4904 STATION ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>83.8656</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STC Two LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5856,37.2028</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>Route 609</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9444</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6202</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 609</value>
+ </Data>
+ <Data name="height">
+   <value>128</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>102.316535</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Positive Alternative Radio, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6202,36.9444</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>21017 Mckenny Hwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9427</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5419</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>21017 Mckenny Hwy</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>52.15084</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Properties</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5419,36.9427</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>20307 Unico Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9913</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7089</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>20307 Unico Road</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>91.129585</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Properties</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7089,36.9913</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Dinwiddie County</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0883</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5778</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="height">
+   <value>50.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>79.7294</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5778,37.0883</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1983</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5217</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.46363</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TINDALL CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5217,37.1983</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>INT ST RT 604 &amp; 677</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1575</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4144</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RT 604 &amp; 677</value>
+ </Data>
+ <Data name="height">
+   <value>117</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>52.961387</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF FORESTRY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4144,37.1575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>26317 W WASHINGTON</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2089</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.447199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>26317 W WASHINGTON</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.771236</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.447199,37.2089</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>23301 AIRPORT RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1822</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5022</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23301 AIRPORT RD.</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>57.572002</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ROCKY MOUNTAIN HOLDINGS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5022,37.1822</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>26317 WEST WASHINGTON STREET</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2186</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.447499</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>26317 WEST WASHINGTON STREET</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>33.52423</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.447499,37.2186</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1767</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4575</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.625743</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Gerdau Ameristeel/Petersburg</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4575,37.1767</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>6887 CHURCH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1767</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4575</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6887 CHURCH RD</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.625743</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Gerdau Ameristeel/Petersburg</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4575,37.1767</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>2103 EXETER MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2464</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6236</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2103 EXETER MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>78.757629</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DAVIS, ALTON</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6236,37.2464</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0344</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.395</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.787857</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HERBERT PHILLINGANE AND SON CO.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.395,37.0344</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1572</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4142</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>53.073829</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4142,37.1572</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>US Hwy 1.4 mi E Int 85 &amp; Hwy 703</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0839</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5686</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US Hwy 1.4 mi E Int 85 &amp; Hwy 703</value>
+ </Data>
+ <Data name="height">
+   <value>10.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>76.200958</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5686,37.0839</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0736</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.522499</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.934211</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MANHERZ, DANIEL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.522499,37.0736</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>US HWY 1 .4 MI E INT 85 &amp; HWY 703</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.083599</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5683</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US HWY 1 .4 MI E INT 85 &amp; HWY 703</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.195861</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5683,37.083599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>OLD HICKORY CONCENTRATOR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9206</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.568899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OLD HICKORY CONCENTRATOR</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.164337</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ILUKA RESOURCES, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.568899,36.9206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>US HWY 1 .4 MI E INT 85 &amp; HWY 703</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.083599</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5683</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US HWY 1 .4 MI E INT 85 &amp; HWY 703</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.195861</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5683,37.083599</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>18407 BOYDTON PLANK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0158</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.67</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>18407 BOYDTON PLANK RD</value>
+ </Data>
+ <Data name="height">
+   <value>80.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.451866</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.67,37.0158</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>10936 WHEELERS POND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1228</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.624199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10936 WHEELERS POND RD</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>75.836952</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.624199,37.1228</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>13516 BOYDTON PLANK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0858</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5797</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13516 BOYDTON PLANK RD</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>79.337448</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5797,37.0858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0858</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5797</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>79.337448</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5797,37.0858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>18407 BOYDTON PLANK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0158</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.67</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>18407 BOYDTON PLANK RD</value>
+ </Data>
+ <Data name="height">
+   <value>80.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.451866</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.67,37.0158</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>10936 WHEELERS POND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1228</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.624199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10936 WHEELERS POND RD</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>75.836952</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.624199,37.1228</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>13516 BOYDTON PLANK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0858</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5797</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13516 BOYDTON PLANK RD</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>79.337448</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5797,37.0858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>18404 BOLSTER ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9178</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5883</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>18404 BOLSTER ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>27.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>88.027465</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ILUKA RESOURCES INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5883,36.9178</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1853</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5119</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>56.182353</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Massaponax Building Components</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5119,37.1853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>8737 Jefferson Davis Hwy</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1853</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5119</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8737 Jefferson Davis Hwy</value>
+ </Data>
+ <Data name="height">
+   <value>38.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>56.182353</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Massaponax Building Components</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5119,37.1853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>RT754 RR crossing at MP N94.94</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1881</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6208</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT754 RR crossing at MP N94.94</value>
+ </Data>
+ <Data name="height">
+   <value>3.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>87.65995</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6208,37.1881</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>25801 HOFHEIMER WAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1947</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4661</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>25801 HOFHEIMER WAY</value>
+ </Data>
+ <Data name="height">
+   <value>21</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>47.590229</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TXI CHAPARRAL STEEL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4661,37.1947</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>20620 BASKERVILLE MILL RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9764</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7703</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>20620 BASKERVILLE MILL RD.</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>60.08184</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>C. F. BASKERVILLE &amp; SON INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7703,36.9764</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.92</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5686</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>71.156547</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Iluka Resources Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5686,36.92</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>16534 WALKERS MILL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.92</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5686</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>16534 WALKERS MILL RD</value>
+ </Data>
+ <Data name="height">
+   <value>24.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>71.156547</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Iluka Resources Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5686,36.92</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>8737 JEFFERSON DAVIS HIGHWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1853</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5119</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8737 JEFFERSON DAVIS HIGHWAY</value>
+ </Data>
+ <Data name="height">
+   <value>38.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>56.182353</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MASSAPONAX BUILDING COMPONENTS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5119,37.1853</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>19315 COURTHOUSE RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0017</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5794</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>19315 COURTHOUSE RD.</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>76.667289</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BARNES, WAYNE C</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5794,37.0017</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1836</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.483099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>54.644279</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PAMPLIN HISTORICAL PARK</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.483099,37.1836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>6523 DUNCAN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1836</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.483099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPIPE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6523 DUNCAN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>19.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>54.644279</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PAMPLIN HISTORICAL PARK</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.483099,37.1836</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>14230 SYCAMORE DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0769</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14230 SYCAMORE DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>58</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>79.518516</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5875,37.0769</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>5400 OLGERS RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1983</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5217</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5400 OLGERS RD</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.46363</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TINDALL CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5217,37.1983</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>975 M S OF HALIFAX RD SR 604 WEST SIDE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1392</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4133</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>975 M S OF HALIFAX RD SR 604 WEST SIDE</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.451416</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4133,37.1392</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>640 M N OF HALIFAX RD SR 604 E SIDE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1536</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4156</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>640 M N OF HALIFAX RD SR 604 E SIDE</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>52.148654</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4156,37.1536</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>Detector, RR MP N 104.4</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1467</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7803</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detector, RR MP N 104.4</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>105.213607</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7803,37.1467</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>Detector, RR MP N 89</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1958</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5219</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Detector, RR MP N 89</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.875762</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5219,37.1958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>.75 MI FROM US 460 &amp; ST RT 611</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1647</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.68</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.75 MI FROM US 460 &amp; ST RT 611</value>
+ </Data>
+ <Data name="height">
+   <value>91</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>97.774833</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.68,37.1647</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>RR MILEPOST A 33.7</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0819</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4028</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR MILEPOST A 33.7</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.656352</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4028,37.0819</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>21300 CHESDIN RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2119</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5178</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>21300 CHESDIN RD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>52.532714</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>APPOMATTOX RIVER WATER AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5178,37.2119</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>INT ST RT 605 AND SEABOARD COASTLINE RR CROSSING APPROX 1.2 MI S OF RE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0878</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4056</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RT 605 AND SEABOARD COASTLINE RR CROSSING APPROX 1.2 MI S OF RE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.354</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4056,37.0878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>INT SR 605 &amp; SEABOARD COASTLINE RR CROSSING APPROX 1.2 MI S OF REAMS</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0878</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4056</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT SR 605 &amp; SEABOARD COASTLINE RR CROSSING APPROX 1.2 MI S OF REAMS</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.354</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4056,37.0878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>4.5 MI NW</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2325</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6347</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4.5 MI NW</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>81.584281</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>WATKINS, MAXWELL W</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6347,37.2325</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>CORNER RIVES &amp; FIRST ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9875</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7217</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CORNER RIVES &amp; FIRST ST</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>94.044769</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>D W LYLE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7217,36.9875</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>HWY 85 &amp; 40 10 MI E 1 MI N 1/8 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9597</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.574399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HWY 85 &amp; 40 10 MI E 1 MI N 1/8 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.821685</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BAIN, WILLIAM B</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.574399,36.9597</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>RT 1 HWY 617</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9233</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.554199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 1 HWY 617</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>58.472023</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CLARKE JR, R C</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.554199,36.9233</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>5155 CHUDOBA PARKWAY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1031</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5889</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5155 CHUDOBA PARKWAY</value>
+ </Data>
+ <Data name="height">
+   <value>26</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.951217</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Perdue Farms, Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5889,37.1031</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>11608 COURTHOUSE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1117</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5867</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>11608 COURTHOUSE RD</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.774887</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5867,37.1117</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>12318 BOYDTON PLANK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1028</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5631</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>12318 BOYDTON PLANK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>74.099159</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5631,37.1028</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>1.1 MI S OF REAMS ON VA SR 605</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0878</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4056</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1.1 MI S OF REAMS ON VA SR 605</value>
+ </Data>
+ <Data name="height">
+   <value>122</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.354</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4056,37.0878</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.125</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.583</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>75.450798</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE COUNTY SCHOOL BOARD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.583,37.125</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>23010 CARSON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0706</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.539699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>23010 CARSON RD</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>58.407058</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHAPPELL, EARL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.539699,37.0706</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>21500 COX RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1933</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5369</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>21500 COX RD</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>69.836212</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Wal-Mart Stores East, LP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5369,37.1933</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>21500 COX RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1917</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5358</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>21500 COX RD</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.209274</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Wal-Mart Stores East, LP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5358,37.1917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>21500 COX RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1917</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5358</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>21500 COX RD</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.209274</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Wal-Mart Stores East, LP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5358,37.1917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>3/8 MI S OF US RT 1 ON RT 619</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0819</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.58</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3/8 MI S OF US RT 1 ON RT 619</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>81.624763</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>B T HARGRAVE COMPANY INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.58,37.0819</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>BOLSTER STORE, INT. 619 &amp; 617</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9175</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6189</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BOLSTER STORE, INT. 619 &amp; 617</value>
+ </Data>
+ <Data name="height">
+   <value>44.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>80.213302</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BARNES, MIKE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6189,36.9175</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>INT OF RT 604 AND 677</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1572</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4142</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT OF RT 604 AND 677</value>
+ </Data>
+ <Data name="height">
+   <value>117</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>53.073829</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA DEPARTMENT OF STATE POLICE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4142,37.1572</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>DINWIDDIE CU RT 460 24 KM W PETERSBURG</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1736</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6692</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DINWIDDIE CU RT 460 24 KM W PETERSBURG</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>94.833068</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6692,37.1736</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>8312 HALIFAX RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1572</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4142</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8312 HALIFAX RD</value>
+ </Data>
+ <Data name="height">
+   <value>117</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>53.073829</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4142,37.1572</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>13209 COURTHOUSE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.08</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5844</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13209 COURTHOUSE RD</value>
+ </Data>
+ <Data name="height">
+   <value>9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>83.108032</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5844,37.08</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>SR 751 3 KM SW OF SR627</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1689</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6711</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 751 3 KM SW OF SR627</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>90.76387</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6711,37.1689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>SOUTHSIDE VIRGINIA TRAINING CTR 26317 W WASHINGTON ST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.205</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4536</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SOUTHSIDE VIRGINIA TRAINING CTR 26317 W WASHINGTON ST</value>
+ </Data>
+ <Data name="height">
+   <value>30</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.955249</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4536,37.205</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>DINWIDDIE COURTHOUSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0789</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5842</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DINWIDDIE COURTHOUSE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.049163</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5842,37.0789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>US RT 1 1/2 MI N OF RT 650</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0419</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.639999</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US RT 1 1/2 MI N OF RT 650</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>91.090049</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.639999,37.0419</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0833</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.583</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>84.202499</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.583,37.0833</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>14230 SYCAMORE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0789</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5842</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14230 SYCAMORE DR</value>
+ </Data>
+ <Data name="height">
+   <value>58</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.049163</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE COUNTY WATER AUTHORITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5842,37.0789</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>REDFORD 10TH AVE CENTRAL STATE HOSPITAL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2078</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4505</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>REDFORD 10TH AVE CENTRAL STATE HOSPITAL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.501293</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4505,37.2078</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>HIRAM W DAVIS MEDICAL CTR 7TH AVE CENTRAL STATE HOSPITAL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.205</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4536</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>HIRAM W DAVIS MEDICAL CTR 7TH AVE CENTRAL STATE HOSPITAL</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.955249</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4536,37.205</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>END OF ST RT 653</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0811</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.549199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>END OF ST RT 653</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.955688</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.549199,37.0811</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>RT 40 2 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9644</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.705299</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 40 2 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>79.572463</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.705299,36.9644</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>2201 GOODWIN NECK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2086</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.453899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2201 GOODWIN NECK RD</value>
+ </Data>
+ <Data name="height">
+   <value>35</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.529636</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMOCO YORKTOWN REFINERY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.453899,37.2086</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>POOL SIDING TRK1 EB &amp; TRK2 WB AEI's near RR MP N 098.55</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1656</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.68</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>POOL SIDING TRK1 EB &amp; TRK2 WB AEI's near RR MP N 098.55</value>
+ </Data>
+ <Data name="height">
+   <value>3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>97.457756</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.68,37.1656</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>597 FT S OF ELLINGTON RD XING CSXT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0817</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4025</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>597 FT S OF ELLINGTON RD XING CSXT</value>
+ </Data>
+ <Data name="height">
+   <value>2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>43.763893</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4025,37.0817</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>3 MI S OF I460</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1061</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.72</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3 MI S OF I460</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>85.941986</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.72,37.1061</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>6501 COX RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1411</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7919</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6501 COX RD</value>
+ </Data>
+ <Data name="height">
+   <value>89</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.474746</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7919,37.1411</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>ROUT 628</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1494</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5972</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUT 628</value>
+ </Data>
+ <Data name="height">
+   <value>89</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>76.310539</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5972,37.1494</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>Route 1, Box 158, Route 650</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0306</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6205</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Route 1, Box 158, Route 650</value>
+ </Data>
+ <Data name="height">
+   <value>91</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>89.351837</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6205,37.0306</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>6501 COX RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1411</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7919</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6501 COX RD</value>
+ </Data>
+ <Data name="height">
+   <value>89</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.474746</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Cellular Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7919,37.1411</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>SUTHERLAND CELL SITE: SR 627 AND CHUCH ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1931</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.653</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SUTHERLAND CELL SITE: SR 627 AND CHUCH ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>73.365798</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Cellular Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.653,37.1931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>From intersection of US 1 &amp; Route 40, travel north on US 1 for 3.5 mil</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0158</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6703</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>From intersection of US 1 &amp; Route 40, travel north on US 1 for 3.5 mil</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.463935</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Cellular Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6703,37.0158</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>AIRPORT CELL SITE - 25410 WEAKLY ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1925</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4631</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>AIRPORT CELL SITE - 25410 WEAKLY ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.935546</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Cellular Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4631,37.1925</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>INT ST RT 604 &amp; 677</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1575</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4144</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RT 604 &amp; 677</value>
+ </Data>
+ <Data name="height">
+   <value>117</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>52.961387</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4144,37.1575</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>18425 BOYDTON PLANK RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.016</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6702</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>18425 BOYDTON PLANK RD</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.709007</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY OF DINWIDDIE, VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6702,37.016</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>14006 Boydton Plank Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0796</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5856</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>14006 Boydton Plank Road</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>82.323028</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY OF DINWIDDIE, VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5856,37.0796</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>10936 WHEELERS POND RD, INSIDE MAIN GATE TO LANDFILL</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1219</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6233</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10936 WHEELERS POND RD, INSIDE MAIN GATE TO LANDFILL</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>75.323417</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY OF DINWIDDIE, VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6233,37.1219</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>13526 BOYDTON PLANK RD, BEHIND DINWIDDIE FIRE STATION #1</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0864</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5798</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13526 BOYDTON PLANK RD, BEHIND DINWIDDIE FIRE STATION #1</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>80.395553</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COUNTY OF DINWIDDIE, VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5798,37.0864</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1754</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4705</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>49.700244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4705,37.1754</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark123">
+ <name>W OF US HWY 1 0.4 MI E OF INT OF HWY 85 &amp; HWY 703</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0835</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5683</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>W OF US HWY 1 0.4 MI E OF INT OF HWY 85 &amp; HWY 703</value>
+ </Data>
+ <Data name="height">
+   <value>72.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.133842</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5683,37.0835</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark124">
+ <name>US HWY 1 .4 MI E INT 85 &amp; HWY 703</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0835</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5683</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US HWY 1 .4 MI E INT 85 &amp; HWY 703</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.133842</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SOUTHSIDE ELECTRIC COOPERATIVE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5683,37.0835</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark125">
+ <name>1200' SE FROM I/S OF RTS 703 &amp; 660</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0754</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5444</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1200' SE FROM I/S OF RTS 703 &amp; 660</value>
+ </Data>
+ <Data name="height">
+   <value>82.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.673439</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Cellular Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5444,37.0754</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark126">
+ <name>RT 627 CHURCH RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1931</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.652899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 627 CHURCH RD</value>
+ </Data>
+ <Data name="height">
+   <value>96</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>73.134788</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Cellular Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.652899,37.1931</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark127">
+ <name>Rt. 1 Box 158 .6 Mi E of I-85 on S Side of Rt 650</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0308</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.620299</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Rt. 1 Box 158 .6 Mi E of I-85 on S Side of Rt 650</value>
+ </Data>
+ <Data name="height">
+   <value>90.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>88.52288</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.620299,37.0308</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark128">
+ <name>ON SR 605 1.2 MI S</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0854</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.406099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ON SR 605 1.2 MI S</value>
+ </Data>
+ <Data name="height">
+   <value>73.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>45.353321</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.406099,37.0854</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark129">
+ <name>0.75 MI FROM THE INT US RT 460 &amp; ST RT 611</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1647</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.68</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>0.75 MI FROM THE INT US RT 460 &amp; ST RT 611</value>
+ </Data>
+ <Data name="height">
+   <value>93.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>97.774833</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.68,37.1647</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark130">
+ <name>8312 HALIFAX RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.157399</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4144</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8312 HALIFAX RD</value>
+ </Data>
+ <Data name="height">
+   <value>114.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>52.968444</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of State Police</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4144,37.157399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark131">
+ <name>FORT PICKETT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>36.9897</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7136</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>FORT PICKETT</value>
+ </Data>
+ <Data name="height">
+   <value>35</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>91.151512</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DRS C3 &amp; Aviation Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7136,36.9897</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark132">
+ <name>1131 JOHNSON ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1606</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4003</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1131 JOHNSON ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>54.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>47.44234</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RICHARD BLAND COLLEGE</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4003,37.1606</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark133">
+ <name>13516 BOYDTON PLANK ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0858</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5797</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>13516 BOYDTON PLANK ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>79.337448</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5797,37.0858</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark134">
+ <name>10936 WHEELERS POND ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1228</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.624199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10936 WHEELERS POND ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>54.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>75.836952</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.624199,37.1228</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark135">
+ <name>18407 BOYDTON PLANK RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.0158</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.67</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>18407 BOYDTON PLANK RD.</value>
+ </Data>
+ <Data name="height">
+   <value>80.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.451866</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.67,37.0158</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark136">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1917</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5358</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.209274</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Wal-Mart Stores East, LP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5358,37.1917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark137">
+ <name>6000 R B PAMPLIN DRIVE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1889</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5444</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6000 R B PAMPLIN DRIVE</value>
+ </Data>
+ <Data name="height">
+   <value>8.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.285301</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5444,37.1889</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark138">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1917</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.5358</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.209274</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Wal-Mart Stores East, LP</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.5358,37.1917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark139">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2128</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4817</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.202518</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Petersburg Public Schools</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4817,37.2128</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark140">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1647</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.68</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>97.774833</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Norfolk Southern Railway Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.68,37.1647</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark141">
+ <name>BUILDING 111, H-SHAPED BLDG APPROX 50 METERS N OF INT OF 7TH &amp; ALBERMA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.207499</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4531</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>BUILDING 111, H-SHAPED BLDG APPROX 50 METERS N OF INT OF 7TH &amp; ALBERMA</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.892024</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4531,37.207499</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark142">
+ <name>26317 WEST WASHINGTON ST, SVTC CAMPUS AREA - NEAR TO WESTMORLAND B</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2069</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4511</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>26317 WEST WASHINGTON ST, SVTC CAMPUS AREA - NEAR TO WESTMORLAND B</value>
+ </Data>
+ <Data name="height">
+   <value>22</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>46.479934</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4511,37.2069</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark143">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.2106</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6164</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>74.334732</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>PROPELLER DYNAMICS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6164,37.2106</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark144">
+ <name>25410 WEAKLY ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1925</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.4631</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>25410 WEAKLY ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>59.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.935546</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>DINWIDDIE, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.4631,37.1925</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark145">
+ <name>8 MILES EAST OF</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Dinwiddie County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.1195</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8683</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8 MILES EAST OF</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>121.368415</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ComSoft Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Paging (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8683,37.1195</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

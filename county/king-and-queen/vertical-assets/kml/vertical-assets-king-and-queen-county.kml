@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>State Road 608, Clancie Road, Off of Schoolhouse Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5634</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7124</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Road 608, Clancie Road, Off of Schoolhouse Road</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.081342</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7124,37.5634</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>Middle Peninsula Regional Airport</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5243</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.764</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Middle Peninsula Regional Airport</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.066521</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ITT Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.764,37.5243</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>RT 634</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7958</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0585</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 634</value>
+ </Data>
+ <Data name="height">
+   <value>91.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>58.055526</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBC TOWER HOLDINGS LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0585,37.7958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>452 Walnut Springs Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8218</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0505</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>452 Walnut Springs Rd</value>
+ </Data>
+ <Data name="height">
+   <value>86.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.848617</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0505,37.8218</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>E ON RT 614 5 MI E OF CITY OF KING &amp; QUEEN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6688</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.781899</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>E ON RT 614 5 MI E OF CITY OF KING &amp; QUEEN</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>39.900123</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.781899,37.6688</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>9100 Newtown Road   (273498)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9059</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1152</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9100 Newtown Road   (273498)</value>
+ </Data>
+ <Data name="height">
+   <value>91.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>49.358261</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1152,37.9059</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>216 Allens Cir #A (273457)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.670099</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8792</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>216 Allens Cir #A (273457)</value>
+ </Data>
+ <Data name="height">
+   <value>91.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.622572</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8792,37.670099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>King and Queen county</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7915</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0006</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>King and Queen county</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>38.424835</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>STC Two LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0006,37.7915</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>MIDDLE PENINSULA REGIONAL AIRPORT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5212</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7647</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MIDDLE PENINSULA REGIONAL AIRPORT</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.045617</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>TOWN OF WEST POINT</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7647,37.5212</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>3431 Owens Mill Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.868299</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0586</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3431 Owens Mill Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>85.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>53.182628</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tower Assets Newco X, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0586,37.868299</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>1500 King St</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8058</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0556</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1500 King St</value>
+ </Data>
+ <Data name="height">
+   <value>18</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>59.360816</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Railway Express</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0556,37.8058</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>1536 INTERNATIONAL DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5233</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7628</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1536 INTERNATIONAL DR</value>
+ </Data>
+ <Data name="height">
+   <value>7.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.907597</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>G4S INTERNATIONAL TRAINING, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7628,37.5233</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>8299 NEWTOWN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9003</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.113</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>8299 NEWTOWN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>42.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>52.360309</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JAMES M FOGG INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.113,37.9003</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5233</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7628</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.907597</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>G4S INTERNATIONAL TRAINING, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7628,37.5233</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5344</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7689</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>2.710999</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>West Point Chips</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7689,37.5344</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>MIDDLE PENINSULA REGIONAL AIRPORT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5211</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7644</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>MIDDLE PENINSULA REGIONAL AIRPORT</value>
+ </Data>
+ <Data name="height">
+   <value>10</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>3.035389</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Middle Peinsula Regional Airport Authority</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7644,37.5211</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>E ON RT 614 5 MI E OF CITY OF KING &amp; QUEEN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6689</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.781899</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>E ON RT 614 5 MI E OF CITY OF KING &amp; QUEEN</value>
+ </Data>
+ <Data name="height">
+   <value>97.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.385993</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.781899,37.6689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>E ON RT 614 5 MI E OF CTY OF KING &amp; QUEEN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6686</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7817</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>E ON RT 614 5 MI E OF CTY OF KING &amp; QUEEN</value>
+ </Data>
+ <Data name="height">
+   <value>93</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>37.991928</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA ELECTRIC AND POWER COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7817,37.6686</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>INT ST RTS 14 &amp; 655 100 YDS S ON 655 CTHSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6697</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8783</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>INT ST RTS 14 &amp; 655 100 YDS S ON 655 CTHSE</value>
+ </Data>
+ <Data name="height">
+   <value>58</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>5.673249</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Sheriff's Office of King &amp; Queen Co.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8783,37.6697</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>DEPT OF FORESTRY OFC RT 200 1 MI E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7103</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8272</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DEPT OF FORESTRY OFC RT 200 1 MI E</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.193901</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8272,37.7103</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>ALLENS CIRCLE (273457)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.67</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8792</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ALLENS CIRCLE (273457)</value>
+ </Data>
+ <Data name="height">
+   <value>93.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.661499</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KING AND QUEEN COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8792,37.67</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>RT 608 1.5 KM E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5522</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7155</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 608 1.5 KM E</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.078653</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7155,37.5522</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>RT 14 1.75 MI SE OF INT WITH RT 634</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7903</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0333</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 14 1.75 MI SE OF INT WITH RT 634</value>
+ </Data>
+ <Data name="height">
+   <value>16</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>53.937992</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0333,37.7903</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>State Road 608, Clancie Road, Off of Schoolhouse Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5634</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7124</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>State Road 608, Clancie Road, Off of Schoolhouse Road</value>
+ </Data>
+ <Data name="height">
+   <value>77.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.081342</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7124,37.5634</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>RT 634</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7958</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0585</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 634</value>
+ </Data>
+ <Data name="height">
+   <value>95.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>58.055526</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0585,37.7958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>Allens Circle (273457)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.670099</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8792</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Allens Circle (273457)</value>
+ </Data>
+ <Data name="height">
+   <value>93.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.622572</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8792,37.670099</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>9100 Newtown Road   (273498)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9059</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.1152</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9100 Newtown Road   (273498)</value>
+ </Data>
+ <Data name="height">
+   <value>94.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>49.358261</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.1152,37.9059</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>RT 634</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7958</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0585</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 634</value>
+ </Data>
+ <Data name="height">
+   <value>95.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>58.055526</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>New Cingular Wireless PCS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0585,37.7958</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>.45 MI E OF 1.4 MI N OF THE INT OF US 360 &amp; SR 7</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8218</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0505</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.45 MI E OF 1.4 MI N OF THE INT OF US 360 &amp; SR 7</value>
+ </Data>
+ <Data name="height">
+   <value>91.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>51.848617</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0505,37.8218</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>STATE ROAD 608, CLANCIE ROAD, OFF OF SCHOOLHOUSE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5633</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7122</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATE ROAD 608, CLANCIE ROAD, OFF OF SCHOOLHOUSE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>77.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.249298</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KING AND QUEEN COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7122,37.5633</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>RT 634</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7956</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0583</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 634</value>
+ </Data>
+ <Data name="height">
+   <value>95.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>57.383449</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KING AND QUEEN COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0583,37.7956</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>ALLENS CIRCLE (273457)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.67</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.8792</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ALLENS CIRCLE (273457)</value>
+ </Data>
+ <Data name="height">
+   <value>93.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>6.661499</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KING AND QUEEN COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.8792,37.67</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>9100 NEWTOWN ROAD   (273498)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9058</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.115</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9100 NEWTOWN ROAD   (273498)</value>
+ </Data>
+ <Data name="height">
+   <value>94.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>49.23122</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KING AND QUEEN COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.115,37.9058</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>9100 NEWTOWN ROAD   (273498)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.9058</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.115</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>9100 NEWTOWN ROAD   (273498)</value>
+ </Data>
+ <Data name="height">
+   <value>94.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>49.23122</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KING AND QUEEN COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.115,37.9058</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>RT 634</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7956</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.0583</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 634</value>
+ </Data>
+ <Data name="height">
+   <value>95.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>57.383449</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KING AND QUEEN COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.0583,37.7956</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>STATE ROAD 608, CLANCIE ROAD, OFF OF SCHOOLHOUSE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>King and Queen County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5633</value>
+ </Data>
+ <Data name="lng">
+   <value>-76.7122</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>STATE ROAD 608, CLANCIE ROAD, OFF OF SCHOOLHOUSE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>77.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>27.249298</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KING AND QUEEN COUNTY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-76.7122,37.5633</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>

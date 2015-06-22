@@ -1,0 +1,5183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+   <Style id="towerStyle">
+     <IconStyle id="towerIconStyle">
+       <Icon>
+         <href>http://www.ecorridors.vt.edu/maps/icons/towerIcon.png</href>
+       </Icon>
+     </IconStyle>
+     <BalloonStyle>
+       <text>
+         <![CDATA[<html><head></head><body><table width="438" border="0" cellpadding="1"><tr><td ><table width="100%" border="1" cellpadding="1"><tr bgcolor="#04397B"><td colspan="3" ><div align="center"><h2><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif">$[county] @ $[lat], $[lng]</font></h2> </div></td> </tr><tr bgcolor="#CCCCCC"><td width="28%" ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure type</strong></font></td>    <td width="31%" ><font face="Arial, Helvetica, sans-serif">$[structure_type]<br>    </font></td> </tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Name</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure address</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[structure_address]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Height above ground</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[height] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Base elevation</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[base_elevation] ft</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Zoning</strong></font></td> <td ><font face="Arial, Helvetica, sans-serif">$[zoning]<br> </font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>POP proximity</strong></font></td>    <td ><font face="Arial, Helvetica, sans-serif">$[pop_proximity] miles from $[nearest_pop]</font></td></tr><tr bgcolor="#CCCCCC"><td><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Land Owner</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[land_owner_name]</font></td></tr><tr bgcolor="#CCCCCC"><td ><font color="#660000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Structure Manager</strong></font></td><td ><font face="Arial, Helvetica, sans-serif">$[structure_manager_name]</font></td></tr></table></td></tr></table></body></html> ]]>
+      </text>
+     </BalloonStyle>
+   </Style>
+ <Placemark id="placemark0">
+ <name>RANDOLPH SCHOOL, 1552 SHEPPARD TOWN ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6861</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7944</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RANDOLPH SCHOOL, 1552 SHEPPARD TOWN ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.545089</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NATIONAL COMMUNICATION TOWERS, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7944,37.6861</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark1">
+ <name>Near Short Pump, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7058</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.672</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Near Short Pump, VA</value>
+ </Data>
+ <Data name="height">
+   <value>77.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>86.756805</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>4M Communications, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.672,37.7058</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark2">
+ <name>Near Short Pump, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7064</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6719</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Near Short Pump, VA</value>
+ </Data>
+ <Data name="height">
+   <value>76.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>89.42453</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>4M Communications, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6719,37.7064</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark3">
+ <name>Near Short Pump, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7056</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6727</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Near Short Pump, VA</value>
+ </Data>
+ <Data name="height">
+   <value>75.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>84.654327</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>4M Communications, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6727,37.7056</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark4">
+ <name>Near Short Pump, VA</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7061</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.672599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Near Short Pump, VA</value>
+ </Data>
+ <Data name="height">
+   <value>75.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>86.425354</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>4M Communications, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.672599,37.7061</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark5">
+ <name>Intersection of State Route 634/U.S. Route 250</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7493</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.860599</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Intersection of State Route 634/U.S. Route 250</value>
+ </Data>
+ <Data name="height">
+   <value>152</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>109.127319</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value></value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.860599,37.7493</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark6">
+ <name>3763 THREE CHOPT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8001</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3763 THREE CHOPT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>110.694839</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9275,37.8001</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark7">
+ <name>495 Boscobel Rd. (VA14118-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5992</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7116</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>495 Boscobel Rd. (VA14118-A)</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.510589</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7116,37.5992</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark8">
+ <name>1217 Hockett Rd.  (VA14115-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6403</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.668099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1217 Hockett Rd.  (VA14115-A)</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.721244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.668099,37.6403</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark9">
+ <name>2011 Bulldog Way (VA14104-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7057</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8929</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2011 Bulldog Way (VA14104-A)</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>91.106018</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8929,37.7057</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark10">
+ <name>REST AREA ONE MILE EAST OF OILVILLE ON I-64</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6994</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7478</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>REST AREA ONE MILE EAST OF OILVILLE ON I-64</value>
+ </Data>
+ <Data name="height">
+   <value>82.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>108.925598</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Richmond 20MHz, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7478,37.6994</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark11">
+ <name>N of  SR667 &amp; SR606 (VA14103-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7525</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0643</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N of  SR667 &amp; SR606 (VA14103-A)</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.807128</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0643,37.7525</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark12">
+ <name>1623 THREECHOPT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6661</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6525</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1623 THREECHOPT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.453819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN CASTLE GT COMPANY LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6525,37.6661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark13">
+ <name>2425 Good luck rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7502</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8461</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2425 Good luck rd</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>103.441764</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RCTC Wholesale Corporation d/b/a Alltel</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8461,37.7502</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark14">
+ <name>ROUTE 250 &amp; THREE CHOPT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7998</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ROUTE 250 &amp; THREE CHOPT</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>112.924331</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RCTC Wholesale Corporation d/b/a Alltel</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9275,37.7998</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark15">
+ <name>1990 Triplet Lane</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6987</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7642</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1990 Triplet Lane</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>118.571609</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RCTC Wholesale Corporation d/b/a Alltel</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7642,37.6987</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark16">
+ <name>4440 Old Fredericksburg Rd. (VA14120-A)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8461</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.981099</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4440 Old Fredericksburg Rd. (VA14120-A)</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>118.907188</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>SBA Towers III LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.981099,37.8461</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark17">
+ <name>Cabin Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8258</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9575</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Cabin Road</value>
+ </Data>
+ <Data name="height">
+   <value>57.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>90.790046</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9575,37.8258</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark18">
+ <name>5620 Three Chopt Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8895</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0386</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5620 Three Chopt Road</value>
+ </Data>
+ <Data name="height">
+   <value>61.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>139.314163</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CROWN COMMUNICATION LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0386,37.8895</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark19">
+ <name>US 250</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.689</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7458</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>US 250</value>
+ </Data>
+ <Data name="height">
+   <value>99.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>112.151947</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Global Tower, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7458,37.689</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark20">
+ <name>2501 Sandy Hook Rd (024827)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7378</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.891</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2501 Sandy Hook Rd (024827)</value>
+ </Data>
+ <Data name="height">
+   <value>52</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>96.376548</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.891,37.7378</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark21">
+ <name>1621 Three Chop Rd. (085571)</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6663</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6522</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1621 Three Chop Rd. (085571)</value>
+ </Data>
+ <Data name="height">
+   <value>60.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.106216</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>American Towers, LLC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6522,37.6663</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark22">
+ <name>2884 River Road West</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6779</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8822</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2884 River Road West</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>68.906082</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Hunter Communications Group, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8822,37.6779</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark23">
+ <name>OFF MAPLE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7587</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1517</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF MAPLE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>109.289451</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>National Communication Towers, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1517,37.7587</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark24">
+ <name>Off West River Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6317</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7954</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off West River Road</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>88.294448</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>National Communication Towers, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7954,37.6317</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark25">
+ <name>4400 Block of River Road West</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7259</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9834</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4400 Block of River Road West</value>
+ </Data>
+ <Data name="height">
+   <value>59.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>97.184143</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>National Communication Towers, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9834,37.7259</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark26">
+ <name>Off State Highway 250, 3 miles northwest of Sandy Hook</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7938</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.932199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off State Highway 250, 3 miles northwest of Sandy Hook</value>
+ </Data>
+ <Data name="height">
+   <value>151.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>97.776481</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Delmarva Educational Association</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.932199,37.7938</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark27">
+ <name>6285 Community House Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8218</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1077</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6285 Community House Road</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>140.505294</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Tower Assets Newco X, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1077,37.8218</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark28">
+ <name>.6 MI. N OF STATE RT. 6 ON STATE RT. 634</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6801</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.876399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.6 MI. N OF STATE RT. 6 ON STATE RT. 634</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.297744</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Goochland County Fire-Rescue Dept. Vol. Assoc., Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Antenna Structure Registration (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.876399,37.6801</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark29">
+ <name>Cartersville  0.1mi N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6711</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0853</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Cartersville  0.1mi N</value>
+ </Data>
+ <Data name="height">
+   <value>22.8</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>54.529701</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Emergency Management</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0853,37.6711</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark30">
+ <name>Fire Station 4 SSR 606</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.74</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0561</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fire Station 4 SSR 606</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>101.057106</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0561,37.74</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark31">
+ <name>Fire Station 6 U.S. Hwy 250</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8411</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9936</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fire Station 6 U.S. Hwy 250</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>121.083412</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9936,37.8411</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark32">
+ <name>Near Bourne Property SR 6</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7089</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9603</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Near Bourne Property SR 6</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.307678</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9603,37.7089</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark33">
+ <name>Old High School U.S. Hwy 522</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.695</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.887799</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Old High School U.S. Hwy 522</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>87.446571</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.887799,37.695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark34">
+ <name>Randolph Elementary School SSR 639</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.685</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7947</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Randolph Elementary School SSR 639</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>106.985252</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7947,37.685</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark35">
+ <name>Fire Station 1 State Hwy 6</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6017</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7008</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fire Station 1 State Hwy 6</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>87.621856</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7008,37.6017</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark36">
+ <name>Fire Station  3 U.S. Hwy 250</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6708</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.683</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fire Station  3 U.S. Hwy 250</value>
+ </Data>
+ <Data name="height">
+   <value>13</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>76.472274</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.683,37.6708</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark37">
+ <name>4228 SHANNON HILL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8275</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0997</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4228 SHANNON HILL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>142.127456</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>AMERICAN NATIONAL RED CROSS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0997,37.8275</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark38">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.612</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6664</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>63.34177</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HALLMARK YOUTHCARE - RICHMOND INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6664,37.612</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark39">
+ <name>.6 MI N OF ST RT 6 ON ST RT 634</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.68</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.876099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.6 MI N OF ST RT 6 ON ST RT 634</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.803474</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOOCHLAND, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.876099,37.68</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark40">
+ <name>NEAR ROUTE 6 &amp; 632, WEST OF THE GOOCHLAND COURTHOUSE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.695</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8819</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>NEAR ROUTE 6 &amp; 632, WEST OF THE GOOCHLAND COURTHOUSE</value>
+ </Data>
+ <Data name="height">
+   <value>10.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>76.057121</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8819,37.695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark41">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.605</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.739699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>44.911907</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Kanawha Club LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.739699,37.605</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark42">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6783</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1053</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>68.036468</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CLOVER FOREST, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1053,37.6783</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark43">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6192</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6978</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>84.370765</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Messer Landscape</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6978,37.6192</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark44">
+ <name>15010 CAPITAL ONE DR</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6297</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.675</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>15010 CAPITAL ONE DR</value>
+ </Data>
+ <Data name="height">
+   <value>18.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>55.754493</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CAPITAL ONE SERVICES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.675,37.6297</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark45">
+ <name>1248 HERMITAGE RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6525</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6967</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1248 HERMITAGE RD</value>
+ </Data>
+ <Data name="height">
+   <value>6.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>73.135223</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HERMITAGE COUNTRY CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6967,37.6525</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark46">
+ <name>3650 BEAUMONT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7675</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.915</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3650 BEAUMONT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>96.861846</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>JAMES RIVER JUVENILE DETENTION COMMISSION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.915,37.7675</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark47">
+ <name>RR DEPOT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6131</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7483</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR DEPOT</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.65715</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7483,37.6131</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark48">
+ <name>RR AND ST RT 600</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6267</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9797</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR AND ST RT 600</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>56.480831</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9797,37.6267</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark49">
+ <name>RR AND ST RT 45</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6742</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0847</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RR AND ST RT 45</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>59.061756</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0847,37.6742</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark50">
+ <name>CSX R O W AT MP154.4</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6672</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8839</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CSX R O W AT MP154.4</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.46075</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8839,37.6672</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark51">
+ <name>SR643  XING 145 FT E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6456</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0081</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR643  XING 145 FT E</value>
+ </Data>
+ <Data name="height">
+   <value>5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>55.441822</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX TRANSPORTATION INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0081,37.6456</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark52">
+ <name>N OF I64 .5 MI W OF JCT RT 654 &amp; FO92 AT END OF FO92</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7083</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7692</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>N OF I64 .5 MI W OF JCT RT 654 &amp; FO92 AT END OF FO92</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>111.155883</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Electric and Power Company</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7692,37.7083</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark53">
+ <name>2800 E OF RT 6 &amp; RT 650</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5978</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6289</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2800 E OF RT 6 &amp; RT 650</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>42.485137</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Goochland</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6289,37.5978</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark54">
+ <name>1000 W OF CTY LINE ON RT 6</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.605</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6753</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1000 W OF CTY LINE ON RT 6</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.319778</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>County of Goochland</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6753,37.605</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark55">
+ <name>RT 623 4 MI N OF I64</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7006</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6589</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 623 4 MI N OF I64</value>
+ </Data>
+ <Data name="height">
+   <value>46</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>85.879508</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>MEGA CONTRACTORS INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6589,37.7006</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark56">
+ <name>CT623 2 MI N RT 250</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7022</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6611</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CT623 2 MI N RT 250</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>86.457893</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUCK STONE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6611,37.7022</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark57">
+ <name>500 YDS W INT RT 621 &amp; RT 6</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5969</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7186</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>500 YDS W INT RT 621 &amp; RT 6</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>95.374061</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUCK STONE CORPORATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7186,37.5969</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark58">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.695</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.639699</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>68.086318</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VULCAN MATERIALS COMPANY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.639699,37.695</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark59">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6528</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>74.186332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HERMITAGE COUNTRY CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6964,37.6528</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark60">
+ <name>1248 HERMITAGE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6528</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6964</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1248 HERMITAGE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>74.186332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HERMITAGE COUNTRY CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6964,37.6528</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark61">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6528</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6964</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>74.186332</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HERMITAGE COUNTRY CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6964,37.6528</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark62">
+ <name>2871 RIVER RD WEST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6772</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8864</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2871 RIVER RD WEST</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>76.462944</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOOCHLAND COUNTY PUBLIC SCHOOLS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8864,37.6772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark63">
+ <name>WOMENS CORR CTR .8KM N OF RT 6</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6756</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8856</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WOMENS CORR CTR .8KM N OF RT 6</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>84.332496</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8856,37.6756</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark64">
+ <name>GOOCHLAND TANK - ST RT 6 N</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6778</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8856</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>GOOCHLAND TANK - ST RT 6 N</value>
+ </Data>
+ <Data name="height">
+   <value>34</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>85.732933</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8856,37.6778</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark65">
+ <name>WATER TREATMENT PLANT - .8KM NW ST RT 6 &amp; 310</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6486</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8347</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>WATER TREATMENT PLANT - .8KM NW ST RT 6 &amp; 310</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>83.314109</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8347,37.6486</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark66">
+ <name>I64 AND ST RT 617 INTERCHANGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7119</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7814</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>I64 AND ST RT 617 INTERCHANGE</value>
+ </Data>
+ <Data name="height">
+   <value>11</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>100.002418</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7814,37.7119</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark67">
+ <name>EASTBOUND REST AREA ON I64 3 KM E</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6994</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7475</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>EASTBOUND REST AREA ON I64 3 KM E</value>
+ </Data>
+ <Data name="height">
+   <value>84</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>107.494262</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7475,37.6994</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark68">
+ <name>SR 522 S OF I64</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7528</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9122</value>
+ </Data>
+ <Data name="structure_type">
+   <value>UPOLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>SR 522 S OF I64</value>
+ </Data>
+ <Data name="height">
+   <value>20</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>109.17913</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9122,37.7528</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark69">
+ <name>ADMINISTRATION BLDG CC FOR WOMEN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.675799</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8883</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ADMINISTRATION BLDG CC FOR WOMEN</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>83.497535</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8883,37.675799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark70">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.68</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.876399</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.051383</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOOCHLAND, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.876399,37.68</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark71">
+ <name>DIV OF FORESTRY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7047</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8892</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>DIV OF FORESTRY</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>92.54087</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Virginia Department of Forestry</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8892,37.7047</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark72">
+ <name>2871 RIVER ROAD W</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6772</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8864</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2871 RIVER ROAD W</value>
+ </Data>
+ <Data name="height">
+   <value>55</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>76.462944</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOOCHLAND, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8864,37.6772</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark73">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6103</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6486</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>40.864013</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6486,37.6103</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark74">
+ <name>J SARGEANT REYNOLDS COMMUNITY COLLEGE</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6928</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8825</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>J SARGEANT REYNOLDS COMMUNITY COLLEGE</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>72.961669</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8825,37.6928</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark75">
+ <name>CORRECTIONS TRAINING ACADEMY JAMES RIVER CORRECTIONAL FACILITY</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6322</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8189</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>CORRECTIONS TRAINING ACADEMY JAMES RIVER CORRECTIONAL FACILITY</value>
+ </Data>
+ <Data name="height">
+   <value>2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>52.957832</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8189,37.6322</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark76">
+ <name>ADMINISTRATION BLDG VA CC FOR WOMEN</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.675799</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8883</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>ADMINISTRATION BLDG VA CC FOR WOMEN</value>
+ </Data>
+ <Data name="height">
+   <value>27</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>83.497535</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8883,37.675799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark77">
+ <name>6 MI N OF ST RT 6 ON ST RT 634</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.68</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.876099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6 MI N OF ST RT 6 ON ST RT 634</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.803474</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOOCHLAND, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.876099,37.68</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark78">
+ <name>RT 629 1.4 MI E OF I64</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8419</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9569</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 629 1.4 MI E OF I64</value>
+ </Data>
+ <Data name="height">
+   <value>15</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>104.324813</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9569,37.8419</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark79">
+ <name>RT 617 1.5 MI N OF I64</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7181</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7717</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>RT 617 1.5 MI N OF I64</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>111.60733</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>VIRGINIA, COMMONWEALTH OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7717,37.7181</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark80">
+ <name>.6 MI N OF STATE RT 6 ON STATE RT 634</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.68</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.876099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>.6 MI N OF STATE RT 6 ON STATE RT 634</value>
+ </Data>
+ <Data name="height">
+   <value>76.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>77.803474</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOOCHLAND COUNTY VIRGINIA VFD</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.876099,37.68</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark81">
+ <name>1621 TREE CHOPT RD.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6661</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6522</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1621 TREE CHOPT RD.</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.472839</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6522,37.6661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark82">
+ <name>495 BOSCOBEL RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5992</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7117</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>495 BOSCOBEL RD</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.146354</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL COMMUNICATIONS OF THE MID-ATLANTIC, INC.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7117,37.5992</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark83">
+ <name>4440 OLD FREDERICKSBURG RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8458</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.981099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>4440 OLD FREDERICKSBURG RD</value>
+ </Data>
+ <Data name="height">
+   <value>52.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>119.924362</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>NEXTEL WIP LICENSE CORP.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Commercial (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.981099,37.8458</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark84">
+ <name>1601 STATE ROUTE 617</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7206</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.771399</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1601 STATE ROUTE 617</value>
+ </Data>
+ <Data name="height">
+   <value>60</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>106.737678</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.771399,37.7206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark85">
+ <name>1623 THREECHOPT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6661</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6525</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1623 THREECHOPT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.453819</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6525,37.6661</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark86">
+ <name>3763 THREE CHOPT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3763 THREE CHOPT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>111.68637</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9275,37.8</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark87">
+ <name>5145 Shannon Hill rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8775</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.0433</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>5145 Shannon Hill rd</value>
+ </Data>
+ <Data name="height">
+   <value>47.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>152.991821</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RCTC Wholesale Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.0433,37.8775</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark88">
+ <name>Gum Springs Site ROUTE 250 &amp; THREE CHOPT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7997</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Gum Springs Site ROUTE 250 &amp; THREE CHOPT</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>113.166313</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RCTC Wholesale Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Cellular (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9275,37.7997</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark89">
+ <name>Fairground Road</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.699</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8856</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Fairground Road</value>
+ </Data>
+ <Data name="height">
+   <value>45.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>86.009933</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8856,37.699</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark90">
+ <name>1621 Three Chopt Road     ( 085571 )</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6663</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6522</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1621 Three Chopt Road     ( 085571 )</value>
+ </Data>
+ <Data name="height">
+   <value>61.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.106216</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CLEARWIRE SPECTRUM HOLDINGS III, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6522,37.6663</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark91">
+ <name>6011 Pouncey Tract Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7039</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6324</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6011 Pouncey Tract Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>79.123268</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CLEARWIRE SPECTRUM HOLDINGS III, LLC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6324,37.7039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark92">
+ <name>Off State Highway 250, 3 miles northwest of Sandy Hook</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7938</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.932199</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Off State Highway 250, 3 miles northwest of Sandy Hook</value>
+ </Data>
+ <Data name="height">
+   <value>152.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>97.776481</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CHESTERFIELD, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.932199,37.7938</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark93">
+ <name>10 km W of Tuckahoe</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5917</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6697</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>10 km W of Tuckahoe</value>
+ </Data>
+ <Data name="height">
+   <value>35.1</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>79.624778</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6697,37.5917</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark94">
+ <name>495 BOSCOBEL ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5993</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7116</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>495 BOSCOBEL ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>60.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>68.115547</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7116,37.5993</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark95">
+ <name>1217 HOCKETT ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6403</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.668099</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1217 HOCKETT ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>66.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>66.721244</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.668099,37.6403</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark96">
+ <name>530 Hylton Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.595799</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.645</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>530 Hylton Rd</value>
+ </Data>
+ <Data name="height">
+   <value>50.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>60.260974</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.645,37.595799</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark97">
+ <name>Country Club Rd</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6077</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6875</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>Country Club Rd</value>
+ </Data>
+ <Data name="height">
+   <value>56.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>69.141128</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6875,37.6077</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark98">
+ <name>1621 Three Chopt Road     ( 085571 )</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6663</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6522</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1621 Three Chopt Road     ( 085571 )</value>
+ </Data>
+ <Data name="height">
+   <value>61.9</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.106216</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6522,37.6663</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark99">
+ <name>6011 Pouncey Tract Rd.</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7039</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6324</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>6011 Pouncey Tract Rd.</value>
+ </Data>
+ <Data name="height">
+   <value>60.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>79.123268</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Telecom Transport Management, Inc.</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6324,37.7039</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark100">
+ <name>565 CREELMORE ROAD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6833</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TANK</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>565 CREELMORE ROAD</value>
+ </Data>
+ <Data name="height">
+   <value>28.6</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>67.489616</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOOCHLAND COUNTY WATER</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6833,37.6</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark101">
+ <name>530 HYLTON RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5957</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.645</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>530 HYLTON RD</value>
+ </Data>
+ <Data name="height">
+   <value>60.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>60.260974</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.645,37.5957</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark102">
+ <name>600 FT S OF INT OF RTS 619 &amp; 700</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.8001</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9275</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>600 FT S OF INT OF RTS 619 &amp; 700</value>
+ </Data>
+ <Data name="height">
+   <value>60.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>110.694839</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9275,37.8001</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark103">
+ <name>1601 SR 617</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7206</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7715</value>
+ </Data>
+ <Data name="structure_type">
+   <value>MAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1601 SR 617</value>
+ </Data>
+ <Data name="height">
+   <value>60.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>105.772857</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Cellco Partnership</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7715,37.7206</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark104">
+ <name>1200' N US 250 1900' W RT 654 MANAKIN SABOT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6987</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7644</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>1200' N US 250 1900' W RT 654 MANAKIN SABOT</value>
+ </Data>
+ <Data name="height">
+   <value>80.2</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>118.544456</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RCTC Wholesale Corporation</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Microwave (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7644,37.6987</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark105">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6122</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6586</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>61.881027</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RICHMOND STRIKERS</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6586,37.6122</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark106">
+ <name>77</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5989</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6472</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>77</value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>64.278762</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>ENVIROSCAPE, INC</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6472,37.5989</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark107">
+ <name>12560 West Creek Parkway</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6083</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6481</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BMAST</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>12560 West Creek Parkway</value>
+ </Data>
+ <Data name="height">
+   <value>30.5</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>49.890476</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>Federal Reserve Bank of Richmond</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6481,37.6083</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark108">
+ <name>2300 ELK ISLAND RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7367</value>
+ </Data>
+ <Data name="lng">
+   <value>-78.1155</value>
+ </Data>
+ <Data name="structure_type">
+   <value>B</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2300 ELK ISLAND RD</value>
+ </Data>
+ <Data name="height">
+   <value>3.7</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>58.809604</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-78.1155,37.7367</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark109">
+ <name>OFF ROUTE 250</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.7936</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9319</value>
+ </Data>
+ <Data name="structure_type">
+   <value>TOWER</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>OFF ROUTE 250</value>
+ </Data>
+ <Data name="height">
+   <value>152.4</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>99.049873</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOOCHLAND, COUNTY OF</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9319,37.7936</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark110">
+ <name>3250 RIVER ROAD WEST</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6986</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9078</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>3250 RIVER ROAD WEST</value>
+ </Data>
+ <Data name="height">
+   <value>14</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>75.407188</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOOCHLAND COUNTY PUBLIC SCHOOLS DBA GOOCHLAND COUNTY HIGH SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9078,37.6986</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark111">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6986</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.9078</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>75.407188</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>GOOCHLAND COUNTY PUBLIC SCHOOLS DBA GOOCHLAND COUNTY HIGH SCHOOL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.9078,37.6986</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark112">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6467</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.832199</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>78.213401</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>COMMONWEALTH OF VIRGINIA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.832199,37.6467</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark113">
+ <name>2741 MAIDENS LOOP</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6683</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8858</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>2741 MAIDENS LOOP</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.337329</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8858,37.6683</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark114">
+ <name>805 SABOT STATION RD</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6133</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7486</value>
+ </Data>
+ <Data name="structure_type">
+   <value>POLE</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>805 SABOT STATION RD</value>
+ </Data>
+ <Data name="height">
+   <value>18.3</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>41.407871</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>CSX Transportation Inc</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7486,37.6133</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark115">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6847</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.8675</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>93.578125</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HEART OF VIRGINIA COUNCIL BSA</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.8675,37.6847</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark116">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6389</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6889</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>70.342826</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KINLOCH GOLF CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6889,37.6389</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark117">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5995</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6406</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>48.292839</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>BENCHMARK HOSPITALITY</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6406,37.5995</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark118">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.5825</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6239</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>52.721065</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>RANDOLPH SQUARE COMMUNITY ASSOCIATION</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6239,37.5825</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark119">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6339</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6792</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>65.839843</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>KINLOCH GOLF CLUB</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6792,37.6339</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark120">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6361</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6694</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>62.902126</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>West Creek Medical Center</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6694,37.6361</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark121">
+ <name>12720 TUCKAHOE CREEK COURT</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.636399</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.6722</value>
+ </Data>
+ <Data name="structure_type">
+   <value>BANT</value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value>12720 TUCKAHOE CREEK COURT</value>
+ </Data>
+ <Data name="height">
+   <value>12</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>63.92493</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>HENRICO DOCTORS' HOSPITAL</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.6722,37.636399</coordinates>
+ </Point>
+ </Placemark>
+ <Placemark id="placemark122">
+ <name>Vertical Asset</name>
+ <styleUrl>#towerStyle</styleUrl>
+ <ExtendedData>
+ <Data name="county">
+   <value>Goochland County</value>
+ </Data>
+ <Data name="lat">
+   <value>37.6006</value>
+ </Data>
+ <Data name="lng">
+   <value>-77.7289</value>
+ </Data>
+ <Data name="structure_type">
+   <value></value>
+ </Data>
+ <Data name="structure_name">
+   <value></value>
+ </Data>
+ <Data name="structure_address">
+   <value></value>
+ </Data>
+ <Data name="height">
+   <value>0</value>
+ </Data>
+ <Data name="base_elevation">
+   <value>69.724914</value>
+ </Data>
+ <Data name="structure_owner_name">
+   <value>LUCK COMPANIES</value>
+ </Data>
+ <Data name="structure_manager_name">
+   <value></value>
+ </Data>
+ <Data name="data_source">
+   <value>FCC: Land Mobile - Private (GIS)</value>
+ </Data>
+ </ExtendedData>
+ <Point>
+ <coordinates>-77.7289,37.6006</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
+</kml>
